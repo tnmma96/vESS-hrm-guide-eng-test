@@ -34,4 +34,4 @@ Sau đây là một số quy tắc cập nhật tài liệu hướng dẫn sử 
         index.md  # Trang chủ giới thiệu.
         viettelfamily-app         # Thư mục theo từng hệ thống phần mềm
             index.md              # Trang chủ giới thiệu chung về hệ thống
-            huong-dan-dat-com.md  # Hướng dẫn sử dụng theo từng module chức năng
+            huong-dan-dat-com.md  # Hướng dẫn sử dụng theo từng module chức năng 
