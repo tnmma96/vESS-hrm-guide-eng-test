@@ -2,39 +2,41 @@
 
 # 1      HƯỚNG DẪN SỬ DỤNG CÁC CHỨC NĂNG - QUẢN LÝ NHÂN SỰ
 
-## 1.1     Giới thiệu về phân hệ Quản lý nhân sự
+# 1.1     Giới thiệu về phân hệ Quản lý nhân sự
 
 Là nơi tập hợp tất cả dữ liệu nguồn nhân lực trong Công ty. Phân hệ quản lý nhân sự sẽ sử lý tổng thể việc quản lý số lượng nhân sự, thời gian làm việc, thông tin cá nhân, quá trình làm việc, vị trí công việc, phòng ban. Cung cấp bức tranh toàn cảnh về nguồn nhân lực. Hỗ trợ quản lý nhân sự hiệu quả.
 
 *[HÌnh ảnh]*
 
-## 1.2     Thiết lập và khai báo ban đầu
+# 1.2     Thiết lập và khai báo ban đầu
 
-#### ***1.2.1 Phòng/Ban***
+### 
+
+## ***1.2.1 Phòng/Ban***
 
 Là nơi quản lý khai báo danh mục phòng ban thuộc công ty, sử dụng để quản lý nhân viên theo từng phòng ban riêng biệt.
 
-#### ***1.2.2 Vị trí công việc*** 
+## ***1.2.2 Vị trí công việc*** 
 
 Là nơi tập hợp chức vụ của mọi người trong công ty. Vị trí công việc sẽ sử lý về việc quản lý phòng ban, số nhân viên hiện tại, nhân viên dự kiến, nhân viên được tuyển, trạng thái tuyển dụng.
 
-#### ***1.2.3 Tags***
+## ***1.2.3 Tags***
 
 Là nơi quản lý khai báo danh mục từ khóa nhân sự thuộc công ty, sử dụng để quản lý nhân viên theo từng từ khóa.
 
-#### ***1.2.4 Tài khoản nhân viên*** 
+## ***1.2.4 Tài khoản nhân viên*** 
 
 Là nơi thiết lập cấu hình cho các tài khoản nhân viên trên hệ thống. Tạo và phân quyền tài khoản nhân viên.
 
-#### ***1.2.5 Thông tin công ty***
+## ***1.2.5 Thông tin công ty***
 
 Là nơi thiết lập cấu hình công ty. Tạo mới và cập nhật các thông tin chung, giới thiệu công ty.
 
-#### ***1.2.6 Khung giờ làm việc của công ty***
+### ***1.2.6 Khung giờ làm việc của công ty***
 
 Là nơi thiết lập khung giờ làm việc mặc định của công ty. Thiết lập khung giờ làm việc mặc định của công ty bằng cách chọn khung giờ làm việc có sẵn, tùy chỉnh khung giờ làm việc có sẵn hoặc tạo khung giờ làm việc mới. Khung giờ làm việc được thiết lập sẽ được mặc định áp dụng cho nhân viên được tạo mới sau đó. Khung giờ làm việc này cũng có thể chỉnh sửa với từng nhân viên tại hồ sơ nhân viên sau khi tạo nhân viên mới.
 
-## 1.3     Các thuật ngữ và từ viết tắt
+# 1.3     Các thuật ngữ và từ viết tắt
 
 | **Thuật ngữ** | **Định nghĩa**  | **Ghi chú** |
 | :-----------: | :-------------: | :---------: |
