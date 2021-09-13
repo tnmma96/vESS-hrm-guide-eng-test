@@ -64,11 +64,13 @@ Một số thao tác với hình ảnh với Typora: [https://support.typora.io/
 
 ### Cấu hình phân vùng lưu trữ hình ảnh  đính kèm
 
-> **Với mỗi file .md, bắt buộc cấu hình phân vùng lưu trữ hình ảnh đính kèm tại folder trong phân hệ đó.**
+> **Cấu hình cho phép end user chỉ cần paste hoặc Drag & Drop 1 ảnh bất kỳ, Typora sẽ tự copy ảnh vào phân vùng lưu trữ & gắn path đến phân vùng đó.**
+>
+> **Với mỗi file .md, bắt buộc cấu hình phân vùng lưu trữ hình ảnh đính kèm tại folder trong phân hệ đó. **
 
-Chọn: Format → Image → When Insert Local Images → Copy Image File to Folder, chọn folder **images** của phân hệ đang thao tác (VD: hrm/images).
+Chọn: Format → Image → When Insert Local Images → Copy Image File to Folder, chọn folder **images** của phân hệ đang thao tác (VD: \ESS-System-Guide\docs\hrm\images).
 
-Sau khi chọn xong, trên đầu file .md có xuất hiện cấu hình sau là thành công
+Sau khi chọn xong, trên đầu file .md có xuất hiện cấu hình sau là thành công. 
 
 ```
 typora-copy-images-to: images
@@ -78,12 +80,12 @@ typora-copy-images-to: images
 
 > **Tất cả các đường dẫn hình ảnh đính kèm bắt buộc cấu hình ở dạng tương đối.**
 
-Chọn: Format` → `Image` → `Use Image Root Path, chọn folder của phân hệ thao tác (VD: hrm)
+Chọn: Format` → `Image` → `Use Image Root Path, chọn folder của phân hệ thao tác (VD: \ESS-System-Guide\docs\)
 
 Sau khi chọn xong, trên đầu file .md có xuất hiện cấu hình sau là thành công
 
 ```
-typora-root-url: ./
+typora-root-url: ..
 ```
 
 ### 

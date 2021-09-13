@@ -1,4 +1,4 @@
-# *Phòng/Ban*
+# Phòng/Ban
 
 Là nơi quản lý khai báo danh mục phòng ban trong công ty.
 
