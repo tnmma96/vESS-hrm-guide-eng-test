@@ -1,4 +1,5 @@
-site_name: Hướng dẫn sử dụng phần mềm
+site_name: Hướng dẫn sử dụng hệ thống vERP
+
 nav:
     - 'Trang chủ': 'index.md'
     - 'Viettel Family APP':
@@ -9,6 +10,18 @@ nav:
     - 'SSO':
         - 'Hướng dẫn đổi mật khẩu': 'sso/doi-mat-khau.md'
         - 'Hướng dẫn bât/tắt xác thực 2 bước (OTP)': 'sso/bat-tat-xac-thuc-2-buoc.md'
-    - 'HRM': 'hrm/HDSD_HRM.md'
+    - 'Nhân sự': 
+        - 'Giới thiệu về phân hệ Quản lý nhân sự': 'hrm/introduction.md'
+        - 'Thiết lập và khai báo ban đầu': 'hrm/initialization.md'
+        - 'Các thuật ngữ và từ viết tắt': 'hrm/abbreviations.md'
+        - 'Hướng dẫn sử dụng chức năng':
+            - 'Khai báo danh mục': 'hrm/master-datas.md'
+            - 'Tuyển dụng': 'hrm/recruitment.md'
+            - 'Nhân viên': 'hrm/employee.md'
+            # - 'Hợp đồng':
+            # - 'Yêu cầu chấm công':
+            # - 'Chấm công':
+            # - 'Tiền lương':
+        - 'Lịch sử phát triển sản phẩm': 'hrm/log-histories.md'
     - 'Release Notes': 'release-notes.md'
 theme: readthedocs

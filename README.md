@@ -27,11 +27,64 @@ Sau đây là một số quy tắc cập nhật tài liệu hướng dẫn sử 
 * `mkdocs build` - Build phục vụ deploy.
 * `mkdocs -h` - Print help message and exit.
 
-## Cấu trúc project
+## Cấu trúc project 
 
     mkdocs.yml    # File cấu hình.
     docs/
         index.md  # Trang chủ giới thiệu.
-        viettelfamily-app         # Thư mục theo từng hệ thống phần mềm
-            index.md              # Trang chủ giới thiệu chung về hệ thống
-            huong-dan-dat-com.md  # Hướng dẫn sử dụng theo từng module chức năng 
+        hrm       # Thư mục theo từng phân hệ (Nhân sự, Kế toán, SaaS Portal, Digital Workplace, Văn phòng...)
+            introduction.md             # Giới thiệu chung về phân hệ
+            initialization.md           # Thiết lập và khai báo ban đầu
+            abbreviations.md            # Thuật ngữ và từ viết tắt
+            master-datas.md             # Khai báo danh mục 
+            log-histories.md            # Lịch sử phát triển phân hệ
+            employee.md,recruitment.md  # Mô tả các module trong phân hệ
+            images/                     # Lưu trữ hình ảnh đính kèm
+
+## Cấu trúc Menu một phân hệ
+
+File cấu hình: mkdocs.yml
+
+    - 'Nhân sự': 
+            - 'Giới thiệu về phân hệ Quản lý nhân sự': 'hrm/introduction.md'
+            - 'Thiết lập và khai báo ban đầu': 'hrm/initialization.md'
+            - 'Các thuật ngữ và từ viết tắt': 'hrm/abbreviations.md'
+            - 'Hướng dẫn sử dụng chức năng':
+                - 'Khai báo danh mục': 'hrm/master-datas.md'
+                - 'Tuyển dụng': 'hrm/recruitment.md'
+                - 'Nhân viên': 'hrm/employee.md'
+           	- 'Lịch sử phát triển sản phẩm': 'hrm/log-histories.md'
+## 3. Sử dụng công cụ Typora 
+
+Trang chủ: [https://typora.io/](https://typora.io/)
+
+Hướng dẫn sử dụng Markdown cơ bản: [https://support.typora.io/Markdown-Reference/](https://support.typora.io/Markdown-Reference/)
+
+Một số thao tác với hình ảnh với Typora: [https://support.typora.io/Images/](https://support.typora.io/Images/)
+
+### Cấu hình phân vùng lưu trữ hình ảnh  đính kèm
+
+> **Với mỗi file .md, bắt buộc cấu hình phân vùng lưu trữ hình ảnh đính kèm tại folder trong phân hệ đó.**
+
+Chọn: Format → Image → When Insert Local Images → Copy Image File to Folder, chọn folder **images** của phân hệ đang thao tác (VD: hrm/images).
+
+Sau khi chọn xong, trên đầu file .md có xuất hiện cấu hình sau là thành công
+
+```
+typora-copy-images-to: images
+```
+
+### Cấu hình  đường dẫn tương đối hình ảnh đính kèm 
+
+> **Tất cả các đường dẫn hình ảnh đính kèm bắt buộc cấu hình ở dạng tương đối.**
+
+Chọn: Format` → `Image` → `Use Image Root Path, chọn folder của phân hệ thao tác (VD: hrm)
+
+Sau khi chọn xong, trên đầu file .md có xuất hiện cấu hình sau là thành công
+
+```
+typora-root-url: ./
+```
+
+### 
+
