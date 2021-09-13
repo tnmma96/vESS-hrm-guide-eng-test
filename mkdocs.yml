@@ -9,5 +9,6 @@ nav:
     - 'SSO':
         - 'Hướng dẫn đổi mật khẩu': 'sso/doi-mat-khau.md'
         - 'Hướng dẫn bât/tắt xác thực 2 bước (OTP)': 'sso/bat-tat-xac-thuc-2-buoc.md'
+    - 'HRM': 'hrm/HDSD_HRM.md'
     - 'Release Notes': 'release-notes.md'
 theme: readthedocs
