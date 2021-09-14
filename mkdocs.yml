@@ -15,5 +15,7 @@ nav:
             # - 'Chấm công':
             # - 'Tiền lương':
         - 'Lịch sử phát triển sản phẩm': 'hrm/log-histories.md'
+    
+    - 'Hướng dẫn sử dụng phần mềm SME tài chính': 'SME/HDSD_SME.md'
     - 'Release Notes': 'release-notes.md'
 theme: readthedocs
