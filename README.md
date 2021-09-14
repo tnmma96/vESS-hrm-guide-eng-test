@@ -62,31 +62,30 @@ Hướng dẫn sử dụng Markdown cơ bản: [https://support.typora.io/Markdo
 
 Một số thao tác với hình ảnh với Typora: [https://support.typora.io/Images/](https://support.typora.io/Images/)
 
-### Cấu hình phân vùng lưu trữ hình ảnh  đính kèm
+### Một số lưu ý
+
+1. Các đầu mục lớn phải đặt format Headings, bắt đầu từ h1 -> h6
+2. Các đầu mục lớn không cần đánh số chỉ mục như 1,1.1,... Chỉ phân cấp qua Headings. Recommend sử dụng tab **Outline** trên **Sidebar** của Typora để quản trị tốt hơn. 
+
+### Cấu hình upload  hình ảnh  đính kèm
 
 > **Cấu hình cho phép end user chỉ cần paste hoặc Drag & Drop 1 ảnh bất kỳ, Typora sẽ tự copy ảnh vào phân vùng lưu trữ & gắn path đến phân vùng đó.**
 >
-> **Với mỗi file .md, bắt buộc cấu hình phân vùng lưu trữ hình ảnh đính kèm tại folder trong phân hệ đó. **
+> **Tất cả các đường dẫn hình ảnh đính kèm bắt buộc cấu hình ở dạng tương đối (relative path).**
 
-Chọn: Format → Image → When Insert Local Images → Copy Image File to Folder, chọn folder **images** của phân hệ đang thao tác (VD: \ESS-System-Guide\docs\hrm\images).
+Chọn: Format → Image → When Insert Local Images → Global Image Settings.
 
-Sau khi chọn xong, trên đầu file .md có xuất hiện cấu hình sau là thành công. 
+Cấu hình như hình dưới.
 
-```
-typora-copy-images-to: images
-```
+![image-20210914093218818](images/image-20210914093218818.png)
 
-### Cấu hình  đường dẫn tương đối hình ảnh đính kèm 
+Sau khi cấu hình xong, test lại đường dẫn relative path như hình dưới là OK.
 
-> **Tất cả các đường dẫn hình ảnh đính kèm bắt buộc cấu hình ở dạng tương đối.**
+![image-20210914093759081](images/image-20210914093759081.png)
 
-Chọn: Format` → `Image` → `Use Image Root Path, chọn folder của phân hệ thao tác (VD: \ESS-System-Guide\docs\)
 
-Sau khi chọn xong, trên đầu file .md có xuất hiện cấu hình sau là thành công
-
-```
-typora-root-url: ..
-```
 
 ### 
+
+
 

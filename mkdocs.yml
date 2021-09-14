@@ -2,14 +2,6 @@ site_name: Hướng dẫn sử dụng hệ thống vERP
 
 nav:
     - 'Trang chủ': 'index.md'
-    - 'Viettel Family APP':
-        - 'Giới thiệu': 'viettelfamily-app/index.md'
-        - 'Cài đặt': 'viettelfamily-app/huong-dan-cai-dat.md'
-        - 'Hướng dẫn đặt cơm': 'viettelfamily-app/huong-dan-dat-com.md'
-        - 'Hướng dẫn đăng ký vào ra': 'viettelfamily-app/huong-dan-dang-ky-vao-ra.md'
-    - 'SSO':
-        - 'Hướng dẫn đổi mật khẩu': 'sso/doi-mat-khau.md'
-        - 'Hướng dẫn bât/tắt xác thực 2 bước (OTP)': 'sso/bat-tat-xac-thuc-2-buoc.md'
     - 'Nhân sự': 
         - 'Giới thiệu về phân hệ Quản lý nhân sự': 'hrm/introduction.md'
         - 'Thiết lập và khai báo ban đầu': 'hrm/initialization.md'

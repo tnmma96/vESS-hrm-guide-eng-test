@@ -9,7 +9,7 @@ Chức năng này cho phép người dùng khai báo vị trí công việc sử
 
 **Các bước thực hiện**
 
-1. Vào phân hệ **Cấu hình**, chọn **Vị trí công việc**, nhấn **Tạo* 
+1. Vào phân hệ **Cấu hình**, chọn **Vị trí công việc**, nhấn ***Tạo*** 
 
    ![image-20210914002226361](./images/image-20210914002226361.png)
 
