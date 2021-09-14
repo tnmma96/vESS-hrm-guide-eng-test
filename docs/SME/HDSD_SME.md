@@ -1,6 +1,6 @@
 
-#1	TỔNG QUAN HỆ THỐNG vESS
-##1.1	Giới thiệu tổng quan về hệ thống vESS
+# 1	TỔNG QUAN HỆ THỐNG vESS
+## 1.1	Giới thiệu tổng quan về hệ thống vESS
 <em>
 [Mô tả tổng quan về hệ thống vESS, giá trị mang lại]
 </em>
@@ -12,18 +12,18 @@ Những lợi ích hệ thống vESS mang lại cho Doanh nghiệp:
 - Hiệu quả chi phí
 - Khả năng mở rộng…
 
-##1.2	Mô hình tổng thể
+## 1.2	Mô hình tổng thể
 <em>
 [Hình chụp mô hình tổng thể]
 </em>
 
-##1.3	Giới thiệu tổng quan các phân hệ
+## 1.3	Giới thiệu tổng quan các phân hệ
 <em>
 [Mô tả khái quát chức năng, nhiệm vụ của các phân hệ trong hệ thống vESS]
 </em>
 
 Kế toán: Là phần mềm kế toán dành cho các doanh nghiệp vừa và nhỏ, đáp ứng được các chế độ kế toán doanh nghiệp …
-#2	ĐĂNG KÝ VÀ CÀI ĐẶT SỬ DỤNG HỆ THỐNG vESS
+# 2	ĐĂNG KÝ VÀ CÀI ĐẶT SỬ DỤNG HỆ THỐNG vESS
 <em>
 [Mô tả các bước đăng ký và cài đặt hệ thống vESS]
 </em>
@@ -34,8 +34,8 @@ Kế toán: Là phần mềm kế toán dành cho các doanh nghiệp vừa và 
 *  Hướng dẫn chấm dứt dịch vụ
 *  Hỗ trợ người dùng: Mô tả về các kênh chăm sóc khách hàng, giải đáp hỗ trợ nghiệp vụ/kỹ thuật <add được chat/bot>
 
-#3	HƯỚNG DẪN SỬ DỤNG CÁC CHỨC NĂNG  - KẾ TOÁN
-##3.1	Giới thiệu về phân hệ Kế toán
+# 3	HƯỚNG DẪN SỬ DỤNG CÁC CHỨC NĂNG  - KẾ TOÁN
+## 3.1	Giới thiệu về phân hệ Kế toán
 <em>
 [Giới thiệu chung về Phân hệ kế toán, đưa ra mô hình full]
 </em>
@@ -46,12 +46,12 @@ Là nơi tập hợp tất cả dữ liệu tài chính từ mọi bộ phận t
 
 ![](images/sdasd.png)
  
-##3.2	Thiết lập và khai báo ban đầu
+## 3.2	Thiết lập và khai báo ban đầu
 <em>
 [Mô tả các thiết lập cần có cho lần sử dụng đầu tiên để khởi tạo các thông tin về Chế độ kế toán, Cơ cấu tổ chức, Tài khoản]
 </em>
 
-##3.3	Các thuật ngữ và từ viết tắt
+## 3.3	Các thuật ngữ và từ viết tắt
 <em>
 [Diễn giải thuật ngữ và mô tả từ viết tắt]
 </em>
@@ -62,13 +62,13 @@ Là nơi tập hợp tất cả dữ liệu tài chính từ mọi bộ phận t
 		
 		
 
-##<em>3.4	Hướng dẫn sử dụng chức năng</em>
-###<em>3.4.1	Khai báo danh mục</em>
-####<em>3.4.1.1	Đơn vị, phòng ban</em>
-####<em>3.4.1.2	Tài khoản</em>
-####<em>3.4.1.3	Đối tượng</em>
-####<em>3.4.1.4	Danh mục khác </em>
-####<em>3.4.1.4.1	Nhóm chứng từ</em>
+## <em>3.4	Hướng dẫn sử dụng chức năng</em>
+### <em>3.4.1	Khai báo danh mục</em>
+#### <em>3.4.1.1	Đơn vị, phòng ban</em>
+#### <em>3.4.1.2	Tài khoản</em>
+#### <em>3.4.1.3	Đối tượng</em>
+#### <em>3.4.1.4	Danh mục khác </em>
+#### <em>3.4.1.4.1	Nhóm chứng từ</em>
 Chức năng này cho phép người dùng khai báo Nhóm chứng từ sử dụng trên hệ thống
 Các bước thực hiện
 1. Vào phân hệ <strong>Tổng hợp</strong>, chọn <strong> Nhóm chứng từ</strong>, nhấn <strong>Tạo </strong> (Hoặc vào theo chức năng tại phần Tìm kiếm)
@@ -92,21 +92,21 @@ Các bước thực hiện
 [Có thông tin Lưu ý gì khi thực hiện Chức năng phải ghi lại, tương tự phần Chức năng nghiệp vụ bên dưới]
 </em>
 
-###<em>3.4.2	Mua hàng</em>
-####<em>3.4.2.1	Quy trình nghiệp vụ</em>
+### <em>3.4.2	Mua hàng</em>
+#### <em>3.4.2.1	Quy trình nghiệp vụ</em>
 <em>
 [Mô tả nghiệp vụ tổng quát và quy trình thực hiện]
 </em>
 
 Quản lý toàn bộ quy trình Mua hàng: Từ yêu cầu gửi báo giá đến Đơn hàng, Hóa đơn mua hàng và Hóa đơn trả hàng
 
-#####Quy trình nghiệp vụ
+##### Quy trình nghiệp vụ
 <em>
 [Hình luồng quy trình nghiệp vụ của Module]
 </em>
 
  ![](images/Luong_quy_trinh.png)
-#####Các luồng quy trình
+##### Các luồng quy trình
 
 <em>
 [Liệt kê đầy đủ các luồng quy trình nghiệp vụ có trong phân hệ Mua hàng,, có link đến Phần Hướng dẫn chi tiết]
@@ -119,12 +119,12 @@ Quản lý toàn bộ quy trình Mua hàng: Từ yêu cầu gửi báo giá đ�
 *	Mua hàng trong nước về nhập kho. Chi tiết nghiệp vụ tại đây
 
 *	Mua hàng hóa nhập khẩu về nhập kho. Chi tiết nghiệp vụ tại đây
-####<em>3.4.2.2	Yêu cầu báo giá</em>
+#### <em>3.4.2.2	Yêu cầu báo giá</em>
 
 [Mô tả nghiệp vụ và video hướng dẫn sử dụng các luồng nghiệp vụ của chức năng]
 
-#####3.4.2.2.1	Mô tả nghiệp vụ
-#####Mô tả nghiệp vụ
+##### 3.4.2.2.1	Mô tả nghiệp vụ
+##### Mô tả nghiệp vụ
 <em>
 [Mô tả nghiệp vụ trong phần Chức năng]
 </em>
@@ -137,7 +137,7 @@ Khi đơn vị có nhu cầu mua hàng, lập yêu cầu mua hàng thì quy trì
 5. Ban giám đốc phê duyệt về kế hoạch mua hàng
 6. Bộ phận Mua hàng thực hiện Lập yêu cầu báo giá và gửi thông tin đến Nhà cung cấp
 
-#####Luồng chức năng chính
+##### Luồng chức năng chính
 <em>
 [Mô tả lần lượt các luồng tính năng chính trên Chức năng, nhưng không liệt kê theo hướng Tao, sửa, xóa mà Theo Nghiệp vụ chức năng trên Chức năng đang mô tả]
 </em>
@@ -145,12 +145,12 @@ Khi đơn vị có nhu cầu mua hàng, lập yêu cầu mua hàng thì quy trì
 * Lập yêu cầu báo giá gửi Nhà cung cấp. Chi tiết nghiệp vụ tại đây
 
 *	Xác nhận Đơn hàng từ Nhà cung cấp. Chi tiết nghiệp vụ tại đây
-#####Xem video hướng dẫn
+##### Xem video hướng dẫn
 <em>
 [Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]
 </em>
 
-#####<em>3.4.2.2.2	Lập yêu cầu báo giá gửi Nhà cung cấp
+##### <em>3.4.2.2.2	Lập yêu cầu báo giá gửi Nhà cung cấp
 
 [Mô tả lần lượt các luồng tính năng chính trên Chức năng, nhưng không liệt kê theo hướng Tao, sửa, xóa mà Theo Nghiệp vụ chức năng trên Chức năng đang mô tả
 
@@ -169,7 +169,7 @@ Luồng sau: Sau khi Xác nhận Đơn hàng từ Nhà cung cấp, có thể t�
 Diễn giải các lưu ý: Sau khi Xác nhận đơn hàng từ Nhà cung cấp, chương trình sẽ tự động tạo ra Phiếu nhập kho trên chức năng Quản lý phiếu nhập
 ]
 </em>
-#####Lập yêu cầu báo giá
+##### Lập yêu cầu báo giá
 * Khi Ban GĐ/Quản lý phê duyệt kế hoạch mua hàng; bộ phận mua hàng thực hiện lập Yêu cầu báo giá gửi cho Nhà cung cấp
 
 <strong>Đối tượng thực hiện :</strong> Nhân viên bộ phận mua hàng 
@@ -206,8 +206,8 @@ VD : Chọn <strong> Nhận kèm hóa đơn trong </strong>trường hợp hóa 
 
 5. Thực hiện Gửi Email đến nhà cung cấp sau khi hoàn thành Yêu cầu báo giá
 
-#####<em>3.4.2.2.3	Xác nhận Đơn hàng từ Nhà cung cấp</em>
-#####Xác nhận Đơn hàng
+##### <em>3.4.2.2.3	Xác nhận Đơn hàng từ Nhà cung cấp</em>
+##### Xác nhận Đơn hàng
 
 *    Các đơn hàng được Nhà cung cấp trả hàng theo Yêu cầu báo giá đã gửi, bộ phận mua hàng/kho thực hiện xác nhận về kho của công ty
 
@@ -224,10 +224,10 @@ VD : Chọn <strong> Nhận kèm hóa đơn trong </strong>trường hợp hóa 
 <strong><ins>Lưu ý:</ins></strong>
 
 *	Sau khi thực hiện Xác nhận đơn hàng, chương trình tự động tạo ra một Phiếu nhập kho bên Phân hệ Quản lý kho
-####<em>3.4.2.3	Hóa đơn mua hàng</em>
+#### <em>3.4.2.3	Hóa đơn mua hàng</em>
 <em>[Mô tả nghiệp vụ và video hướng dẫn sử dụng các luồng nghiệp vụ của chức năng]
 </em>
-#####<em>3.4.2.3.1	Mô tả nghiệp vụ</em>
+##### <em>3.4.2.3.1	Mô tả nghiệp vụ</em>
 <strong>Mô tả nghiệp vụ</strong>
 
 <em>
@@ -246,13 +246,13 @@ VD : Chọn <strong> Nhận kèm hóa đơn trong </strong>trường hợp hóa 
 [Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]
 </em>
 
-#####<em>3.4.2.3.2	Mua hàng trong nước về nhập kho</em>
+##### <em>3.4.2.3.2	Mua hàng trong nước về nhập kho</em>
 
-#####<em>3.4.2.3.3	Mua hàng hóa nhập khẩu về nhập kho</em>
+##### <em>3.4.2.3.3	Mua hàng hóa nhập khẩu về nhập kho</em>
 
-###<em>3.4.3	Kế toán tổng hợp</em>
+### <em>3.4.3	Kế toán tổng hợp</em>
 
-####<em>3.4.3.1	Quy trình nghiệp vụ</em>
+#### <em>3.4.3.1	Quy trình nghiệp vụ</em>
 
 <em>[Mô tả thông tin chung]</em>
 
@@ -277,17 +277,17 @@ Các luồng quy trình
 *	Lập chứng từ ghi sổ đồng loạt. Chi tiết nghiệp vụ tại đây
 
 
-####<em>3.4.3.2	Chứng từ ghi sổ</em>
+#### <em>3.4.3.2	Chứng từ ghi sổ</em>
 
-#####<em>3.4.3.2.1	Mô tả nghiệp vụ</em>
+##### <em>3.4.3.2.1	Mô tả nghiệp vụ</em>
 
 Thực hiện tạo và cập nhật số CTGS các bút toán của kế toán có đăng ký nhận số CTGS
 
-#####<em>3.4.3.2.2	Lập chứng từ ghi sổ đơn lẻ</em>
-#####<em>3.4.3.2.3	Lập chứng từ ghi sổ đồng loạt</em>
+##### <em>3.4.3.2.2	Lập chứng từ ghi sổ đơn lẻ</em>
+##### <em>3.4.3.2.3	Lập chứng từ ghi sổ đồng loạt</em>
 
-###<em>3.4.4	Quản lý tiền</em>
-###<em>3.4.5	Quản lý kho</em>
+### <em>3.4.4	Quản lý tiền</em>
+### <em>3.4.5	Quản lý kho</em>
 
-##3.5	Lịch sử phát triển sản phẩm
+## 3.5	Lịch sử phát triển sản phẩm
 
