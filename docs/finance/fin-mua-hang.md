@@ -1,20 +1,12 @@
-### **Mua hàng**
-
 #### **Quy trình nghiệp vụ**
-
-*[Mô tả thông tin chung]*
 
 Quản lý toàn bộ quy trình Mua hàng: Từ yêu cầu gửi báo giá đến Đơn hàng, Hóa đơn mua hàng và Hóa đơn trả hàng.
 
-**Quy trình nghiệp vụ**
+**Quy trình**
 
-*[Hình luồng quy trình nghiệp vụ của Module]*
-
-![](..\finance\images\fin_MuaHang_QuyTrinh.png)
+![](images/fin_MuaHang_QuyTrinh.png)
 
 **Các luồng quy trình**
-
-*[Liệt kê đầy đủ các luồng quy trình nghiệp vụ có trong phân hệ Mua hàng,, có link đến Phần Hướng dẫn chi tiết]*
 
 ·     Lập yêu cầu báo giá gửi Nhà cung cấp. Chi tiết nghiệp vụ **[tại đây](#Lập yêu cầu báo giá gửi Nhà cung cấp)**
 
@@ -26,11 +18,7 @@ Quản lý toàn bộ quy trình Mua hàng: Từ yêu cầu gửi báo giá đ�
 
 #### **Yêu cầu báo giá**
 
-*[Mô tả nghiệp vụ và video hướng dẫn sử dụng các luồng nghiệp vụ của chức năng]*
-
 ##### **Mô tả nghiệp vụ**
-
-**Nghiệp vụ**
 
 Khi đơn vị có nhu cầu mua hàng, lập yêu cầu mua hàng thì quy trình thực hiện như sau:
 
