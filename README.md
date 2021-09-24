@@ -1,6 +1,8 @@
 # Hướng dẫn cập nhật tài liệu sử dụng phần mềm quản trị - Ban CNTT
 
 Repository này được tạo ra với mục đích xây dựng tài liệu hướng dẫn sử dụng phần mềm. Giúp người dùng dễ dàng tiếp cận các sản phẩm của Ban CNTT. Dưới đây là các lưu ý khi cập nhật hướng dẫn sử dụng phần mềm.
+## Autodeploy lên hệ thống
+https://ess-system-guide.readthedocs.io/en/latest/
 
 ## Cấu trúc project 
 
