@@ -4,7 +4,7 @@
 
 Là nơi tập hợp tất cả dữ liệu chấm công của nhân viên trong Công ty. Phân hệ chấm công sẽ xử lý tổng thể việc quản lý việc thời gian làm việc, tăng ca, các loại ngày nghỉ phép. Cung cấp bức tranh toàn cảnh về quản lý công của nhân viên. Hỗ trợ quản lý chấm công hiệu quả.
 
-![image-20210924154220889](images\image-20210924154220889.png)
+![image-20210924154220889](images/image-20210924154220889.png)
 
 ## 1.2     Thiết lập và khai báo ban đầu
 
@@ -48,9 +48,9 @@ Chức năng này cho phép người dùng khai báo ký hiệu công sử dụn
 
 **Các bước thực hiện**
 
-1. Vào phân hệ **Chấm công**, chọn **Cấu hình** , sau đó chọn **Ký hiệu công**, nhấn **Tạo**![image-20210924090553996](images\image-20210924090553996.png)
+1. Vào phân hệ **Chấm công**, chọn **Cấu hình** , sau đó chọn **Ký hiệu công**, nhấn **Tạo**![image-20210924090553996](images/image-20210924090553996.png)
 
-2. Khai báo các thông tin chi tiết của **Ký hiệu công**![image-20210924090755055](images\image-20210924090755055.png)
+2. Khai báo các thông tin chi tiết của **Ký hiệu công**![image-20210924090755055](images/image-20210924090755055.png)
 
    - Tên : Thông tin để quản lý
    - Mã : Không trùng với Mã đã khai báo
@@ -65,9 +65,9 @@ Chức năng này cho phép người dùng khai báo ký hiệu công sử dụn
 
 ##### ***1.4.1.2.1  Khai báo loại nghỉ phép***
 
-1. Vào phân hệ **Đăng ký công**, chọn **Cấu hình** , sau đó chọn **Loại đăng ký**, nhấn **Tạo**![image-20210924091036564](images\image-20210924091036564.png)
+1. Vào phân hệ **Đăng ký công**, chọn **Cấu hình** , sau đó chọn **Loại đăng ký**, nhấn **Tạo**![image-20210924091036564](images/image-20210924091036564.png)
 
-2. Khai báo các thông tin chi tiết của **Loại đăng ký**![image-20210924091223193](images\image-20210924091223193.png)
+2. Khai báo các thông tin chi tiết của **Loại đăng ký**![image-20210924091223193](images/image-20210924091223193.png)
 
    
 
@@ -87,9 +87,9 @@ Chức năng này cho phép người dùng khai báo ký hiệu công sử dụn
 
 ##### ***1.4.1.2.2  Khai báo cấp phát ngày nghỉ***
 
-1. Vào phân hệ **Đăng ký công**, chọn **Người quản lý** , sau đó chọn **Đăng ký phân bổ**, nhấn **Tạo**![image-20210924091422407](images\image-20210924091422407.png)
+1. Vào phân hệ **Đăng ký công**, chọn **Người quản lý** , sau đó chọn **Đăng ký phân bổ**, nhấn **Tạo**![image-20210924091422407](images/image-20210924091422407.png)
 
-2. Khai báo các thông tin chi tiết của **Phân bổ công**![image-20210924091756740](C:\Users\nguye\Desktop\Attendance\images\image-20210924091756740.png)
+2. Khai báo các thông tin chi tiết của **Phân bổ công**![image-20210924091756740](C:\Users\nguye\Desktop\Attendance\images/image-20210924091756740.png)
 
    - Tên phân bổ : Nhập tên phân bổ (Hoặc chọn Dữ liệu được lấy từ bảng hr_leave_allocation)
    - Loại đăng ký : lấy từ loại nghỉ phép được cấu hình sẵn
@@ -108,17 +108,17 @@ Dữ liệu của bảng **Tổng hợp công** được lấy từ bên **Đăn
 
 #### 1.4.2.1 Thêm bản ghi tại bảng Tổng hợp công
 
-1. Vào bảng Tổng hợp công, chọn 1 trạng thái chưa được chấm công bất kì, điền Thời gian làm việc, nhấn Lưu![image-20210924092222531](images\image-20210924092222531.png)
+1. Vào bảng Tổng hợp công, chọn 1 trạng thái chưa được chấm công bất kì, điền Thời gian làm việc, nhấn Lưu![image-20210924092222531](images/image-20210924092222531.png)
 
 #### 1.4.2.2 Sửa bản ghi tại bảng Tổng hợp công
 
-1. Vào bảng Tổng hợp công, chọn 1 trạng thái đươc chấm công bất kì, sửa bản ghi, nhấn Lưu.![image-20210924094539883](images\image-20210924094539883.png)
+1. Vào bảng Tổng hợp công, chọn 1 trạng thái đươc chấm công bất kì, sửa bản ghi, nhấn Lưu.![image-20210924094539883](images/image-20210924094539883.png)
 
 
 
 #### 1.4.2.3 Xóa bản ghi trên bảng Tổng hợp công
 
-1. Vào bảng Tổng hợp công, chọn 1 trạng thái được chấm công bất kì, nhấn X![image-20210924093103040](images\image-20210924093103040.png)
+1. Vào bảng Tổng hợp công, chọn 1 trạng thái được chấm công bất kì, nhấn X![image-20210924093103040](images/image-20210924093103040.png)
 
 ### *1.4.3.  Cách tạo và phê duyệt Đăng ký công*
 
@@ -126,22 +126,22 @@ Dữ liệu của bảng **Tổng hợp công** được lấy từ bên **Đăn
 
 1.4.3.1.1 Đăng ký công không có Cấp phát
 
-1. Thiết lập loại nghỉ phép bởi Chế độ : Không giới hạn![image-20210924100801711](images\image-20210924100801711.png)
-2. Vào Quản lý, chọn Đăng ký công, nhấn Tạo![image-20210924104723538](images\image-20210924104723538.png)
+1. Thiết lập loại nghỉ phép bởi Chế độ : Không giới hạn![image-20210924100801711](images/image-20210924100801711.png)
+2. Vào Quản lý, chọn Đăng ký công, nhấn Tạo![image-20210924104723538](images/image-20210924104723538.png)
 
 1.4.3.1.2 Yêu cầu chấm công có Cấp phát
 
-1. Thiết lập loại nghỉ phép bởi Chế độ : Thiết lập bởi người quản lý nghỉ phép ![image-20210924104833639](images\image-20210924104833639.png)
-2. Vào Quản lý, chọn Đăng ký phân bổ, nhấn Tạo![image-20210924105033809](images\image-20210924105033809.png)
-3. Vào Quản lý , chọn Đăng ký công, nhấn Tạo ![image-20210924095718579](images\image-20210924095718579.png)
+1. Thiết lập loại nghỉ phép bởi Chế độ : Thiết lập bởi người quản lý nghỉ phép ![image-20210924104833639](images/image-20210924104833639.png)
+2. Vào Quản lý, chọn Đăng ký phân bổ, nhấn Tạo![image-20210924105033809](images/image-20210924105033809.png)
+3. Vào Quản lý , chọn Đăng ký công, nhấn Tạo ![image-20210924095718579](images/image-20210924095718579.png)
 
 #### 1.4.3.2 Cán bộ vào phê duyệt/hủy Đăng ký công
 
 1.4.3.2.1 Cán bộ phê duyệt Đăng ký công
 
-1. Vào Quản lý, chọn Đăng ký công, thực hiện Duyệt một bản ghi bất kì ở trạng thái Chờ duyệt, khi đó trạng thái của bản ghi là Đã phê duyệt![image-20210924105853015](images\image-20210924105853015.png)
+1. Vào Quản lý, chọn Đăng ký công, thực hiện Duyệt một bản ghi bất kì ở trạng thái Chờ duyệt, khi đó trạng thái của bản ghi là Đã phê duyệt![image-20210924105853015](images/image-20210924105853015.png)
 
 1.4.3.2.2 Cán bộ hủy Đăng ký công
 
-1. Vào Quản lý, chọn Đăng ký công, thực hiện Từ chối một bản ghi bất kì ở trạng thái Chờ duyệt, thực hiện Từ chối.![image-20210924105954820](images\image-20210924105954820.png)
+1. Vào Quản lý, chọn Đăng ký công, thực hiện Từ chối một bản ghi bất kì ở trạng thái Chờ duyệt, thực hiện Từ chối.![image-20210924105954820](images/image-20210924105954820.png)
 

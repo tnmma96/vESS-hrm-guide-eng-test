@@ -6,7 +6,7 @@
 
 Là nơi tập hợp tất cả dữ liệu nguồn nhân lực trong Công ty. Phân hệ quản lý nhân sự sẽ xử lý tổng thể việc quản lý số lượng nhân sự, thời gian làm việc, thông tin cá nhân, quá trình làm việc, vị trí công việc, phòng ban. Cung cấp bức tranh toàn cảnh về nguồn nhân lực. Hỗ trợ quản lý nhân sự hiệu quả.
 
-![image-20210924153546690](images\image-20210924153546690.png)
+![image-20210924153546690](images/image-20210924153546690.png)
 
 ## 1.2     Thiết lập và khai báo ban đầu
 
@@ -61,11 +61,11 @@ Là nơi quản lý khai báo danh mục phòng ban trong công ty.
 
 1. Vào phân hệ **Cấu hình**, chọn **Phòng/Ban**, nhấn **Tạo**
 
-![Screenshot_1](images\Screenshot_1.png)
+![Screenshot_1](images/Screenshot_1.png)
 
 1. Khai báo các thông tin chi tiết của Phòng/Ban và click **Lưu** để lưu Phòng ban
 
-![Screenshot_2](images\Screenshot_2.png)
+![Screenshot_2](images/Screenshot_2.png)
 
 + Tên phòng / ban : Nhập tên phòng / ban mới.
 + Phòng / Ban cấp trên : Tạo phòng ban cấp trên mới (Hoặc chọn phòng ban cấp trên có sẵn dưới combobox)
@@ -77,18 +77,18 @@ Chức năng này cho phép người dùng khai báo dữ liệu kỹ năng sử
 
 1. Vào phân hệ **Cấu hình**, chọn **Các kỹ năng**, nhấn **Tạo**
 
-![Screenshot_3](images\Screenshot_3.png)
+![Screenshot_3](images/Screenshot_3.png)
 
 2. Khai báo tên **Loại Kỹ Năng**
 
-![Screenshot_4](images\Screenshot_4.png)
+![Screenshot_4](images/Screenshot_4.png)
 
 ##### 1.4.1.2.1	Các kỹ năng
 
 1. Khai báo các thông tin chi tiết của **Các kỹ năng**
 
 
-![Screenshot_5](images\Screenshot_5.png)
+![Screenshot_5](images/Screenshot_5.png)
 
 + Tên : Nhập tên loại kỹ năng mới (VD : Tester, Sing, Dance,....)
 
@@ -97,14 +97,14 @@ Chức năng này cho phép người dùng khai báo dữ liệu kỹ năng sử
 
 1. Khai báo các thông tin chi tiết của Cấp độ Kỹ năng
 
-![Screenshot_6](images\Screenshot_6.png)
+![Screenshot_6](images/Screenshot_6.png)
 
 + Tên : Nhập tên cấp độ kỹ năng 
 + Tiến độ : Nhập tiến độ tương ứng với cấp độ kỹ năng vừa nhập (VD: Cấp kỹ năng là “level1” ứng với tiến độ “30%” => Nhập “30” tại ô “Tiến độ”)
 
 Nhấn **Lưu**
 
-![Screenshot_7](images\Screenshot_7.png)
+![Screenshot_7](images/Screenshot_7.png)
 
 **1.4.1.3   Vị trí công việc**
 
@@ -114,16 +114,16 @@ Chức năng này cho phép người dùng khai báo vị trí công việc sử
 
 1. Vào phân hệ **Cấu hình**, chọn **Vị trí công việc**, nhấn **Tạo**
 
-![Screenshot_8](images\Screenshot_8.png)
+![Screenshot_8](images/Screenshot_8.png)
 
 1. Khai báo các thông tin chi tiết của Vị trí công việc
 
-![Screenshot_9](images\Screenshot_9.png)
+![Screenshot_9](images/Screenshot_9.png)
 
 - Tên vị trí công việc: Nhập tên vị trí công việc 
 - Mô tả công việc: Nhập mô tả vị trí công việc
 
-![Screenshot_10](images\Screenshot_10.png)
+![Screenshot_10](images/Screenshot_10.png)
 
 - Phòng Ban: Tạo phòng ban mới (Hoặc chọn phòng ban có sẵn dưới combobox)
 - Đánh giá: Nhân viên có thể đánh giá tuyển dụng
@@ -136,11 +136,11 @@ Chức năng này cho phép người dùng khai báo Từ khóa nhân sự sử 
 
 1. Vào phân hệ **Cấu hình**, chọn **Các kỹ năng**, nhấn **Tạo**
 
-![Screenshot_11](images\Screenshot_11.png)
+![Screenshot_11](images/Screenshot_11.png)
 
 1. Khai báo các thông tin chi tiết của Từ khóa nhân sự
 
-![Screenshot_12](images\Screenshot_12.png)
+![Screenshot_12](images/Screenshot_12.png)
 
 - Tên từ khóa : Nhập tên từ khóa mới.
 
@@ -152,17 +152,17 @@ Chức năng này cho phép người dùng khai báo Từ khóa nhân sự sử 
 
 1. Vào mục **Nhân viên**, nhấn **Tạo**
 
-![Screenshot_13](images\Screenshot_13.png)
+![Screenshot_13](images/Screenshot_13.png)
 
 1. Khai báo các thông tin chi tiết của **Nhân viên**
 
-![Screenshot_14](images\Screenshot_14.png)
+![Screenshot_14](images/Screenshot_14.png)
 
 + Tên nhân viên : Tên của nhân viên 
 
 **2.1 Tab Thông tin cá nhân**
 
-![Screenshot_15](images\Screenshot_15.png)
+![Screenshot_15](images/Screenshot_15.png)
 
 + Hộ khẩu thường trú :  Thông tin hộ khẩu của nhân viên
 + Số CMND : Dạng số, không chứa chữ và các kí tự đặc biệt
@@ -170,7 +170,7 @@ Chức năng này cho phép người dùng khai báo Từ khóa nhân sự sử 
 
 **2.2 Tab Thông tin công việc**
 
-![Screenshot_16](images\Screenshot_16.png)
+![Screenshot_16](images/Screenshot_16.png)
 
 + Giờ làm việc: Thời gian làm việc trong 1 tuần đơn vị theo giờ
 
@@ -180,11 +180,11 @@ Chức năng này cho phép người dùng khai báo Từ khóa nhân sự sử 
 
 a. Vào tab **Quá trình làm việc**, nhấn **Thêm mới**
 
-![Screenshot_17](images\Screenshot_17.png)
+![Screenshot_17](images/Screenshot_17.png)
 
 b . Khai báo các thông tin của **Quá trình làm việc**
 
-![Screenshot_18](images\Screenshot_18.png)
+![Screenshot_18](images/Screenshot_18.png)
 
 + Mã: Mã của quyết định
 + Tên: Tên của quyết định
@@ -195,30 +195,30 @@ b . Khai báo các thông tin của **Quá trình làm việc**
 
 a. Vào tab **Trang tài liệu**, nhấn **Tạo**
 
-![Screenshot_19](images\Screenshot_19.png)
+![Screenshot_19](images/Screenshot_19.png)
 
 b . Khai báo các thông tin của **Trang tài liệu** và tải file tài liệu lên.
 
-![Screenshot_20](images\Screenshot_20.png)
+![Screenshot_20](images/Screenshot_20.png)
 
 **2.5 Kinh nghiệm  & Kỹ năng** 
 
 a. Vào tab **Kinh nghiệm và Kỹ năng**, nhấn **Thêm mới**
 
-![Screenshot_21](images\Screenshot_21.png)
+![Screenshot_21](images/Screenshot_21.png)
 
 b . Khai báo các thông tin của **Khai báo Kinh nghiệm và Kỹ năng**
 
 **Kỹ năng**
 
-![Screenshot_23](images\Screenshot_23.png)
+![Screenshot_23](images/Screenshot_23.png)
 
 + Loại kỹ năng : Tên của loại kỹ năng cần thêm
 + Skill : Kỹ năng đã có
 
 **Kinh nghiệm**
 
-![Screenshot_22](images\Screenshot_22.png)
+![Screenshot_22](images/Screenshot_22.png)
 
 + Ngày bắt đầu : Ngày bắt đầu đảm nhiệm kỹ năng đó
 
@@ -226,11 +226,11 @@ b . Khai báo các thông tin của **Khai báo Kinh nghiệm và Kỹ năng**
 
 a. Vào tab **Quan hệ gia đình**, nhấn **Thêm một dòng**
 
-![Screenshot_24](images\Screenshot_24.png)
+![Screenshot_24](images/Screenshot_24.png)
 
 b . Khai báo các thông tin của **Quan hệ gia đình**
 
-![Screenshot_25](images\Screenshot_25.png)
+![Screenshot_25](images/Screenshot_25.png)
 
 + Tên : Tên của người quan hệ
 + Mối quan hệ : Mối quan hệ với nhân viên
@@ -239,11 +239,11 @@ b . Khai báo các thông tin của **Quan hệ gia đình**
 
 a. Vào tab **Giảm trừ gia cảnh**, nhấn **Thêm một dòng**
 
-![Screenshot_26](images\Screenshot_26.png)
+![Screenshot_26](images/Screenshot_26.png)
 
 b . Khai báo các thông tin của **Giảm trừ gia cảnh**
 
-![Screenshot_27](images\Screenshot_27.png)
+![Screenshot_27](images/Screenshot_27.png)
 
 + Người phụ thuộc : Tên người phụ thuộc
 + Ngày hiệu lực : Ngày được công ty công nhận có hiệu lực
@@ -252,11 +252,11 @@ b . Khai báo các thông tin của **Giảm trừ gia cảnh**
 
 a. Vào tab **Phụ cấp**, nhấn **Thêm một dòng**
 
-![Screenshot_28](images\Screenshot_28.png)
+![Screenshot_28](images/Screenshot_28.png)
 
 b . Khai báo các thông tin của **Phụ cấp**
 
-![Screenshot_29](images\Screenshot_29.png)
+![Screenshot_29](images/Screenshot_29.png)
 
 + Phụ cấp : Loại phụ cấp
 + Ngày hiệu lực : Ngày bắt đầu tính phụ cấp đó
@@ -265,11 +265,11 @@ b . Khai báo các thông tin của **Phụ cấp**
 
 a. Vào tab **Thành tích**, nhấn **Thêm một dòng**
 
-![Screenshot_30](images\Screenshot_30.png)
+![Screenshot_30](images/Screenshot_30.png)
 
 b . Khai báo các thông tin của **Thành tích**
 
-![Screenshot_31](images\Screenshot_31.png)
+![Screenshot_31](images/Screenshot_31.png)
 
 + Tên : Tên thành tích đạt được
 + Lý do : Lý do mình đạt được thành tích
@@ -279,17 +279,17 @@ b . Khai báo các thông tin của **Thành tích**
 
 a. Vào tab **Đăng ký công**, xem yêu cầu chấm công khi yêu cầu bên **Đăng ký công**
 
-![Screenshot_32](images\Screenshot_32.png)
+![Screenshot_32](images/Screenshot_32.png)
 
 **2.11 Thông tin bảo hiểm xã hội**
 
 a. Vào tab **Thông tin bảo hiểm xã hội**, nhấn **Thêm một dòng**
 
-![Screenshot_33](images\Screenshot_33.png)
+![Screenshot_33](images/Screenshot_33.png)
 
 b . Khai báo các thông tin của **Thông tin BHXH**
 
-![Screenshot_34](images\Screenshot_34.png)
+![Screenshot_34](images/Screenshot_34.png)
 
 + Ngày hiệu lực : Ngày hiệu lực của bảo hiểm
 + Lương cơ bản : Lương cơ bản được tính bảo hiểm
@@ -298,11 +298,11 @@ b . Khai báo các thông tin của **Thông tin BHXH**
 
 a. Vào tab **Cách tính thuế**, nhấn **Thêm một dòng**
 
-![Screenshot_36](images\Screenshot_36.png)
+![Screenshot_36](images/Screenshot_36.png)
 
 b . Lựa chọn cách tính thuế của **Cách tính thuế**
 
-![Screenshot_35](images\Screenshot_35.png)
+![Screenshot_35](images/Screenshot_35.png)
 
 + Cách tính thuế : Tính theo loại nào
 + Ngày hiệu lực : Ngày bắt đầu áp dụng
@@ -311,32 +311,32 @@ b . Lựa chọn cách tính thuế của **Cách tính thuế**
 
 a. Vào tab **Phiếu lương** xem phiếu lương
 
-![Screenshot_37](images\Screenshot_37.png)
+![Screenshot_37](images/Screenshot_37.png)
 
 #### **1.4.2.2 Sửa thông tin nhân viên**
 
 a. Vào nhân viên cần sửa nhấn **Sửa**
 
-![Screenshot_38](images\Screenshot_38.png)
+![Screenshot_38](images/Screenshot_38.png)
 
 b. Sửa những thông tin cần sửa ở các tab.
 
-![Screenshot_39](images\Screenshot_39.png)
+![Screenshot_39](images/Screenshot_39.png)
 
 #### **1.4.2.3 Lưu trữ nhân viên**
 
 a. Chọn nhân viên cần **Lưu trữ nhân viên** nhấn Biểu tượng bánh răng nhấn **Lưu trữ **
 
-![Screenshot_40](images\Screenshot_40.png)
+![Screenshot_40](images/Screenshot_40.png)
 
 b. Nhấn **Đồng ý** và nhập lý do **Lưu trữ**
 
-![Screenshot_42](images\Screenshot_42.png)
+![Screenshot_42](images/Screenshot_42.png)
 
-![Screenshot_41](images\Screenshot_41.png)
+![Screenshot_41](images/Screenshot_41.png)
 
 Contract end date : Ngày hết hạn hợp đồng khi lưu trữ
 
 c. Mở **Lưu trữ** Chọn **Thực hiện** nhấn **Bỏ lưu trữ**
 
-![Screenshot_43](images\Screenshot_43.png)
+![Screenshot_43](images/Screenshot_43.png)
