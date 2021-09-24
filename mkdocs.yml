@@ -10,6 +10,7 @@ nav:
             - 'Khai báo danh mục': 'hrm/master-datas.md'
             - 'Tuyển dụng': 'hrm/recruitment.md'
             - 'Nhân viên': 'hrm/employee.md'
+            - 'Chấm công': 'hrm/attendance.md'
             # - 'Hợp đồng':
             # - 'Yêu cầu chấm công':
             # - 'Chấm công':
