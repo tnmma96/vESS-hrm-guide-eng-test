@@ -2,17 +2,17 @@
 
 Thực hiện hướng dẫn về các Danh mục cần khai báo trên ứng dựng Kế toán. Việc khai báo các Danh mục có thể được thực hiện tại bất kỳ thời điểm nào tùy thuộc người sử dụng: có thể trước thời điểm nhập chứng từ hay thực hiện được ngay tại thời điểm nhập chứng từ.
 
-# **Đối tượng**
+#### **Đối tượng**
 
-## **Nhóm đối tượng**
+##### **Nhóm đối tượng**
 
-## **Đối tượng**
+##### **Đối tượng**
 
-## **Khách hàng**
+##### **Khách hàng**
 
-## **Nhà cung cấp**
+##### **Nhà cung cấp**
 
-# **Cơ cấu tổ chức**
+#### **Cơ cấu tổ chức**
 
 *[Các chức năng liên quan đến quản lý Đơn vị, phòng ban]*
 
@@ -114,9 +114,11 @@ Thực hiện hướng dẫn về các Danh mục cần khai báo trên ứng d�
 
 ##### **Nhóm chứng từ**
 
+###### **Mục đích**
+
 Chức năng này cho phép người dùng khai báo Nhóm chứng từ sử dụng trên hệ thống
 
-**Các bước thực hiện**
+###### **Các bước thực hiện**
 
 1. Vào phân hệ **Tổng hợp**, chọn **Nhóm chứng từ**, nhấn ***Tạo*** (Hoặc vào theo chức năng tại phần Tìm kiếm)
 

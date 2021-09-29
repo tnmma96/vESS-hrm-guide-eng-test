@@ -16,7 +16,7 @@ nav:
             # - 'Chấm công':
             # - 'Tiền lương':
         - 'Lịch sử phát triển sản phẩm': 'hrm/log-histories.md'
-    - 'Tài chính': 
+    - 'Kế toán': 
         - 'Giới thiệu về phân hệ Kế toán': 'finance/fin-introduction.md'
         - 'Thiết lập và khai báo ban đầu': 'finance/fin-initialization.md'
         - 'Các thuật ngữ và từ viết tắt': 'finance/fin-abbreviations.md'
@@ -25,11 +25,11 @@ nav:
             - 'Quản lý tiền': 'finance/fin-tien.md'
             - 'Mua hàng': 'finance/fin-mua-hang.md'
             - 'Bán hàng': 'finance/fin-ban-hang.md'
-            - 'Kế toán tổng hợp': 'finance/fin-ke-toan-tong-hop.md'
-            - 'Kho vận': 'finance/fin-kho.md'
-            - 'Sản xuất': 'finance/fin-san-xuat.md'
-            - 'Tài sản cố định': 'finance/fin-tscd.md'
-            - 'Công cụ dụng cụ': 'finance/fin-ccdc.md'
+            # - 'Kế toán tổng hợp': 'finance/fin-ke-toan-tong-hop.md'
+            # - 'Kho vận': 'finance/fin-kho.md'
+            # - 'Sản xuất': 'finance/fin-san-xuat.md'
+            # - 'Tài sản cố định': 'finance/fin-tscd.md'
+            # - 'Công cụ dụng cụ': 'finance/fin-ccdc.md'
             # - 'Hợp đồng': fin-ke-toan-tong-hop
             # - 'Yêu cầu chấm công':
             # - 'Chấm công':
