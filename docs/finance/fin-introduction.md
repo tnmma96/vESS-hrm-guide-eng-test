@@ -1,8 +1,8 @@
 **Giới thiệu về phân hệ Kế toán**
 
-Là nơi tập hợp tất cả dữ liệu tài chính từ mọi bộ phận trong Công ty. Phân hệ Kế toán sẽ xử lý tổng thể việc quản trị kế toán (sổ cái, các khoản phải thu, phải trả), mua hàng, bán hàng, kho vận và thanh toán.Cung cấp bức tranh toàn cảnh về tài chính doanh nghiệp. Hỗ trợ lập tài chính một cách hiệu quả
+Là nơi tập hợp tất cả dữ liệu tài chính từ mọi bộ phận trong Công ty. Phần mềm Kế toán sẽ xử lý tổng thể việc quản trị kế toán (sổ cái, các khoản phải thu, phải trả), mua hàng, bán hàng, kho vận và thanh toán.Cung cấp bức tranh toàn cảnh về tài chính doanh nghiệp. Hỗ trợ lập tài chính một cách hiệu quả
 
-Phân hệ kế toán đáp ứng các Chế độ kế toán theo:
+Phần mềm kế toán đáp ứng các Chế độ kế toán theo:
 
 - Thông tư 200/2014/TT-BTC, hướng dẫn Chế độ kế toán Doanh nghiệp
 - Thông tư 133/2016/TT-BTC, hướng dẫn chế độ kế toán doanh nghiệp nhỏ và vừa
