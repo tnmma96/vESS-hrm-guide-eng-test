@@ -8,11 +8,11 @@ Các bước để bắt đầu sử dụng hệ thống vESS như sau:
 
  a. Người dùng truy cập vào trang web vess.store, sau đó chọn **Đăng ký ngay**
 
-![image-20210930104244495](C:\Users\hoaint38\AppData\Roaming\Typora\typora-user-images\image-20210930104244495.png)
+![image-20210930134832966](images/image-20210930134832966.png)
 
  b. Hệ thống mở ra trang đăng ký, người dùng khai báo các thông tin để đăng ký, bấm **Đăng ký**
 
-![image-20210930104526610](C:\Users\hoaint38\AppData\Roaming\Typora\typora-user-images\image-20210930104526610.png)
+![image-20210930135157167](images/image-20210930135157167.png)
 
 *Lưu ý:* 
 
@@ -23,43 +23,41 @@ c. Người dùng  kiểm tra email, bấm **Kích hoạt tài khoản** để x
 
 Tại đây, màn hình hiển thị danh sách các ứng dụng đang xuất bản trên hệ thống, người dùng có thể tìm kiếm, xem chi tiết, xem đánh giá bình luận về các ứng dụng này.
 
-![image-20210930105928456](C:\Users\hoaint38\AppData\Roaming\Typora\typora-user-images\image-20210930105928456.png)
+![image-20210930135350498](images/image-20210930135350498.png)
 
 *Lưu ý: Khi người dùng bấm **Đăng ký***, hệ thống tự động gửi thư xác thực tài khoản đến địa chỉ email vừa đăng ký. Trong trường hợp sau 3 phút người dùng không nhận được email, vui lòng bấm **Gửi lại **trên màn hình để hệ thống gửi lại thư xác thực.
 
-![image-20210930110015717](C:\Users\hoaint38\AppData\Roaming\Typora\typora-user-images\image-20210930110015717.png)
+![image-20210930135424684](images/image-20210930135424684.png)
 
 ***Bước 2: Cài đặt ứng dụng***
 
 - Với mỗi ứng dụng, khách hàng bấm vào xem chi tiết để có cái nhìn tổng quan về tính năng ứng dụng, bấm **Cài đặt** để tải ứng dụng dùng thử.
 
-  ![image-20210930110116289](C:\Users\hoaint38\AppData\Roaming\Typora\typora-user-images\image-20210930110116289.png)
+  ![image-20210930135453014](images/image-20210930135453014.png)
 
   -  *Lưu ý:* Để cài đặt được ứng dụng, người dùng cần thiết lập các thông tin cơ bản. Vì vậy, hệ thống hiển thị màn hình yêu cầu **Bổ sung thông tin**. 
 
-  ![image-20210930110159439](C:\Users\hoaint38\AppData\Roaming\Typora\typora-user-images\image-20210930110159439.png)
-
   - Tại đây, người dùng thiết lập đủ các thông tin yêu cầu, bấm **Lưu** sau đó bấm lại nút **Cài đặt** để tiếp tục cài đặt ứng dụng.
 
-    ![image-20210930111003588](C:\Users\hoaint38\AppData\Roaming\Typora\typora-user-images\image-20210930111003588.png)
+    ![image-20210930135727529](images/image-20210930135727529.png)
 
   - Một số thông tin người dùng cần chú ý: 
 
     -  *Mã số thuế là mã số thuế của doanh nghiệp, không được trùng với mã số thuế đã tồn tại trên hệ thống.*
     -  *Tên miền (domain) thiết lập chính là đường dẫn sử dụng các ứng dụng của doanh nghiệp sau khi đã cài đặt, tên miền là duy nhất, không được trùng với tên miền đã đăng ký trên hệ thống*
     -  *Ngôn ngữ được chọn là ngôn ngữ mặc định của các ứng dụng khi cài đặt*.
-
+  
 - Hệ thống hiển thị lên màn hình cảnh báo để xác nhận người dùng có muốn sử dụng bộ dữ liệu mẫu dùng thử không. Nếu người dùng muốn sử dụng bộ dữ liệu mẫu dùng thử, chọn "Có", ngược lại chọn "Không". 
 
 - Hệ thống hiển thị màn hình tiến trình đang cài đặt. Khi ứng dụng được cài đặt thành công, hệ thống hiển thị thông báo cài đặt thành công, nút "Cài đặt" tự động chuyển thành nút "Khởi động". Người dùng bấm **Khởi động**, hệ thống mở ra 1 tab mới có đường dẫn chính tên miền người dùng đã khai báo với phiên đăng nhập được tự động cập nhật từ phân hệ portal. 
 
-  ![image-20210930110907891](C:\Users\hoaint38\AppData\Roaming\Typora\typora-user-images\image-20210930110907891.png)
+  ![image-20210930135822039](images/image-20210930135822039.png)
 
 Tại đây, người dùng có thể xem menu hoặc trang chủ để biết các menu ứng dụng có thể sử dụng. 
 
 Người dùng trở về tab cũ để tiếp tục cài đặt các ứng dụng khác; hoặc trên tab mới vừa mở ra (miền của doanh nghiệp), người dùng bấm vào menu **vESS Market** trên thanh menu bên trái để trở về màn hình portal.
 
-![image-20210930111229427](C:\Users\hoaint38\AppData\Roaming\Typora\typora-user-images\image-20210930111229427.png)
+
 
 *Lưu ý:* *Người dùng có thể chủ động thiết lập các thông tin ban đầu bằng cách:  Bấm vào mũi tên bên cạnh ảnh đại diện ở góc dưới bên trái màn hình, chọn* ***Thông tin cá nhân**, hệ thống hiển thị màn hình thông tin cá nhân; người dùng bấm **Chỉnh sửa** để cập nhật các thông tin*.*Sau khi nhập đủ các thông tin yêu cầu, người dùng bấm **Lưu** để hệ thống ghi nhận thông tin thay đổi*
 
@@ -92,11 +90,13 @@ Khuyến khích khách hàng thực hiện gửi yêu cầu trên hệ thống t
 -  Khách hàng truy cập vess.store, đăng nhập hệ thống theo email và mật khẩu đã đăng ký. Hệ thống hiển thị màn hình trang chủ danh sách các ứng dụng đã cài đặt. Nếu người dùng chưa cài đặt ứng dụng nào, hệ thống hiển thị màn hình danh sách tất cả các ứng dụng. 
 -  Khách hàng bấm mũi tên bên cạnh ảnh đại diện ở góc dưới bên trái màn hình, chọn **Hỗ trợ dịch vụ**, hệ thống hiển thị màn hình danh sách yêu cầu hỗ trợ của khách hàng
 
-![image-20210930111315113](C:\Users\hoaint38\AppData\Roaming\Typora\typora-user-images\image-20210930111315113.png)
+![image-20210930145926127](images/image-20210930145926127.png)
 
 -  Khách hàng bấm **Tạo yêu cầu**, nhập các thông tin mô tả chi tiết yêu cầu hỗ trợ và bấm **Gửi**. Hệ thống ghi nhận yêu cầu hỗ trợ hiển thị lên danh sách yêu cầu hỗ trợ của khách hàng với trạng thái "Tạo mới"
 
-Lưu ý: Đối với các yêu cầu có trạng thái là "Tạo mới", người dùng có thể chỉnh sửa yêu cầu này.
+![image-20210930144018324](images/image-20210930144018324.png)
+
+*Lưu ý: Đối với các yêu cầu có trạng thái là "Tạo mới", người dùng có thể chỉnh sửa yêu cầu này.*
 
 ***Bước 2: Bộ phân hỗ trợ dịch vụ, chăm sóc khách hàng xem và xử lý các yêu cầu của khách hàng.*** 
 
@@ -115,4 +115,6 @@ Hệ thống Portal vESS hỗ trợ một số tính năng khác ví dụ:
 - Xem thông tin hợp đồng: Bấm  mũi tên bên cạnh ảnh đại diện ở góc dưới bên trái màn hình, chọn **Thông tin hợp đồng**
 - Xem thông tin tài nguyên của doanh nghiệp đang hoạt động:  mũi tên bên cạnh ảnh đại diện ở góc dưới bên trái màn hình, chọn **Thông tin tài nguyên**
 - Đổi ngôn ngữ sử dụng hệ thống Portal vESS:  mũi tên bên cạnh ảnh đại diện ở góc dưới bên trái màn hình, bấm **Ngôn ngữ** và chọn ngôn ngữ phù hợp. *Lưu ý: Đổi ngôn ngữ tại đây không phải là đổi ngôn ngữ sử dụng trên các phân hệ con.*
+
+
 
