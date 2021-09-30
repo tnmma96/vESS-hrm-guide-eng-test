@@ -2,21 +2,15 @@
 
 #### *Quy trình nghiệp vụ*
 
-*[Mô tả thông tin chung]*
-
 Quy trình bán hàng là một loạt các bước cần thực hiện để thúc đẩy hoạt động bán hàng tại doanh nghiệp.Việc xây dựng quy trình bán hàng trên hệ thống sẽ giúp nhân viên kinh doanh, quản lý bán hàng và ban lãnh đạo doanh nghiệp xác định được các cơ hội bán hàng và tỷ lệ thành công của các cơ hội đó từ đó xác định được các chiến lược kinh doanh phù hợp để đạt được doanh thu lớn nhất. Quy trình sẽ bao gồm các chức năng: Từ yêu cầu báo giá đến đơn bán hàng, hóa đơn bán hàng, hóa đơn giảm giá/trả hàng
 
 **Quy trình nghiệp vụ**
 
-*[Hình luồng quy trình nghiệp vụ của Module]*
-
-![](images/fin_BanHang_QuyTrinh.png)
+![](images/fin_BanHang_QuyTrinh_1.png)
 
 
 
 **Các luồng quy trình**
-
-*[Liệt kê các luồng quy trình nghiệp vụ có trong phân hệ Bán hàng, có link đến Phần Hướng dẫn chi tiết]*
 
 ·     Lập yêu cầu báo giá gửi khách hàng. Chi tiết nghiệp vụ **[tại đây](#Lập yêu cầu báo giá)**
 

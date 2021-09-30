@@ -21,7 +21,7 @@ nav:
         - 'Thiết lập và khai báo ban đầu': 'finance/fin-initialization.md'
         - 'Các thuật ngữ và từ viết tắt': 'finance/fin-abbreviations.md'
         - 'Hướng dẫn sử dụng chức năng':
-            - 'Khai báo danh mục': 'finance/fin-danh-muc.md'
+            - 'Khai báo danh mục': 'finance/fin-danh-muc-new.md'
             - 'Quản lý tiền': 'finance/fin-tien.md'
             - 'Mua hàng': 'finance/fin-mua-hang.md'
             - 'Bán hàng': 'finance/fin-ban-hang.md'

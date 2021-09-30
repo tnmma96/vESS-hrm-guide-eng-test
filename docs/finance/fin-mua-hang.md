@@ -4,7 +4,7 @@ Quản lý toàn bộ quy trình Mua hàng: Từ yêu cầu gửi báo giá đ�
 
 **Quy trình**
 
-![](images/fin_MuaHang_QuyTrinh.png)
+![](images/fin_MuaHang_QuyTrinh_1.png)
 
 **Các luồng quy trình**
 
@@ -58,7 +58,7 @@ Khi đơn vị có nhu cầu mua hàng, lập yêu cầu mua hàng thì quy trì
 
 ![](images/fin_MuaHang_YCBG_1.png)
 
-2. Khai báo các thông tin chi tiết của **Yêu cầu báo giá:**
+1. Khai báo các thông tin chi tiết của **Yêu cầu báo giá:**
 
 ·     Chọn thông tin Nhà cung cấp
 

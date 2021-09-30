@@ -13,7 +13,7 @@ Phần mềm Kế toán giúp Doanh nghiệp:
 - Dữ liệu chính xác với việc kiểm soát đơn hàng, kho hàng, hóa đơn nhà cung cấp. Quản lý luồng tiền vào ra trên hệ thống. Đồng thời, dự báo cụ thể về lịch trình thanh toán, các luồng chi phí phát sinh trong ngắn hạn, dài hạn. 
 - Tập hợp các dữ liệu đầy đủ và linh hoạt dựa trên các báo cáo tài chính. Truy suất dữ liệu đa chiều, nhanh chóng và chính xác. Đồng thời truy vết được các bút toán cấu thành một cách tức thì.
 
-*[Bổ sung hình ảnh]*
+![image-20210930081951024](images/image-20210930081951024.png)
 
 
 
