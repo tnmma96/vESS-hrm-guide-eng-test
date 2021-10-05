@@ -23,7 +23,7 @@
 
 **Bước 1:** Vào phân hệ **Thiết lập**>**Người dùng & công ty**>**Người dùng**.
 
-*hình ảnh màn hình*
+![image-20211004094007844](images/image-20211004094007844.png)
 
 **Bước 2:** Khai báo thông tin tài khoản đăng nhập
 
@@ -38,11 +38,11 @@
 
 **Bước 3**: Sau khi “Đăng ký sử dụng thành công”, khách hàng mở hòm thư được khai báo khi đăng ký để lấy thông tin tài khoản truy cập. Khách hàng sử dụng thông tin này để đăng nhập vào chương trình (hướng dẫn đăng ký tại đây)
 
-*Hình ảnh màn hình đăng nhập*
+![image-20211004094034200](images/image-20211004094034200.png)
 
 **Bước 4**: Chọn ứng dụng **Nhân viên**.
 
-*hình ảnh màn hình chụp phân hệ Nhân viên*
+![image-20211004094207988](images/image-20211004094207988.png)
 
 ## Thêm mới hồ sơ nhân viên
 
@@ -50,14 +50,14 @@
 
 **Bước 1:** Nhân viên quản trị nhân lực vào phân hệ **Nhân viên>Tạo**
 
-![Screenshot_1](images/Screenshot_1.png)
+![image-20211004104809471](images/image-20211004104809471.png)
 
 Sau đó thực hiện khai báo thông tin của nhân viên:
 
 - Khai báo thông tin cá nhân cơ bản về nhân viên (căn cứ vào Sơ yếu lý lịch) như: họ tên, giới tính, ngày sinh, nơi sinh, nguyên quán, hộ khẩu thường trú, số CMND, ngày cấp, nơi cấp, trình trạng hôn nhân, dân tộc, tôn giáo, trình độ văn hóa, trình độ đào tạo, trường đào tạo…
 - Khai báo thông tin công việc của nhân viên: chức danh, phòng ban, người quản lý, tài khoản đăng nhập của nhân viên.  
 
-![Screenshot_2](images/Screenshot_2.png)
+![image-20211004110010849](images/image-20211004110010849.png)
 
 **Lưu ý:** Mã nhân viên sẽ được hệ thống tự sinh sau khi người dùng hoàn thành thao tác thêm mới hồ sơ nhân viên.
 

@@ -6,15 +6,15 @@
 
 **Quy trình nghiệp vụ**
 
-- Khách hàng có nhu cầu sử dụng nền tảng VESS, sau khi thực hiện mua tên miền và tài khoản Quản trị viên thành công, khách hàng sẽ được cung cấp một tên miền và tên đăng nhập vào hệ thống
+- Khách hàng có nhu cầu sử dụng nền tảng vESS, sau khi thực hiện mua tên miền và tài khoản Quản trị viên thành công, khách hàng sẽ được cung cấp một tên miền và tên đăng nhập vào hệ thống
 - Khởi tạo ban đầu, khách hàng cần thêm các thông tin về Công ty của mình.
 - Sau khi có đầy đủ thông tin về Công ty, khách hàng thực hiện tạo cơ cấu tổ chức, thiết lập cơ cấu phòng ban, bộ phận trong đơn vị, phục vụ cho công tác thống kê và quản lý nhân viên
 
 **Luồng quy trình**
 
-- Luồng mua tên miền và đăng ký tài khoản Quản trị viên. Chi tiết tại đây
-- Luồng khởi tạo thông tin Công ty. Chi tiết tại đây
-- Luồng khởi tạo cơ cấu tổ chức. Chi tiết tại đây.
+- Luồng mua tên miền và đăng ký tài khoản Quản trị viên. Chi tiết [tại đây](https://ess-system-guide.readthedocs.io/en/latest/saas/saas/)
+- Luồng khởi tạo thông tin Công ty. Chi tiết [tại đây](#Công ty)
+- Luồng khởi tạo cơ cấu tổ chức. Chi tiết [tại đây](#Đơn vị, phòng ban).
 
 ## Hướng dẫn khai báo
 
@@ -26,7 +26,11 @@
 
 **Bước 1:** Sau khi thực hiện mua tên miền và tài khoản Quản trị viên thành công, khách hàng sẽ được cung cấp một tên miền và tên đăng nhập vào hệ thống.
 
+![login](images/login.png)
+
 **Bước 2:** Người dùng truy cập vào phân hệ **Thiết lập>Người dùng và Công ty>Công ty**, tại đây hiển thị tên Công ty mà người dùng đã khai báo khi mua tên miền, không cho phép người dùng **Thêm mới** bất cứ công ty nào, chỉ cho phép **Sửa** thông tin công ty đã đăng ký.
+
+
 
 **Bước 3:** Khai báo các **Thông tin chung**, cập nhật **Giới thiệu**, **Logo** công ty theo mong muốn khách hàng và thực hiện **Lưu** lại.
 
