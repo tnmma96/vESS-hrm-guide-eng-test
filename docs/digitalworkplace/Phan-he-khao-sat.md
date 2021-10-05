@@ -1,48 +1,43 @@
-## Khảo sát
-
 ### Quy trình nghiệp vụ
-Cho phép người dùng quản lý khảo sát và danh sách tham gia khảo sát. 
+Cho phép người dùng quản lý khảo sát, kết quả nhằm thu nhập thông tin, nhân định và đánh giá thực trạng của vấn đề.
 
-**Quy trình nghiệp vụ**
-![](picture/PIC_KT_KhaoSat-QuyTrinh.png)
+#### Quy trình
+![](picture/PIC_DW_KhaoSat-QuyTrinh.png)
 
 **Các luồng quy trình**
-* Quản lý khảo sát. Chi tiết nghiệp vụ <u>[tại đây](#quan-ly-khao-sat)</u>.
-* Quản lý tham gia khảo sát. Chi tiết nghiệp vụ <u>[tại đây](#quan-ly-tham-gia-khao-sat)</u>.
+* Quản lý khảo sát. Chi tiết nghiệp vụ <u>[tại đây](#quản-lý-khảo-sát)</u>.
+* Tham gia trả lời khảo sát. Chi tiết nghiệp vụ <u>[tại đây](#trả-lời-khảo-sát)</u>.
+* Quản lý tham gia khảo sát. Chi tiết nghiệp vụ <u>[tại đây](#quản-lý-tham-gia-khảo-sát)</u>.
 
-
-
-[comment]: <> (comment cụm chức năng 1 )
-<h3 id="quan-ly-khao-sat">Quản lý khảo sát</h3>
 
 #### Mô tả nghiệp vụ
 Khi người sử dụng muốn quản lý khảo sát thì quy trình thực hiện như sau:
 1. Tại phân hệ **Khảo sát**, người dùng sẽ phân loại khảo sát theo trạng thái Dự thảo, Đang thực hiện, Đang đóng. Có thể tạo thêm danh sách khác.
 2. Người sử dụng tạo mới tạo cuộc khảo sát bao gồm các câu hỏi khảo sát và cấu hình bộ câu hỏi khảo sát.
-3. Sau khi Khảo sát được tạo, người dùng sẽ thực hiện kiểm thử khảo sát.
-4. Người dùng chia sẻ khảo sát đã tạo.
-5. Sau khi người dùng khác thực hiện khảo sát xong, người dùng sẽ xem kết quả khảo sát (Báo cáo kết quả khảo sát theo từng câu hỏi khảo sát).
+3. Sau khi Khảo sát được tạo, người dùng sẽ gửi email đến danh sách thành viên cần khảo sát.
+4. Các thành viên tham gia trả lời khảo sát.
+5. Kết thúc khảo sát, người tạo khảo sát sẽ xem được kết quả khảo sát (Báo cáo kết quả khảo sát theo từng câu hỏi khảo sát).
 
 **Luồng chức năng chính**
-* Quản lý khảo sát. Chi tiết nghiệp vụ <u>[tại đây](#quan-ly-khao-sat-child)</u>.
-* Kiểm thử khảo sát. Chi tiết nghiệp vụ <u>[tại đây](#kiem-thu-khao-sat)</u>.
-* Chia sẻ khảo sát. Chi tiết nghiệp vụ <u>[tại đây](#chia-se-khao-sat)</u>.
-* Xem kết quả khảo sát. Chi tiết nghiệp vụ <u>[tại đây](#xem-ket-qua-khao-sat)</u>.
+* Quản lý khảo sát. Chi tiết nghiệp vụ <u>[tại đây](#quản-lý-khảo-sát-1)</u>.
+* Chia sẻ khảo sát. Chi tiết nghiệp vụ <u>[tại đây](#chia-sẻ-khảo-sát)</u>.
+* Trả lời khảo sát. Chi tiết nghiệp vụ <u>[tại đây](#trả-lời-khảo-sát)</u>.
+* Xem kết quả khảo sát. Chi tiết nghiệp vụ <u>[tại đây](#xem-kết-quả-khảo-sát)</u>.
 
 **Video hướng dẫn**
 
+### Khảo sát
 
-<h4 id="quan-ly-khao-sat-child">Quản lý khảo sát</h4>
+#### Quản lý khảo sát
 
-**Quản lý khảo sát**
 Người sử dụng thực hiện phân loại khảo sát và tạo mới tạo cuộc khảo sát bao gồm các câu hỏi khảo sát, cấu hình bộ câu hỏi khảo sát.
 
 **Đối tượng thực hiện:** Quản trị hệ thống
 
 1. Vào phân hệ **Khảo sát**, người sử dụng thực hiện phân loại khảo sát bằng cách di chuyển khảo sát tới danh sách bất kì (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
-![](picture/PIC_KT_KhaoSat-Menu.png)
+![](picture/PIC_DW_KhaoSat-Menu.png)
 2. Chọn tạo **Khảo sát** 
-![](picture/PIC_KT_KhaoSat-Tao.png)
+![](picture/PIC_DW_KhaoSat-Tao.png)
 3. Khai báo thông tin chung của **Khảo sát** 
 * Chọn Ảnh khảo sát
 * Khai báo thông tin Tiêu đề khảo sát
@@ -112,38 +107,18 @@ Người sử dụng thực hiện phân loại khảo sát và tạo mới tạ
 9. Người sử dụng thực hiện **Lên lịch công việc** cho khảo sát 
 
 
+#### Chia sẻ khảo sát
 
-<h4 id="kiem-thu-khao-sat">Kiểm thử khảo sát</h4>
-
-**Kiểm thử khảo sát**
-Cho phép người dùng kiểm thử, tham gia thử khảo sát đã tạo trước khi chia sẻ cho người dùng khác tham gia khảo sát.
-
-**Đối tượng thực hiện:** Quản trị hệ thống
-
-1. Vào phân hệ **Khảo sát**(Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
-![](picture/PIC_KT_KhaoSat-Menu.png)
-2. Chọn **Khảo sát/Kiểm thử** 
-![](picture/PIC_KT_KhaoSat-ChiTiet.png)
-3. Chọn **Bắt đầu khảo sát**
-![](picture/PIC_KT_KhaoSat-KiemThuKhaoSat.png)
-4. Người dùng thực hiện trả lời câu hỏi và chọn **Tiếp tục**
-5. Người dùng nhấn **Gửi** để gửi câu trả lời
-6. Sau khi thực hiện xong kiểm thử, người dùng chọn **Thử lại** để thực hiện kiểm thử khảo sát thêm lần nữa
-
-
-<h4 id="chia-se-khao-sat">Chia sẻ khảo sát</h4>
-
-**Chia sẻ khảo sát**
 Cho phép người dùng chia sẻ khảo sát đã tạo 
 
 **Đối tượng thực hiện:** Quản trị hệ thống
 
 1. Vào phân hệ **Khảo sát** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
-![](picture/PIC_KT_KhaoSat-Menu.png)
+![](picture/PIC_DW_KhaoSat-Menu.png)
 2. Chọn **Khảo sát/Chia sẻ** 
-![](picture/PIC_KT_KhaoSat-ChiTiet.png)
+![](picture/PIC_DW_KhaoSat-ChiTiet.png)
 3. Khai báo thông tin chi tiết của Chia sẻ
-![](picture/PIC_KT_KhaoSat-ChiaSe.png)
+![](picture/PIC_DW_KhaoSat-ChiaSe.png)
 * Khai báo thông tin Người nhận
 * Khai báo thông tin Chủ đề 
 * Khai báo thông tin Mô tả 
@@ -152,45 +127,42 @@ Cho phép người dùng chia sẻ khảo sát đã tạo
 * Chọn thông tin Sử dụng mẫu: Mail mời khảo sát hoặc Mail gửi chứng nhận
 4. Người dùng nhấn **Gửi**
 
-<h4 id="xem-ket-qua-khao-sat">Xem kết quả khảo sát</h4>
 
-**Xem kết quả khảo sát**
+#### Trả lời khảo sát
+
+Người dùng sẽ nhận được email thông báo tham gia khảo sát. Thực hiện trả lời khảo sát theo các thông tin đã được gửi
+
+**Đối tượng thực hiện:** Người dùng
+
+1. Vào email cá nhân. Thực hiện chọn **Bắt đầu chứng nhận**
+2. Thực hiện trả lời các câu hỏi của khảo sát
+![](picture/PIC_DW_Khaosat_Traloi.jpeg)
+
+
+#### Xem kết quả khảo sát
+
 Cho phép người dùng xem kết quả khảo sát (Báo cáo kết quả khảo sát theo từng câu hỏi khảo sát)
 
 **Đối tượng thực hiện:** Quản trị hệ thống
 
 1. Vào phân hệ **Khảo sát** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
-![](picture/PIC_KT_KhaoSat-Menu.png)
+![](picture/PIC_DW_KhaoSat-Menu.png)
 2. Chọn **Khảo sát/Xem kết quả** 
-![](picture/PIC_KT_KhaoSat-ChiTiet.png)
+![](picture/PIC_DW_KhaoSat-ChiTiet.png)
 3. Người dùng xem kết quả khảo sát dưới dạng biểu đồ tròn thể hiện tỉ lệ khảo sát đã đạt và tỉ lệ khảo sát đã bỏ lỡ
 
 
 
+### Quản lý tham gia khảo sát
 
-
-[comment]: <> (comment cụm chức năng 2 )
-<h3 id="quan-ly-tham-gia-khao-sat">Quản lý tham gia khảo sát</h3>
-
-#### Mô tả nghiệp vụ
-
-
-**Luồng chức năng chính**
-* Quản lý tham gia khảo sát. Chi tiết nghiệp vụ <u>[tại đây](#quan-ly-tham-gia-khao-sat)</u>.
-
-**Video hướng dẫn**
-
-
-<h4 id="quan-ly-tham-gia-khao-sat">Quản lý tham gia khảo sát</h4>
-
-**Quản lý tham gia khảo sát**
-Cho phép Quản trị hệ thống hiển thị danh sách tham gia khảo sát 
+Cho phép Quản trị hệ thống xem được chi tiết các thành viên đã tham gia trả lời khảo sát của từng khảo sát
 
 **Đối tượng thực hiện:** Quản trị hệ thống 
 
 1. Vào phân hệ **Khảo sát**, chọn **Tham gia** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
-![](picture/PIC_KT_KhaoSat-Menu.png)
+![](picture/PIC_DW_KhaoSat-Menu.png)
 2. Người dùng thực hiện quản lý danh sách người dùng đã tham gia khảo sát 
+![](picture/PIC_DW_Khaosat_Thamgia.jpeg)
 3. Nhấn **Xuất toàn bộ** để xuất toàn bộ danh sách tham gia khảo sát
 
 
