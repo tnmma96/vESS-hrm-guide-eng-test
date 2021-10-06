@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Thiết lập và khai báo ban đầu - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Thi\u1ebft l\u1eadp v\u00e0 khai b\u00e1o ban \u0111\u1ea7u";
+    var mkdocs_page_input_path = "hrm\\initialization.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas-introduction/">Trang chủ</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Thiết lập và khai báo ban đầu</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#huong-dan-khai-bao">Hướng dẫn khai báo</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#cong-ty">Công ty</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#on-vi-phong-ban">Đơn vị, phòng ban</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#khai-bao-cay-on-vi-cho-on-vi-khong-co-chi-nhanh">Khai báo cây đơn vị cho đơn vị không có chi nhánh</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#khai-bao-cay-on-vi-cho-on-vi-co-chi-nhanh">Khai báo cây đơn vị cho đơn vị có chi nhánh</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Hướng dẫn sử dụng chức năng</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../master-datas/">Khai báo danh mục</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../recruitment/">Tuyển dụng</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../employee/">Nhân viên</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../attendance/">Chấm công</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Hướng dẫn sử dụng chức năng</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../finance/fin-tien/">Quản lý tiền</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="" href="../..">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Hướng dẫn sử dụng chức năng</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../digitalworkplace/Phan-he-khao-sat/">Khảo sát</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Nhân sự &raquo;</li>
+        
+      
+    
+    <li>Thiết lập và khai báo ban đầu</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="huong-dan-thiet-lap-va-khai-bao-du-lieu-ban-au">Hướng dẫn thiết lập và khai báo dữ liệu ban đầu</h1>
+<h2 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h2>
+<p><strong>Quy trình nghiệp vụ</strong></p>
+<ul>
+<li>Khách hàng có nhu cầu sử dụng nền tảng vESS, sau khi thực hiện mua tên miền và tài khoản Quản trị viên thành công, khách hàng sẽ được cung cấp một tên miền và tên đăng nhập vào hệ thống</li>
+<li>Khởi tạo ban đầu, khách hàng cần thêm các thông tin về Công ty của mình.</li>
+<li>Sau khi có đầy đủ thông tin về Công ty, khách hàng thực hiện tạo cơ cấu tổ chức, thiết lập cơ cấu phòng ban, bộ phận trong đơn vị, phục vụ cho công tác thống kê và quản lý nhân viên</li>
+</ul>
+<p><strong>Luồng quy trình</strong></p>
+<ul>
+<li>Luồng mua tên miền và đăng ký tài khoản Quản trị viên. Chi tiết <a href="https://ess-system-guide.readthedocs.io/en/latest/saas/saas/">tại đây</a></li>
+<li>Luồng khởi tạo thông tin Công ty. Chi tiết <a href="#Công ty">tại đây</a></li>
+<li>Luồng khởi tạo cơ cấu tổ chức. Chi tiết <a href="#Đơn vị, phòng ban">tại đây</a>.</li>
+</ul>
+<h2 id="huong-dan-khai-bao">Hướng dẫn khai báo</h2>
+<h3 id="cong-ty">Công ty</h3>
+<p><strong>Đối tượng thực hiện:</strong> Quản trị viên</p>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Sau khi thực hiện mua tên miền và tài khoản Quản trị viên thành công, khách hàng sẽ được cung cấp một tên miền và tên đăng nhập vào hệ thống.</p>
+<p><img alt="login" src="../images/login.png" /></p>
+<p><strong>Bước 2:</strong> Người dùng truy cập vào phân hệ <strong>Thiết lập&gt;Người dùng và Công ty&gt;Công ty</strong>, tại đây hiển thị tên Công ty mà người dùng đã khai báo khi mua tên miền, không cho phép người dùng <strong>Thêm mới</strong> bất cứ công ty nào, chỉ cho phép <strong>Sửa</strong> thông tin công ty đã đăng ký.</p>
+<p><strong>Bước 3:</strong> Khai báo các <strong>Thông tin chung</strong>, cập nhật <strong>Giới thiệu</strong>, <strong>Logo</strong> công ty theo mong muốn khách hàng và thực hiện <strong>Lưu</strong> lại.</p>
+<h3 id="on-vi-phong-ban">Đơn vị, phòng ban</h3>
+<p><strong>Đối tượng thực hiện:</strong> Quản trị viên</p>
+<p>Thiết lập cơ cấu phòng ban, bộ phận trong đơn vị, phục vụ cho công tác thống kê và quản lý nhân viên.</p>
+<h4 id="khai-bao-cay-on-vi-cho-on-vi-khong-co-chi-nhanh"><strong>Khai báo cây đơn vị cho đơn vị không có chi nhánh</strong></h4>
+<p>Với đơn vị không có chi nhánh, cơ cấu tổ chức của đơn vị được phân ra làm các cấp như sau:</p>
+<ul>
+<li>Cấp thứ nhất: Sau khi đăng ký thành công thì hệ thống tự động tạo tạo một mức cao nhất là mức độ <strong>Công ty</strong>  cấp tổ chức này được thiết lập dựa trên thông tin công ty đã được đăng ký.</li>
+<li>Cấp thứ hai: Cấp tổ chức này là con của cấp tổ chức thứ nhất.</li>
+<li>Cấp thứ n: Cấp tổ chức này là con của cấp tổ chức thứ (n-1)</li>
+</ul>
+<p><strong>Lưu ý</strong>: Nên khai báo đầy đủ cơ cấu tổ chức của đơn vị đến cấp chi tiết nhất để phục vụ cho công tác hạch toán kế toán sau này.</p>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1: </strong>Vào phân hệ <strong>Nhân viên</strong>&gt;<strong>Cấu hình</strong>&gt;<strong>Phòng/Ban</strong>.</p>
+<p><img alt="image-20210930113434695" src="../images/image-20210930113434695.png" /></p>
+<p><strong>Bước 2:</strong> Chọn <strong>Tạo</strong></p>
+<p><img alt="image-20210930113440479" src="../images/image-20210930113440479.png" /></p>
+<p><strong>Bước 3:</strong> Khai báo thông tin cơ cấu tổ chức</p>
+<p>Tại mục <strong>Cấp độ phòng ban</strong>: chọn mức Phòng ban </p>
+<p>Tại mục <strong>Chi nhánh:</strong> Khi chọn mức Phòng ban ở mục trên, người dùng chọn dữ liệu trong thanh thao tác. Ở đây hệ thống tự động gán dữ liệu mục này chính là tên công ty mà và là mức cao nhất.</p>
+<p>Tại mục <strong>Người quản lý:</strong> Chọn người quản lý của phòng ban này.</p>
+<p>Tại mục <strong>Phòng/Ban cấp trên:</strong> Chọn cơ cấu tổ chức cấp cha (nếu có)</p>
+<p><img alt="image-20210930113459289" src="../images/image-20210930113459289.png" /></p>
+<p><strong>Bước 4:</strong> Chọn <strong>Lưu</strong></p>
+<h4 id="khai-bao-cay-on-vi-cho-on-vi-co-chi-nhanh">Khai báo cây đơn vị cho đơn vị có chi nhánh</h4>
+<ul>
+<li>
+<p>Cấp thứ nhất: <strong>Tổng công ty</strong>: Cấp tổ chức này sẽ được chương trình tự động sinh ra ngay sau khi đăng ký thành công. </p>
+</li>
+<li>
+<p>Cấp thứ hai: <strong>Công ty con/Chi nhánh/Văn phòng đại diện/Văn phòng</strong>: Cấp tổ chức này thuộc cấp tổ chức thứ nhất</p>
+</li>
+<li>
+<p>Cấp thứ ba: <strong>Trung tâm/Phòng ban/Nhóm</strong>: Cấp tổ chức này có thể thuộc cấp tổ chức thứ nhất hoặc thứ hai.</p>
+</li>
+</ul>
+<p><strong>Lưu ý</strong>: Nên khai báo đầy đủ cơ cấu tổ chức của đơn vị đến cấp chi tiết nhất để phục vụ cho công tác hạch toán kế toán sau này.</p>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1: </strong>Vào phân hệ <strong>Nhân viên</strong>&gt;<strong>Cấu hình</strong>&gt;<strong>Phòng/Ban</strong>.</p>
+<p><img alt="image-20210930113351745" src="../images/image-20210930113351745.png" /><strong>Bước 2:</strong> Chọn <strong>Tạo</strong></p>
+<p><img alt="image-20210930113342019" src="../images/image-20210930113342019.png" /></p>
+<p><strong>Bước 3:</strong> Khai báo thông tin cơ cấu tổ chức</p>
+<ul>
+<li>
+<p>Tại mục <strong>Cấp độ phòng ban:</strong> Khai báo cơ cấu tổ chức cho đơn vị khai báo </p>
+</li>
+<li>
+<p>Tại mục <strong>Chi nhánh:</strong> Chọn cơ cấu tổ chức cấp cha.</p>
+</li>
+<li>
+<p>Tại mục <strong>Phòng/Ban cấp trên:</strong> Chọn cơ cấu tổ chức cấp cha, có thể chọn hoặc không.</p>
+</li>
+</ul>
+<p><img alt="image-20210930113105982" src="../images/image-20210930113105982.png" /></p>
+<p><strong>Bước 4:</strong> Chọn <strong>Lưu</strong></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../abbreviations/" class="btn btn-neutral float-right" title="Các thuật ngữ và từ viết tắt">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../introduction/" class="btn btn-neutral" title="Giới thiệu về phân hệ Quản lý nhân sự"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../introduction/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../abbreviations/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
