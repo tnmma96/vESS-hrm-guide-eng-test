@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Chấm công - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Ch\u1ea5m c\u00f4ng";
+    var mkdocs_page_input_path = "hrm\\attendance.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas-introduction/">Trang chủ</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="#">Hướng dẫn sử dụng chức năng</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../master-datas/">Khai báo danh mục</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../recruitment/">Tuyển dụng</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../employee/">Nhân viên</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="./">Chấm công</a>
+    <ul class="current">
+    </ul>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Hướng dẫn sử dụng chức năng</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../finance/fin-tien/">Quản lý tiền</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="" href="../..">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Hướng dẫn sử dụng chức năng</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../digitalworkplace/Phan-he-khao-sat/">Khảo sát</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Nhân sự &raquo;</li>
+        
+      
+        
+          <li>Hướng dẫn sử dụng chức năng &raquo;</li>
+        
+      
+    
+    <li>Chấm công</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="gioi-thieu-chuc-nang-cham-cong-ang-ky-cong">Giới thiệu chức năng Chấm công - Đăng ký công</h1>
+<p>Chấm công, Đăng ký công là 2 phân hệ con mở rộng của phân hệ Nhân sự. Đây là nơi lưu trữ, tổng hợp tất cả dữ liệu đăng ký chấm công và chấm công của các nhân viên trong công ty. Hai phân hệ cung cấp cái nhìn toàn cảnh, bao quát và trực quan về thông tin chấm công của nhân viên; từ đó giúp các công ty/ doanh nghiệp quản lý chấm công một cách hiệu quả và chuẩn xác.</p>
+<p>Phân hệ Chấm công - Đăng ký công đáp ứng được các yêu cầu nghiệp vụ như:</p>
+<ul>
+<li>Quản lý hiệu quả kế hoạch nghỉ phép cho tất cả nhân viên bằng cách tự động tính toán số ngày nghỉ phép theo Luật lao động hiện hành.</li>
+<li>Quản lý ngày nghỉ phép, làm thêm giờ của nhân viên linh hoạt.</li>
+<li>Công cụ báo cáo, thống đơn giản và trực quan</li>
+<li>Tự động đồng bộ, chấm công cho nhân viên trên hệ thống dựa theo đơn đăng ký nghỉ, đăng ký làm thêm giờ.</li>
+</ul>
+<h1 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h1>
+<p>Phân hệ Chấm công - Đăng ký công cho phép người dùng thực hiện đăng ký chấm công - tổng hợp bảng công theo quy trình như sau</p>
+<p><img alt="image-20210930154213758" src="../images/image-20210930154213758.png" /></p>
+<p>Các luồng quy trình:</p>
+<ul>
+<li>
+<p>Thiết lập và khai báo ban đầu. Xem hướng dẫn chi tiết </p>
+</li>
+<li>
+<p>Thiết lập kế hoạch nghỉ phép cho nhân viên. Xem hướng dẫn chi tiết </p>
+</li>
+<li>
+<p>Nhân viên đăng ký công. Xem hướng dẫn chi tiết </p>
+</li>
+<li>
+<p>Quản lý trực tiếp của nhân viên phê duyệt/ từ chối đăng ký công. Xem hướng dẫn chi tiết </p>
+</li>
+<li>
+<p>Cán bộ chấm công tổng hợp công. Xem hướng dẫn chi tiết </p>
+</li>
+</ul>
+<h1 id="thiet-lap-va-khai-bao-ban-au">Thiết lập và khai báo ban đầu <a name="khaibaobandau"></a></h1>
+<p>Việc thiết lập và khai báo ban đầu của phân hệ chấm công -  đăng ký công nên được thực hiện ngay khi lần đầu cài đặt hệ thống, giúp khởi tạo dữ liệu và bắt đầu sử dụng nghiệp vụ chấm công. </p>
+<h2 id="thiet-lap-phan-quyen-nguoi-dung">Thiết lập phân quyền người dùng</h2>
+<p><strong><em>Đối tượng thực hiện: Người quản trị hệ thống</em></strong></p>
+<p>Để đảm bảo tất cả người dùng đăng nhập vào miền ứng dụng của doanh nghiệp đảm nhận đúng vai trò, quản trị viên hệ thống cần thiết lập phân quyền phù hợp. Cụ thể như sau:</p>
+<ul>
+<li>Đối với phân hệ Chấm công, gồm 4 mức phân quyền</li>
+<li>Không chọn gì (bỏ trống): Người dùng không có phân sự gì với phân hệ chấm công</li>
+<li>Chọn "Điểm danh thủ công": Người dùng chỉ có quyền điểm danh thủ công trên mobile hoặc máy chấm công. Có thể hiểu phân quyền này cho nhân viên bình thường trong công ty</li>
+<li>Chọn "Cán bộ": Người dùng là cán bộ chấm công, có quyền tổng hợp và theo dõi báo cáo công của tất cả các nhân viên</li>
+<li>Chọn "Người quản trị": Người quản trị phân hệ Chấm công.</li>
+<li>Đối với phân hệ Đăng ký công, phân hệ này dùng để nhân viên đăng ký, quản lý trực tiếp của nhân viên phê duyệt/ từ chối đăng ký, cán bộ nhân sự phê duyệt/ từ chối và theo dõi báo cáo đăng ký công. Có 3 mức phân quyền cho phân hệ này như sau:</li>
+<li>Không chọn gì (bỏ trống): Người dùng nội bộ (nhân viên) có thể đăng ký công (đăng ký nghỉ/OT)</li>
+<li>Chọn "Người phụ trách": Thiết lập cho người dùng là quản lý của nhân viên, có quyền đăng ký công và chỉ phê duyệt/ từ chối đơn đăng ký công của nhân viên mình phụ trách, quản lý</li>
+<li>Chọn "Quản lý công": Thiết lập cho người dùng là cán bộ duyệt công, có quyền đăng ký công, xem và phê duyệt/ từ chối tất cả các đơn đăng ký công, KHÔNG có quyền tự phê duyệt/ từ chối đơn đăng ký của cá nhân người dùng đó</li>
+<li>Chọn "Người quản trị": Thiết lập cho người quản trị phân hệ Đăng ký công, có quyền xem và phê duyệt tất cả các đơn đăng ký công bao gồm cả đơn của bản thân. </li>
+</ul>
+<h2 id="thiet-lap-ky-hieu-cong">Thiết lập ký hiệu công</h2>
+<p><strong><em>Đối tượng thực hiện: Người quản trị hệ thống hoặc người quản trị phân hệ Chấm công</em></strong> </p>
+<p>Ký hiệu công (hay còn gọi là "Loại ngày làm"), là danh sách các ký hiệu hiển thị lên bảng chấm công tương ứng cho các loại ngày làm, ví dụ như công đi làm (X), công nghỉ phép (P), công làm tăng ca (OT),...</p>
+<p>Dữ liệu ký hiệu công (loại ngày làm) này được sử dụng để thiết lập các loại đăng ký công thì thiết lập tương ứng. </p>
+<p>Hiện tại, khi người dùng cài đặt thành công phân hệ Chấm công, hệ thống đã tạo sẵn bộ dữ liệu các ký hiệu công phổ biến, thường dùng cho tất cả các doanh nghiệp. Người dùng kiểm tra dữ liệu trên hệ thống và điều chỉnh dữ liệu phù hợp bằng cách thao tác như sau:</p>
+<ul>
+<li>Vào menu <strong>Chấm công</strong> &gt;&gt; Chọn <strong>Cấu hình</strong> &gt;&gt; Ký hiệu công. Hệ thống hiển thị màn hình sau</li>
+</ul>
+<p><img alt="image-20210930181238919" src="../images/image-20210930181238919.png" /></p>
+<p><em>Lưu ý: Các dữ liệu có sẵn này không được phép xoá. Người dùng có thể tạo thêm ký hiệu công mới bằng cách bấm </em><em>Tạo</em><em> và nhập dữ liệu phù hợp, sau đó thực hiện </em><em>Lưu</em><em>.</em></p>
+<h2 id="thiet-lap-loai-ang-ky-cong">Thiết lập loại đăng ký công</h2>
+<p><strong><em>Đối tượng thực hiện: Người quản lý công hoặc Người quản trị phân hệ Đăng ký công.</em></strong> </p>
+<p><strong><em>Mục đích:</em></strong> Thiết lập các loại đăng ký công tương ứng với các ký hiệu công, để khi nhân viên đăng ký công thuộc loại đăng ký công nào thì khi cán bộ chấm công tổng hợp công, hệ thống tự động hiển thị đúng loại ký hiệu công tương ứng lên bảng công.</p>
+<p><strong><em>Thực hiện trên hệ thống:</em></strong> Người dùng vào menu <strong>Đăng ký công</strong> &gt;&gt; Chọn <strong>Cấu hình</strong> &gt;&gt; <strong>Loại đăng ký</strong>. Hệ thống hiển thị màn hình sau</p>
+<p><img alt="image-20210930184045094" src="../images/image-20210930184045094.png" /></p>
+<p>Ngay khi người dùng cài đặt thành công phân hệ "Đăng ký công", hệ thống tự động tạo sẵn bộ dữ liệu các loại đăng ký với bộ ký hiệu công khởi tạo. Người dùng có thể thêm loại đăng ký mới bằng cách bấm nút <strong>Tạo</strong>, nhập các thông tin yêu cầu, bấm <strong>Lưu</strong> để hoàn tất.</p>
+<p><img alt="image-20210930184609554" src="../images/image-20210930184609554.png" /></p>
+<p><em><strong>Lưu ý 1:</strong> Các thông tin cần nhập</em></p>
+<ul>
+<li>Loại ngày làm: Chọn 1 trong số các loại ngày làm đã khai báo ở bước <strong>Thiết lập đăng ký công</strong></li>
+<li>Ngày xác nhận: Nhập khoảng thời gian cho phép đăng ký công với loại đăng ký này</li>
+<li>Công trong: Chọn Ngày/Nửa ngày/Giờ tương ứng với đơn vị thời gian nghỉ cho loại đăng ký này. Ví dụ như hình trên, thì với loại đăng ký công là "Nghỉ dưỡng năm 2021", nhân viên được phép đăng ký nghỉ theo ngày (1 ngày, 2 ngày, ...)</li>
+<li>Đăng ký phân bổ: Tích chọn chế độ đăng ký phân bổ phù hợp, cụ thể</li>
+<li>Không giới hạn: Tức là với phân bổ kế hoạch đăng ký công thuộc loại đăng ký này thì không cần người phê duyệt. Có thể hiểu là nhân viên có thể tuỳ ý đăng ký kế hoạch cho loại đăng ký này.</li>
+<li>Thiết lập bởi người quản lý công: Tức là người quản lý công mới có quyền cấp phát phân bổ thời gian cho loại đăng ký công này</li>
+<li>Đăng ký công: Tích chọn chế độ phê duyệt đăng ký công phù hợp, cụ thể</li>
+<li>Không phê duyệt: Tức là các đơn đăng ký công thuộc loại đăng ký công này thì không cần phê duyệt, tự động có hiệu lực</li>
+<li>Người quản lý công: Tức là đơn đăng ký công thuộc loại này phải được phê duyệt bởi người quản lý công mới có tính hiệu lực</li>
+<li>Quản lý nhân viên: Tức là đơn đăng ký công thuộc loại này phải được phê duyệt bởi quản lý cấp trên trực tiếp của nhân viên</li>
+<li>Quản lý nhân viên và quản lý công: Tức là đơn đăng ký công thuộc loại này phải được phê duyệt lần 1 bởi quản lý nhân viên, và phê duyệt lần 2 bởi người quản lý công mới có hiệu lực.</li>
+</ul>
+<p><em><strong>Lưu ý 2:</strong> Các loại đăng ký có sẵn trên hệ thống thì không cho phép người dùng xoá.</em>  </p>
+<h2 id="thiet-lap-loai-hop-ong-tinh-phep">Thiết lập loại hợp đồng tính phép</h2>
+<p><strong><em>Đối tượng thực hiện: Người quản lý công hoặc người quản trị phân hệ Đăng ký công</em></strong> </p>
+<ul>
+<li>
+<p>Theo quy định của Luật lao động nói chung và quy định của công ty nói riêng, để tính và quản lý số ngày phép cho nhân viên thì cần xác định được danh sách hợp đồng được hưởng phép và danh sách loại hợp đồng được tính thời gian là thời gian làm việc trong năm.</p>
+</li>
+<li>
+<p>Các bước thực hiện trên hệ thống: Người dùng vào menu <strong>Đăng ký công</strong> &gt;&gt; Chọn <strong>Cấu hình</strong> &gt;&gt; Chọn <strong>Thiết lập</strong></p>
+</li>
+</ul>
+<p><img alt="image-20211001102029639" src="../images/image-20211001102029639.png" /></p>
+<p>Người dùng điều chỉnh dữ liệu phù hợp với doanh nghiệp, bấm <strong>Lưu</strong> để hoàn tất.</p>
+<h2 id="thiet-lap-loai-hoat-ong">Thiết lập loại hoạt động</h2>
+<p><strong><em>Đối tượng thực hiện: Người quản lý công hoặc người quản trị phân hệ Đăng ký công</em></strong></p>
+<ul>
+<li>
+<p>Tại bước này, người dùng thiết lập các hoạt động để định nghĩa rằng: loại hoạt động này bắt buộc phải thực hiện hành động gì? Người mặc định thực hiện là ai? Hoạt động này có là tiền điều kiện có hoạt động nào khác không? Sau hoạt động này thì nên thực hiện hoạt động nào? Thời gian dự kiến phải hoàn thành hoạt động trong bao lâu?</p>
+</li>
+<li>
+<p>Việc thiết lập này chính là định nghĩa cho các thông báo cảnh báo khi quá thời gian thực hiện cho phép.</p>
+</li>
+<li>
+<p>Các bước thực hiện trên hệ thống: </p>
+</li>
+<li>
+<p>Người dùng vào menu <strong>Đăng ký công</strong> &gt;&gt; Chọn <strong>Cấu hình</strong> &gt;&gt; <strong>Hoạt động</strong>. Hệ thống hiển thị lên màn hình danh sách các hoạt động được định nghĩa sẵn. </p>
+</li>
+<li>
+<p>Người dùng có thể thiết lập thêm hoạt động bằng cách bấm nút <strong>Tạo</strong>, nhập các thông tin yêu cầu và bấm <strong>Lưu</strong> để hoàn tất.</p>
+<p><em>Lưu ý: Các bản ghi hệ thống tạo sẵn thì không được phép xoá.</em></p>
+</li>
+</ul>
+<h1 id="thiet-lap-ke-hoach-nghi-phep-cho-nhan-vien">Thiết lập kế hoạch nghỉ phép cho nhân viên <a name= "kehoachnghiphep"></a></h1>
+<p><strong><em>Đối tượng thực hiện: cán bộ quản lý công hoặc người quản trị phân hệ Đăng ký công</em></strong></p>
+<ul>
+<li>Thường hàng kỳ, hàng năm hoặc khi nhân viên có sự thay đổi liên quan đến tính tổng số ngày được phép đăng ký nghỉ phép trong năm (ví dụ như khi nhân viên thay đổi diện đối tượng từ thử việc lên hợp đồng lao động, khi nhân viên nghỉ việc,...), cán bộ quản lý công sẽ thực hiện tính toán lại tổng số ngày phép cho nhân viên. </li>
+</ul>
+<p>Mục đích của bước này là để cấp phát số ngày phép cho nhân viên theo đúng quy định.</p>
+<ul>
+<li>
+<p>Hướng dẫn thực hiện trên hệ thống: </p>
+</li>
+<li>
+<p><strong><em>Tính toán số ngày phép</em></strong>: Khi cần tính lại số ngày phép cho nhân viên, người dùng vào menu <strong>Đăng ký công</strong> &gt;&gt; Chọn <strong>Quản lý</strong> &gt;&gt; Chọn <strong>Quản lý nghỉ phép</strong> &gt;&gt; Bấm nút <strong>Lấy dữ liệu</strong> &gt;&gt; Tại đây người dùng bấm <strong>Thêm một dòng</strong> để tìm kiếm và tích chọn 1 hoặc nhiều nhân viên cần tính phép &gt;&gt; Bấm <strong>Chọn</strong> để tiếp tục</p>
+</li>
+</ul>
+<p><img alt="image-20211001103353709" src="../images/image-20211001103353709.png" /></p>
+<p>Người dùng bấm <strong>Tạo</strong> để thực hiện tính toán số ngày phép</p>
+<p><img alt="image-20211001103440578" src="../images/image-20211001103440578.png" />
+  Hệ thống tự động tính toán, hiển thị dữ liệu lên danh sách Quản lý nghỉ phép</p>
+<p><img alt="image-20211001103924333" src="../images/image-20211001103924333.png" /></p>
+<p>Đối với những dòng dữ liệu vừa được tính toán, chưa được phê duyệt (tức là ở trạng thái <strong>Nháp</strong>) thì người dùng có thể nhập thêm số liệu vào cột Số ngày phép công thêm (Tức là ví dụ theo quy định riêng của công ty, nhân viên Hoài được cộng thêm 1 ngày phép vì có thành tích xuất sắc thì người dùng nhập dữ liệu như trên ảnh), Số ngày kỳ trước (Tức là số ngày phép của năm trước còn dư được phép cộng thêm vào tổng số ngày phép cho năm sau) phù hợp. </p>
+<ul>
+<li><strong><em>Phê duyệt dữ liệu</em></strong>: Đối với các dòng dữ liệu hiển thị ở trạng thái <strong>Nháp</strong> thì nhân viên đó chưa được đăng ký nghỉ phép. Để hệ thống tự động cấp phát số ngày nghỉ phép này tới nhân viên tương ứng, người dùng cần thực hiện Phê duyệt để dữ liệu có hiệu lực bằng cách bấm <strong>Phê duyệt</strong> cho từng dòng hoặc tích chọn nhiều nhân viên để phê duyệt 1 lần</li>
+</ul>
+<p><img alt="image-20211001104849106" src="../images/image-20211001104849106.png" /></p>
+<h1 id="ang-ky-cham-cong">Đăng ký chấm công <a name="dangkychamcong"></a></h1>
+<p>Đăng ký chấm công ở đây bao gồm cả đăng ký ngày nghỉ và đăng ký OT (Đăng ký công cho loại ngày làm đã được thiết lập).</p>
+<p><strong><em>Hệ thống chỉ cho phép đăng ký công cho tháng hiện tại hoặc thời điểm trong tương lai.</em></strong></p>
+<p>Luồng thực hiện đăng ký chấm công được chia thành 2 trường hợp:</p>
+<p><strong><em>Trường hợp 1</em></strong>: <em>Nhân viên</em> chủ động đăng ký chấm công trên app mobile (trên điện thoại), hoặc trên ứng dụng web (trên máy tính)</p>
+<p>Khi nhân viên có yêu cầu đăng ký chấm công (có thể là đăng ký nghỉ, đăng ký công tác, hoặc đăng ký làm thêm giờ) thì sẽ chủ động tạo đơn đăng ký lên hệ thống theo 2 cách:</p>
+<ul>
+<li><em>Cách 1: Đăng ký trên ứng dụng web</em></li>
+</ul>
+<p>Nhân viên vào menu <strong>Đăng ký công</strong> &gt;&gt; Hệ thống hiển thị bảng lịch có các ngày đăng ký nghỉ/OT. Nhân viên bấm <strong>Đăng ký công</strong> &gt;&gt; Nhập thông tin theo yêu cầu &gt;&gt; Bấm <strong>Lưu</strong> để hoàn tất. Lúc này hệ thống ghi nhận đăng ký công ở trạng thái <em>Chờ duyệt.</em> </p>
+<p><img alt="image-20211001135700337" src="../images/image-20211001135700337.png" /></p>
+<p><img alt="image-20211001134701698" src="../images/image-20211001134701698.png" /></p>
+<p>Hoặc nhân viên vào menu Đăng ký công &gt;&gt; Chọn <strong>Cá nhân</strong> &gt;&gt; Chọn <strong>Đăng ký công</strong> &gt;&gt; Hệ thống hiển thị lên màn hình danh sách đăng ký công &gt;&gt; Nhân viên bấm <strong>Tạo</strong>, nhập các thông tin yêu cầu và bấm <strong>Lưu</strong> để hoàn tất việc gửi đơn đăng ký công. </p>
+<p><strong><em>Lưu ý:</em></strong> </p>
+<ul>
+<li>Nhân viên không thể tạo nhiều đơn đăng ký công trong cùng thời gian. Trong trường hợp nhân viên tạo đơn đăng ký nhưng chưa muốn trình cấp trên duyệt ngay thì có thể thực hiện lưu đơn nháp bằng cách bấm <em>Tạo bản nháp</em>. Khi muốn trình cấp trên duyệt, nhân viên vào đơn đăng ký công ở trạng thái "Nháp" (Để trình) &gt;&gt; Chỉnh sửa thông tin phù hợp và bấm <strong>Xác nhận</strong> để hoàn tất</li>
+<li>Đối với các đơn đăng ký nghỉ phép: nhân viên chỉ được đăng ký trong số ngày được cho phép (Người quản lý công đã tính cho nhân viên tại bước trên)</li>
+</ul>
+<p><img alt="image-20211001143922470" src="../images/image-20211001143922470.png" /></p>
+<p><img alt="image-20211001144009268" src="../images/image-20211001144009268.png" /></p>
+<ul>
+<li>
+<p>Thời lượng nghỉ được tính dựa trên lịch làm việc, tức là không tính thời lượng nghỉ cho các ngày nghỉ (Thứ 7, Chủ nhật) của nhân viên và không tính thời lượng làm thêm giờ đối với các khoảng thời gian thuộc khung làm việc cố định. (<em>Khung giờ làm việc của nhân viên được thiết lập trong hồ sơ nhân viên</em>)</p>
+</li>
+<li>
+<p><em>Cách 2: Đăng ký trên app mobile</em></p>
+</li>
+</ul>
+<p>Để thuận tiện hơn cho nhân viên, hệ thống hỗ trợ đăng ký công trên app mobile (sử dụng điện thoại smartphone). Nhân viên truy cập app, đăng nhập tài khoản cá nhân, bấm vào menu <strong>Đăng ký công</strong> &gt;&gt; Bấm nút "+" để tạo đơn đăng ký công &gt;&gt; Nhân viên nhập đầy đủ thông tin và bấm <strong>Hoàn tất</strong> để trình cấp trên duyệt (hiển thị với trạng thái Chờ duyệt) hoặc bấm <strong>Lưu nháp</strong> để lưu đơn đăng ký ở trạng thái Nháp.</p>
+<p>Ở trên app mobile, muốn chuyển đơn đăng ký từ trạng thái Nháp thành Chờ duyệt, nhân viên bấm vào đơn đăng ký, kiểm tra lại thông tin và bấm <strong>Hoàn tất</strong>.</p>
+<p><strong><em>Trường hợp 2</em></strong>: Nhân viên có vấn đề về kỹ thuật, hoặc sức khoẻ không thể tự đăng ký được, nhờ <em>cán bộ quản lý công</em> thực hiện đăng ký công cho nhân viên</p>
+<p>Người quản lý công vào menu <strong>Đăng ký công</strong> &gt;&gt; Chọn <strong>Quản lý</strong> &gt;&gt; Chọn <strong>Đăng ký công</strong> &gt;&gt; Bấm <strong>Tạo</strong>, nhập liệu và bấm <strong>Lưu</strong> để hoàn tất (chờ người có thẩm quyền duyệt) hoặc bấm <strong>Tạo bản nháp</strong> để lưu đơn với trạng thái Nháp</p>
+<p><img alt="image-20211001144306068" src="../images/image-20211001144306068.png" /></p>
+<p><em>Lưu ý: Người quản lý công có thể thực hiện tạo đơn đăng ký công cho từng nhân viên, cả công ty, cả 1 phòng/ban, theo nhóm nhân viên chung nhãn bằng cách lựa chọn phù hợp chế độ đăng ký ở hình trên.</em></p>
+<h1 id="phe-duyet-tu-choi-ang-ky-cong">Phê duyệt/ Từ chối đăng ký công <a name="pheduyetcong"></a></h1>
+<p>Đối với các loại đăng ký công cần phê duyệt thì quản lý của nhân viên hoặc quản lý công hoặc người quản trị phân hệ Đăng ký công có quyền vào duyệt tương ứng. </p>
+<p>Hướng dẫn các bước thực hiện trên hệ thống theo các đối tượng như sau:</p>
+<ul>
+<li>
+<p>Người phụ trách: Đối tượng này được phép duyệt đơn đăng ký công của nhân viên mình quản lý</p>
+</li>
+<li>
+<p>Người dùng vào menu <strong>Đăng ký công</strong> &gt;&gt; Chọn <strong>Quản lý</strong> &gt;&gt; Chọn <strong>Đăng ký công</strong> &gt;&gt; Hệ thống hiển thị danh sách đơn đăng ký công của nhân viên do người dùng phụ trách quản lý trực tiếp</p>
+</li>
+<li>Người dùng tìm thực hiện bấm <strong>Duyệt</strong> nếu chấp thuận đơn đăng ký công, hoặc ngược lại thì bấm <strong>Từ chối</strong>. Người dùng có thể tích chọn nhiều đơn để duyệt/ từ chối 1 lần</li>
+</ul>
+<p><img alt="image-20211001151206263" src="../images/image-20211001151206263.png" /></p>
+<ul>
+<li>
+<p>Quản lý công: Đối tượng này được phép duyệt tất cả đơn đăng ký công của nhân viên trừ đơn của bản thân</p>
+</li>
+<li>
+<p>Người dùng vào menu <strong>Đăng ký công</strong> &gt;&gt; Chọn <strong>Quản lý</strong> &gt;&gt; Chọn <strong>Đăng ký công</strong> &gt;&gt; Hệ thống hiển thị mặc danh sách đơn đăng ký công của nhân viên do người dùng phụ trách quản lý trực tiếp, người dùng có thể xoá bộ lọc trên thanh tìm kiếm để xem đơn đăng ký của tất cả các nhân viên trong công ty</p>
+</li>
+<li>
+<p>Người dùng tìm thực hiện bấm <strong>Duyệt</strong> nếu chấp thuận đơn đăng ký công, hoặc ngược lại thì bấm <strong>Từ chối</strong></p>
+</li>
+<li>
+<p>Người quản trị phân hệ Đăng ký công: Đối tượng này được duyệt tất cả đơn đăng ký công, kể cả đơn của bản thân</p>
+</li>
+<li>
+<p>Người dùng vào menu <strong>Đăng ký công</strong> &gt;&gt; Chọn <strong>Quản lý</strong> &gt;&gt; Chọn <strong>Đăng ký công</strong> &gt;&gt; Hệ thống hiển thị mặc danh sách đơn đăng ký công của nhân viên do người dùng phụ trách quản lý trực tiếp, người dùng có thể xoá bộ lọc trên thanh tìm kiếm để xem đơn đăng ký của tất cả các nhân viên trong công ty</p>
+</li>
+<li>Người dùng tìm thực hiện bấm <strong>Duyệt</strong> nếu chấp thuận đơn đăng ký công, hoặc ngược lại thì bấm <strong>Từ chối</strong></li>
+<li>Ngoài ra, người quản trị phân hệ Đăng ký công có thể chuyển 1 đơn đăng ký ở trạng thái từ "Bị từ chối" về "Nháp" để nhân viên đó có thể kiểm tra, chỉnh sửa lại thông tin và trình người có thẩm quyền duyệt lại. Thực hiện bằng cách bấm <strong>Tạo bản nháp</strong> tại màn hình chi tiết đơn đăng ký công có trạng thái <em>Bị từ chối</em>.</li>
+</ul>
+<h1 id="tong-hop-cong">Tổng hợp công <a name="tonghopcong"></a></h1>
+<p><strong><em>Đối tượng sử dụng: Cán bộ chấm công (Người dùng được phân quyền Cán bộ trong phân hệ Chấm công)</em></strong></p>
+<p>Hằng ngày, hệ thống sẽ tự động đồng bộ và chấm công cho nhân viên dựa trên các đơn đăng ký nghỉ, đơn đăng ký OT đã được duyệt của nhân viên. Thông tin chấm công sẽ hiển thị lên bảng công cho tất cả nhân viên. </p>
+<p>Người dùng xem bảng tổng hợp công trên hệ thống bằng cách vào menu <strong>Chấm công</strong> &gt;&gt; Chọn <strong>Tổng hợp công</strong> &gt;&gt; Hệ thống hiển thị dữ liệu chấm công của tất cả nhân viên tại tháng hiện tại. </p>
+<p><img alt="image-20211001171634735" src="../images/image-20211001171634735.png" /></p>
+<p><strong><em>Lưu ý:</em></strong> </p>
+<ul>
+<li><em>Để chấm công được cho nhân viên, thì bắt buộc cán bộ nhân sự phải thiết lập quá trình làm việc cho nhân viên tại bước Quản lý hồ sơ nhân viên.</em></li>
+<li><em>Hệ thống tự động chấm công hàng đêm, nên nhân viên bắt đầu làm việc ngày n thì ngày n + 1 có dữ liệu chấm công.</em></li>
+<li><em>Trong trường hợp ngày n, cán bộ chấm công muốn chốt công luôn; để lấy được cả dữ liệu chấm công ngày hiện tại, người dùng thực hiện đồng bộ công bằng cách bấm </em><em>Đồng bộ</em><em> &gt;&gt; Chọn thời gian cần đồng bộ &gt;&gt; Hệ thống hiển thị cảnh báo sẽ xoá toàn bộ dữ liệu trên bảng công trong khoảng thời gian được chọn và tự động đồng bộ lại &gt;&gt; Người dùng xác nhận </em><em>Đồng ý</em><em> &gt;&gt; Hệ thống thực hiện đồng bộ và hiển thị lại bảng công.</em></li>
+<li><em>Cán bộ chấm công có thể thực hiện xuất dữ liệu bảng công bằng cách bấm </em><em>Xuất báo cáo</em>**</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../log-histories/" class="btn btn-neutral float-right" title="Lịch sử phát triển sản phẩm">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../employee/" class="btn btn-neutral" title="Nhân viên"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../employee/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../log-histories/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

@@ -60,7 +60,51 @@ Sau khi cấu hình xong, test lại đường dẫn relative path như hình d�
 
 
 
-### 
+### Cú pháp
 
+1. Redirect link
+   ```
+    - Trường hợp mong muốn redirect đến các đầu mục trong cùng 1 site:
+        + Xác định được id của đầu mục cần redirect đến. (Xác định được id của đầu mục đó).
+        + Rồi sử dụng cú pháp: [tại đây](#id_can_redirect_toi).
+    ```  
+    ```
+    - Trường hợp mong muốn redirect đến các site khác và đến các đầu mục cụ thể:
+        + Xác định cấp url và id của đầu mục cần redirect tới. 
+        + Sử dụng cú pháp [tại đây](../url#id_can_redirect_toi).
+    ```
+    ![imgage-redirect-id](images/imgage-redirect-id.png)
+    ```
+    # Good
+      **[tại đây](#kinh-nghiem-ky-nang)**
+    # Bad
+      **[tại đây](#Kinh nghiệm & Kỹ năng)**
+    ```
 
-
+2. Đánh số chỉ mục
+   ```
+    - Giữa các chỉ mục từ cấp đầu tiên đến cấp cuối cùng thì cần viết đúng cú pháp. Giữa 2 cấp liên tiếp nhau thì các chỉ mục con cần tab vào đầu dòng để phân biệt với các chỉ mục cha.
+    - Ví dụ:
+    # Good
+    1. Đầu mục 1
+        * Nội dung 1.1
+            * Nội dung 1.1.1
+        * Nội dung 1.2
+            * Nội dung 1.2.1
+    2. Đầu mục 2
+        * Nội dung 2.1
+            * Nội dung 2.1.1
+        * Nội dung 2.2
+            * Nội dung 2.2.1
+    # Bad
+    1. Đầu mục 1
+    * Nội dung 1.1
+        * Nội dung 1.1.1
+    * Nội dung 1.2
+        * Nội dung 1.2.1
+    2. Đầu mục 2
+    * Nội dung 2.1
+        * Nội dung 2.1.1
+    * Nội dung 2.2
+        * Nội dung 2.2.1
+   ```

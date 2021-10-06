@@ -44,4 +44,9 @@ nav:
             - 'Khảo sát': 'digitalworkplace/Phan-he-khao-sat.md'
         - 'Lịch sử phát triển sản phẩm': 'digitalworkplace/Lich-su-phat-trien.md'
     - 'Release Notes': 'release-notes.md'
-theme: readthedocs
+theme:
+    name: readthedocs
+    navigation_depth: 100
+    highlightjs: true
+extra_css:
+    - css/extra.css

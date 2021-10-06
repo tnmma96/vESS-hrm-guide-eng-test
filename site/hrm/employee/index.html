@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Nhân viên - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Nh\u00e2n vi\u00ean";
+    var mkdocs_page_input_path = "hrm\\employee.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas-introduction/">Trang chủ</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="#">Hướng dẫn sử dụng chức năng</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../master-datas/">Khai báo danh mục</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../recruitment/">Tuyển dụng</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="./">Nhân viên</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#quy-trinh-nghiep-vu">Quy trình nghiệp vụ</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#luong-chuc-nang-chinh">Luồng chức năng chính</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tao-tai-khoan">Tạo tài khoản</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#them-moi-ho-so-nhan-vien">Thêm mới hồ sơ nhân viên</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#cap-nhat-ho-so-nhan-vien">Cập nhật hồ sơ nhân viên</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#cap-nhat-thanh-tich-cua-nhan-vien">Cập nhật thành tích của nhân viên</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#cap-nhat-hop-ong-qua-trinh-lam-viec-cua-nhan-vien">Cập nhật hợp đồng, quá trình làm việc của nhân viên</a>
+        <ul>
+    <li class="toctree-l5"><a class="reference internal" href="#e-xuat-hop-ong">Đề xuất hợp đồng</a>
+    </li>
+    <li class="toctree-l5"><a class="reference internal" href="#phe-duyettu-choi-hop-ong-uoc-e-xuat">Phê duyệt/Từ chối hợp đồng được đề xuất</a>
+    </li>
+    <li class="toctree-l5"><a class="reference internal" href="#ket-thuc-hop-ong-nhan-vien-nghi-viec">Kết thúc hợp đồng (Nhân viên nghỉ việc)</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../attendance/">Chấm công</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Hướng dẫn sử dụng chức năng</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../finance/fin-tien/">Quản lý tiền</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="" href="../..">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Hướng dẫn sử dụng chức năng</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../digitalworkplace/Phan-he-khao-sat/">Khảo sát</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Nhân sự &raquo;</li>
+        
+      
+        
+          <li>Hướng dẫn sử dụng chức năng &raquo;</li>
+        
+      
+    
+    <li>Nhân viên</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="quan-ly-ho-so-nhan-vien">Quản lý hồ sơ nhân viên</h1>
+<h2 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h2>
+<h5 id="quy-trinh-nghiep-vu">Quy trình nghiệp vụ</h5>
+<ul>
+<li>Công ty có nhân sự mới, đã được Trưởng bộ phận quản lý nhân sự cùng Ban Giám đốc phê duyệt đồng ý tuyển dụng.</li>
+<li>Nhân viên nhân sự thực hiện việc chuyển trạng thái từ Ứng viên sang Nhân viên công ty.</li>
+<li>Nhân viên nhân sự thực hiện tạo tài khoản đăng nhập cho nhân viên mới, tạo hợp đồng, nhập các thông tin liên quan đến nhân sự mới.</li>
+<li>Nhân viên mới thực hiện quy trình Onboarding, cập nhật thông tin cá nhân vào ngày đầu làm việc.</li>
+<li>Nhân viên nhân sự kiểm tra và hoàn thiện hồ sơ nhân viên mới, thực hiện cập nhật thông tin trong quá trình làm việc của nhân viên.</li>
+</ul>
+<h5 id="luong-chuc-nang-chinh">Luồng chức năng chính</h5>
+<ul>
+<li>Tuyển dụng nhân viên mới. Chi tiết <a href="#">tại đây</a></li>
+<li>Tạo tài khoản đăng nhập. Chi tiết <a href="#Tạo tài khoản">tại đây</a></li>
+<li>Thêm mới hồ sơ nhân viên. Chi tiết <a href="#Thêm mới hồ sơ nhân viên">tại đây</a>.</li>
+<li>Cập nhật thông tin trong quá trình làm việc của nhân viên. Chi tiết <a href="#Cập nhật hồ sơ nhân viên">tại đây</a>.</li>
+</ul>
+<h2 id="tao-tai-khoan">Tạo tài khoản</h2>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Thiết lập</strong>&gt;<strong>Người dùng &amp; công ty</strong>&gt;<strong>Người dùng</strong>.</p>
+<p><img alt="image-20211004094007844" src="../images/image-20211004094007844.png" /></p>
+<p><strong>Bước 2:</strong> Khai báo thông tin tài khoản đăng nhập</p>
+<ul>
+<li>
+<p>Tại mục <strong>Loại người dùng</strong> chọn <strong>Người sử dụng nội bộ</strong></p>
+</li>
+<li>
+<p>Tại <strong>Nguồn lực nhân sự&gt;Nhân viên</strong> chọn:</p>
+</li>
+<li><strong>Cán bộ:</strong> Nếu tài khoản là của nhân viên quản lý nhân sự</li>
+<li><strong>Người quản trị:</strong> Nếu tài khoản là của trưởng phòng quản lý nhân sự hoặc Ban Giám đốc</li>
+<li><strong>Bỏ trống:</strong> Nếu tài khoản của nhân viên không có phận sự liên quan đến phân hệ Nhân viên.</li>
+</ul>
+<p><strong>Lưu ý:</strong> Để sử dụng được phân hệ Nhân viên, tài khoản đăng nhập vào hệ thống phải được cấp quyền truy cập, tùy thuộc vào vị trí công việc của nhân viên mà tài khoản đăng nhập của họ được gán quyền tương ứng.</p>
+<p><strong>Bước 3</strong>: Sau khi “Đăng ký sử dụng thành công”, khách hàng mở hòm thư được khai báo khi đăng ký để lấy thông tin tài khoản truy cập. Khách hàng sử dụng thông tin này để đăng nhập vào chương trình (hướng dẫn đăng ký tại đây)</p>
+<p><img alt="image-20211004094034200" src="../images/image-20211004094034200.png" /></p>
+<p><strong>Bước 4</strong>: Chọn ứng dụng <strong>Nhân viên</strong>.</p>
+<p><img alt="image-20211004094207988" src="../images/image-20211004094207988.png" /></p>
+<h2 id="them-moi-ho-so-nhan-vien">Thêm mới hồ sơ nhân viên</h2>
+<p><strong>Đối tượng thực hiện:</strong> Nhân viên nhân sự.</p>
+<p><strong>Bước 1:</strong> Nhân viên quản trị nhân lực vào phân hệ <strong>Nhân viên&gt;Tạo</strong></p>
+<p><img alt="image-20211004104809471" src="../images/image-20211004104809471.png" /></p>
+<p>Sau đó thực hiện khai báo thông tin của nhân viên:</p>
+<ul>
+<li>Khai báo thông tin cá nhân cơ bản về nhân viên (căn cứ vào Sơ yếu lý lịch) như: họ tên, giới tính, ngày sinh, nơi sinh, nguyên quán, hộ khẩu thường trú, số CMND, ngày cấp, nơi cấp, trình trạng hôn nhân, dân tộc, tôn giáo, trình độ văn hóa, trình độ đào tạo, trường đào tạo…</li>
+<li>Khai báo thông tin công việc của nhân viên: chức danh, phòng ban, người quản lý, tài khoản đăng nhập của nhân viên.  </li>
+</ul>
+<p><img alt="image-20211004110010849" src="../images/image-20211004110010849.png" /></p>
+<p><strong>Lưu ý:</strong> Mã nhân viên sẽ được hệ thống tự sinh sau khi người dùng hoàn thành thao tác thêm mới hồ sơ nhân viên.</p>
+<p><strong>Bước 2:</strong> Tại tab <strong>Hợp đồng</strong>, người dùng chọn <strong>Tạo</strong> để thêm mới hợp đồng cho nhân viên. Hợp đồng sau khi tạo và duyệt tại đây sẽ được tự động sinh dữ liệu ở tab <strong>Quá trình làm việc</strong></p>
+<p><img alt="image-20210930171146814" src="../images/image-20210930171146814.png" /></p>
+<p>Nhân viên mới sau khi được thêm sẽ được sinh dữ liệu tại màn hình Hợp đồng, trạng thái là <strong>Chưa có</strong>, nhân viên nhân sự chọn <strong>Đề xuất</strong>, hệ thống chuyển đến màn hình tạo hợp đồng mới.</p>
+<p><img alt="image-20210930171009027" src="../images/image-20210930171009027.png" /></p>
+<ul>
+<li>
+<p>Tại mục <strong>Nhân viên</strong> chọn nhân viên cần tạo hợp đồng, sau khi chọn nhân viên, hệ thống sẽ tự động lấy các thông tin đi kèm của nhân viên như <strong>Chức vụ, Phòng ban</strong></p>
+</li>
+<li>
+<p>Tại phần <strong>Thông tin hợp đồng</strong>, nhập các thông tin về hợp đồng với nhân viên đó, các thông tin về lương và bảo hiểm nhập tại phần <strong>Thông tin hợp đồng</strong></p>
+</li>
+<li>
+<p>Hợp đồng sau khi tạo và duyệt tại đây sẽ được tự động sinh dữ liệu ở tab <strong>Quá trình làm việc</strong></p>
+</li>
+</ul>
+<p><strong>Bước 3:</strong> Khai báo thông tin về gia đình tại tab <strong>Quan hệ gia đình</strong> và <strong>Giảm trừ gia cảnh</strong></p>
+<ul>
+<li>Tại tab <strong>Quan hệ gia đình</strong> , cho phép khai báo thông tin những người thân của nhân viên. Đồng thời theo dõi được những đối tượng thuộc diện giảm trừ gia cảnh của nhân viên để phục vụ cho công tác tạm tính thuế TNCN hàng tháng của nhân viên.</li>
+</ul>
+<p>Người dùng chọn <strong>Thêm một dòng</strong>, và thực hiện khai báo thông tin</p>
+<p><img alt="image-20210930141358725" src="../images/image-20210930141358725.png" /></p>
+<p>​       Sau khi người dùng chọn <strong>Lưu</strong>, các thông tin này được lưu và sẽ được sử dụng tiếp tại tab <strong>Giảm trừ gia cảnh</strong></p>
+<ul>
+<li>Tại tab <strong>Giảm trừ gia cảnh</strong>, người dùng bấm <strong>Sửa&gt;Thêm một dòng</strong>, để thêm người phụ thuộc, người sử dụng chọn dữ liệu có sẵn đã được khai báo trước đó trong thanh dữ liệu. </li>
+</ul>
+<p><img alt="image-20210930142133256" src="../images/image-20210930142133256.png" /></p>
+<p><strong>Bước 4:</strong> Khai báo các khoản phụ cấp mà nhân viên có thể được nhận trong quá trình công tác tại Công ty. Nếu không có phụ cấp, nhân viên nhân sự có thể bỏ trống không nhập dữ liệu</p>
+<ul>
+<li>Tại tab <strong>Phụ cấp</strong>, người dùng bấm <strong>Sửa&gt;Thêm một dòng</strong>, khai báo các khoản phụ cấp và khoảng thời gian nhân viên được nhận phụ cấp.</li>
+</ul>
+<p><img alt="image-20210930142357301" src="../images/image-20210930142357301.png" /></p>
+<p><strong>Lưu ý:</strong> Một nhân viên trong một quá trình có thể được nhận nhiều loại phụ cấp, tuy nhiên, một loại phụ cấp không được trùng lặp quá trình. </p>
+<ul>
+<li>Ví dụ: Nhân viên được nhận phụ cấp điện thoại từ ngày 01/01/2021 - 31/12/2021 là 120.000 VNĐ, thì trong khoảng thời gian này nhân viên có thể nhận phụ cấp khác (ăn trưa, xăng xe, nhà ở) nhưng không được nhận thêm khoản phụ cấp điện thoại nào nữa. </li>
+</ul>
+<p><strong>Bước 5:</strong> Khai báo thông tin liên quan đến BHXH tại tab <strong>Thông tin BHXH</strong></p>
+<p>Người dùng bấm <strong>Sửa&gt;Thêm một dòng</strong>, khai báo các thông tin lương BHXH của nhân viên</p>
+<p><img alt="image-20210930151214083" src="../images/image-20210930151214083.png" /></p>
+<p>Hệ thống tự động tính ra khoản NSDLD đóng cho nhân viên và NLD đóng, các trường thông tin này có thể được cập nhật trong quá trình nhân viên làm việc có sự biến đổi về mức lương cơ bản bằng cách chọn <strong>Thêm một dòng</strong>.</p>
+<p>Sau khi hoàn thiện, người dùng bấm <strong>Lưu</strong> để hệ thống lưu lại toàn bộ dữ liệu về nhân viên đã được khai báo.</p>
+<p>Với doanh nghiệp có sử dụng nền tảng Digital Workplace, việc tạo hồ sơ nhân viên sẽ nhanh hơn, chuẩn xác nếu các thông tin cá nhân do chính nhân viên tự nhập thông qua điện thoại thông minh. </p>
+<p>Nhân viên chủ động nhập hồ sơ của mình, thì làm theo <strong>Bước 1b</strong></p>
+<p><strong>Bước 1b:</strong> Nhân viên quản trị nhân lực vào phân hệ <strong>Thiết lập&gt;Người dùng &amp; công ty&gt;Công ty</strong> để tạo tài khoản đăng nhập cho nhân viên mới, cách làm tương tự như <strong>Tạo tài khoản</strong> </p>
+<p>Nhân viên nhân sự tiếp tục chọn <strong>Tạo nhân viên</strong> để thực hiện tạo mới một hồ sơ nhân viên trên hệ thống, nhập các thông tin về chức vụ, phòng/ban, người quản lý của nhân viên mới và bấm <strong>Lưu</strong></p>
+<p>Đến đây, nhân viên sẽ dùng tài khoản được cấp, và thực hiện đăng nhập lên phần mềm VESS trên điện thoại, và thực hiện nhập các thông tin cá nhân của mình. Sau khi nhân viên ấn <strong>Cập nhật</strong> hệ thống sẽ tự động đồng bộ vào hồ sơ nhân viên. Các dữ liệu này sẽ được nhân viên nhân sự kiểm tra và có thể chỉnh sửa nếu sau này nhân viên có nhu cầu thay đổi về thông tin cá nhân.</p>
+<p>Các bước tiếp theo vui lòng <a href="#Bước 2">quay lại <strong>Bước 2</strong></a></p>
+<h2 id="cap-nhat-ho-so-nhan-vien">Cập nhật hồ sơ nhân viên</h2>
+<p>Trong quá trình công tác tại Công ty, nhân viên sẽ có các thông tin thay đổi và cần cập nhật trên hệ thống như biến động về Thông tin cá nhân, Hợp đồng, Lương, Thành tích, Quá trình làm việc. Những sự thay đổi này đều được nhân viên nhân sự ghi lại bằng cách cập nhật thông tin hồ sơ nhân viên trong phân hệ Nhân viên.</p>
+<h3 id="cap-nhat-thanh-tich-cua-nhan-vien">Cập nhật thành tích của nhân viên</h3>
+<p><strong>Đối tượng thực hiện</strong>: Nhân viên nhân sự</p>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình <strong>Danh sách nhân viên</strong></p>
+<p><strong>Bước 2:</strong> Tại tab <strong>Thành tích</strong> chọn <strong>Sửa&gt;Thêm một dòng</strong>, thực hiện cập nhật thông tin thành tích mà nhân viên đó đã đạt được trong quá trình công tác.</p>
+<p><img alt="image-20210930165959740" src="../images/image-20210930165959740.png" /></p>
+<h3 id="cap-nhat-hop-ong-qua-trinh-lam-viec-cua-nhan-vien">Cập nhật hợp đồng, quá trình làm việc của nhân viên</h3>
+<p>Nhân viên ký hợp đồng có thời hạn trước khi đến hạn kết thúc hợp đồng cũ, hệ thống sẽ đưa ra cảnh báo các hợp đồng sắp hết hạn để nhân viên nhân sự thực hiện đề xuất hợp đồng lên cấp trên nếu nhân viên có ý định ký tiếp hợp đồng với công ty.</p>
+<p><strong>Quy trình nghiệp vụ:</strong></p>
+<ul>
+<li>Nhân viên có hợp đồng sắp đến ngày hết hạn, nhân viên nhân sự sẽ thực hiện đề xuất hợp đồng.</li>
+<li>Trưởng phòng nhân sự vào thực hiện phê duyệt/từ chối hợp đồng đề xuất. Sau khi hợp đồng được phê duyệt, dữ liệu sẽ được cập nhật vào quá trình làm việc của nhân viên.</li>
+<li>Nhân viên không muốn ký tiếp hợp đồng với công ty hoặc nhân viên có hợp đồng vô thời hạn muốn nghỉ việc, nhân viên nhân sự thực hiện cập nhật trạng thái là nghỉ việc.</li>
+</ul>
+<h4 id="e-xuat-hop-ong">Đề xuất hợp đồng</h4>
+<p><strong>Đối tượng thực hiện</strong>: Nhân viên nhân sự</p>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Nhân viên&gt;Cảnh báo hợp đồng</strong></p>
+<p><img alt="cảnh báo hợp đồng" src="../images/c%E1%BA%A3nh%20b%C3%A1o%20h%E1%BB%A3p%20%C4%91%E1%BB%93ng.png" /></p>
+<p><strong>Bước 2:</strong> Tại đây hệ thống sẽ hiển thị toàn bộ danh sách các nhân viên chưa có hợp đồng hoặc hợp đồng sắp đến hạn kết thúc hợp đồng hiện tại. </p>
+<p><img alt="image-20210930170508173" src="../images/image-20210930170508173.png" /></p>
+<ul>
+<li>Nhân viên nhân sự thực hiện đề xuất hợp đồng mới, bằng cách chọn nút <strong>Đề xuất</strong>. </li>
+</ul>
+<p><img alt="image-20210930171439795" src="../images/image-20210930171439795.png" /></p>
+<ul>
+<li>Hợp đồng sau khi Lưu sẽ chuyển sang trạng thái <strong>Mới</strong>, chờ Trưởng phòng nhân sự vào duyệt.</li>
+</ul>
+<h4 id="phe-duyettu-choi-hop-ong-uoc-e-xuat">Phê duyệt/Từ chối hợp đồng được đề xuất</h4>
+<p><strong>Đối tượng thực hiện:</strong> Trưởng phòng nhân sự</p>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Đăng nhập hệ thống, vào phân hệ <strong>Nhân viên&gt;Hợp đồng</strong></p>
+<p><img alt="image-20210930173425088" src="../images/image-20210930173425088.png" /></p>
+<ul>
+<li>Tại cột <strong>Mới</strong>, Trưởng phòng nhân sự thực hiện review hợp đồng, nếu đồng ý phê duyệt thì chọn <strong>Phê duyệt</strong>, nếu không đồng ý thì chọ <strong>Hủy</strong></li>
+<li>Hợp đồng được phê duyệt sẽ chuyển sang cột <strong>Đã duyệt</strong>.<ul>
+<li>Nếu ngày phê duyệt là ngày hợp đồng có hiệu lực thì hợp đồng sẽ chuyển sang cột <strong>Đang chạy</strong> luôn.</li>
+<li>Nếu ngày phê duyệt &lt; ngày hợp đồng có hiệu lực thì hợp đồng sẽ tự động chuyển sang cột <strong>Đang chạy</strong> vào ngày hợp đồng có hiệu lực.</li>
+</ul>
+</li>
+<li>Hợp đồng không được duyệt sẽ chuyển vào cột <strong>Đã hủy</strong></li>
+</ul>
+<h4 id="ket-thuc-hop-ong-nhan-vien-nghi-viec">Kết thúc hợp đồng (Nhân viên nghỉ việc)</h4>
+<p>Nếu nhân viên không có ý định ý tiếp với công ty, khi hợp đồng đến ngày hết hạn, hoặc nhân viên có hợp đồng vô thời hạn muốn nghỉ việc, nhân viên nhân sự sẽ thực hiện cập nhật trạng thái nghỉ việc của nhân viên trong màn hình <strong>Quá trình làm việc</strong></p>
+<p><strong>Đối tượng thực hiện</strong>: Nhân viên nhân sự</p>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Tìm kiếm nhân viên muốn cập nhật trạng thái <strong>Nghỉ việc</strong></p>
+<p><strong>Bước 2</strong>: Chọn nhân viên và chọn <strong>Sửa&gt;Quá trình làm việc</strong></p>
+<p><img alt="image-20210930175053866" src="../images/image-20210930175053866.png" /></p>
+<p><strong>Bước 3:</strong> Chọn <strong>Lưu và đóng</strong>, nhân viên này sẽ có trạng thái là Nghỉ việc, nhân viên nhân sự thực hiện Lưu trữ nhân viên nghỉ việc.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../attendance/" class="btn btn-neutral float-right" title="Chấm công">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../recruitment/" class="btn btn-neutral" title="Tuyển dụng"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../recruitment/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../attendance/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
