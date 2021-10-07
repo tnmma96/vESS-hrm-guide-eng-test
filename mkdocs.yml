@@ -38,10 +38,13 @@ nav:
         - 'Lịch sử phát triển sản phẩm': 'finance/fin-log-histories.md'
     - 'Digital workplace': 
         - 'Giới thiệu về phân hệ Digital workplace': 'digitalworkplace/Gioi-thieu-digital-workplace.md'
-        - 'Thiết lập và khai báo ban đầu': ''
+        - 'Thiết lập và khai báo ban đầu': 'digitalworkplace/dw-initialization.md'
         - 'Các thuật ngữ và từ viết tắt': 'digitalworkplace/Thuat-ngu-viet-tat.md'
         - 'Hướng dẫn sử dụng chức năng DW':
-            - 'Khảo sát': 'digitalworkplace/Phan-he-khao-sat.md'
+            - 'Đăng nhập, đăng xuất': 'digitalworkplace/Addon-login.md'
+            - 'Thảo luận': 'digitalworkplace/Addon-thao-luan.md'
+            - 'Khảo sát': 'digitalworkplace/Addon-khao-sat.md'
+            - 'Ghi chú': 'digitalworkplace/Addon-ghi-chu.md'
         - 'Lịch sử phát triển sản phẩm': 'digitalworkplace/Lich-su-phat-trien.md'
     - 'Release Notes': 'release-notes.md'
 theme:
