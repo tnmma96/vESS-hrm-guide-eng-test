@@ -17,6 +17,9 @@ body {
     src: url("../fonts/Sarabun-SemiBold.ttf") format("truetype");
     font-weight: 600;
   }
+h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
+    font-family: "Sarabun",sans-serif !important;
+}
   @font-face {
     font-family: "Sarabun";
     src: url("../fonts/Sarabun-Bold.ttf") format("truetype");

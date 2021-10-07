@@ -7,7 +7,7 @@ nav:
         - 'Giới thiệu về phân hệ Quản lý nhân sự': 'hrm/introduction.md'
         - 'Thiết lập và khai báo ban đầu': 'hrm/initialization.md'
         - 'Các thuật ngữ và từ viết tắt': 'hrm/abbreviations.md'
-        - 'Hướng dẫn sử dụng chức năng':
+        - 'Hướng dẫn sử dụng chức năng Nhân sự': 
             - 'Khai báo danh mục': 'hrm/master-datas.md'
             - 'Tuyển dụng': 'hrm/recruitment.md'
             - 'Nhân viên': 'hrm/employee.md'
@@ -21,7 +21,7 @@ nav:
         - 'Giới thiệu về phân hệ Kế toán': 'finance/fin-introduction.md'
         - 'Thiết lập và khai báo ban đầu': 'finance/fin-initialization.md'
         - 'Các thuật ngữ và từ viết tắt': 'finance/fin-abbreviations.md'
-        - 'Hướng dẫn sử dụng chức năng':
+        - 'Hướng dẫn sử dụng chức năng Kế toán':
             - 'Khai báo danh mục': 'finance/fin-danh-muc-new.md'
             - 'Quản lý tiền': 'finance/fin-tien.md'
             - 'Mua hàng': 'finance/fin-mua-hang.md'
@@ -40,7 +40,7 @@ nav:
         - 'Giới thiệu về phân hệ Digital workplace': 'digitalworkplace/Gioi-thieu-digital-workplace.md'
         - 'Thiết lập và khai báo ban đầu': ''
         - 'Các thuật ngữ và từ viết tắt': 'digitalworkplace/Thuat-ngu-viet-tat.md'
-        - 'Hướng dẫn sử dụng chức năng':
+        - 'Hướng dẫn sử dụng chức năng DW':
             - 'Khảo sát': 'digitalworkplace/Phan-he-khao-sat.md'
         - 'Lịch sử phát triển sản phẩm': 'digitalworkplace/Lich-su-phat-trien.md'
     - 'Release Notes': 'release-notes.md'

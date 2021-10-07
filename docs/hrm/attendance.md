@@ -37,7 +37,7 @@ Các luồng quy trình:
 
   [Tại đây]: #tonghopcong
 
-# Thiết lập và khai báo ban đầu <a name="khaibaobandau"></a>
+# Thiết lập và khai báo ban đầu
 
 Việc thiết lập và khai báo ban đầu của phân hệ chấm công -  đăng ký công nên được thực hiện ngay khi lần đầu cài đặt hệ thống, giúp khởi tạo dữ liệu và bắt đầu sử dụng nghiệp vụ chấm công. 
 
@@ -132,7 +132,7 @@ Người dùng điều chỉnh dữ liệu phù hợp với doanh nghiệp, bấ
 
     *Lưu ý: Các bản ghi hệ thống tạo sẵn thì không được phép xoá.*
 
-# Thiết lập kế hoạch nghỉ phép cho nhân viên <a name= "kehoachnghiphep"></a>
+# Thiết lập kế hoạch nghỉ phép cho nhân viên
 
 ***Đối tượng thực hiện: cán bộ quản lý công hoặc người quản trị phân hệ Đăng ký công***
 
@@ -159,7 +159,7 @@ Người dùng điều chỉnh dữ liệu phù hợp với doanh nghiệp, bấ
 
   ![image-20211001104849106](images/image-20211001104849106.png)
 
-# Đăng ký chấm công <a name="dangkychamcong"></a>
+# Đăng ký chấm công
 
 Đăng ký chấm công ở đây bao gồm cả đăng ký ngày nghỉ và đăng ký OT (Đăng ký công cho loại ngày làm đã được thiết lập).
 
@@ -206,7 +206,7 @@ Người quản lý công vào menu **Đăng ký công** >> Chọn **Quản lý*
 
 *Lưu ý: Người quản lý công có thể thực hiện tạo đơn đăng ký công cho từng nhân viên, cả công ty, cả 1 phòng/ban, theo nhóm nhân viên chung nhãn bằng cách lựa chọn phù hợp chế độ đăng ký ở hình trên.*
 
-# Phê duyệt/ Từ chối đăng ký công <a name="pheduyetcong"></a>
+# Phê duyệt/ Từ chối đăng ký công
 
 Đối với các loại đăng ký công cần phê duyệt thì quản lý của nhân viên hoặc quản lý công hoặc người quản trị phân hệ Đăng ký công có quyền vào duyệt tương ứng. 
 
@@ -230,7 +230,7 @@ Hướng dẫn các bước thực hiện trên hệ thống theo các đối t�
   - Người dùng tìm thực hiện bấm **Duyệt** nếu chấp thuận đơn đăng ký công, hoặc ngược lại thì bấm **Từ chối**
   - Ngoài ra, người quản trị phân hệ Đăng ký công có thể chuyển 1 đơn đăng ký ở trạng thái từ "Bị từ chối" về "Nháp" để nhân viên đó có thể kiểm tra, chỉnh sửa lại thông tin và trình người có thẩm quyền duyệt lại. Thực hiện bằng cách bấm **Tạo bản nháp** tại màn hình chi tiết đơn đăng ký công có trạng thái *Bị từ chối*.
 
-# Tổng hợp công <a name="tonghopcong"></a>
+# Tổng hợp công
 
 ***Đối tượng sử dụng: Cán bộ chấm công (Người dùng được phân quyền Cán bộ trong phân hệ Chấm công)***
 

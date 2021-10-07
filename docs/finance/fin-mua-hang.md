@@ -1,4 +1,4 @@
-### **Quy trình nghiệp vụ**
+# **Quy trình nghiệp vụ**
 
 Quản lý toàn bộ quy trình Mua hàng: Từ yêu cầu gửi báo giá đến Đơn hàng, Hóa đơn mua hàng và Hóa đơn trả hàng. Đồng thời theo dõi thanh toán hóa đơn và cấn trừ công nợ với nhà cung cấp, lên báo cáo mua hàng và báo cáo kế toán liên quan.
 
@@ -56,23 +56,21 @@ Khi đơn vị có nhu cầu mua hàng, lập yêu cầu mua hàng thì quy trì
 
 1. Vào phân hệ **Mua hàng**, Chọn **Yêu cầu báo giá** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
-![](images/fin_MuaHang_YCBG_1.png)
+    ![](images/fin_MuaHang_YCBG_1.png)
 
-1. Khai báo các thông tin chi tiết của **Yêu cầu báo giá:**
+2. Khai báo các thông tin chi tiết của **Yêu cầu báo giá:**
 
-·     Chọn thông tin Nhà cung cấp
+    ·     Chọn thông tin Nhà cung cấp
 
-·     Chọn tiền tệ giao dịch trong Đơn hàng
+    ·     Chọn tiền tệ giao dịch trong Đơn hàng
 
-·     Khai báo thông tin về Hạn chốt, Ngày nhận
+    ·     Khai báo thông tin về Hạn chốt, Ngày nhận
 
-·     Khai báo thông tin về Sản phẩm đặt từ Nhà Cung cấp: 
+    ·     Khai báo thông tin về Sản phẩm đặt từ Nhà Cung cấp: 
 
-​			Chọn các sản phẩm yêu cầu báo giá từ nhà cung cấp
-
-​			Nhập thông tin Số lượng, Đơn giá, Chiết khấu và mức Thuế đối với từng Sản phẩm
-
-​			Với nội dung cần Lưu ý đối với Yêu cầu báo giá, thực hiện Thêm ghi chú è Thông tin nội dung sẽ được in trên file gửi nhà 	Cung cấp
+    1. Chọn các sản phẩm yêu cầu báo giá từ nhà cung cấp
+    2. Nhập thông tin Số lượng, Đơn giá, Chiết khấu và mức Thuế đối với từng Sản phẩm
+    3. Với nội dung cần Lưu ý đối với Yêu cầu báo giá, thực hiện Thêm ghi chú è Thông tin nội dung sẽ được in trên file gửi nhà Cung cấp
 
 3. Nhấn **Lưu**
 
