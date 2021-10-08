@@ -2,7 +2,7 @@
 
 ## Mô tả nghiệp vụ
 
-##### Quy trình nghiệp vụ
+### Quy trình nghiệp vụ
 
 - Công ty có nhân sự mới, đã được Trưởng bộ phận quản lý nhân sự cùng Ban Giám đốc phê duyệt đồng ý tuyển dụng.
 - Nhân viên nhân sự thực hiện việc chuyển trạng thái từ Ứng viên sang Nhân viên công ty.
@@ -10,9 +10,9 @@
 - Nhân viên mới thực hiện quy trình Onboarding, cập nhật thông tin cá nhân vào ngày đầu làm việc.
 - Nhân viên nhân sự kiểm tra và hoàn thiện hồ sơ nhân viên mới, thực hiện cập nhật thông tin trong quá trình làm việc của nhân viên.
 
-##### Luồng chức năng chính
+### Luồng chức năng chính
 
-- Tuyển dụng nhân viên mới. Chi tiết [tại đây](#)
+- Tuyển dụng nhân viên mới. Chi tiết [tại đây](#../saas/saas/#bat-au-su-dung-he-thong-vess)
 - Tạo tài khoản đăng nhập. Chi tiết [tại đây](#tao-tai-khoan)
 - Thêm mới hồ sơ nhân viên. Chi tiết [tại đây](#them-moi-ho-so-nhan-vien).
 - Cập nhật thông tin trong quá trình làm việc của nhân viên. Chi tiết [tại đây](#cap-nhat-ho-so-nhan-vien).
@@ -143,7 +143,7 @@ Trong quá trình công tác tại Công ty, nhân viên sẽ có các thông ti
 
 Nhân viên ký hợp đồng có thời hạn trước khi đến hạn kết thúc hợp đồng cũ, hệ thống sẽ đưa ra cảnh báo các hợp đồng sắp hết hạn để nhân viên nhân sự thực hiện đề xuất hợp đồng lên cấp trên nếu nhân viên có ý định ký tiếp hợp đồng với công ty.
 
-**Quy trình nghiệp vụ:**
+​		**Quy trình nghiệp vụ:**
 
 - Nhân viên có hợp đồng sắp đến ngày hết hạn, nhân viên nhân sự sẽ thực hiện đề xuất hợp đồng.
 - Trưởng phòng nhân sự vào thực hiện phê duyệt/từ chối hợp đồng đề xuất. Sau khi hợp đồng được phê duyệt, dữ liệu sẽ được cập nhật vào quá trình làm việc của nhân viên.
