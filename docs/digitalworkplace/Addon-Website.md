@@ -6,9 +6,9 @@ Quản lý toàn bộ quá trình tạo dựng trang Web: Từ thiết lập ch�
 ![](Picture/PIC_DW_Website_mo-ta-quy-trinh.png)
 
 **Các luồng quy trình**
-* Thiết lập, cài đặt trang Web. Chi tiết nghiệp vụ **[tại đây](#thiet-lap-trang-web)**.
-* Viết bài, Đăng bài và Xem bài viết. Chi tiết nghiệp vụ **[tại đây](#viet-bai-dang-bai-va-xem-bai-viet)**.
-* Quản lý Khách truy cập trang Web. Chi tiết nghiệp vụ **[tại đây](#theo-doi-luong-khach-truy-cap-trang-web)**.
+* Thiết lập, cài đặt trang Web. Chi tiết nghiệp vụ **[tại đây](#thiết-lập-trang-web)**.
+* Viết bài, Đăng bài và Xem bài viết. Chi tiết nghiệp vụ **[tại đây](#viết-bài-đăng-bài-và-xem-bài-viết)**.
+* Quản lý Khách truy cập trang Web. Chi tiết nghiệp vụ **[tại đây](#theo-dõi-lượng-khách-truy-cập-trang-web)**.
 
 #### Mô tả nghiệp vụ
 
@@ -21,13 +21,13 @@ Khi có nhu cầu tạo dựng một trang Web, người dùng thực hiện cá
 5. Theo dõi lượng Khách truy cập trang Web.
 
 **Luồng chức năng chính**
-* Chọn chủ đề IApp. Chi tiết nghiệp vụ **[tại đây](#chon-chu-de-iapp)**.
-* Thiết lập menu. Chi tiết nghiệp vụ **[tại đây](#thiet-lap-menu)**.
-* Thiết lập giao diện trang Web. Chi tiết nghiệp vụ **[tại đây](#thiet-lap-giao-dien-trang-chu)**.
-* Viết bài và Đăng bài. Chi tiết nghiệp vụ **[tại đây](#viet-bai-va-dang-bai)**.
-* Xem chi tiết bài viết trên Website. Chi tiết nghiệp vụ **[tại đây](#xem-bai-viet-tren-trang-web)**.
-* Theo dõi Khách truy cập. Chi tiết nghiệp vụ **[tại đây](#theo-doi-khach-truy-cap)**.
-* Theo dõi Lượt xem trang Web. Chi tiết nghiệp vụ **[tại đây](#theo-doi-luot-xem-trang-web)**.
+* Chọn chủ đề IApp. Chi tiết nghiệp vụ **[tại đây](#chọn-chủ-đề-iapp)**.
+* Thiết lập menu. Chi tiết nghiệp vụ **[tại đây](#thiết-lập-menu)**.
+* Thiết lập giao diện trang Web. Chi tiết nghiệp vụ **[tại đây](#thiết-lập-giao-diện-trang-chủ)**.
+* Viết bài và Đăng bài. Chi tiết nghiệp vụ **[tại đây](#viết-bài-và-đăng-bài)**.
+* Xem chi tiết bài viết trên Website. Chi tiết nghiệp vụ **[tại đây](#xem-bài-viết-trên-trang-web)**.
+* Theo dõi Khách truy cập. Chi tiết nghiệp vụ **[tại đây](#theo-dõi-khách-truy-cập)**.
+* Theo dõi Lượt xem trang Web. Chi tiết nghiệp vụ **[tại đây](#theo-dõi-lượt-xem-trang-web)**.
 
 ### Thiết lập trang Web
 
