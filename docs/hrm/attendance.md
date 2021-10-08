@@ -17,25 +17,15 @@ Phân hệ Chấm công - Đăng ký công cho phép người dùng thực hiệ
 
 Các luồng quy trình:
 
-- Thiết lập và khai báo ban đầu. Xem hướng dẫn chi tiết 
+- Thiết lập và khai báo ban đầu. Xem hướng dẫn chi tiết [Tại đây](#Thiết lập và khai báo ban đầu)
+- Thiết lập kế hoạch nghỉ phép cho nhân viên. Xem hướng dẫn chi tiết [Tại đây](#Thiết lập kế hoạch nghỉ phép cho nhân viên)
 
-  [Tại đây]: #khaibaobandau
+- Nhân viên đăng ký công. Xem hướng dẫn chi tiết [Tại đây](#Đăng ký chấm công)
 
-- Thiết lập kế hoạch nghỉ phép cho nhân viên. Xem hướng dẫn chi tiết 
+- Quản lý trực tiếp của nhân viên phê duyệt/ từ chối đăng ký công. Xem hướng dẫn chi tiết [Tại đây](#Phê duyệt/ Từ chối đăng ký công)
 
-  [Tại đây]: #kehoachnghiphep
+- Cán bộ chấm công tổng hợp công. Xem hướng dẫn chi tiết [Tại đây](#Tổng hợp công)
 
-- Nhân viên đăng ký công. Xem hướng dẫn chi tiết 
-
-  [Tại đây]: #dangkychamcong
-
-- Quản lý trực tiếp của nhân viên phê duyệt/ từ chối đăng ký công. Xem hướng dẫn chi tiết 
-
-  [Tại đây]: #pheduyetcong
-
-- Cán bộ chấm công tổng hợp công. Xem hướng dẫn chi tiết 
-
-  [Tại đây]: #tonghopcong
 
 # Thiết lập và khai báo ban đầu
 
@@ -47,7 +37,7 @@ Việc thiết lập và khai báo ban đầu của phân hệ chấm công -  �
 
 Để đảm bảo tất cả người dùng đăng nhập vào miền ứng dụng của doanh nghiệp đảm nhận đúng vai trò, quản trị viên hệ thống cần thiết lập phân quyền phù hợp. Cụ thể như sau:
 
-- Đối với phân hệ Chấm công, gồm 4 mức phân quyền
+- Đối với phân hệ Chấm công, gồm 4 mức phân quyền:
   - Không chọn gì (bỏ trống): Người dùng không có phân sự gì với phân hệ chấm công
   - Chọn "Điểm danh thủ công": Người dùng chỉ có quyền điểm danh thủ công trên mobile hoặc máy chấm công. Có thể hiểu phân quyền này cho nhân viên bình thường trong công ty
   - Chọn "Cán bộ": Người dùng là cán bộ chấm công, có quyền tổng hợp và theo dõi báo cáo công của tất cả các nhân viên
@@ -127,12 +117,14 @@ Người dùng điều chỉnh dữ liệu phù hợp với doanh nghiệp, bấ
 - Các bước thực hiện trên hệ thống: 
 
   - Người dùng vào menu **Đăng ký công** >> Chọn **Cấu hình** >> **Hoạt động**. Hệ thống hiển thị lên màn hình danh sách các hoạt động được định nghĩa sẵn. 
+- Người dùng có thể thiết lập thêm hoạt động bằng cách bấm nút **Tạo**, nhập các thông tin yêu cầu và bấm **Lưu** để hoàn tất.
+  
 
-  - Người dùng có thể thiết lập thêm hoạt động bằng cách bấm nút **Tạo**, nhập các thông tin yêu cầu và bấm **Lưu** để hoàn tất.
-
-    *Lưu ý: Các bản ghi hệ thống tạo sẵn thì không được phép xoá.*
+*Lưu ý: Các bản ghi hệ thống tạo sẵn thì không được phép xoá.*
 
 # Thiết lập kế hoạch nghỉ phép cho nhân viên
+
+Tiền điều kiện: Quản trị viên hệ thống đã thiết lập loại hợp đồng tính phép ở bước [này](#Thiết lập loai hợp đồng tính phép)
 
 ***Đối tượng thực hiện: cán bộ quản lý công hoặc người quản trị phân hệ Đăng ký công***
 
