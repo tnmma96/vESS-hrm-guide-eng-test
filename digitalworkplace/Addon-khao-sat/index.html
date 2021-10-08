@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Khảo sát - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Kh\u1ea3o s\u00e1t";
+    var mkdocs_page_input_path = "digitalworkplace\\Addon-khao-sat.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas-introduction/">Trang chủ</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Hồ sơ nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien/">Quản lý tiền</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Kế toán tổng hợp</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-san-xuat/">Sản xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ccdc/">Công cụ dụng cụ</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-login/">Đăng nhập, đăng xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Khảo sát</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#quy-trinh">Quy trình</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-ghi-chu/">Ghi chú</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Digital workplace &raquo;</li>
+        
+      
+    
+    <li>Khảo sát</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h3 id="quy-trinh-nghiep-vu">Quy trình nghiệp vụ</h3>
+<p>Cho phép người dùng quản lý khảo sát, kết quả nhằm thu nhập thông tin, nhân định và đánh giá thực trạng của vấn đề.</p>
+<h4 id="quy-trinh">Quy trình</h4>
+<p><img alt="" src="../picture/PIC_DW_KhaoSat-QuyTrinh.png" /></p>
+<p><strong>Các luồng quy trình</strong></p>
+<ul>
+<li>
+<p>Quản lý khảo sát. Chi tiết nghiệp vụ <u><a href="#quan-ly-khao-sat">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Tham gia trả lời khảo sát. Chi tiết nghiệp vụ <u><a href="#tra-loi-khao-sat">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Quản lý tham gia khảo sát. Chi tiết nghiệp vụ <u><a href="#quan-ly-tham-gia-khao-sat">tại đây</a></u>.</p>
+</li>
+</ul>
+<h4 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h4>
+<p>Khi người sử dụng muốn quản lý khảo sát thì quy trình thực hiện như sau:</p>
+<ol>
+<li>
+<p>Tại phân hệ <strong>Khảo sát</strong>, người dùng sẽ phân loại khảo sát theo trạng thái Dự thảo, Đang thực hiện, Đang đóng. Có thể tạo thêm danh sách khác.</p>
+</li>
+<li>
+<p>Người sử dụng tạo mới tạo cuộc khảo sát bao gồm các câu hỏi khảo sát và cấu hình bộ câu hỏi khảo sát.</p>
+</li>
+<li>
+<p>Sau khi Khảo sát được tạo, người dùng sẽ gửi email đến danh sách thành viên cần khảo sát.</p>
+</li>
+<li>
+<p>Các thành viên tham gia trả lời khảo sát.</p>
+</li>
+<li>
+<p>Kết thúc khảo sát, người tạo khảo sát sẽ xem được kết quả khảo sát (Báo cáo kết quả khảo sát theo từng câu hỏi khảo sát).</p>
+</li>
+</ol>
+<p><strong>Luồng chức năng chính</strong></p>
+<ul>
+<li>
+<p>Quản lý khảo sát. Chi tiết nghiệp vụ <u><a href="#quan-ly-khao-sat">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Chia sẻ khảo sát. Chi tiết nghiệp vụ <u><a href="#chia-se-khao-sat">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Trả lời khảo sát. Chi tiết nghiệp vụ <u><a href="#tra-loi-khao-sat">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Xem kết quả khảo sát. Chi tiết nghiệp vụ <u><a href="#xem-ket-qua-khao-sat">tại đây</a></u>.</p>
+</li>
+</ul>
+<p><strong>Video hướng dẫn</strong></p>
+<h3 id="khao-sat">Khảo sát</h3>
+<h4 id="quan-ly-khao-sat">Quản lý khảo sát</h4>
+<p>Người sử dụng thực hiện phân loại khảo sát và tạo mới tạo cuộc khảo sát bao gồm các câu hỏi khảo sát, cấu hình bộ câu hỏi khảo sát.</p>
+<p><strong>Đối tượng thực hiện:</strong> Quản trị hệ thống</p>
+<ol>
+<li>
+<p>Vào phân hệ <strong>Khảo sát</strong>, người sử dụng thực hiện phân loại khảo sát bằng cách di chuyển khảo sát tới danh sách bất kì (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+<img alt="" src="../picture/PIC_DW_KhaoSat-Menu.png" /></p>
+</li>
+<li>
+<p>Chọn tạo <strong>Khảo sát</strong> 
+<img alt="" src="../picture/PIC_DW_KhaoSat-Tao.png" /></p>
+</li>
+<li>
+<p>Khai báo thông tin chung của <strong>Khảo sát</strong> </p>
+<ul>
+<li>
+<p>Chọn Ảnh khảo sát</p>
+</li>
+<li>
+<p>Khai báo thông tin Tiêu đề khảo sát</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Khai báo thông tin chi tiết của Câu hỏi (Khảo sát)</p>
+<ul>
+<li>
+<p>Khai báo thông tin Tên đầu mục </p>
+</li>
+<li>
+<p>Khai báo thông tin Câu hỏi thuộc khảo sát</p>
+<ul>
+<li>
+<p>Khai báo thông tin Câu hỏi </p>
+</li>
+<li>
+<p>Chọn thông tin Loại câu hỏi</p>
+</li>
+<li>
+<p>Khai báo thông tin chi tiết của Câu trả lời với Loại câu hỏi là Hộp văn bản một dòng người dùng cần khai báo thêm thông tin: </p>
+<ul>
+<li>
+<p>Chọn thông tin Dữ liệu phải là một Email hợp lệ: nếu chọn người dùng sẽ khai báo thêm thông tin Lưu dưới dạng email người dùng</p>
+</li>
+<li>
+<p>Chọn thông tin Lưu làm biệt hiệu của người dùng </p>
+</li>
+<li>
+<p>Chọn thông tin Xác nhận: khi chọn Xác nhận, người dùng khai báo thêm các thông tin Độ dài văn bản tối thiểu, Độ dài văn bản tối đa và Thông điệp báo lỗi xác nhận </p>
+</li>
+</ul>
+</li>
+<li>
+<p>Khai báo thông tin chi tiết của Câu trả lời với Loại câu hỏi là Giá trị kiểu số </p>
+<ul>
+<li>
+<p>Lưu ý với Loại câu hỏi là Giá trị kiểu số, người dùng sẽ khai báo thêm thông tin Xác nhận, Câu trả lời chính xác, Đã cho điểm, Điểm</p>
+</li>
+<li>
+<p>Lưu ý khi chọn Xác nhận, người dùng sẽ khai báo thêm thông tin Giá trị tối thiểu, Giá trị tối đa và Thông điệp báo lỗi xác nhận</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Khai báo thông tin chi tiết của Câu trả lời với Loại câu hỏi là Ngày</p>
+<ul>
+<li>
+<p>Lưu ý với Loại câu hỏi là Ngày, người dùng sẽ khai báo thêm thông tin Xác nhận, Câu trả lời chính xác, Đã cho điểm, Điểm</p>
+</li>
+<li>
+<p>Lưu ý khi chọn Xác nhận, người dùng sẽ khai báo thêm thông tin Ngày nhỏ nhất, Ngày lớn nhất và Thông điệp báo lỗi xác nhận </p>
+</li>
+</ul>
+</li>
+<li>
+<p>Khai báo thông tin chi tiết của Câu trả lời với Loại câu hỏi là Ngày giờ</p>
+<ul>
+<li>
+<p>Lưu ý với Loại câu hỏi là Ngày giờ, người dùng sẽ khai báo thêm thông tin Xác nhận, Câu trả lời chính xác, Đã cho điểm, Điểm</p>
+</li>
+<li>
+<p>Lưu ý khi chọn Xác nhận, người dùng sẽ khai báo thêm thông tin Ngày giờ tối thiểu, Ngày giờ tối đa và Thông điệp báo lỗi xác nhận</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Khai báo thông tin chi tiết của Câu trả lời với Loại câu hỏi là Câu hỏi lựa chọn: một câu trả lời duy nhất và Câu hỏi lựa chọn: cho phép nhiều câu trả lời, người dùng sẽ khai báo thêm thông tin Các lựa chọn, Là một câu trả lời đúng và Số điểm cho lựa chọn này</p>
+<ul>
+<li>
+<p>Với Loại câu hỏi là Ma trận, người dùng sẽ khai báo thêm thông tin Câu trả lời và Hàng ma trận</p>
+</li>
+<li>
+<p>Với Loại câu hỏi là Đánh giá, người dùng sẽ khai báo thêm thông tin Câu trả lời</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Khai báo thông tin chi tiết của Mô tả</p>
+</li>
+<li>
+<p>Khai báo thông tin chi tiết của Tùy chọn </p>
+<ul>
+<li>
+<p>Chọn thông tin Câu trả lời bắt buộc, người dùng sẽ khai báo thêm thông tin Thông báo lỗi</p>
+</li>
+<li>
+<p>Chọn thông tin Hiển thị có điều kiện, người dùng sẽ khai báo thêm thông tin Câu hỏi kích hoạt</p>
+</li>
+<li>
+<p>Chọn thông tin Giới hạn thời gian cho câu hỏi, người dùng sẽ khai báo thêm thông tin thời gian giới hạn (giây)</p>
+</li>
+<li>
+<p>Lưu ý với Loại câu hỏi là Ma trận người dùng sẽ khai báo thêm các thông tin:</p>
+<ul>
+<li>
+<p>Chọn thông tin Kiểu ma trận</p>
+</li>
+<li>
+<p>Chọn thông tin Hiển thị trường bình luận, người dùng sẽ khai báo thêm thông tin Lời bình </p>
+</li>
+</ul>
+</li>
+<li>
+<p>Lưu ý với Loại câu hỏi là Câu hỏi lựa chọn: một câu trả lời duy nhất hoặc Câu hỏi lựa chọn: cho phép nhiều câu trả lời người dùng sẽ khai báo thêm các thông tin: </p>
+<ul>
+<li>
+<p>Khai báo thông tin Số cột</p>
+</li>
+<li>
+<p>Chọn thông tin Hình ảnh về câu trả lời</p>
+</li>
+<li>
+<p>Chọn thông tin Hiển thị trường bình luận, người dùng sẽ khai báo thêm thông tin Lời bình và chọn thông tin Trường bình luận là một lựa chọn cho câu trả lời </p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Người dùng nhấn <strong>Lưu</strong> câu hỏi đã được cấu hình câu trả lời</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Khai báo thông tin chi tiết của Mô tả (Khảo sát)</p>
+</li>
+<li>
+<p>Khai báo thông tin chi tiết của Tùy chọn (Khảo sát)</p>
+<ul>
+<li>
+<p>Khai báo thông tin Câu hỏi gồm: </p>
+<ul>
+<li>
+<p>Chọn thông tin Bố cục của khảo sát</p>
+<ul>
+<li>Lưu ý đối với Bố cục khảo sát là Một trang cho mỗi phần hoặc Một trang cho mỗi câu hỏi, người dùng sẽ khai báo thêm thông tin Nút quay lại </li>
+</ul>
+</li>
+<li>
+<p>Chọn thông tin Chế độ tiến triển</p>
+</li>
+<li>
+<p>Chọn thông tin Giới hạn thời gian khảo sát: khi chọn giới hạn thời gian, người dùng sẽ khai báo thêm Thời gian giới hạn (phút)</p>
+</li>
+<li>
+<p>Chọn thông tin Lựa chọn</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Khai báo thông tin Ứng của viên </p>
+<ul>
+<li>
+<p>Chọn thông tin Chế độ truy cập </p>
+</li>
+<li>
+<p>Chọn thông tin Yêu cầu đăng nhập </p>
+</li>
+<li>
+<p>Lưu ý khi chọn Chế độ truy cập là Chỉ người được mời hoặc chọn Yêu cầu đăng nhập, người sử dụng sẽ khai báo thêm thông tin Giới hạn nỗ lực</p>
+</li>
+<li>
+<p>Lưu ý khi chọn thông tin Giới hạn nỗ lực, người sử dụng sẽ khai báo thêm thông tin Lần thử (Số lần người dùng được tham gia thử khảo sát)</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Khai báo thông tin Chấm điểm </p>
+<ul>
+<li>
+<p>Chọn thông tin Chấm điểm là Không chấm điểm, Chấm điểm với câu trả lời ở cuối hoặc Chấm điểm mà không có câu trả lời ở cuối</p>
+</li>
+<li>
+<p>Lưu ý đối với thông tin Chấm điểm là Chấm điểm với câu trả lời ở cuối hoặc Chấm điểm mà không có câu trả lời ở cuối, người sử dụng sẽ khai báo thêm thông tin Thành công % để quy định số phần trăm được tính là đạt yêu cầu cho cuộc khảo sát và thông tin Là một chứng nhận để thiết lập khảo sát có cấp chứng chỉ hay không </p>
+</li>
+<li>
+<p>Lưu ý nếu Là một chứng nhận, người dùng sẽ khai báo thêm các thông tin: </p>
+<ul>
+<li>
+<p>Chọn thông tin Mẫu mail để thực hiện gửi mail cho người dùng</p>
+</li>
+<li>
+<p>Chọn thông tin Mẫu giấy chứng nhận</p>
+</li>
+<li>
+<p>Chọn thông tin Trao huy hiệu tới người tham gia khảo sát</p>
+</li>
+<li>
+<p>Lưu ý chọn thông tin Trao huy hiệu tới người tham gia khảo sát, người dùng sẽ khai báo thêm thông tin Huy hiệu chứng nhận</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Khai báo thông tin Phiên trực tiếp </p>
+<ul>
+<li>Chọn thông tin Thưởng cho các câu trả lời nhanh</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Nhấn <strong>Lưu</strong> khảo sát</p>
+</li>
+<li>
+<p>Sau khi khảo sát được lưu lại, người dùng thực hiện <strong>Theo dõi</strong> khảo sát, <strong>Thêm người theo dõi</strong> hoặc <strong>Thêm kênh theo dõi</strong> khảo sát. Sau đó người dùng sẽ thực hiện tạo <strong>Ghi chú</strong> và <strong>Gửi tin</strong> đến người dùng cũng đang theo dõi khảo sát</p>
+</li>
+<li>
+<p>Người sử dụng thực hiện <strong>Lên lịch công việc</strong> cho khảo sát </p>
+</li>
+</ol>
+<h4 id="chia-se-khao-sat">Chia sẻ khảo sát</h4>
+<p>Cho phép người dùng chia sẻ khảo sát đã tạo </p>
+<p><strong>Đối tượng thực hiện:</strong> Quản trị hệ thống</p>
+<ol>
+<li>
+<p>Vào phân hệ <strong>Khảo sát</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+<img alt="" src="../picture/PIC_DW_KhaoSat-Menu.png" /></p>
+</li>
+<li>
+<p>Chọn <strong>Khảo sát/Chia sẻ</strong> 
+<img alt="" src="../picture/PIC_DW_KhaoSat-ChiTiet.png" /></p>
+</li>
+<li>
+<p>Khai báo thông tin chi tiết của Chia sẻ
+<img alt="" src="../picture/PIC_DW_KhaoSat-ChiaSe.png" /></p>
+<ul>
+<li>
+<p>Khai báo thông tin Người nhận</p>
+</li>
+<li>
+<p>Khai báo thông tin Chủ đề </p>
+</li>
+<li>
+<p>Khai báo thông tin Mô tả </p>
+</li>
+<li>
+<p>Chọn Tệp đính kèm </p>
+</li>
+<li>
+<p>Khai báo thông tin Thười hạn trả lời</p>
+</li>
+<li>
+<p>Chọn thông tin Sử dụng mẫu: Mail mời khảo sát hoặc Mail gửi chứng nhận</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Người dùng nhấn <strong>Gửi</strong></p>
+</li>
+</ol>
+<h4 id="tra-loi-khao-sat">Trả lời khảo sát</h4>
+<p>Người dùng sẽ nhận được email thông báo tham gia khảo sát. Thực hiện trả lời khảo sát theo các thông tin đã được gửi</p>
+<p><strong>Đối tượng thực hiện:</strong> Người dùng</p>
+<ol>
+<li>
+<p>Vào email cá nhân. Thực hiện chọn <strong>Bắt đầu chứng nhận</strong></p>
+</li>
+<li>
+<p>Thực hiện trả lời các câu hỏi của khảo sát
+<img alt="" src="../picture/PIC_DW_Khaosat_Traloi.jpeg" /></p>
+</li>
+</ol>
+<h4 id="xem-ket-qua-khao-sat">Xem kết quả khảo sát</h4>
+<p>Cho phép người dùng xem kết quả khảo sát (Báo cáo kết quả khảo sát theo từng câu hỏi khảo sát)</p>
+<p><strong>Đối tượng thực hiện:</strong> Quản trị hệ thống</p>
+<ol>
+<li>
+<p>Vào phân hệ <strong>Khảo sát</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+<img alt="" src="../picture/PIC_DW_KhaoSat-Menu.png" /></p>
+</li>
+<li>
+<p>Chọn <strong>Khảo sát/Xem kết quả</strong> 
+<img alt="" src="../picture/PIC_DW_KhaoSat-ChiTiet.png" /></p>
+</li>
+<li>
+<p>Người dùng xem kết quả khảo sát dưới dạng biểu đồ tròn thể hiện tỉ lệ khảo sát đã đạt và tỉ lệ khảo sát đã bỏ lỡ</p>
+</li>
+</ol>
+<h3 id="quan-ly-tham-gia-khao-sat">Quản lý tham gia khảo sát</h3>
+<p>Cho phép Quản trị hệ thống xem được chi tiết các thành viên đã tham gia trả lời khảo sát của từng khảo sát</p>
+<p><strong>Đối tượng thực hiện:</strong> Quản trị hệ thống </p>
+<ol>
+<li>
+<p>Vào phân hệ <strong>Khảo sát</strong>, chọn <strong>Tham gia</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+<img alt="" src="../picture/PIC_DW_KhaoSat-Menu.png" /></p>
+</li>
+<li>
+<p>Người dùng thực hiện quản lý danh sách người dùng đã tham gia khảo sát 
+<img alt="" src="../picture/PIC_DW_Khaosat_Thamgia.jpeg" /></p>
+</li>
+<li>
+<p>Nhấn <strong>Xuất toàn bộ</strong> để xuất toàn bộ danh sách tham gia khảo sát</p>
+</li>
+</ol>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../Addon-ghi-chu/" class="btn btn-neutral float-right" title="Ghi chú">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../Addon-Website/" class="btn btn-neutral" title="Trang web"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Addon-Website/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Addon-ghi-chu/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

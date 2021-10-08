@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Đăng nhập, đăng xuất - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "\u0110\u0103ng nh\u1eadp, \u0111\u0103ng xu\u1ea5t";
+    var mkdocs_page_input_path = "digitalworkplace\\Addon-login.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas-introduction/">Trang chủ</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Hồ sơ nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien/">Quản lý tiền</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Kế toán tổng hợp</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-san-xuat/">Sản xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ccdc/">Công cụ dụng cụ</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Đăng nhập, đăng xuất</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#quy-trinh">Quy trình</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-khao-sat/">Khảo sát</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-ghi-chu/">Ghi chú</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Digital workplace &raquo;</li>
+        
+      
+    
+    <li>Đăng nhập, đăng xuất</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h3 id="quy-trinh-nghiep-vu">Quy trình nghiệp vụ</h3>
+<p>Cho phép người dùng thực hiện đăng nhập vào hệ thống, đăng xuất khỏi hệ thống, thay đổi mật khẩu, đặt lại mật khẩu.</p>
+<h4 id="quy-trinh">Quy trình</h4>
+<p><img alt="" src="../picture/PIC_DW_Login-QuyTrinh.png" /></p>
+<p><strong>Các luồng quy trình</strong></p>
+<ul>
+<li>
+<p>Đổi mật khẩu. Chi tiết nghiệp vụ <u><a href="#doi-mat-khau">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Quên mật khẩu. Chi tiết nghiệp vụ <u><a href="#quen-mat-khau">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Đăng nhập. Chi tiết nghiệp vụ <u><a href="#dang-nhap">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Đăng xuất. Chi tiết nghiệp vụ <u><a href="#dang-xuat">tại đây</a></u>.</p>
+</li>
+</ul>
+<h4 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h4>
+<p>Khi người sử dụng muốn đăng nhập vào hệ thống thì quy trình thực hiện như sau:</p>
+<ol>
+<li>
+<p>Nếu người dùng muốn đổi mật khẩu thì thực hiện đổi mật khẩu và đăng nhập với mật khẩu mới.</p>
+</li>
+<li>
+<p>Nếu người dùng quên mật khẩu thì thực hiện lấy lại mật khẩu sau đó đặt lại mật khẩu và đăng nhập với mật khẩu mới.</p>
+</li>
+<li>
+<p>Người dùng thực hiện đăng nhập bằng email hoặc số điện thoại của người dùng.</p>
+</li>
+<li>
+<p>Người dùng muốn truy xuất khỏi hệ thống thì thực hiện đăng xuất.</p>
+</li>
+</ol>
+<p><strong>Luồng chức năng chính</strong></p>
+<ul>
+<li>
+<p>Đổi mật khẩu. Chi tiết nghiệp vụ <u><a href="#doi-mat-khau">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Quên mật khẩu. Chi tiết nghiệp vụ <u><a href="#quen-mat-khau">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Đăng nhập. Chi tiết nghiệp vụ <u><a href="#dang-nhap">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Đăng xuất. Chi tiết nghiệp vụ <u><a href="#dang-xuat">tại đây</a></u>.</p>
+</li>
+</ul>
+<p><strong>Video hướng dẫn</strong></p>
+<h3 id="ang-nhap-ang-xuat">Đăng nhập, đăng xuất</h3>
+<blockquote>
+<p><em><u>Chú ý</u></em>: 
+- Tại các bước thực hiện dưới đây, khi người dùng truy cập từ hệ thống VESS thì sẽ không có trường Domain công ty, nếu truy cập trực tiếp từ hệ thống xác thực người dùng thì sẽ có trường Domain công ty và bắt buộc nhập. Giá trị nhập vào Domain công ty chính là giá trị URL của hệ thống cần truy cập vào và loại bỏ chuỗi http://.</p>
+<ul>
+<li>Ví dụ: URL của hệ thống cần truy cập là http://vess.store thì Domain công ty là: vess.store</li>
+</ul>
+</blockquote>
+<h4 id="oi-mat-khau">Đổi mật khẩu</h4>
+<p>Người sử dụng thực hiện đổi mật khẩu khác với 5 mật khẩu cũ gần đây nhất.</p>
+<ol>
+<li>
+<p>Tại màn hình login, chọn vào link <strong>Đổi mật khẩu</strong></p>
+<p><img alt="" src="../picture/PIC_DW_Login-DoiMatKhau_1.png" /></p>
+</li>
+<li>
+<p>Nhập tất cả các thông tin hợp lệ ở màn hình Đổi mật khẩu</p>
+</li>
+<li>
+<p>Bấm chọn <strong>ĐỔI MẬT KHẨU</strong> button</p>
+<p><img alt="" src="../picture/PIC_DW_Login-DoiMatKhau_2_3.png" /></p>
+</li>
+</ol>
+<blockquote>
+<p><em><u>Quy tắc đặt mật khẩu mới</u></em>:</p>
+<ul>
+<li>
+<p>Mật khẩu mới phải đủ mạnh, phải ít nhất 8 ký tự, bao gồm: chữ hoa, chữ thường, số, ký tự đặc biệt.</p>
+</li>
+<li>
+<p>Mật khẩu mới không được giống mật khẩu cũ.</p>
+</li>
+<li>
+<p>Mật khẩu mới không được bao gồm thông tin cá nhân: ngày, tháng, năm sinh, mã nhân viên, tên đăng nhập, họ tên đầy đủ, họ, tên, tên đệm (cả có dấu và không giấu), cellphone, telephone, chứng minh thư.</p>
+</li>
+<li>
+<p>Không được bắt đầu bằng "123", "963", "852", "741", "789", "147", "258", "369", "abc", "456".</p>
+</li>
+<li>
+<p>Không bao gồm các từ sau "qwerty", "password", "passw0rd", "abc123", "iloveyou", "viettel@123", "admin@123", "123qwea@", "abc123", "abc@123", "password@123", "qwerty@123", "vtt@2014", "123@123", "123123", "696969".</p>
+</li>
+</ul>
+</blockquote>
+<p>Thực hiện thay đổi mật khẩu thành công.</p>
+<h4 id="quen-mat-khau">Quên mật khẩu</h4>
+<p>Khi bị quên mật khẩu, người dùng thực hiện lấy lại mật khẩu bằng cách thực hiện chức năng quên mật khẩu, sau khi có mã bí mật gửi vào email hoặc sms người dùng sẽ truy cập vào đường dẫn được gửi trong mail / sms để truy cập vào màn hình đặt lại mật khẩu. Người dùng thực hiện đặt lại mật khẩu khác với 5 mật khẩu cũ gần đây nhất.</p>
+<ol>
+<li>
+<p>Tại màn hình login, chọn link <strong>Quên mật khẩu</strong></p>
+<p><img alt="" src="../picture/PIC_DW_Login-QuenMatKhau_1.png" /></p>
+</li>
+<li>
+<p>Nhập đầy đủ thông tin các trường ở màn hình Lấy mã bí mật </p>
+</li>
+<li>
+<p>Nhấn chọn <strong>LẤY MÃ BÍ MẬT</strong></p>
+<p><img alt="" src="../picture/PIC_DW_Login-QuenMatKhau_2_3.png" /></p>
+<p>Hệ thống sẽ gửi tin nhắn chứa mã bí mật vào email và điện thoại của người dùng. Dùng mã bí mật này để thực hiện thay đổi mật khẩu ở các bước tiếp theo</p>
+</li>
+<li>
+<p>Nhập đầy đủ thông tin các trường ở màn hình Đặt lại mật khẩu </p>
+<blockquote>
+<p><em><u>Chú ý</u></em>: Mã bí mật là mã lấy được ở <strong>Bước 3</strong></p>
+</blockquote>
+</li>
+<li>
+<p>Nhấn chọn <strong>ĐẶT LẠI MẬT KHẨU</strong></p>
+<p><img alt="" src="../picture/PIC_DW_Login-QuenMatKhau_4_5.png" /></p>
+</li>
+</ol>
+<p>Thực hiện quên mật khẩu thành công</p>
+<h4 id="ang-nhap">Đăng nhập</h4>
+<ol>
+<li>
+<p>Nhập đầy đủ thông tin Domain công ty (nếu có), Tên đăng nhập, Mật khẩu theo thông tin đã đăng ký trên hệ thống VESS</p>
+</li>
+<li>
+<p>Nhấn chọn <strong>ĐĂNG NHẬP</strong> button</p>
+<p><img alt="" src="../picture/PIC_DW_Login-DoiMatKhau_1.png" /></p>
+</li>
+</ol>
+<p>Thực hiện đăng nhập thành công</p>
+<h4 id="ang-xuat">Đăng xuất</h4>
+<p>Khi người dùng đang truy cập hệ thống VESS mà muốn đăng xuất ra khỏi hệ thống thì sẽ thực hiện chức năng đăng xuất.
+1. Tại góc phải phía trên, nhân chọn vào ảnh đại diện hoặc tên của người dùng
+2. Nhấn chọn <strong>Đăng xuất</strong></p>
+<pre><code>![](picture/PIC_DW_Login-Logout.png)
+</code></pre>
+<p>Thực hiện đăng xuất thành công</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../Addon-Website/" class="btn btn-neutral float-right" title="Trang web">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../Thuat-ngu-viet-tat/" class="btn btn-neutral" title="Các thuật ngữ và từ viết tắt"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Thuat-ngu-viet-tat/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Addon-Website/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

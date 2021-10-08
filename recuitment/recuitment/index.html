@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Quản lý tuyển dụng - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Qu\u1ea3n l\u00fd tuy\u1ec3n d\u1ee5ng";
+    var mkdocs_page_input_path = "recuitment\\recuitment.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas-introduction/">Trang chủ</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Hồ sơ nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien/">Quản lý tiền</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Kế toán tổng hợp</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-san-xuat/">Sản xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ccdc/">Công cụ dụng cụ</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-login/">Đăng nhập, đăng xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-khao-sat/">Khảo sát</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-ghi-chu/">Ghi chú</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Quản lý tuyển dụng</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="quan-ly-tuyen-dung">Quản lý tuyển dụng</h1>
+<p>Phân hệ Tuyển dụng có chức năng quản lý toàn bộ quá trình tuyển dụng: Từ lúc tạo vị trí công việc có nhu cầu tuyển, đăng tin và tạo form ứng tuyển trực tuyến trên website, tạo và lưu trữ hồ sơ ứng viên, thẩm định sàng lọc hồ sơ, lập lịch thi/phỏng vấn, cập nhật kết quả tuyển dụng và tạo hồ sơ nhân viên sang hệ thống nhân sự khi tuyển dụng thành công. </p>
+<h2 id="mo-ta-nghiep-vu"><strong>Mô tả nghiệp vụ</strong></h2>
+<p><strong>Quy trình tổng quan</strong> </p>
+<p><img alt="Tuyendung_1" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Tuyendung_1.jpg" /></p>
+<h4 id="mo-ta-nghiep-vu_1"><strong>Mô tả nghiệp vụ</strong></h4>
+<p>Quá trình tuyển dụng sẽ thực hiện theo quy trình sau:</p>
+<ol>
+<li>Nhân sự phụ trách tuyển dụng căn cứ theo nhu cầu của đơn vị, phòng ban, tạo thông tin vị trí tuyển dụng, nhu cầu tuyển.</li>
+<li>Nhân sự phụ trách tuyển dụng đăng tin tuyên dụng cho vị trí cần tuyển lên các website, cho phép ứng viên quan tâm tới có thể ứng tuyển qua mẫu ứng tuyển trực tuyến. </li>
+<li>Nhân sự phụ trách tuyển dụng nhận được thông tin các ứng viên, tiến hành thẩm định, đánh giá sàng lọc sơ bộ các hồ sơ ứng viên. </li>
+<li>Nhân sự phụ trách tuyển dụng lập lịch thi / phỏng vấn và gửi thư mời tới ứng viên. Hội đồng phỏng vấn thực hiện phỏng vấn và đánh giá ứng viên theo mẫu đánh giá phù hợp với vị trí ứng tuyển. </li>
+<li>Nhân sự phụ trách tuyển dụng căn cứ kết quả đánh giá của các vòng thi và phỏng vấn, cập nhật kết quả tuyển dụng. Trường hợp ứng viên đạt yêu cầu sẽ gửi thư trúng tuyển và các thỏa thuận như lương, chế độ... </li>
+<li>Với các ứng viên đạt được thống nhất và ký hoàn tất hợp đồng lao động, phụ trách tuyển dụng tạo hồ sơ nhân viên sang hệ thống nhân sự. </li>
+</ol>
+<h2 id="tao-vi-tri-cong-viec-co-nhu-cau-tuyen-dung">Tạo vị trí công việc có nhu cầu tuyển dụng</h2>
+<p>Căn cứ theo nhu cầu tuyển dụng của các đơn vị, phòng ban, người phụ trách công tác tuyển đụng sẽ tạo vị trí tuyển đụng trên hệ thống. Thông tin tuyển dụng sau đó sẽ được đưa lên các trang website tuyển dụng để tiếp cận ứng viên. </p>
+<p><strong>Đối tượng thực hiện</strong>:  Người phụ trách công tác tuyển dụng</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>Vào <strong>Cấu hình</strong> -&gt; <strong>Vị trí công việc</strong> hoặc vào <strong>Ứng viên</strong> -&gt; <strong>Theo vị trí công việc</strong></li>
+</ol>
+<p><img alt="vitricongviec_1" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\vitricongviec_1.PNG" /></p>
+<ol>
+<li>
+<p>Kích nút <strong>Tạo mới</strong> </p>
+</li>
+<li>
+<p>Nhập thông tin tạo mới vị trí công việc</p>
+</li>
+<li>
+<p><strong>Tab Mô tả công việc</strong>: các thông tin mô tả chi tiết vị trí công việc tuyển dụng sẽ được hiển thị trên các website tuyển dụng. </p>
+<p><img alt="vitricongviec_2" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\vitricongviec_2.PNG" /></p>
+</li>
+<li>
+<p><strong>Tab Tuyển dụng</strong>: nhập các thông tin chi tiết cho vị trí ứng dụng</p>
+<p><img alt="vitricongviec_3" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\vitricongviec_3.PNG" /></p>
+<ul>
+<li>
+<p>Trang web:  chọn website sẽ đẩy thông tin tuyển </p>
+</li>
+<li>
+<p>Phòng ban: chọn đơn vị phòng ban có nhu cầu tuyển cho vị trí. </p>
+</li>
+<li>
+<p>Nhân viên mới dự kiến: nhập số lượng cần tuyển mới cho vị trí này</p>
+</li>
+<li>
+<p>Ngày hết hạn: nhập hạn cuối nhận hồ sơ ứng tuyển của ứng viên</p>
+</li>
+<li>
+<p>Đánh giá: chọn mẫu đánh giá sẽ áp dụng khi đánh giá ứng viên với vị trí công việc này.  Nên thiết lập luôn mẫu đánh giá này nếu đã có mẫu. Trường hợp không thiết lập luôn thì cần có trước khi phỏng vấn đánh giá ứng viên cho vị trí này. </p>
+</li>
+<li>
+<p>Người tuyển dụng: người phụ trách tuyển dụng cho vị trí này, mặc định là người dùng đang đăng nhập và có thể sửa lại. </p>
+</li>
+</ul>
+</li>
+<li>
+<p>Kích <strong>Lưu</strong>  : Thông tin  về vị trí công việc cần tuyển được lưu lại. </p>
+</li>
+<li>Để xem thông tin tuyển của vị trí được đăng tải trên website, kích nút <img src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\denweb.PNG" alt="denweb" style="zoom: 67%;" /></li>
+</ol>
+<h2 id="ang-tin-tuyen-dung-tren-website">Đăng tin tuyển dụng trên website</h2>
+<p>Sau khi tạo được thông tin vị trí công việc cần tuyển dụng, người phụ trách công tác tuyển dụng sẽ chọn đăng tin lên website tuyển dụng hoặc không. </p>
+<p><strong>Đối tượng thực hiện</strong>:  Người phụ trách công tác tuyển dụng</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>Vào <strong>Ứng viên</strong> -&gt; <strong>Vị trí công việc</strong></li>
+</ol>
+<p><img alt="ungvien_vitricongviec1" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\ungvien_vitricongviec1.PNG" /></p>
+<ol>
+<li>Tích chọn  để đăng tin trên website tuyển dụng đã thiết lập </li>
+</ol>
+<p>Khi đó, hiển thị trạng thái <strong>Đang tuyển</strong> với các vị trí công việc đang đăng tin. </p>
+<ol>
+<li>Bỏ tích chọn để không hiển thị tin tuyển dụng trên website đã thiết lập</li>
+</ol>
+<p>Khi đó dòng trạng thái <strong>Đang tuyển</strong> sẽ bị ẩn đi. </p>
+<h2 id="tao-moi-ho-so-ung-vien">Tạo mới hồ sơ ứng viên</h2>
+<p>Hồ sơ ứng viên được tự động tạo trên ứng dụng tuyển dụng khi ứng viên nộp hồ sơ từ website tuyển dụng hoặc người phụ trách tuyển dụng cập nhật thông tin hoặc thêm mới trực tiếp với các trường hợp hồ sơ không nộp qua website. </p>
+<p><strong>Đối tượng thực hiện</strong>: Người phụ trách tuyển dụng</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>Vào màn hình <strong>Ứng viên</strong> -&gt; <strong>Hồ sơ xin việc</strong></li>
+</ol>
+<p><img alt="Ungvien_hoso1" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Ungvien_hoso1.PNG" /></p>
+<ol>
+<li>Kích <strong>Tạo mới</strong> </li>
+</ol>
+<p><img alt="Ungvien_hoso2" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Ungvien_hoso2.PNG" /></p>
+<ol>
+<li>
+<p>Nhập thông tin hồ sơ ứng viên</p>
+</li>
+<li>
+<p>Khai báo các thông tin của ứng viên: tên ứng viên, email, số điện thoại di động </p>
+</li>
+<li>Vị trí ứng tuyển:  chọn vị trí ứng viên muốn ứng tuyển. </li>
+<li>Phòng ban: lấy căn cứ theo vị trí ứng tuyển đã chọn</li>
+<li>
+<p>Đánh giá: người tuyển dụng đánh giá sơ bộ về ứng viên </p>
+</li>
+<li>
+<p>Kích <strong>Lưu</strong></p>
+</li>
+</ol>
+<p>Hồ sơ ứng viên đã được tạo mới và ở trạng thái <strong><em>Thẩm định ban đầu</em></strong></p>
+<ol>
+<li>
+<p>Để đính kèm thêm CV của ứng viên có 2 cách: </p>
+</li>
+<li>
+<p>Cách 1: Tại danh sách ứng viên, kích nút đính kèm tại bản ghi ứng viên cần thêm</p>
+<p>Cách 2: vào chi tiết ứng viên, kích nút <strong>Thêm các tệp đính kèm</strong></p>
+</li>
+</ol>
+<p><img alt="Ungvien_hoso3" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Ungvien_hoso3.PNG" /></p>
+<h2 id="tim-kiem-ho-so-ung-vien">Tìm kiếm hồ sơ ứng viên</h2>
+<p>Người phụ trách tuyển dụng tìm kiếm hồ sơ ứng viên theo nhiều tiêu chí. </p>
+<p><strong>Đối tượng thực hiện</strong>: Người phụ trách tuyển dụng</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>
+<p>Vào màn hình <strong>Ứng viên</strong> -&gt;<strong>Hồ sơ xin việc</strong></p>
+</li>
+<li>
+<p>Nhập nội dung tìm kiếm theo các tiêu chí vào ô Tìm kiếm</p>
+</li>
+<li>
+<p>Thực hiện tìm kiếm</p>
+</li>
+</ol>
+<p>Hiển thị danh sách hồ sơ ứng viên và trạng thái tuyển dụng của ứng viên đó. </p>
+<p><img alt="Ungvien_hoso1" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Ungvien_hoso1.PNG" /></p>
+<h2 id="xem-danh-sach-ho-so-ung-vien-ung-tuyen-cho-vi-tri-cong-viec">Xem danh sách hồ sơ ứng viên ứng tuyển cho vị trí công việc</h2>
+<p><strong>Đối tượng thực hiện</strong>: Người phụ trách tuyển dụng</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>
+<p>Vào màn hình <strong>Ứng viên</strong> -&gt; <strong>Theo vị trí công việc</strong></p>
+</li>
+<li>
+<p>Tại bản ghi vị trí công việc, kích nút <strong>Ứng viên</strong></p>
+</li>
+</ol>
+<p><img alt="vitricongviec_5" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\vitricongviec_5.PNG" /></p>
+<ol>
+<li>Hiển thị danh sách hồ sơ ứng tuyển cho vị trí công việc và trạng thái tuyển dụng </li>
+</ol>
+<p><img alt="vitricongviec_6" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\vitricongviec_6.PNG" /> </p>
+<h2 id="them-moi-lich-phong-van">Thêm mới lịch phỏng vấn</h2>
+<p>Trước mỗi vòng phỏng vấn, người phụ trách tuyển dụng thực hiện sắp lịch phỏng vấn/thi tuyển cho các ứng viên, gửi thư mời đến ứng viên và hội đồng phỏng vấn với địa điểm, thời gian cụ thể ...</p>
+<p><strong>Đối tượng thực hiện</strong>: Người phụ trách tuyển dụng</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>Vào <strong>Ứng viên</strong> -&gt; <strong>Tổ chức phỏng vấn</strong></li>
+<li>Khai báo thông tin Lịch tuyển dụng:</li>
+</ol>
+<p><img alt="img" src="../images/clip_image109.jpg" /></p>
+<p><strong><em>Lưu ý</em></strong></p>
+<ul>
+<li>Nhập Tên cuộc phỏng vấn là bắt buộc</li>
+<li>Tùy chọn <strong>Tạo lịch họp</strong>: </li>
+<li>Tùy chọn này hiển thị khi có tích hợp phân hệ Lịch</li>
+<li>Nếu tích chọn: khi tạo lịch phỏng vấn xong sẽ đồng thời tạo lịch họp trên bên hệ Lịch. </li>
+<li>Nếu không tích chọn: Chỉ tạo lịch phỏng vấn ở phân hệ tuyển dụng mà không tạo lịch họp nào trên lịch. </li>
+<li>Tab ứng viên: </li>
+<li>Kích  nút <strong>Thêm một dòng</strong>: để chọn thêm các ứng viên từ danh sách hồ sơ ứng viên</li>
+<li>Chỉ chọn ứng viên ở trạng thái <strong>Thẩm định ban đầu, phỏng vấn lần 1, phỏng vấn lần 2</strong></li>
+<li>
+<p>Ứng viên có vị trí công việc chưa được thiết lập mẫu đánh giá sẽ hiển thị cảnh báo <strong><em>Vị trí công việc chưa được thiết lập mẫu đánh giá</em></strong> . Khi đó, trước khi phỏng vấn đánh giá thì cần phải thiết lập mẫu đánh giá cho vị trí này để đánh giá được các ứng viên. </p>
+</li>
+<li>
+<p>Kích nút “<strong>Lưu</strong>”: tạo lịch phỏng vấn thành công, trạng thái lịch phỏng vấn được tạo là <strong>Mới tạo</strong></p>
+</li>
+</ul>
+<h2 id="gui-thu-moi-ung-vien-tham-gia-phong-van">Gửi thư mời ứng viên tham gia phỏng vấn</h2>
+<p>Sau khi sắp xếp lịch phỏng vấn, người phụ trách tuyển dụng tiến hành liên lạc với ứng viên để mời tham gia phỏng vấn và chủ động sắp xếp lại lịch phỏng vấn cho phù hợp. </p>
+<p>Mời ứng viên tham gia phỏng vấn có thể thực hiện bằng cách gọi điện và nhận kết quả xác nhận tham gia trực tiếp hoặc gửi email tới ứng viên. </p>
+<p><strong>Đối tượng thực hiện</strong>: Người phụ trách tuyển dụng</p>
+<p><strong>Để gửi email tới ứng viên theo mẫu</strong>: </p>
+<ul>
+<li>Để thực hiện cần phải có thiết lập cấu hình email thực hiện gửi và nội dung mẫu </li>
+</ul>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>
+<p>Vào <strong>Ứng viên</strong> -&gt; <strong>Tổ chức phỏng vấn</strong></p>
+</li>
+<li>
+<p>Kích vào nút <strong>Phỏng vấn</strong> tại buổi phỏng vấn đã đặt lịch</p>
+</li>
+<li>
+<p>Tại danh sách ứng viên, kích nút <strong>...</strong> -&gt; Thông báo</p>
+</li>
+</ol>
+<p><img alt="phongvan_1" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\phongvan_1.PNG" /></p>
+<ol>
+<li>
+<p>Nhập nội dung gửi thư mời phỏng vấn và gửi cho các ứng viên</p>
+</li>
+<li>
+<p>Kích nút <strong>Lưu mẫu mới</strong> để tạo nội dung mẫu tái sử dụng cho lần sau. </p>
+</li>
+<li>Kích nút <strong>Gửi</strong>: để gửi email tới người nhận</li>
+</ol>
+<p><img alt="thumoiphongvan" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\thumoiphongvan.PNG" /></p>
+<h2 id="cap-nhat-qua-trinh-thuc-hien-lich-phong-van">Cập nhật quá trình thực hiện lịch phỏng vấn</h2>
+<p>Người phụ trách tuyển dụng sẽ chuyển lịch phỏng vấn sang trạng thái khác theo tình hình thực hiện lịch phỏng vấn.</p>
+<p><strong>Đối tượng thực hiện</strong>: Người phụ trách tuyển dụng</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>
+<p>Vào <strong>Ứng viên</strong> -&gt; <strong>Tổ chức phỏng vấn</strong></p>
+</li>
+<li>
+<p>Kéo thả các lịch phỏng vấn về các trạng thái tương ứng tình hình lịch thực hiện phỏng vấn</p>
+</li>
+</ol>
+<p><img alt="phongvan_2" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\phongvan_2.PNG" /></p>
+<ul>
+<li>Trạng thái <strong>Dự thảo</strong>: khi mới tạo lịch phỏng vấn </li>
+<li>Trạng thái <strong>Đã đặt lịch</strong>: khi lịch phỏng vấn đã được sắp xếp tốt như lịch họp đã được duyệt, hội đồng phỏng vấn được mời xong, danh sách ứng viên đã xác định ... </li>
+<li>Trạng thái <strong>Đang thực hiện</strong>: khi đang thực hiện phỏng vấn. Ở trạng thái này cho phép cập nhật kết quả đánh giá ứng viên. </li>
+<li>Trạng thái <strong>Đã đóng</strong>: khi buổi phỏng vấn kết thúc, các kết quả đánh giá đã được hoàn thiện. Ở trạng thái này, người dùng không được cập nhật kết quả đánh giá hay trạng thái các ứng viên... </li>
+</ul>
+<h2 id="xem-va-tai-tep-cv-cua-ung-vien">Xem và tải tệp CV của ứng viên</h2>
+<p>Cho phép người dùng xem và tải CV của ứng viên. </p>
+<p><strong>Đối tượng thực hiện</strong>: Thành viên hội đồng phỏng vấn, người phụ trách tuyển dụng</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>Vào  <strong>Ứng viên</strong> -&gt; <strong>Tổ chức phỏng vấn</strong></li>
+<li>kích nút <strong>Phỏng vấn</strong> </li>
+</ol>
+<p><img alt="img" src="../images/clip_image119.jpg" /></p>
+<ol>
+<li>
+<p>Kích vào bản ghi ứng viên cần đánh giá -&gt; mở màn hình <strong>Chi tiết ứng viên</strong> </p>
+</li>
+<li>
+<p>Tại phần màn hình thảo luận, kích tải tệp CV của ứng viên nếu có tại phần Tệp đính kèm</p>
+</li>
+</ol>
+<p><img alt="xemCV" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\xemCV.PNG" /></p>
+<h2 id="anh-gia-ung-vien-trong-buoi-phong-van">Đánh giá ứng viên trong buổi phỏng vấn</h2>
+<p>Thành viên hội đồng phỏng vấn sẽ ghi lại kết quả đánh giá của mình đối với các ứng viên theo mẫu đánh giá tương ứng. </p>
+<p><strong>Đối tượng thực hiện</strong>: Thành viên hội đồng phỏng vấn</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>Vào  <strong>Ứng viên</strong> -&gt; <strong>Tổ chức phỏng vấn</strong></li>
+<li>kích nút <strong>Phỏng vấn</strong> </li>
+</ol>
+<p><img alt="img" src="../images/clip_image119.jpg" /></p>
+<ol>
+<li>Kích vào bản ghi ứng viên cần đánh giá -&gt; mở màn hình <strong>Chi tiết ứng viên</strong> </li>
+</ol>
+<p><img alt="img" src="../images/clip_image121.jpg" /></p>
+<ol>
+<li>Kích các <strong>Tab đánh giá ứng viên:</strong> thực hiện đánh giá ứng viên theo mẫu đánh giá</li>
+</ol>
+<p><img alt="img" src="../images/clip_image123.jpg" /></p>
+<p><strong><em>Lưu ý</em></strong></p>
+<ul>
+<li>
+<p>Các tiêu chí đánh giá ứng viên hiển thị tùy theo mẫu đánh giá đã được thiết lập cho vị trí ứng tuyển</p>
+</li>
+<li>
+<p>Trường hợp vào đánh giá mà hiển thị thông báo chưa có mẫu đánh giá: yêu cầu người phụ trách tuyển dụng vào thiết lập mẫu đánh giá cho vị trí tuyển dụng. </p>
+</li>
+<li>
+<p>Các tiêu chí đánh giá được thiết lập bắt buộc phải nhập kết quả đánh giá thì sẽ có dấu * </p>
+</li>
+<li>
+<p>kích nút <strong>Hoàn thành</strong></p>
+</li>
+</ul>
+<h3 id="xuat-tong-hop-anh-gia-ung-vien">Xuất tổng hợp đánh giá ứng viên</h3>
+<p>Người phụ trách tuyển dụng có thể xuất báo cáo tổng hợp đánh giá của hội đồng phỏng vấn về các ứng viên sau khi phỏng vấn. </p>
+<p><strong>Đối tượng thực hiện</strong>: Người phụ trách tuyển dụng</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>
+<p>Vào  <strong>Ứng viên</strong> -&gt; <strong>Tổ chức phỏng vấn</strong></p>
+</li>
+<li>
+<p>kích nút <strong>...</strong>  với lịch phỏng vấn <strong>Đang thực hiện</strong> hoặc <strong>Đã đóng</strong></p>
+</li>
+<li>
+<p>Kích chọn <strong>Xuất báo cáo</strong></p>
+</li>
+</ol>
+<p><img alt="baocaodanhgia" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\baocaodanhgia.PNG" /></p>
+<h2 id="cap-nhat-ket-qua-tuyen-dung-qua-cac-giai-oan">Cập nhật kết quả tuyển dụng qua các giai đoạn</h2>
+<p>Người phụ trách tuyển dụng căn cứ kết quả thẩm định hoặc đánh giá phỏng vấn, chuyển hồ sơ ứng viên sang các trạng thái tiếp theo phù hợp. </p>
+<p><strong>Đối tượng thực hiện</strong>: Người phụ trách tuyển dụng</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>
+<p>Vào màn hình <strong>Ứng viên</strong> -&gt;<strong>Hồ sơ xin việc</strong></p>
+</li>
+<li>
+<p>Tìm kiếm ứng viên cần chuyển trạng thái tuyển dụng</p>
+</li>
+<li>
+<p>Kéo thả bản ghi ứng viên sang cột ứng với trạng thái cần chuyển </p>
+</li>
+</ol>
+<p><img alt="Ungvien_hoso1" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Ungvien_hoso1.PNG" /></p>
+<ol>
+<li>
+<p>Để cập nhật trạng thái cũng có thể kích vào chi tiết hồ sơ ứng viên -&gt; kích chọn trạng thái tương ứng. </p>
+<p><img alt="Ungvien_hoso4" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Ungvien_hoso4.PNG" /> </p>
+</li>
+</ol>
+<h2 id="ky-hop-ong-va-tao-thong-tin-nhan-vien">Ký hợp đồng và tạo thông tin nhân viên</h2>
+<p>Khi ứng viên hoàn thành ký hợp đồng lao động với công ty, người phụ trách tuyển dụng sẽ tạo thông tin nhân viên sang hệ thống nhân sự từ thông tin hồ sơ xin việc. </p>
+<p><strong>Đối tượng thực hiện</strong>: Người phụ trách tuyển dụng</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>
+<p>Vào màn hình <strong>Ứng viên</strong> -&gt;<strong>Hồ sơ xin việc</strong></p>
+</li>
+<li>
+<p>Tìm kiếm ứng viên cần chuyển trạng thái tuyển dụng và tạo nhân viên</p>
+</li>
+<li>
+<p>Kích vào bản ghi ứng viên</p>
+</li>
+<li>
+<p>Tại màn hình <strong>Thông tin ứng viên</strong>, trên thanh trạng thái -&gt; Chọn trạng thái tương ứng cho hoàn tất quá trình tuyển dụng. <img alt="Ungvien_hoso4" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Ungvien_hoso4.PNG" /></p>
+</li>
+<li>
+<p>Kích nút <strong>Tạo nhân viên</strong>: Chuyển màn hình tạo hồ sơ nhân viên.</p>
+</li>
+</ol>
+<p>Người phụ trách tuyển dụng nhập các thông tin cần thiết khi tạo nhân viên và lưu lại. Nhân viên được tạo sang hệ thống nhân sự. </p>
+<p><img alt="hoso_taonhanvien" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\hoso_taonhanvien.PNG" /></p>
+<h2 id="tu-choi-tuyen-dung">Từ chối tuyển dụng</h2>
+<p>Khi không đạt được kết quả tuyển dụng hoặc không đạt thỏa thuận hợp đồng hoặc ứng viên từ chối đi làm, người phụ trách tuyển dụng sẽ cập nhật từ chối đối với ứng viên. </p>
+<p><strong>Đối tượng thực hiện</strong>: Người phụ trách tuyển dụng</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>
+<p>Vào màn hình <strong>Ứng viên</strong> -&gt;<strong>Hồ sơ xin việc</strong></p>
+</li>
+<li>
+<p>Tìm kiếm ứng viên </p>
+</li>
+<li>
+<p>Kích vào bản ghi ứng viên</p>
+</li>
+<li>
+<p>Tại màn hình <strong>Thông tin ứng viên</strong> : kích nút <strong>Từ chối</strong>  </p>
+</li>
+</ol>
+<p><img alt="Ungvien_hoso4" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Ungvien_hoso4.PNG" /></p>
+<ol>
+<li>Nhập lý do từ chối  và lưu lại</li>
+</ol>
+<p><strong><em>Lưu ý:</em></strong> </p>
+<ul>
+<li>Lý do từ chối được thiết lập sẵn trong phần <strong>Cấu hình</strong>-&gt; <strong>Lý do từ chối</strong></li>
+<li><img alt="Ungvien_hoso6" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Ungvien_hoso6.PNG" /></li>
+</ul>
+<p>Hồ sơ ứng viên được đánh dấu <strong>Bị từ chối</strong></p>
+<p><img alt="Ungvien_hoso7" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Ungvien_hoso7.PNG" /></p>
+<h2 id="bao-cao-phan-tich-tuyen-dung">Báo cáo phân tích tuyển dụng</h2>
+<p>Sau mỗi đợt tuyển dụng hoặc khi phát sinh nhu cầu, người phụ trách tuyển dụng tiến hành lập báo cáo phân tích, thống kê tình hình tuyển dụng của đơn vị.</p>
+<p><strong>Đối tượng thực hiện</strong>: Người phụ trách tuyển dụng</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>
+<p>Vào màn hình <strong>Báo cáo</strong> -&gt;<strong>Phân tích tuyển dụng</strong></p>
+</li>
+<li>
+<p>Chọn hiển thị dạng đồ thị  hoặc dạng danh sách tổng hợp</p>
+</li>
+<li>
+<p>Dạng đồ thị: </p>
+<p><img alt="baocaophantich_1" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\baocaophantich_1.PNG" /></p>
+</li>
+<li>
+<p>Dạng danh sách tổng hợp</p>
+<p><img alt="baocaophantich_2" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\baocaophantich_2.PNG" /></p>
+</li>
+<li>
+<p>Kích vào từng thành phần trong báo cáo tổng hợp để xem danh sách ứng viên chi tiết tương ứng</p>
+</li>
+</ol>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

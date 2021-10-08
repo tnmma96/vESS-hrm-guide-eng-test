@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Ghi chú - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Ghi ch\u00fa";
+    var mkdocs_page_input_path = "digitalworkplace\\Addon-ghi-chu.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas-introduction/">Trang chủ</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Hồ sơ nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien/">Quản lý tiền</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Kế toán tổng hợp</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-san-xuat/">Sản xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ccdc/">Công cụ dụng cụ</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-login/">Đăng nhập, đăng xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-khao-sat/">Khảo sát</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Ghi chú</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#quy-trinh">Quy trình</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Digital workplace &raquo;</li>
+        
+      
+    
+    <li>Ghi chú</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h3 id="quy-trinh-nghiep-vu">Quy trình nghiệp vụ</h3>
+<p>Cho phép người dùng sắp xếp công việc với các ghi chú, giúp tăng năng suất của người dùng từ các nhiệm vụ cá nhân đến biên bản cuộc họp hợp tác, bằng cách cung cấp các công cụ phù hợp để ưu tiên từng công việc, chia sẻ ý tưởng và cộng tác trên các tài liệu.</p>
+<h4 id="quy-trinh">Quy trình</h4>
+<p><img alt="" src="../picture/PIC_DW_GhiChu_QuyTrinh.png" /></p>
+<p><strong>Các luồng quy trình</strong>
+* Ghi chú. Chi tiết nghiệp vụ <u><a href="#ghi-chu">tại đây</a></u>.</p>
+<h4 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h4>
+<p>Khi người sử dụng muốn quản lý ghi chú thì quy trình thực hiện như sau:</p>
+<ol>
+<li>
+<p>Tại chức năng <strong>Ghi chú</strong>, người dùng sẽ phân loại ghi chú theo các giai đoạn mặc định: Mới, Biên bản cuộc họp, Ghi chú, Cần làm. Có thể tạo thêm danh sách khác.</p>
+</li>
+<li>
+<p>Người sử dụng tạo mới ghi chú.</p>
+</li>
+<li>
+<p>Lên lịch công việc cho bản thân hoặc người dùng khác thông qua ghi chú.</p>
+</li>
+</ol>
+<p><strong>Luồng chức năng chính</strong></p>
+<ul>
+<li>Quản lý ghi chú. Chi tiết nghiệp vụ <u><a href="#quan-ly-ghi-chu">tại đây</a></u>.</li>
+</ul>
+<p><strong>Video hướng dẫn</strong></p>
+<h3 id="ghi-chu">Ghi chú</h3>
+<h4 id="quan-ly-ghi-chu">Quản lý ghi chú</h4>
+<p>Người dùng hệ thống quản lý danh sách ghi chú bằng cách tạo các ghi chú công việc mới, sắp sếp các ghi chú theo các giai đoạn từ khi bắt đầu đến khi kết thúc và lên lịch, phân công thành viên thực hiện công việc.</p>
+<p><strong>Đối tượng thực hiện:</strong> Người dùng hệ thống</p>
+<ol>
+<li>
+<p>Vào chức năng <strong>Ghi chú</strong>, người sử dụng thực hiện phân loại ghi chú theo giai đoạn bằng cách di chuyển ghi chú tới giai đoạn bất kì (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+<img alt="" src="../picture/PIC_DW_GhiChu-Menu.png" /></p>
+</li>
+<li>
+<p>Nhấn <strong>Thêm một cột</strong> để tạo một giai đoạn riêng</p>
+</li>
+<li>
+<p>Người dùng thêm <strong>Ghi chú</strong> 
+<img alt="" src="../picture/PIC_DW_GhiChu-Tao.png" /></p>
+</li>
+<li>
+<p>Khai báo thông tin chi tiết cho ghi chú: </p>
+<ul>
+<li>
+<p>Khai báo thông tin Tag</p>
+</li>
+<li>
+<p>Chọn Giai đoạn</p>
+</li>
+<li>
+<p>Khai báo Nội dung ghi chú</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Nhấn <strong>Lưu</strong></p>
+</li>
+<li>
+<p>Sau khi ghi chú được lưu lại, người dùng thực hiện <strong>Theo dõi</strong> ghi chú, <strong>Thêm người theo dõi</strong> hoặc <strong>Thêm kênh theo dõi</strong> ghi chú. </p>
+</li>
+<li>
+<p>Người dùng sẽ thực hiện tạo <strong>Ghi chú</strong> và <strong>Gửi tin</strong> đến người dùng cũng đang theo dõi ghi chú</p>
+</li>
+<li>
+<p>Người sử dụng thực hiện <strong>Lên lịch công việc</strong> cho ghi chú</p>
+<ul>
+<li>
+<p>Chọn thông tin Kiểu hoạt động</p>
+</li>
+<li>
+<p>Khai báo thông tin Tổng kết </p>
+</li>
+<li>
+<p>Chọn thông tin Ngày đến hạn</p>
+</li>
+<li>
+<p>Chọn thông tin Phân công cho</p>
+<ul>
+<li>Người được chọn phân công phải là người đang theo dõi ghi chú </li>
+</ul>
+</li>
+<li>
+<p>Khai báo thông tin Mô tả </p>
+</li>
+<li>
+<p>Nhấn <strong>Ấn định thời gian</strong> để thực hiện giao việc cho nhân sự được chọn </p>
+</li>
+<li>
+<p>Nhân sự hoàn thành công việc được giao sẽ đánh dấu công việc là <strong>Hoàn tất hoàn thành</strong></p>
+</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_GhiChu-LenLichCV.png" /></p>
+<ul>
+<li><strong>Ghi chú:</strong> Người dùng có thể <strong>Lên lịch công việc</strong> bằng cách: vào chức năng <strong>Ghi chú</strong>, nhấn <strong>View activity</strong> và nhấn <strong>+</strong> tại các dòng Kiểu hoạt động tương ứng</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_GhiChu-ViewActivityLenLichCV.png" /></p>
+</li>
+</ol>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../Addon-timesheet/" class="btn btn-neutral float-right" title="Timesheet">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../Addon-khao-sat/" class="btn btn-neutral" title="Khảo sát"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Addon-khao-sat/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Addon-timesheet/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
