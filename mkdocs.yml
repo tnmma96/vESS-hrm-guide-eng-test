@@ -42,9 +42,10 @@ nav:
         - 'Các thuật ngữ và từ viết tắt': 'digitalworkplace/Thuat-ngu-viet-tat.md'
         - 'Hướng dẫn sử dụng chức năng DW':
             - 'Đăng nhập, đăng xuất': 'digitalworkplace/Addon-login.md'
-            - 'Thảo luận': 'digitalworkplace/Addon-thao-luan.md'
+            - 'Trang web': 'digitalworkplace/Addon-Website.md'
             - 'Khảo sát': 'digitalworkplace/Addon-khao-sat.md'
             - 'Ghi chú': 'digitalworkplace/Addon-ghi-chu.md'
+            - 'Timesheet': 'digitalworkplace/Addon-timesheet.md'
         - 'Lịch sử phát triển sản phẩm': 'digitalworkplace/Lich-su-phat-trien.md'
     - 'Release Notes': 'release-notes.md'
 theme:
