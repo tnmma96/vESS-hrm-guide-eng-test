@@ -71,10 +71,8 @@ Sau khi cấu hình xong, test lại đường dẫn relative path như hình d�
     ```
     - Trường hợp mong muốn redirect đến các site khác và đến các đầu mục cụ thể:
         + Xác định cấp url và id của đầu mục cần redirect tới. 
-        + Sử dụng cú pháp [tại đây](../url#id_can_redirect_toi).
-    ```
-    ![imgage-redirect-id](images/imgage-redirect-id.png)
-    ```
+        + Sử dụng cú pháp [tại đây](../../url#id_can_redirect_toi).
+           Ví dụ: ../../saas/saas/#bat-dau-su-dung-he-thong-vess 
     # Good
       **[tại đây](#kinh-nghiem-ky-nang)**
     # Bad
