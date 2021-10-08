@@ -12,7 +12,7 @@
 
 ### Luồng chức năng chính
 
-- Tuyển dụng nhân viên mới. Chi tiết [tại đây](#../saas/saas/#bat-au-su-dung-he-thong-vess)
+- Tuyển dụng nhân viên mới. Chi tiết [tại đây](../../saas/saas/#bat-dau-su-dung-he-thong-vess)
 - Tạo tài khoản đăng nhập. Chi tiết [tại đây](#tao-tai-khoan)
 - Thêm mới hồ sơ nhân viên. Chi tiết [tại đây](#them-moi-ho-so-nhan-vien).
 - Cập nhật thông tin trong quá trình làm việc của nhân viên. Chi tiết [tại đây](#cap-nhat-ho-so-nhan-vien).
