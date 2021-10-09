@@ -8,13 +8,13 @@ Cho phép người dùng thực hiện đăng nhập vào hệ thống, đăng x
 
 **Các luồng quy trình**
 
-* Đổi mật khẩu. Chi tiết nghiệp vụ <u>[tại đây](#doi-mat-khau)</u>.
+* Đổi mật khẩu. Chi tiết nghiệp vụ <u>[tại đây](#oi-mat-khau)</u>.
 
 * Quên mật khẩu. Chi tiết nghiệp vụ <u>[tại đây](#quen-mat-khau)</u>.
 
-* Đăng nhập. Chi tiết nghiệp vụ <u>[tại đây](#dang-nhap)</u>.
+* Đăng nhập. Chi tiết nghiệp vụ <u>[tại đây](#ang-nhap)</u>.
 
-* Đăng xuất. Chi tiết nghiệp vụ <u>[tại đây](#dang-xuat)</u>.
+* Đăng xuất. Chi tiết nghiệp vụ <u>[tại đây](#ang-xuat)</u>.
 
 
 #### Mô tả nghiệp vụ
@@ -31,19 +31,20 @@ Khi người sử dụng muốn đăng nhập vào hệ thống thì quy trình 
 
 **Luồng chức năng chính**
 
-* Đổi mật khẩu. Chi tiết nghiệp vụ <u>[tại đây](#doi-mat-khau)</u>.
+* Đổi mật khẩu. Chi tiết nghiệp vụ <u>[tại đây](#oi-mat-khau)</u>.
 
 * Quên mật khẩu. Chi tiết nghiệp vụ <u>[tại đây](#quen-mat-khau)</u>.
 
-* Đăng nhập. Chi tiết nghiệp vụ <u>[tại đây](#dang-nhap)</u>.
+* Đăng nhập. Chi tiết nghiệp vụ <u>[tại đây](#ang-nhap)</u>.
 
-* Đăng xuất. Chi tiết nghiệp vụ <u>[tại đây](#dang-xuat)</u>.
+* Đăng xuất. Chi tiết nghiệp vụ <u>[tại đây](#ang-xuat)</u>.
 
 **Video hướng dẫn**
 
 ### Đăng nhập, đăng xuất
 
- > *<u>Chú ý</u>*: 
+ > *<u>Chú ý</u>*:
+ >
  > - Tại các bước thực hiện dưới đây, khi người dùng truy cập từ hệ thống VESS thì sẽ không có trường Domain công ty, nếu truy cập trực tiếp từ hệ thống xác thực người dùng thì sẽ có trường Domain công ty và bắt buộc nhập. Giá trị nhập vào Domain công ty chính là giá trị URL của hệ thống cần truy cập vào và loại bỏ chuỗi http://.
  >
  > - Ví dụ: URL của hệ thống cần truy cập là http://vess.store thì Domain công ty là: vess.store
@@ -115,7 +116,9 @@ Thực hiện đăng nhập thành công
 
 #### Đăng xuất
 Khi người dùng đang truy cập hệ thống VESS mà muốn đăng xuất ra khỏi hệ thống thì sẽ thực hiện chức năng đăng xuất.
-1. Tại góc phải phía trên, nhân chọn vào ảnh đại diện hoặc tên của người dùng
+
+1. Tại góc phải phía trên, nhân chọn vào ảnh đại diện hoặc tên của người dùng.
+
 2. Nhấn chọn **Đăng xuất**
 
     ![](picture/PIC_DW_Login-Logout.png)
