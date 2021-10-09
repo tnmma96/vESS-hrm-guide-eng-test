@@ -4,13 +4,13 @@ Quản lý toàn bộ quá trình tạo dựng trang Web: Từ thiết lập ch�
 
 #### Quy trình
 
-![](picture/PIC_DW_Website_Motaquytrinh.png)
+![](Picture/PIC_DW_Website_Motaquytrinh.png)
 
 **Các luồng quy trình**
 
 * Thiết lập, cài đặt trang Web. Chi tiết nghiệp vụ <u>[tại đây](#thiet-lap-trang-web)</u>.
     
-* Viết bài, Đăng bài và Xem bài viết. Chi tiết nghiệp vụ <u>[tại đây](#viet-bai-ang-bai-va-xem-bai-viet)</u>.
+* Viết bài, Đăng bài và Xem bài viết. Chi tiết nghiệp vụ <u>[tại đây](#viet-bai-dang-bai-va-xem-bai-viet)</u>.
 
 * Quản lý Khách truy cập trang Web. Chi tiết nghiệp vụ <u>[tại đây](#theo-doi-luong-khach-truy-cap-trang-web)</u>.
 
@@ -28,15 +28,15 @@ Khi có nhu cầu tạo dựng một trang Web, người dùng thực hiện cá
 
 **Luồng chức năng chính**
 
-* Chọn chủ đề cho trang Web. Chi tiết nghiệp vụ <u>[tại đây](#chon-chu-e-cho-trang-web)</u>.
+* Chọn chủ đề cho trang Web. Chi tiết nghiệp vụ <u>[tại đây](#chon-chu-de-cho-trang-web)</u>.
 
 * Thiết lập giao diện trang Web. Chi tiết nghiệp vụ <u>[tại đây](#thiet-lap-giao-dien-trang-chủ)</u>.
 
 * Thiết lập menu. Chi tiết nghiệp vụ <u>[tại đây](#thiet-lap-menu)</u>.
 
-* Viết bài và Đăng bài. Chi tiết nghiệp vụ <u>[tại đây](#viet-bai-va-ang-bai)</u>.
+* Viết bài và Đăng bài. Chi tiết nghiệp vụ <u>[tại đây](#viet-bai-va-đang-bai)</u>.
 
-* Xem chi tiết bài viết trên Website. Chi tiết nghiệp vụ <u>[tại đây](#xem-bai-viet-tren-trang-web)</u>.
+* Xem chi tiết bài viết trên Website. Chi tiết nghiệp vụ <u>[tại đây](#xem-bai-vie-tren-trang-web)</u>.
 
 * Theo dõi Khách truy cập. Chi tiết nghiệp vụ <u>[tại đây](#theo-doi-khach-truy-cap)</u>
 
@@ -54,17 +54,13 @@ Quản trị viên thiết lập trang chủ, tạo dựng bộ khung ban đầu
     
     * Nhấn **Chọn một chủ đề**:
     
-    ![](picture/PIC_DW_Website_Thietlap.png)
+    ![](picture/PIC_DW_Website_Chonmotchude.png)
     
 2. Tiến hành chọn chủ đề phù hợp cho Website:
     
-    ![](picture/PIC_DW_Website_Chonchude.png)
+    * Chọn vào chủ đề thích hợp và nhấn chọn **Dùng chủ đề này**
     
-    * Nhấn **Cập nhật chủ đề**
-    
-    * Đợi ít phút để Website áp dụng chủ đề đã chọn lên hệ thống:
-    
-    ![](picture/PIC_DW_Website_Xaydungchude.png)
+    * Đợi ít phút để Website áp dụng chủ đề đã chọn lên hệ thống
     
     * Sau khi hoàn thành cài đặt chủ đề sẽ hiển thị giao diện của trang chủ:  
     
@@ -136,15 +132,15 @@ Quản trị viên thiết lập trang chủ, tạo dựng bộ khung ban đầu
         
         * Xem trước giao diện nút button tại **Preview**
         
-        * Nhấn ![](picture/PIC_DW_Website_Luu.png) để lưu lại thay đổi cho nút button
+        * Nhấn **Lưu** để lưu lại thay đổi cho nút button
     
-    ![](picture/PIC_DW_Website_Button.png)
+    ![](picture/PIC_DW_Website_Suabutton.png)
     
 4. Lưu cấu hình
     
     * Sau khi thực hiện kéo thả các Khối nội dung và các Cấu trúc bổ sung trên trang web:
         
-        * Chọn ![](picture/PIC_DW_Website_Luu.png)
+        * Chọn **Lưu**
     
     * Người dùng đã hoàn thành quy trình xây dựng giao diện Website.
 
@@ -156,11 +152,15 @@ Quản trị viên thiết lập trang chủ, tạo dựng bộ khung ban đầu
     
 2. Chọn **Cấu hình** trang web. Chọn **Các Menu**
     
-    ![](picture/PIC_DW_Website_Cacmenu.png)
+    ![](picture/PIC_DW_Website_Menucacmenu.png)
     
-3. Chọn trang web cấu hình menu và nhấn chọn menu mong muốn hiển thị trên trang Web
+3. Chọn trang web cấu hình menu
     
-    ![](picture/PIC_DW_Website_Caidatmenu.png)
+    * Tại cột Menu Hoạt động: Tích chọn menu mong muốn hiển thị trên trang Web
+    
+    * Tại cột Parent Menu: Chọn Top Menu for Website
+    
+    ![](picture/PIC_DW_Website_Tichchonmenu.png)
     
 4. Chỉnh sửa đường dẫn URL tương ứng với các menu đã chọn
 
@@ -178,15 +178,15 @@ Người dùng sẽ viết bài và đăng bài, tạo dựng nội dung cho tra
 
     * Chọn **Tạo**
     
-    ![](picture/PIC_DW_Website_Tao.png)
+    ![](picture/PIC_DW_Website_Taobaiviet.png)
 
 2. Nhập thông tin và nội dung cho bài viết:
     
-    ![](picture/PIC_DW_Website_Themmoibaiviet.png)
+    ![](picture/PIC_DW_Website_Thembaiviet.png)
     
-3. Nhấn ![](picture/PIC_DW_Website_Luu.png)
+3. Nhấn **Lưu**
 
-4. Nhấn chọn ![](picture/PIC_DW_Website_Chondentrangweb.png) để xem nội dung bài viết vừa tạo.
+4. Nhấn chọn ![](picture/PIC_DW_Website_Buttondentrangweb.png) để xem nội dung bài viết vừa tạo.
     
     ![](picture/PIC_DW_Website_Dentrangweb.png)
     
@@ -201,40 +201,44 @@ Sau khi Lưu, có thể **Gửi tin nhắn, Tạo ghi chú, hoặc Theo dõi bà
     * Về lại **Trang Web**. Chọn **Blog**. Nhấn chọn vào bài viết muốn Gửi tin
     
     * Nhấn **Gửi tin**
-        
-    ![](picture/PIC_DW_Website_Guitin.png)
+    
+    ![](picture/PIC_DW_Website_Chonguitin.png)
     
     * Nhập thông tin gửi tin
         
-        * Chọn ![](picture/PIC_DW_Website_Dinhkem.png) để đăng kèm tập đính kèm hoặc ảnh tư liệu
+        * Chọn **icon Đính kèm** để đăng kèm tập đính kèm hoặc ảnh tư liệu
         
-        * Chọn ![](picture/PIC_DW_Website_Emoji.png) để kèm thêm emoji cho lời nhắn
+        * Chọn **icon Emoji** để kèm thêm emoji cho lời nhắn
         
-        ![](picture/PIC_DW_Website_Guitinnhan.png)
+        * Chọn **icon Mở rộng** để soạn thảo tin trên trình soạn thảo đầy đủ
     
-    * Nhấn chọn ![](picture/PIC_DW_Website_Gui.png) để hoàn thành gửi tin nhắn lên bài viết
+    * Nhấn chọn ![](picture/PIC_DW_Website_Icongui.png) để hoàn thành gửi tin nhắn lên bài viết
+    
+    ![](picture/PIC_DW_Website_Guitinbaiviet.png)
     
 7. Tạo ghi chú
     
     * Chọn **Ghi chú**
     
-    ![](picture/PIC_DW_Website_Guighichu.png)
+    ![](picture/PIC_DW_Website_Chonguighichu.png)
     
     * Nhập thông tin gửi tin
         
-        * Chọn ![](picture/PIC_DW_Website_Dinhkem.png) để đăng kèm tập đính kèm hoặc ảnh tư liệu
+        * Chọn **icon Đính kèm** để đăng kèm tập đính kèm hoặc ảnh tư liệu
         
-        * Chọn ![](picture/PIC_DW_Website_Emoji.png) để kèm thêm emoji cho ghi chú
+        * Chọn **icon Emoji** để kèm thêm emoji cho lời nhắn
         
-    ![](picture/PIC_DW_Website_Guighichunoibo.png)
+        * Chọn **icon Mở rộng** để soạn thảo tin trên trình soạn thảo đầy đủ
+        
+    ![](picture/PIC_DW_Website_Ghichunoibo.png)
 
-    * Nhấn chọn ![](picture/PIC_DW_Website_Gui.png) hoàn thành đăng tải ghi chú cho bài viết
+    * Nhấn chọn ![](picture/PIC_DW_Website_Icongui.png) hoàn thành đăng tải ghi chú cho bài viết
     
 8. Theo dõi bài viết
     
-    * Nhấn chọn ![](picture/PIC_DW_Website_Chontheodoi.png) để nhận tin nhắn tương tác từ bài viết
+    * Nhấn chọn ![](picture/PIC_DW_Website_Buttontheodoi.png) để nhận tin nhắn tương tác từ bài viết
 
-    ![](picture/PIC_DW_Website_Theodoi.png)
+    ![](picture/PIC_DW_Website_Datheodoi.png)
 
 #### Xem bài viết trên trang Web
 
@@ -260,7 +264,7 @@ Quản trị viên có nhu cầu nắm bắt số lượng khách truy cập tr�
 
 1. Vào phân hệ **Trang Web**. Chọn **Khách truy cập**:
     
-    ![](picture/PIC_DW_Website_Khachtruycap.png)
+    ![](picture/PIC_DW_Website_Chonkhachtruycap.png)
 
     * Tại đây, quản trị viên theo dõi được số lượng, tên khách hàng và thời gian khách hàng truy cập website để có thể đưa ra định hướng phát triển Web.
     
@@ -268,29 +272,29 @@ Quản trị viên có nhu cầu nắm bắt số lượng khách truy cập tr�
 
 2. Tại danh sách **Khách truy cập**, nhấn chọn tên khách hàng:
     
-    ![](picture/PIC_DW_Website_Taoketnoi.png)
+    ![](picture/PIC_DW_Website_Chontenkhachhang.png)
     
 3. Lựa chọn phương thức kết nối:
     
     * Gửi email:
         
-        * Nhấn chọn nút ![](picture/PIC_DW_Website_Guiemail.png)
+        * Nhấn chọn nút ![](picture/PIC_DW_Website_Guiemailkhachhang.png)
         
         * Nhập thông tin email. 
         
-        * Nhấn ![](picture/PIC_DW_Website_Guiketnoi.png) để hoàn thành Gửi email.
+        * Nhấn ![](picture/PIC_DW_Website_Guimailkhachhang.png) để hoàn thành Gửi email.
         
-    ![](picture/PIC_DW_Website_Nhapthongtinemail.png)
+    ![](picture/PIC_DW_Website_Nhapmail.png)
     
     * Gửi SMS: 
         
-        * Nhấn chọn nút ![](picture/PIC_DW_Website_Guisms.png)
+        * Nhấn chọn nút ![](picture/PIC_DW_Website_Guitinsms.png)
         
         * Nhập thông tin SMS. 
         
-        * Nhấn ![](picture/PIC_DW_Website_Guisms.png) để hoàn thành Gửi tin nhắn SMS.
+        * Nhấn ![](picture/PIC_DW_Website_Guitinsms.png) để hoàn thành Gửi tin nhắn SMS.
 
-    ![](picture/PIC_DW_Website_Guithongtinsms.png)
+    ![](picture/PIC_DW_Website_Guismskhachhang.png)
 
 **Lưu ý:**
 
@@ -300,27 +304,27 @@ Quản trị viên có nhu cầu nắm bắt số lượng khách truy cập tr�
 
     * Nhấn chọn tên khách hàng chưa xác định danh tính
     
-    ![](picture/PIC_DW_Website_Chondoitac.png)
+    ![](picture/PIC_DW_Website_Khachhangtruycap.png)
     
-    * Nhấn chọn ![](picture/PIC_DW_Website_Sua.png)
+    * Nhấn chọn ![](picture/PIC_DW_Website_Suakhachhang.png)
     
     * Chọn **Đối tác được liên kết**
     
-    ![](picture/PIC_DW_Website_Chontendoitac.png)
+    ![](picture/PIC_DW_Website_Chontenthaythe.png)
     
-    * Nhấn ![](picture/PIC_DW_Website_Luu.png)
+    * Nhấn **Lưu**
     
     * Sau khi lưu tên đối tác được liên kết, Quản trị viên có thể gửi kết nối thông qua email, SMS đã chọn.
     
-    ![](picture/PIC_DW_Website_Themthanhcongdoitac.png)
+    ![](picture/PIC_DW_Website_Thanhcongdoitac.png)
 
 3. Với những khách hàng đã có sẵn thông tin email hoặc số điện thoại, quản trị viên có thể chọn gửi SMS hoặc email ngay tại màn hình danh sách Khách truy cập. 
     
-    * Nhấn ![](picture/PIC_DW_Website_Sms.png) để gửi tin nhắn chọn 
+    * Nhấn ![](picture/PIC_DW_Website_Buttonsms.png) để gửi tin nhắn chọn 
     
-    * Nhấn ![](picture/PIC_DW_Website_Email.png) để gửi email cho khách hàng:
+    * Nhấn ![](picture/PIC_DW_Website_Buttonemail.png) để gửi email cho khách hàng:
     
-    ![](picture/PIC_DW_Website_Guingoaidanhsach.png)
+    ![](picture/PIC_DW_Website_Guidanhsachsmsemail.png)
 
 #### Theo dõi Lượt xem trang Web
 
@@ -328,8 +332,8 @@ Quản trị viên có nhu cầu nắm bắt số lượng khách truy cập tr�
     
     * Chọn **Lượt xem**:
     
-    ![](picture/PIC_DW_Website_Luotxem.png)
+    ![](picture/PIC_DW_Website_Chonluotxem.png)
     
     * Danh sách lượt xem giúp Quản trị viên có thể theo dõi được số lượng, tên khách hàng và thời gian khách hàng truy cập website để có thể đưa ra định hướng phát triển Web.
 
-2. Chọn ![](picture/PIC_DW_Website_Export.png) để xuất báo cáo danh sách lượt người dùng xem trang web.
+2. Chọn ![](picture/PIC_DW_Website_Xuatbcexport.png) để xuất báo cáo danh sách lượt người dùng xem trang web.
