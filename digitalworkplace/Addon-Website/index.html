@@ -121,11 +121,15 @@
     </li>
     </ul>
                     </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-Social/">Mạng xã hội</a>
+                    </li>
                     <li class="toctree-l1"><a class="reference internal" href="../Addon-khao-sat/">Khảo sát</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../Addon-ghi-chu/">Ghi chú</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-su-kien/">Sự kiện</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
                     </li>
@@ -174,302 +178,457 @@
                 <h3 id="quy-trinh-nghiep-vu">Quy trình nghiệp vụ</h3>
 <p>Quản lý toàn bộ quá trình tạo dựng trang Web: Từ thiết lập chủ đề trang Web, Cấu hình quản lý truy cập, phân tích thông tin. Đồng thời, cho phép người dùng Viết bài, Đăng bài, Xem bài viết trên trang Web và quản lý lượng Khách truy cập website.</p>
 <h4 id="quy-trinh">Quy trình</h4>
-<p><img alt="" src="Picture/PIC_DW_Website_mo-ta-quy-trinh.png" /></p>
-<p><strong>Các luồng quy trình</strong>
-* Thiết lập, cài đặt trang Web. Chi tiết nghiệp vụ <strong><a href="#thiết-lập-trang-web">tại đây</a></strong>.
-* Viết bài, Đăng bài và Xem bài viết. Chi tiết nghiệp vụ <strong><a href="#viết-bài-đăng-bài-và-xem-bài-viết">tại đây</a></strong>.
-* Quản lý Khách truy cập trang Web. Chi tiết nghiệp vụ <strong><a href="#theo-dõi-lượng-khách-truy-cập-trang-web">tại đây</a></strong>.</p>
+<p><img alt="" src="../picture/PIC_DW_Website_Motaquytrinh.png" /></p>
+<p><strong>Các luồng quy trình</strong></p>
+<ul>
+<li>
+<p>Thiết lập, cài đặt trang Web. Chi tiết nghiệp vụ <u><a href="#thiet-lap-trang-web">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Viết bài, Đăng bài và Xem bài viết. Chi tiết nghiệp vụ <u><a href="#viet-bai-ang-bai-va-xem-bai-viet">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Quản lý Khách truy cập trang Web. Chi tiết nghiệp vụ <u><a href="#theo-doi-luong-khach-truy-cap-trang-web">tại đây</a></u>.</p>
+</li>
+</ul>
 <h4 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h4>
 <p>Khi có nhu cầu tạo dựng một trang Web, người dùng thực hiện các bước theo quy trình sau:</p>
 <ol>
-<li>Quản trị viên thiết lập trang Web.</li>
-<li>Quản trị viên sẽ cấu hình quản lý truy cập, phân tích thông tin trang Web.</li>
-<li>Sau khi đã tạo dựng khung hình và cấu hình trang Web, người dùng có thể vào viết bài, đăng bài trên Website.</li>
-<li>Xem bài viết đã được đăng tải trên Website.</li>
-<li>Theo dõi lượng Khách truy cập trang Web.</li>
+<li>
+<p>Quản trị viên thiết lập, tạo dựng bố cục và cấu hình trang Web.</p>
+</li>
+<li>
+<p>Sau khi đã có giao diện hoàn chỉnh, người dùng có thể vào viết bài, đăng bài trên Website.</p>
+</li>
+<li>
+<p>Các bài viết tạo dựng thành blog và người dùng có thể vào xem bài viết đã được đăng tải trên Website.</p>
+</li>
+<li>
+<p>Để quản lý tốt, Quản trị viên sẽ vào theo dõi Lượt xem lượng Khách truy cập trang Web để phát triển Website đúng hướng.</p>
+</li>
 </ol>
-<p><strong>Luồng chức năng chính</strong>
-* Chọn chủ đề IApp. Chi tiết nghiệp vụ <strong><a href="#chọn-chủ-đề-iapp">tại đây</a></strong>.
-* Thiết lập menu. Chi tiết nghiệp vụ <strong><a href="#thiết-lập-menu">tại đây</a></strong>.
-* Thiết lập giao diện trang Web. Chi tiết nghiệp vụ <strong><a href="#thiết-lập-giao-diện-trang-chủ">tại đây</a></strong>.
-* Viết bài và Đăng bài. Chi tiết nghiệp vụ <strong><a href="#viết-bài-và-đăng-bài">tại đây</a></strong>.
-* Xem chi tiết bài viết trên Website. Chi tiết nghiệp vụ <strong><a href="#xem-bài-viết-trên-trang-web">tại đây</a></strong>.
-* Theo dõi Khách truy cập. Chi tiết nghiệp vụ <strong><a href="#theo-dõi-khách-truy-cập">tại đây</a></strong>.
-* Theo dõi Lượt xem trang Web. Chi tiết nghiệp vụ <strong><a href="#theo-dõi-lượt-xem-trang-web">tại đây</a></strong>.</p>
+<p><strong>Luồng chức năng chính</strong></p>
+<ul>
+<li>
+<p>Chọn chủ đề cho trang Web. Chi tiết nghiệp vụ <u><a href="#chon-chu-e-cho-trang-web">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Thiết lập giao diện trang Web. Chi tiết nghiệp vụ <u><a href="#thiet-lap-giao-dien-trang-chủ">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Thiết lập menu. Chi tiết nghiệp vụ <u><a href="#thiet-lap-menu">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Viết bài và Đăng bài. Chi tiết nghiệp vụ <u><a href="#viet-bai-va-ang-bai">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Xem chi tiết bài viết trên Website. Chi tiết nghiệp vụ <u><a href="#xem-bai-viet-tren-trang-web">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Theo dõi Khách truy cập. Chi tiết nghiệp vụ <u><a href="#theo-doi-khach-truy-cap">tại đây</a></u></p>
+</li>
+<li>
+<p>Theo dõi Lượt xem trang Web. Chi tiết nghiệp vụ <u><a href="#theo-doi-luot-xem-trang-web">tại đây</a></u>.</p>
+</li>
+</ul>
 <h3 id="thiet-lap-trang-web">Thiết lập trang Web</h3>
 <p>Quản trị viên thiết lập trang chủ, tạo dựng bộ khung ban đầu để hình thành nên trang Web.</p>
 <p><strong>Đối tượng thực hiện:</strong> Quản trị viên</p>
-<h4 id="chon-chu-e-iapp">Chọn chủ đề IApp</h4>
+<h4 id="chon-chu-e-cho-trang-web">Chọn chủ đề cho trang Web</h4>
 <ol>
-<li>Vào phân hệ <strong>Trang Web</strong>, chọn <strong>Cấu hình</strong>. Nhấn <strong>Chọn một chủ đề</strong>:</li>
+<li>
+<p>Vào phân hệ <strong>Trang Web</strong>. Chọn <strong>Cấu hình</strong> và <strong>Thiết lập</strong>. </p>
+<ul>
+<li>Nhấn <strong>Chọn một chủ đề</strong>:</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_Website_Thietlap.png" /></p>
+</li>
+<li>
+<p>Tiến hành chọn chủ đề phù hợp cho Website:</p>
+<p><img alt="" src="../picture/PIC_DW_Website_Chonchude.png" /></p>
+<ul>
+<li>
+<p>Nhấn <strong>Cập nhật chủ đề</strong></p>
+</li>
+<li>
+<p>Đợi ít phút để Website áp dụng chủ đề đã chọn lên hệ thống:</p>
+</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_Website_Xaydungchude.png" /></p>
+<ul>
+<li>Sau khi hoàn thành cài đặt chủ đề sẽ hiển thị giao diện của trang chủ:  </li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_Website_Thietlapgiaodientrangchu.png" /></p>
+</li>
 </ol>
-<p><img alt="" src="Picture/PIC_DW_Website_thiet-lap-cau-hinh.png" /></p>
-<ol>
-<li>Tiến hành chọn <strong>chủ đề IApp</strong> cho Website:</li>
-</ol>
-<p><img alt="" src="Picture/PIC_DW_Website_chon-chu-de.jpg" /></p>
-<p><img alt="" src="Picture/PIC_DW_Website_chon-chu-de.png" /></p>
-<ul>
-<li>Nhấn <strong>Cập nhật chủ đề</strong></li>
-<li>Đợi ít phút để Website áp dụng chủ đề IApp lên hệ thống:</li>
-</ul>
-<p><img alt="" src="Picture/PIC_DW_Website_xay-dung-trang-web.jpg" /></p>
-<ul>
-<li>Sau khi hoàn thành cài đặt chủ đề, nhấn chọn <strong>Đi đến trang web</strong></li>
-</ul>
-<p><img alt="" src="Picture/PIC_DW_Website_mo-trang-web.png" /></p>
-<ul>
-<li>Trang Web hiển thị giao diện của trang chủ:  </li>
-</ul>
-<p><img alt="" src="Picture/PIC_DW_Website_hinh-anh-dep.jpg" /></p>
-<h4 id="thiet-lap-menu">Thiết lập menu</h4>
-<ul>
-<li>Vào <strong>Cấu hình</strong> trang web. Chọn <strong>Các Menu</strong>.</li>
-</ul>
-<p><img alt="" src="Picture/PIC_DW_Website_menu.png" /></p>
-<ul>
-<li>Chọn trang web cấu hình menu</li>
-<li>Chọn các menu mong muốn hiển thị trên trang web</li>
-<li>Chỉnh sửa đường dẫn URL tương ứng với các menu đã chọn</li>
-</ul>
-<p><img alt="" src="Picture/PIC_DW_Website_cau-hinh-menu.png" /></p>
-<ul>
-<li>Khi tích chọn Menu hoạt động sẽ quyết định item nào sẽ hiển thị lên trang web, những cái không được tích sẽ ẩn đi:</li>
-</ul>
-<p><img alt="" src="Picture/PIC_DW_Website_hien-thi-menu.png" /></p>
 <h4 id="thiet-lap-giao-dien-trang-chu">Thiết lập giao diện Trang chủ</h4>
-<ul>
-<li>Vào phân hệ <strong>Trang Web</strong>, chọn <strong>Cấu hình</strong>. Chọn <strong>Đi đến trang web</strong></li>
-</ul>
-<p><img alt="" src="Picture/PIC_DW_Website_di-den-trang-web.png" /></p>
 <ol>
-<li>Chọn <strong>Sửa</strong>:</li>
-</ol>
-<p><img alt="" src="Picture/PIC_DW_Website_select-sua.jpg" /></p>
+<li>
+<p>Kéo - thả các Khối nội dung phù hợp</p>
 <ul>
-<li>Hiển thị danh sách các khối nội dung bên tay phải màn hình:</li>
-</ul>
-<p><img alt="" src="Picture/PIC_DW_Website_Khoi-chinh-sua.png" /></p>
-<ol>
-<li><strong>Kéo - thả các Khối, Style</strong> và chỉnh sửa <strong>Nội dung</strong> vào vị trí giao diện:</li>
-</ol>
+<li>
+<p>Tại <strong>Trang chủ</strong>, thực hiện <strong>Kéo - thả các Khối, Style</strong> và chỉnh sửa <strong>Nội dung</strong> vào vị trí giao diện:</p>
+</li>
+<li>
 <p>Ứng dụng trong việc tạo điều kiện thuận lợi để quảng bá trên website, ngoài màu sắc thì cũng có một vài điểm cần lưu ý. </p>
-<p>Đặc biệt, bố cục của trang web là điều rất quan trọng.
-* Người dùng thực hiện chỉnh sửa theo các Khối đã có trên giao diện IApp.
-* Đối với giao diện này, người dùng chỉ cần thao tác đơn gian, kéo phần cài đặt vào vị trí cần lắp ghép.</p>
-<p>Tiến hành xây dựng trang web thông qua thao tác kéo – thả các <strong>khối Snippet</strong> được thiết kế sẵn cho từng mục đích.</p>
-<p><img alt="" src="Picture/PIC_DW_Website_keo-tha.png" /></p>
-<ol>
-<li>Nhấn vào từng mục vừa kéo - thả để thay đổi nội dung phù hợp: </li>
-</ol>
-<p><img alt="" src="Picture/PIC_DW_Website_chinh-sua.png" /></p>
+</li>
+<li>
+<p>Đặc biệt, bố cục của trang web là điều rất quan trọng.</p>
 <ul>
-<li>Nhấn đúp vào một Khối đã kéo - thả sẽ có các mục để thiết lập cho từng Khối trên trang web:<ul>
-<li>Thực hiện thay đổi nội dung phù hợp với thông tin của trang Web</li>
-<li>Thay đổi thông số phù hợp tại thanh menu bên phải</li>
-<li>Nhấn <img alt="" src="Picture/PIC_DW_Website_mui-ten.png" /> nếu cần thay đổi vị trí bố cục của từng phần</li>
-<li>Nhấn <img alt="" src="Picture/PIC_DW_Website_xoa.png" /> nếu muốn xóa khối đã kéo - thả</li>
+<li>
+<p>Người dùng thực hiện chỉnh sửa theo các Khối đã có trên giao diện.</p>
+</li>
+<li>
+<p>Đối với giao diện này, người dùng chỉ cần thao tác đơn gian, kéo phần cài đặt vào vị trí cần lắp ghép.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Tiến hành xây dựng trang web thông qua thao tác kéo – thả các khối Snippet được thiết kế sẵn cho từng mục đích.</p>
+</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_Website_Keothakhoinoidung.png" /></p>
+</li>
+<li>
+<p>Nhấn vào từng mục vừa kéo - thả để thay đổi nội dung phù hợp:</p>
+</li>
+<li>
+<p>Kéo - thả các Khối nội dung để hình thành bố cục trang chủ</p>
+<ul>
+<li>
+<p>Thực hiện thay đổi nội dung phù hợp với thông tin của trang Web</p>
+</li>
+<li>
+<p>Thay đổi thông số phù hợp tại thanh menu bên phải</p>
+</li>
+<li>
+<p>Nhấn <img alt="" src="../picture/PIC_DW_Website_Codankhoi.png" /> để điều chỉnh kích thước của khối kéo - thả</p>
+</li>
+<li>
+<p>Nhấn <img alt="" src="../picture/PIC_DW_Website_Thaydoivitrilenxuong.png" /> để chuyển vị trí lên trên, hoặc xuống dưới của các khối</p>
+</li>
+<li>
+<p>Nhấn <img alt="" src="../picture/PIC_DW_Website_Dichuyenvitricuakhoi.png" /> để kéo - thả khối đến vị trí xa hơn</p>
+</li>
+<li>
+<p>Nhấn <img alt="" src="../picture/PIC_DW_Website_Xoakhoi.png" /> để bỏ khối đã chọn</p>
+</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_Website_Thaydoinoidung.png" /></p>
+<ul>
+<li>
+<p>Nhấn <strong>Media thay thế</strong> (hoặc nhấn đúp vào Ảnh) nếu cần thay đổi hình ảnh, tài liệu khác với định dạng có sẵn.</p>
+<ul>
+<li>
+<p>Với phần Ảnh, có thể thay thế bằng Ảnh, Tài liệu, Biểu tượng, Video.</p>
+</li>
+<li>
+<p>Với phần thông tin không có Ảnh, chỉ có thể thay thế bằng Ảnh</p>
+</li>
 </ul>
 </li>
 </ul>
-<p><img alt="" src="Picture/PIC_DW_Website_chinh-sua-thong-so.png" /></p>
+<p><img alt="" src="../picture/PIC_DW_Website_Thaythemediaanh.png" /></p>
+<p><img alt="" src="../picture/PIC_DW_Website_Thaythemediachu.png" /></p>
 <ul>
-<li>Nhấn <strong>Media thay thế</strong> (hoặc nhấn đúp vào Ảnh) nếu cần thay đổi hình ảnh, tài liệu khác với định dạng có sẵn.</li>
-</ul>
-<p><img alt="" src="Picture/PIC_DW_Website_media-thay-the.png" /></p>
+<li>
+<p>Khi thay đổi Media:</p>
 <ul>
-<li>Với phần Ảnh, có thể thay thế bằng Ảnh, Tài liệu, Biểu tượng, Video.</li>
-</ul>
-<p><img alt="" src="Picture/PIC_DW_Website_thay-the-media.png" /></p>
-<ul>
-<li>Với phần thông tin không có Ảnh, chỉ có thể thay thế bằng Ảnh</li>
-</ul>
-<p><img alt="" src="Picture/PIC_DW_Website_thay-the-media-anh.png" /></p>
-<p><strong>Lưu ý:</strong> </p>
-<ul>
-<li>Khi thay đổi Media:<ul>
-<li>Có thể chọn tệp có sẵn đã được tải lên trước đó trên Website: Chọn 1 trong các tệp đã hiển thị trên màn hình.</li>
-<li>Có thể chọn Tải mới tệp từ máy tính cá nhân: Chọn <img alt="" src="Picture/PIC_DW_Website_tai-anh-tu-may-tinh.png" /></li>
-<li>Hoặc thêm tệp trực tiếp từ đường link URL: <img alt="" src="Picture/PIC_DW_Website_them-url.png" /></li>
+<li>
+<p>Có thể chọn tệp có sẵn đã được tải lên trước đó trên Website: Chọn 1 trong các tệp đã hiển thị trên màn hình.</p>
+</li>
+<li>
+<p>Chọn <img alt="" src="../picture/PIC_DW_Website_Taitep.png" /> để tải mới tệp từ máy tính cá nhân</p>
+</li>
+<li>
+<p>Chọn <img alt="" src="../picture/PIC_DW_Website_Themurl.png" /> để thêm tệp trực tiếp từ đường link URL</p>
+</li>
+<li>
+<p>Sau khi chọn tệp xong thì nhấn <img alt="" src="picture/PIC_DW_Website_Them.png" /> để lưu thay đổi</p>
+</li>
 </ul>
 </li>
-<li>Sau khi chọn tệp xong thì nhấn <img alt="" src="Picture/PIC_DW_Website_them.png" /> để lưu thay đổi</li>
 <li>
 <p>Đối với nút button: Nhấn đúp vào nút button trên màn hình:</p>
 <ul>
-<li>Nhập thông tin <strong>URL or Email</strong> để hiển thị đến link khi nhấn nút button</li>
-<li>Chọn <strong>Loại</strong> cho nút button</li>
-<li>Chọn <strong>Mở trong cửa số mới</strong> nếu muốn khi nhấn vào nút button sẽ hiển thị sang tab trình duyệt mới</li>
-<li>Xem trước giao diện nút button tại <strong>Preview</strong></li>
-<li>Nhấn <strong>Lưu</strong> để lưu lại thay đổi cho nút button</li>
+<li>
+<p>Nhập thông tin <strong>URL or Email</strong> để hiển thị đến link khi nhấn nút button</p>
+</li>
+<li>
+<p>Chọn <strong>Loại</strong> cho nút button</p>
+</li>
+<li>
+<p>Chọn <strong>Mở trong cửa số mới</strong> nếu muốn khi nhấn vào nút button sẽ hiển thị sang tab trình duyệt mới</p>
+</li>
+<li>
+<p>Xem trước giao diện nút button tại <strong>Preview</strong></p>
+</li>
+<li>
+<p>Nhấn <img alt="" src="picture/PIC_DW_Website_Luu.png" /> để lưu lại thay đổi cho nút button</p>
+</li>
 </ul>
 </li>
 </ul>
-<p><img alt="" src="Picture/PIC_DW_Website_button.png" /></p>
-<ol>
+<p><img alt="" src="picture/PIC_DW_Website_Button.png" /></p>
+</li>
 <li>
 <p>Lưu cấu hình</p>
+<ul>
+<li>
+<p>Sau khi thực hiện kéo thả các Khối nội dung và các Cấu trúc bổ sung trên trang web:</p>
+<ul>
+<li>Chọn <img alt="" src="picture/PIC_DW_Website_Luu.png" /></li>
+</ul>
 </li>
 <li>
-<p>Sau khi thực hiện kéo thả các Khối nội dung và các Cấu trúc bổ sung trên trang web:
-Chọn <strong>Lưu</strong></p>
+<p>Người dùng đã hoàn thành quy trình xây dựng giao diện Website.</p>
 </li>
-<li>Người dùng đã hoàn thành quy trình xây dựng giao diện Website.</li>
+</ul>
+</li>
+</ol>
+<h4 id="thiet-lap-menu">Thiết lập menu</h4>
+<ol>
+<li>
+<p>Vào phân hệ <strong>Trang Web</strong> </p>
+<p><img alt="" src="../picture/PIC_DW_Website_Trangweb.png" /></p>
+</li>
+<li>
+<p>Chọn <strong>Cấu hình</strong> trang web. Chọn <strong>Các Menu</strong></p>
+<p><img alt="" src="../picture/PIC_DW_Website_Cacmenu.png" /></p>
+</li>
+<li>
+<p>Chọn trang web cấu hình menu và nhấn chọn menu mong muốn hiển thị trên trang Web</p>
+<p><img alt="" src="../picture/PIC_DW_Website_Caidatmenu.png" /></p>
+</li>
+<li>
+<p>Chỉnh sửa đường dẫn URL tương ứng với các menu đã chọn</p>
+<ul>
+<li>Tích chọn cột Menu hoạt động để lựa chọn mên hiển thị lên trang Web. Những menu không được tích sẽ ẩn đi.</li>
+</ul>
+</li>
 </ol>
 <h3 id="viet-bai-ang-bai-va-xem-bai-viet">Viết bài, Đăng bài và Xem bài viết</h3>
 <h4 id="viet-bai-va-ang-bai">Viết bài và Đăng bài</h4>
 <p>Người dùng sẽ viết bài và đăng bài, tạo dựng nội dung cho trang Web.</p>
 <p><strong>Đối tượng thực hiện:</strong> Quản trị viên, Người dùng</p>
 <ol>
-<li>Vào phân hệ <strong>Trang web</strong>. Chọn <strong>Blog</strong>. Chọn <strong>Tạo</strong></li>
-</ol>
-<p><img alt="" src="Picture/PIC_DW_Website_tao-bai-viet.png" /></p>
-<ol>
-<li>Nhập thông tin và nội dung cho bài viết:</li>
-<li>Chọn Blog hiển thị</li>
-<li>Nhập Tiêu đề</li>
-<li>Nhập thẻ Tag</li>
-<li>Chọn Danh mục bài viết</li>
-<li>Nhập Nội dung
-(Các nội dung khác có thể không nhập)</li>
-</ol>
-<p><img alt="" src="Picture/PIC_DW_Website_tao-moi-bai-viet.png" /></p>
-<ol>
 <li>
-<p>Nhấn <strong>Lưu</strong>.</p>
+<p>Vào phân hệ <strong>Trang web</strong>. Chọn <strong>Blog</strong></p>
+<ul>
+<li>Chọn <strong>Tạo</strong></li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_Website_Tao.png" /></p>
 </li>
 <li>
-<p>Nhấn chọn <strong>Đến trang web</strong> để xem nội dung bài viết vừa tạo.</p>
+<p>Nhập thông tin và nội dung cho bài viết:</p>
+<p><img alt="" src="../picture/PIC_DW_Website_Themmoibaiviet.png" /></p>
+</li>
+<li>
+<p>Nhấn <img alt="" src="picture/PIC_DW_Website_Luu.png" /></p>
+</li>
+<li>
+<p>Nhấn chọn <img alt="" src="../picture/PIC_DW_Website_Chondentrangweb.png" /> để xem nội dung bài viết vừa tạo.</p>
+<p><img alt="" src="../picture/PIC_DW_Website_Dentrangweb.png" /></p>
+</li>
+<li>
+<p>Mở cài đặt Đã đăng để thực hiện Đăng bài viết (Chuyển từ <img alt="" src="../picture/PIC_DW_Website_Bodang.png" /> sang <img alt="" src="../picture/PIC_DW_Website_Dadang.png" />).</p>
+<p><img alt="" src="../picture/PIC_DW_Website_Dangtrangweb.png" /></p>
 </li>
 </ol>
-<p><img alt="" src="Picture/PIC_DW_Website_preview.png" /></p>
-<ol>
-<li>Mở cài đặt Đã đăng để thực hiện Đăng bài viết (Chuyển từ <img alt="" src="../picture/PIC_DW_Website_bo-dang.png" /> sang <img alt="" src="../picture/PIC_DW_Website_da-dang.png" />).</li>
-</ol>
-<p><img alt="" src="../picture/PIC_DW_Website_dang-bai-viet.png" /></p>
 <p>Sau khi Lưu, có thể <strong>Gửi tin nhắn, Tạo ghi chú, hoặc Theo dõi bài viết</strong> để có thể tăng độ tương tác với người dùng:</p>
 <ol>
 <li>
 <p>Gửi tin nhắn đến người theo dõi bài viết</p>
-</li>
-<li>
-<p>Tại <strong>Blog</strong>. Nhấn chọn vào bài viết muốn Gửi tin</p>
-</li>
-<li>Nhấn <strong>Gửi tin</strong></li>
-</ol>
-<p><img alt="" src="Picture/PIC_DW_Website_gui-tin.png" /></p>
 <ul>
-<li>Nhập thông tin gửi tin<ul>
-<li>Chọn <img alt="" src="Picture/PIC_DW_Website_dinh-kem-tep-anh.png" /> để đăng kèm tập đính kèm hoặc ảnh tư liệu</li>
-<li>Chọn <img alt="" src="Picture/PIC_DW_Website_emoji.png" /> để kèm thêm emoji cho lời nhắn</li>
-</ul>
+<li>
+<p>Về lại <strong>Trang Web</strong>. Chọn <strong>Blog</strong>. Nhấn chọn vào bài viết muốn Gửi tin</p>
+</li>
+<li>
+<p>Nhấn <strong>Gửi tin</strong></p>
 </li>
 </ul>
-<p><img alt="" src="Picture/PIC_DW_Website_dinh-kem.png" /></p>
-<ol>
+<p><img alt="" src="../picture/PIC_DW_Website_Guitin.png" /></p>
+<ul>
 <li>
-<p>Nhấn chọn <img alt="" src="Picture/PIC_DW_Website_gui-tin-nhan.png" /> để hoàn thành gửi tin nhắn lên bài viết</p>
+<p>Nhập thông tin gửi tin</p>
+<ul>
+<li>
+<p>Chọn <img alt="" src="../picture/PIC_DW_Website_Dinhkem.png" /> để đăng kèm tập đính kèm hoặc ảnh tư liệu</p>
+</li>
+<li>
+<p>Chọn <img alt="" src="picture/PIC_DW_Website_Emoji.png" /> để kèm thêm emoji cho lời nhắn</p>
+</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_Website_Guitinnhan.png" /></p>
+</li>
+<li>
+<p>Nhấn chọn <img alt="" src="../picture/PIC_DW_Website_Gui.png" /> để hoàn thành gửi tin nhắn lên bài viết</p>
+</li>
+</ul>
 </li>
 <li>
 <p>Tạo ghi chú</p>
-</li>
-<li>
-<p>Tại <strong>Blog</strong>. Nhấn chọn vào bài viết muốn tạo Ghi chú</p>
-</li>
-<li>Nhấn <strong>Ghi chú</strong></li>
-</ol>
-<p><img alt="" src="Picture/PIC_DW_Website_tao-ghi-chu.png" /></p>
 <ul>
-<li>Nhập thông tin gửi tin<ul>
-<li>Chọn <img alt="" src="Picture/PIC_DW_Website_dinh-kem-tep-anh.png" /> để đăng kèm tập đính kèm hoặc ảnh tư liệu</li>
-<li>Chọn <img alt="" src="Picture/PIC_DW_Website_emoji.png" /> để kèm thêm emoji cho ghi chú</li>
+<li>Chọn <strong>Ghi chú</strong></li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_Website_Guighichu.png" /></p>
+<ul>
+<li>
+<p>Nhập thông tin gửi tin</p>
+<ul>
+<li>
+<p>Chọn <img alt="" src="../picture/PIC_DW_Website_Dinhkem.png" /> để đăng kèm tập đính kèm hoặc ảnh tư liệu</p>
+</li>
+<li>
+<p>Chọn <img alt="" src="picture/PIC_DW_Website_Emoji.png" /> để kèm thêm emoji cho ghi chú</p>
+</li>
 </ul>
 </li>
 </ul>
-<p><img alt="" src="Picture/PIC_DW_Website_dinh-kem-ghi-chu.png" /></p>
-<ol>
-<li>
-<p>Nhấn chọn <img alt="" src="Picture/PIC_DW_Website_gui-tin-nhan.png" /> hoàn thành đăng tải ghi chú cho bài viết</p>
+<p><img alt="" src="../picture/PIC_DW_Website_Guighichunoibo.png" /></p>
+<ul>
+<li>Nhấn chọn <img alt="" src="../picture/PIC_DW_Website_Gui.png" /> hoàn thành đăng tải ghi chú cho bài viết</li>
+</ul>
 </li>
 <li>
 <p>Theo dõi bài viết</p>
-</li>
-<li>
-<p>Nhấn chọn Theo dõi để nhận tin nhắn tương tác từ bài viết</p>
+<ul>
+<li>Nhấn chọn <img alt="" src="../picture/PIC_DW_Website_Chontheodoi.png" /> để nhận tin nhắn tương tác từ bài viết</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_Website_Theodoi.png" /></p>
 </li>
 </ol>
-<p><img alt="" src="Picture/PIC_DW_Website_theo-doi.png" /></p>
 <h4 id="xem-bai-viet-tren-trang-web">Xem bài viết trên trang Web</h4>
 <p>Sau khi đăng bài viết, người dùng có thể vào xem lại nội dung đã đăng tải.</p>
 <p><strong>Đối tượng thực hiện:</strong> Quản trị viên, Người dùng</p>
 <ol>
-<li>Vào giao diện trang Web. Chọn menu <strong>Bài viết</strong>. Chọn <strong>Blog</strong> đã đăng tải bài viết.</li>
+<li>
+<p>Vào giao diện trang Web. Chọn menu <strong>Blog</strong>.</p>
+<p><img alt="" src="../picture/PIC_DW_Website_Blog.png" /></p>
+</li>
+<li>
+<p>Chọn bài viết để xem chi tiết nội dung đã được đăng tải.</p>
+<p><img alt="" src="../picture/PIC_DW_Website_Chitietbaiviet.png" /></p>
+</li>
 </ol>
-<p><img alt="" src="Picture/PIC_DW_Website_bai-viet.png" /></p>
-<ol>
-<li>Chọn bài viết để xem chi tiết nội dung đã được đăng tải.</li>
-</ol>
-<p><img alt="" src="Picture/PIC_DW_Website_chi-tiet-bai-viet.png" /></p>
 <h3 id="theo-doi-luong-khach-truy-cap-trang-web">Theo dõi lượng Khách truy cập trang Web</h3>
 <p>Quản trị viên có nhu cầu nắm bắt số lượng khách truy cập trên Website sẽ thực hiện theo dõi lưu lượng khách hàng truy cập Website.</p>
 <p><strong>Đối tượng thực hiện:</strong> Quản trị viên</p>
 <h4 id="theo-doi-khach-truy-cap">Theo dõi Khách truy cập</h4>
-<p>. Vào phân hệ <strong>Trang Web</strong>. Chọn <strong>Khách truy cập</strong>:</p>
-<p><img alt="" src="Picture/PIC_DW_Website_khach-truy-cap.png" /></p>
-<p>. Tại đây, quản trị viên theo dõi được số lượng, tên khách hàng và thời gian khách hàng truy cập website để có thể đưa ra định hướng phát triển Web.</p>
-<p>. Cho phép Quản trị viên có thể kết nối với khách hàng qua việc Gửi email, hoặc Gửi tin nhắn SMS. Các bước làm như sau:</p>
 <ol>
-<li>Tại danh sách <strong>Khách truy cập</strong>, nhấn chọn tên khách hàng:</li>
-</ol>
-<p><img alt="" src="Picture/PIC_DW_Website_ket-noi-khach-hang.png" /></p>
-<ol>
+<li>
+<p>Vào phân hệ <strong>Trang Web</strong>. Chọn <strong>Khách truy cập</strong>:</p>
+<p><img alt="" src="../picture/PIC_DW_Website_Khachtruycap.png" /></p>
+<ul>
+<li>
+<p>Tại đây, quản trị viên theo dõi được số lượng, tên khách hàng và thời gian khách hàng truy cập website để có thể đưa ra định hướng phát triển Web.</p>
+</li>
+<li>
+<p>Cho phép Quản trị viên có thể kết nối với khách hàng qua việc Gửi email, hoặc Gửi tin nhắn SMS. Các bước làm như sau:</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Tại danh sách <strong>Khách truy cập</strong>, nhấn chọn tên khách hàng:</p>
+<p><img alt="" src="../picture/PIC_DW_Website_Taoketnoi.png" /></p>
+</li>
 <li>
 <p>Lựa chọn phương thức kết nối:</p>
+<ul>
+<li>
+<p>Gửi email:</p>
+<ul>
+<li>
+<p>Nhấn chọn nút <img alt="" src="../picture/PIC_DW_Website_Guiemail.png" /></p>
 </li>
 <li>
-<p>Gửi email: </p>
-<ul>
-<li>Nhấn chọn nút <img alt="" src="Picture/PIC_DW_Website_button-gui-email.png" /></li>
-<li>Nhập thông tin email. </li>
-<li>Nhấn <img alt="" src="Picture/PIC_DW_Website_button-gui.png" /> để hoàn thành Gửi email.</li>
+<p>Nhập thông tin email. </p>
+</li>
+<li>
+<p>Nhấn <img alt="" src="../picture/PIC_DW_Website_Guiketnoi.png" /> để hoàn thành Gửi email.</p>
+</li>
 </ul>
+</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_Website_Nhapthongtinemail.png" /></p>
+<ul>
+<li>
+<p>Gửi SMS: </p>
+<ul>
+<li>
+<p>Nhấn chọn nút <img alt="" src="../picture/PIC_DW_Website_Guisms.png" /></p>
+</li>
+<li>
+<p>Nhập thông tin SMS. </p>
+</li>
+<li>
+<p>Nhấn <img alt="" src="../picture/PIC_DW_Website_Guisms.png" /> để hoàn thành Gửi tin nhắn SMS.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_Website_Guithongtinsms.png" /></p>
 </li>
 </ol>
-<p><img alt="" src="Picture/PIC_DW_Website_gui-email.png" /></p>
+<p><strong>Lưu ý:</strong></p>
+<ol>
+<li>
+<p>Nếu người dùng đã có email và số điện thoại: Quản trị viên có thể chọn phương thức kết nối.</p>
+</li>
+<li>
+<p>Nếu người dùng chưa có định danh email hoặc chưa có số điện thoại: Quản trị viên có thể kết nối qua đối tác được liên kết:</p>
 <ul>
-<li>Gửi SMS: <ul>
-<li>Nhấn chọn nút <img alt="" src="Picture/PIC_DW_Website_button-gui-sms.png" /></li>
-<li>Nhập thông tin SMS. </li>
-<li>Nhấn <img alt="" src="Picture/PIC_DW_Website_button-gui-sms.png" /> để hoàn thành Gửi tin nhắn SMS.</li>
+<li>Nhấn chọn tên khách hàng chưa xác định danh tính</li>
 </ul>
+<p><img alt="" src="../picture/PIC_DW_Website_Chondoitac.png" /></p>
+<ul>
+<li>
+<p>Nhấn chọn <img alt="" src="picture/PIC_DW_Website_Sua.png" /></p>
+</li>
+<li>
+<p>Chọn <strong>Đối tác được liên kết</strong></p>
 </li>
 </ul>
-<p><img alt="" src="Picture/PIC_DW_Website_gui-sms.png" /></p>
-<p><strong>Lưu ý:</strong></p>
+<p><img alt="" src="../picture/PIC_DW_Website_Chontendoitac.png" /></p>
 <ul>
-<li>Nếu người dùng đã có email và số điện thoại, Quản trị viên có thể chọn phương thức kết nối.</li>
-<li>Nếu người dùng chưa có định danh email hoặc chưa có số điện thoại, Quản trị viên có thể kết nối qua đối tác được liên kết:</li>
+<li>
+<p>Nhấn <img alt="" src="picture/PIC_DW_Website_Luu.png" /></p>
+</li>
+<li>
+<p>Sau khi lưu tên đối tác được liên kết, Quản trị viên có thể gửi kết nối thông qua email, SMS đã chọn.</p>
+</li>
 </ul>
-<p><img alt="" src="Picture/PIC_DW_Website_sua.png" /></p>
-<p><img alt="" src="Picture/PIC_DW_Website_luu.png" /></p>
+<p><img alt="" src="../picture/PIC_DW_Website_Themthanhcongdoitac.png" /></p>
+</li>
+<li>
+<p>Với những khách hàng đã có sẵn thông tin email hoặc số điện thoại, quản trị viên có thể chọn gửi SMS hoặc email ngay tại màn hình danh sách Khách truy cập. </p>
 <ul>
-<li>Sau khi lưu tên đối tác được liên kết, Quản trị viên có thể gửi kết nối thông qua email, SMS đã chọn.</li>
+<li>
+<p>Nhấn <img alt="" src="picture/PIC_DW_Website_Sms.png" /> để gửi tin nhắn chọn </p>
+</li>
+<li>
+<p>Nhấn <img alt="" src="picture/PIC_DW_Website_Email.png" /> để gửi email cho khách hàng:</p>
+</li>
 </ul>
-<p><img alt="" src="Picture/PIC_DW_Website_email-sms.png" /></p>
-<ul>
-<li>Với những khách hàng đã có sẵn thông tin email hoặc số điện thoại, quản trị viên có thể chọn gửi SMS hoặc email ngay tại màn hình danh sách Khách truy cập. Nhấn <img alt="" src="Picture/PIC_DW_Website_sms.png" /> để gửi tin nhắn chọn hoặc <img alt="" src="Picture/PIC_DW_Website_email.png" /> để gửi email cho khách hàng:</li>
-</ul>
-<p><img alt="" src="Picture/PIC_DW_Website_gui-sms-email-ket-noi.png" /></p>
+<p><img alt="" src="../picture/PIC_DW_Website_Guingoaidanhsach.png" /></p>
+</li>
+</ol>
 <h4 id="theo-doi-luot-xem-trang-web">Theo dõi Lượt xem trang Web</h4>
 <ol>
-<li>Vào phân hệ <strong>Trang Web</strong>. Chọn <strong>Khách truy cập</strong>. Chọn <strong>Lượt xem</strong>:</li>
-</ol>
-<p><img alt="" src="Picture/PIC_DW_Website_luot-xem-web.png" /></p>
-<ol>
+<li>
+<p>Vào phân hệ <strong>Trang Web</strong>. Chọn <strong>Khách truy cập</strong></p>
+<ul>
+<li>Chọn <strong>Lượt xem</strong>:</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_Website_Luotxem.png" /></p>
+<ul>
 <li>Danh sách lượt xem giúp Quản trị viên có thể theo dõi được số lượng, tên khách hàng và thời gian khách hàng truy cập website để có thể đưa ra định hướng phát triển Web.</li>
-<li>Chọn <img alt="" src="Picture/PIC_DW_Website_export.png" /> để xuất báo cáo danh sách lượt người dùng xem trang web.</li>
+</ul>
+</li>
+<li>
+<p>Chọn <img alt="" src="picture/PIC_DW_Website_Export.png" /> để xuất báo cáo danh sách lượt người dùng xem trang web.</p>
+</li>
 </ol>
-<p><img alt="" src="Picture/PIC_DW_Website_export-luot-xem.png" /></p>
               
             </div>
           </div>
@@ -477,7 +636,7 @@ Chọn <strong>Lưu</strong></p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../Addon-khao-sat/" class="btn btn-neutral float-right" title="Khảo sát">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../Addon-Social/" class="btn btn-neutral float-right" title="Mạng xã hội">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../Addon-login/" class="btn btn-neutral" title="Đăng nhập, đăng xuất"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -509,7 +668,7 @@ Chọn <strong>Lưu</strong></p>
       <span><a href="../Addon-login/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../Addon-khao-sat/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../Addon-Social/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

@@ -121,11 +121,15 @@
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../Addon-Website/">Trang web</a>
                     </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-Social/">Mạng xã hội</a>
+                    </li>
                     <li class="toctree-l1"><a class="reference internal" href="../Addon-khao-sat/">Khảo sát</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../Addon-ghi-chu/">Ghi chú</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-su-kien/">Sự kiện</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
                     </li>
@@ -178,16 +182,16 @@
 <p><strong>Các luồng quy trình</strong></p>
 <ul>
 <li>
-<p>Đổi mật khẩu. Chi tiết nghiệp vụ <u><a href="#doi-mat-khau">tại đây</a></u>.</p>
+<p>Đổi mật khẩu. Chi tiết nghiệp vụ <u><a href="#oi-mat-khau">tại đây</a></u>.</p>
 </li>
 <li>
 <p>Quên mật khẩu. Chi tiết nghiệp vụ <u><a href="#quen-mat-khau">tại đây</a></u>.</p>
 </li>
 <li>
-<p>Đăng nhập. Chi tiết nghiệp vụ <u><a href="#dang-nhap">tại đây</a></u>.</p>
+<p>Đăng nhập. Chi tiết nghiệp vụ <u><a href="#ang-nhap">tại đây</a></u>.</p>
 </li>
 <li>
-<p>Đăng xuất. Chi tiết nghiệp vụ <u><a href="#dang-xuat">tại đây</a></u>.</p>
+<p>Đăng xuất. Chi tiết nghiệp vụ <u><a href="#ang-xuat">tại đây</a></u>.</p>
 </li>
 </ul>
 <h4 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h4>
@@ -209,25 +213,29 @@
 <p><strong>Luồng chức năng chính</strong></p>
 <ul>
 <li>
-<p>Đổi mật khẩu. Chi tiết nghiệp vụ <u><a href="#doi-mat-khau">tại đây</a></u>.</p>
+<p>Đổi mật khẩu. Chi tiết nghiệp vụ <u><a href="#oi-mat-khau">tại đây</a></u>.</p>
 </li>
 <li>
 <p>Quên mật khẩu. Chi tiết nghiệp vụ <u><a href="#quen-mat-khau">tại đây</a></u>.</p>
 </li>
 <li>
-<p>Đăng nhập. Chi tiết nghiệp vụ <u><a href="#dang-nhap">tại đây</a></u>.</p>
+<p>Đăng nhập. Chi tiết nghiệp vụ <u><a href="#ang-nhap">tại đây</a></u>.</p>
 </li>
 <li>
-<p>Đăng xuất. Chi tiết nghiệp vụ <u><a href="#dang-xuat">tại đây</a></u>.</p>
+<p>Đăng xuất. Chi tiết nghiệp vụ <u><a href="#ang-xuat">tại đây</a></u>.</p>
 </li>
 </ul>
 <p><strong>Video hướng dẫn</strong></p>
 <h3 id="ang-nhap-ang-xuat">Đăng nhập, đăng xuất</h3>
 <blockquote>
-<p><em><u>Chú ý</u></em>: 
-- Tại các bước thực hiện dưới đây, khi người dùng truy cập từ hệ thống VESS thì sẽ không có trường Domain công ty, nếu truy cập trực tiếp từ hệ thống xác thực người dùng thì sẽ có trường Domain công ty và bắt buộc nhập. Giá trị nhập vào Domain công ty chính là giá trị URL của hệ thống cần truy cập vào và loại bỏ chuỗi http://.</p>
+<p><em><u>Chú ý</u></em>:</p>
 <ul>
-<li>Ví dụ: URL của hệ thống cần truy cập là http://vess.store thì Domain công ty là: vess.store</li>
+<li>
+<p>Tại các bước thực hiện dưới đây, khi người dùng truy cập từ hệ thống VESS thì sẽ không có trường Domain công ty, nếu truy cập trực tiếp từ hệ thống xác thực người dùng thì sẽ có trường Domain công ty và bắt buộc nhập. Giá trị nhập vào Domain công ty chính là giá trị URL của hệ thống cần truy cập vào và loại bỏ chuỗi http://.</p>
+</li>
+<li>
+<p>Ví dụ: URL của hệ thống cần truy cập là http://vess.store thì Domain công ty là: vess.store</p>
+</li>
 </ul>
 </blockquote>
 <h4 id="oi-mat-khau">Đổi mật khẩu</h4>
@@ -305,11 +313,16 @@
 </ol>
 <p>Thực hiện đăng nhập thành công</p>
 <h4 id="ang-xuat">Đăng xuất</h4>
-<p>Khi người dùng đang truy cập hệ thống VESS mà muốn đăng xuất ra khỏi hệ thống thì sẽ thực hiện chức năng đăng xuất.
-1. Tại góc phải phía trên, nhân chọn vào ảnh đại diện hoặc tên của người dùng
-2. Nhấn chọn <strong>Đăng xuất</strong></p>
-<pre><code>![](picture/PIC_DW_Login-Logout.png)
-</code></pre>
+<p>Khi người dùng đang truy cập hệ thống VESS mà muốn đăng xuất ra khỏi hệ thống thì sẽ thực hiện chức năng đăng xuất.</p>
+<ol>
+<li>
+<p>Tại góc phải phía trên, nhân chọn vào ảnh đại diện hoặc tên của người dùng.</p>
+</li>
+<li>
+<p>Nhấn chọn <strong>Đăng xuất</strong></p>
+<p><img alt="" src="../picture/PIC_DW_Login-Logout.png" /></p>
+</li>
+</ol>
 <p>Thực hiện đăng xuất thành công</p>
               
             </div>

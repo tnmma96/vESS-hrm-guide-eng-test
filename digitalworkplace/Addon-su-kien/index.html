@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Sự kiện - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "S\u1ef1 ki\u1ec7n";
+    var mkdocs_page_input_path = "digitalworkplace\\Addon-su-kien.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas-introduction/">Trang chủ</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Hồ sơ nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien/">Quản lý tiền</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Kế toán tổng hợp</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-san-xuat/">Sản xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ccdc/">Công cụ dụng cụ</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-login/">Đăng nhập, đăng xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-Social/">Mạng xã hội</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-khao-sat/">Khảo sát</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-ghi-chu/">Ghi chú</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Sự kiện</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#quy-trinh">Quy trình</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Digital workplace &raquo;</li>
+        
+      
+    
+    <li>Sự kiện</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h3 id="quy-trinh-nghiep-vu">Quy trình nghiệp vụ</h3>
+<p>Cho phép người dùng quản lý toàn bộ quy trình tổ chức sự kiện từ lập kế hoạch sự kiện, bán vé cho đến hiển thị trên trang web và quảng bá. Đồng thời cho phép quản lý lên danh sách người tham gia sự kiện.</p>
+<h4 id="quy-trinh">Quy trình</h4>
+<p><img alt="" src="../picture/PIC_DW_SuKien-QuyTrinh.png" /></p>
+<p><strong>Các luồng quy trình</strong></p>
+<ul>
+<li>
+<p>Sự kiện. Chi tiết nghiệp vụ <u><a href="#su-kien">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Báo cáo. Chi tiết nghiệp vụ <u><a href="#bao-cao">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Cấu hình. Chi tiết nghiệp vụ <u><a href="#cau-hinh">tại đây</a></u>.</p>
+</li>
+</ul>
+<h4 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h4>
+<p>Khi người sử dụng muốn quản lý sự kiện thì quy trình thực hiện như sau:</p>
+<ol>
+<li>
+<p>Tại chức năng <strong>Các sự kiện</strong>, người dùng sẽ tạo sự kiện và phân loại sự kiện theo các giai đoạn</p>
+</li>
+<li>
+<p>Các người dùng đăng ký tham gia sự kiện sau khi sự kiện được công khai trên trang web </p>
+</li>
+<li>
+<p>Thiết lập các thông tin diễn ra sự kiện và quản lý danh sách người tham gia </p>
+</li>
+<li>
+<p>Xuất báo cáo danh sách thông tin sự kiện để quản lý và theo dõi </p>
+</li>
+</ol>
+<p><strong>Luồng chức năng chính</strong></p>
+<ul>
+<li>
+<p>Quản lý sự kiện. Chi tiết nghiệp vụ <u><a href="#quan-ly-su-kien">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Quản lý người tham dự. Chi tiết nghiệp vụ <u><a href="#quan-ly-nguoi-tham-du">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Báo cáo. Chi tiết nghiệp vụ <u><a href="#bao-cao">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Thiết lập. Chi tiết nghiệp vụ <u><a href="#thiet-lap">tại đây</a></u>.</p>
+</li>
+</ul>
+<p><strong>Video hướng dẫn</strong></p>
+<h3 id="su-kien">Sự kiện</h3>
+<h4 id="quan-ly-su-kien">Quản lý sự kiện</h4>
+<p>Người dùng quản lý thông tin của các sự kiện </p>
+<p><strong>Đối tượng thực hiện:</strong> Người dùng hệ thống</p>
+<ol>
+<li>
+<p>Vào chức năng <strong>Các sự kiện</strong>, người sử dụng thực hiện phân loại sự kiện bằng cách di chuyển sự kiện tới giai đoạn tương ứng (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+<img alt="" src="../picture/PIC_DW_SuKien-Menu.png" /></p>
+<ul>
+<li><strong>Lưu ý:</strong> Tại màn hình <strong>Các sự kiện</strong> có thể thêm giai đoạn bằng cách nhấn vào <strong>Thêm một cột</strong>. Ngoài ra các giai đoạn cũng có thể được được thêm tại <strong>Cấu hình/Event Stages</strong></li>
+</ul>
+</li>
+<li>
+<p>Thực hiện tạo <strong>Các sự kiện</strong>
+<img alt="" src="../picture/PIC_DW_SuKien-Tao.png" /></p>
+</li>
+<li>
+<p>Khai báo các thông tin chi tiết của Các sự kiện</p>
+<ul>
+<li>
+<p>Chọn thông tin Mẫu </p>
+<ul>
+<li>Danh sách mẫu sự kiện để lựa chọn sẽ được thêm tại <strong>Cấu hình/Event Templates</strong></li>
+</ul>
+</li>
+<li>
+<p>Chọn thông tin Tag </p>
+<ul>
+<li>Danh sách thẻ sự kiện để lựa chọn sẽ được thêm tại <strong>Cấu hình/Event tags Categories</strong></li>
+</ul>
+</li>
+<li>
+<p>Chọn thông tin Limit Registrations, người dùng khai báo thêm thông tin giới hạn số lượng Người Tham dự </p>
+</li>
+<li>
+<p>Khai báo thông tin chi tiết Ticket </p>
+</li>
+<li>
+<p>Khai báo thông tin chi tiết Thông tin giao dịch </p>
+</li>
+<li>
+<p>Khai báo thông tin chi tiết Ghi chú</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Nhấn <strong>Lưu</strong> sự kiện </p>
+</li>
+<li>
+<p>Người dùng thực hiện <strong>Theo dõi</strong> sự kiện, <strong>Thêm người theo dõi</strong> hoặc <strong>Thêm kênh theo dõi</strong>. </p>
+</li>
+<li>
+<p>Người dùng tạo <strong>Ghi chú</strong> và <strong>Gửi tin</strong> đến người dùng cũng đang theo dõi sự kiện</p>
+</li>
+<li>
+<p>Người dùng thực hiện <strong>Lên lịch công việc</strong> cho sự kiện</p>
+<ul>
+<li>
+<p>Khai báo các thông tin cần thiết</p>
+</li>
+<li>
+<p>Nhấn <strong>Ấn định thời gian</strong> để thực hiện giao việc cho nhân sự được chọn </p>
+</li>
+<li>
+<p>Nhân sự hoàn thành công việc được giao sẽ đánh dấu công việc là <strong>Hoàn tất hoàn thành</strong></p>
+</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_SuKien-LenLichCV.png" /></p>
+</li>
+<li>
+<p>Người dùng thực hiện thay đổi giai đoạn của sự kiện: Đang thực hiện, Sẵn sàng cho trạng thái kế tiếp hoặc Đã bị khóa</p>
+</li>
+<li>
+<p>Người dùng nhấn <strong>Vết</strong> để quản lý các thông tin về các buổi thuyết trình trong quá trình diễn ra sự kiện và thông tin người diễn thuyết </p>
+<ul>
+<li><strong>Lưu ý</strong>: Thông tin <strong>Vết</strong> được quản lý khi tại <strong>Cấu hình/Thiết lập</strong>, người dùng chọn thông tin Schedule &amp; Tracks</li>
+</ul>
+</li>
+<li>
+<p>Nhấn <strong>Nhà tài trợ</strong> để theo dõi và bổ sung danh sách nhà tài trợ cho sự kiện </p>
+<ul>
+<li><strong>Lưu ý</strong>: Thông tin <strong>Nhà tài trợ</strong> được quản lý khi tại <strong>Cấu hình/Thiết lập</strong>, người dùng chọn thông tin Schedule &amp; Tracks</li>
+</ul>
+</li>
+<li>
+<p>Nhấn <strong>Rooms</strong> để quản lý danh sách và tạo phòng hội nghị ảo, để người tham dự sự kiện có thể trao đổi, tăng tương tác với nhau</p>
+<ul>
+<li><strong>Lưu ý</strong>: Thông tin <strong>Rooms</strong> được quản lý khi tại <strong>Cấu hình/Thiết lập</strong>, người dùng chọn thông tin Community Chat Rooms</li>
+</ul>
+</li>
+<li>
+<p>Sau khi cập nhật hoàn chỉnh thông tin sự kiện, nhấn <strong>Đến trang web</strong> để thực hiện chuyển sự kiện thành công khai. Cho phép người dùng đăng ký tham dự sự kiện trực tuyến.</p>
+</li>
+</ol>
+<h4 id="quan-ly-nguoi-tham-du">Quản lý người tham dự</h4>
+<p>Sau khi quản trị viên đăng tải sự kiện công khai, người dùng có thể tham dự sự kiện bằng các đăng ký trực tiếp trên website hoặc được thêm vào danh sách người tham dự bởi quản trị hệ thống. Quản trị hệ thống sẽ thống kê vào theo dõi danh sách người tham dự.</p>
+<p><strong>Đối tượng thực hiện:</strong> Người sử dụng hệ thống</p>
+<ol>
+<li>
+<p>Người dùng nhấn <strong>Đến trang web</strong> để xem thông tin sự kiện trên trang web. Tại <strong>Website/Các sự kiện</strong>, quản trị hệ thống chuyển sự kiện thành trạng thái công khai, cho phép người dùng khác có thể đăng ký tham dự sự kiện trên web bằng cách:</p>
+<ul>
+<li>
+<p>Người sử dụng hệ thống truy cập trang web, chọn <strong>Các sự kiện</strong>
+<img alt="" src="picture/PIC_DW_Sukien-DSSuKien.png" /></p>
+</li>
+<li>
+<p>Chọn sự kiện sẽ tham gia
+<img alt="" src="picture/PIC_DW_Sukien-ChiTietSuKien.png" /></p>
+</li>
+<li>
+<p>Nhập đầy đủ thông tin của người tham dự, nhấn <strong>Đăng ký</strong> tham gia sự kiện
+<img alt="" src="picture/PIC_DW_Sukien-DangKySuKien.png" /></p>
+</li>
+<li>
+<p>Nhấn <strong>Tiếp tục</strong> để đăng ký thành công</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Sau khi người dùng thực hiện đăng ký tham dự sự kiện trên website thành công, quản trị hệ thống sẽ thực hiện quản lý danh sách người tham dự bằng cách: vào chức năng <strong>Các sự kiện</strong>, nhấn vào sự kiện để xem thông tin của sự kiện .Nhấn <strong>Người tham dự</strong> để xem và theo dõi danh sách người tham dự sự kiện. </p>
+</li>
+<li>
+<p>Tại <strong>Người tham dự</strong>, người dùng có thể thêm người tham dự sự kiện bằng cách nhấn <strong>Tạo</strong> để thêm một hoặc nhiều người tham dự khác
+   <img alt="" src="../picture/PIC_DW_SuKien-NguoiThamGiaTao.png" />   </p>
+<ul>
+<li>
+<p>Khai báo các thông tin cần thiết</p>
+</li>
+<li>
+<p>Trường hợp tại <strong>Cấu hình/Thiết lập</strong>, người dùng chọn thông tin Câu hỏi, sẽ phải khai báo thêm chi tiết thông tin Câu hỏi gồm: Câu hỏi, Loại câu hỏi, Câu trả lời được gợi ý và Câu trả lời dạng chữ </p>
+</li>
+<li>
+<p>Nhấn <strong>Xác nhận</strong> để tham gia sự kiện</p>
+</li>
+<li>
+<p>Nhấn <strong>Gửi qua Email</strong> để gửi mail cảm ơn đến người tham dự </p>
+</li>
+<li>
+<p>Nhấn <strong>Đã tham dự</strong> để xác nhận người tham dự đã tham dự sự kiện</p>
+</li>
+<li>
+<p>Nhấn <strong>Đơn bán hàng</strong> để tạo đơn hàng cho người tham dự </p>
+</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_SuKien-DonBanHangTao.png" /> </p>
+<pre><code>* Khai báo các thông tin cần thiết
+
+* Nhấn **Gửi qua Email** để gửi email báo giá đến người tham dự
+
+* Nhấn **Xác nhận** để xác nhận đơn hàng
+
+* Đơn hàng được xác nhận sẽ được **Tạo hóa đơn**, khai báo các thông tin hóa đơn gồm: thông tin Tạo hóa đơn, Tổng tiền đặt cọc, Tài khoản doanh thu và Thuế bán hàng. Nhấn **Tạo và Xem hóa đơn** để thêm hóa đơn thành công
+</code></pre>
+</li>
+</ol>
+<h3 id="bao-cao">Báo cáo</h3>
+<p>Người sử dụng thực hiện báo cáo danh sách <strong>Các sự kiện</strong> và danh sách <strong>Người tham dự</strong></p>
+<p><strong>Đối tượng thực hiện:</strong> Người sử dụng hệ thống</p>
+<ol>
+<li>
+<p>Để thực hiện báo cáo thống kê danh sách các sự kiện, người dùng vào chức năng <strong>Các sự kiện</strong>, chọn <strong>Báo cáo/Các sự kiện</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+<img alt="" src="picture/PIC_DW_Sukien-BCCacSuKien.png" /></p>
+</li>
+<li>
+<p>Thực hiện vào chức năng <strong>Các sự kiện</strong>, chọn <strong>Báo cáo/Người tham dự</strong> để thống kế theo dõi danh sách người tham dự sự kiện (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+<img alt="" src="picture/PIC_DW_Sukien-BCNguoiThamDu.png" /></p>
+</li>
+<li>
+<p>Người dùng thực hiện thay đổi dữ liệu cần thống kê theo nhu cầu (nếu có)</p>
+<ul>
+<li>Chọn <strong>- Tổng</strong> để loại bỏ điều kiện thống kê hiện tại theo hàng hoặc cột</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_SuKien-XoaBoLoc.png" /></p>
+<ul>
+<li>Chọn <strong>+ Tổng</strong> để tạo mới điều kiện thống kê báo cáo theo hàng hoặc cột</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_SuKien-TaoBoLoc.png" /></p>
+</li>
+<li>
+<p>Người dùng chọn <strong>View graph</strong> để xem báo cáo dưới dạng biểu đồ</p>
+</li>
+<li>
+<p>Thực hiện <strong>Xuất toàn bộ</strong> danh sách thông tin các sự kiện</p>
+</li>
+</ol>
+<h3 id="cau-hinh">Cấu hình</h3>
+<h4 id="thiet-lap">Thiết lập</h4>
+<p>Người sử dụng thực hiện <strong>Thiết lập</strong> thêm các thông tin cho sự kiện </p>
+<p><strong>Đối tượng thực hiện:</strong> Người sử dụng là Quản trị hệ thống</p>
+<ol>
+<li>
+<p>Vào chức năng <strong>Các sự kiện</strong>, chọn <strong>Cấu hình/Thiết lập</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+<img alt="" src="../picture/PIC_DW_SuKien-ThietLap.png" /></p>
+</li>
+<li>
+<p>Khai báo thông tin chi tiết của Thiết lập 
+   <img alt="" src="../picture/PIC_DW_SuKien-ThietLapTao.png" /></p>
+<ul>
+<li>
+<p>Chọn thông tin Schedule &amp; Tracks</p>
+<ul>
+<li>
+<p>Chọn thông tin Schedule &amp; Tracks, khi tạo sự kiện người sử dụng sẽ quản lý thêm các thông tin Vết và Nhà tài trợ</p>
+</li>
+<li>
+<p>Lưu ý người dùng sẽ khai báo thêm các thông tin:</p>
+<ul>
+<li>
+<p>Chọn thông tin Live Broadcast</p>
+</li>
+<li>
+<p>Chọn thông tin Event Gamification</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Chọn thông tin Community Chat Rooms</p>
+<ul>
+<li>Chọn thông tin Community Chat Rooms, khi tạo sự kiện người sử dụng sẽ quản lý thêm thông tin Rooms</li>
+</ul>
+</li>
+<li>
+<p>Chọn thông tin Online Exhibitors</p>
+</li>
+<li>
+<p>Chọn thông tin Ticket</p>
+</li>
+<li>
+<p>Chọn thông tin Câu hỏi </p>
+<ul>
+<li>Chọn thông tin Câu hỏi, khi tạo sự kiện người sử dụng khai báo thêm thông tin Câu hỏi</li>
+</ul>
+</li>
+<li>
+<p>Chọn thông tin Vé trực tuyến</p>
+</li>
+<li>
+<p>Chọn thông tin Mã vạch </p>
+</li>
+</ul>
+</li>
+<li>
+<p>Nhấn <strong>Lưu</strong> để lưu thông tin cấu hình</p>
+</li>
+</ol>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../Lich-su-phat-trien/" class="btn btn-neutral float-right" title="Lịch sử phát triển sản phẩm">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../Addon-timesheet/" class="btn btn-neutral" title="Timesheet"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Addon-timesheet/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Lich-su-phat-trien/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

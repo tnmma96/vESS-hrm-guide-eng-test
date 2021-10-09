@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Mạng xã hội - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "M\u1ea1ng x\u00e3 h\u1ed9i";
+    var mkdocs_page_input_path = "digitalworkplace\\Addon-Social.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas-introduction/">Trang chủ</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Hồ sơ nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien/">Quản lý tiền</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Kế toán tổng hợp</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-san-xuat/">Sản xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ccdc/">Công cụ dụng cụ</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-login/">Đăng nhập, đăng xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Mạng xã hội</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#quy-trinh">Quy trình</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-khao-sat/">Khảo sát</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-ghi-chu/">Ghi chú</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-su-kien/">Sự kiện</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Digital workplace &raquo;</li>
+        
+      
+    
+    <li>Mạng xã hội</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h3 id="quy-trinh-nghiep-vu">Quy trình nghiệp vụ</h3>
+<p>Cho phép người dùng quản lý các chủ đề, bài viết và tương tác với bài viết cũng như giữa các thành viên trong đơn vị.</p>
+<h4 id="quy-trinh">Quy trình</h4>
+<p><img alt="" src="../picture/PIC_DW_Social_quy_trinh_hoat_dong_mang_xa_hoi.png" /></p>
+<p><strong>Các luồng quy trình</strong></p>
+<ul>
+<li>
+<p>Thiết lập tài nguyên dùng chung. Chi tiết nghiệp vụ <u><a href="#thiet-lap-tai-nguyen-dung-chung">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Tạo chủ đề. Chi tiết nghiệp vụ <u><a href="#tao-chu-đe">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Tạo bài viết. Chi tiết nghiệp vụ <u><a href="#tao-bai-viet">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Xem danh sách bài viết. Chi tiết nghiệp vụ <u><a href="#xem-danh-sach-bai-viet">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Tương tác bài viết. Chi tiết nghiệp vụ <u><a href="#tuong-tac-bai-viet">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Xem/Xuất thống kê. Chi tiết nghiệp vụ <u><a href="#xem-xuat-thong-ke">tại đây</a></u>.</p>
+</li>
+</ul>
+<h4 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h4>
+<p>Khi người sử dụng muốn quản lý hoạt động của mạng xã hội thì quy trình thực hiện như sau:</p>
+<ol>
+<li>
+<p>Tại phân hệ <strong>Trang web</strong>, quản trị hệ thống thiết lập các tài nguyên dùng chung của phân hệ trang web bao gồm:</p>
+<ul>
+<li>
+<p>Thẻ dùng chung.</p>
+</li>
+<li>
+<p>Rank (xếp hạng người dùng): Định nghĩa điều kiện để người dùng có thể chuyển hạng.</p>
+</li>
+<li>
+<p>Huy hiệu: Định nghĩa các huy hiệu và quà tặng tương ứng, phân quyền sử dụng huy hiệu theo từng chủ đề hoặc tất cả.</p>
+</li>
+<li>
+<p>Lý do đóng bài đăng: Định nghĩa các lý do đóng bài đăng.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Quản trị hệ thống lập mới các chủ đề trên mạng xã hội. Khi đó, người dùng truy cập mạng xã hội có thể lập mới bài viết hoặc tra cứu, theo dõi, tương tác theo các chủ đề này. Ngoài ra, quản trị hệ thống có thể thực hiện đóng chủ đề.</p>
+</li>
+<li>
+<p>Quản trị hệ thống hoặc người dùng có thể tạo mới bài viết theo chủ đề. Với bài viết của chính mình, người dùng có thể thực hiện các thao tác: hiệu chỉnh, xóa hoặc đóng bài viết.</p>
+</li>
+<li>
+<p>Khi người dùng truy cập mạng xã hội, hệ thống hiển thị danh sách bài viết theo độ ưu tiên: Chủ đề yêu thích, theo thời gian tạo, theo độ tương tác…</p>
+</li>
+<li>
+<p>Người dùng có thể tương tác với các bài viết trên danh sách: trả lời, bình luận, theo dõi, cộng điểm, trừ điểm, gán cờ cho bài viết, báo cáo bài viết, báo cáo câu trả lời.</p>
+</li>
+<li>
+<p>Quản trị hoặc người dùng có thể xem một số thống kê nhanh như số lượt xem bài viết, số bài viết trong chủ đề, số câu trả lời, huy hiệu, thẻ…</p>
+</li>
+</ol>
+<p><strong>Luồng chức năng chính</strong></p>
+<ul>
+<li>
+<p>Thiết lập tài nguyên dùng chung. Chi tiết nghiệp vụ <u><a href="#thiet-lap-tai-nguyen-dung-chung">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Lập chủ đề. Chi tiết nghiệp vụ <u><a href="#tao-chu-đe">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Tạo bài viết. Chi tiết nghiệp vụ <u><a href="#tao-bai-viet">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Quản trị tạo bài viết. Chi tiết nghiệp vụ <u><a href="#quan-tri-tao-bai-viet">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Xem danh sách bài viết. Chi tiết nghiệp vụ <u><a href="#xem-danh-sach-bai-viet">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Tương tác bài viết. Chi tiết nghiệp vụ <u><a href="#tuong-tac-bai-viet">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Nhân viên. Chi tiết nghiệp vụ <u><a href="#nhan-vien">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Thẻ. Chi tiết nghiệp vụ <u><a href="#the">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Xem/Xuất thống kê. Chi tiết nghiệp vụ <u><a href="#xem-xuat-thong-ke">tại đây</a></u>.</p>
+</li>
+</ul>
+<p><strong>Video hướng dẫn</strong></p>
+<h3 id="trang-web">Trang web</h3>
+<h4 id="thiet-lap-tai-nguyen-dung-chung">Thiết lập tài nguyên dùng chung</h4>
+<p>Người sử dụng thực hiện thiết lập các tài nguyên dùng chung của phân hệ trang web gồm:</p>
+<ul>
+<li>
+<p>Thẻ dùng chung</p>
+</li>
+<li>
+<p>Rank (xếp hạng người dùng): Định nghĩa điều kiện để người dùng có thể chuyển hạng.</p>
+</li>
+<li>
+<p>Huy hiệu: Định nghĩa các huy hiệu và quà tặng tương ứng, phân quyền sử dụng huy hiệu theo từng chủ đề hoặc tất cả.</p>
+</li>
+<li>
+<p>Lý do đóng bài đăng: Định nghĩa các lý do đóng bài đăng.</p>
+</li>
+</ul>
+<p><strong>Đối tượng thực hiện:</strong> Quản trị hệ thống</p>
+<p><strong>Thiết lập thẻ dùng chung</strong></p>
+<p>Người sử dụng tạo mới thẻ cho từng chủ đề và cũng có thể tạo chủ đề khi tạo thẻ.</p>
+<ol>
+<li>
+<p>Tại phân hệ <strong>Trang web</strong>, người sử dụng thực hiện thiết lập thẻ bằng cách chọn <strong>Cấu hình/ Mạng xã hội/ Thẻ</strong>.</p>
+<p><img alt="" src="../picture/PIC_DW_Social_Tag_1.png" /></p>
+</li>
+<li>
+<p>Chọn Tạo <strong>Thẻ</strong></p>
+<p><img alt="" src="../picture/PIC_DW_Social_Tag_2.png" /></p>
+</li>
+<li>
+<p>Khai báo thông tin chung của <strong>Thẻ</strong></p>
+<p><img alt="" src="../picture/PIC_DW_Social_Tag_3.png" /></p>
+</li>
+<li>
+<p>Khai báo tên thẻ</p>
+</li>
+<li>
+<p>Khai báo tên chủ đề: Khi tiến hành nhập tên chủ đề, sẽ xuất hiện guilde line gợi ý các chủ đề có sẵn, nếu như nhập tên chủ đề chưa có sẵn, hệ thống hiển thị Tạo, khi người dùng chọn "Tạo" sẽ tạo một chủ đề mới.</p>
+</li>
+<li>
+<p>Người dùng nhấn <strong>Lưu</strong> để tạo thẻ.</p>
+</li>
+</ol>
+<p><strong>Thiết lập rank</strong></p>
+<p>Người sử dụng tạo mới rank (điều kiện xếp hạng thành viên).</p>
+<ol>
+<li>
+<p>Tại phân hệ <strong>Trang web</strong>, người sử dụng thực hiện thiết lập rank bằng cách chọn <strong>Cấu hình/ Mạng xã hội/ Ranks</strong>.</p>
+<p><img alt="" src="../picture/PIC_DW_Social_Tag_1.png" /></p>
+</li>
+<li>
+<p>Chọn Tạo <strong>Ranks</strong></p>
+<p><img alt="" src="../picture/PIC_DW_Social_Rank_2.png" /></p>
+</li>
+<li>
+<p>Khai báo thông tin chung của <strong>Ranks</strong></p>
+<p><img alt="" src="../picture/PIC_DW_Social_Rank_3.png" /></p>
+</li>
+<li>
+<p>Người dùng nhấn <strong>Lưu</strong> để tạo rank.</p>
+</li>
+</ol>
+<p><strong>Thiết lập huy hiệu</strong></p>
+<p>Người sử dụng tạo mới huy hiệu và trao huy hiệu cho thành viên</p>
+<ol>
+<li>
+<p>Tại phân hệ <strong>Trang web</strong>, người sử dụng thực hiện thiết lập huy hiệu bằng cách chọn <strong>Cấu hình/ Mạng xã hội/ Huy chương</strong>.</p>
+<p><img alt="" src="../picture/PIC_DW_Social_Tag_1.png" /></p>
+</li>
+<li>
+<p>Chọn Tạo <strong>Huy hiệu</strong></p>
+<p><img alt="" src="../picture/PIC_DW_Social_HuyHieu_2.png" /></p>
+</li>
+<li>
+<p>Khai báo thông tin chung của <strong>Huy hiệu</strong></p>
+<p><img alt="" src="../picture/PIC_DW_Social_HuyHieu_3.png" /></p>
+</li>
+<li>
+<p>Khai báo trao:</p>
+<ul>
+<li>
+<p>Chọn Trợ cấp để cấp: có thể chọn Mọi người, Danh sách người dùng được chọn, Người có một số huy hiệu, Không ai, được giao qua thử thách</p>
+</li>
+<li>
+<p>Chọn Số lượng gửi giới hạn mỗi tháng: khi chọn số lượng gửi giới hạn mỗi tháng thì cần khai báo Số giới hạn, Tổng số gửi hàng tháng của tôi.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Khai báo Phần thưởng của thử thách:</p>
+<ul>
+<li>
+<p>Chọn thêm phần thưởng cho thử thách</p>
+</li>
+<li>
+<p>Chọn Cấp huy hiệu diễn đàn: Đồng, Bạc, Vàng</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Khai báo các thông tin cần thiết khác. </p>
+</li>
+<li>
+<p>Người dùng nhấn <strong>Lưu</strong> để tạo huy hiệu hoặc nhấn <strong>Trao huy hiệu này</strong> để tạo và trao huy hiệu này cho thành viên khác.</p>
+</li>
+<li>
+<p>Sau khi tạo thành công huy hiệu, người dùng có thể tặng huy hiệu đó cho các thành viên khác.</p>
+<p><img alt="" src="../picture/PIC_DW_Social_HuyHieu_4.png" /></p>
+</li>
+<li>
+<p>Chọn thành viên muốn tặng.</p>
+</li>
+<li>
+<p>Khai báo mô tả lý do muốn trao tặng.</p>
+</li>
+<li>
+<p>Nhấn <strong>Trao huy hiệu</strong> để thực hiện trao huy hiệu cho thành viên đã chọn.</p>
+</li>
+</ol>
+<p><strong>Thiết lập lý do đóng bài đăng</strong></p>
+<ol>
+<li>
+<p>Tại phân hệ <strong>Trang web</strong>, người sử dụng thực hiện thiết lập lý do đóng bài đăng bằng cách chọn Cấu hình/ Mạng xã hội/ Các lý do đóng.</p>
+<p><img alt="" src="../picture/PIC_DW_Social_LyDoDongBai_1.png" /></p>
+</li>
+<li>
+<p>Chọn Tạo <strong>Lý do đóng bài đăng</strong></p>
+</li>
+<li>
+<p>Khai báo thông tin chung của <strong>Lý do đóng bài đăng</strong>   </p>
+<p><img alt="" src="../picture/PIC_DW_Social_LyDoDongBai_3.png" /></p>
+<ul>
+<li>
+<p>Khai báo tên Đang đóng bài đăng.</p>
+</li>
+<li>
+<p>Chọn Loại nguyên nhân.</p>
+</li>
+<li>
+<p>Người sử dụng nhấn <strong>Lưu</strong> để tạo lý do đóng bài đăng.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Khi người sử dụng muốn đóng bài viết có thể chọn lý do đóng bài đăng đã tạo. </p>
+</li>
+</ol>
+<h4 id="tao-chu-e">Tạo chủ đề</h4>
+<p>Người sử dụng thực hiện tạo các chủ đề cho mạng xã hội.</p>
+<p><strong>Đối tượng thực hiện:</strong> Quản trị hệ thống</p>
+<ol>
+<li>
+<p>Tại phân hệ <strong>Trang web</strong>, người sử dụng thực hiện tạo chủ đề bằng cách chọn Cấu hình/ Mạng xã hội/ Chủ đề.</p>
+<p><img alt="" src="../picture/PIC_DW_Social_ChuDe_1.png" /></p>
+</li>
+<li>
+<p>Chọn tạo <strong>Chủ đề</strong></p>
+</li>
+<li>
+<p>Khai báo thông tin chung của <strong>Chủ đề</strong></p>
+<p><img alt="" src="../picture/PIC_DW_Social_ChuDe_2.png" /></p>
+<ul>
+<li>
+<p>Khai báo Tên chủ đề</p>
+</li>
+<li>
+<p>Chọn Ảnh chủ đề</p>
+</li>
+<li>
+<p>Chọn thông tin chế độ</p>
+</li>
+<li>
+<p>Chọn thông tin trang web</p>
+</li>
+<li>
+<p>Khai báo Tùy chọn</p>
+</li>
+<li>
+<p>Khai báo Karma đạt được</p>
+</li>
+<li>
+<p>Khai báo Quyền liên quan đến Karma</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Người dùng nhấn <strong>Lưu</strong> để tạo mới chủ đề.</p>
+</li>
+<li>
+<p>Sau khi tạo thành công chủ đề, khi người dùng tạo bài viết có thể chọn chủ đề đã tạo.</p>
+</li>
+</ol>
+<h4 id="quan-tri-tao-bai-viet">Quản trị tạo bài viết</h4>
+<p>Người sử dụng thực hiện tạo các bài viết cho mạng xã hội.</p>
+<p><strong>Đối tượng thực hiện:</strong> Quản trị hệ thống</p>
+<ol>
+<li>
+<p>Tại phân hệ <strong>Trang web</strong>, người sử dụng thực hiện tạo bài viết bằng cách chọn Cấu hình/ Mạng xã hội/ Chủ đề.</p>
+<p><img alt="" src="../picture/PIC_DW_Social_Admin_BaiViet_1.png" /></p>
+</li>
+<li>
+<p>Chọn tạo <strong>Bài viết</strong></p>
+<p><img alt="" src="../picture/PIC_DW_Social_Admin_BaiViet_2.png" /></p>
+</li>
+<li>
+<p>Khai báo thông tin chung của <strong>Bài viết</strong></p>
+<p><img alt="" src="../picture/PIC_DW_Social_Admin_BaiViet_3.png" /></p>
+<ul>
+<li>
+<p>Khai báo thông tin tiêu đề bài viết.</p>
+</li>
+<li>
+<p>Chọn chủ đề  </p>
+</li>
+<li>
+<p>Khai báo thẻ: có thể chọn thẻ đã có hoặc nhập tạo một thẻ mới.</p>
+</li>
+<li>
+<p>Chọn trạng thái bài viết.</p>
+</li>
+<li>
+<p>Chọn Lý do.  </p>
+</li>
+</ul>
+</li>
+<li>
+<p>Người dùng nhấn <strong>Lưu</strong> để tạo mới bài viết.</p>
+</li>
+</ol>
+<h3 id="mang-xa-hoi">Mạng xã hội</h3>
+<h4 id="xem-danh-sach-bai-viet">Xem danh sách bài viết</h4>
+<p>Cho phép người dùng xem danh sách các bài viết, tra cứu bài viết theo tiêu chí tìm kiếm như sau:</p>
+<ul>
+<li>
+<p>Bài viết hot nhất (nhiều tương tác nhất)</p>
+</li>
+<li>
+<p>Mới nhất</p>
+</li>
+<li>
+<p>Tra cứu bài viết theo chủ đề.</p>
+</li>
+<li>
+<p>Tra cứu bài viết theo tiêu đề hoặc nội dung bài viết.</p>
+</li>
+</ul>
+<p><strong>Đối tượng thực hiện:</strong> Người dùng hệ thống</p>
+<ol>
+<li>
+<p>Người dùng chọn menu Mạng xã hội</p>
+<p><img alt="" src="../picture/PIC_DW_Social_BaiViet_1.png" /></p>
+<ul>
+<li>
+<p>Nếu là lần đầu tiên truy cập vào mạng xã hội, thì sẽ hiển thị màn hình danh sách chủ đề.</p>
+<p><img alt="" src="../picture/PIC_DW_Social_truy_cap_lan_dau.png" /></p>
+<ul>
+<li>Người sử dụng chọn chủ đề, nhấn <strong>Bắt đầu</strong> để di chuyển đến danh sách các bài viết trong mạng xã hội.</li>
+</ul>
+</li>
+<li>
+<p>Từ lần truy cập tiếp theo, khi người dùng chọn menu <strong>Mạng xã hội</strong> sẽ di chuyển đến danh sách các bài viết trong mạng xã hội.</p>
+<p><img alt="" src="../picture/PIC_DW_Social_BaiViet_2.png" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Người dùng thực hiện tra cứu bài viết bằng cách:</p>
+<p><img alt="" src="../picture/PIC_DW_Social_BaiViet_2.png" /></p>
+<ul>
+<li>
+<p>Người dùng đang quan tâm tới chủ đề nào thì sẽ chọn chủ đề bài viết ở <strong>Danh sách chủ đề</strong> ở bên trái, sau khi chọn chủ đề thì vùng danh sách bài viết sẽ chỉ hiển thị những bài viết thuộc chủ đề mà người dùng chọn.</p>
+</li>
+<li>
+<p>Người dùng muốn xem các bài viết nổi bật thì sẽ chọn <strong>Nổi bật</strong>. Khi đó vùng danh sách sẽ hiển thị những bài viết nổi bật nhất (tức có độ tương tác nhiều nhất) trong vòng 90 ngày. Bài viết nào có độ tương tác cao nhất thì hiển thị lên trên.</p>
+</li>
+<li>
+<p>Người dùng muốn xem các bài viết mới nhất thì chọn <strong>Mới nhất</strong>. Khi đó vùng danh sách bài viết sẽ hiển thị các bài viết mới nhất lên trên rồi đến các bài viết cũ hơn. </p>
+</li>
+<li>Người dùng muốn tra cứu bài viết theo tên bài viết, nội dung bài viết thì sẽ nhập nội dung muốn tra cứu và nhấn enter. Khi đó vùng danh sách bài viết sẽ hiển thị những bài viết có tiêu đề hoặc nội dung chứa nội dung mà người dùng tìm kiếm.</li>
+</ul>
+</li>
+</ol>
+<h4 id="tao-bai-viet">Tạo bài viết</h4>
+<p>Cho phép người dùng tạo bài viết trên mạng xã hội. Người dùng có thể tạo bài viết văn bản thông thường hoặc bài viết có ảnh, video cũng như bài viết có gắn thẻ liên kết tới bài viết hoặc trang web khác.</p>
+<p><strong>Đối tượng thực hiện:</strong> Người dùng hệ thống</p>
+<ol>
+<li>
+<p>Trên danh sách bài viết, người dùng chọn <strong>Tạo bài</strong> để thực hiện đăng bài viết trên mạng xã hội.</p>
+<p><img alt="" src="../picture/PIC_DW_Social_BaiViet_2.png" /></p>
+</li>
+<li>
+<p>Khai báo thông tin chung cho bài viết</p>
+<p><img alt="" src="../picture/PIC_DW_Social_BaiViet_3.png" /></p>
+<ul>
+<li>
+<p>Chọn chủ đề</p>
+</li>
+<li>
+<p>Khai báo tiêu đề bài viết</p>
+</li>
+<li>
+<p>Khai báo Mô tả: </p>
+<ul>
+<li>
+<p>Để đăng bài là văn bản thường người dùng nhập chữ vào đây và có thể định dạng cho nội dung của bài viết như: chữ đậm, nghiêng, căn lề ...</p>
+</li>
+<li>
+<p>Để đăng ảnh người dùng có thể kéo ảnh vào đây hoặc chọn biểu tượng ảnh sẽ mở ra màn hình chọn media. Tại đây người dùng chọn <strong>Hình ảnh</strong>, chọn nút <strong>Tải lên một hình ảnh</strong> và chọn ảnh từ máy tính cá nhân để đăng tải ảnh vào bài viết.</p>
+<p><img alt="" src="../picture/PIC_DW_Social_BaiViet_5.png" /></p>
+</li>
+<li>
+<p>Để đăng video người dùng chọn biểu tượng ảnh sẽ mở ra màn hình chọn media, người dùng chọn <strong>Video</strong> và khai báo mã url của video muốn đăng.</p>
+<blockquote>
+<p>Lưu ý: Người dùng không thể đăng trực tiếp video từ máy tính cá nhân vào bài viết mà ở đây chỉ cho phép nhúng video từ một website khác. </p>
+</blockquote>
+<p><img alt="" src="../picture/PIC_DW_Social_BaiViet_6.png" /></p>
+</li>
+<li>
+<p>Để đăng một tập tin tài liệu như file word, excel, pdf...lên bài viết, người dùng chọn biểu tượng ảnh sẽ mở ra màn hình chọn media. Tại đây người dùng chọn <strong>Tài liệu</strong>, chọn nút <strong>Tải lên 1 tài liệu</strong> và chọn file tài liệu từ máy tính cá nhân để đăng tải file vào bài viết. Sau khi đăng bài thành công, các thành viên khác có thể xem bài viết và tải file tài liệu.</p>
+<p><img alt="" src="../picture/PIC_DW_Social_BaiViet_7.png" /></p>
+</li>
+<li>
+<p>Để đăng bài viết có liên kết tới bài viết khác hay trang web khác, người dùng sao chép link liên kết của bài viết cần chia sẻ và dán vào đây.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Khai báo thẻ</p>
+<ul>
+<li>Khi tiến hành nhập tên <strong>Thẻ</strong>, sẽ xuất hiện guilde line gợi ý các thẻ có sẵn, nếu như nhập tên thẻ chưa có sẵn, hệ thống hiển thị line New, khi người dùng chọn "New" sẽ tạo một thẻ mới.</li>
+</ul>
+</li>
+<li>
+<p>Người dùng nhấn <strong>Đăng bài</strong> để tạo bài viết</p>
+</li>
+</ul>
+</li>
+</ol>
+<h4 id="tuong-tac-bai-viet">Tương tác bài viết</h4>
+<p>Cho phép người dùng tương tác với bài viết như: Xem chi tiết bài viết, Yêu thích, theo dõi, trả lời, phản hồi cầu trả lời, cộng hoặc trừ điểm bài viết, cộng hoặc trừ điểm câu trả lời, báo cáo vi phạm bài việt, báo cáo vi phạm câu trả lời.</p>
+<ol>
+<li>
+<p>Tại một bài viết trên danh sách, người dùng chọn xem thêm (với bài viết có nội dung dài) để xem chi tiết nội dung bài viết. Ngoài ra người dùng cũng có thể chọn bài viết tại vùng <strong>Bài viết nổi bật</strong>, <strong>Bài đăng của tôi</strong>, <strong>Bài đăng đã theo dỗi</strong>, <strong>Bài đăng mới</strong> để xem chi tiết bài viết.</p>
+<p><img alt="" src="../picture/PIC_DW_Social_BaiViet_8.png" /></p>
+<p><img alt="" src="../picture/PIC_DW_Social_BaiViet_9.png" /></p>
+</li>
+<li>
+<p>Người dùng có thể báo cáo bài viết bị vi phạm bằng cách chọn vào ... ở phía bên phải của bài viết, chọn <strong>Báo cáo vi phạm</strong>. </p>
+<p><img alt="" src="../picture/PIC_DW_Social_BaiViet_10.png" /></p>
+<ul>
+<li>Người dùng báo cáo câu trả lời vi phạm bằng cách chọn ... ở bên phải câu trả lời, chọn <strong>Báo cáo vi phạm</strong>.</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_Social_BaiViet_13.png" /></p>
+<ul>
+<li>
+<p>Sau khi báo cáo vi phạm, admin của mạng xã hội sẽ nhìn thấy các bài viết, câu trả lời bị vi phạm và xem xét có đúng là vi phạm hay không. Nếu bài viết hoặc câu trả lời là vi phạm thì admin có thể thực hiện xóa bài viết khỏi mạng xã hội. Khi đó người dùng sẽ không nhìn thấy bài viết đó nữa.</p>
+<p><img alt="" src="../picture/PIC_DW_Social_BaiViet_12.png" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Người dùng có thể nhập câu trả lời cho bài viết ở cuối bài viết trên danh sách hoặc khi vào xem chi tiết một bài viết.</p>
+<p><img alt="" src="../picture/PIC_DW_Social_BaiViet_11.png" /></p>
+</li>
+<li>
+<p>Người dùng có thể phản hồi lại câu trả lời cho bất kỳ câu trả lời nào của bài viết trên mạng xã hội.</p>
+</li>
+<li>
+<p>Khi muốn theo dõi bài viết, người dùng chọn theo dõi. Sau khi theo dõi bài viết, thì khi có bất kỳ tương tác nào với bài viết người đùng đã theo dõi sẽ hiển thị thông báo cho người dùng biết.</p>
+</li>
+<li>
+<p>Người dùng chọn yêu thích khi yêu thích bài viết bất kỳ.</p>
+</li>
+<li>
+<p>Với bài viết hoặc câu trả người dùng thấy hữu ích thì có thể cộng thêm 1 điểm cho bài viết/ câu trả lời bằng cách chọn vào mũi tên lên ở phía góc trái bài viết/ câu trả lời. Ngược lại với bài viết không chính xác hay không hữu ích người dùng có thể trừ 1 điểm bằng cách chọn mũi tên xuống ở góc trái bài viết/ câu trả lời.</p>
+<blockquote>
+<p>Lưu ý: Người dùng chỉ có thể cộng điểm hoặc trừ điểm đối với bài viết, câu trả lời của thành viên khác, không được phép cộng/ trừ điểm cho bài viết/ câu trả lời của chính mình.</p>
+</blockquote>
+</li>
+</ol>
+<h4 id="nhan-vien">Nhân viên</h4>
+<p>Chức năng này cho phép người dùng xem thông tin các cá nhân khác trên mạng xã hội. Ngoài ra, người dùng có thể trực tiếp mở màn hình chat với từng cá nhân bằng cách nhấn vào ảnh đại diện.</p>
+<p><strong>Đối tượng thực hiện:</strong> Người dùng hệ thống</p>
+<ol>
+<li>
+<p>Người dùng ruy cập trang web, chọn <strong>Mạng xã hội/ Nhân viên</strong> để xem danh sách tất cả người dùng.</p>
+<p><img alt="" src="../picture/PIC_DW_Social_NhanVien_1.png" /></p>
+</li>
+<li>
+<p>Người dùng có thể tìm kiếm các thành viên khác bằng cách nhập vào ô tìm kiếm người dùng và nhấn enter, hệ thống sẽ hiển thị những người dùng có tên chưa chuỗi nhập.</p>
+</li>
+<li>
+<p>Người dùng muốn xem bảng xếp hạng thành viên theo tuần này thì sẽ chọn <strong>Tuần này</strong>, khi đó hệ thống sẽ sắp xếp hiển thị người dùng theo số điểm đạt được trong tuần.</p>
+</li>
+<li>
+<p>Người dùng muốn xem bảng xếp hạng thành viên theo tháng này thì sẽ chọn <strong>Tháng này</strong>, khi đó hệ thống sẽ sắp xếp hiển thị người dùng theo số điểm đạt được trong tháng.</p>
+</li>
+<li>
+<p>Người dùng muốn xem bảng xếp hạng thành viên theo từ trước đến nay thì sẽ chọn <strong>Đến nay</strong>, khi đó hệ thống sẽ sắp xếp hiển thị người dùng theo số điểm đạt được.</p>
+</li>
+</ol>
+<h4 id="the">Thẻ</h4>
+<p>Chức năng này cho phép người dùng theo dõi tất cả các thẻ đã sử dụng trong các bài đăng, trên hệ thống (không phân biệt người tạo thẻ). Ngoài ra, người dùng có thể đăng ký nhận tin hoặc truy cập trực tiếp các bài viết đã sử dụng thẻ từ menu này.</p>
+<ol>
+<li>
+<p>Người dùng truy cập trang web, chọn <strong>Mạng xã hội/ Thẻ</strong> để xem danh sách tất cả các thẻ sử dụng trong hệ thống.</p>
+<p><img alt="" src="../picture/PIC_DW_Social_Tag_6.png" /></p>
+</li>
+<li>
+<p>Người dùng chọn vào 1 thẻ và chọn Xem bài viết để xem các bài viết có gán với thẻ đã chọn. </p>
+<p><img alt="" src="../picture/PIC_DW_Social_Tag_5.png" /></p>
+</li>
+</ol>
+<h3 id="xem-xuat-thong-ke">Xem xuất thống kê</h3>
+<p>Cho phép Quản trị hệ thống xem được chi tiết các bài viết, xem thống kê lượt xem, số câu trả lời, số yêu thích của mỗi bài viết hoặc chủ đề.</p>
+<p><strong>Đối tượng thực hiện:</strong> Quản trị hệ thống </p>
+<h4 id="xem-xuat-thong-ke-theo-bai-viet">Xem xuất thống kê theo bài viết</h4>
+<ol>
+<li>
+<p>Vào phân hệ <strong>Trang web</strong>, chọn <strong>Mạng xã hội/ Bài viết</strong></p>
+<p><img alt="" src="../picture/PIC_DW_Social_BaoCao_2.png" /></p>
+</li>
+<li>
+<p>Người dùng thực hiện quản lý danh sách bài viết mà các thành viên đã đăng.</p>
+<p><img alt="" src="../picture/PIC_DW_Social_BaoCao_3.png" /></p>
+</li>
+<li>
+<p>Nhấn <strong>Xuất toàn bộ</strong> để xuất toàn bộ danh sách bài viết.</p>
+</li>
+</ol>
+<h4 id="xem-xuat-thong-ke-theo-chu-e">Xem xuất thống kê theo chủ đề</h4>
+<ol>
+<li>
+<p>Vào phân hệ <strong>Trang web</strong>, chọn <strong>Cấu hình/ Mạng xã hội/ Chủ đề</strong></p>
+<p><img alt="" src="../picture/PIC_DW_Social_ChuDe_1.png" /></p>
+</li>
+<li>
+<p>Người dùng thực hiện xem thống kê số lượt xem, số bài đăng, số câu trả lời, số yêu thích theo từng chủ đề.</p>
+<p><img alt="" src="../picture/PIC_DW_Social_BaoCao_6.png" /></p>
+</li>
+<li>
+<p>Nhấn <strong>Xuất toàn bộ</strong> để xuất toàn bộ danh sách chủ đề.</p>
+</li>
+</ol>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../Addon-khao-sat/" class="btn btn-neutral float-right" title="Khảo sát">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../Addon-Website/" class="btn btn-neutral" title="Trang web"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Addon-Website/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Addon-khao-sat/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
