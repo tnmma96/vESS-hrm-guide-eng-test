@@ -59,13 +59,7 @@ Người dùng quản lý thông tin của các sự kiện
 ![](picture/PIC_DW_SuKien-Tao.png)
 
 3. Khai báo các thông tin chi tiết của Các sự kiện
-
-    * Khai báo thông tin Tên sự kiện
-    
-    * Khai báo thông tin Ngày 
-    
-    * Chọn thông tin Múi giờ 
-    
+   
     * Chọn thông tin Mẫu 
       
         * Danh sách mẫu sự kiện để lựa chọn sẽ được thêm tại **Cấu hình/Event Templates**
@@ -73,50 +67,12 @@ Người dùng quản lý thông tin của các sự kiện
     * Chọn thông tin Tag 
       
         * Danh sách thẻ sự kiện để lựa chọn sẽ được thêm tại **Cấu hình/Event tags Categories**
-    
-    * Chọn thông tin Nhà tổ chức 
-    
-    * Chọn Người phụ trách 
-    
-    * Chọn thông tin Trang web
-    
-    * Chọn thông tin Limit Registrations, người dùng khai báo thêm thông tin giới hạn số lượng Người Tham dự
-    
-    * Chọn thông tin Autoconfirmation
-    
-    * Khai báo thông tin chi tiết Ticket
-    
-        * Khai báo thông tin Tên 
         
-        * Chọn thông tin Sản phẩm 
-        
-        * Khai báo thông tin Giá
-        
-        * Khai báo thông tin Sales start
-        
-        * Khai báo thông tin Hết mở bán 
-        
-        * Khai báo thông tin Maximum 
-        
-        * Khai báo thông tin Đã được xác nhận
-        
-        * Khai báo thông tin Chưa xác nhận
+    * Chọn thông tin Limit Registrations, người dùng khai báo thêm thông tin giới hạn số lượng Người Tham dự 
+    
+    * Khai báo thông tin chi tiết Ticket 
         
     * Khai báo thông tin chi tiết Thông tin giao dịch 
-    
-        * Khai báo thông tin Gửi
-        
-        * Khai báo thông tin Mẫu email 
-        
-        * Khai báo thông tin Mẫu SMS
-        
-        * Khai báo thông tin Khoảng thời gian 
-        
-        * Khai báo thông tin Đơn vị 
-        
-        * Khai báo thông tin Bộ khởi động 
-        
-        * Chọn thông tin Đã gửi
         
     * Khai báo thông tin chi tiết Ghi chú
     
@@ -127,16 +83,8 @@ Người dùng quản lý thông tin của các sự kiện
 6. Người dùng tạo **Ghi chú** và **Gửi tin** đến người dùng cũng đang theo dõi sự kiện
 
 7. Người dùng thực hiện **Lên lịch công việc** cho sự kiện
-
-    * Chọn thông tin Kiểu hoạt động
-    
-    * Khai báo thông tin Tổng kết 
-    
-    * Chọn thông tin Ngày đến hạn
-    
-    * Chọn thông tin Phân công cho
-      
-    * Khai báo thông tin Mô tả 
+ 
+    * Khai báo các thông tin cần thiết
     
     * Nhấn **Ấn định thời gian** để thực hiện giao việc cho nhân sự được chọn 
     
@@ -181,18 +129,9 @@ Sau khi quản trị viên đăng tải sự kiện công khai, người dùng c
 2. Sau khi người dùng thực hiện đăng ký tham dự sự kiện trên website thành công, quản trị hệ thống sẽ thực hiện quản lý danh sách người tham dự bằng cách: vào chức năng **Các sự kiện**, nhấn vào sự kiện để xem thông tin của sự kiện .Nhấn **Người tham dự** để xem và theo dõi danh sách người tham dự sự kiện. 
 
 3. Tại **Người tham dự**, người dùng có thể thêm người tham dự sự kiện bằng cách nhấn **Tạo** để thêm một hoặc nhiều người tham dự khác
-   ![](picture/PIC_DW_SuKien-NguoiThamGiaTao.png)    
-    * Chọn thông tin Đặt bởi 
+   ![](picture/PIC_DW_SuKien-NguoiThamGiaTao.png)   
    
-    * Khai báo thông tin Tên Người tham dự
-   
-    * Khai báo thông tin Email
-   
-    * Khai báo thông tin Điện thoại 
-   
-    * Khai báo thông tin Di động
-   
-    * Chọn thông tin Vé sự kiện
+    * Khai báo các thông tin cần thiết
    
     * Trường hợp tại **Cấu hình/Thiết lập**, người dùng chọn thông tin Câu hỏi, sẽ phải khai báo thêm chi tiết thông tin Câu hỏi gồm: Câu hỏi, Loại câu hỏi, Câu trả lời được gợi ý và Câu trả lời dạng chữ 
    
@@ -203,24 +142,10 @@ Sau khi quản trị viên đăng tải sự kiện công khai, người dùng c
     * Nhấn **Đã tham dự** để xác nhận người tham dự đã tham dự sự kiện
    
     * Nhấn **Đơn bán hàng** để tạo đơn hàng cho người tham dự 
+
     ![](picture/PIC_DW_SuKien-DonBanHangTao.png) 
-        * Chọn thông tin Khách hàng	
        
-        * Chọn thông tin Địa chỉ xuất hóa đơn 
-       
-        * Chọn thông tin Địa chỉ giao hàng 
-       
-        * Chọn thông tin Mẫu báo giá 
-       
-        * Chọn thông tin Hiệu lực đến 
-       
-        * Chọn thông tin Điều khoản thanh toán 
-       
-        * Khai báo thông tin chi tiết Chi tiết đơn hàng 
-       
-        * Khai báo thông tin chi tiết Sản phẩm tùy chọn 
-       
-        * Khai báo thông tin chi tiết Thông tin khác 
+        * Khai báo các thông tin cần thiết
        
         * Nhấn **Gửi qua Email** để gửi email báo giá đến người tham dự
        
