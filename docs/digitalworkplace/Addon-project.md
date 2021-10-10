@@ -6,7 +6,7 @@ Thực hiện quản lý: Thông tin dự án, công việc trong dự án, tài
 
 #### Quy trình
 
-![PIC_DW_DuAn_Luong](picture\PIC_DW_DuAn_Luong.png)
+![](picture/PIC_DW_DuAn_Luong.png)
 
 **Các luồng quy trình**
 
@@ -27,10 +27,10 @@ Khi người sử dụng muốn quản lý dự án thì quy trình thực hiệ
 
 **Luồng chức năng chính**
 
-* Quản lý Dự án. Chi tiết nghiệp vụ <u>[tại đây](#quản-lý-dự-án)</u>.
-* Quản lý tài liệu dự án. Chi tiết nghiệp vụ <u>[tại đây](#quản-lý-tài-liệu-dự-án)</u>.
-* Quản lý công việc trong dự án. Chi tiết nghiệp vụ <u>[tại đây](#công-việc)</u>.
-* Báo cáo. Chi tiết nghiệp vụ <u>[tại đây](#báo-cáo)</u>.
+* Quản lý Dự án. Chi tiết nghiệp vụ <u>[tại đây](#quan-ly-du-an)</u>.
+* Quản lý tài liệu dự án. Chi tiết nghiệp vụ <u>[tại đây](#quan-ly-tai-lieu-du-an)</u>.
+* Quản lý công việc trong dự án. Chi tiết nghiệp vụ <u>[tại đây](#nhiem-vu)</u>.
+* Báo cáo. Chi tiết nghiệp vụ <u>[tại đây](#bao-cao)</u>.
 
 **Video hướng dẫn**
 
@@ -54,11 +54,11 @@ Tại màn hình này người dùng có thể thực hiện xem, tìm kiếm d�
 
 2. Chọn Menu "**Dự án**", Hiển thị màn hình Danh sách dự án
 
-   ![PIC_DW_DuAn_DanhSachDuAn](picture\PIC_DW_DuAn_DanhSachDuAn.png)
+   ![](picture/PIC_DW_DuAn_DanhSachDuAn.png)
 
    <p align="center">Danh sách dự án dạng Kanban</p>
 
-   ![PIC_DW_DuAn_DanhSachDuAnDangBang](picture\PIC_DW_DuAn_DanhSachDuAnDangBang.png)
+   ![](picture/PIC_DW_DuAn_DanhSachDuAnDangBang.png)
 
    <p align="center">Danh sách dự án dạng bảng</p>
 
@@ -71,29 +71,17 @@ Tại màn hình này người dùng có thể thực hiện xem, tìm kiếm d�
 
 4. Người dùng thực hiện import dự án mới bằng cách: Nhấn biểu tượng yêu thích, chọn "Thêm bản ghi"
 
-   ![PIC_DW_DuAn_Import](picture\PIC_DW_DuAn_Import.png)
+   ![](picture/PIC_DW_DuAn_Import.png)
 
    Nhấn "**Nạp tập tin**" chọn tập tin muốn import và làm theo hướng dẫn
 
-5. Chia sẻ tài liệu: Xem chi tiết <u>[tại đây](#chia-sẻ-tài-liệu-dự-án)</u>.
-
-6. Cấu hình webhook: Xem chi tiết <u>[tại đây](#cấu-hình-webhook)</u>.
-
-7. Lưu trữ/Bỏ lưu trữ: Xem chi tiết <u>[tại đây](#lưu-trữ/bỏ-lưu-trữ-dự-án)</u>.
-
-8. Sửa dự án: Xem chi tiết <u>[tại đây](#cập-nhật-thông-tin-dự-án)</u>.
-
-9. Xóa dự án: Xem chi tiết <u>[tại đây](#xóa-dự-án)</u>.
-
-10. Báo cáo: Xem chi tiết <u>[tại đây](#báo-cáo-theo-dự-án)</u>.
-
-11. Chọn màu đặc trưng cho dự án
+5. Chọn màu đặc trưng cho dự án
 
     - Chọn Thao tác 
 
     - Chọn màu đặc trưng cho dự án: Nhấn vào màu mong muốn
 
-      ![PIC_DW_DuAn_MauDuAn](picture\PIC_DW_DuAn_MauDuAn.png)
+      ![](picture/PIC_DW_DuAn_MauDuAn.png)
 
 #### Tạo mới dự án
 
@@ -105,11 +93,11 @@ Người sử dụng thực hiện tạo mới dự án bao gồm các thông ti
 
 1. Vào menu **"Dự án"**, hiển thị màn hình danh sách dự án
 
-   ![PIC_DW_DuAn_DanhSachDuAn](picture\PIC_DW_DuAn_DanhSachDuAn.png)
+   ![](picture/PIC_DW_DuAn_DanhSachDuAn.png)
 
 2. Nhấn **Tạo** dự án
 
-   ![PIC_DW_DuAn_TaoDuAn](picture\PIC_DW_DuAn_TaoDuAn.png)
+   ![](picture/PIC_DW_DuAn_TaoDuAn.png)
 
 3. Khai báo Thông tin chung của **Dự án**
    - Khai báo Tên dự án
@@ -154,7 +142,7 @@ Người sử dụng thực hiện tạo mới dự án bao gồm các thông ti
 
    Các thành viên trong dự án sẽ nhận được mail mời tham gia dự án như sau:
 
-![PIC_DW_DuAn_MailMoi](picture\PIC_DW_DuAn_MailMoi.png)
+![](picture/PIC_DW_DuAn_MailMoi.png)
 
 
 ### Quản lý tài liệu dự án
@@ -169,11 +157,11 @@ Chức năng này cho phép người dùng thêm/ xóa tài liệu dự án
 
 2. Chọn thẻ Tài liệu => Hiển thị màn hình danh sách tài liệu của dự án
 
-   ![PIC_DW_DuAn_DanhSachTep](picture\PIC_DW_DuAn_DanhSachTep.png)
+   ![](picture/PIC_DW_DuAn_DanhSachTep.png)
 
 3. Nhấn **Tạo** => Hiển thị màn hình Tạo tài liệu
 
-   ![PIC_DW_DuAn_TaoTaiLieu](picture\PIC_DW_DuAn_TaoTaiLieu.png)
+   ![](picture/PIC_DW_DuAn_TaoTaiLieu.png)
 
    4. Khai báo các thông tin sau:
 
@@ -199,15 +187,15 @@ Cho phép người dùng xem danh sách nhiệm vụ đã tạo của dự án
 
 1. Tại màn hình danh sách dự án dạng kanban, chọn dự án muốn xem danh sách công việc. Sau khi chọn dự án muốn xem, màn hình hiển thị danh sách chi tiết công việc của dự án đó theo dạng **kanban**, người sử dụng có thể phân loại công việc bằng cách di chuyển công việc tới một giai đoạn bất kì trong dự án.
 
-![PIC_DW_DuAn_ViewKanban](picture\PIC_DW_DuAn_ViewKanban.png)
+![](picture/PIC_DW_DuAn_ViewKanban.png)
 
 Hoặc có thể chọn hiển thị danh sách công việc theo dạng **Danh sách**: 
 
-![PIC_DW_DuAn_ViewDanhSach](picture\PIC_DW_DuAn_ViewDanhSach.png)
+![](picture/PIC_DW_DuAn_ViewDanhSach.png)
 
 Ngoài ra, có thể xem danh sách công việc hiển thị theo dạng **Lịch**, **Trục **, **Đồ thị **, **Hoạt động** bằng cách chọn biểu tượng tương ứng ở phía trên - góc phải màn hình.  
 
-![PIC_DW_DuAn_CheDoXem](picture\PIC_DW_DuAn_CheDoXem.png)
+![](picture/PIC_DW_DuAn_CheDoXem.png)
 
 #### Quản lý giai đoạn
 
@@ -219,7 +207,7 @@ Chức năng này cho phép người dùng Tạo/ Sửa giai đoạn trong dự 
 
 1. Mở màn hình Nhiệm vụ dự án
 
-![PIC_DW_DuAn_NhiemVu](picture\PIC_DW_DuAn_NhiemVu.png)
+![](picture/PIC_DW_DuAn_NhiemVu.png)
 
 2. Tạo giai đoạn bằng 2 cách:
    * Thêm cột: Nhập tên cột => Nhấn **Thêm**
@@ -239,7 +227,7 @@ Chức năng này cho phép người dùng Tạo/ Sửa giai đoạn trong dự 
    
       => Thực hiện nhấn "**Sử dụng cái này cho Kanban của tôi**"
 
-![PIC_DW_DuAn_MauGiaiDoan](picture\PIC_DW_DuAn_MauGiaiDoan.png)
+![](picture/PIC_DW_DuAn_MauGiaiDoan.png)
 
 3. Với các giai đoạn, người dùng có thể **Sửa** các thông tin: 
 
@@ -271,7 +259,7 @@ Chức năng này cho phép người dùng tạo công việc cho dự án
 
 2. Nhấn **Tạo**
 
-   ![PIC_DW_DuAn_TaoCongViec](picture\PIC_DW_DuAn_TaoCongViec.png)
+   ![](picture/PIC_DW_DuAn_TaoCongViec.png)
 
 3. Người dùng khai báo các thông tin: 
 
@@ -315,7 +303,7 @@ Chức năng này cho phép người dùng tạo công việc cho dự án
 
 3. Nhấn **Lưu** công việc
 
-   ![PIC_DW_DuAn_TaoCongViec2](picture\PIC_DW_DuAn_TaoCongViec2.png)
+   ![](picture/PIC_DW_DuAn_TaoCongViec2.png)
 
 4. Sau khi lưu công việc, người dùng có thể thực hiện các tính năng sau:
 
@@ -386,15 +374,15 @@ Chức năng này được sử dụng để thống kê hiện trạng công vi
    * Báo cáo thời gian làm việc
    * Thống kê dự án
 
-![PIC_DW_DuAn_dashboard1](picture\PIC_DW_DuAn_dashboard1.png)
+![](picture/PIC_DW_DuAn_dashboard1.png)
 
-![PIC_DW_DuAn_Dashboard2](picture\PIC_DW_DuAn_Dashboard2.png)
+![](picture/PIC_DW_DuAn_Dashboard2.png)
 
-![PIC_DW_DuAn_Dashboard3](picture\PIC_DW_DuAn_Dashboard3.png)
+![](picture/PIC_DW_DuAn_Dashboard3.png)
 
-![PIC_DW_DuAn_Dashboard4](picture\PIC_DW_DuAn_Dashboard4.png)
+![](picture/PIC_DW_DuAn_Dashboard4.png)
 
-![PIC_DW_DuAn_Dashboard5](picture\PIC_DW_DuAn_Dashboard5.png)
+![](picture/PIC_DW_DuAn_Dashboard5.png)
 
 
 
@@ -416,15 +404,15 @@ Chức năng này được sử dụng để thống kê hiện trạng tất c�
 
    => Hiển thị màn hình Báo cáo tổng hợp
 
-![PIC_DW_DuAn_BieuDoCot](picture\PIC_DW_DuAn_BieuDoCot.png)
+![](picture/PIC_DW_DuAn_BieuDoCot.png)
 
 <p align="center">Biểu đồ cột</p>
 
-![PIC_DW_DuAn_BieuDoDuong](picture\PIC_DW_DuAn_BieuDoDuong.png)
+![](picture/PIC_DW_DuAn_BieuDoDuong.png)
 
 <p align="center">Biểu đồ đường</p>
 
-![PIC_DW_DuAn_BieuDoTron](picture\PIC_DW_DuAn_BieuDoTron.png)
+![](picture/PIC_DW_DuAn_BieuDoTron.png)
 
 <p align="center">Biểu đồ tròn</p>
 
@@ -441,15 +429,15 @@ Chức năng cho phép người dùng tạo mới cấu hình Webhook
 1. Mở menu "Dự án"
 2. Tại 1 dự án, chọn Thao tác - **"Cấu hình Webhook"**
 
-![PIC_DW_DuAn_CauHinhWebhook](picture\PIC_DW_DuAn_CauHinhWebhook.png)
+![](picture/PIC_DW_DuAn_CauHinhWebhook.png)
 
 Điều hướng đến màn hình Danh sách cấu hình Webhook của dự án được chọn
 
-![PIC_DW_DuAn_DanhSachCauHinhWebhook](picture\PIC_DW_DuAn_DanhSachCauHinhWebhook.png)
+![](picture/PIC_DW_DuAn_DanhSachCauHinhWebhook.png)
 
 3. Nhấn **Tạo**, hiển thị màn hình Tạo mới webhook
 
-![PIC_DW_DuAn_TaoCauHinh](picture\PIC_DW_DuAn_TaoCauHinh.png)
+![](picture/PIC_DW_DuAn_TaoCauHinh.png)
 
 4. Người dùng khai báo các thông tin sau:
 
