@@ -44,9 +44,9 @@ Tại màn hình này người dùng có thể thực hiện xem, tìm kiếm d�
 
 **Đối tượng thực hiện:**
 
-- Quản trị hệ thống có thể: xem, tạo, chỉnh sửa tất cả các dự án trên hệ thống
-- Quản lý dự án có thể: xem, chỉnh sửa những dự án được phân quyền làm quản lý
-- Người dùng (thành viên dự án) có thể: xem những dự án được phân quyền làm thành viên
+*  Quản trị hệ thống có thể: xem, tạo, chỉnh sửa tất cả các dự án trên hệ thống
+*  Quản lý dự án có thể: xem, chỉnh sửa những dự án được phân quyền làm quản lý
+*  Người dùng (thành viên dự án) có thể: xem những dự án được phân quyền làm thành viên
 
 **Các bước thực hiện:**
 
@@ -64,10 +64,9 @@ Tại màn hình này người dùng có thể thực hiện xem, tìm kiếm d�
 
 3. Người dùng thực hiện tìm kiếm dự án mong muốn bằng cách:
 
-   - Nhập Tên dự án vào ô "Tìm"
-
-   + Tìm kiếm bằng Bộ lọc hoặc Nhóm
-   + Tìm kiếm theo bộ lọc Yêu thích
+   * Nhập Tên dự án vào ô "Tìm"
+      * Tìm kiếm bằng Bộ lọc hoặc Nhóm
+      * Tìm kiếm theo bộ lọc Yêu thích
 
 4. Người dùng thực hiện import dự án mới bằng cách: Nhấn biểu tượng yêu thích, chọn "Thêm bản ghi"
 
@@ -75,13 +74,12 @@ Tại màn hình này người dùng có thể thực hiện xem, tìm kiếm d�
 
    Nhấn "**Nạp tập tin**" chọn tập tin muốn import và làm theo hướng dẫn
 
-5. Chọn màu đặc trưng cho dự án
+5. Ngoài ra, người dùng có thể chọn màu đặc trưng cho dự án
 
-    - Chọn Thao tác 
+   * Chọn Thao tác 
 
-    - Chọn màu đặc trưng cho dự án: Nhấn vào màu mong muốn
-
-      ![](picture/PIC_DW_DuAn_MauDuAn.png)
+   * Chọn màu đặc trưng cho dự án: Nhấn vào màu mong muốn
+     ![](picture/PIC_DW_DuAn_MauDuAn.png)
 
 #### Tạo mới dự án
 
@@ -92,24 +90,29 @@ Người sử dụng thực hiện tạo mới dự án bao gồm các thông ti
 **Các bước thực hiện**
 
 1. Vào menu **"Dự án"**, hiển thị màn hình danh sách dự án
-
-   ![](picture/PIC_DW_DuAn_DanhSachDuAn.png)
-
+![](picture/PIC_DW_DuAn_DanhSachDuAn.png)
+   
 2. Nhấn **Tạo** dự án
 
-   ![](picture/PIC_DW_DuAn_TaoDuAn.png)
+![](picture/PIC_DW_DuAn_TaoDuAn.png)
 
 3. Khai báo Thông tin chung của **Dự án**
-   - Khai báo Tên dự án
-   - Khai báo Nhãn công việc trong dự án. Nhãn này sau khi được khai báo sẽ hiển thị bên ngoài thẻ dự án trong giao diện Kanban để mô tả về trạng thái hoàn thành công việc
+
+* Khai báo Tên dự án
+    *  Khai báo Nhãn công việc trong dự án. Nhãn này sau khi được khai báo sẽ hiển thị bên ngoài thẻ dự án trong giao diện Kanban để mô tả về trạng thái hoàn thành công việc
 4. Khai báo thiết lập
    * Khai báo các thông tin cần thiết
+
    * Chọn Phân loại dự án: Dự án nội bộ/ Dự án làm việc với khách hàng
      * Nếu chọn "Dự án làm việc với khách hàng" người dùng sẽ khai báo thêm thông tin **Khách hàng** bao gồm Tên khách hàng, số điện thoại và email khách hàng
      * Nếu chọn "Dự án nội bộ" sẽ không hiển thị thông tin khách hàng để chọn
+
    * Chọn nhóm người dùng: Đây là nhóm người dùng được thiết lập trong hệ thống. Chọn nhóm nào thì toàn bộ người dùng thuộc nhóm sẽ là thành viên của dự án
+
    * Chọn Thành viên dự án: lựa chọn thành viên từ danh sách người dùng trong hệ thống
+
    * Chọn Phòng ban: Chọn Phòng ban nào thì tất cả nhân viên được gán thông tin người dùng thuộc phòng ban đó sẽ là thành viên của dự án
+
    * Chọn Ngày bắt đầu: phải nhỏ hơn hoặc bằng Ngày hết hạn
    * Chọn Ngày hết hạn: phải lớn hơn hoặc bằng Ngày bắt đầu
    * Khai báo nỗ lực thực hiện (giờ)
@@ -120,7 +123,7 @@ Người sử dụng thực hiện tạo mới dự án bao gồm các thông ti
      * Nhiệm vụ con: Người dùng chọn, dự án sẽ thực hiện được chức năng thêm nhiệm vụ con
      * Công việc định kỳ: Người dùng chọn thì các công việc trong dự án sẽ được bổ sung tính năng tạo lịch nhắc lại
    
-   - Danh sách Thành viên dự án: Là tổng hợp các thành viên: Quản lý dự án, Nhóm người dùng, Thành viên dự án, thành viên thuộc Phòng ban đã được chọn
+   *  Danh sách Thành viên dự án: Là tổng hợp các thành viên: Quản lý dự án, Nhóm người dùng, Thành viên dự án, thành viên thuộc Phòng ban đã được chọn
    
 5. Khai báo Mô tả
 
@@ -231,20 +234,20 @@ Chức năng này cho phép người dùng Tạo/ Sửa giai đoạn trong dự 
 
 3. Với các giai đoạn, người dùng có thể **Sửa** các thông tin: 
 
-- Tên Giai đoạn
-  - Lưu ý: Tên giai đoạn là bắt buộc, không được để trống
-- Chọn loại giai đoạn: Đóng Kanban, Kết thúc, Hủy bỏ. Người sử dụng có thể chọn thêm hơn một Loại giai đoạn. 
+*  Tên Giai đoạn
+    * Lưu ý: Tên giai đoạn là bắt buộc, không được để trống
+* Chọn loại giai đoạn: Đóng Kanban, Kết thúc, Hủy bỏ. Người sử dụng có thể chọn thêm hơn một Loại giai đoạn. 
 
-  - Đóng kanban: Trên danh sách công việc hiển thị theo dạng Kanban, giai đoạn chọn đóng Kanban sẽ được thu gọn lại
-  - Kết thúc: Giai đoạn chọn kết thúc thì toàn bộ công việc trong giai đoạn chọn được coi là kết thúc
-  - Hủy bỏ: Giai đoạn chọn hủy bỏ thì toàn bộ công việc trong giai đoạn chọn được coi là hủy
-- Chọn trạng thái cho giai đoạn: người sử dụng có thể chọn trạng thái cho từng giai đoạn thông qua việc chọn màu sắc và khai báo chú thích cho từng phân loại màu. Hiện tại, hệ thống đang để mặc định:
+    * Đóng kanban: Trên danh sách công việc hiển thị theo dạng Kanban, giai đoạn chọn đóng Kanban sẽ được thu gọn lại
+    * Kết thúc: Giai đoạn chọn kết thúc thì toàn bộ công việc trong giai đoạn chọn được coi là kết thúc
+    * Hủy bỏ: Giai đoạn chọn hủy bỏ thì toàn bộ công việc trong giai đoạn chọn được coi là hủy
+* Chọn trạng thái cho giai đoạn: người sử dụng có thể chọn trạng thái cho từng giai đoạn thông qua việc chọn màu sắc và khai báo chú thích cho từng phân loại màu. Hiện tại, hệ thống đang để mặc định:
 
-  - Màu xám: Trạng thái công việc đang làm 
-  - Màu đỏ: Trạng thái công việc đã khóa
-  - Màu Xanh: Trạng thái công việc hoàn thành 
+    * Màu xám: Trạng thái công việc đang làm 
+    * Màu đỏ: Trạng thái công việc đã khóa
+    * Màu Xanh: Trạng thái công việc hoàn thành 
 
-- Khai báo/sửa thông tin mô tả chi tiết cho từng giai đoạn
+* Khai báo/sửa thông tin mô tả chi tiết cho từng giai đoạn
 
 
 #### Tạo công việc
@@ -263,43 +266,43 @@ Chức năng này cho phép người dùng tạo công việc cho dự án
 
 3. Người dùng khai báo các thông tin: 
 
-- Khai báo Tên công việc.
+* Khai báo Tên công việc.
 
-  - Lưu ý: **Tên công việc** là bắt buộc, người dùng không được để trống
+    * Lưu ý: **Tên công việc** là bắt buộc, người dùng không được để trống
 
-- Chọn công việc chính
+* Chọn công việc chính
 
-- Khai báo nhiệm vụ con: Người dùng chọn nhiệm vụ con, hệ thống điều hướng đến màn hình khai báo chi tiết công việc con. Trong đó có các thông tin bắt buộc:
-  - Tên công việc con
-  - Người thực hiện
-  - Ngày bắt đầu
-  - Ngày kết thúc
+* Khai báo nhiệm vụ con: Người dùng chọn nhiệm vụ con, hệ thống điều hướng đến màn hình khai báo chi tiết công việc con. Trong đó có các thông tin bắt buộc:
+    * Tên công việc con
+    * Người thực hiện
+    * Ngày bắt đầu
+    * Ngày kết thúc
   
-- Chọn mức độ ưu tiên
+* Chọn mức độ ưu tiên
 
-- Chọn ngày bắt đầu 
-  - Lưu ý: **Chọn ngày bắt đầu** là bắt buộc, người sử dụng chọn ngày bắt đầu phải nhỏ hơn hoặc bằng Hạn chót
+* Chọn ngày bắt đầu 
+    * Lưu ý: **Chọn ngày bắt đầu** là bắt buộc, người sử dụng chọn ngày bắt đầu phải nhỏ hơn hoặc bằng Hạn chót
 
-- Chọn hạn chót
-  - Lưu ý: **Chọn hạn chót** là bắt buộc, người sử dụng chọn hạn chót phải lớn hơn hoặc bằng ngày bắt đầu 
+* Chọn hạn chót
+   * Lưu ý: **Chọn hạn chót** là bắt buộc, người sử dụng chọn hạn chót phải lớn hơn hoặc bằng ngày bắt đầu 
 
-- Khai báo các thông tin cần thiết
+* Khai báo các thông tin cần thiết
 
-- Chọn Lặp lại: Nếu người dùng chọn sẽ hiển thị tab “Nhắc lại” bên cạnh bảng chấm công
+* Chọn Lặp lại: Nếu người dùng chọn sẽ hiển thị tab “Nhắc lại” bên cạnh bảng chấm công
 
-- Khai báo việc cần làm
+* Khai báo việc cần làm
 
-  - Người sử dụng mô tả các việc cần làm và chọn trạng thái cho từng việc. Các trạng thái bao gồm: Hoàn thành/Đang thực hiện/Đã thực hiện/Đã hủy 
+    * Người sử dụng mô tả các việc cần làm và chọn trạng thái cho từng việc. Các trạng thái bao gồm: Hoàn thành/Đang thực hiện/Đã thực hiện/Đã hủy 
 
-- Khai báo Timesheet
+* Khai báo Timesheet
 
-  - Chọn **Thêm một dòng**
+    * Chọn **Thêm một dòng**
 
-  - Khai báo các thông tin cần thiết
+    * Khai báo các thông tin cần thiết
 
-  - Nhấn **Lưu & Đóng** hoặc **Lưu & Tạo mới**
+    * Nhấn **Lưu & Đóng** hoặc **Lưu & Tạo mới**
 
-- Chọn nhắc lại: Hiển thị tab khi này khi người dùng chọn **Lặp lại** ở tab chung
+* Chọn nhắc lại: Hiển thị tab khi này khi người dùng chọn **Lặp lại** ở tab chung
 
 3. Nhấn **Lưu** công việc
 
@@ -315,29 +318,29 @@ Chức năng này cho phép người dùng tạo công việc cho dự án
 
 Với tính năng Thảo luận, tại đây người dùng có thể:
 
-- Tìm kiếm nội dung thảo luận bằng cách nhập vào nội dung ô "tìm" và enter
+* Tìm kiếm nội dung thảo luận bằng cách nhập vào nội dung ô "tìm" và enter
 
-- Xem **Hộp thư đến**
+* Xem **Hộp thư đến**
 
-- Xem nội dung thảo luận **Được gắn sao**
+* Xem nội dung thảo luận **Được gắn sao**
 
-- Xem **Lịch sử**
+* Xem **Lịch sử**
 
-- Tìm kiếm hoặc Tạo các kênh thảo luận bằng cách: Nhấn vào biểu tượng dấu + tại mục "**CÁC KÊNH**"
+* Tìm kiếm hoặc Tạo các kênh thảo luận bằng cách: Nhấn vào biểu tượng dấu + tại mục "**CÁC KÊNH**"
 
-  + Mỗi kênh có thể có một hoặc nhiều thành viên
-  + Có thể cài đặt 
-    + Tính riêng tư: Mọi người/Chỉ người được mời/Nhóm người dùng được chọn
-    + Nhóm có thẩm quyền: Thành viên của nhóm sẽ được tự động thêm vào danh sách người theo dõi. Lưu ý rằng họ có thể tự thay đổi việc theo dõi này một cách thủ công khi cần thiết
+    * Mỗi kênh có thể có một hoặc nhiều thành viên
+    * Có thể cài đặt 
+       * Tính riêng tư: Mọi người/Chỉ người được mời/Nhóm người dùng được chọn
+       * Nhóm có thẩm quyền: Thành viên của nhóm sẽ được tự động thêm vào danh sách người theo dõi. Lưu ý rằng họ có thể tự thay đổi việc theo dõi này một cách thủ công khi cần thiết
 
-  - Có thể: Lưu trữ, Nhân bản hoặc kênh Thảo luận
-  - Thực hiện nhắn tin, gửi tệp đính kèm đến kênh thảo luận
+    * Có thể: Lưu trữ, Nhân bản hoặc kênh Thảo luận
+    * Thực hiện nhắn tin, gửi tệp đính kèm đến kênh thảo luận
 
-- Tìm kiếm hoặc bắt đầu cuộc trò chuyện mới bằng cách: Nhấn vào biểu tượng dấu + tại mục "**TIN NHẮN TRỰC TIẾP**"
+* Tìm kiếm hoặc bắt đầu cuộc trò chuyện mới bằng cách: Nhấn vào biểu tượng dấu + tại mục "**TIN NHẮN TRỰC TIẾP**"
 
-  + Có thể thay đổi biệt danh cho người nhận tin nhắn bằng cách nhấn vào biểu tượng cài đặt và nhập biệt danh mới
-  + Có thể bỏ ghim cuộc hội thoại bằng cách nhấn vào biểu tượng x
-  + Thực hiện nhắn tin, gửi tệp đính kèm đến người nhận
+    * Có thể thay đổi biệt danh cho người nhận tin nhắn bằng cách nhấn vào biểu tượng cài đặt và nhập biệt danh mới
+    * Có thể bỏ ghim cuộc hội thoại bằng cách nhấn vào biểu tượng x
+    * Thực hiện nhắn tin, gửi tệp đính kèm đến người nhận
 
 ### Báo cáo
 
@@ -345,13 +348,13 @@ Với tính năng Thảo luận, tại đây người dùng có thể:
 
 Chức năng này được sử dụng để thống kê hiện trạng công việc theo từng dự án gồm:
 
-- Số lượng công việc, mục tiêu, thành viên và thời lượng của dự án
+* Số lượng công việc, mục tiêu, thành viên và thời lượng của dự án
 
-- Báo cáo công việc: Biểu đồ thống kê theo trạng thái; Công việc không đúng hạn; Thành viên xuất sắc trong dự án
+* Báo cáo công việc: Biểu đồ thống kê theo trạng thái; Công việc không đúng hạn; Thành viên xuất sắc trong dự án
 
-- Quá trình thực hiện theo ngày – tuần
+* Quá trình thực hiện theo ngày – tuần
 
-- Trạng thái công việc của cá nhân, công việc tồn đọng và cảnh báo hạn xử lý
+* Trạng thái công việc của cá nhân, công việc tồn đọng và cảnh báo hạn xử lý
 
 **Các bước thực hiện:**
 
@@ -361,18 +364,18 @@ Chức năng này được sử dụng để thống kê hiện trạng công vi
 
    Bao gồm các biểu đồ thống kê sau:
 
-   * Thống kê công việc
-   * Thống kê thành viên
-   * Thống kê thời lượng
-   * Báo cáo trạng thái công việc
-   * Công việc không đúng hạn
-   * Thành viên xuất sắc
-   * Tổng hợp công việc theo tuần
-   * Báo cáo công việc tuần
-   * Thành viên còn nhiều việc nhất
-   * Thành viên hoàn thành muộn nhất
-   * Báo cáo thời gian làm việc
-   * Thống kê dự án
+    * Thống kê công việc
+    * Thống kê thành viên
+    * Thống kê thời lượng
+    * Báo cáo trạng thái công việc
+    * Công việc không đúng hạn
+    * Thành viên xuất sắc
+    * Tổng hợp công việc theo tuần
+    * Báo cáo công việc tuần
+    * Thành viên còn nhiều việc nhất
+    * Thành viên hoàn thành muộn nhất
+    * Báo cáo thời gian làm việc
+    * Thống kê dự án
 
 ![](picture/PIC_DW_DuAn_dashboard1.png)
 
@@ -390,11 +393,11 @@ Chức năng này được sử dụng để thống kê hiện trạng công vi
 
 Chức năng này được sử dụng để thống kê hiện trạng tất cả các dự án gồm:
 
-- Số dự án đang hoạt động
+* Số dự án đang hoạt động
 
-- Nhân sự tham gia từng dự án
+* Nhân sự tham gia từng dự án
 
-- Nỗ lực của từng cá nhân theo từng dự án
+* Nỗ lực của từng cá nhân theo từng dự án
 
 **Các bước thực hiện**:
 
@@ -441,13 +444,13 @@ Chức năng cho phép người dùng tạo mới cấu hình Webhook
 
 4. Người dùng khai báo các thông tin sau:
 
-   - Khai báo Tên dự án: bắt buộc
+  * Khai báo Tên dự án: bắt buộc
 
-   - Chọn giai đoạn của dự án
+  * Chọn giai đoạn của dự án
 
-   - Nhập URL: bắt buộc
+  * Nhập URL: bắt buộc
 
-   - Nhập Authentication Token
+  * Nhập Authentication Token
 
 5. Nhấn **Lưu** 
 
