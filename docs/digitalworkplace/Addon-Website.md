@@ -8,11 +8,11 @@ Quản lý toàn bộ quá trình tạo dựng trang Web: Từ thiết lập ch�
 
 **Các luồng quy trình**
 
-* Thiết lập, cài đặt trang Web. Chi tiết nghiệp vụ <u>[tai đây](#thiet-lao-trang-web)</u>.
+* Thiết lập, cài đặt trang Web. Chi tiết nghiệp vụ <u>[tai đây](#thiet-lap-trang-web)</u>.
     
-* Viết bài, Đăng bài và Xem bài viết. Chi tiết nghiệp vụ <u>[tại đây](#viet-bai-dang-bai-va-xem-bai-viet)</u>.
+* Viết bài, Đăng bài và Xem bài viết. Chi tiết nghiệp vụ <u>[tại đây](#viet-bai-ang-bai-va-xem-bai-viet)</u>.
 
-* Quản lý Khách truy cập trang Web. Chi tiết nghiệp vụ <u>[tại đây](#theo-doi-luong-truy-cap-trang-web)</u>.
+* Quản lý Khách truy cập trang Web. Chi tiết nghiệp vụ <u>[tại đây](#theo-doi-luong-khach-truy-cap-trang-web)</u>.
 
 #### Mô tả nghiệp vụ
 
@@ -28,13 +28,13 @@ Khi có nhu cầu tạo dựng một trang Web, người dùng thực hiện cá
 
 **Luồng chức năng chính**
 
-* Chọn chủ đề cho trang Web. Chi tiết nghiệp vụ <u>[tại đây](#chon-chu-de-cho-trang-web)</u>.
+* Chọn chủ đề cho trang Web. Chi tiết nghiệp vụ <u>[tại đây](#chon-chu-e-cho-trang-web)</u>.
 
 * Thiết lập giao diện trang Web. Chi tiết nghiệp vụ <u>[tại đây](#thiet-lap-giao-dien-trang-chu)</u>.
 
 * Thiết lập menu. Chi tiết nghiệp vụ <u>[tại đây](#thiet-lap-menu)</u>.
 
-* Viết bài và Đăng bài. Chi tiết nghiệp vụ <u>[tại đây](#viet-bai-va-dang-bai)</u>.
+* Viết bài và Đăng bài. Chi tiết nghiệp vụ <u>[tại đây](#viet-bai-va-ang-bai)</u>.
 
 * Xem chi tiết bài viết trên Website. Chi tiết nghiệp vụ <u>[tại đây](#xem-bai-viet-tren-trang-web)</u>.
 
