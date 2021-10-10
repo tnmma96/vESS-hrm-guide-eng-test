@@ -34,7 +34,7 @@ nav:
         - 'Đăng nhập, đăng xuất': 'digitalworkplace/Addon-login.md'
         - 'Trang web': 'digitalworkplace/Addon-Website.md'
         - 'Mạng xã hội': 'digitalworkplace/Addon-Social.md'
-        #- 'Dự án': 'digitalworkplace/Addon-project.md'
+        - 'Dự án': 'digitalworkplace/Addon-project.md'
         - 'Khảo sát': 'digitalworkplace/Addon-khao-sat.md'
         - 'Ghi chú': 'digitalworkplace/Addon-ghi-chu.md'
         - 'Timesheet': 'digitalworkplace/Addon-timesheet.md'
