@@ -4,15 +4,15 @@ Quản lý toàn bộ quá trình tạo dựng trang Web: Từ thiết lập ch�
 
 #### Quy trình
 
-![](Picture/PIC_DW_Website_Motaquytrinh.png)
+![](picture/PIC_DW_Website_Motaquytrinh.png)
 
 **Các luồng quy trình**
 
-* Thiết lập, cài đặt trang Web. Chi tiết nghiệp vụ <u>[tại đây](#thiet-lap-trang-web)</u>.
+* Thiết lập, cài đặt trang Web. Chi tiết nghiệp vụ <u>[tai đây](#thiet-lao-trang-web)</u>.
     
 * Viết bài, Đăng bài và Xem bài viết. Chi tiết nghiệp vụ <u>[tại đây](#viet-bai-dang-bai-va-xem-bai-viet)</u>.
 
-* Quản lý Khách truy cập trang Web. Chi tiết nghiệp vụ <u>[tại đây](#theo-doi-luong-khach-truy-cap-trang-web)</u>.
+* Quản lý Khách truy cập trang Web. Chi tiết nghiệp vụ <u>[tại đây](#theo-doi-luong-truy-cap-trang-web)</u>.
 
 #### Mô tả nghiệp vụ
 
@@ -30,13 +30,13 @@ Khi có nhu cầu tạo dựng một trang Web, người dùng thực hiện cá
 
 * Chọn chủ đề cho trang Web. Chi tiết nghiệp vụ <u>[tại đây](#chon-chu-de-cho-trang-web)</u>.
 
-* Thiết lập giao diện trang Web. Chi tiết nghiệp vụ <u>[tại đây](#thiet-lap-giao-dien-trang-chủ)</u>.
+* Thiết lập giao diện trang Web. Chi tiết nghiệp vụ <u>[tại đây](#thiet-lap-giao-dien-trang-chu)</u>.
 
 * Thiết lập menu. Chi tiết nghiệp vụ <u>[tại đây](#thiet-lap-menu)</u>.
 
-* Viết bài và Đăng bài. Chi tiết nghiệp vụ <u>[tại đây](#viet-bai-va-đang-bai)</u>.
+* Viết bài và Đăng bài. Chi tiết nghiệp vụ <u>[tại đây](#viet-bai-va-dang-bai)</u>.
 
-* Xem chi tiết bài viết trên Website. Chi tiết nghiệp vụ <u>[tại đây](#xem-bai-vie-tren-trang-web)</u>.
+* Xem chi tiết bài viết trên Website. Chi tiết nghiệp vụ <u>[tại đây](#xem-bai-viet-tren-trang-web)</u>.
 
 * Theo dõi Khách truy cập. Chi tiết nghiệp vụ <u>[tại đây](#theo-doi-khach-truy-cap)</u>
 
@@ -70,23 +70,15 @@ Quản trị viên thiết lập trang chủ, tạo dựng bộ khung ban đầu
 
 1. Kéo - thả các Khối nội dung phù hợp
     
-    * Tại **Trang chủ**, thực hiện **Kéo - thả các Khối, Style** và chỉnh sửa **Nội dung** vào vị trí giao diện:
-    
-    * Ứng dụng trong việc tạo điều kiện thuận lợi để quảng bá trên website, ngoài màu sắc thì cũng có một vài điểm cần lưu ý. 
-    
-    * Đặc biệt, bố cục của trang web là điều rất quan trọng.
+    * Tiến hành xây dựng trang web thông qua thao tác **kéo – thả** các khối Snippet được thiết kế sẵn cho từng mục đích.
         
         * Người dùng thực hiện chỉnh sửa theo các Khối đã có trên giao diện.
         
         * Đối với giao diện này, người dùng chỉ cần thao tác đơn gian, kéo phần cài đặt vào vị trí cần lắp ghép.
     
-    * Tiến hành xây dựng trang web thông qua thao tác kéo – thả các khối Snippet được thiết kế sẵn cho từng mục đích.
-    
     ![](picture/PIC_DW_Website_Keothakhoinoidung.png)
     
 2. Nhấn vào từng mục vừa kéo - thả để thay đổi nội dung phù hợp:
-
-3. Kéo - thả các Khối nội dung để hình thành bố cục trang chủ
     
     * Thực hiện thay đổi nội dung phù hợp với thông tin của trang Web
     
@@ -120,7 +112,7 @@ Quản trị viên thiết lập trang chủ, tạo dựng bộ khung ban đầu
     
         * Chọn ![](picture/PIC_DW_Website_Themurl.png) để thêm tệp trực tiếp từ đường link URL
         
-        * Sau khi chọn tệp xong thì nhấn ![](picture/PIC_DW_Website_Them.png) để lưu thay đổi
+        * Sau khi chọn tệp xong thì nhấn **Thêm** để lưu thay đổi
     
     * Đối với nút button: Nhấn đúp vào nút button trên màn hình:
     
@@ -236,7 +228,7 @@ Sau khi Lưu, có thể **Gửi tin nhắn, Tạo ghi chú, hoặc Theo dõi bà
     
 8. Theo dõi bài viết
     
-    * Nhấn chọn ![](picture/PIC_DW_Website_Buttontheodoi.png) để nhận tin nhắn tương tác từ bài viết
+    * Nhấn chọn ![](picture/PIC_DW_Website_Buttonchontheodoi.png) để nhận tin nhắn tương tác từ bài viết
 
     ![](picture/PIC_DW_Website_Datheodoi.png)
 
@@ -292,7 +284,7 @@ Quản trị viên có nhu cầu nắm bắt số lượng khách truy cập tr�
         
         * Nhập thông tin SMS. 
         
-        * Nhấn ![](picture/PIC_DW_Website_Guitinsms.png) để hoàn thành Gửi tin nhắn SMS.
+        * Nhấn ![](picture/PIC_DW_Website_Buttonguismskhachhang.png) để hoàn thành Gửi tin nhắn SMS.
 
     ![](picture/PIC_DW_Website_Guismskhachhang.png)
 
