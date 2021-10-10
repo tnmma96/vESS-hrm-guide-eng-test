@@ -194,11 +194,13 @@ Người sử dụng thực hiện tạo các chủ đề cho mạng xã hội.
 
     ![](picture/PIC_DW_Social_ChuDe_1.png)
 
-2. Chọn tạo **Chủ đề**
+2. Chọn tạo **Chủ đề**  
+
+    ![](picture/PIC_DW_Social_ChuDe_2.png)
 
 3. Khai báo thông tin chung của **Chủ đề**
 
-    ![](picture/PIC_DW_Social_ChuDe_2.png)
+    ![](picture/PIC_DW_Social_ChuDe_3.png)
     
     * Khai báo Tên chủ đề
     
@@ -264,7 +266,7 @@ Cho phép người dùng xem danh sách các bài viết, tra cứu bài viết 
 
 **Đối tượng thực hiện:** Người dùng hệ thống
 
-1. Người dùng chọn menu Mạng xã hội
+1. Người dùng truye cập vào trang web, chọn menu **Mạng xã hội**.
 
     ![](picture/PIC_DW_Social_BaiViet_1.png)
 
@@ -414,11 +416,11 @@ Cho phép Quản trị hệ thống xem được chi tiết các bài viết, xe
 
 1. Vào phân hệ **Trang web**, chọn **Mạng xã hội/ Bài viết**
 
-    ![](picture/PIC_DW_Social_BaoCao_2.png)
+    ![](picture/PIC_DW_Social_Admin_BaiViet_1.png)
     
 2. Người dùng thực hiện quản lý danh sách bài viết mà các thành viên đã đăng.
 
-    ![](picture/PIC_DW_Social_BaoCao_3.png)
+    ![](picture/PIC_DW_Social_Admin_BaiViet_2.png)
     
 3. Nhấn **Xuất toàn bộ** để xuất toàn bộ danh sách bài viết.
 
@@ -426,11 +428,12 @@ Cho phép Quản trị hệ thống xem được chi tiết các bài viết, xe
 
 1. Vào phân hệ **Trang web**, chọn **Cấu hình/ Mạng xã hội/ Chủ đề**
 
-    ![](picture/PIC_DW_Social_ChuDe_1.png)
+    ![](picture/PIC_DW_Social_tag_1.png)
     
 2. Người dùng thực hiện xem thống kê số lượt xem, số bài đăng, số câu trả lời, số yêu thích theo từng chủ đề.
 
-    ![](picture/PIC_DW_Social_BaoCao_6.png)
+    ![](picture/PIC_DW_Social_ChuDe_2.png)
     
 3. Nhấn **Xuất toàn bộ** để xuất toàn bộ danh sách chủ đề.
+
  
