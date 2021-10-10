@@ -71,9 +71,9 @@ Người dùng quản lý thông tin của các sự kiện
     * Chọn thông tin Limit Registrations, người dùng khai báo thêm thông tin giới hạn số lượng Người Tham dự 
     
     * Khai báo thông tin chi tiết Ticket 
-        
+      
     * Khai báo thông tin chi tiết Thông tin giao dịch 
-        
+      
     * Khai báo thông tin chi tiết Ghi chú
     
 4. Nhấn **Lưu** sự kiện 
@@ -83,7 +83,7 @@ Người dùng quản lý thông tin của các sự kiện
 6. Người dùng tạo **Ghi chú** và **Gửi tin** đến người dùng cũng đang theo dõi sự kiện
 
 7. Người dùng thực hiện **Lên lịch công việc** cho sự kiện
- 
+
     * Khai báo các thông tin cần thiết
     
     * Nhấn **Ấn định thời gian** để thực hiện giao việc cho nhân sự được chọn 
@@ -130,7 +130,6 @@ Sau khi quản trị viên đăng tải sự kiện công khai, người dùng c
 
 3. Tại **Người tham dự**, người dùng có thể thêm người tham dự sự kiện bằng cách nhấn **Tạo** để thêm một hoặc nhiều người tham dự khác
    ![](picture/PIC_DW_SuKien-NguoiThamGiaTao.png)   
-   
     * Khai báo các thông tin cần thiết
    
     * Trường hợp tại **Cấu hình/Thiết lập**, người dùng chọn thông tin Câu hỏi, sẽ phải khai báo thêm chi tiết thông tin Câu hỏi gồm: Câu hỏi, Loại câu hỏi, Câu trả lời được gợi ý và Câu trả lời dạng chữ 
@@ -142,9 +141,7 @@ Sau khi quản trị viên đăng tải sự kiện công khai, người dùng c
     * Nhấn **Đã tham dự** để xác nhận người tham dự đã tham dự sự kiện
    
     * Nhấn **Đơn bán hàng** để tạo đơn hàng cho người tham dự 
-
     ![](picture/PIC_DW_SuKien-DonBanHangTao.png) 
-       
         * Khai báo các thông tin cần thiết
        
         * Nhấn **Gửi qua Email** để gửi email báo giá đến người tham dự
@@ -190,10 +187,9 @@ Người sử dụng thực hiện **Thiết lập** thêm các thông tin cho s
 **Đối tượng thực hiện:** Người sử dụng là Quản trị hệ thống
 
 1. Vào chức năng **Các sự kiện**, chọn **Cấu hình/Thiết lập** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
-![](picture/PIC_DW_SuKien-ThietLap.png)
+![](picture/PIC_DW_SuKien-ThietLapTao.png)
 
 2. Khai báo thông tin chi tiết của Thiết lập 
-   ![](picture/PIC_DW_SuKien-ThietLapTao.png)
     * Chọn thông tin Schedule & Tracks
    
         * Chọn thông tin Schedule & Tracks, khi tạo sự kiện người sử dụng sẽ quản lý thêm các thông tin Vết và Nhà tài trợ
