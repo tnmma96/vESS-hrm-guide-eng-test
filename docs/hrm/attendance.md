@@ -186,9 +186,13 @@ Hoặc nhân viên vào menu Đăng ký công >> Chọn **Cá nhân** >> Chọn 
 
 - *Cách 2: Đăng ký trên app mobile*
 
-Để thuận tiện hơn cho nhân viên, hệ thống hỗ trợ đăng ký công trên app mobile (sử dụng điện thoại smartphone). Nhân viên truy cập app, đăng nhập tài khoản cá nhân, bấm vào menu **Đăng ký công** >> Bấm nút "+" để tạo đơn đăng ký công >> Nhân viên nhập đầy đủ thông tin và bấm **Hoàn tất** để trình cấp trên duyệt (hiển thị với trạng thái Chờ duyệt) hoặc bấm **Lưu nháp** để lưu đơn đăng ký ở trạng thái Nháp.
+Để thuận tiện hơn cho nhân viên, hệ thống hỗ trợ đăng ký công trên app mobile (sử dụng điện thoại smartphone). Nhân viên truy cập app, đăng nhập tài khoản cá nhân, bấm vào menu **Đăng ký công** >> Chọn **Yêu cầu chấm công của tôi** >> Chọn "Yêu cầu Bấm nút "+" để tạo đơn đăng ký công >> Nhân viên nhập đầy đủ thông tin và bấm **Hoàn tất** để trình cấp trên duyệt (hiển thị với trạng thái Chờ duyệt) hoặc bấm **Lưu nháp** để lưu đơn đăng ký ở trạng thái Nháp.
 
-Ở trên app mobile, muốn chuyển đơn đăng ký từ trạng thái Nháp thành Chờ duyệt, nhân viên bấm vào đơn đăng ký, kiểm tra lại thông tin và bấm **Hoàn tất**.
+![image-20211011161637099](images/image-20211011161637099.png) ![image-20211011162431230](images/image-20211011162431230.png) ![image-20211011162527449](images/image-20211011162527449.png) 
+
+![image-20211011162604060](images/image-20211011162604060.png) ![image-20211011162657413](images/image-20211011162657413.png) 
+
+Ở trên app mobile, muốn chuyển đơn đăng ký từ trạng thái Nháp thành Chờ duyệt, nhân viên bấm vào đơn đăng ký, kiểm tra lại thông tin, chỉnh sửa nếu cần và bấm **Hoàn tất**.
 
 ***Trường hợp 2***: Nhân viên có vấn đề về kỹ thuật, hoặc sức khoẻ không thể tự đăng ký được, nhờ *cán bộ quản lý công* thực hiện đăng ký công cho nhân viên
 
@@ -206,6 +210,8 @@ Hướng dẫn các bước thực hiện trên hệ thống theo các đối t�
 
 - Người phụ trách: Đối tượng này được phép duyệt đơn đăng ký công của nhân viên mình quản lý
 
+  ***Cách 1: Thực hiện trên web***
+
   - Người dùng vào menu **Đăng ký công** >> Chọn **Quản lý** >> Chọn **Đăng ký công** >> Hệ thống hiển thị danh sách đơn đăng ký công của nhân viên do người dùng phụ trách quản lý trực tiếp
   - Người dùng tìm thực hiện bấm **Duyệt** nếu chấp thuận đơn đăng ký công, hoặc ngược lại thì bấm **Từ chối**. Người dùng có thể tích chọn nhiều đơn để duyệt/ từ chối 1 lần
 
@@ -221,6 +227,12 @@ Hướng dẫn các bước thực hiện trên hệ thống theo các đối t�
   - Người dùng vào menu **Đăng ký công** >> Chọn **Quản lý** >> Chọn **Đăng ký công** >> Hệ thống hiển thị mặc danh sách đơn đăng ký công của nhân viên do người dùng phụ trách quản lý trực tiếp, người dùng có thể xoá bộ lọc trên thanh tìm kiếm để xem đơn đăng ký của tất cả các nhân viên trong công ty
   - Người dùng tìm thực hiện bấm **Duyệt** nếu chấp thuận đơn đăng ký công, hoặc ngược lại thì bấm **Từ chối**
   - Ngoài ra, người quản trị phân hệ Đăng ký công có thể chuyển 1 đơn đăng ký ở trạng thái từ "Bị từ chối" về "Nháp" để nhân viên đó có thể kiểm tra, chỉnh sửa lại thông tin và trình người có thẩm quyền duyệt lại. Thực hiện bằng cách bấm **Tạo bản nháp** tại màn hình chi tiết đơn đăng ký công có trạng thái *Bị từ chối*.
+
+***Cách 2: Thực hiện trên ứng dụng mobile***
+
+Người sử dụng đăng nhập vào ứng dụng mobile trên điện thoại, chọn menu **Yêu cầu chấm công** >> Chọn **Phê duyệt yêu cầu chấm công** >> Chọn yêu cầu chấm công cần duyệt để thực hiện **Duyệt/ Từ chối**. Người sử dụng có thể thao tác nhanh bằng cách bấm vào dấu ![image-20211011163041070](images/image-20211011163041070.png) tại đơn đăng ký cần duyệt, chọn **Duyệt/ Từ chối**  phù hợp
+
+![image-20211011163211631](images/image-20211011163211631.png) ![image-20211011163231180](images/image-20211011163231180.png) 
 
 # Tổng hợp công
 
