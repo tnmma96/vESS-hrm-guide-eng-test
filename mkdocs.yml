@@ -9,7 +9,7 @@ nav:
         - 'Các thuật ngữ và từ viết tắt': 'hrm/abbreviations.md'
         - 'Khai báo danh mục': 'hrm/master-datas.md'
         - 'Tuyển dụng': 'hrm/recruitment.md'
-        - 'Hồ sơ nhân viên': 'hrm/employee.md'
+        - 'Nhân viên': 'hrm/employee.md'
         - 'Chấm công': 'hrm/attendance.md'
             # - 'Tiền lương':
         - 'Lịch sử phát triển sản phẩm': 'hrm/log-histories.md'
