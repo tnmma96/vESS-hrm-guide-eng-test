@@ -152,7 +152,7 @@ Người sử dụng thực hiện tạo mới dự án bao gồm các thông ti
 
    Các thành viên trong dự án sẽ nhận được mail mời tham gia dự án như sau:
 
-      ![](picture/PIC_DW_DuAn_MailMoi.png)
+   ![](picture/PIC_DW_DuAn_MailMoi.png)
 
 
 ### Quản lý tài liệu dự án
@@ -363,34 +363,34 @@ Chức năng này được sử dụng để thống kê hiện trạng công vi
 
 **Các bước thực hiện:**
 
-1. Tại màn hình nhiệm vụ, click chọn xem **Tổng quan dự án**
+1. Tại màn hình nhiệm vụ, nhấn chọn xem **Tổng quan dự án**
 
-   => Hiển thị màn hình  **Tổng quan dự án**
+Hiển thị màn hình  **Tổng quan dự án**
 
-   Bao gồm các biểu đồ thống kê sau:
+Bao gồm các biểu đồ thống kê sau:
 
-      * Thống kê công việc
-      * Thống kê thành viên
-      * Thống kê thời lượng
-      * Báo cáo trạng thái công việc
-      * Công việc không đúng hạn
-      * Thành viên xuất sắc
-      * Tổng hợp công việc theo tuần
-      * Báo cáo công việc tuần
-      * Thành viên còn nhiều việc nhất
-      * Thành viên hoàn thành muộn nhất
-      * Báo cáo thời gian làm việc
-      * Thống kê dự án
+   * Thống kê công việc
+   * Thống kê thành viên
+   * Thống kê thời lượng
+   * Báo cáo trạng thái công việc
+   * Công việc không đúng hạn
+   * Thành viên xuất sắc
+   * Tổng hợp công việc theo tuần
+   * Báo cáo công việc tuần
+   * Thành viên còn nhiều việc nhất
+   * Thành viên hoàn thành muộn nhất
+   * Báo cáo thời gian làm việc
+   * Thống kê dự án
 
-      ![](picture/PIC_DW_DuAn_dashboard1.png)
+![](picture/PIC_DW_DuAn_dashboard1.png)
 
-      ![](picture/PIC_DW_DuAn_Dashboard2.png)
+![](picture/PIC_DW_DuAn_Dashboard2.png)
 
-      ![](picture/PIC_DW_DuAn_Dashboard3.png)
+![](picture/PIC_DW_DuAn_Dashboard3.png)
 
-      ![](picture/PIC_DW_DuAn_Dashboard4.png)
+![](picture/PIC_DW_DuAn_Dashboard4.png)
 
-      ![](picture/PIC_DW_DuAn_Dashboard5.png)
+![](picture/PIC_DW_DuAn_Dashboard5.png)
 
 
 
