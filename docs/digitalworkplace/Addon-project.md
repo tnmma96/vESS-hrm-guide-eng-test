@@ -52,7 +52,7 @@ Tại màn hình này người dùng có thể thực hiện xem, tìm kiếm d�
 
 1. Đăng nhập thành công vào hệ thống 
 
-2. Chọn Menu "**Dự án**", Hiển thị màn hình Danh sách dự án
+2. Chọn Ứng dụng "**Dự án**", hiển thị màn hình Danh sách dự án
 
    ![](picture/PIC_DW_DuAn_DanhSachDuAn.png)
 
@@ -70,7 +70,7 @@ Tại màn hình này người dùng có thể thực hiện xem, tìm kiếm d�
 
 4. Người dùng thực hiện import dự án mới bằng cách: Nhấn biểu tượng yêu thích, chọn "Thêm bản ghi"
 
-   ![](picture/PIC_DW_DuAn_Import.png)
+      ![](picture/PIC_DW_DuAn_Import.png)
 
    Nhấn "**Nạp tập tin**" chọn tập tin muốn import và làm theo hướng dẫn
 
@@ -79,7 +79,7 @@ Tại màn hình này người dùng có thể thực hiện xem, tìm kiếm d�
    * Chọn Thao tác 
 
    * Chọn màu đặc trưng cho dự án: Nhấn vào màu mong muốn
-     ![](picture/PIC_DW_DuAn_MauDuAn.png)
+      ![](picture/PIC_DW_DuAn_MauDuAn.png)
 
 #### Tạo mới dự án
 
@@ -89,18 +89,21 @@ Người sử dụng thực hiện tạo mới dự án bao gồm các thông ti
 
 **Các bước thực hiện**
 
-1. Vào menu **"Dự án"**, hiển thị màn hình danh sách dự án
-![](picture/PIC_DW_DuAn_DanhSachDuAn.png)
+1. Vào ứng dụng **"Dự án"**, hiển thị màn hình danh sách dự án
+      ![](picture/PIC_DW_DuAn_DanhSachDuAn.png)
    
 2. Nhấn **Tạo** dự án
 
-![](picture/PIC_DW_DuAn_TaoDuAn.png)
+ ![](picture/PIC_DW_DuAn_TaoDuAn.png)
 
 3. Khai báo Thông tin chung của **Dự án**
 
-* Khai báo Tên dự án
-    *  Khai báo Nhãn công việc trong dự án. Nhãn này sau khi được khai báo sẽ hiển thị bên ngoài thẻ dự án trong giao diện Kanban để mô tả về trạng thái hoàn thành công việc
+   * Khai báo Tên dự án
+
+      *  Khai báo Nhãn công việc trong dự án. Nhãn này sau khi được khai báo sẽ hiển thị bên ngoài thẻ dự án trong giao diện Kanban để mô tả về trạng thái hoàn thành công việc
+
 4. Khai báo thiết lập
+
    * Khai báo các thông tin cần thiết
 
    * Chọn Phân loại dự án: Dự án nội bộ/ Dự án làm việc với khách hàng
@@ -114,9 +117,13 @@ Người sử dụng thực hiện tạo mới dự án bao gồm các thông ti
    * Chọn Phòng ban: Chọn Phòng ban nào thì tất cả nhân viên được gán thông tin người dùng thuộc phòng ban đó sẽ là thành viên của dự án
 
    * Chọn Ngày bắt đầu: phải nhỏ hơn hoặc bằng Ngày hết hạn
+
    * Chọn Ngày hết hạn: phải lớn hơn hoặc bằng Ngày bắt đầu
+
    * Khai báo nỗ lực thực hiện (giờ)
+
    * Chọn ảnh nền cho dự án: Ảnh được chọn sẽ là ảnh nền cho màn hình "**Nhiệm vụ**"
+
    * Chọn cấu hình:
      * Webhook: Người dùng chọn sẽ mở tính năng Webhook đối với dự án hiện tại bên ngoài trình đơn thao tác khi xem dự án ở dạng Kanban
      * Timesheets: Người dùng chọn sẽ thực hiện được chức năng Timesheets
@@ -145,7 +152,7 @@ Người sử dụng thực hiện tạo mới dự án bao gồm các thông ti
 
    Các thành viên trong dự án sẽ nhận được mail mời tham gia dự án như sau:
 
-![](picture/PIC_DW_DuAn_MailMoi.png)
+      ![](picture/PIC_DW_DuAn_MailMoi.png)
 
 
 ### Quản lý tài liệu dự án
@@ -159,23 +166,21 @@ Chức năng này cho phép người dùng thêm/ xóa tài liệu dự án
 1. Mở màn hình Cập nhật thông tin dự án
 
 2. Chọn thẻ Tài liệu => Hiển thị màn hình danh sách tài liệu của dự án
-
-   ![](picture/PIC_DW_DuAn_DanhSachTep.png)
+      ![](picture/PIC_DW_DuAn_DanhSachTep.png)
 
 3. Nhấn **Tạo** => Hiển thị màn hình Tạo tài liệu
-
-   ![](picture/PIC_DW_DuAn_TaoTaiLieu.png)
-
-   4. Khai báo các thông tin sau:
+      ![](picture/PIC_DW_DuAn_TaoTaiLieu.png)
+      
+4. Khai báo các thông tin sau:
 
    * Tên file
    * Loại file: Tập tin/Liên kết
      * Nếu chọn Loại file là "Tập tin" thì thực hiện tải lên file
      * Nếu chọn Loại file là "Liên kết" thì thực hiện nhập URL
 
-   5. Thực hiện **Lưu** => Thêm thành công tệp đính kèm
+5. Thực hiện **Lưu** => Thêm thành công tệp đính kèm
 
-   6. Người dùng có thể xóa tài liệu đã được thêm vào
+6. Người dùng có thể xóa tài liệu đã được thêm vào
 
 
 ### Nhiệm vụ 
@@ -190,15 +195,15 @@ Cho phép người dùng xem danh sách nhiệm vụ đã tạo của dự án
 
 1. Tại màn hình danh sách dự án dạng kanban, chọn dự án muốn xem danh sách công việc. Sau khi chọn dự án muốn xem, màn hình hiển thị danh sách chi tiết công việc của dự án đó theo dạng **kanban**, người sử dụng có thể phân loại công việc bằng cách di chuyển công việc tới một giai đoạn bất kì trong dự án.
 
-![](picture/PIC_DW_DuAn_ViewKanban.png)
+   ![](picture/PIC_DW_DuAn_ViewKanban.png)
 
 Hoặc có thể chọn hiển thị danh sách công việc theo dạng **Danh sách**: 
 
-![](picture/PIC_DW_DuAn_ViewDanhSach.png)
+   ![](picture/PIC_DW_DuAn_ViewDanhSach.png)
 
-Ngoài ra, có thể xem danh sách công việc hiển thị theo dạng **Lịch**, **Trục **, **Đồ thị **, **Hoạt động** bằng cách chọn biểu tượng tương ứng ở phía trên - góc phải màn hình.  
+Ngoài ra, có thể xem danh sách công việc hiển thị theo dạng **Lịch**, **Trục **, **Đồ thị**, **Hoạt động** bằng cách chọn biểu tượng tương ứng ở phía trên - góc phải màn hình.  
 
-![](picture/PIC_DW_DuAn_CheDoXem.png)
+   ![](picture/PIC_DW_DuAn_CheDoXem.png)
 
 #### Quản lý giai đoạn
 
@@ -210,7 +215,7 @@ Chức năng này cho phép người dùng Tạo/ Sửa giai đoạn trong dự 
 
 1. Mở màn hình Nhiệm vụ dự án
 
-![](picture/PIC_DW_DuAn_NhiemVu.png)
+      ![](picture/PIC_DW_DuAn_NhiemVu.png)
 
 2. Tạo giai đoạn bằng 2 cách:
    * Thêm cột: Nhập tên cột => Nhấn **Thêm**
@@ -230,7 +235,7 @@ Chức năng này cho phép người dùng Tạo/ Sửa giai đoạn trong dự 
    
       => Thực hiện nhấn "**Sử dụng cái này cho Kanban của tôi**"
 
-![](picture/PIC_DW_DuAn_MauGiaiDoan.png)
+      ![](picture/PIC_DW_DuAn_MauGiaiDoan.png)
 
 3. Với các giai đoạn, người dùng có thể **Sửa** các thông tin: 
 
@@ -262,7 +267,7 @@ Chức năng này cho phép người dùng tạo công việc cho dự án
 
 2. Nhấn **Tạo**
 
-   ![](picture/PIC_DW_DuAn_TaoCongViec.png)
+      ![](picture/PIC_DW_DuAn_TaoCongViec.png)
 
 3. Người dùng khai báo các thông tin: 
 
@@ -364,28 +369,28 @@ Chức năng này được sử dụng để thống kê hiện trạng công vi
 
    Bao gồm các biểu đồ thống kê sau:
 
-    * Thống kê công việc
-    * Thống kê thành viên
-    * Thống kê thời lượng
-    * Báo cáo trạng thái công việc
-    * Công việc không đúng hạn
-    * Thành viên xuất sắc
-    * Tổng hợp công việc theo tuần
-    * Báo cáo công việc tuần
-    * Thành viên còn nhiều việc nhất
-    * Thành viên hoàn thành muộn nhất
-    * Báo cáo thời gian làm việc
-    * Thống kê dự án
+      * Thống kê công việc
+      * Thống kê thành viên
+      * Thống kê thời lượng
+      * Báo cáo trạng thái công việc
+      * Công việc không đúng hạn
+      * Thành viên xuất sắc
+      * Tổng hợp công việc theo tuần
+      * Báo cáo công việc tuần
+      * Thành viên còn nhiều việc nhất
+      * Thành viên hoàn thành muộn nhất
+      * Báo cáo thời gian làm việc
+      * Thống kê dự án
 
-![](picture/PIC_DW_DuAn_dashboard1.png)
+      ![](picture/PIC_DW_DuAn_dashboard1.png)
 
-![](picture/PIC_DW_DuAn_Dashboard2.png)
+      ![](picture/PIC_DW_DuAn_Dashboard2.png)
 
-![](picture/PIC_DW_DuAn_Dashboard3.png)
+      ![](picture/PIC_DW_DuAn_Dashboard3.png)
 
-![](picture/PIC_DW_DuAn_Dashboard4.png)
+      ![](picture/PIC_DW_DuAn_Dashboard4.png)
 
-![](picture/PIC_DW_DuAn_Dashboard5.png)
+      ![](picture/PIC_DW_DuAn_Dashboard5.png)
 
 
 
@@ -407,15 +412,15 @@ Chức năng này được sử dụng để thống kê hiện trạng tất c�
 
    => Hiển thị màn hình Báo cáo tổng hợp
 
-![](picture/PIC_DW_DuAn_BieuDoCot.png)
+   ![](picture/PIC_DW_DuAn_BieuDoCot.png)
 
 <p align="center">Biểu đồ cột</p>
 
-![](picture/PIC_DW_DuAn_BieuDoDuong.png)
+   ![](picture/PIC_DW_DuAn_BieuDoDuong.png)
 
 <p align="center">Biểu đồ đường</p>
 
-![](picture/PIC_DW_DuAn_BieuDoTron.png)
+   ![](picture/PIC_DW_DuAn_BieuDoTron.png)
 
 <p align="center">Biểu đồ tròn</p>
 
@@ -432,11 +437,11 @@ Chức năng cho phép người dùng tạo mới cấu hình Webhook
 1. Mở menu "Dự án"
 2. Tại 1 dự án, chọn Thao tác - **"Cấu hình Webhook"**
 
-![](picture/PIC_DW_DuAn_CauHinhWebhook.png)
+      ![](picture/PIC_DW_DuAn_CauHinhWebhook.png)
 
 Điều hướng đến màn hình Danh sách cấu hình Webhook của dự án được chọn
 
-![](picture/PIC_DW_DuAn_DanhSachCauHinhWebhook.png)
+   ![](picture/PIC_DW_DuAn_DanhSachCauHinhWebhook.png)
 
 3. Nhấn **Tạo**, hiển thị màn hình Tạo mới webhook
 
