@@ -117,6 +117,8 @@
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../Addon-Social/">Mạng xã hội</a>
                     </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-project/">Dự án</a>
+                    </li>
                     <li class="toctree-l1"><a class="reference internal" href="../Addon-khao-sat/">Khảo sát</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../Addon-ghi-chu/">Ghi chú</a>
@@ -130,6 +132,8 @@
     </ul>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../Addon-su-kien/">Sự kiện</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-bua-an/">Bữa ăn</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
                     </li>
@@ -178,7 +182,7 @@
                 <h3 id="quy-trinh-nghiep-vu">Quy trình nghiệp vụ</h3>
 <p>Cho phép người dùng quản lý thực hiện lập vào theo dõi thời gian biểu cá nhân hoặc của nhóm trên từng dự án hoặc nhiệm vụ và theo dõi tất cả các tài nguyên được phân bổ cho dự án.</p>
 <h4 id="quy-trinh">Quy trình</h4>
-<p><img alt="" src="../picture/PIC_DW_Timesheets-QuyTrinh.png" /></p>
+<p><img alt="" src="../picture/PIC_DW_Timesheets_QuyTrinh.png" /></p>
 <p><strong>Các luồng quy trình</strong></p>
 <ul>
 <li>
@@ -222,7 +226,7 @@
 <p>Báo cáo theo dự án. Chi tiết nghiệp vụ <u><a href="#bao-cao-theo-du-an">tại đây</a></u>.</p>
 </li>
 <li>
-<p>Báo cáo theo theo công việc. Chi tiết nghiệp vụ <u><a href="#bao-cao-theo-cong-viec">tại đây</a></u>.</p>
+<p>Báo cáo theo công việc. Chi tiết nghiệp vụ <u><a href="#bao-cao-theo-cong-viec">tại đây</a></u>.</p>
 </li>
 <li>
 <p>Quản lý cấu hình thời gian biểu. Chi tiết nghiệp vụ <u><a href="#quan-ly-cau-hinh-thoi-gian-bieu">tại đây</a></u>.</p>
@@ -236,7 +240,7 @@
 <ol>
 <li>
 <p>Vào chức năng <strong>Timesheets</strong>, chọn <strong>Thời gian làm việc</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
-<img alt="" src="../picture/PIC_DW_Timesheets-Menu.png" /></p>
+<img alt="" src="../picture/PIC_DW_Timesheets_Menu.png" /></p>
 <ul>
 <li>
 <p>Với <strong>Thời gian làm việc</strong>, người dùng hệ thống sẽ chỉ nhìn thấy danh sách công việc cá nhân.</p>
@@ -245,29 +249,19 @@
 <p><strong>Ghi chú</strong>: Người dùng có thể quản lý Thời gian biểu tại chức năng <strong>Dự án</strong>, chọn <strong>Dự án/Task</strong>. Chọn <strong>Nhiệm vụ</strong> thuộc dự án, nhấn <strong>Timesheet/Thêm một dòng</strong></p>
 </li>
 </ul>
-<p><img alt="" src="../picture/PIC_DW_DuAn-TaoLogwork.png" /></p>
 </li>
 <li>
 <p>Khai báo các thông tin chi tiết của <strong>Thời gian làm việc:</strong>
-<img alt="" src="../picture/PIC_DW_Timesheets-Tao.png" /></p>
+<img alt="" src="../picture/PIC_DW_Timesheets_Tao.png" /></p>
 <ul>
 <li>
 <p>Chọn thông tin Dự án</p>
 <ul>
-<li>Danh sách dự án để lựa chọn sẽ được người quản lý thêm ở chức năng Dự án</li>
+<li>Danh sách dự án để lựa chọn sẽ được người quản lý thêm ở chức năng Dự án<ul>
+<li>Chọn thông tin Công việc đã tạo trước đó hoặc người dùng có thể tự tạo thêm công việc</li>
 </ul>
 </li>
-<li>
-<p>Chọn thông tin Công việc đã tạo trước đó hoặc người dùng có thể tự tạo thêm công việc</p>
-</li>
-<li>
-<p>Khai báo thông tin Thời gian đã thực hiện</p>
-</li>
-<li>
-<p>Chọn thông tin Ngày </p>
-</li>
-<li>
-<p>Chọn thông tin Thời gian kết thúc</p>
+</ul>
 </li>
 <li>
 <p>Chọn thông tin Ước tính còn lại là Điều chỉnh tự động, Sử dụng ước tính hiện có, Đặt thành hoặc Giảm bằng</p>
@@ -288,9 +282,6 @@
 <p>Với Ước tính còn lại là Giảm bằng, Thời gian còn lại sẽ bằng thông tin khai báo tại Thời gian còn lại trừ đi Thời gian đã thực hiện </p>
 </li>
 </ul>
-</li>
-<li>
-<p>Khai báo thông tin Mô tả</p>
 </li>
 </ul>
 </li>
@@ -307,31 +298,13 @@
 <ol>
 <li>
 <p>Vào chức năng <strong>Timesheets</strong>, chọn <strong>Tất cả thời gian làm việc</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
-<img alt="" src="../picture/PIC_DW_Timesheets-TatCaThoiGianLamViec.png" /></p>
+<img alt="" src="../picture/PIC_DW_Timesheets_TatCaThoiGianLamViec.png" /></p>
 <ul>
 <li>Khi người dùng đăng nhập là Quản trị hệ thống, người dùng sẽ nhìn thấy toàn bộ danh sách thời gian biểu của toàn bộ người dùng trong hệ thống. Trường hợp người dùng đăng nhập là Quản lý sẽ chỉ nhìn thấy danh sách thời gian biểu của những người dùng thuộc quyền quản lý.</li>
 </ul>
 </li>
 <li>
 <p>Quản trị hệ thống hoặc Quản lý khai báo các thông tin chi tiết cần thay đổi của <strong>Tất cả thời gian làm việc:</strong></p>
-<ul>
-<li>
-<p>Chọn thông tin Nhân viên </p>
-</li>
-<li>
-<p>Chọn thông tin Dự án</p>
-</li>
-<li>
-<p>Chọn thông tin Công việc </p>
-</li>
-<li>
-<p>Khai báo thông tin Thời gian đã thực hiện</p>
-</li>
-<li>
-<p>Chọn thông tin Ngày </p>
-</li>
-<li>
-<p>Chọn thông tin Thời gian kết thúc</p>
 </li>
 <li>
 <p>Chọn thông tin Ước tính còn lại là Điều chỉnh tự động, Sử dụng ước tính hiện có, Đặt thành hoặc Giảm bằng</p>
@@ -350,11 +323,6 @@
 </li>
 <li>
 <p>Với Ước tính còn lại là Giảm bằng, Thời gian còn lại sẽ bằng thông tin khai báo tại Thời gian còn lại trừ đi Thời gian đã thực hiện </p>
-</li>
-</ul>
-</li>
-<li>
-<p>Khai báo thông tin Mô tả</p>
 </li>
 </ul>
 </li>
@@ -372,23 +340,25 @@
 <ol>
 <li>
 <p>Vào chức năng <strong>Timesheets</strong>, chọn <strong>Báo cáo theo nhân viên</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
-<img alt="" src="../picture/PIC_DW_Timesheets-BCTheoNV.png" /></p>
+<img alt="" src="../picture/PIC_DW_Timesheets_BCTheoNV.png" /></p>
 </li>
 <li>
 <p>Người dùng thực hiện thay đổi dữ liệu cần thống kê theo nhu cầu (nếu có)</p>
 <ul>
 <li>Chọn <strong>- Tổng</strong> để loại bỏ điều kiện thống kê hiện tại theo hàng hoặc cột</li>
 </ul>
-<p><img alt="" src="../picture/PIC_DW_Timesheets-XoaBoLoc.png" /></p>
+<p><img alt="" src="../picture/PIC_DW_Timesheets_XoaBoLoc.png" /></p>
 <ul>
 <li>Chọn <strong>+ Tổng</strong> để tạo mới điều kiện thống kê báo cáo theo hàng hoặc cột</li>
 </ul>
-<p><img alt="" src="../picture/PIC_DW_Timesheets-TaoBoLoc.png" /></p>
+<p><img alt="" src="../picture/PIC_DW_Timesheets_TaoBoLoc.png" /></p>
 </li>
 <li>
 <p>Người dùng chọn <strong>View graph</strong> để xem báo cáo dưới dạng biểu đồ</p>
 </li>
-<li>Thực hiện <strong>Xuất toàn bộ</strong> báo cáo theo nhân viên</li>
+<li>
+<p>Thực hiện <strong>Xuất toàn bộ</strong> báo cáo theo nhân viên</p>
+</li>
 </ol>
 <h4 id="bao-cao-theo-du-an">Báo cáo theo dự án</h4>
 <p>Người sử dụng thực hiện Báo cáo theo dự án để quản lý và theo dõi hiệu suất, thời gian sử dụng để thực hiện dự án</p>
@@ -396,18 +366,18 @@
 <ol>
 <li>
 <p>Vào chức năng <strong>Timesheets</strong>, chọn <strong>Báo cáo theo dự án</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
-<img alt="" src="../picture/PIC_DW_Timesheets-BCTheoDuAn.png" /></p>
+<img alt="" src="../picture/PIC_DW_Timesheets_BCTheoDuAn.png" /></p>
 </li>
 <li>
 <p>Người dùng thực hiện thay đổi dữ liệu cần thống kê theo nhu cầu (nếu có)</p>
 <ul>
 <li>Chọn <strong>- Tổng</strong> để loại bỏ điều kiện thống kê hiện tại theo hàng hoặc cột</li>
 </ul>
-<p><img alt="" src="../picture/PIC_DW_Timesheets-XoaBoLoc.png" /></p>
+<p><img alt="" src="../picture/PIC_DW_Timesheets_XoaBoLoc.png" /></p>
 <ul>
 <li>Chọn <strong>+ Tổng</strong> để tạo mới điều kiện thống kê báo cáo theo hàng hoặc cột</li>
 </ul>
-<p><img alt="" src="../picture/PIC_DW_Timesheets-TaoBoLoc.png" /></p>
+<p><img alt="" src="../picture/PIC_DW_Timesheets_TaoBoLoc.png" /></p>
 </li>
 <li>
 <p>Người dùng chọn <strong>View graph</strong> để xem báo cáo dưới dạng biểu đồ</p>
@@ -422,18 +392,18 @@
 <ol>
 <li>
 <p>Vào chức năng <strong>Timesheets</strong>, chọn <strong>Báo cáo theo công việc</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
-<img alt="" src="../picture/PIC_DW_Timesheets-BCTheoCongViec.png" /></p>
+<img alt="" src="../picture/PIC_DW_Timesheets_BCTheoCongViec.png" /></p>
 </li>
 <li>
 <p>Người dùng thực hiện thay đổi dữ liệu cần thống kê theo nhu cầu (nếu có)</p>
 <ul>
 <li>Chọn <strong>- Tổng</strong> để loại bỏ điều kiện thống kê hiện tại theo hàng hoặc cột</li>
 </ul>
-<p><img alt="" src="../picture/PIC_DW_Timesheets-XoaBoLoc.png" /></p>
+<p><img alt="" src="../picture/PIC_DW_Timesheets_XoaBoLoc.png" /></p>
 <ul>
 <li>Chọn <strong>+ Tổng</strong> để tạo mới điều kiện thống kê báo cáo theo hàng hoặc cột</li>
 </ul>
-<p><img alt="" src="../picture/PIC_DW_Timesheets-TaoBoLoc.png" /></p>
+<p><img alt="" src="../picture/PIC_DW_Timesheets_TaoBoLoc.png" /></p>
 </li>
 <li>
 <p>Người dùng chọn <strong>View graph</strong> để xem báo cáo dưới dạng biểu đồ</p>
@@ -449,7 +419,7 @@
 <ol>
 <li>
 <p>Vào chức năng <strong>Timesheets</strong>, chọn <strong>Cấu hình</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
-<img alt="" src="../picture/PIC_DW_Timesheets-CauHinh.png" /></p>
+<img alt="" src="../picture/PIC_DW_Timesheets_CauHinh.png" /></p>
 </li>
 <li>
 <p>Chọn Đơn vị tính là Ngày hoặc Giờ</p>

@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Dự án - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "D\u1ef1 \u00e1n";
+    var mkdocs_page_input_path = "digitalworkplace\\Addon-project.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas-introduction/">Trang chủ</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Hồ sơ nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien/">Quản lý tiền</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Kế toán tổng hợp</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-san-xuat/">Sản xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ccdc/">Công cụ dụng cụ</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-login/">Đăng nhập, đăng xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-Social/">Mạng xã hội</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Dự án</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#quy-trinh">Quy trình</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-khao-sat/">Khảo sát</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-ghi-chu/">Ghi chú</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-su-kien/">Sự kiện</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-bua-an/">Bữa ăn</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Digital workplace &raquo;</li>
+        
+      
+    
+    <li>Dự án</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h3 id="quy-trinh-nghiep-vu">Quy trình nghiệp vụ</h3>
+<p>Là ứng dụng quản lý dự án và các chức năng liên quan đến dự án, cung cấp bức tranh toàn cảnh về hoạt động của mỗi dự án, tăng cường hỗ trợ quản lý hiệu quả.</p>
+<p>Thực hiện quản lý: Thông tin dự án, công việc trong dự án, tài liệu dự án, các báo cáo và các chức năng tích hợp như: Quản lý nhân viên, Thảo luận, Timesheet...</p>
+<h4 id="quy-trinh">Quy trình</h4>
+<p><img alt="" src="../picture/PIC_DW_DuAn_Luong.png" /></p>
+<p><strong>Các luồng quy trình</strong></p>
+<ul>
+<li>
+<p>Quản lý dự án</p>
+</li>
+<li>
+<p>Quản lý tài liệu dự án</p>
+</li>
+<li>
+<p>Quản lý công việc trong dự án</p>
+</li>
+<li>
+<p>Báo cáo</p>
+</li>
+</ul>
+<h4 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h4>
+<p>Khi người sử dụng muốn quản lý dự án thì quy trình thực hiện như sau:</p>
+<ol>
+<li>
+<p>Tại ứng dụng <strong>Dự án</strong>, người dùng sẽ thực hiện tạo mới dự án: thêm thành viên, quản trị dự án, tính nỗ lực thực hiện dự án, hạn chót...</p>
+</li>
+<li>
+<p>Sau khi tạo mới dự án: người dùng sẽ thực hiện tạo các giai đoạn trong dự án (tùy vào mô hình dự án cần thực hiện ví dụ: Agile Scrum; Waterfall,...)</p>
+</li>
+<li>
+<p>Người dùng tiếp tục tạo các công việc, nhiệm vụ trong từng giai đoạn</p>
+</li>
+<li>
+<p>Các thành viên được gán làm theo từng công việc sẽ vào cập nhật trạng thái công việc mình làm</p>
+</li>
+<li>
+<p>Xem chi tiết các Báo cáo</p>
+</li>
+</ol>
+<p><strong>Luồng chức năng chính</strong></p>
+<ul>
+<li>
+<p>Quản lý Dự án. Chi tiết nghiệp vụ <u><a href="#quan-ly-du-an">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Quản lý tài liệu dự án. Chi tiết nghiệp vụ <u><a href="#quan-ly-tai-lieu-du-an">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Quản lý công việc trong dự án. Chi tiết nghiệp vụ <u><a href="#nhiem-vu">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Báo cáo. Chi tiết nghiệp vụ <u><a href="#bao-cao">tại đây</a></u>.</p>
+</li>
+</ul>
+<p><strong>Video hướng dẫn</strong></p>
+<h3 id="quan-ly-du-an">Quản lý dự án</h3>
+<h4 id="danh-sach-du-an">Danh sách dự án</h4>
+<p>Cho phép người dùng xem danh sách Dự án của hệ thống theo định dạng Kanban hoặc Danh sách</p>
+<p>Tại màn hình này người dùng có thể thực hiện xem, tìm kiếm dự án mong muốn, và thực hiện 1 số thao tác khác như: Chia sẻ, Cấu hình webhook, Lưu trữ, Sửa, Xóa, Báo cáo, Chọn màu đặc trưng cho dự án</p>
+<p><strong>Đối tượng thực hiện:</strong></p>
+<ul>
+<li>
+<p>Quản trị hệ thống có thể: xem, tạo, chỉnh sửa tất cả các dự án trên hệ thống</p>
+</li>
+<li>
+<p>Quản lý dự án có thể: xem, chỉnh sửa những dự án được phân quyền làm quản lý</p>
+</li>
+<li>
+<p>Người dùng (thành viên dự án) có thể: xem những dự án được phân quyền làm thành viên</p>
+</li>
+</ul>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>
+<p>Đăng nhập thành công vào hệ thống </p>
+</li>
+<li>
+<p>Chọn Ứng dụng "<strong>Dự án</strong>", hiển thị màn hình Danh sách dự án</p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_DanhSachDuAn.png" /></p>
+<p><p align="center">Danh sách dự án dạng Kanban</p></p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_DanhSachDuAnDangBang.png" /></p>
+<p><p align="center">Danh sách dự án dạng bảng</p></p>
+</li>
+<li>
+<p>Người dùng thực hiện tìm kiếm dự án mong muốn bằng cách:</p>
+<ul>
+<li>
+<p>Nhập Tên dự án vào ô "Tìm"</p>
+<ul>
+<li>
+<p>Tìm kiếm bằng Bộ lọc hoặc Nhóm</p>
+</li>
+<li>
+<p>Tìm kiếm theo bộ lọc Yêu thích</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Người dùng thực hiện import dự án mới bằng cách: Nhấn biểu tượng yêu thích, chọn "Thêm bản ghi"</p>
+<ul>
+<li>Nhấn "<strong>Nạp tập tin</strong>" chọn tập tin muốn import và làm theo hướng dẫn</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_DuAn_Import.png" /></p>
+</li>
+<li>
+<p>Ngoài ra, người dùng có thể chọn màu đặc trưng cho dự án</p>
+<ul>
+<li>
+<p>Chọn Thao tác</p>
+</li>
+<li>
+<p>Chọn màu đặc trưng cho dự án: Nhấn vào màu mong muốn</p>
+</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_DuAn_MauDuAn.png" /></p>
+</li>
+</ol>
+<h4 id="tao-moi-du-an">Tạo mới dự án</h4>
+<p>Người sử dụng thực hiện tạo mới dự án bao gồm các thông tin về Tên dự án, Loại dự án, Quản lý , Thành viên tham gia, Nỗ lực thực hiện, Hạn chót,...</p>
+<p><strong>Đối tượng thực hiện</strong>: Quản trị hệ thống</p>
+<p><strong>Các bước thực hiện</strong></p>
+<ol>
+<li>
+<p>Vào ứng dụng <strong>"Dự án"</strong>, hiển thị màn hình danh sách dự án</p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_DanhSachDuAn.png" /></p>
+</li>
+<li>
+<p>Nhấn <strong>Tạo</strong> dự án</p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_TaoDuAn.png" /></p>
+</li>
+<li>
+<p>Khai báo Thông tin chung của <strong>Dự án</strong></p>
+<ul>
+<li>
+<p>Khai báo Tên dự án</p>
+<ul>
+<li>Khai báo Nhãn công việc trong dự án. Nhãn này sau khi được khai báo sẽ hiển thị bên ngoài thẻ dự án trong giao diện Kanban để mô tả về trạng thái hoàn thành công việc</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Khai báo thiết lập</p>
+<ul>
+<li>
+<p>Khai báo các thông tin cần thiết</p>
+</li>
+<li>
+<p>Chọn Phân loại dự án: Dự án nội bộ/ Dự án làm việc với khách hàng</p>
+<ul>
+<li>
+<p>Nếu chọn "Dự án làm việc với khách hàng" người dùng sẽ khai báo thêm thông tin <strong>Khách hàng</strong> bao gồm Tên khách hàng, số điện thoại và email khách hàng</p>
+</li>
+<li>
+<p>Nếu chọn "Dự án nội bộ" sẽ không hiển thị thông tin khách hàng để chọn</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Chọn nhóm người dùng: Đây là nhóm người dùng được thiết lập trong hệ thống. Chọn nhóm nào thì toàn bộ người dùng thuộc nhóm sẽ là thành viên của dự án</p>
+</li>
+<li>
+<p>Chọn Thành viên dự án: lựa chọn thành viên từ danh sách người dùng trong hệ thống</p>
+</li>
+<li>
+<p>Chọn Phòng ban: Chọn Phòng ban nào thì tất cả nhân viên được gán thông tin người dùng thuộc phòng ban đó sẽ là thành viên của dự án</p>
+</li>
+<li>
+<p>Chọn Ngày bắt đầu: phải nhỏ hơn hoặc bằng Ngày hết hạn</p>
+</li>
+<li>
+<p>Chọn Ngày hết hạn: phải lớn hơn hoặc bằng Ngày bắt đầu</p>
+</li>
+<li>
+<p>Khai báo nỗ lực thực hiện (giờ)</p>
+</li>
+<li>
+<p>Chọn ảnh nền cho dự án: Ảnh được chọn sẽ là ảnh nền cho màn hình "<strong>Nhiệm vụ</strong>"</p>
+</li>
+<li>
+<p>Chọn cấu hình:</p>
+<ul>
+<li>
+<p>Webhook: Người dùng chọn sẽ mở tính năng Webhook đối với dự án hiện tại bên ngoài trình đơn thao tác khi xem dự án ở dạng Kanban</p>
+</li>
+<li>
+<p>Timesheets: Người dùng chọn sẽ thực hiện được chức năng Timesheets</p>
+</li>
+<li>
+<p>Nhiệm vụ con: Người dùng chọn, dự án sẽ thực hiện được chức năng thêm nhiệm vụ con</p>
+</li>
+<li>
+<p>Công việc định kỳ: Người dùng chọn thì các công việc trong dự án sẽ được bổ sung tính năng tạo lịch nhắc lại</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Danh sách Thành viên dự án: Là tổng hợp các thành viên: Quản lý dự án, Nhóm người dùng, Thành viên dự án, thành viên thuộc Phòng ban đã được chọn</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Khai báo Mô tả</p>
+<ul>
+<li>Người dùng có thể khai báo thêm mô tả cho dự án</li>
+</ul>
+</li>
+<li>
+<p>Nhấn <strong>Lưu</strong> dự án</p>
+</li>
+<li>
+<p>Sau khi Dự án được lưu lại, người dùng thực hiện theo dõi dự án, thêm người theo dõi dự án và có thể thực hiện:</p>
+<ul>
+<li>
+<p>Cập nhật thông tin dự án</p>
+</li>
+<li>
+<p>Thêm/Sửa/Xóa Nhiệm vụ</p>
+</li>
+<li>
+<p>Thêm/Xóa tài liệu</p>
+</li>
+<li>
+<p>Chia sẻ tài liệu dự án</p>
+</li>
+</ul>
+<p>...</p>
+<p>Các thành viên trong dự án sẽ nhận được mail mời tham gia dự án như sau:</p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_MailMoi.png" /></p>
+</li>
+</ol>
+<h3 id="quan-ly-tai-lieu-du-an">Quản lý tài liệu dự án</h3>
+<p>Chức năng này cho phép người dùng thêm/ xóa tài liệu dự án</p>
+<p><strong>Đối tượng thực hiện:</strong> Quản trị hệ thống, quản lý dự án được phân quyền</p>
+<p><strong>Các bước thực hiện:</strong> </p>
+<ol>
+<li>
+<p>Mở màn hình Cập nhật thông tin dự án</p>
+</li>
+<li>
+<p>Chọn thẻ Tài liệu =&gt; Hiển thị màn hình danh sách tài liệu của dự án</p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_DanhSachTep.png" /></p>
+</li>
+<li>
+<p>Nhấn <strong>Tạo</strong> =&gt; Hiển thị màn hình Tạo tài liệu</p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_TaoTaiLieu.png" /></p>
+</li>
+<li>
+<p>Khai báo các thông tin sau:</p>
+<ul>
+<li>
+<p>Tên file</p>
+</li>
+<li>
+<p>Loại file: Tập tin/Liên kết</p>
+<ul>
+<li>
+<p>Nếu chọn Loại file là "Tập tin" thì thực hiện tải lên file</p>
+</li>
+<li>
+<p>Nếu chọn Loại file là "Liên kết" thì thực hiện nhập URL</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Thực hiện <strong>Lưu</strong> =&gt; Thêm thành công tệp đính kèm</p>
+</li>
+<li>
+<p>Người dùng có thể xóa tài liệu đã được thêm vào</p>
+</li>
+</ol>
+<h3 id="nhiem-vu">Nhiệm vụ</h3>
+<h4 id="danh-sach-nhiem-vu">Danh sách nhiệm vụ</h4>
+<p>Cho phép người dùng xem danh sách nhiệm vụ đã tạo của dự án</p>
+<p><strong>Đối tượng thực hiện</strong>: Quản trị hệ thống, quản lý dự án và người tham gia dự án</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ul>
+<li>
+<p>Tại màn hình danh sách dự án dạng kanban, chọn dự án muốn xem danh sách công việc. Sau khi chọn dự án muốn xem, màn hình hiển thị danh sách chi tiết công việc của dự án đó theo dạng <strong>kanban</strong>, người sử dụng có thể phân loại công việc bằng cách di chuyển công việc tới một giai đoạn bất kì trong dự án.</p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_ViewKanban.png" /></p>
+</li>
+<li>
+<p>Hoặc có thể chọn hiển thị danh sách công việc theo dạng <strong>Danh sách</strong>:</p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_ViewDanhSach.png" /></p>
+</li>
+<li>
+<p>Ngoài ra, có thể xem danh sách công việc hiển thị theo dạng <strong>Lịch</strong>, <strong>Trục</strong>, <strong>Đồ thị</strong>, <strong>Hoạt động</strong> bằng cách chọn biểu tượng tương ứng ở phía trên - góc phải màn hình.</p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_CheDoXem.png" /></p>
+</li>
+</ul>
+<h4 id="quan-ly-giai-oan">Quản lý giai đoạn</h4>
+<p>Chức năng này cho phép người dùng Tạo/ Sửa giai đoạn trong dự án</p>
+<p><strong>Đối tượng thực hiện</strong>: Quản trị hệ thống, Quản lý dự án</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>
+<p>Mở màn hình Nhiệm vụ dự án</p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_NhiemVu.png" /></p>
+</li>
+<li>
+<p>Tạo giai đoạn bằng 2 cách:</p>
+<ul>
+<li>
+<p>Thêm cột: Nhập tên cột =&gt; Nhấn <strong>Thêm</strong></p>
+</li>
+<li>
+<p>Tạo bằng Mẫu giai đoạn: Chọn mẫu ví dụ như:</p>
+<ul>
+<li>
+<p>Phát triển phần mềm</p>
+</li>
+<li>
+<p>Agile Scrum</p>
+</li>
+<li>
+<p>Tiếp thị số</p>
+</li>
+<li>
+<p>Phản hồi khách hàng</p>
+</li>
+<li>
+<p>Hoàn thành công việc (GTD)</p>
+</li>
+<li>
+<p>Tư vấn</p>
+</li>
+<li>
+<p>Nghiên cứu dự án</p>
+</li>
+<li>
+<p>Thiết kế lại trang web</p>
+</li>
+<li>
+<p>In áo thun</p>
+</li>
+<li>
+<p>Thiết kế</p>
+</li>
+</ul>
+<p>=&gt; Thực hiện nhấn "<strong>Sử dụng cái này cho Kanban của tôi</strong>"</p>
+</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_DuAn_MauGiaiDoan.png" /></p>
+</li>
+<li>
+<p>Với các giai đoạn, người dùng có thể <strong>Sửa</strong> các thông tin:</p>
+<ul>
+<li>
+<p>Tên Giai đoạn</p>
+<ul>
+<li>Lưu ý: Tên giai đoạn là bắt buộc, không được để trống</li>
+</ul>
+</li>
+<li>
+<p>Chọn loại giai đoạn: Đóng Kanban, Kết thúc, Hủy bỏ. Người sử dụng có thể chọn thêm hơn một Loại giai đoạn.</p>
+<ul>
+<li>
+<p>Đóng kanban: Trên danh sách công việc hiển thị theo dạng Kanban, giai đoạn chọn đóng Kanban sẽ được thu gọn lại</p>
+</li>
+<li>
+<p>Kết thúc: Giai đoạn chọn kết thúc thì toàn bộ công việc trong giai đoạn chọn được coi là kết thúc</p>
+</li>
+<li>
+<p>Hủy bỏ: Giai đoạn chọn hủy bỏ thì toàn bộ công việc trong giai đoạn chọn được coi là hủy</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Chọn trạng thái cho giai đoạn: người sử dụng có thể chọn trạng thái cho từng giai đoạn thông qua việc chọn màu sắc và khai báo chú thích cho từng phân loại màu. Hiện tại, hệ thống đang để mặc định:</p>
+<ul>
+<li>
+<p>Màu xám: Trạng thái công việc đang làm</p>
+</li>
+<li>
+<p>Màu đỏ: Trạng thái công việc đã khóa</p>
+</li>
+<li>
+<p>Màu Xanh: Trạng thái công việc hoàn thành</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Khai báo/sửa thông tin mô tả chi tiết cho từng giai đoạn</p>
+</li>
+</ul>
+</li>
+</ol>
+<h4 id="tao-cong-viec">Tạo công việc</h4>
+<p>Chức năng này cho phép người dùng tạo công việc cho dự án</p>
+<p><strong>Đối tượng thực hiện:</strong> Quản trị hệ thống, quản lý dự án và người tham gia dự án</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>
+<p>Tại màn hình danh sách dự án, chọn dự án muốn tạo công việc.</p>
+</li>
+<li>
+<p>Nhấn <strong>Tạo</strong></p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_TaoCongViec.png" /></p>
+</li>
+<li>
+<p>Người dùng khai báo các thông tin:</p>
+<ul>
+<li>
+<p>Khai báo Tên công việc.</p>
+<ul>
+<li>Lưu ý: <strong>Tên công việc</strong> là bắt buộc, người dùng không được để trống</li>
+</ul>
+</li>
+<li>
+<p>Chọn công việc chính</p>
+</li>
+<li>
+<p>Khai báo nhiệm vụ con: Người dùng chọn nhiệm vụ con, hệ thống điều hướng đến màn hình khai báo chi tiết công việc con. Trong đó có các thông tin bắt buộc:</p>
+<ul>
+<li>
+<p>Tên công việc con</p>
+</li>
+<li>
+<p>Người thực hiện</p>
+</li>
+<li>
+<p>Ngày bắt đầu</p>
+</li>
+<li>
+<p>Ngày kết thúc</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Chọn mức độ ưu tiên</p>
+</li>
+<li>
+<p>Chọn ngày bắt đầu</p>
+<ul>
+<li>Lưu ý: <strong>Chọn ngày bắt đầu</strong> là bắt buộc, người sử dụng chọn ngày bắt đầu phải nhỏ hơn hoặc bằng Hạn chót</li>
+</ul>
+</li>
+<li>
+<p>Chọn hạn chót</p>
+<ul>
+<li>Lưu ý: <strong>Chọn hạn chót</strong> là bắt buộc, người sử dụng chọn hạn chót phải lớn hơn hoặc bằng ngày bắt đầu</li>
+</ul>
+</li>
+<li>
+<p>Khai báo các thông tin cần thiết</p>
+</li>
+<li>
+<p>Chọn Lặp lại: Nếu người dùng chọn sẽ hiển thị tab “Nhắc lại” bên cạnh bảng chấm công</p>
+</li>
+<li>
+<p>Khai báo việc cần làm</p>
+<ul>
+<li>Người sử dụng mô tả các việc cần làm và chọn trạng thái cho từng việc. Các trạng thái bao gồm: Hoàn thành/Đang thực hiện/Đã thực hiện/Đã hủy</li>
+</ul>
+</li>
+<li>
+<p>Khai báo Timesheet</p>
+<ul>
+<li>
+<p>Chọn <strong>Thêm một dòng</strong></p>
+</li>
+<li>
+<p>Khai báo các thông tin cần thiết</p>
+</li>
+<li>
+<p>Nhấn <strong>Lưu &amp; Đóng</strong> hoặc <strong>Lưu &amp; Tạo mới</strong></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Chọn nhắc lại: Hiển thị tab khi này khi người dùng chọn <strong>Lặp lại</strong> ở tab chung</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Nhấn <strong>Lưu</strong> công việc</p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_TaoCongViec2.png" /></p>
+</li>
+<li>
+<p>Sau khi lưu công việc, người dùng có thể thực hiện các tính năng sau:</p>
+<ul>
+<li>
+<p>Sửa/ xóa công việc</p>
+</li>
+<li>
+<p>Xem hoạt động của dự án</p>
+</li>
+<li>
+<p>Thảo luận</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Với tính năng Thảo luận, tại đây người dùng có thể:</p>
+<ul>
+<li>
+<p>Tìm kiếm nội dung thảo luận bằng cách nhập vào nội dung ô "tìm" và enter</p>
+</li>
+<li>
+<p>Xem <strong>Hộp thư đến</strong></p>
+</li>
+<li>
+<p>Xem nội dung thảo luận <strong>Được gắn sao</strong></p>
+</li>
+<li>
+<p>Xem <strong>Lịch sử</strong></p>
+</li>
+<li>
+<p>Tìm kiếm hoặc Tạo các kênh thảo luận bằng cách: Nhấn vào biểu tượng dấu + tại mục "<strong>CÁC KÊNH</strong>"</p>
+<ul>
+<li>
+<p>Mỗi kênh có thể có một hoặc nhiều thành viên</p>
+</li>
+<li>
+<p>Có thể cài đặt</p>
+<ul>
+<li>
+<p>Tính riêng tư: Mọi người/Chỉ người được mời/Nhóm người dùng được chọn</p>
+</li>
+<li>
+<p>Nhóm có thẩm quyền: Thành viên của nhóm sẽ được tự động thêm vào danh sách người theo dõi. Lưu ý rằng họ có thể tự thay đổi việc theo dõi này một cách thủ công khi cần thiết</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Có thể: Lưu trữ, Nhân bản hoặc kênh Thảo luận</p>
+</li>
+<li>
+<p>Thực hiện nhắn tin, gửi tệp đính kèm đến kênh thảo luận</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Tìm kiếm hoặc bắt đầu cuộc trò chuyện mới bằng cách: Nhấn vào biểu tượng dấu + tại mục "<strong>TIN NHẮN TRỰC TIẾP</strong>"</p>
+<ul>
+<li>
+<p>Có thể thay đổi biệt danh cho người nhận tin nhắn bằng cách nhấn vào biểu tượng cài đặt và nhập biệt danh mới</p>
+</li>
+<li>
+<p>Có thể bỏ ghim cuộc hội thoại bằng cách nhấn vào biểu tượng x</p>
+</li>
+<li>
+<p>Thực hiện nhắn tin, gửi tệp đính kèm đến người nhận</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="bao-cao">Báo cáo</h3>
+<h4 id="bao-cao-theo-du-an">Báo cáo theo dự án</h4>
+<p>Chức năng này được sử dụng để thống kê hiện trạng công việc theo từng dự án gồm:</p>
+<ul>
+<li>
+<p>Số lượng công việc, mục tiêu, thành viên và thời lượng của dự án</p>
+</li>
+<li>
+<p>Báo cáo công việc: Biểu đồ thống kê theo trạng thái; Công việc không đúng hạn; Thành viên xuất sắc trong dự án</p>
+</li>
+<li>
+<p>Quá trình thực hiện theo ngày – tuần</p>
+</li>
+<li>
+<p>Trạng thái công việc của cá nhân, công việc tồn đọng và cảnh báo hạn xử lý</p>
+</li>
+</ul>
+<p><strong>Các bước thực hiện:</strong></p>
+<p>Tại màn hình nhiệm vụ, nhấn chọn xem <strong>Tổng quan dự án</strong></p>
+<ul>
+<li>
+<p>Hiển thị màn hình  <strong>Tổng quan dự án</strong></p>
+</li>
+<li>
+<p>Bao gồm các biểu đồ thống kê sau:</p>
+<ul>
+<li>
+<p>Thống kê công việc</p>
+</li>
+<li>
+<p>Thống kê thành viên</p>
+</li>
+<li>
+<p>Thống kê thời lượng</p>
+</li>
+<li>
+<p>Báo cáo trạng thái công việc</p>
+</li>
+<li>
+<p>Công việc không đúng hạn</p>
+</li>
+<li>
+<p>Thành viên xuất sắc</p>
+</li>
+<li>
+<p>Tổng hợp công việc theo tuần</p>
+</li>
+<li>
+<p>Báo cáo công việc tuần</p>
+</li>
+<li>
+<p>Thành viên còn nhiều việc nhất</p>
+</li>
+<li>
+<p>Thành viên hoàn thành muộn nhất</p>
+</li>
+<li>
+<p>Báo cáo thời gian làm việc</p>
+</li>
+<li>
+<p>Thống kê dự án</p>
+</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_DuAn_dashboard1.png" /></p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_Dashboard2.png" /></p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_Dashboard3.png" /></p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_Dashboard4.png" /></p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_Dashboard5.png" /></p>
+</li>
+</ul>
+<h4 id="bao-cao-tong-hop">Báo cáo tổng hợp</h4>
+<p>Chức năng này được sử dụng để thống kê hiện trạng tất cả các dự án gồm:</p>
+<ul>
+<li>
+<p>Số dự án đang hoạt động</p>
+</li>
+<li>
+<p>Nhân sự tham gia từng dự án</p>
+</li>
+<li>
+<p>Nỗ lực của từng cá nhân theo từng dự án</p>
+</li>
+</ul>
+<p><strong>Các bước thực hiện</strong>:</p>
+<ol>
+<li>
+<p>Mở ứng dụng <strong>Dự án</strong></p>
+</li>
+<li>
+<p>Chọn Menu <strong>"Báo cáo"</strong></p>
+<p>=&gt; Hiển thị màn hình Báo cáo tổng hợp</p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_BieuDoCot.png" /></p>
+<p><p align="center">Biểu đồ cột</p></p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_BieuDoDuong.png" /></p>
+<p><p align="center">Biểu đồ đường</p></p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_BieuDoTron.png" /></p>
+<p><p align="center">Biểu đồ tròn</p></p>
+</li>
+</ol>
+<h3 id="cau-hinh-webhook">Cấu hình Webhook</h3>
+<h4 id="tao-cau-hinh">Tạo cấu hình</h4>
+<p>Chức năng cho phép người dùng tạo mới cấu hình Webhook</p>
+<p><strong>Đối tượng thực hiện</strong>: Quản trị hệ thống, Quản lý dự án</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>
+<p>Mở menu "Dự án"</p>
+</li>
+<li>
+<p>Tại 1 dự án, chọn Thao tác - <strong>"Cấu hình Webhook"</strong></p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_CauHinhWebhook.png" /></p>
+<p>Điều hướng đến màn hình Danh sách cấu hình Webhook của dự án được chọn</p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_DanhSachCauHinhWebhook.png" /></p>
+</li>
+<li>
+<p>Nhấn <strong>Tạo</strong>, hiển thị màn hình Tạo mới webhook</p>
+<p><img alt="" src="../picture/PIC_DW_DuAn_TaoCauHinh.png" /></p>
+</li>
+<li>
+<p>Người dùng khai báo các thông tin sau:</p>
+<ul>
+<li>
+<p>Khai báo Tên dự án: bắt buộc</p>
+</li>
+<li>
+<p>Chọn giai đoạn của dự án</p>
+</li>
+<li>
+<p>Nhập URL: bắt buộc</p>
+</li>
+<li>
+<p>Nhập Authentication Token</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Nhấn <strong>Lưu</strong> </p>
+</li>
+<li>
+<p>Sau khi lưu Webhook thành công, người dùng có thể sửa/ xóa webhook</p>
+</li>
+</ol>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../Addon-khao-sat/" class="btn btn-neutral float-right" title="Khảo sát">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../Addon-Social/" class="btn btn-neutral" title="Mạng xã hội"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Addon-Social/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Addon-khao-sat/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

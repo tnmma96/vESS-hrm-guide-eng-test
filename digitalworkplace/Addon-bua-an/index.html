@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Bữa ăn - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "B\u1eefa \u0103n";
+    var mkdocs_page_input_path = "digitalworkplace\\Addon-bua-an.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas-introduction/">Trang chủ</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Hồ sơ nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien/">Quản lý tiền</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Kế toán tổng hợp</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-san-xuat/">Sản xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ccdc/">Công cụ dụng cụ</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-login/">Đăng nhập, đăng xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-Social/">Mạng xã hội</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-project/">Dự án</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-khao-sat/">Khảo sát</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-ghi-chu/">Ghi chú</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-su-kien/">Sự kiện</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Bữa ăn</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#quy-trinh">Quy trình</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Digital workplace &raquo;</li>
+        
+      
+    
+    <li>Bữa ăn</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h3 id="quy-trinh-nghiep-vu">Quy trình nghiệp vụ</h3>
+<p>Cho phép người dùng thiết lập các thông tin như danh sách nhà cung cấp, danh sách các món ăn, quản lý các thông tin về tài khoản, đơn hàng. Đưa ra các cảnh báo nhắc nhở người dùng nhằm hỗ trợ người dùng trong việc nạp tiền vào tài khoản và đặt bữa ăn hàng ngày.</p>
+<h4 id="quy-trinh">Quy trình</h4>
+<p><img alt="" src="../picture/PIC_DW_BuaAn-QuyTrinh.jpg" /></p>
+<p><strong>Các luồng quy trình</strong></p>
+<ul>
+<li>
+<p>Cấu hình. Chi tiết nghiệp vụ <u><a href="#cau-hinh">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Đặt món. Chi tiết nghiệp vụ <u><a href="#at-mon">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Chuyển tiền. Chi tiết nghiệp vụ <u><a href="#chuyen-tien">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Báo cáo. Chi tiết nghiệp vụ <u><a href="#bao-cao">tại đây</a></u>.</p>
+</li>
+</ul>
+<h4 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h4>
+<p>Khi người sử dụng muốn quản lý thông tin bữa ăn thì quy trình thực hiện như sau:</p>
+<ol>
+<li>
+<p>Quản trị thực hiện việc thiết lập thực đơn gồm các thông tin: Nhà cung cấp, sản phẩm và thấu chi </p>
+</li>
+<li>
+<p>Thiết lập các cảnh báo, nhắc nhở người dùng </p>
+</li>
+<li>
+<p>Người dùng thực hiện đặt món </p>
+</li>
+<li>
+<p>Quản trị viên tạo xác nhận chuyển tiền cho người dùng để nạp tiền đặt bữa ăn.</p>
+</li>
+<li>
+<p>Người dùng và Quản trị viên thực hiện thống kê lịch sử đặt hàng, các giao dịch trong tài khoản và thông tin đơn hàng của các nhà công cấp.</p>
+</li>
+</ol>
+<p><strong>Luồng chức năng chính</strong></p>
+<ul>
+<li>
+<p>Thiết lập thực đơn. Chi tiết nghiệp vụ <u><a href="#thiet-lap-thuc-on">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Thiết lập cảnh báo. Chi tiết nghiệp vụ <u><a href="#thiet-lap-canh-bao">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Đặt món. Chi tiết nghiệp vụ <u><a href="#at-mon">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Chuyển tiền. Chi tiết nghiệp vụ <u><a href="#chuyen-tien">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Xem lịch sử cá nhân. Chi tiết nghiệp vụ <u><a href="#xem-lich-su-ca-nha">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Kiểm soát thông tin. Chi tiết nghiệp vụ <u><a href="#kiem-soat-thong-tin">tại đây</a></u>.</p>
+</li>
+</ul>
+<p><strong>Video hướng dẫn</strong></p>
+<h3 id="cau-hinh">Cấu hình</h3>
+<h4 id="thiet-lap-thuc-on">Thiết lập thực đơn</h4>
+<p>Người sử dụng là Quản trị viên sẽ thiết lập các thông tin về <strong>Nhà cung cấp</strong>, <strong>Sản phẩm</strong>, <strong>Thấu chi</strong> để phục vụ cho việc đặt bữa ăn của người dùng.</p>
+<p><strong>Đối tượng thực hiện:</strong> Quản trị hệ thống</p>
+<ol>
+<li>
+<p>Quản trị hệ thống sẽ thực hiện bổ sung thông tin về nhà cung cấp sản phẩm phục vụ bữa ăn như sau:</p>
+<ul>
+<li>
+<p>Vào chức năng <strong>Bữa ăn</strong>, chọn <strong>Cấu hình/Nhà cung cấp</strong>, chọn thêm nhà cung cấp mới
+<img alt="" src="../picture/PIC_DW_BuaAn-NCC.png" /></p>
+</li>
+<li>
+<p>Nhập thông tin chi tiết cho Nhà cung cấp
+  <img alt="" src="../picture/PIC_DW_BuaAn-NCCTao.png" /></p>
+<ul>
+<li>
+<p>Khi chọn thông tin Khả dụng: với các ngày không được chọn, người dùng sẽ không thể đặt món ăn của nhà cung cấp đó</p>
+</li>
+<li>
+<p>Khai báo thông tin Địa điểm: Thông tin Địa điểm mà người dùng chọn có thể được thêm mới trực tiếp tại đây hoặc vào chức năng <strong>Cấu hình/Địa điểm</strong> để thêm mới địa điểm</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Nhấn <strong>Lưu</strong> để lưu lại thông tin nhà cung cấp</p>
+</li>
+<li>
+<p>Người dùng thực hiện <strong>Theo dõi</strong> nhà cung cấp, <strong>Thêm người theo dõi</strong> hoặc <strong>Thêm kênh theo dõi</strong>. </p>
+</li>
+<li>
+<p>Người dùng tạo <strong>Ghi chú</strong> và <strong>Gửi tin</strong> đến người dùng cũng đang theo dõi thông tin của nhà cung cấp đó</p>
+</li>
+<li>
+<p>Người dùng thực hiện <strong>Lên lịch công việc</strong> </p>
+</li>
+</ul>
+</li>
+<li>
+<p>Sau khi đã có thông tin các nhà cung cấp, người Quản trị sẽ thực hiện bổ sung thông tin các sản phẩm sẽ nhập từ nhà cung cấp vừa chọn </p>
+<ul>
+<li>
+<p>Vào chức năng <strong>Bữa ăn</strong>, chọn <strong>Cấu hình/Sản phẩm</strong>, chọn thêm mới sản phẩm 
+<img alt="" src="../picture/PIC_DW_BuaAn-Sanpham.png" /></p>
+</li>
+<li>
+<p>Khai báo thông tin chi tiết của Sản phẩm
+  <img alt="" src="../picture/PIC_DW_BuaAn-SanphamTao.png" /></p>
+<ul>
+<li><strong>Ghi chú:</strong> Thông tin Nhóm sản phẩm mà người dùng chọn có thể được thêm mới trực tiếp tại đây hoặc vào chức năng <strong>Cấu hình/Nhóm sản phẩm</strong> để thêm mới nhóm</li>
+</ul>
+</li>
+<li>
+<p>Nhấn <strong>Lưu</strong> để lưu lại thông tin sản phẩm </p>
+</li>
+</ul>
+</li>
+<li>
+<p>Quản trị thiết lập thông tin thấu chi để giới hạn việc người dùng khi đặt bữa ăn vượt quá mức chi tối đa cho phép</p>
+<ul>
+<li>
+<p>Vào chức năng <strong>Bữa ăn</strong>, chọn <strong>Cấu hình/Thiết lập</strong>
+<img alt="" src="../picture/PIC_DW_BuaAn-ThauChi.png" /></p>
+</li>
+<li>
+<p>Khai báo thông tin Chi vượt </p>
+<ul>
+<li><strong>Ghi chú:</strong> Sau khi viết lập thông tin thấu chi thì khi đặt món, nếu người dùng nợ quá thấu chi tối đa có thể đạt được thì sẽ không được phép đặt món.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h4 id="thiet-lap-canh-bao">Thiết lập cảnh báo</h4>
+<p>Người sử dụng là Quản trị viên sẽ thiết lập các thông tin cảnh báo nhắc nhở người dùng </p>
+<p><strong>Đối tượng thực hiện:</strong> Quản trị hệ thống</p>
+<ol>
+<li>
+<p>Người dùng vào chức năng <strong>Bữa ăn</strong>, chọn <strong>Cấu hình/Cảnh bảo</strong>, tạo một cảnh báo mới 
+<img alt="" src="../picture/PIC_DW_BuaAn-CanhBao.png" /></p>
+</li>
+<li>
+<p>Khai báo các thông tin chi tiết của cảnh báo</p>
+<ul>
+<li>Với thông tin Hiển thị là Thông báo trò chuyện, người dùng sẽ khai báo thêm thông tin Người nhận và Thời gian thông báo</li>
+</ul>
+</li>
+<li>
+<p>Nhấn <strong>Lưu</strong> để thiết lập việc gửi thông báo đến người dùng theo thời gian đã đặt</p>
+</li>
+</ol>
+<h3 id="at-mon">Đặt món</h3>
+<p>Người dùng thực hiện đặt món ăn và Quản trị sẽ xác nhận đơn đặt của người dùng.</p>
+<p><strong>Đối tượng thực hiện:</strong> Người dùng hệ thống</p>
+<ol>
+<li>
+<p>Người dùng thực hiện đặt món:</p>
+<ul>
+<li>
+<p>Vào chức năng <strong>Bữa trưa của tôi/Đơn mới</strong>
+<img alt="" src="../picture/PIC_DW_BuaAn-DonMoi.png" /></p>
+</li>
+<li>
+<p>Chọn món cần đặt
+<img alt="" src="../picture/PIC_DW_BuaAn-ThemMon.png" /></p>
+</li>
+<li>
+<p>Món đã thêm vào giỏ hàng, nhấn <strong>Đặt hàng ngay</strong> để tạo đơn</p>
+</li>
+<li>
+<p><strong>Lưu ý:</strong> Khi thêm món vào giỏ hàng, tài khoản của người dùng phải lớn hơn số tiền của món hoặc tổng tài khoản của người và mức thấu chi tối đa phải lớn hơn giá trị của món. Nếu không sẽ không cho phép đặt món.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Sau khi người dùng đặt hàng xong, Quản trị sẽ thực hiện xác nhận đơn:</p>
+<ul>
+<li>Vào chức năng <strong>Người quản lý/Đặt món hôm nay</strong> hoặc vào chức năng <strong>Người quản lý Kiểm soát nhà cung cấp</strong> nhấn <strong>Xác nhận</strong> để xác nhận đơn đặt của người dùng
+<img alt="" src="../picture/PIC_DW_BuaAn-XacNhanDon.png" /></li>
+</ul>
+</li>
+</ol>
+<h3 id="chuyen-tien">Chuyển tiền</h3>
+<p>Quản trị viên tạo xác nhận chuyển tiền cho người dùng để nạp tiền đặt bữa ăn.</p>
+<p><strong>Đối tượng thực hiện:</strong> Người dùng hệ thống</p>
+<ol>
+<li>
+<p>Người Quản trị sẽ vào <strong>Người quản lý/Chuyển tiền</strong> thêm một bản ghi tiền cho người dùng
+<img alt="" src="../picture/PIC_DW_BuaAn-ChuyenTien.png" /></p>
+</li>
+<li>
+<p>Nhập thông tin chi tiết cho Chuyển tiền
+<img alt="" src="../picture/PIC_DW_BuaAn-ChuyenTienTao.png" /></p>
+</li>
+<li>
+<p>Nhấn <strong>Lưu</strong> để thêm thông tin tài khoản của người dùng.</p>
+</li>
+</ol>
+<h3 id="bao-cao">Báo cáo</h3>
+<h4 id="xem-lich-su-ca-nhan">Xem lịch sử cá nhân</h4>
+<p>Người dùng thực hiện đặt món ăn hoặc chuyển tiền sẽ thực hiện xem lại lịch sử đặt hàng và tài khoản của cá nhân. </p>
+<p><strong>Đối tượng thực hiện:</strong> Người dùng hệ thống</p>
+<ol>
+<li>
+<p>Người dùng kiểm tra lại lịch sử đặt hàng của mình bằng cách vào <strong>Bữa trưa của tôi/Lịch sử đặt hàng của tôi</strong>
+<img alt="" src="../picture/PIC_DW_BuaAn-LichSuDatHang.png" /></p>
+</li>
+<li>
+<p>Người dùng thống kê số tiền đã chuyển vào và mức chi tiêu cá nhân bằng cách vào <strong>Bữa trưa của tôi/Lịch sử tài khoản của tôi</strong>
+<img alt="" src="../picture/PIC_DW_BuaAn-LichSuTaiKhoan.png" /></p>
+</li>
+</ol>
+<h4 id="kiem-soat-thong-tin">Kiểm soát thông tin</h4>
+<p>Người dùng là Quản trị viên sẽ thực hiện việc theo dõi thông tin nhà cung cấp và thông tin tài khoản của người dùng khác. </p>
+<p><strong>Đối tượng thực hiện:</strong> Quản trị hệ thống</p>
+<ol>
+<li>
+<p>Quản trị viên thống kê danh sách nhà cung cấp và các đơn hàng của nhà cũng cấp đó. Vào chức năng <strong>Người quản lý/Kiểm soát nhà cung cấp</strong>, nhấn vào nhà cung cấp muốn xem để hiển thị toàn bộ danh sách đơn đặt hàng của nhà cung cấp đó 
+<img alt="" src="../picture/PIC_DW_BuaAn-KiemSoatNCC.png" /></p>
+</li>
+<li>
+<p>Quản trị viên thống kê danh sách người dùng và thông tin chuyển tiền, đặt hàng của người dùng. Vào chức năng <strong>Người quản lý/Kiểm soát tài khoản</strong>, nhấn vào tên người dùng muốn xem để hiển thị toàn bộ danh sách lịch sử giao dịch của người dùng đó 
+<img alt="" src="../picture/PIC_DW_BuaAn-KiemSoatTaiKhoan.png" /></p>
+</li>
+</ol>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../Lich-su-phat-trien/" class="btn btn-neutral float-right" title="Lịch sử phát triển sản phẩm">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../Addon-su-kien/" class="btn btn-neutral" title="Sự kiện"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Addon-su-kien/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Lich-su-phat-trien/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
