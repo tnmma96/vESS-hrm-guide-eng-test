@@ -48,3 +48,5 @@ theme:
     highlightjs: true
 extra_css:
     - css/extra.css
+extra_javascript:
+    - js/extra.js
