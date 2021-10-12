@@ -18,3 +18,23 @@ Là nơi tập hợp tất cả dữ liệu nhân sự từ mọi bộ phận tr
 Nếu doanh nghiệp sử dụng phân hệ Digital workplace, VESS cho phép nhân viên tự cập nhật thông tin hồ sơ cá nhân. Nhân viên đăng nhập vào hệ thống có thể cập nhật các thông tin cá nhân trong ngày đầu làm việc, nhân sự kiểm duyệt được các thông tin cá nhân đã được nhân viên cập nhật vào hệ thống.
 
 Nếu doanh nghiệp sử dụng phân hệ Quản lý tuyển dụng (thuộc nền tảng VESS), cán bộ nhân sự không cần thực hiện thao tác nhập liệu hồ sơ nhân sự 2 lần mà có thể liên kết trực tiếp dữ liệu giữa 2 phân hệ, giúp tiết kiệm thời gian xử lý công việc cho người dùng.
+
+## Phân rã chức năng
+
+Phân hệ Quản lý nhân sự bao gồm các phân hệ con:
+
+- [Hồ sơ Nhân viên](../../hrm/employee/#quan-ly-ho-so-nhan-vien) 
+  + [Quản lý hồ sơ nhân viên](../../hrm/employee/#them-moi-ho-so-nhan-vien)
+  + [Hợp đồng và cảnh báo hợp đồng](../../hrm/employee/#cap-nhat-hop-ong-qua-trinh-lam-viec-cua-nhan-vien)
+- [Chấm công - Đăng ký công](../../hrm/attendance/#gioi-thieu-chuc-nang-cham-cong-ang-ky-cong)
+  + [Thiết lập kế hoạch nghỉ phép cho nhân viên](../../hrm/attendance/id=thiet-lap-ke-hoach-nghi-phep-cho-nhan-vien). 
+  + [Nhân viên đăng ký công.](../../hrm/attendace/#gioi-thieu-chuc-nang-cham-cong-ang-ky-cong)
+  + [Quản lý trực tiếp của nhân viên phê duyệt/ từ chối đăng ký công.](../../hrm/attendace/#phe-duyet-tu-choi-ang-ky-cong)
+  + [Cán bộ chấm công tổng hợp công](../../hrm/attendace/#tong-hop-cong)
+- [Tuyển dụng](../../hrm/recruitment/#quan-ly-tuyen-dung)
+  + [Tạo vị trí tuyển dụng](../../hrm/recruitment/#tao-vi-tri-cong-viec-co-nhu-cau-tuyen-dung) 
+  + [Đăng tải tin tuyển dụng](../../hrm/recruitment/#ang-tin-tuyen-dung-tren-website)
+  + [Tạo mới hồ sơ ứng viên](../../hrm/recruitment/#tao-moi-ho-so-ung-vien)
+  + [Thêm mới lịch phỏng vấn](../../hrm/recruitment/#them-moi-lich-phong-van)
+  + [Thực hiện phỏng vấn, đánh giá](../../hrm/recruitment/#anh-gia-ung-vien-trong-buoi-phong-van) 
+  + [Thực hiện tạo nhân viên từ ứng viên trúng tuyển](../../hrm/recruitment/#ky-hop-ong-va-tao-thong-tin-nhan-vien) 
