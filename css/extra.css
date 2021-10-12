@@ -29,3 +29,6 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 p {
     margin-bottom: 12px !important;
 }
+.wy-grid-for-nav .wy-nav-content-wrap .wy-nav-content {
+  max-width: 1024px !important;
+}
