@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Esign - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Esign";
+    var mkdocs_page_input_path = "esign\\esign.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas-introduction/">Trang chủ</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-san-xuat/">Sản xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-login/">Đăng nhập, đăng xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Social/">Mạng xã hội</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-project/">Dự án</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-khao-sat/">Khảo sát</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-ghi-chu/">Ghi chú</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-su-kien/">Sự kiện</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-bua-an/">Bữa ăn</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Esign</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="quan-ly-van-ban-trinh-ky">Quản lý văn bản trình ký</h2>
+<h3 id="tao-moi-van-ban-trinh-ki">Tạo mới văn bản trình kí</h3>
+<p>Khi người dùng cần thực hiện trình ký văn bản tới danh sách người ký. </p>
+<p><strong>Đối tượng thực hiện :</strong> Người dùng</p>
+<p><strong>Các bước thực hiện:</strong> </p>
+<ol>
+<li>Vào <strong>Quản lý văn bản trình kí</strong></li>
+</ol>
+<p><img alt="img" src="../images/clip_image071.jpg" /></p>
+<ol>
+<li>Click <strong>Tạo</strong>,  khai báo các thông tin của văn bản:</li>
+</ol>
+<p><img alt="img" src="../images/clip_image073.jpg" /></p>
+<ul>
+<li>Nhập Tên văn bản trình kí, gắn nhãn. </li>
+<li>Trường hợp có cài đặt ứng dụng Tài liệu, hiển thị và cho phép nhập thông tin:</li>
+<li>Thư mục sau kí: thư mục lưu trữ văn bản sau khi được ban hành</li>
+<li>Chọn nhãn sau kí của Thư mục sau kí vừa chọn</li>
+<li>Chọn danh sách người kí:  Có thể tạo mới danh sách hoặc chọn từ mẫu danh sách người ký đã lưu trước đó. </li>
+<li>Thứ tự hiển thị trên danh sách là thứ tự sẽ trình ký. </li>
+<li>Mỗi tài khoản chỉ tồn tại duy nhất trên danh sách. </li>
+<li>Ký CA: khi tích chọn thì khi người ký tương ứng vào ký sẽ cần sử dụng usb token ký và có xác thực chứng thư số tồn tại. </li>
+<li>Hiển thị ảnh ký: cho phép lựa chọn ảnh chân ký sẽ hiển thị trong văn bản trình ký. </li>
+<li>Danh sách tệp trình ký: </li>
+<li>Có thể trình đồng thời một hoặc nhiều bộ văn bản trình ký. Mỗi bộ gồm một tệp ký chính và tệp phụ lục (nếu có). </li>
+<li>Tệp trình ký được hỗ trợ các định dạng: pdf, doc, excel, ppt, ảnh. Chỉ với tệp có định dạng pdf thì mới có thể tự động chèn thêm ảnh chân ký sau khi ký số. </li>
+<li>Loại văn bản: </li>
+<li>Các tùy chọn: </li>
+<li>Tùy chọn Ban hành tự động: chỉ có thể ban hành tự động khi trình ký 1 tệp trình ký chính. Khi trình ký từ 2 tệp ký chính thì bắt buộc phải được ban hành thủ công. </li>
+<li>
+<p>Tùy chọn tự động chuyển văn bản: Khi người trình ký muốn sau khi văn bản được ký duyệt và ban hành sẽ được tự động chia sẻ cho người khác có thể đọc. Tùy chọn này chỉ được sử dụng khi có tích hợp với ứng dụng Tài liệu. </p>
+</li>
+<li>
+<p>Click nút <strong>Lưu</strong>: văn bản trình ký ở trạng thái Mới tạo, chưa được trình tới người ký.</p>
+</li>
+<li>click nút <strong>Trình ký</strong>: Tạo mới văn bản và thực hiện trình ký luôn. Trạng thái văn bản trình ký sẽ hiển thị "Chờ ký duyệt". Theo thứ tự trình ký sẽ gửi thông báo yêu cầu ký duyệt tới người đầu tiên trong danh sách trình ký.</li>
+</ul>
+<h3 id="tim-kiem-va-loc-van-ban-trinh-ky">Tìm kiếm và lọc văn bản trình ký</h3>
+<p>Cho phép người dùng tìm kiếm và lọc văn bản trình ký theo các tiêu chí khác nhau. </p>
+<p><strong>Đối tượng thực hiện :</strong> Người dùng </p>
+<p><strong>Các bước thực hiện:</strong> </p>
+<ol>
+<li>Vào <strong>Quản lý văn bản trình ký</strong> : Nhập tiêu chí tìm kiếm </li>
+</ol>
+<p><img alt="img" src="../images/clip_image070.jpg" /></p>
+<ul>
+<li>Hiển thị danh sách các Văn bản trình mà người tạo hoặc người ký hoặc người xét duyệt hoặc người ký nháy là người dùng và thỏa mãn tiêu chí tìm kiếm. </li>
+<li>Thông tin văn bản hiển thị: Tên văn bản, trạng thái, danh sách người ký chính và trậng thái ký, người tạo, ngày trình ký. </li>
+<li>Để lọc những văn bản đến lượt cần người dùng ký duyệt: chọn <strong>Chờ ký duyệt</strong> </li>
+<li>Để lọc những văn bản đến lượt cần người dùng xét duyệt: chọn <strong>Chờ xét duyệt</strong> </li>
+<li>Để lọc những văn bản đến lượt cần người dùng ký nháy: chọn <strong>Chờ ký nháy</strong> </li>
+<li>Để lọc những văn bản đến lượt cần người dùng ban hành: chọn <strong>Chờ ban hành</strong> </li>
+<li>Để lọc những văn bản do người dùng tạo và trình ký : chọn  <strong>Tài liệu của tôi</strong></li>
+</ul>
+<h3 id="huy-luong-trinh-ky">Hủy luồng trình ký</h3>
+<p>Khi người trình ký văn bản mong muốn dừng lại việc ký văn bản đã trình thì sẽ thực hiện hủy luồng trình ký. </p>
+<p><strong>Điều kiện thực hiện</strong>: Văn bản đã được trình ký nhưng chưa có người nào thực hiện ký/ xét duyệt văn bản. </p>
+<p><strong>Đối tượng thực hiện :</strong> Người trình ký </p>
+<p><strong>Các bước thực hiện:</strong> </p>
+<ol>
+<li>Vào <strong>Quản lý văn bản trình ký</strong> &gt; tìm kiếm văn bản cần hủy luồng trình ký -&gt; vào xem chi tiết văn bản</li>
+</ol>
+<p><img alt="img" src="../images/clip_image079.jpg" /></p>
+<ol>
+<li>Kích nút <strong>Hủy trình ký</strong> -&gt; Xác nhận đồng ý Hủy luồng ký. Văn bản được chuyển sang trạng thái Đã hủy</li>
+</ol>
+<h3 id="xet-duyet-van-ban">Xét duyệt văn bản</h3>
+<p>Khi văn bản trình ký tới người ký được cấu hình người xét duyệt thì trước khi trình đến người ký chính cần phải qua người xét duyệt đánh giá văn bản. Khi nhận được thông báo yêu cầu xét duyệt văn bản, người dùng thực hiện xem xét và đánh giá duyệt hoặc từ chối duyệt văn bản. </p>
+<p><strong>Đối tượng thực hiện :</strong> Người xét duyệt</p>
+<p><strong>Các bước thực hiện:</strong> </p>
+<ol>
+<li>
+<p>Vào <strong>Quản lý văn bản trình ký</strong> &gt; tìm kiếm văn bản -&gt; vào xem chi tiết văn bản</p>
+</li>
+<li>
+<p>Kích nút <strong>Xét duyệt</strong> hoặc <strong>Từ chối</strong> </p>
+</li>
+<li>
+<p>Nút Xét duyệt: khi đồng ý duyệt văn bản để trình lên người ký chính. Sau khi xét duyệt đạt gửi thông báo tới người ký chính để yêu cầu ký duyệt văn bản. </p>
+</li>
+</ol>
+<p><img alt="img" src="../images/clip_image085.jpg" /></p>
+<ul>
+<li>Nút Từ chối: khi văn bản không đạt vì lý do nào đó, người xét duyệt nhập lý do từ chối và từ chối xét duyệt văn bản. Khi đó, văn bản chuyển trạng thái sang "Từ chối duyệt" và gửi thông báo lại cho người trình ký. </li>
+</ul>
+<p><img alt="img" src="../images/clip_image083.jpg" /></p>
+<h3 id="ky-duyet-van-ban">Ký duyệt văn bản</h3>
+<p>Khi nhận được thông báo yêu cầu ký duyệt văn bản, người dùng thực hiện xem xét và ký duyệt hoặc từ chối ký duyệt văn bản. </p>
+<p><strong>Đối tượng thực hiện :</strong> Người ký</p>
+<p><strong>Các bước thực hiện:</strong> </p>
+<ol>
+<li>Vào <strong>Quản lý văn bản trình ký</strong> &gt; tìm kiếm văn bản -&gt; vào xem chi tiết văn bản</li>
+<li>
+<p>Kích nút <strong>Ký duyệt</strong> hoặc <strong>Từ chối</strong></p>
+</li>
+<li>
+<p>Trường hợp không yêu cầu phải ký CA: Người dùng có thể chọn ký duyệt thông thường hoặc ký điện tử khi sử dụng ký cA. </p>
+</li>
+<li>Trường hợp yêu cầu phải ký CA: Màn hình ký duyệt văn bản chỉ hiển thị nút “Kí điện tử”. Người ký sử dụng USB token đã đăng ký để ký duyệt văn bản. </li>
+</ol>
+<p><img alt="img" src="../images/clip_image081.jpg" /></p>
+<h3 id="chuyen-ky-nhay">Chuyển ký nháy</h3>
+<p>Người ký duyệt văn bản có thể chuyển ký nháy tới một hoặc nhiều người khác khi có nhu cầu cần ký nháy trước khi ký duyệt. </p>
+<p><strong>Đối tượng thực hiện :</strong> Người ký duyệt văn bản trình ký</p>
+<p><strong>Các bước thực hiện:</strong> </p>
+<ol>
+<li>Vào <strong>Quản lý văn bản trình ký</strong> &gt; tìm kiếm văn bản -&gt; vào xem chi tiết văn bản</li>
+<li>Kích nút <strong>Chuyển ký nháy</strong></li>
+<li>Nhập thông tin chuyển ký nháy</li>
+</ol>
+<p>Có thể chọn chuyển cho một hoặc nhiều tài khoản ký mà không nằm trong danh sách ký chính, danh sách ký nháy đã có hoặc xét duyệt văn bản. </p>
+<p><img alt="img" src="../images/clip_image096.jpg" /></p>
+<ol>
+<li>Kích nút <strong>Chuyển kí nháy</strong></li>
+</ol>
+<p>Thực hiện yêu cầu chuyển kí nháy thành công. Người được chuyển ký nháy sẽ nhận được thông báo yêu cầu vào ký nháy cho văn bản. </p>
+<h3 id="thay-oi-nguoi-ky">Thay đổi người ký</h3>
+<p>Trong quá trình trình ký văn bản mà có nhu cầu thay đổi người ký khác, người trình ký sẽ thực hiện chức năng đổi người ký. </p>
+<p><strong>Điều kiện thực hiện :</strong>  Người cần đổi chưa thực hiện ký duyệt văn bản.</p>
+<p><strong>Đối tượng thực hiện :</strong> Người trình ký </p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>Vào <strong>Quản lý văn bản trình ký</strong> &gt; tìm kiếm văn bản -&gt; vào xem chi tiết văn bản</li>
+<li>Tại danh sách người ký: kích nút Đổi người ký</li>
+<li>Khai báo thông tin tài liệu:</li>
+</ol>
+<p><img alt="img" src="../images/clip_image099.jpg" /></p>
+<ul>
+<li>
+<p>Chọn người ký sẽ thay thế: người ký này chưa tồn tại trong đanh sách ký duyệt hoặc danh sách ký nháy của văn bản. </p>
+</li>
+<li>
+<p>Chọn hiển thị ảnh chân ký </p>
+</li>
+<li>
+<p>Click <strong>Chọn</strong>: Thực hiện thay đổi người ký thành công. Nếu đến lượt người đó ký thì sẽ chuyển trình ký tới người vừa được đổi. </p>
+</li>
+</ul>
+<h4 id="oc-noi-dung-van-ban-trinh-ky">Đọc nội dung văn bản trình ký</h4>
+<p>Người dùng có thể đọc nội dung văn bản trình ký trực tiếp trên hệ thống với một số định dạng như pdf, ảnh.</p>
+<p><strong>Đối tượng thực hiện :</strong> Người trình ký, người xem xét, người ký nháy, người ký</p>
+<p><strong>Các bước thực hiện:</strong> </p>
+<ol>
+<li>Vào <strong>Quản lý văn bản trình ký</strong> &gt; tìm kiếm văn bản -&gt; vào xem chi tiết văn bản</li>
+<li>Kích nút  <strong>Xem trước</strong> : mở màn hình đọc văn bản </li>
+</ol>
+<p><img alt="img" src="../images/clip_image087.jpg" /></p>
+<h3 id="ban-hanh-van-ban">Ban hành văn bản</h3>
+<p>Cho phép người dùng ban hành thủ công văn bản đã ký duyệt: cấp số văn bản và lưu trữ văn bản tại đúng thư mục bên ứng dụng Tài liệu (nếu có). </p>
+<p><strong>Đối tượng thực hiện :</strong> Người ký ban hành, người trình ký </p>
+<p><strong>Các bước thực hiện:</strong> </p>
+<ol>
+<li>Vào <strong>Quản lý văn bản trình ký</strong> &gt; tìm kiếm văn bản -&gt; vào xem chi tiết văn bản có trạng thái đã ký duyệt</li>
+<li>Kích nút <strong>Ban hành</strong> : vào màn hình Ban hành văn bản</li>
+</ol>
+<p><img alt="img" src="../images/clip_image090.jpg" /></p>
+<ol>
+<li>Kích nút <img alt="banhanh" src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\esign\images\banhanh.PNG" />  mở màn hình nhập các thông tin ban hành với từng tệp trình ký</li>
+<li>Nhập thông tin ban hành: </li>
+</ol>
+<p><img alt="img" src="../images/clip_image094.jpg" /></p>
+<p>Lưu ý: </p>
+<ul>
+<li>Thư mục sau ký và nhãn sau ký:  chỉ hiển thị khi có tích hợp với ứng dụng Tài liệu </li>
+<li>Mã văn bản: được sinh mặc định theo đúng quy tắc đã được thiết lập cho loại văn bản trước đó.</li>
+<li>
+<p>Danh sách tham số:  danh sách các tham số dùng thiết lập mã văn bản và giá trị tương ứng. Trường hợp mã được thiết lập cho phép người ban hành có thể tự nhập thì có thể thay đổi giá trị tham số. </p>
+</li>
+<li>
+<p>Sau khi nhập đầy đủ thông tin ban hành cho tất cả các tệp trình ký của văn bản, kích nút Ban hành. </p>
+</li>
+</ul>
+<p>Văn bản được ban hành thành công, chuyển trạng thái hiển thị "Đã ban hành". </p>
+<p>Tại phân hệ Tài liệu, văn bản được lưu trữ và gắn nhãn đúng. </p>
+<p>Người trình ký sẽ nhận được thông báo đã ban hành văn bản thành công. </p>
+<h3 id="thong-bao">Thông báo</h3>
+<p>Các thông báo trong quá trình ký văn bản đều hiển thị trong mục thông báo của ứng dụng. </p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>Người dùng kích vào nút thông báo (hình quả chuông)</li>
+</ol>
+<p><img alt="img" src="../images/clip_image101.png" /></p>
+<ol>
+<li>Từ danh sách các thông báo hiển thị, kích vào 1 thông báo quan tâm thuộc phần ký số</li>
+</ol>
+<p>sẽ vào được màn hình chi tiết của văn bản trình ký tương ứng. </p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/extra.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

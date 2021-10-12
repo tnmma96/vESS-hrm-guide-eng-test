@@ -84,13 +84,15 @@
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-danh-muc-new/">Khai báo danh mục</a>
                     </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien/">Quản lý tiền</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-mua-hang/">Mua hàng</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-ban-hang/">Bán hàng</a>
                     </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../fin-ke-toan-tong-hop/">Kế toán tổng hợp</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-ke-toan-tong-hop/">Kế toán</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-kho/">Kho vận</a>
                     </li>
@@ -98,11 +100,35 @@
                     </li>
                     <li class="toctree-l1 current"><a class="reference internal current" href="./">Tài sản cố định</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#quy-trinh-nghiep-vu">Quy trình nghiệp vụ</a>
+    <li class="toctree-l2"><a class="reference internal" href="#kieu-tai-san">Kiểu tài sản</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tai-san">Tài sản</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tang-tai-san-co-inh">Tăng tài sản cố định</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#quan-ly-thong-tin-khau-hao">Quản lý thông tin Khấu hao</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ieu-chinh-tang-gia-trithoi-gian-khau-hao-cua-tai-san">Điều chỉnh Tăng giá trị/thời gian khấu hao của Tài sản</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ieu-chinh-giam-gia-trithoi-gian-khau-hao-cua-tai-san">Điều chỉnh Giảm giá trị/thời gian khấu hao của Tài sản</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tam-dung-khau-hao-tai-san">Tạm dừng khấu hao Tài sản</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tiep-tuc-khau-hao-tai-san">Tiếp tục khấu hao Tài sản</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ieu-chuyen-tai-san-giua-cac-phong-ban">Điều chuyển Tài sản giữa các phòng ban</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#thanh-ly-tai-san">Thanh lý tài sản</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#chuyen-tai-san-thue-tai-chinh-thanh-tsc">Chuyển Tài sản thuê tài chính thành TSCĐ</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#kiem-ke-tai-san">Kiểm kê Tài sản</a>
     </li>
     </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../fin-ccdc/">Công cụ dụng cụ</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-log-histories/">Lịch sử phát triển sản phẩm</a>
                     </li>
@@ -177,17 +203,310 @@
           <div role="main">
             <div class="section">
               
-                <h3 id="tai-san-co-inh"><strong>Tài sản cố định</strong></h3>
-<h4 id="quy-trinh-nghiep-vu"><em>Quy trình nghiệp vụ</em></h4>
-<p><em>[Mô tả thông tin chung]</em></p>
-<p>Kế toán tổng hợp được sử dụng để cập nhật các phiếu kế toán tổng quát, các bút toán điều chỉnh, phân bổ, đánh giá, kết chuyển cuối kỳ; thực hiện lên sổ sách kế toán và báo cáo tài chính theo quy định.</p>
-<p><strong>Quy trình nghiệp vụ</strong></p>
-<p><em>[Hình luồng quy trình nghiệp vụ của Module]</em></p>
-<p><em>[Hình ảnh]</em></p>
+                <h1 id="quy-trinh-nghiep-vu-ke-toan-tai-san">Quy trình nghiệp vụ Kế toán Tài Sản</h1>
+<p>Quản lý toàn bộ thông tin Tài sản cố định của Doanh nghiệp, đến từng bộ phận quản lý sử dụng. Tình hình biến động của Tài sản: Tăng; Giảm; Điều chuyển và Thanh lý tài sản.</p>
+<p>Hệ thống tự động tính Khấu hao ước tính theo Phương pháp đường thẳng và Giảm dần có điều chỉnh; Kế toán theo dõi được toàn bộ thông tin về Số tiền Khấu hao tháng; Số tiền Khấu hao lũy kế và Số tiền khấu hao còn lại của từng Tài sản</p>
+<p><strong>Quy trình</strong></p>
+<p><img alt="" src="../images/fin_TaiSan_Quytrinh.png" /></p>
 <p><strong>Các luồng quy trình</strong></p>
-<p><em>[Liệt kê các luồng quy trình nghiệp vụ có trong Module, có link đến Phần Hướng dẫn chi tiết]</em></p>
-<p>·     Lập chứng từ ghi sổ đơn lẻ. Chi tiết nghiệp vụ <strong>tại đây</strong></p>
-<p>·     Lập chứng từ ghi sổ đồng loạt. Chi tiết nghiệp vụ <strong>tại đây</strong></p>
+<p>· Quản lý thông tin các Kiểu tài sản <strong><a href="##Kiểu tài sản">tại đây</a></strong></p>
+<p>· Khấu hao Tài sản, Điều chỉnh tăng/giảm, Tạm dừng và Tiếp tục Khấu hao Tài sản theo PP Đường thẳng và PP Giảm dần  <strong><a href="##Tài sản">tại đây</a></strong></p>
+<p>·  Điều chuyển tài sản <strong><a href="##Điều chuyển Tài sản giữa các phòng ban">tại đây</a></strong></p>
+<p>·  Thanh lý tài sản <strong><a href="##Thanh lý tài sản">tại đây</a></strong></p>
+<p>·  Chuyển tài sản thuê tài chính <strong><a href="##Chuyển Tài sản thuê tài chính thành TSCĐ">tại đây</a></strong></p>
+<p>·  Kiểm kê tài sản<strong><a href="##Kiểm kê Tài sản">tại đây</a></strong></p>
+<h2 id="kieu-tai-san"><strong>Kiểu tài sản</strong></h2>
+<p><strong>Mục đích</strong></p>
+<p>Quản lý thông tin các Kiểu tài sản theo thực tế tại Doanh nghiệp</p>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Kế toán Tài sản</strong> -&gt; Chọn chức năng <strong>Danh mục</strong> -&gt; Chọn <strong>Nhóm tài sản</strong></p>
+<p><img alt="" src="../images/fin_Taisan_Kieutaisan.png" /></p>
+<p><strong>Bước 2:</strong> Click button <strong>Tạo</strong> -&gt; Hệ thống hiển thị bản ghi Kiểu tài sản mới</p>
+<p><strong>Bước 3:</strong> Nhập các thông tin gồm:</p>
+<ul>
+<li>Phương pháp khấu hao</li>
+<li>Phương pháp khấu hao: Chọn phương pháp Đường thẳng hoặc Khấu hao giảm dần</li>
+<li>Thời gian khấu hao: Nhập thời gian khấu hao mong muốn theo tháng hoặc năm</li>
+<li>
+<p>Theo ngày mua: Tick chọn tính theo ngày mua hay không</p>
+</li>
+<li>
+<p>Thông tin kế toán</p>
+</li>
+<li>
+<p>Đơn vị</p>
+</li>
+<li>Tài khoản tài sản</li>
+<li>Tài khoản khấu hao</li>
+<li>Tài khoản chi phí</li>
+<li>Sổ nhật ký</li>
+<li>Tài khoản phân tích</li>
+<li>Từ khóa khoản mục</li>
+</ul>
+<p><img alt="" src="../images/fin_Taisan_Nhapthongtinkieutaisan.png" /></p>
+<p><strong>Bước 4</strong>: Thực hiện <strong>Lưu</strong> bản ghi</p>
+<h2 id="tai-san"><strong>Tài sản</strong></h2>
+<h3 id="mo-ta-nghiep-vu"><strong>Mô tả nghiệp vụ</strong></h3>
+<p>Quản lý thông tin Tài sản trên hệ thống bao gồm: Giá trị tài sản và các thông tin liên quan đến khấu hao tài sản, Điều chỉnh tăng/giảm, Tạm dừng hoặc Tiếp tục khấu hao </p>
+<p><strong>Luồng chức năng chính</strong></p>
+<p>·     Tăng Tài sản cố định. Chi tiết nghiệp vụ <strong><a href="#Tăng tài sản cố định">tại đây</a></strong></p>
+<p>·     Quản lý thông tin Khấu hao. Chi tiết nghiệp vụ <strong><a href="###Quản lý thông tin Khấu hao">tại đây</a></strong></p>
+<p>·     Điều chỉnh Tăng Giá trị/Thời gian khấu hao của Tài sản. Chi tiết nghiệp vụ <strong><a href="###Điều chỉnh Tăng giá trị/thời gian khấu hao của Tài sản">tại đây</a></strong></p>
+<p>·     Điều chỉnh Giảm Giá trị/Thời gian khấu hao của Tài sản. Chi tiết nghiệp vụ <strong><a href="###Điều chỉnh Giảm giá trị/thời gian khấu hao của Tài sản">tại đây</a></strong></p>
+<p>·     Tạm dừng khấu hao Tài sản. Chi tiết nghiệp vụ <strong><a href="###Tạm dừng khấu hao Tài sản">tại đây</a></strong></p>
+<p>·     Tiếp tục khấu hao Tài sản. Chi tiết nghiệp vụ <strong><a href="###Tiếp tục khấu hao Tài sản">tại đây</a></strong></p>
+<h3 id="tang-tai-san-co-inh"><strong>Tăng tài sản cố định</strong></h3>
+<p><strong>Mô tả:</strong></p>
+<ul>
+<li>Khi Doanh nghiệp ghi nhận phát sinh Tài sản do: mua sắm mới; do đầu tư xây dựng cơ bản hoàn thành; do thuê ..., kế toán thực hiện ghi nhận thông tin Tài sản lên hệ thống để quản lý.</li>
+<li>Tài sản được đánh mã và thực hiện khai báo, quản lý về nguyên giá tài sản, giá trị thanh lý có thể thu hồi, thời gian khấu hao, giá trị còn lại của tài sản, hao mòn lũy kế</li>
+</ul>
+<p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
+<p><strong>Các bước thực hiện</strong>:</p>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Kế toán Tài sản</strong> -&gt; Chọn <strong>Tài sản</strong> -&gt; Chọn <strong>Tài sản</strong> -&gt; Click button <strong>Tạo</strong></p>
+<p><img alt="" src="../images/fin_Taisan_VaoKHTS.png" /></p>
+<p><strong>Bước 2:</strong> Thực hiện khai báo thông tin đối với Tài sản mới và Tài sản đã sử dụng ngoài phần mềm</p>
+<ul>
+<li>Mã tài sản</li>
+<li>Tên tài sản</li>
+<li>Kiểu tài sản</li>
+<li>Giá trị tài sản</li>
+<li>Giá trị hiện tại</li>
+<li>Phương pháp khấu hao</li>
+<li>Thông tin kế toán</li>
+<li>Thông tin khấu hao hiện thời</li>
+</ul>
+<p><strong>Bên cạnh đó người dùng có thể khai báo các thông tin khác tại:</strong> </p>
+<ul>
+<li>Tab <em>Thiết lập phân bổ</em>: Nhập thông tin đối tượng, tỷ lệ và tài khoản mà người dùng muốn phân bổ</li>
+<li>Tab <em>Nguồn gốc hình thành:</em> Chọn các chứng từ có cùng tài khoản để thực hiện các nghiệp vụ liên quan</li>
+<li>Tab <em>Bộ phận cấu thành</em></li>
+<li>Tab <em>Dụng cụ phụ tùng</em></li>
+<li>Tab <em>Thông tin khác</em></li>
+</ul>
+<p><strong>Bước 4:</strong> Click button <em>Tính khấu hao</em> </p>
+<h3 id="quan-ly-thong-tin-khau-hao"><strong>Quản lý thông tin Khấu hao</strong></h3>
+<p><strong>Thông tin khấu hao</strong></p>
+<p>Đối với việc khấu hao theo phương pháp đường thằng, hệ thống thực hiện tính toán dựa vào các tiêu chí người dùng đã khai báo tại tab Thông tin chung</p>
+<p>Kết quả khấu hao sẽ được trả về tại tab <strong>Khấu hao ước tính</strong>. Kết quả phụ thuộc vào các yếu tố dưới đây:</p>
+<ul>
+<li>[x] Người dùng có chọn <em>Tính khấu hao theo ngày thực tế hay không</em></li>
+<li>[x] <em>Tài sản mới</em> hay <em>Tài sản đã được sử dụng</em></li>
+<li>[x] Có tick <em>Theo ngày mua hay không</em></li>
+<li>
+<p>[x] Phương pháp khấu hao là Đường thẳng hay Giảm dần</p>
+</li>
+<li>
+<p>Nếu không tính theo ngày thực tế -&gt; Hệ thống thực hiện tính khấu hao 1 tháng = 30 ngày, ngược lại sẽ tính theo ngày thực tế của tháng</p>
+</li>
+<li>Đối với <em>Tài sản mới</em> và <em>Tài sản đã được sử dụng</em>, <em>Số ngày khấu hao</em> tại mục <strong>Phương pháp khấu hao</strong> được tính từ <em>Ngày bắt đầu khấu hao</em></li>
+<li>Bản ghi khấu hao Tài sản có tick <em>Theo ngày mua</em> -&gt; Giá trị khấu hao sẽ được tính từ ngày người dùng nhập sau khi chọn tính theo ngày mua</li>
+<li>Bản ghi khấu hao Tài sản không tick <em>Theo ngày mua</em> -&gt; Giá trị khấu hao sẽ được tính từ <em>Ngày hạch toán</em></li>
+<li>Trường hợp là <em>Tài sản đã được sử dụng</em> trước khi khai báo trên phần mềm-&gt; Hệ thống thực hiện trừ Nguyên giá với Giá trị đã khấu và Giá trị không khấu hao( nếu có ), Số ngày khấu hao với Số ngày đã được khấu hao bên ngoài</li>
+</ul>
+<p>Sau khi thực hiện <strong>Tính khấu hao</strong> -&gt; Hệ thống tính toán và hiển thị kết quả tại <strong>Tab Khấu hao ước tính</strong> gồm các thông tin: Ngày khấu hao, Giá trị khấu hao, Giá trị khấu hao lũy kế và Giá trị còn lại theo công thức của  PP Đường thẳng hoặc PP Giảm dần</p>
+<p><img alt="" src="../images/fin_Taisan_TabKHUT.png" /></p>
+<p>Nếu người dùng click button <strong>Xác nhận</strong>, bút toán sẽ được ghi nhận tương ứng với các đầu tài khoản người đã nhập. Bên cạnh đó dữ liệu được hạch toán sẽ tác động đến giá trị tiền tại Tab Thông tin chung như sau:</p>
+<ul>
+<li>Bút toán ghi nhận theo từng kỳ khấu hao</li>
+<li>Debit Tài khoản chi phí tại Tab Thiết lập phân bổ</li>
+<li>
+<p>Credit Tài khoản Khấu hao</p>
+</li>
+<li>
+<p>Giá trị tiền tại Tab Thông tin chung</p>
+</li>
+<li>Giá trị sổ sách = Nguyên giá-Giá trị đã khấu hao(Giá trị đã khấu hao trên phần mềm+Giá trị đã khấu hao ngoài phần mềm )</li>
+</ul>
+<h3 id="ieu-chinh-tang-gia-trithoi-gian-khau-hao-cua-tai-san"><strong>Điều chỉnh Tăng giá trị/thời gian khấu hao của Tài sản</strong></h3>
+<p><strong>Mô tả:</strong></p>
+<p>Khi có nhu cầu Tăng giá trị/thời gian khấu hao của Tài sản cố định, Doanh nghiệp thực nhập các số liệu mong muốn để thay đổi về Giá trị của tài sản và Thời gian Khấu hao. Hệ thống sẽ tính toán và cập nhật lại vào các chứng từ liên quan</p>
+<p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<p><strong>Bước 1:</strong> Vào chức năng <strong>Kế toán tài sản</strong> -&gt; Chọn <strong>Tài sản</strong> -&gt; Chọn bản ghi Tài sản muốn <em>Tăng</em> -&gt; Click button<strong>Tăng/giảm tài sản</strong> </p>
+<p><img alt="" src="../images/fin_Taisan_Dieuchinhtanggiam_2.png" /></p>
+<p><strong>Bước 2:</strong> Nhập dữ liệu trên màn hình để ghi nhận <em>Tăng giá trị</em> hoặc <em>Tăng thời gian</em></p>
+<ul>
+<li>Biên bản số</li>
+<li>Lý do điều chỉnh</li>
+<li>Ngày chứng từ</li>
+<li>Ngày biên bản</li>
+<li>Các thông tin tại mục <em>Thông tin điều chỉnh</em></li>
+<li>Các thông tin về Tài khoản tại mục <em>Kế toán Tài sản</em></li>
+<li>Ngày điều chỉnh</li>
+</ul>
+<p><img alt="" src="../images/fin_Taisan_Nhapthongtintanggiam.png" /></p>
+<p><strong>Bước 3</strong>: Click button <em>Điều chỉnh</em></p>
+<ul>
+<li>Hệ thống kiểm tra ngày điều chỉnh do người dùng nhập vào có nằm trong các kỳ của bảng tính khấu hao ước tính của tài sản gốc. Nếu ngày điều chỉnh nằm trong kỳ khấu hao đã được hạch toán -&gt; Hiển thị popup thông báo ' Không điều chỉnh vào kỳ đã hạch toán', và thoát khỏi màn hình Điều chỉnh tài sản</li>
+<li>Đối với bản ghi điều chỉnh thỏa mãn điều kiện sẽ tác động đến sự thay đổi của <em>Tab</em> <em>Khấu hao ước tính</em> và <em>Sinh bút toán ghi nhận Tăng</em> <em>giá trị tài sản tương ứng</em> như sau:</li>
+<li>
+<p>Tab Khấu hao ước tính</p>
+<p>Giá trị khấu hao được tính từ ngày điều chỉnh trên popup Tăng/giảm tài sản. Bút toán đã ghi nhận giá trị tại các kỳ trước đó không bị ảnh hưởng
+  - Bút toán ghi nhận Tăng giá trị tài sản
+- Debit Tài khoản đối ứng
+- Credit Tài khoản tăng tổng tài sản</p>
+</li>
+</ul>
+<h3 id="ieu-chinh-giam-gia-trithoi-gian-khau-hao-cua-tai-san"><strong>Điều chỉnh Giảm giá trị/thời gian khấu hao của Tài sản</strong></h3>
+<p><strong>Mô tả:</strong></p>
+<p>Khi có nhu cầu Gỉam giá trị/thời gian khấu hao của Tài sản cố định, Doanh nghiệp thực nhập các số liệu mong muốn để thay đổi về Giá trị của tài sản và Thời gian Khấu hao. Hệ thống sẽ tính toán và cập nhật lại vào các chứng từ liên quan</p>
+<p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
+<p><strong>Các thao tác thực hiện</strong>:</p>
+<p><strong>Bước 1:</strong> Vào chức năng <strong>Kế toán tài sản</strong> -&gt; Chọn <strong>Tài sản</strong> -&gt; Chọn bản ghi Tài sản muốn <em>Giảm</em> -&gt; Click button<strong>Tăng/giảm tài sản</strong></p>
+<p><img alt="" src="../images/fin_Taisan_Dieuchinhtanggiam_2.png" /></p>
+<p><strong>Bước 2:</strong> Nhập dữ liệu trên màn hình để ghi nhận <em>Giảm giá trị</em> hoặc <em>Giảm thời gian</em></p>
+<ul>
+<li>Biên bản số</li>
+<li>Lý do điều chỉnh</li>
+<li>Ngày chứng từ</li>
+<li>Ngày biên bản</li>
+<li>Các thông tin tại mục <em>Thông tin điều chỉnh</em></li>
+<li>Các thông tin về Tài khoản tại mục <em>Kế toán Tài sản</em></li>
+<li>Ngày điều chỉnh</li>
+</ul>
+<p><strong>Bước 3</strong>: Click button <strong>Điều chỉnh</strong></p>
+<ul>
+<li>Hệ thống kiểm tra ngày điều chỉnh do người dùng nhập vào có nằm trong các kỳ của bảng tính khấu hao ước tính của tài sản gốc. Nếu ngày điều chỉnh nằm trong kỳ khấu hao đã được hạch toán -&gt; Hiển thị popup thông báo ' Không điều chỉnh vào kỳ đã hạch toán', và thoát khỏi màn hình Điều chỉnh tài sản</li>
+<li>Đối với bản ghi điều chỉnh thỏa mãn điều kiện sẽ tác động đến sự thay đổi của <em>Tab</em> <em>Khấu hao ước tính</em> và <em>Sinh bút toán ghi nhận Tăng</em> <em>giá trị tài sản tương ứng</em> như sau:</li>
+<li>
+<p>Tab Khấu hao ước tính</p>
+<p>Giá trị khấu hao được tính từ ngày điều chỉnh trên popup Tăng/giảm tài sản. Bút toán đã ghi nhận giá trị tại các kỳ trước đó không bị ảnh hưởng
+  - Bút toán ghi nhận Tăng giá trị tài sản
+- Debit Tài khoản Tăng tổng tài sản
+- Credit Tài khoản đối ứng</p>
+</li>
+</ul>
+<h3 id="tam-dung-khau-hao-tai-san"><strong>Tạm dừng khấu hao Tài sản</strong></h3>
+<p><strong>Mô tả:</strong></p>
+<ul>
+<li>Khi tài sản không còn nhu cầu theo dõi quản lý, Kế toán thực hiện Tạm dừng khấu hao tài sản đó trên phần mềm</li>
+<li>Hệ thống thực hiện ghi nhận và xử lý các dữ liệu liên quan trước và sau thời điểm Tạm dừng khấu hao</li>
+</ul>
+<p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<p><strong>Bước 1:</strong> Vào chức năng <strong>Kế toán tài sản</strong> -&gt; Chọn <strong>Tài sản</strong> -&gt; Chọn bản ghi tài sản muốn <em>Tạm dừng khấu hao</em> ( Bản ghi ở trạng thái Đang chạy)</p>
+<p><strong>Bước 2:</strong> Click button <em>Tạm dừng khấu hao</em> -&gt; Hệ thống trả về màn hình như dưới</p>
+<p><strong>Bước 3:</strong> Nhập thông tin ngày tạm dừng</p>
+<p><strong>Bước 4:</strong> Click button <em>Tạm dừng</em></p>
+<p>=&gt; Sau khi thực hiện thao tác tạm dừng Khấu hao Tài sản, hệ thống giữ nguyên các bút toán đã được ghi nhận trước thời điểm tạm dừng. Các bút toán ghi nhận sau thời gian này sẽ bị xóa khỏi Tab Khấu hao ước tính</p>
+<h3 id="tiep-tuc-khau-hao-tai-san"><strong>Tiếp tục khấu hao Tài sản</strong></h3>
+<p><strong>Mô tả:</strong></p>
+<p>Trường hợp doanh nghiệp muốn tiếp tục Khấu hao tài sản đã được tạm ngừng. Hệ thống sẽ thực hiện ghi nhận các thay đổi và cập nhật thay đổi đó tới các Tab thông tin liên quan</p>
+<p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<p><strong>Bước 1:</strong> Vào chức năng <strong>Kế toán tài sản</strong> -&gt; Chọn <strong>Tài sản</strong> -&gt; Chọn bản ghi tài sản muốn <em>Tiếp tục khấu hao</em> ( Bản ghi ở trạng thái Tạm dừng)</p>
+<p><img alt="" src="../images/fin_Taisan_TieptucKH.png" /></p>
+<p><strong>Bước 2:</strong> Click button <em>Tiếp tục khấu hao</em></p>
+<p><strong>Bước 3:</strong> Nhập thông tin liên quan đến giá trị, thời gian cũng như các tài khoản trong popup để phục vụ thao tác <em>Tiếp tục khấu hao</em></p>
+<p><img alt="" src="../images/fin_Taisan_Nhapthongtintanggiam.png" /></p>
+<p><strong>Bước 4:</strong> Click button <em>Điều chỉnh</em></p>
+<p>=&gt;  Việc tiếp tục Khấu hao Tài sản tương tự như thực hiện Thao tác Tăng/giảm giá trị Tài sản( Nếu điều chỉnh các giá trị về tiền và thời gian khấu hao). Hệ thống ghi nhận tiếp tục Khấu hao kể từ <em>Ngày điều chỉnh</em></p>
+<h2 id="ieu-chuyen-tai-san-giua-cac-phong-ban"><strong>Điều chuyển Tài sản giữa các phòng ban</strong></h2>
+<p><strong>Mô tả:</strong></p>
+<ul>
+<li>Khi phát sinh nhu cầu điều chuyển TSCĐ giữa các phòng ban, bộ phận trong doanh nghiệp, Kế toán hoặc hoặc bộ phận có TSCĐ bị điều chuyển sẽ lập biên bản giao nhận TSCĐ.</li>
+<li>Căn cứ vào lệnh điều chuyển và biên bản giao nhận TSCĐ, kế toán ghi vào sổ TSCĐ</li>
+</ul>
+<p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<p><strong>Bước 1:</strong> Vào chức năng <strong>Kế toán tài sản</strong> -&gt; Chọn <strong>Tài sản</strong> -&gt; Chọn <strong>Điều chuyển tài sản</strong></p>
+<p><img alt="" src="../images/fin_Taisan_DieuchuyenTS.png" /></p>
+<p><strong>Bước 2:</strong> Click button <em>Tạo</em></p>
+<p><strong>Bước 3:</strong> Nhập thông tin tại Tab Thông tin chung và Tab Chi tiết điều chuyển</p>
+<ul>
+<li>Biên bản giao nhận</li>
+<li>Ngày biên bản</li>
+<li>Người bàn giao</li>
+<li>Người tiếp nhận</li>
+<li>Lý do</li>
+<li>Chọn tài sản muốn điều chuyển</li>
+<li>Chọn đơn vị muốn điều chuyển tới</li>
+<li>Chọn tài khoản chi phí</li>
+</ul>
+<p><strong>Bước 4:</strong> Click button <em>Điều chuyển</em></p>
+<p>=&gt; Điều chuyển tài sản giữa các phòng ban với nhau sẽ không làm ảnh hưởng tới giá trị đã tính Khấu hao của tài sản. Chỉ ghi nhận tài sản đó trước đây và hiện tại được quản bới Phòng ban nào</p>
+<h2 id="thanh-ly-tai-san"><strong>Thanh lý tài sản</strong></h2>
+<p><strong>Mô tả:</strong></p>
+<ul>
+<li>Khi doanh nghiệp có nhu cầu bán tài sản do hết khấu hao hoặc không có nhu cầu sử dụng, kế toán thực hiện thanh lý tài sản. </li>
+<li>Căn cứ vào chứng từ liên quan kế toán ghi nhận vào sổ TSCĐ</li>
+</ul>
+<p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<p><strong>Bước 1:</strong> Có 2 cách để thực hiện Tăng giá trị/thời gian khấu hao của Tài sản</p>
+<ul>
+<li>Vào chức năng <strong>Kế toán tài sản</strong> -&gt; Chọn <strong>Tài sản</strong> -&gt; Chọn <strong>Thanh lý tài sản</strong> -&gt; Click button <em>Tạo</em></li>
+</ul>
+<p><img alt="" src="../images/fin_Taisan_Thanhly_1.png" /></p>
+<ul>
+<li>Click button <strong>Thanh lý tài sản</strong> ngay tại màn hình khấu hao tài sản</li>
+</ul>
+<p>!<img alt="" src="../images/fin_Taisan_Thanhly_2.png" /></p>
+<p><strong>Bước 2:</strong> Chọn Tài sản muốn thanh lý và điền các thông tin liên quan để ghi nhận hoạt động Thanh lý</p>
+<p><img alt="" src="../images/fin_Taisan_NhapTTthanhly.png" /></p>
+<p><strong>Bước 3:</strong> Click button <em>Xác nhận</em></p>
+<p>=&gt; Hệ thống tự động sinh bút toán liên quan tại <em>Tab Chi tiết hạch toán</em></p>
+<ul>
+<li>Credit Tài khoản Tài sản -&gt; Giá trị ghi nhận bằng nguyên giá của Tài sản sau điều chỉnh tăng/giảm (1)</li>
+<li>Debit Tài khoản Khấu hao -&gt; Tổng giá trị đã khấu hao Tài sản tính đến thời điểm thanh lý ( cả bút toán ở trạng thái Nháp và Đã hạch toán) (2)</li>
+<li>Debit Tài khoản Xử lý giá trị còn lại -&gt; Giá trị ghi nhận bằng= (1)-(2)</li>
+</ul>
+<h2 id="chuyen-tai-san-thue-tai-chinh-thanh-tsc"><strong>Chuyển Tài sản thuê tài chính thành TSCĐ</strong></h2>
+<p><strong>Mô tả nghiệp vụ</strong></p>
+<p>Khi phát sinh nghiệp vụ chuyển TSCĐ thuê tài chính thành TSCĐ chủ sở hữu, thông thường phát sinh các hoạt động sau đây:</p>
+<ul>
+<li>Bên cho thuê và bên thuê thành lập hội đồng đánh giá lại tài sản thuê tài chính.</li>
+<li>Hội đồng đánh giá lại tài sản thuê tài chính thực hiện đánh giá lại TSCĐ.</li>
+<li>Bên cho thuê chuyển giao quyền sở hữu tài sản cho bên thuê, 2 bên ký vào quyết định chuyển tài sản thuộc sở hữu của bên cho thuê cho bên thuê, thanh lý hợp đồng thuê, xuất hoá đơn, và bên cho thuê bàn giao hồ sơ tài liệu có liên quan đến tài sản cho bên thuê.</li>
+<li>Kế toán ghi sổ kế toán, ghi chép vào thẻ tài sản cố định và sổ theo dõi tài sản cố định.</li>
+</ul>
+<p><strong>Mô tả:</strong></p>
+<ul>
+<li>Căn cứ vào các hồ sơ liên quan trong quá trình chuyển quyền Tài sản sở hữu, kế toán ghi nhận vào sổ theo dõi TSCĐ</li>
+</ul>
+<p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<p><strong>Bước 1:</strong> Vào chức năng <strong>Kế toán tài sản</strong> -&gt; Chọn <strong>Tài sản</strong> -&gt; Chọn <strong>Chuyển tài sản thuê tài chính</strong></p>
+<p><img alt="" src="../images/fin_Taisan_ChuyenTSthuetaichinh.png" /></p>
+<p><strong>Bước 2</strong>: Click button <em>Tạo</em></p>
+<p><strong>Bước 3:</strong> Chọn Tài sản muốn chuyển đổi và nhập các thông tin phục vụ việc chuyển đổi tại Tab Tài sản-mục Giá trị mới ( Ví dụ:  Tài khoản tài sản, Tài khoản khấu hao, Nguyên giá, Tài khoản đối ứng,..)</p>
+<p><strong>Bước 4:</strong> Click button <em>Xác nhận</em> </p>
+<p>=&gt; Các bút toán ghi nhận việc Chuyển Tài sản thuê tài chính được hiển thị tại Tab Chi tiết hạch toán</p>
+<ul>
+<li>Bút toán 1: Giá trị bút toán = Giá trị nguyên giá của Tài sản gốc</li>
+<li>Credit Tài khoản Tài sản (giá trị cũ)</li>
+<li>
+<p>Debit Tài khoản Tài sản (giá trị mới)</p>
+</li>
+<li>
+<p>Bút toán 2: Giá trị bút toán = Giá trị đã khấu hao</p>
+</li>
+<li>Debit Tài khoản khấu hao (cũ)</li>
+<li>
+<p>Credit Tài khoản khấu hao (mới)</p>
+</li>
+<li>
+<p>Bút toán 3 ( Xảy ra khi Nguyên giá của Giá trị mới &gt; Nguyên giá của Giá trị cũ) Giá trị bút toán= Nguyên giá( Giá trị mới) - Nguyên giá( Giá trị cũ)</p>
+</li>
+<li>Debit Tài khoản Tài sản (cũ)</li>
+<li>Credit Tài khoản Đối ứng </li>
+</ul>
+<h2 id="kiem-ke-tai-san"><strong>Kiểm kê Tài sản</strong></h2>
+<p><strong>Mô tả nghiệp vụ</strong></p>
+<ul>
+<li>Hàng kỳ Doanh nghiệp thực hiện kiểm kê tài sản theo số ghi nhận trên hệ thống và số thực tế kiểm kê</li>
+<li>Kết thúc kiểm kê thu lại biên bản kiểm kê và tổng hợp kết quả. So sánh số liệu kiểm kê trên bảng tổng hợp kết quả kiểm kê với số liệu trên sổ sách kế toán</li>
+<li>Dựa trên báo cáo kết quả kiểm kê, giám đốc phê duyệt các điều chỉnh do có sự khác biệt giữa số liệu sổ sách và kết quả kiểm kê.</li>
+<li>Căn cứ vào quyết định xử lý, kế toán TSCĐ thực hiện ghi sổ TSCĐ.</li>
+</ul>
+<p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<p><strong>Bước 1:</strong> Vào chức năng <strong>Kế toán tài sản</strong> -&gt; Chọn <strong>Nghiệp vụ khác</strong> -&gt; Chọn <strong>Kiểm kê tài sản</strong></p>
+<p><img alt="" src="../images/fin_Taisan_Kiemke.png" /></p>
+<p><strong>Bước 2</strong>: Click button <em>Tạo</em></p>
+<p><strong>Bước 3:</strong> Nhập các thông tin liên quan đến Ngày kiểm kê Tài sản, Thành viên tham gia và các thông tin về TSCĐ (bao gồm các thông tin về trạng thái, chất lượng sản phẩm)</p>
+<p><strong>Bước 4:</strong> Click button <em>Lưu</em> để ghi nhận bản ghi kiểm kê</p>
               
             </div>
           </div>
@@ -195,7 +514,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../fin-ccdc/" class="btn btn-neutral float-right" title="Công cụ dụng cụ">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../fin-log-histories/" class="btn btn-neutral float-right" title="Lịch sử phát triển sản phẩm">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../fin-san-xuat/" class="btn btn-neutral" title="Sản xuất"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -227,7 +546,7 @@
       <span><a href="../fin-san-xuat/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../fin-ccdc/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../fin-log-histories/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

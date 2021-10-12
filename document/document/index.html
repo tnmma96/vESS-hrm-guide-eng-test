@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Quản lý tài liệu - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Qu\u1ea3n l\u00fd t\u00e0i li\u1ec7u";
+    var mkdocs_page_input_path = "document\\document.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas-introduction/">Trang chủ</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-san-xuat/">Sản xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-login/">Đăng nhập, đăng xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Social/">Mạng xã hội</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-project/">Dự án</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-khao-sat/">Khảo sát</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-ghi-chu/">Ghi chú</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-su-kien/">Sự kiện</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-bua-an/">Bữa ăn</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Quản lý tài liệu</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="quan-ly-tai-lieu">Quản lý tài liệu</h1>
+<h3 id="tao-moi-tai-lieu">Tạo mới tài liệu</h3>
+<p>Chức năng này cho phép người dùng tạo mới tài liệu trên ứng dụng. </p>
+<p><strong>Đối tượng thực hiện :</strong> Người dùng được phân quyền</p>
+<p><strong>Các bước thực hiện</strong></p>
+<ol>
+<li>Vào <strong>Tài liệu</strong> &gt; kích nút <strong>Tạo</strong></li>
+<li>Khai báo thông tin tài liệu</li>
+</ol>
+<p><img alt="img" src="../images/clip_image035.jpg" /></p>
+<p>​   <strong><em>Lưu ý</em></strong></p>
+<ul>
+<li><strong>Tên và mã tài liệu</strong> là bắt buộc phải nhập</li>
+<li>
+<p><strong>Thư mục</strong>: Chọn thư mục lưu trữ tài liệu từ danh sách thư mục mà người dùng có quyền ghi. </p>
+</li>
+<li>
+<p><strong>Nhãn</strong>: Chọn nhãn gắn với tài liệu từ danh sách các nhãn thuộc thư mục được chọn và thư mục cha (nếu có) của nó. </p>
+</li>
+<li>
+<p><strong>Phiên bản thay thế</strong>: Khi tài liệu được đẩy mới lên hệ thống để thay thế cho một hoặc nhiều tài liệu đã có trước đó.  Khi thay thế, tài liệu bị thay thế sẽ được cập nhật ngày hết hiệu lực chính là ngày trước ngày hiệu lực tài liệu mới. </p>
+</li>
+<li>
+<p><strong>Loại tài liệu</strong>: hệ thống hỗ trợ lưu trữ các loại tài liệu sau</p>
+</li>
+<li>
+<p><strong>Đính kèm:</strong> áp dụng với các tài liệu cần đính kèm tệp lên hệ thống.  Khi đó, người dùng bắt buộc phải đính kèm ít nhất 1 tệp tài liệu tại trường Tệp tài liệu. Hệ thống hỗ trợ đính kèm các tệp có định dạng doc, docx, xlsx, xls, ppt, pdf, định dạng ảnh, video, tệp nén raz, zip ... </p>
+<p><img src="images/Taotailieu_1.PNG" style="zoom:80%;" /> </p>
+</li>
+<li>
+<p><strong>Liên kết</strong>: áp dụng với các tài liệu được lưu trữ là các liên kết. Khi chọn loại này, người dùng cần nhập liên kết tại trường URL. </p>
+<p><img src="images/Taotailieu_2.PNG" style="zoom:80%;" /></p>
+</li>
+<li>
+<p><strong>Văn bản:</strong> Nội dung cần lưu trữ dạng văn bản sẽ được người dùng nhập luôn tại trường Mô tả. </p>
+<p><img src="images/Taotailieu_3.PNG" style="zoom:80%;" /></p>
+</li>
+<li>
+<p>Kích nút <strong>Lưu</strong> để lưu lại tài liệu trên hệ thống. </p>
+</li>
+</ul>
+<h3 id="tra-cuu-tai-lieu">Tra cứu tài liệu</h3>
+<p>Khi có nhu cầu xem một tài liệu nào đó trên danh sách, người dùng có thể tìm nhanh được tài liệu đó bằng cách sử dụng chức năng tìm kiếm theo tiêu chí khác nhau như tên, mã ... </p>
+<p><strong>Đối tượng thực hiện :</strong> Người dùng được phân quyền</p>
+<p><strong>Các bước thực hiện</strong></p>
+<ol>
+<li>
+<p>Vào <strong>Tài liệu</strong> </p>
+</li>
+<li>
+<p>Kích chọn hoặc không thư mục lưu trữ tại cây thư mục</p>
+</li>
+<li>
+<p>Nhập nội dung tìm kiếm vào ô Tìm và thực hiện tìm kiếm</p>
+</li>
+</ol>
+<p><img alt="" src="../images/timkiem_tieuchi1.PNG" /></p>
+<p>Hiển thị danh sách tài liệu thỏa mãn  tiêu chí tìm kiếm dưới dạng kanban hoặc danh sách. Các thông tin hiển thị gồm: </p>
+<ul>
+<li>Mã _ Tên tài liệu</li>
+<li>Thư mục lưu trữ</li>
+<li>Nhãn nếu có</li>
+<li>Ngày tạo </li>
+<li>Người tạo</li>
+</ul>
+<p><strong><em>Lưu ý</em></strong>: </p>
+<ul>
+<li>Cây thư mục chỉ hiển thị các thư mục mà người dùng có quyền ghi/đọc</li>
+<li>Người dùng chỉ có thể tìm kiếm được các tài liệu có quyền đọc / ghi</li>
+</ul>
+<p><img src="images/clip_image030.jpg"  /></p>
+<h3 id="xem-thong-tin-chi-tiet-tai-lieu">Xem thông tin chi tiết tài liệu</h3>
+<p>Cho phép người dùng xem được thông tin chi tiết thuộc tính của tài liệu và xem trước nội dung tệp tin ngay trên hệ thống với một số định dạng như pdf, ảnh ...</p>
+<p><strong>Đối tượng thực hiện</strong>: Người dùng được phân quyền </p>
+<p><strong>Các bước thực hiện</strong></p>
+<ol>
+<li>
+<p>Vào <strong>Tài liệu</strong> &gt; Tìm kiếm một tài liệu cần xem</p>
+</li>
+<li>
+<p>Kích chọn tài liệu: hiển thị thông tin chi tiết tài liệu</p>
+</li>
+</ol>
+<p>​    </p>
+<p>​    </p>
+<p>​        <strong><em>Lưu ý</em></strong>:  </p>
+<ul>
+<li>Hiển thị các thông tin chi tiết tài liệu </li>
+<li>Danh sách các tệp tin và tệp phụ lục (nếu có). Tại vùng danh sách này, cho phép người dùng xem/ tải từng tệp. </li>
+<li>Lịch sử các phiên bản (nếu có): danh sách hiển thị sắp xếp theo phiên bản giảm dần. </li>
+<li>Các nút hoạt động thực hiện với tài liệu: <ul>
+<li>Tải tài liệu</li>
+<li>Nâng phiên bản: chỉ hiển thị khi người dùng có quyền ghi với tài liệu</li>
+<li>Cập nhật: chỉ hiển thị khi  người dùng có quyền ghi với tài liệu và  đang mở khóa</li>
+<li>Khóa/ mở khóa: chỉ hiển thị khi người dùng là người tạo tài liệu. </li>
+<li>Chia sẻ: hiển thị khi người dùng có quyền đọc/ghi với tài liệu</li>
+</ul>
+</li>
+<li>
+<p>tab Trao đổi: hiển thị các lịch sử trao đổi, bình luận về tài liệu và cho phép người dùng bình luận về tài liệu. </p>
+</li>
+<li>
+<p>Kích vào vùng ảnh đại diện tài liệu để mở màn hình xem trước các tệp thuộc tài liệu hoặc mở liên kết cho phép. </p>
+</li>
+</ul>
+<p><img alt="Graphical user interface, text, application  Description automatically generated" src="../images/clip_image041.jpg" /></p>
+<p><strong><em>Lưu ý</em></strong>:</p>
+<ul>
+<li>Danh sách tệp của tài liệu hiển thị theo thứ tự các tệp và phụ lục</li>
+<li>Với định dạng hỗ trợ xem trước (pdf, doc, mp4, jpg, png, xls, xlsx, ppt, txt ...): hiển thị được nội dung tệp ngay trên hệ thống. </li>
+<li>Với định dạng không hỗ trợ xem trước thì hiển thị thông báo lỗi.</li>
+<li>Kích nút <strong>Tải xuống tài liệu</strong> để tải toàn bộ các tệp của tài liệu về máy cá nhân. </li>
+</ul>
+<h3 id="anh-dau-yeu-thich-tai-lieu">Đánh dấu yêu thích tài liệu</h3>
+<p>Khi thấy tài liệu hay hoặc tài liệu cần lưu ý, người dùng có thể đánh dấu lại tài liệu để có thể nhanh chóng tìm thấy trong lần đọc sau.</p>
+<p><strong>Đối tượng thực hiện</strong>: người dùng được phân quyền </p>
+<p><strong>Các bước thực hiện</strong></p>
+<ol>
+<li>
+<p>Vào <strong>Tài liệu</strong> &gt; tìm kiếm tài liệu</p>
+</li>
+<li>
+<p>Tích dấu sao  để đánh dấu yêu thích/ bỏ yêu thích với tài liệu</p>
+</li>
+</ol>
+<p><strong><em>Lưu ý</em></strong></p>
+<ul>
+<li>Tài liệu được đánh dấu yêu thích sẽ được xem nhanh bằng cách kích vào mục Tài liệu yêu thích </li>
+</ul>
+<h3 id="nang-phien-ban-tai-lieu">Nâng phiên bản tài liệu</h3>
+<p>Cho phép thay thế/ nâng cấp tài liệu bởi phiên bản mới khi phiên bản cũ đã hết hiệu lực hoặc cần thay thế. </p>
+<p><strong>Đối tượng thực hiện</strong>: người dùng được phân quyền ghi</p>
+<p><strong>Các bước thực hiện</strong></p>
+<ol>
+<li>
+<p>Vào <strong>Tài liệu</strong> &gt; tìm kiếm tài liệu</p>
+</li>
+<li>
+<p>Kích chọn tài liệu để mở màn hình xem thông tin chi tiết</p>
+</li>
+<li>
+<p>Kích nút Thay thế : hiển thị màn hình nhập thông tin chi tài liệu mới</p>
+</li>
+<li>
+<p>Khai báo tài liệu mới và kích <strong>Lưu</strong></p>
+</li>
+</ol>
+<p><strong>*Lưu ý</strong></p>
+<ul>
+<li>Tài liệu bị thay thế sẽ có ngày hết hiệu lực chính là ngày liền trước ngày bắt đầu hiệu lực cho tài liệu mới (nếu có thông tin ngày bắt đầu hiệu lực của tài liệu mới) hoặc ngày liền trước ngày hiện tại (nếu tài liệu mới không có thông tin ngày bắt đầu hiệu lực)</li>
+</ul>
+<h3 id="thay-oi-thu-muc-chua-tai-lieu">Thay đổi thư mục chứa tài liệu</h3>
+<p>Cho phép người dùng di chuyển tài liệu từ thư mục này sang thư mục khác</p>
+<p><strong>Đối tượng thực hiện</strong>: người dùng được phân quyền ghi</p>
+<p><strong>Các bước thực hiện</strong></p>
+<p>Để thay đổi thư mục chứa tài liệu có 2 cách: </p>
+<p><strong>Cách 1:</strong> </p>
+<ol>
+<li>Vào <strong>Tài liệu</strong> &gt; tìm kiếm tài liệu</li>
+<li>Tích chọn tài liệu để hiển thị màn hình xem chi tiết</li>
+<li>Tại trường Thư mục: chọn lại thư mục chứa tài liệu </li>
+</ol>
+<p><strong>Cách 2:</strong> </p>
+<ol>
+<li>Vào <strong>Tài liệu</strong> &gt; tìm kiếm tài liệu</li>
+<li>Kéo thả tài liệu và thư mục mới trên cây thư mục mong muốn</li>
+</ol>
+<p>Lưu ý: </p>
+<ul>
+<li>Chỉ di chuyển được tài liệu sang thư mục mà người dùng có quyền ghi </li>
+</ul>
+<h3 id="them-hoac-bot-nhan-gan-cho-tai-lieu">Thêm hoặc bớt nhãn gán cho tài liệu</h3>
+<p>Cho phép người dùng thêm/ bớt nhãn gán cho tài liệu. </p>
+<p><strong>Đối tượng thực hiện</strong>: người dùng được phân quyền</p>
+<p><strong>Các bước thực hiện</strong></p>
+<p>Để thêm/bớt nhãn gán cho tài liệu có 2 cách: </p>
+<p><strong>Cách 1:</strong> </p>
+<ol>
+<li>Vào <strong>Tài liệu</strong> &gt; tìm kiếm tài liệu</li>
+<li>Tích chọn tài liệu để hiển thị màn hình xem chi tiết</li>
+<li>Tại trường nhãn: </li>
+<li>Kích icon x tương ứng để xóa nhãn đã gán</li>
+<li>Nhập hoặc chọn mới nhãn từ danh sách nhãn để gán nhãn mới </li>
+</ol>
+<p><strong>Cách 2:</strong> </p>
+<ol>
+<li>Vào <strong>Tài liệu</strong> &gt; tìm kiếm tài liệu</li>
+<li>Tích chọn tài liệu để hiển thị màn hình xem chi tiết </li>
+<li>Kích nút Cập nhật</li>
+<li>Tại màn hình cập nhật, thay đổi thông tin nhãn gán cho tài liệu và kích <strong>Lưu lại</strong></li>
+</ol>
+<h3 id="chia-se-tai-lieu">Chia sẻ tài liệu</h3>
+<p>Chức năng này cho phép người dùng chia sẻ tài liệu cho người dùng khác. </p>
+<p><strong>Đối tượng thực hiện</strong>: người dùng được phân quyền đọc/ghi</p>
+<p><strong>Các bước thực hiện</strong></p>
+<ol>
+<li>Vào <strong>Tài liệu</strong> &gt; tìm kiếm và tích chọn 1 hoặc nhiều tài liệu muốn chia sẻ</li>
+</ol>
+<p><img alt="ch" src="../images/clip_image042.jpg" /></p>
+<ol>
+<li>
+<p>Kích nút <strong>Chia sẻ</strong></p>
+</li>
+<li>
+<p>Khai báo thông tin chia sẻ tài liệu</p>
+</li>
+<li>
+<p>Người nhận: nhập danh sách người sẽ được chia sẻ tài liệu</p>
+</li>
+<li>
+<p>Ngày hết hiệu lực: chọn thời gian sẽ hết hiệu lực chia sẻ tài liệu</p>
+</li>
+<li>
+<p>Liên kết: hệ thống sinh ra một liên kết khi thực hiện chia sẻ tài liệu, cho phép người dùng sao chép và gửi liên kết tài liệu cho người khác. Tuy nhiên, chỉ người được chia sẻ mới có thể xem được tài liệu. </p>
+<p><img alt="img" src="../images/clip_image045.jpg" /></p>
+</li>
+<li>
+<p>Kích <strong>Chia sẻ</strong></p>
+</li>
+</ol>
+<p><strong>Lưu ý</strong></p>
+<ul>
+<li>Người dùng được chia sẻ tài liệu nhận được thông báo từ hệ thống</li>
+<li>Danh sách tài liệu được chia sẻ với người dùng được lọc nhanh bằng cách kích vào mục <strong>Tài liệu được chia sẻ</strong> </li>
+<li>Quyền của người dùng với tài liệu căn cứ theo quyền với thư mục chứa tài liệu được chia sẻ. <ul>
+<li>Nếu với thư mục chứa, người dùng không được phân quyền đọc/ghi: mặc định với tài liệu được chia sẻ có quyền đọc</li>
+<li>Nếu thư mục chứa, người dùng có quyền ghi: thì với tài liệu được chia sẻ cũng có quyền ghi</li>
+</ul>
+</li>
+</ul>
+<h3 id="binh-luan-trao-oi-tai-lieu">Bình luận, trao đổi tài liệu</h3>
+<p>Cho phép người dùng có thể đưa ra các bình luận, đánh giá về nội dung tài liệu</p>
+<p><strong>Đối tượng thực hiện</strong>: người dùng được phân quyền đọc/ghi</p>
+<p><strong>Các bước thực hiện</strong></p>
+<ol>
+<li>Vào <strong>Tài liệu</strong> &gt; tìm kiếm tài liệu</li>
+<li>Tích chọn tài liệu để hiển thị màn hình xem chi tiết</li>
+<li>kích chọn tab <strong>Trao đổi</strong> &gt; mục <strong>Bình luận</strong></li>
+<li>Người dùng nhập nội dung ý kiến của cá nhân về tài liệu </li>
+<li>Xem được các bình luận của người khác về tài liệu </li>
+<li>Người dùng có thể đính kèm thêm các tệp tài liệu khác để tham khảo bằng cách kích vào nút <strong>Thêm tệp đính kèm</strong></li>
+</ol>
+<h3 id="quan-ly-cac-chia-se-cua-nguoi-dung">Quản lý các chia sẻ của người dùng</h3>
+<p>Cho phép người dùng quản lý, theo dõi các chia sẻ mình đã thực hiện. </p>
+<p><strong>Đối tượng thực hiện</strong>: người dùng </p>
+<p><strong>Các bước thực hiện</strong></p>
+<ol>
+<li>Vào <strong>Tài liệu</strong> &gt; tìm kiếm tài liệu</li>
+<li>Tích chọn tài liệu để hiển thị màn hình xem chi tiết</li>
+<li>kích chọn tab <strong>Trao đổi</strong> &gt; mục <strong>Bình luận</strong></li>
+<li>Người dùng nhập nội dung ý kiến của cá nhân về tài liệu </li>
+<li>Xem được các bình luận của người khác về tài liệu </li>
+<li>Người dùng có thể đính kèm thêm các tệp tài liệu khác để tham khảo bằng cách kích vào nút <strong>Thêm tệp đính kèm</strong></li>
+</ol>
+<h3 id="thong-bao-cho-nguoi-nhan-tai-lieu-chia-se">Thông báo cho người nhận tài liệu chia sẻ</h3>
+<p>Chức năng này cho phép người dùng xem thông báo khi được chia sẻ tài liệu</p>
+<p><strong>Các bước thực hiện</strong></p>
+<ol>
+<li>Click icon <strong>Thông báo</strong></li>
+</ol>
+<p>​                                         <img alt="Graphical user interface, text, application  Description automatically generated" src="../images/clip_image048.jpg" /></p>
+<ul>
+<li>Hệ thống sẽ hiển thị: Tên chức năng, nội dung chia sẻ</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/extra.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

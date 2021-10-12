@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>**Quy trình nghiệp vụ** - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "**Quy tr\u00ecnh nghi\u1ec7p v\u1ee5**";
+    var mkdocs_page_input_path = "finance\\fin-giathanh.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas-introduction/">Trang chủ</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-danh-muc-new/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-ke-toan-tong-hop/">Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-san-xuat/">Sản xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-login/">Đăng nhập, đăng xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Social/">Mạng xã hội</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-project/">Dự án</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-khao-sat/">Khảo sát</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-ghi-chu/">Ghi chú</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-su-kien/">Sự kiện</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-bua-an/">Bữa ăn</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>**Quy trình nghiệp vụ**</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="quy-trinh-nghiep-vu"><strong>Quy trình nghiệp vụ</strong></h1>
+<p><em>[Mô tả thông tin chung theo của toàn bộ Module Giá thành]</em></p>
+<p>Module Giá thành hỗ trợ trong việc quản lý và tự động tập hợp chi phí sản xuất trực tiếp theo từng đối tượng tập hợp chi phí  (sản phẩm/dịch vụ, phân xưởng, đơn hàng, công trình, hợp đồng); Phân bổ chi phí chung, xác định chi phí dở dang cuối kỳ và lên giá thành chi tiết theo từng sản phẩm/dịch vụ, đơn hàng, công trình, hợp đồng.</p>
+<p>Phân hệ Giá thành hỗ trợ doanh nghiệp tính giá thành sản phẩm theo các phương pháp sau:</p>
+<ul>
+<li>Giá thành theo phương pháp giản đơn</li>
+<li>Giá thành theo phương pháp hệ số, tỷ lệ</li>
+<li>Giá thành công trình/vụ việc</li>
+<li>Giá thành đơn hàng</li>
+<li>Giá thành hợp đồng</li>
+</ul>
+<p><strong>Quy trình</strong></p>
+<h1 id="tinh-gia-thanh-theo-pp-he-so-ty-le">Tính giá thành theo PP Hệ số tỷ lệ</h1>
+<h2 id="quy-trinh-nghiep-vu_1"><em>Quy trình nghiệp vụ</em></h2>
+<p><strong>Giá thành theo phương pháp hệ số, tỷ lệ</strong>: Áp dụng cho các doanh nghiệp có quy trình sản xuất sử dụng cùng loại nguyên vật liệu chính và tạo ra nhiều sản phẩm/nhóm sản phẩm khác nhau. Trong đó, đối tượng tập hợp chi phí là toàn bộ quy trình công nghệ và đối tượng tính giá thành là từng sản phẩm/nhóm sản phẩm hoàn thành. Ví dụ: doanh nghiệp sản xuất các mặt hàng như sản xuất đá các loại, gạch các loại,…</p>
+<p><strong>Quy trình nghiệp vụ</strong></p>
+<p><img alt="" src="../images/fin_GiaThanh_QuyTrinhNghiepVu.png" /></p>
+<p><strong>Các luồng quy trình</strong></p>
+<p><em>[Liệt kê các luồng quy trình nghiệp vụ có trong Module, có link đến Phần Hướng dẫn chi tiết]</em></p>
+<p>·    Tính giá thành theo TT133. Chi tiết nghiệp vụ <a href="##Tính giá thành theo TT133"><strong>tại đây</strong></a></p>
+<p>·     Tính giá thành theo TT200. Chi tiết nghiệp vụ  <a href="##Tính giá thành theo TT200"><strong>tại đây</strong></a></p>
+<h2 id="thiet-lap-inh-muc-pbcp-theo-oi-tuong-thcp">Thiết lập định mức PBCP theo đối tượng THCP</h2>
+<h3 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h3>
+<p>·    Cho phép nhân viên kế toán giá thành Khai báo định mức phân bổ chi phí theo Đối tượng THCP</p>
+<h3 id="cac-buoc-thuc-hien">Các bước thực hiện</h3>
+<h4 id="ap-dung-tt-133">Áp dụng TT 133</h4>
+<p>Bước 1: Vào phân hệ <strong>Kế toán Giá thành</strong>, Chọn chức năng <strong>Khai báo định mức phân bổ chi phí.</strong> Chọn <strong>Tạo mới</strong>.Màn hình hiển thị thông tin sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_KhaiBaoDinhMucPBCP_TT133.png" /></p>
+<p><strong>Bước 2:</strong> Chọn đối tượng THCP, <strong>Đơn vị</strong>, sau đó chọn <strong>Khoản mục phí</strong> và nhập <strong>Tổng tiền</strong> cho các khoản mục phí khai báo</p>
+<p><strong>Bước 3:</strong> Bấm Lưu. Sau khi bấm <strong>Lưu</strong>, Bản ghi chuyển trạng thái <strong>Dự thảo</strong>. Để chuyển bản ghi sang trạng thái <strong>Đã hoàn thành</strong> --&gt; Bấm <strong>Xác Nhận</strong></p>
+<h4 id="ap-dung-tt-200">Áp dụng TT 200</h4>
+<p>Bước 1: Vào phân hệ <strong>Kế toán Giá thành</strong>, Chọn chức năng <strong>Khai báo định mức phân bổ chi phí.</strong> Màn hình hiển thị thông tin sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_KhaiBaoDinhMucPBCP_TT200.png" /></p>
+<p><strong>Bước 2:</strong> Chọn đối tượng THCP, <strong>Đơn vị</strong>, sau đó chọn <strong>Tài khoản</strong> và nhập <strong>Tổng tiền</strong> cho các khoản mục phí khai báo</p>
+<p><strong>Bước 3:</strong> Bấm Lưu. Sau khi bấm <strong>Lưu</strong>, Bản ghi chuyển trạng thái <strong>Dự thảo</strong>. Để chuyển bản ghi sang trạng thái <strong>Đã hoàn thành</strong> --&gt; Bấm <strong>Xác Nhận</strong></p>
+<p><u><em>Lưu ý:</em></u> Bản ghi chỉ cho phép <strong>Xóa</strong> ở trạng thái <strong>Dự thảo</strong>. Và bản ghi chỉ sử dụng ở các chức năng khác với trạng thái bản ghi <strong>Đã hoàn thành</strong></p>
+<h2 id="thiet-lap-inh-muc-gia-thanh">Thiết lập định mức giá thành</h2>
+<h3 id="mo-ta-nghiep-vu_1">Mô tả nghiệp vụ</h3>
+<p>·  Cho phép nhân viên kế toán giá thành Khai báo định mức giá thành</p>
+<h3 id="cac-buoc-thuc-hien_1">Các bước thực hiện</h3>
+<p>Bước 1: Vào Phân hệ Kế toán giá thành, Chọn menu Khai báo định mức giá thành. Chọn Tạo mới. Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_KhaiBaoDinhMucGiaThanh_1.png" /></p>
+<p>Bước 2: Chọn <strong>Đơn vị</strong>. Chọn Thành phẩm và nhập định mức theo các khoản mục Nguyên vật liệu trực tiếp, nhân công trực tiếp...</p>
+<p>Bước 3: Bấm <strong>Lưu</strong>.  Sau khi bấm <strong>Lưu</strong>, Bản ghi chuyển trạng thái <strong>Dự thảo</strong>. Để chuyển bản ghi sang trạng thái <strong>Đã hoàn thành</strong> --&gt; Bấm <strong>Xác Nhận</strong></p>
+<p>Nếu người dùng muốn nhập chi tiết các chi phí khác như Chi phí Nguyên vật liệu gián tiếp, Nhân công gián tiếp, Chi phí mua ngoài...--&gt; Tích chọn vào Nhập chi tiết theo yếu tố chi phí. Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_KhaiBaoDinhMucGiaThanh_2.png" /></p>
+<p>Tiếp theo, người dùng thực hiện khai báo từ <a href="Bước 2">Bước 2</a></p>
+<p><u><em>Lưu ý:</em></u> Bản ghi chỉ cho phép <strong>Xóa</strong> ở trạng thái <strong>Dự thảo</strong>. Và bản ghi chỉ sử dụng ở các chức năng khác với trạng thái bản ghi <strong>Đã hoàn thành</strong></p>
+<h2 id="thiet-lap-chi-phi-do-dang-au-ky">Thiết lập chi phí dở dang đầu kỳ</h2>
+<h3 id="mo-ta-nghiep-vu_2">Mô tả nghiệp vụ</h3>
+<p>·  Cho phép nhân viên kế toán giá thành Khai báo chi phí dở dang đầu kỳ</p>
+<h3 id="cac-buoc-thuc-hien_2">Các bước thực hiện</h3>
+<p>Bước 1: Vào Phân hệ Kế toán giá thành, Chọn menu Khai báo chi phí dở dang đầu kỳ. Chọn Tạo mới. Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_KhaiBaoChiPhiDoDangDauKy_1.png" /></p>
+<p>Bước 2: Chọn Đơn vị, Sau đó chọn Thêm một dòng và nhập dữ liệu vào các trường dữ liệu như hình dưới đây:</p>
+<p><img alt="" src="../images/fin_GiaThanh_KhaiBaoChiPhiDoDangDauKy_2.png" /></p>
+<p>Bước 3: Bấm <strong>Lưu</strong>.  Sau khi bấm <strong>Lưu</strong>, Bản ghi chuyển trạng thái <strong>Dự thảo</strong>. Để chuyển bản ghi sang trạng thái <strong>Đã hoàn thành</strong> --&gt; Bấm <strong>Xác Nhận</strong></p>
+<p>Nếu người dùng muốn nhập chi tiết các chi phí khác như Chi phí Nguyên vật liệu gián tiếp, Nhân công gián tiếp, Chi phí mua ngoài...--&gt; Tích chọn vào Nhập chi tiết theo yếu tố chi phí. Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_KhaiBaoChiPhiDoDangDauKy_3.png" /></p>
+<p>Tiếp theo, người dùng thực hiện khai báo từ Bước 2</p>
+<p><u><em>Lưu ý:</em></u> Bản ghi chỉ cho phép <strong>Xóa</strong> ở trạng thái <strong>Dự thảo</strong>. Và bản ghi chỉ sử dụng ở các chức năng khác với trạng thái bản ghi <strong>Đã hoàn thành</strong></p>
+<h2 id="tinh-gia-thanh-theo-tt133">Tính giá thành theo TT133</h2>
+<h3 id="mo-ta-nghiep-vu_3">Mô tả nghiệp vụ</h3>
+<p>Cho phép nhân viên kế toán tính giá thành theo từng khoản mục phí </p>
+<p>Thực hiện tính chi phí dở dang đầu kỳ,phát sinh trong kỳ, dở dang cuối kỳ để tính giá thành </p>
+<p>Cập nhật giá thành vào Phiếu nhập kho và Phiếu xuất kho</p>
+<h3 id="huong-dan-tren-phan-mem">Hướng dẫn trên phần mềm</h3>
+<h4 id="buoc-1-khai-bao-nguyen-vat-lieu-san-xuat-va-thanh-pham">Bước 1: Khai báo nguyên vật liệu sản xuất và thành phẩm</h4>
+<p>Vào <strong>Kế toán Giá thành</strong>, chọn Nhóm <strong>Danh mục,</strong> Chọn chức năng <strong>Sản Phẩm</strong>. Màn hình khai báo hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_KhaiBaoThanhPham.png" /></p>
+<p>Sau đó, Nhập <strong>Tên sản phẩm</strong>. Chọn Tuyến cung ứng <strong>Sản xuất</strong>. Bấm <strong>Lưu</strong></p>
+<h4 id="buoc-2-khai-bao-oi-tuong-tap-hop-chi-phi">Bước 2: Khai báo đối tượng tập hợp chi phí</h4>
+<p>Vào <strong>Kế toán Giá thành</strong>, chọn Nhóm <strong>Danh mục,</strong> Chọn chức năng <strong>Đối tượng THCP</strong>. Màn hình khai báo hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_KhaiBaoDoiTuongTHCP.png" /></p>
+<p>Thực hiện nhập dữ liệu:</p>
+<ul>
+<li>Chọn Loại: Sản phẩm</li>
+<li>Phương pháp tính giá thành: Chọn Hệ số hoặc Tỷ lệ</li>
+<li>Đánh giá sản phẩm DD CK: chọn Nguyên Vật liệu trực tiếp( hoặc sản lượng hoàn thành tương đương, định mức)</li>
+<li>Chọn Thêm một dòng và Chọn sản phẩm vào đối tượng THCP</li>
+</ul>
+<p>Bấm <strong>Lưu</strong> bản ghi</p>
+<h4 id="buoc-3-xuat-kho-nguyen-vat-lieu-san-xuat">Bước 3: Xuất kho nguyên vật liệu sản xuất</h4>
+<p>Bước 3.1. Vào Phân hệ <strong>Kế toán kho</strong>. Chọn Nhóm <strong>Danh mục</strong>. Chọn chức năng Kiểu hoạt động.Bấm <strong>Tạo mới.</strong> Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_XuatKhoThanhPham_1.png" /></p>
+<p>Bước 3.2: Chọn <strong>Loại hoạt động</strong> là <strong>Phiếu xuất kho</strong> và <strong>Movement type</strong> là <strong>Xuất sản xuất</strong>.</p>
+<p>Bước 3.3. Bấm Lưu. Sau đó vào Nhóm <strong>Nghiệp vụ kho</strong>. Chọn <strong>Phiếu xuất kho</strong>. Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="fin_GiaThanh_XuatKhoThanhPham_2" src="../images/fin_GiaThanh_XuatKhoThanhPham_2.png" /></p>
+<p>Bước 3.4: Thực hiện nhập dữ liệu phiếu xuất kho:</p>
+<p>Loại xuất: Chọn <strong>Loại xuất</strong> vừa tạo ở kiểu hoạt động</p>
+<p>Chọn <strong>Sản phẩm</strong> của đối tượng THCP tính giá thành</p>
+<p>Nhập <strong>Nhu cầu</strong></p>
+<p>Bước 3.5: Bấm <strong>Lưu</strong>. Sau đó bấm Đánh dấu cần làm để chuyển trạng thái bản ghi sang <strong>Sẵn sàng</strong>. Chọn Xác nhận để chuyển trạng thái <strong>Hoàn thành</strong></p>
+<h4 id="buoc-4-hach-toan-cac-chi-phi-phat-sinh">Bước 4: Hạch toán các chi phí phát sinh</h4>
+<p>Thực hiện hạch toán các chi phí phát sinh liên quan đến việc tính giá thành (Nợ TK 621, 622, 623, 627, 154) có thể được hạch toán trên phân hệ khác với các đối tượng THCP đang tính giá thành</p>
+<h4 id="buoc-5-nhap-kho-thanh-pham-san-xuat">Bước 5: Nhập kho thành phẩm sản xuất</h4>
+<p>Bước 5.1: Vào Phân hệ <strong>Kế toán kho</strong>. Chọn Nhóm <strong>Danh mục</strong>. Chọn chức năng Kiểu hoạt động.Bấm <strong>Tạo mới.</strong> Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_NhapKhoThanhPham_1.png" /></p>
+<p>Chọn <strong>Loại hoạt động</strong> là <strong>Phiếu nhập kho</strong> và <strong>Movement type</strong> là <strong>Nhập thành phẩm sản xuất</strong>.</p>
+<p>Bước 5.2: Vào phân hệ Kế toán Kho. Nhóm Nghiệp vụ kho. Chọn Phiếu nhập kho.Màn hình hiển thị thông tin sau: </p>
+<p><img alt="" src="../images/fin_GiaThanh_NhapKhoThanhPham_2.png" /></p>
+<p>Bước 5.3: Thực hiện nhập dữ liệu phiếu nhập kho:</p>
+<p>Loại xuất: Chọn <strong>Loại nhập</strong> vừa tạo ở kiểu hoạt động</p>
+<p>Chọn <strong>Sản phẩm</strong> của đối tượng THCP tính giá thành</p>
+<p>Bước 5.4: bấm <strong>Lưu</strong>. Sau đó bấm <strong>Đánh dấu cần làm</strong> để bản ghi chuyển trạng thái <strong>Sẵn sàng</strong>. Thực hiện Sửa bản ghi. thêm số lượng <strong>hoàn thành</strong> vào thành phẩm trong tab <strong>Vật tư,hàng hóa</strong></p>
+<p>Bước 5.5. Bấm <strong>Xác nhận</strong> để chuyển trạng thái bản ghi sang <strong>Hoàn thành</strong></p>
+<h4 id="buoc-6-xac-inh-ky-tinh-gia-thanh">Bước 6: Xác định kỳ tính giá thành</h4>
+<p>Bước 6.1: Vào Phân hệ <strong>Kế toán giá thành</strong>. Chọn nhóm <strong>Sản xuất liên tục-Hệ số,tỷ lệ</strong>. Chọn <strong>Kỳ tính giá thành</strong>. Bấm <strong>Tạo mới</strong>. Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_KyTinhGiaThanh_1.png" /></p>
+<p>Bước 6.2: Chọn <strong>Đơn vị</strong>, <strong>Kỳ tính giá thành</strong>. Chọn <strong>Thêm một dòng</strong> và chọn <strong>Đối tượng THCP</strong> như hình sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_KyTinhGiaThanh_2.png" /></p>
+<p>Bước 6.3:Bấm <strong>Lưu</strong> để chuyển trạng thái bản ghi <strong>Dự thảo</strong></p>
+<p>Bước 6.4: Bấm <strong>Xác nhận</strong> để lưu trạng thái <strong>Đang thực hiện</strong></p>
+<p><em><u></em><em>Lưu ý:</em><em></u></em> Bản ghi chỉ được phép <strong>Sửa</strong>,<strong>Xóa</strong> khi ở trạng thái <strong>Dự thảo</strong>. Và chỉ được sử dụng khi ở trạng thái <strong>Đang thực hiện</strong>. Không cho phép chuyển bản ghi về trạng thái dự thảo khi bản ghi đang được sử dụng tính toán ở các chức năng khác.</p>
+<h4 id="buoc-7-tinh-gia-thanh-pham">Bước 7: Tính giá thành phẩm</h4>
+<ul>
+<li>Tính Phân bổ chi phí chung</li>
+</ul>
+<p>Bước 7.1: Vào Phân hệ <strong>Kế toán giá thành</strong>. Nhóm <strong>Sản xuất liên tục - Hệ số,tỷ lệ</strong>. Chọn chức năng <strong>Phân bổ chi phí chung.</strong> Bấm <strong>Tạo mới</strong>. Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_PhanBoChiPhiChung_1.png" /></p>
+<p>Bước 7.2: Chọn <strong>Kỳ tính giá thành</strong>. Bấm Lấy dữ liệu để thực hiện lấy chi phí chung trong kỳ. Dữ liệu view ở tab <strong>Chi phí</strong>. Lấy toàn bộ các chi phí theo khoản mục phí</p>
+<p>Bước 7.3: Nhập <strong>tỷ lệ phân bổ</strong> và chọn <strong>tiêu thức phân bổ</strong></p>
+<p>Bước 7.4: Bấm <strong>Tính toán Phân bổ</strong>. Hệ thống sẽ tự động tính toán phân bổ theo từng đối tượng THCP trong kỳ tính giá thành</p>
+<p><img alt="" src="../images/fin_GiaThanh_PhanBoChiPhiChung_2.png" /></p>
+<p>Bước 7.5: Bấm <strong>Xác nhận</strong></p>
+<p>Lưu ý:</p>
+<p>Để phân bổ được chi phí chung theo <strong>Định mức</strong>, cần <a href="##Thiết lập định mức PBCP theo đối tượng THCP 2">khai báo định mức phân bổ chi phí</a> trên menu <strong>Kế toán Giá thành\Sản xuất liên tục – Hệ số,tỷ lệ\Khai báo định mức phân bổ chi phí theo đối tượng THCP</strong>.</p>
+<p>Sau khi tính giá thành xong, có thể kiểm tra thông tin chi phí chung được phân bổ trên tab <strong>Bảng phân bổ chi phí chung</strong> của màn hình danh sách kỳ tính giá thành</p>
+<ul>
+<li>Đánh giá dở dang</li>
+</ul>
+<p>Bước 7.6: Vào Phân hệ <strong>Kế toán giá thành</strong>. Chọn chức năng <strong>Tính chi phí dở dang cuối kỳ và tính giá thành</strong>. Bấm <strong>Tạo mới</strong>. Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_TinhGiaThanh_1.png" /></p>
+<p>Bước 7.7: Chọn <strong>Kỳ tính giá thành</strong>,Nhập <strong>nội dung</strong>. Bấm Lấy dữ liệu. Hệ thống tự động xác định thành phẩm trong kỳ tính giá thành đã chọn. Tiếp theo, nhập số lượng dở dang cuối kỳ, tỷ lệ % hoàn thành.</p>
+<p>Bước 7.8. Bấm <strong>Tính chi phí dở dang</strong>. Hệ thống tự động tính chi phí dở dang cuối kỳ. Hiển thị thông tin như hình dưới đây:</p>
+<p><img alt="" src="../images/fin_GiaThanh_TinhGiaThanh_2.png" /></p>
+<p>Với các đối tượng THCP chọn phương pháp tính giá thành: hệ số/tỷ lệ. Khi thực hiện bấm Lấy dữ liệu. Hệ thống tự động tính toán tỷ lệ giá thành.</p>
+<ul>
+<li>Tính giá thành</li>
+</ul>
+<p>Bước 7.9: Bấm Tính giá thành. Hệ thống thực hiện tính giá thành theo từng khoản mục của đối tượng THCP</p>
+<p>Với các đối tượng THCP có phiếu nhập kho và Phiếu xuất kho trong kỳ tính giá thành. Hệ thống thực hiện cập nhật giá nhập kho vào phiếu nhập kho của thành phẩm.</p>
+<p>Với đối tượng có phiếu xuất kho, khi thực hiện tính giá thành. Hệ thống hiển thị màn hình tính giá xuất kho như hình:</p>
+<p><img alt="" src="../images/fin_GiaThanh_TinhGiaXuatKho_1.png" /></p>
+<p>THực hiện chọn thời gian và chọn <strong>tính giá không theo kho</strong>. Bấm <strong>Lưu</strong>. Hệ thống tự động tính giá và cập nhật vào phiếu xuất kho.</p>
+<p>Lưu ý: </p>
+<ul>
+<li>
+<p>Sau khi tính giá thành xong, có thể kiểm tra lại giá thành của từng thành phẩm trên tab <strong>Bảng tính giá thành</strong> của màn hình danh sách kỳ tính giá thành.</p>
+</li>
+<li>
+<p>Trường hợp muốn kiểm tra lại các khoản chi phí trực tiếp, phục vụ cho việc tính giá thành hoặc các khoản chi phí làm giảm giá thành của thành phẩm, kế toán nhấn chuột phải tại màn hình danh sách kỳ tính giá thành và chọn chức năng <strong>Tập hợp chi phí trực tiếp* hoặc </strong>Tập hợp khoản giảm giá thành</p>
+</li>
+</ul>
+<h2 id="tinh-gia-thanh-theo-tt200">Tính giá thành theo TT200</h2>
+<h3 id="mo-ta-nghiep-vu_4">Mô tả nghiệp vụ</h3>
+<p>Cho phép nhân viên kế toán tính giá thành theo từng khoản mục phí </p>
+<p>Thực hiện tính chi phí dở dang đầu kỳ,phát sinh trong kỳ, dở dang cuối kỳ để tính giá thành </p>
+<p>Cập nhật giá thành vào Phiếu nhập kho và Phiếu xuất kho</p>
+<h3 id="huong-dan-tren-phan-mem_1">Hướng dẫn trên phần mềm</h3>
+<ul>
+<li>
+<h4 id="buoc-1-khai-bao-nguyen-vat-lieu-san-xuat-va-thanh-pham_1">Bước 1: Khai báo nguyên vật liệu sản xuất và thành phẩm</h4>
+</li>
+</ul>
+<p>Vào <strong>Kế toán Giá thành</strong>, chọn Nhóm <strong>Danh mục,</strong> Chọn chức năng <strong>Sản Phẩm</strong>. Màn hình khai báo hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_KhaiBaoThanhPham.png" /></p>
+<p>Sau đó, Nhập <strong>Tên sản phẩm</strong>. Chọn Tuyến cung ứng <strong>Sản xuất</strong>. Bấm <strong>Lưu</strong></p>
+<p>#### Bước 2: Khai báo đối tượng tập hợp chi phí</p>
+<p>Vào <strong>Kế toán Giá thành</strong>, chọn Nhóm <strong>Danh mục,</strong> Chọn chức năng <strong>Đối tượng THCP</strong>. Màn hình khai báo hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_KhaiBaoDoiTuongTHCP.png" /></p>
+<p>Thực hiện nhập dữ liệu:</p>
+<ul>
+<li>Chọn Loại: Sản phẩm</li>
+<li>Phương pháp tính giá thành: Chọn Hệ số hoặc Tỷ lệ</li>
+<li>Đánh giá sản phẩm DD CK: chọn Nguyên Vật liệu trực tiếp( hoặc sản lượng hoàn thành tương đương, định mức)</li>
+<li>Chọn Thêm một dòng và Chọn sản phẩm vào đối tượng THCP</li>
+</ul>
+<p>Bấm <strong>Lưu</strong> bản ghi</p>
+<p>#### Bước 3: Xuất kho nguyên vật liệu sản xuất</p>
+<p>Bước 3.1. Vào Phân hệ <strong>Kế toán kho</strong>. Chọn Nhóm <strong>Danh mục</strong>. Chọn chức năng Kiểu hoạt động.Bấm <strong>Tạo mới.</strong> Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_XuatKhoThanhPham_1.png" /></p>
+<p>Bước 3.2: Chọn <strong>Loại hoạt động</strong> là <strong>Phiếu xuất kho</strong> và <strong>Movement type</strong> là <strong>Xuất sản xuất</strong>.</p>
+<p>Bước 3.3. Bấm Lưu. Sau đó vào Nhóm <strong>Nghiệp vụ kho</strong>. Chọn <strong>Phiếu xuất kho</strong>. Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="fin_GiaThanh_XuatKhoThanhPham_2" src="../images/fin_GiaThanh_XuatKhoThanhPham_2.png" /></p>
+<p>Bước 3.4: Thực hiện nhập dữ liệu phiếu xuất kho:</p>
+<p>Loại xuất: Chọn <strong>Loại xuất</strong> vừa tạo ở kiểu hoạt động</p>
+<p>Chọn <strong>Sản phẩm</strong> của đối tượng THCP tính giá thành</p>
+<p>Nhập <strong>Nhu cầu</strong></p>
+<p>Bước 3.5: Bấm <strong>Lưu</strong>. Sau đó bấm Đánh dấu cần làm để chuyển trạng thái bản ghi sang <strong>Sẵn sàng</strong>. Chọn Xác nhận để chuyển trạng thái <strong>Hoàn thành</strong></p>
+<p>#### Bước 4: Hạch toán các chi phí phát sinh</p>
+<p>Thực hiện hạch toán các chi phí phát sinh liên quan đến việc tính giá thành (Nợ TK 621, 622, 623, 627, 154) có thể được hạch toán trên phân hệ khác với các đối tượng THCP đang tính giá thành</p>
+<p>#### Bước 5: Nhập kho thành phẩm sản xuất</p>
+<p>Bước 5.1: Vào Phân hệ <strong>Kế toán kho</strong>. Chọn Nhóm <strong>Danh mục</strong>. Chọn chức năng Kiểu hoạt động.Bấm <strong>Tạo mới.</strong> Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_NhapKhoThanhPham_1.png" /></p>
+<p>Chọn <strong>Loại hoạt động</strong> là <strong>Phiếu nhập kho</strong> và <strong>Movement type</strong> là <strong>Nhập thành phẩm sản xuất</strong>.</p>
+<p>Bước 5.2: Vào phân hệ Kế toán Kho. Nhóm Nghiệp vụ kho. Chọn Phiếu nhập kho.Màn hình hiển thị thông tin sau: </p>
+<p><img alt="" src="../images/fin_GiaThanh_NhapKhoThanhPham_2.png" /></p>
+<p>Bước 5.3: Thực hiện nhập dữ liệu phiếu nhập kho:</p>
+<p>Loại xuất: Chọn <strong>Loại nhập</strong> vừa tạo ở kiểu hoạt động</p>
+<p>Chọn <strong>Sản phẩm</strong> của đối tượng THCP tính giá thành</p>
+<p>Bước 5.4: bấm <strong>Lưu</strong>. Sau đó bấm <strong>Đánh dấu cần làm</strong> để bản ghi chuyển trạng thái <strong>Sẵn sàng</strong>. Thực hiện Sửa bản ghi. thêm số lượng <strong>hoàn thành</strong> vào thành phẩm trong tab <strong>Vật tư,hàng hóa</strong></p>
+<p>Bước 5.5. Bấm <strong>Xác nhận</strong> để chuyển trạng thái bản ghi sang <strong>Hoàn thành</strong></p>
+<p>#### Bước 6: Xác định kỳ tính giá thành</p>
+<p>Bước 6.1: Vào Phân hệ <strong>Kế toán giá thành</strong>. Chọn nhóm <strong>Sản xuất liên tục-Hệ số,tỷ lệ</strong>. Chọn <strong>Kỳ tính giá thành</strong>. Bấm <strong>Tạo mới</strong>. Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_KyTinhGiaThanh_1.png" /></p>
+<p>Bước 6.2: Chọn <strong>Đơn vị</strong>, <strong>Kỳ tính giá thành</strong>. Chọn <strong>Thêm một dòng</strong> và chọn <strong>Đối tượng THCP</strong> như hình sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_KyTinhGiaThanh_2.png" /></p>
+<p>Bước 6.3:Bấm <strong>Lưu</strong> để chuyển trạng thái bản ghi <strong>Dự thảo</strong></p>
+<p>Bước 6.4: Bấm <strong>Xác nhận</strong> để lưu trạng thái <strong>Đang thực hiện</strong></p>
+<p><em><u></em><em>Lưu ý:</em><em></u></em> Bản ghi chỉ được phép <strong>Sửa</strong>,<strong>Xóa</strong> khi ở trạng thái <strong>Dự thảo</strong>. Và chỉ được sử dụng khi ở trạng thái <strong>Đang thực hiện</strong>. Không cho phép chuyển bản ghi về trạng thái dự thảo khi bản ghi đang được sử dụng tính toán ở các chức năng khác.</p>
+<p>#### Bước 7: Tính giá thành phẩm</p>
+<ul>
+<li>Tính Phân bổ chi phí chung</li>
+</ul>
+<p>Bước 7.1: Vào Phân hệ <strong>Kế toán giá thành</strong>. Nhóm <strong>Sản xuất liên tục - Hệ số,tỷ lệ</strong>. Chọn chức năng <strong>Phân bổ chi phí chung.</strong> Bấm <strong>Tạo mới</strong>. Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_PhanBoChiPhiChung_3.png" /></p>
+<p>Bước 7.2: Chọn <strong>Kỳ tính giá thành</strong>. Bấm Lấy dữ liệu để thực hiện lấy chi phí chung trong kỳ. Dữ liệu view ở tab <strong>Chi phí</strong>. Lấy toàn bộ các chi phí theo đầu tài khoản(TK 621,TK 622...)</p>
+<p>Bước 7.3: Nhập <strong>tỷ lệ phân bổ</strong> và chọn <strong>tiêu thức phân bổ</strong></p>
+<p>Bước 7.4: Bấm <strong>Tính toán Phân bổ</strong>. Hệ thống sẽ tự động tính toán phân bổ theo từng đối tượng THCP trong kỳ tính giá thành</p>
+<p><img alt="" src="../images/fin_GiaThanh_PhanBoChiPhiChung_4.png" /></p>
+<p>Bước 7.5: Bấm <strong>Xác nhận</strong></p>
+<p>Lưu ý:</p>
+<p>Để phân bổ được chi phí chung theo <strong>Định mức</strong>, cần <a href="##Thiết lập định mức PBCP theo đối tượng THCP 2">khai báo định mức phân bổ chi phí</a> trên menu <strong>Kế toán Giá thành\Sản xuất liên tục – Hệ số,tỷ lệ\Khai báo định mức phân bổ chi phí theo đối tượng THCP</strong>.</p>
+<p>Sau khi tính giá thành xong, có thể kiểm tra thông tin chi phí chung được phân bổ trên tab <strong>Bảng phân bổ chi phí chung</strong> của màn hình danh sách kỳ tính giá thành</p>
+<ul>
+<li>Đánh giá dở dang</li>
+</ul>
+<p>Bước 7.6: Vào Phân hệ <strong>Kế toán giá thành</strong>. Chọn chức năng <strong>Tính chi phí dở dang cuối kỳ và tính giá thành</strong>. Bấm <strong>Tạo mới</strong>. Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_TinhGiaThanh_1.png" /></p>
+<p>Bước 7.7: Chọn <strong>Kỳ tính giá thành</strong>,Nhập <strong>nội dung</strong>. Bấm Lấy dữ liệu. Hệ thống tự động xác định thành phẩm trong kỳ tính giá thành đã chọn. Tiếp theo, nhập số lượng dở dang cuối kỳ, tỷ lệ % hoàn thành.</p>
+<p>Bước 7.8. Bấm <strong>Tính chi phí dở dang</strong>. Hệ thống tự động tính chi phí dở dang cuối kỳ. Hiển thị thông tin như hình dưới đây:</p>
+<p><img alt="" src="../images/fin_GiaThanh_TinhGiaThanh_2.png" /></p>
+<p>Với các đối tượng THCP chọn phương pháp tính giá thành: hệ số/tỷ lệ. Khi thực hiện bấm Lấy dữ liệu. Hệ thống tự động tính toán tỷ lệ giá thành.</p>
+<ul>
+<li>Tính giá thành</li>
+</ul>
+<p>Bước 7.9: Bấm Tính giá thành. Hệ thống thực hiện tính giá thành theo từng khoản mục của đối tượng THCP</p>
+<p>Với các đối tượng THCP có phiếu nhập kho và Phiếu xuất kho trong kỳ tính giá thành. Hệ thống thực hiện cập nhật giá nhập kho vào phiếu nhập kho của thành phẩm.</p>
+<p>Với đối tượng có phiếu xuất kho, khi thực hiện tính giá thành. Hệ thống hiển thị màn hình tính giá xuất kho như hình:</p>
+<p><img alt="" src="../images/fin_GiaThanh_TinhGiaXuatKho_1.png" /></p>
+<p>THực hiện chọn thời gian và chọn <strong>tính giá không theo kho</strong>. Bấm <strong>Lưu</strong>. Hệ thống tự động tính giá và cập nhật vào phiếu xuất kho.</p>
+<p>Lưu ý: </p>
+<ul>
+<li>
+<p>Sau khi tính giá thành xong, có thể kiểm tra lại giá thành của từng thành phẩm trên tab <strong>Bảng tính giá thành</strong> của màn hình danh sách kỳ tính giá thành.</p>
+</li>
+<li>
+<p>Trường hợp muốn kiểm tra lại các khoản chi phí trực tiếp, phục vụ cho việc tính giá thành hoặc các khoản chi phí làm giảm giá thành của thành phẩm, kế toán nhấn chuột phải tại màn hình danh sách kỳ tính giá thành và chọn chức năng <strong>Tập hợp chi phí trực tiếp* hoặc </strong>Tập hợp khoản giảm giá thành</p>
+</li>
+</ul>
+<h4 id="buoc-8-ket-chuyen-chi-phi">Bước 8: Kết chuyển chi phí</h4>
+<p>Bước 8.1: Vào phân hệ <strong>Kế toán giá thành</strong>. Chọn nhóm <strong>Sản xuất liên tục- Hệ số,tỷ lệ</strong>. Chọn chức năng <strong>Kết chuyển chi phí</strong>. Bấm <strong>Tạo mới</strong>. Màn hình hiển thị các thông tin sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_KetChuyenChiPhi_1.png" /></p>
+<p>Bước 8.2: Chọn <strong>Đơn vị,Sổ nhật ký</strong> và <strong>bút toán kết chuyển</strong></p>
+<p>Bước 8.3: Bấm <strong>Tính kết chuyển</strong>. Hệ thống tự động thực hiện kết chuyển chi phí phát sinh theo đối tượng, chi phí phân bổ theo đối tượng sang tài khoản đích của bút toán kết chuyển trong kỳ tính giá thành</p>
+<p>Bước 8.4: Bấm <strong>Xác nhận</strong> để hạch toán bản ghi</p>
+<h1 id="tinh-gia-thanh-on-hang">Tính giá thành Đơn hàng</h1>
+<h2 id="quy-trinh-nghiep-vu_2"><em>Quy trình nghiệp vụ</em></h2>
+<p><strong>Giá thành Đơn hàng</strong>: Áp dụng đối với các doanh nghiệp sản xuất theo đơn đặt hàng của khách hàng như: giày da, may mặc, phim ảnh, băng đĩa nhạc… và đối tượng tập hợp chi phí sẽ là các các đơn hàng.</p>
+<p><strong>Quy trình nghiệp vụ</strong></p>
+<p><img alt="" src="../images/fin_GiaThanh_QuyTrinhNghiepVu.png" /></p>
+<p><strong>Các luồng quy trình</strong></p>
+<p>·    Tính giá thành theo TT133. Chi tiết nghiệp vụ<a href="##Tính giá thành theo TT133 2"> <strong>tại đây</strong></a></p>
+<p>·     Tính giá thành theo TT200. Chi tiết nghiệp vụ <a href="##Tính giá thành theo TT200 2"> <strong>tại đây</strong></a></p>
+<h2 id="thiet-lap-chi-phi-do-dang-au-ky_1">Thiết lập chi phí dở dang đầu kỳ</h2>
+<h3 id="mo-ta-nghiep-vu_5">Mô tả nghiệp vụ</h3>
+<p>Cho phép nhập chi phí dở dang đầu kỳ cho từng đơn hàng</p>
+<h3 id="cac-buoc-thuc-hien_3">Các bước thực hiện</h3>
+<p>Bước 1: Vào phân hệ <strong>Kế toán Giá Thành</strong>. Chọn Nhóm <strong>Đơn Hàng</strong>. Chọn chức năng <strong>Chi phí dở dang đầu kỳ</strong>. Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_DonHang_ChiPhiDoDangDauKy_1.png" /></p>
+<p>Bước 2: Chọn <strong>Đơn vị.</strong> Chọn <strong>Đơn hàng khai báo chi phí dở dang đầu kỳ</strong>. Nhập dữ liệu vào các khoản mục chi phí. Tích chọn <strong>Nhập chi tiết theo yếu tố chi phí</strong> để nhập chi tiết chi phí như chi phí <strong>Nhân công gián tiếp, Nguyên vật liệu gián tiếp,Chi phí dịch vụ mua ngoài</strong>...</p>
+<p>Bước 3: Bấm Lưu để lưu bản ghi trạng thái <strong>Dự thảo</strong></p>
+<p>Bước 4: Bấm Xác nhận để lưu bản ghi trạng thái <strong>Đang thực hiện</strong></p>
+<h2 id="tinh-gia-thanh-theo-tt133_1">Tính giá thành theo TT133</h2>
+<h3 id="mo-ta-nghiep-vu_6">Mô tả nghiệp vụ</h3>
+<p>Tính giá thành với các đơn hàng theo Công ty áp dụng thông tư 133</p>
+<h3 id="huong-dan-tren-phan-mem_2">Hướng dẫn trên phần mềm</h3>
+<h4 id="buoc-1-khai-bao-on-at-hang-uoc-su-dung-e-thcp-khi-tinh-gia-thanh">Bước 1: Khai báo đơn đặt hàng được sử dụng để THCP khi tính giá thành</h4>
+<p>Bước 1.1: Vào phân hệ Kế toán giá thành. Chọn Nhóm Đơn hàng. Chọn Đơn bán hàng. Bấm Tạo mới. Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_DonHang_DonBanHang.png" /></p>
+<p>Bước 1.2: Chọn <strong>Khách hàng</strong>. Chọn <strong>sản phẩm</strong> cho đơn hàng.</p>
+<p>Bước 1.3: Bấm <strong>Lưu</strong></p>
+<h4 id="buoc-2-hach-toan-cac-chi-phi-phat-sinh">Bước 2: Hạch toán các chi phí phát sinh</h4>
+<p>Thực hiện hạch toán các chi phí phát sinh liên quan đến việc tính giá thành (Nợ TK 621, 622, 623, 627, 154) có thể được hạch toán trên phân hệ khác với các đơn hàng đang tính giá thành</p>
+<h4 id="buoc-3-xac-inh-ky-tinh-gia-thanh">Bước 3: Xác định kỳ tính giá thành</h4>
+<p>Vào phân hệ <strong>Kỳ tính giá thành</strong>. Chọn Nhóm <strong>Đơn hàng</strong>. Chọn <strong>Kỳ tính giá thành</strong>. Bấm <strong>Tạo mới</strong>. Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_DonHang_KyTinhGiaThanh.png" /></p>
+<p>Bước 5.1: Chọn <strong>Đơn vị</strong>. Chọn Kỳ tính giá thành. Chọn <strong>Đơn hàng.</strong>Sau Lưu hệ thống tự động lấy dữ liệu Lũy kế kỳ trước, phát sinh trong kỳ, khoản giảm giá thành,...</p>
+<p>Bước 5.2. Bấm <strong>Lưu</strong> để lưu bản ghi ở trạng thái Dự thảo
+Bước 5.3: Bấm <strong>Xác nhận</strong> để lưu bản ghi ở trạng thái <strong>Đang thực hiện</strong></p>
+<p><u><em>Lưu ý:</em></u>Bản ghi chỉ cho phép sửa xóa ở trạng thái Dự thảo và chỉ cho phép chuyển trạng thái Đang thực hiện về dự thảo khi kỳ tính giá thành không được sử dụng ở các chức năng khác. </p>
+<h4 id="buoc-4-phan-bo-chi-phi-chung">Bước 4: Phân bổ chi phí chung</h4>
+<p>Vào phân hệ <strong>Kỳ tính giá Thành</strong>. Chọn <strong>Nhóm Đơn hàng</strong>. Chọn <strong>Phân bổ chi phí chung</strong>. Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_DonHang_PhanBoChiPhiChung_1.png" /></p>
+<p>Bước 4.1: Bấm <strong>Lấy dữ liệu</strong>. Hệ thống tự động lấy các chi phí phát sinh chung trong kỳ theo các khoản mục phí. Nhập <strong>tỷ lệ phân bổ</strong> và <strong>tiêu thức phân bổ</strong>.</p>
+<p>Bước 4.2: Bấm <strong>Tính toán phân bổ</strong>. Hệ thống tự động tính toán phân bổ theo tiêu thức phân bổ cho từng đơn hàng. Chi tiết như hình ảnh dưới đây:</p>
+<p><img alt="" src="../images/fin_GiaThanh_DonHang_PhanBoChiPhiChung_2.png" /></p>
+<p>Bước 4.3: Bấm Lưu để lưu bản ghi ở trạng thái Dự thảo</p>
+<p>Bước 4.4: bấm Xác nhận để lưu bản ghi ở trạng thái Đang thực hiện</p>
+<h4 id="buoc-5-nghiem-thu-on-hang">Bước 5: Nghiệm thu đơn hàng</h4>
+<p>Vào Phân hệ <strong>Kế toán Giá thành</strong>. Chọn Nhóm <strong>Đơn hàng.</strong> Chọn <strong>Nghiệm thu đơn hàng</strong>. Chọn <strong>Tạo mới</strong>. Màn hình hiển thị thông tin như dưới đây:</p>
+<p><img alt="" src="../images/fin_GiaThanh_DonHang_NghiemThuDonHang_1.png" /></p>
+<p>Bước 5.1: Chọn <strong>Đơn vị, Sổ nhật ký, Kỳ tính giá thành, Nội dung</strong>.Chọn <strong>Đơn hàng</strong> thực hiện nghiệm thu. Hệ thống tự động lấy ra giá trị <strong>doanh thu,</strong> <strong>số chưa nghiệm thu</strong>. Nhập <strong>tỷ lệ nghiệm thu</strong> và bấm <strong>Bút toán</strong> hoặc <strong>Xác nhận</strong> để thực hiện nghiệm thu đơn hàng</p>
+<p><img alt="" src="../images/fin_GiaThanh_DonHang_NghiemThuDonHang_2.png" /></p>
+<p>Bước 5.2: Bấm <strong>Lưu</strong> để thực hiện nghiệm thu với bút toán nghiệm thu ở trạng thái <strong>Dự thảo</strong>
+Bước 5.3: Bấm <strong>Xác nhận</strong> để thực hiện nghiệm thu với bút toán nghiệm thu ở trạng thái <strong>Đang thực hiện</strong></p>
+<p><u><em>Lưu ý:</em></u> Sau khi nghiệm thu. Hệ thống tự động cập nhật lại số đã nghiệm thu ở Kỳ tính giá thành. Để xem chi tiết số đã nghiệm thu ở màn hình Kỳ tính giá thành</p>
+<h2 id="tinh-gia-thanh-theo-tt200_1">Tính giá thành theo TT200</h2>
+<h3 id="mo-ta-nghiep-vu_7">Mô tả nghiệp vụ</h3>
+<p>Tính giá thành đơn hàng áp dụng với các công ty theo thông tư 200</p>
+<h3 id="huong-dan-tren-phan-mem_3">Hướng dẫn trên phần mềm</h3>
+<h4 id="buoc-1-khai-bao-on-at-hang-uoc-su-dung-e-thcp-khi-tinh-gia-thanh_1">Bước 1: Khai báo đơn đặt hàng được sử dụng để THCP khi tính giá thành</h4>
+<p>Bước 1.1: Vào phân hệ Kế toán giá thành. Chọn Nhóm Đơn hàng. Chọn Đơn bán hàng. Bấm Tạo mới. Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_DonHang_DonBanHang.png" /></p>
+<p>Bước 1.2: Chọn <strong>Khách hàng</strong>. Chọn <strong>sản phẩm</strong> cho đơn hàng.</p>
+<p>Bước 1.3: Bấm <strong>Lưu</strong></p>
+<h4 id="buoc-2-hach-toan-cac-chi-phi-phat-sinh_1">Bước 2: Hạch toán các chi phí phát sinh</h4>
+<p>Thực hiện hạch toán các chi phí phát sinh liên quan đến việc tính giá thành (Nợ TK 621, 622, 623, 627, 154) có thể được hạch toán trên phân hệ khác với các đơn hàng đang tính giá thành</p>
+<h4 id="buoc-3-xac-inh-ky-tinh-gia-thanh_1">Bước 3: Xác định kỳ tính giá thành</h4>
+<p>Vào phân hệ <strong>Kỳ tính giá thành</strong>. Chọn Nhóm <strong>Đơn hàng</strong>. Chọn <strong>Kỳ tính giá thành</strong>. Bấm <strong>Tạo mới</strong>. Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_DonHang_KyTinhGiaThanh.png" /></p>
+<p>Bước 5.1: Chọn <strong>Đơn vị</strong>. Chọn Kỳ tính giá thành. Chọn <strong>Đơn hàng.</strong>Sau Lưu hệ thống tự động lấy dữ liệu Lũy kế kỳ trước, phát sinh trong kỳ, khoản giảm giá thành,...</p>
+<p>Bước 5.2. Bấm <strong>Lưu</strong> để lưu bản ghi ở trạng thái Dự thảo
+Bước 5.3: Bấm <strong>Xác nhận</strong> để lưu bản ghi ở trạng thái <strong>Đang thực hiện</strong></p>
+<p><u><em>Lưu ý:</em></u>Bản ghi chỉ cho phép sửa xóa ở trạng thái Dự thảo và chỉ cho phép chuyển trạng thái Đang thực hiện về dự thảo khi kỳ tính giá thành không được sử dụng ở các chức năng khác. </p>
+<h4 id="buoc-4-phan-bo-chi-phi-chung_1">Bước 4: Phân bổ chi phí chung</h4>
+<p>Vào phân hệ <strong>Kỳ tính giá Thành</strong>. Chọn <strong>Nhóm Đơn hàng</strong>. Chọn <strong>Phân bổ chi phí chung</strong>. Màn hình hiển thị thông tin như sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_DonHang_PhanBoChiPhiChung_3.png" /></p>
+<p>Bước 4.1: Bấm <strong>Lấy dữ liệu</strong>. Hệ thống tự động lấy các chi phí phát sinh chung trong kỳ theo các <strong>tài khoản</strong>.Nhập <strong>tỷ lệ phân bổ</strong> và <strong>tiêu thức phân bổ</strong>.</p>
+<p>Bước 4.2: Bấm <strong>Tính toán phân bổ</strong>. Hệ thống tự động tính toán phân bổ theo tiêu thức phân bổ cho từng đơn hàng. Chi tiết như hình ảnh dưới đây:</p>
+<p><img alt="" src="../images/fin_GiaThanh_DonHang_PhanBoChiPhiChung_4.png" /></p>
+<p>Bước 4.3: Bấm <strong>Lưu</strong> để lưu bản ghi ở trạng thái <strong>Dự thảo</strong></p>
+<p>Bước 4.4: bấm <strong>Xác nhận</strong> để lưu bản ghi ở trạng thái <strong>Đang thực hiện</strong></p>
+<h4 id="buoc-4-ket-chuyen-chi-phi"><strong>Bước 4: Kết chuyển chi phí</strong></h4>
+<p>Bước 4.1: Vào phân hệ <strong>Kế toán giá thành</strong>. Chọn nhóm <strong>Đơn hàng</strong>. Chọn chức năng <strong>Kết chuyển chi phí</strong>. Bấm <strong>Tạo mới</strong>. Màn hình hiển thị các thông tin sau:</p>
+<p><img alt="" src="../images/fin_GiaThanh_DonHang_KetChuyenChiPhi_1.png" /></p>
+<p>Bước 8.2: Chọn <strong>Đơn vị,Sổ nhật ký</strong> và <strong>bút toán kết chuyển</strong></p>
+<p>Bước 8.3: Bấm <strong>Tính kết chuyển</strong>. Hệ thống tự động thực hiện kết chuyển chi phí phát sinh theo đối tượng, chi phí phân bổ theo đối tượng sang tài khoản đích của bút toán kết chuyển trong kỳ tính giá thành</p>
+<p>Bước 8.4: Bấm <strong>Xác nhận</strong> để hạch toán bản ghi.</p>
+<h4 id="buoc-5-nghiem-thu-on-hang_1">Bước 5: Nghiệm thu đơn hàng</h4>
+<p>Vào Phân hệ <strong>Kế toán Giá thành</strong>. Chọn Nhóm <strong>Đơn hàng.</strong> Chọn <strong>Nghiệm thu đơn hàng</strong>. Chọn <strong>Tạo mới</strong>. Màn hình hiển thị thông tin như dưới đây:</p>
+<p><img alt="" src="../images/fin_GiaThanh_DonHang_NghiemThuDonHang_1.png" /></p>
+<p>Bước 5.1: Chọn <strong>Đơn vị, Sổ nhật ký, Kỳ tính giá thành, Nội dung</strong>.Chọn <strong>Đơn hàng</strong> thực hiện nghiệm thu. Hệ thống tự động lấy ra giá trị <strong>doanh thu,</strong> <strong>số chưa nghiệm thu</strong>. Nhập <strong>tỷ lệ nghiệm thu</strong> và bấm <strong>Bút toán</strong> hoặc <strong>Xác nhận</strong> để thực hiện nghiệm thu đơn hàng</p>
+<p><img alt="" src="../images/fin_GiaThanh_DonHang_NghiemThuDonHang_2.png" /></p>
+<p>Bước 5.2: Bấm <strong>Lưu</strong> để thực hiện nghiệm thu với bút toán nghiệm thu ở trạng thái <strong>Dự thảo</strong>
+Bước 5.3: Bấm <strong>Xác nhận</strong> để thực hiện nghiệm thu với bút toán nghiệm thu ở trạng thái <strong>Đang thực hiện</strong></p>
+<p><u><em>Lưu ý:</em></u> Sau khi nghiệm thu. Hệ thống tự động cập nhật lại số đã nghiệm thu ở Kỳ tính giá thành. Để xem chi tiết số đã nghiệm thu ở màn hình Kỳ tính giá thành</p>
+<h1 id="tinh-gia-thanh-hop-ong">Tính giá thành Hợp đồng</h1>
+<h2 id="quy-trinh-nghiep-vu_3"><em>Quy trình nghiệp vụ</em></h2>
+<p><strong>Giá thành Hợp đồng</strong>: Áp dụng đối với các doanh nghiệp sản xuất theo hợp đồng, với đối tượng tập hợp chi phí sẽ là các các hợp đồng cụ thể. Thông thường mục đích của việc tính giá thành theo hợp đồng là để xác định giá trị của thương vụ là bao nhiêu, không quan tâm đến đơn giá của từng hàng hoá trên sản phẩm. </p>
+<p><strong>Quy trình nghiệp vụ</strong></p>
+<p><img alt="" src="../images/fin_GiathanhHopdong_Quytrinh_1.png" /></p>
+<p><strong>Các luồng quy trình</strong></p>
+<p>·    Tính giá thành theo TT133. Chi tiết nghiệp vụ <a href="##Tính giá thành theo TT133 3"><strong>tại đây</strong></a></p>
+<p>·     Tính giá thành theo TT200. Chi tiết nghiệp vụ <a href="##Tính giá thành theo TT200 3"><strong>tại đây</strong></a></p>
+<h2 id="thiet-lap-chi-phi-do-dang-au-ky_2">Thiết lập chi phí dở dang đầu kỳ</h2>
+<h3 id="mo-ta-nghiep-vu_8">Mô tả nghiệp vụ</h3>
+<p>·    Cho phép nhập chi phí dở dang đầu kỳ cho từng hợp đồng</p>
+<h3 id="cac-buoc-thuc-hien_4">Các bước thực hiện</h3>
+<p><strong>Bước 1:</strong> Khai báo hợp đồng được sử dụng để THCP khi tính giá thành</p>
+<ul>
+<li>
+<p>Vào phân hệ <strong>Kế toán giá thành\Hợp đồng\Hợp đồng bán</strong> chọn <strong>Tạo</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</p>
+</li>
+<li>
+<p>Khai báo thông tin về <strong>Hợp đồng</strong></p>
+</li>
+<li>
+<p>Tích chọn Tính giá thành để cho phép chương trình tập hợp được chi phí theo hợp đồng bán khi tính giá thành.</p>
+</li>
+</ul>
+<p><img alt="" src="../images/fin_GiathanhHopdong_DDDK_1.png" /></p>
+<ul>
+<li>
+<p>Khai báo các mặt hàng được sản xuất theo <strong>Hợp đồng</strong></p>
+<p><strong>Lưu ý:</strong> Sau khi khai báo các hàng hoá được bán theo hợp đồng trên tab <strong>Danh sách hàng hoá</strong>, hệ thống sẽ tự động cập nhập lại thông tin <strong>Giá trị hợp đồng</strong> bên tab <strong>Thông tin chung</strong>.</p>
+</li>
+</ul>
+<p><img alt="" src="../images/fin_GiathanhHopdong_DDDK_2.png" /></p>
+<ul>
+<li>Sau khi khai báo xong bấm <strong>Xác nhận</strong></li>
+</ul>
+<p><strong>Bước 2:</strong> Vào phân hệ <strong>Kế toán giá thành\Hợp đồng\Chi phí dở dang đầu kỳ</strong> chọn <strong>Tạo</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</p>
+<p><img alt="" src="../images/fin_GiathanhHopdong_DDDK_3.png" /></p>
+<p><strong>Bước 3:</strong> Khai báo thông tin chi tiết: </p>
+<ul>
+<li>Chọn thông tin đơn vị</li>
+<li>Chọn hợp đồng cần nhập</li>
+<li>Nhập chi phí dở dang của từng hợp đồng bán</li>
+<li>Trường hợp muốn nhập chi phí dở dang của hợp đồng bán chi tiết theo từng yếu tố chi phí, tích chọn vào checkbox <strong>Nhập chi tiết theo yếu tố chi phí</strong></li>
+</ul>
+<p><strong>Bước 4:</strong> Nhấn <strong>Xác nhận</strong></p>
+<h2 id="tinh-gia-thanh-theo-tt133_2">Tính giá thành theo TT133</h2>
+<h3 id="mo-ta-nghiep-vu_9">Mô tả nghiệp vụ</h3>
+<p>Áp dụng đối với các doanh nghiệp sản xuất theo hợp đồng, với đối tượng tập hợp chi phí sẽ là các hợp đồng cụ thể. Thông thường mục đích của việc tính giá thành theo hợp đồng là để xác định giá trị của thương vụ là bao nhiêu, không quan tâm đến đơn giá của từng hàng hoá trên sản phẩm. Ví dụ: Có hợp đồng đặt 5 bức tranh hoa, 5 bức tranh chữ và 5 bức tranh chân dung, sau khi tính giá xong thì toàn bộ số tranh này sẽ được bàn giao thẳng cho khách hàng mà không nhập kho. </p>
+<h3 id="huong-dan-tren-phan-mem_4">Hướng dẫn trên phần mềm</h3>
+<p>Đối với các doanh nghiệp áp dụng theo <strong>TT133</strong>, việc tính giá thành theo <strong>Hợp đồng</strong> được thực hiện qua các bước sau:</p>
+<h4 id="buoc-1-hach-toan-cac-chi-phi-phat-sinh">Bước 1: Hạch toán các chi phí phát sinh</h4>
+<p>Các chi phí phát sinh liên quan đến việc tính giá thành (Nợ 154) có thể được hoạch toán trên phân hệ <strong>Quỹ, Ngân hàng</strong> hoặc <strong>Tổng hợp</strong></p>
+<p><img alt="" src="../images/fin_GiathanhHopdong_tinhgiathanhTT133_1.png" /></p>
+<p><strong>Lưu ý:</strong> Khi thực hiện tính giá thành theo TT133, bắt buộc phải chọn thông tin về <strong>Khoản mục CP</strong>. Riêng thông tin về <strong>Hợp đồng</strong>, sẽ chọn nếu xác định được là chi phí phát sinh cho hợp đồng nào và bỏ trống nếu chưa xác định được hợp đồng.</p>
+<h4 id="buoc-2-xac-inh-ky-tinh-gia-thanh">Bước 2: Xác định kỳ tính giá thành</h4>
+<ul>
+<li>Vào phân hệ <strong>Kế toán giá thành\Hợp đồng\Kỳ tính giá thành</strong> chọn <strong>Tạo</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</li>
+<li>Khai báo khoảng thời gian tính giá thành</li>
+<li>Chọn <strong>Hợp đồng</strong> để tính giá thành dưới tab <strong>Đối tượng tập hợp CP</strong></li>
+</ul>
+<p><img alt="" src="../images/fin_GiathanhHopdong_tinhgiathanhTT133_2.png" /></p>
+<ul>
+<li>Bấm <strong>Xác nhận</strong>, chương trình sẽ tư động lấy lên những hợp đồng bán có phát sinh trong thời gian thuộc kỳ tính giá thành vào tổng hợp tại tab <strong>Tổng hợp chi phí.</strong></li>
+</ul>
+<p><strong>Lưu ý:</strong>  </p>
+<p>​   <strong>·</strong> Một số hợp đồng bán không thể cùng tồn tại trên các kỳ tính giá thành có thời gian trùng nhau.</p>
+<p>​   <strong>·</strong> Sử dụng chức năng <strong>Thêm một dòng/Xoá</strong> để chọn bổ sung hoặc xoá xác hợp đồng bán trên danh sách.</p>
+<h4 id="buoc-3-phan-bo-chi-phi-chung">Bước 3: Phân bổ chi phí chung</h4>
+<ul>
+<li>Vào phân hệ <strong>Kế toán giá thành\Hợp đồng\Phân bổ chi phí chung</strong> chọn <strong>Tạo</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống).</li>
+<li>Chọn kỳ tính giá thành và nhấn <strong>Lấy dữ liệu</strong>, chương trình sẽ tổng hợp các chứng từ xuất kho NVL, hoạch toán chi phí lương, chi phí sản xuất chung có hoạch toán nợ TK154, chọn <strong>Khoản mục CP</strong> nhưng chưa chọn <strong>Hợp đồng</strong> để thực hiện việc phân bổ.</li>
+<li>Nhập tỷ lệ phân bổ và lựa chọn 1 trong 4 tiêu thức phân bổ: Nguyên vật liệu trực tiếp, Nhân công trực tiếp, Chi phí trực tiếp (NVLTT, NCTT) và Doanh thu.</li>
+</ul>
+<p><img alt="" src="../images/fin_GiathanhHopdong_phanboCPCTT133_1.png" /></p>
+<ul>
+<li>Nhấn <strong>Tính toán phân bổ</strong>, chương trình sẽ tự động phân bổ chi phí của từng khoản mục chi phí trên tab <strong>Chi phí</strong> cho Hợp đồng trên tab <strong>Phân bổ</strong> theo tiêu thức phân bổ đã chọn.</li>
+</ul>
+<p><img alt="" src="../images/fin_GiathanhHopdong_phanboCPCTT133_2.png" /></p>
+<ul>
+<li>Bấm <strong>Xác nhận</strong> để lưu các bút toán phân bổ chi phí cho từng <strong>Hợp đồng</strong></li>
+</ul>
+<p>​   <strong>Lưu ý:</strong>  </p>
+<p>​       <strong>·</strong> Nếu chọn lại chức năng Lấy dữ liệu, các thông tin thiết lập phục vụ cho việc phân bổ chi phí chung trước đó sẽ bị xoá và phải thực hiện lại việc khai báo.</p>
+<p>​       <strong>·</strong> Sau khi tính phân bổ xong, có thể kiểm tra thông tin chung được phân bổ trên tab <strong>Phân bổ</strong> chi phí chung của màn hình <strong>kỳ tính giá thành</strong>.</p>
+<h4 id="buoc-4-nghiem-thu-hop-ong">Bước 4: Nghiệm thu hợp đồng</h4>
+<ul>
+<li>Vào phân hệ <strong>Kế toán giá thành\Hợp đồng\Nghiệm thu hợp đồng</strong> chọn <strong>Tạo</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống).</li>
+<li>Chọn <strong>Kỳ tính giá  thành</strong>.</li>
+<li>Chọn <strong>Hợp đồng bán</strong> được nghiệm thu (Doanh thu sẽ được tự động lấy dữ liệu đã phát sinh trong kỳ theo từng hợp đồng bán).</li>
+<li>Nhập tỷ lệ nghiệm thu cho từng hợp đồng bán.</li>
+</ul>
+<p><img alt="" src="../images/fin_GiathanhHopdong_NghiemthuH%C4%90TT133_1.png" /></p>
+<ul>
+<li>Nhấn <strong>Bút toán</strong>, chương trình sẽ tự động tổng hợp chi phí từ tài khoản 154 để kết chuyển sang TK 632 cho từng hợp đồng tương ứng tại tab <strong>Bút toán</strong></li>
+</ul>
+<p><img alt="" src="../images/fin_GiathanhHopdong_NghiemthuH%C4%90TT133_2.png" /></p>
+<ul>
+<li>Nhấn <strong>Xác nhận</strong></li>
+</ul>
+<h2 id="tinh-gia-thanh-theo-tt200_2">Tính giá thành theo TT200</h2>
+<h3 id="mo-ta-nghiep-vu_10">Mô tả nghiệp vụ</h3>
+<p>Áp dụng đối với các doanh nghiệp sản xuất theo hợp đồng, với đối tượng tập hợp chi phí sẽ là các hợp đồng cụ thể. Thông thường mục đích của việc tính giá thành theo hợp đồng là để xác định giá trị của thương vụ là bao nhiêu, không quan tâm đến đơn giá của từng hàng hoá trên sản phẩm. Ví dụ: Có hợp đồng đặt 5 bức tranh hoa, 5 bức tranh chữ và 5 bức tranh chân dung, sau khi tính giá xong thì toàn bộ số tranh này sẽ được bàn giao thẳng cho khách hàng mà không nhập kho. </p>
+<h3 id="huong-dan-tren-phan-mem_5">Hướng dẫn trên phần mềm</h3>
+<h4 id="buoc-1-hach-toan-cac-chi-phi-phat-sinh_1">Bước 1: Hạch toán các chi phí phát sinh</h4>
+<p>Các chi phí phát sinh liên quan đến việc tính giá thành (Nợ TK 621, 622, 627, 154) có thể hoạch toán trên phân hệ <strong>Quỹ, Ngân hàng</strong> hoặc <strong>Tổng hợp.</strong></p>
+<p><img alt="" src="../images/fin_GiathanhHopdong_tinhgiathanhTT200_1.png" /></p>
+<p><strong>Lưu ý:</strong> Khi hoạch toán các chứng từ chi phí phát sinh nếu xác định được là chi phí phát sinh cho hợp đồng nào, thì chọn thông tin tại cột <strong>Hợp đồng bán</strong> hoặc bỏ trống nếu chưa xác định được hợp đồng nào.</p>
+<h4 id="buoc-2-xac-inh-ky-tinh-gia-thanh_1">Bước 2: Xác định kỳ tính giá thành</h4>
+<ul>
+<li>Vào phân hệ <strong>Kế toán giá thành\Hợp đồng\Kỳ tính giá thành</strong> chọn <strong>Tạo</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</li>
+<li>Khai báo khoảng thời gian tính giá thành</li>
+<li>Chọn <strong>Hợp đồng</strong> để tính giá thành dưới tab <strong>Đối tượng tập hợp CP</strong></li>
+</ul>
+<p><img alt="" src="../images/fin_GiathanhHopdong_tinhgiathanhTT200_2.png" /></p>
+<ul>
+<li>Bấm <strong>Xác nhận</strong>, chương trình sẽ tư động lấy lên những hợp đồng bán có phát sinh trong thời gian thuộc kỳ tính giá thành vào tổng hợp tại tab <strong>Tổng hợp chi phí.</strong></li>
+</ul>
+<p><strong>Lưu ý:</strong>  </p>
+<p>​   <strong>·</strong> Một số hợp đồng bán không thể cùng tồn tại trên các kỳ tính giá thành có thời gian trùng nhau.</p>
+<p>​   <strong>·</strong> Sử dụng chức năng <strong>Thêm một dòng/Xoá</strong> để chọn bổ sung hoặc xoá xác hợp đồng bán trên danh sách.</p>
+<h4 id="buoc-3-phan-bo-chi-phi-chung_1">Bước 3: Phân bổ chi phí chung</h4>
+<ul>
+<li>Vào phân hệ <strong>Kế toán giá thành\Hợp đồng\Phân bổ chi phí chung</strong> chọn <strong>Tạo</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống).</li>
+<li>Chọn kỳ tính giá thành và nhấn <strong>Lấy dữ liệu</strong>, chương trình sẽ tổng hợp các chứng từ xuất kho NVL (TK 621), hoạch toán chi phí lương (TK 622), chi phí sản xuất chung (627), chưa có thông tin <strong>Hợp đồng</strong> để thực hiện việc phân bổ</li>
+<li>Nhập tỷ lệ phân bổ và lựa chọn 1 trong 4 tiêu thức phân bổ: Nguyên vật liệu trực tiếp, Nhân công trực tiếp, Chi phí trực tiếp (NVLTT, NCTT) và Doanh thu.</li>
+</ul>
+<p><img alt="" src="../images/fin_GiathanhHopdong_phanboCPCTT200_1.png" /></p>
+<ul>
+<li>Nhấn <strong>Tính toán phân bổ</strong>, chương trình sẽ tự động phân bổ chi phí của từng khoản mục chi phí trên tab <strong>Chi phí</strong> cho Hợp đồng trên tab <strong>Phân bổ</strong> theo tiêu thức phân bổ đã chọn.</li>
+</ul>
+<p><img alt="" src="../images/fin_GiathanhHopdong_phanboCPCTT200_2.png" /></p>
+<ul>
+<li>Bấm <strong>Xác nhận</strong> để lưu các bút toán phân bổ chi phí cho từng <strong>Hợp đồng</strong></li>
+</ul>
+<p>​   <strong>Lưu ý:</strong>  </p>
+<p>​       <strong>·</strong> Nếu chọn lại chức năng Lấy dữ liệu, các thông tin thiết lập phục vụ cho việc phân bổ chi phí chung trước đó sẽ bị xoá và phải thực hiện lại việc khai báo.</p>
+<p>​       <strong>·</strong> Sau khi tính phân bổ xong, có thể kiểm tra thông tin chung được phân bổ trên tab <strong>Phân bổ</strong> chi phí chung của màn hình <strong>kỳ tính giá thành</strong>.</p>
+<h4 id="buoc-4-ket-chuyen-chi-phi_1">Bước 4: Kết chuyển chi phí</h4>
+<ul>
+<li>Vào phân hệ <strong>Kế toán giá thành\Hợp đồng\Kết chuyển chi phí</strong> chọn <strong>Tạo</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống).</li>
+<li>Nhập đầy đủ thông tin: Đơn vị, Sổ nhật ký, Bút toán kết chuyển</li>
+<li>Chọn kỳ tính giá thành</li>
+<li>Nhấn <strong>Tính kết chuyển</strong>, chương trình sẽ tự động tổng hợp chi phí từ các tài khoản 621, 622, 627,... để kết chuyển sang TK 154.</li>
+</ul>
+<p><img alt="" src="../images/fin_GiathanhHopdong_KCCPTT200_1.png" /></p>
+<ul>
+<li>Nhấn <strong>Xác nhận</strong> để lưu các bút toán kết chuyển </li>
+</ul>
+<h4 id="buoc-8-nghiem-thu-hop-ong">Bước 8: Nghiệm thu hợp đồng</h4>
+<ul>
+<li>Vào phân hệ <strong>Kế toán giá thành\Hợp đồng\Nghiệm thu hợp đồng</strong> chọn <strong>Tạo</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống).</li>
+<li>Chọn <strong>Kỳ tính giá  thành</strong>.</li>
+<li>Chọn <strong>Hợp đồng bán</strong> được nghiệm thu (Doanh thu sẽ được tự động lấy dữ liệu đã phát sinh trong kỳ theo từng hợp đồng bán).</li>
+<li>Nhập tỷ lệ nghiệm thu cho từng hợp đồng bán.</li>
+</ul>
+<p><img alt="" src="../images/fin_GiathanhHopdong_NghiemthuH%C4%90TT200_1.png" /></p>
+<ul>
+<li>Nhấn <strong>Bút toán</strong>, chương trình sẽ tự động tổng hợp chi phí từ tài khoản 154 để kết chuyển sang TK 632 cho từng hợp đồng tương ứng tại tab <strong>Bút toán</strong></li>
+</ul>
+<p><img alt="" src="../images/fin_GiathanhHopdong_NghiemthuH%C4%90TT200_2.png" /></p>
+<ul>
+<li>Nhấn <strong>Xác nhận</strong></li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/extra.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
