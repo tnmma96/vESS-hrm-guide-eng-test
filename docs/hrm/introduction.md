@@ -23,6 +23,8 @@ Nếu doanh nghiệp sử dụng phân hệ Quản lý tuyển dụng (thuộc n
 
 Phân hệ Quản lý nhân sự bao gồm các phân hệ con:
 
+![image-20211012172655109](images/image-20211012172655109.png)
+
 - [Hồ sơ Nhân viên](../../hrm/employee/#quan-ly-ho-so-nhan-vien) 
   + [Quản lý hồ sơ nhân viên](../../hrm/employee/#them-moi-ho-so-nhan-vien)
   + [Hợp đồng và cảnh báo hợp đồng](../../hrm/employee/#cap-nhat-hop-ong-qua-trinh-lam-viec-cua-nhan-vien)
