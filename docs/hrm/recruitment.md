@@ -1,4 +1,4 @@
-# Quản lý tuyển dụng
+## Quản lý tuyển dụng
 
 Phân hệ Tuyển dụng có chức năng quản lý toàn bộ quá trình tuyển dụng: Từ lúc tạo vị trí công việc có nhu cầu tuyển, đăng tin và tạo form ứng tuyển trực tuyến trên website, tạo và lưu trữ hồ sơ ứng viên, thẩm định sàng lọc hồ sơ, lập lịch thi/phỏng vấn, cập nhật kết quả tuyển dụng và tạo hồ sơ nhân viên sang hệ thống nhân sự khi tuyển dụng thành công. 
 
@@ -24,9 +24,9 @@ Quá trình tuyển dụng sẽ thực hiện theo quy trình sau:
 
 6. Với các ứng viên đạt được thống nhất và ký hoàn tất hợp đồng lao động, phụ trách tuyển dụng tạo hồ sơ nhân viên sang hệ thống nhân sự. 
 
-   ### Vị trí tuyển dụng
+### Vị trí tuyển dụng
 
-   #### **Tạo vị trí công việc cần tuyển dụng**
+#### **Tạo vị trí công việc cần tuyển dụng**
 
 Căn cứ theo nhu cầu tuyển dụng của các đơn vị, phòng ban, người phụ trách công tác tuyển đụng sẽ tạo vị trí tuyển đụng trên hệ thống. Thông tin tuyển dụng sau đó sẽ được đưa lên các trang website tuyển dụng để tiếp cận ứng viên. 
 
@@ -190,7 +190,7 @@ Trước mỗi vòng phỏng vấn, người phụ trách tuyển dụng thực 
   - Chỉ chọn ứng viên ở trạng thái **Thẩm định ban đầu, phỏng vấn lần 1, phỏng vấn lần 2**
   - Ứng viên có vị trí công việc chưa được thiết lập mẫu đánh giá sẽ hiển thị cảnh báo ***Vị trí công việc chưa được thiết lập mẫu đánh giá*** . Khi đó, trước khi phỏng vấn đánh giá thì cần phải thiết lập mẫu đánh giá cho vị trí này để đánh giá được các ứng viên. 
 - Tab **Chi tiết cuộc phỏng vấn**
-  - Khai báo các thông tin 
+  - Khai báo các thông tin lịch phỏng vấn như thời gian, địa điểm... 
 
 3. Kích nút “**Lưu**”: tạo lịch phỏng vấn thành công, trạng thái lịch phỏng vấn được tạo là **Mới tạo**
 
@@ -214,14 +214,14 @@ Mời ứng viên tham gia phỏng vấn có thể thực hiện bằng cách g�
 
 3. Tại danh sách ứng viên, kích nút **...** -> Thông báo
 
-![phongvan_1](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\phongvan_1.PNG)
+![](images/phongvan_1.PNG)
 
 4. Nhập nội dung gửi thư mời phỏng vấn và gửi cho các ứng viên
 
    - Kích nút **Lưu mẫu mới** để tạo nội dung mẫu tái sử dụng cho lần sau. 
    - Kích nút **Gửi**: để gửi email tới người nhận
 
-   ![thumoiphongvan](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\thumoiphongvan.PNG)
+   ![](images/thumoiphongvan.PNG)
 
 #### Cập nhật quá trình thực hiện lịch phỏng vấn
 
@@ -235,7 +235,7 @@ Người phụ trách tuyển dụng sẽ chuyển lịch phỏng vấn sang tr�
 
 2. Kéo thả các lịch phỏng vấn về các trạng thái tương ứng tình hình lịch thực hiện phỏng vấn
 
-   ![phongvan_2](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\phongvan_2.PNG)
+   ![](images/phongvan_1.PNG)
 
 - Trạng thái **Dự thảo**: khi mới tạo lịch phỏng vấn 
 - Trạng thái **Đã đặt lịch**: khi lịch phỏng vấn đã được sắp xếp tốt như lịch họp đã được duyệt, hội đồng phỏng vấn được mời xong, danh sách ứng viên đã xác định ... 
@@ -261,7 +261,7 @@ Cho phép người dùng xem và tải CV của ứng viên.
 
 4. Tại phần màn hình thảo luận, kích tải tệp CV của ứng viên nếu có tại phần Tệp đính kèm
 
-   ![xemCV](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\xemCV.PNG)
+   ![](images/xemCV.PNG)
 
 #### Đánh giá ứng viên trong buổi phỏng vấn
 
@@ -311,7 +311,7 @@ Người phụ trách tuyển dụng có thể xuất báo cáo tổng hợp đ�
 
 3. Kích chọn **Xuất báo cáo**
 
-   ![baocaodanhgia](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\baocaodanhgia.PNG)
+   ![](images/baocaodanhgia.PNG)
 
 ### Kết quả tuyển dụng
 
