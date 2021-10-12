@@ -158,7 +158,7 @@ Trong quá trình trình ký văn bản mà có nhu cầu thay đổi người k
 3. Click **Chọn**: Thực hiện thay đổi người ký thành công. Nếu đến lượt người đó ký thì sẽ chuyển trình ký tới người vừa được đổi. 
 
 
-#### Đọc nội dung văn bản trình ký
+### Đọc nội dung văn bản trình ký
 
 Người dùng có thể đọc nội dung văn bản trình ký trực tiếp trên hệ thống với một số định dạng như pdf, ảnh.
 
