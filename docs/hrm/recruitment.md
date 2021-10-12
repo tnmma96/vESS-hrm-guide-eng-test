@@ -6,7 +6,7 @@ Phân hệ Tuyển dụng có chức năng quản lý toàn bộ quá trình tuy
 
 **Quy trình tổng quan** 
 
-![Tuyendung_1](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Tuyendung_1.jpg)
+![](images/Tuyendung_1.jpg)
 
 #### **Mô tả nghiệp vụ**
 
@@ -29,7 +29,9 @@ Căn cứ theo nhu cầu tuyển dụng của các đơn vị, phòng ban, ngư�
 
 1. Vào **Cấu hình** -> **Vị trí công việc** hoặc vào **Ứng viên** -> **Theo vị trí công việc**
 
-   ![vitricongviec_1](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\vitricongviec_1.PNG)
+   ![](images/vitricongviec_1.PNG)
+
+   
 
 2. Kích nút **Tạo mới** 
 
@@ -37,11 +39,13 @@ Căn cứ theo nhu cầu tuyển dụng của các đơn vị, phòng ban, ngư�
 
    - **Tab Mô tả công việc**: các thông tin mô tả chi tiết vị trí công việc tuyển dụng sẽ được hiển thị trên các website tuyển dụng. 
 
-     ![vitricongviec_2](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\vitricongviec_2.PNG)
+     ![](images/vitricongviec_2.PNG)
+
+     
 
    - **Tab Tuyển dụng**: nhập các thông tin chi tiết cho vị trí ứng dụng
 
-     ![vitricongviec_3](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\vitricongviec_3.PNG)
+     ![](images/vitricongviec_3.PNG)
 
      - Trang web:  chọn website sẽ đẩy thông tin tuyển 
 
@@ -55,10 +59,8 @@ Căn cứ theo nhu cầu tuyển dụng của các đơn vị, phòng ban, ngư�
 
      - Người tuyển dụng: người phụ trách tuyển dụng cho vị trí này, mặc định là người dùng đang đăng nhập và có thể sửa lại. 
 
-   
-
    3.  Kích **Lưu**  : Thông tin  về vị trí công việc cần tuyển được lưu lại. 
-   4.   Để xem thông tin tuyển của vị trí được đăng tải trên website, kích nút <img src="D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\denweb.PNG" alt="denweb" style="zoom: 67%;" />
+   4.   Để xem thông tin tuyển của vị trí được đăng tải trên website, kích nút <img src="images/denweb.PNG" style="zoom:80%;" /> 
 
 ## Đăng tin tuyển dụng trên website
 
@@ -70,7 +72,7 @@ Sau khi tạo được thông tin vị trí công việc cần tuyển dụng, n
 
 1. Vào **Ứng viên** -> **Vị trí công việc**
 
-   ![ungvien_vitricongviec1](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\ungvien_vitricongviec1.PNG)
+   ![](images/ungvien_vitricongviec1.PNG)
 
 2.  Tích chọn  để đăng tin trên website tuyển dụng đã thiết lập 
 
@@ -90,11 +92,11 @@ Hồ sơ ứng viên được tự động tạo trên ứng dụng tuyển dụ
 
 1. Vào màn hình **Ứng viên** -> **Hồ sơ xin việc**
 
-   ![Ungvien_hoso1](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Ungvien_hoso1.PNG)
+   ![](images/Ungvien_hoso1.PNG)
 
 2. Kích **Tạo mới** 
 
-   ![Ungvien_hoso2](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Ungvien_hoso2.PNG)
+   ![](images/Ungvien_hoso2.PNG)
 
 3. Nhập thông tin hồ sơ ứng viên
 
@@ -113,7 +115,7 @@ Hồ sơ ứng viên được tự động tạo trên ứng dụng tuyển dụ
 
      Cách 2: vào chi tiết ứng viên, kích nút **Thêm các tệp đính kèm**
 
-   ![Ungvien_hoso3](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Ungvien_hoso3.PNG)
+   ![](images/Ungvien_hoso3.PNG)
 
 ## Tìm kiếm hồ sơ ứng viên
 
@@ -131,7 +133,9 @@ Người phụ trách tuyển dụng tìm kiếm hồ sơ ứng viên theo nhi�
 
    Hiển thị danh sách hồ sơ ứng viên và trạng thái tuyển dụng của ứng viên đó. 
 
-   ![Ungvien_hoso1](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Ungvien_hoso1.PNG)
+   ![](images/Ungvien_hoso1.PNG)
+   
+   
 
 
 ## Xem danh sách hồ sơ ứng viên ứng tuyển cho vị trí công việc
@@ -144,11 +148,11 @@ Người phụ trách tuyển dụng tìm kiếm hồ sơ ứng viên theo nhi�
 
 2. Tại bản ghi vị trí công việc, kích nút **Ứng viên**
 
-   ![vitricongviec_5](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\vitricongviec_5.PNG)
+   ![](images/vitricongviec_5.PNG)
 
 3.  Hiển thị danh sách hồ sơ ứng tuyển cho vị trí công việc và trạng thái tuyển dụng 
 
-   ![vitricongviec_6](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\vitricongviec_6.PNG) 
+   ![](images/vitricongviec_6.PNG)
 
 ## Thêm mới lịch phỏng vấn
 
@@ -161,7 +165,7 @@ Trước mỗi vòng phỏng vấn, người phụ trách tuyển dụng thực 
 1. Vào **Ứng viên** -> **Tổ chức phỏng vấn**
 2. Khai báo thông tin Lịch tuyển dụng:
 
-![img](images/clip_image109.jpg)
+![](images/clip_image109.jpg)
 
 ***Lưu ý***
 
@@ -170,10 +174,12 @@ Trước mỗi vòng phỏng vấn, người phụ trách tuyển dụng thực 
   - Tùy chọn này hiển thị khi có tích hợp phân hệ Lịch
   - Nếu tích chọn: khi tạo lịch phỏng vấn xong sẽ đồng thời tạo lịch họp trên bên hệ Lịch. 
   - Nếu không tích chọn: Chỉ tạo lịch phỏng vấn ở phân hệ tuyển dụng mà không tạo lịch họp nào trên lịch. 
-- Tab ứng viên: 
+- Tab **ứng viên**: 
   - Kích  nút **Thêm một dòng**: để chọn thêm các ứng viên từ danh sách hồ sơ ứng viên
   - Chỉ chọn ứng viên ở trạng thái **Thẩm định ban đầu, phỏng vấn lần 1, phỏng vấn lần 2**
   - Ứng viên có vị trí công việc chưa được thiết lập mẫu đánh giá sẽ hiển thị cảnh báo ***Vị trí công việc chưa được thiết lập mẫu đánh giá*** . Khi đó, trước khi phỏng vấn đánh giá thì cần phải thiết lập mẫu đánh giá cho vị trí này để đánh giá được các ứng viên. 
+- Tab **Chi tiết cuộc phỏng vấn**
+  - Khai báo các thông tin 
 
 3. Kích nút “**Lưu**”: tạo lịch phỏng vấn thành công, trạng thái lịch phỏng vấn được tạo là **Mới tạo**
 
@@ -310,11 +316,11 @@ Người phụ trách tuyển dụng căn cứ kết quả thẩm định hoặc
 
 3. Kéo thả bản ghi ứng viên sang cột ứng với trạng thái cần chuyển 
 
-   ![Ungvien_hoso1](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Ungvien_hoso1.PNG)
+   ![](images/Ungvien_hoso1.PNG)
 
    4.  Để cập nhật trạng thái cũng có thể kích vào chi tiết hồ sơ ứng viên -> kích chọn trạng thái tương ứng. 
 
-      ![Ungvien_hoso4](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Ungvien_hoso4.PNG) 
+       ![](images/Ungvien_hoso4.PNG)
 
 ## Ký hợp đồng và tạo thông tin nhân viên 
 
@@ -330,13 +336,15 @@ Khi ứng viên hoàn thành ký hợp đồng lao động với công ty, ngư�
 
 3. Kích vào bản ghi ứng viên
 
-4. Tại màn hình **Thông tin ứng viên**, trên thanh trạng thái -> Chọn trạng thái tương ứng cho hoàn tất quá trình tuyển dụng. ![Ungvien_hoso4](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Ungvien_hoso4.PNG)
+4. Tại màn hình **Thông tin ứng viên**, trên thanh trạng thái -> Chọn trạng thái tương ứng cho hoàn tất quá trình tuyển dụng. 
+
+   ![](images/Ungvien_hoso4.PNG)
 
 5. Kích nút **Tạo nhân viên**: Chuyển màn hình tạo hồ sơ nhân viên.
 
    Người phụ trách tuyển dụng nhập các thông tin cần thiết khi tạo nhân viên và lưu lại. Nhân viên được tạo sang hệ thống nhân sự. 
 
-   ![hoso_taonhanvien](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\hoso_taonhanvien.PNG)
+   ![](images/hoso_taonhanvien.PNG)
 
 ## Từ chối tuyển dụng
 
@@ -354,18 +362,20 @@ Khi không đạt được kết quả tuyển dụng hoặc không đạt thỏ
 
 4. Tại màn hình **Thông tin ứng viên** : kích nút **Từ chối**  
 
-   ![Ungvien_hoso4](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Ungvien_hoso4.PNG)
+   ![](images/Ungvien_hoso4.PNG)
 
 5. Nhập lý do từ chối  và lưu lại
 
    ***Lưu ý:*** 
 
    - Lý do từ chối được thiết lập sẵn trong phần **Cấu hình**-> **Lý do từ chối**
-   - ![Ungvien_hoso6](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Ungvien_hoso6.PNG)
-
-   Hồ sơ ứng viên được đánh dấu **Bị từ chối**
-
-   ![Ungvien_hoso7](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\Ungvien_hoso7.PNG)
+   
+     ![](images/Ungvien_hoso6.PNG)
+   
+   - Hồ sơ ứng viên được đánh dấu **Bị từ chối**
+   
+   
+   ![](images/Ungvien_hoso7.PNG)
 
 
 
@@ -383,10 +393,13 @@ Sau mỗi đợt tuyển dụng hoặc khi phát sinh nhu cầu, người phụ 
 
    - Dạng đồ thị: 
 
-     ![baocaophantich_1](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\baocaophantich_1.PNG)
+     ![](images/baocaophantich_1.PNG)
 
    - Dạng danh sách tổng hợp
 
-     ![baocaophantich_2](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\baocaophantich_2.PNG)
+     ![](images/baocaophantich_2.PNG)
 
 3. Kích vào từng thành phần trong báo cáo tổng hợp để xem danh sách ứng viên chi tiết tương ứng
+
+   
+
