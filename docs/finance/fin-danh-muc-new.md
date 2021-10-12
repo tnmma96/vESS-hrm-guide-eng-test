@@ -1,10 +1,10 @@
-**Khai báo danh mục**
+# **Khai báo danh mục**
 
 Thực hiện hướng dẫn về các Danh mục cần khai báo trên ứng dựng Kế toán. Việc khai báo các Danh mục có thể được thực hiện tại bất kỳ thời điểm nào tùy thuộc người sử dụng: có thể trước thời điểm nhập chứng từ hay thực hiện được ngay tại thời điểm nhập chứng từ.
 
-#### **Đối tượng**
+## **Đối tượng**
 
-##### **Nhóm đối tượng**
+### **Nhóm đối tượng**
 
 **Mục đích**
 
@@ -31,7 +31,7 @@ Thông tin **Danh mục Nhóm đối tượng** được hiển thị để ngư
 
 3. Nhấn nút **Lưu**
 
-##### **Khách hàng**
+### **Khách hàng**
 
 **Mục đích**
 
@@ -72,7 +72,7 @@ Thông tin **Danh mục Khách hàng** được hiển thị để người dùn
 
 ![image-20210929153938392](images/image-20210929153938392.png)
 
-##### **Nhà cung cấp**
+### **Nhà cung cấp**
 
 **Mục đích**
 
@@ -109,9 +109,9 @@ Thông tin **Nhà cung cấp** được hiển thị để người dùng khai b
 
 ![image-20210929153938392](images/image-20210929153938392.png)
 
-#### Hàng hóa vật tư
+## Hàng hóa vật tư
 
-##### **Nhóm sản phẩm**
+### **Nhóm sản phẩm**
 
 **Mục đích**
 
@@ -140,7 +140,7 @@ Thông tin **Nhóm sản phẩm** được hiển thị để người dùng kha
 - Nhấn **Sửa**: Nếu muốn thay đổi thông tin Nhóm sản phẩm đã khai báo
 - Với các Nhóm sản phẩm không có nhu cầu theo dõi tiếp, sử dụng chức năng **Sửa** và Bỏ chọn **'Có hiệu lực'**
 
-##### **Kho**
+### **Kho**
 
 **Mục đích**
 
@@ -164,15 +164,77 @@ Chức năng Danh mục **Kho** được quản lý tập trung tại phần **D
 
 - Nhấn **Sửa**: Nếu muốn thay đổi thông tin Nhóm sản phẩm đã khai báo
 
-#### **Kế toán**
+## **Kế toán**
 
-##### **Hệ thống tài khoản**
+### **Hệ thống tài khoản**
 
-##### **Tiền tệ**
+**Mục đích**
 
-#### **Ngân hàng**
+Quản lý toàn bộ thông tin Tài khoản của Doanh nghiệp sử dụng hệ thống Kế toán.
 
-##### **Ngân hàng**
+Hệ thống đã thiết lập sẵn hệ thống tài khoản theo đúng chế độ kế toán đã được chọn khi Cài đặt và chọn Chế độ kế toán tại thời điểm đầu. Kế toán doanh nghiệp vẫn có thể bổ sung, sửa đổi hoặc xóa bỏ các tài khoản đã có để phù hợp với yêu cầu quản lý thực tế của doanh nghiệp. 
+
+Chức năng Danh mục **Hệ thống tài khoản** được quản lý tập trung tại phần **Danh mục** của phân hệ **Kế toán**
+
+**Các bước thực hiện**
+
+1. Vào phân hệ **Kế toán**; chọn chức năng **Cấu hình\Danh mục**: chọn **Hệ thống tài khoản** và nhấn nút **Chi tiết**
+
+![](images/fin_DM_HeThongTK_1.png)
+
+Thông tin **Hệ thống tài khoản** được hiển thị để người dùng khai báo
+
+![](images/fin_DM_HeThongTK_2.png)
+
+2. Để khai báo thêm Nhóm người dùng, người dùng nhấn nút **Tạo** trên màn hình **Hệ thống tài khoản** và thực hiện Khai báo các thông tin: 
+
+![](images/fin_DM_HeThongTK_Tao.png)
+
+- Sau khai báo về Mã và Tên tài khoản; người dùng thực hiện Thiết lập thông tin cho tài khoản đã khai
+- Việc thiết lập sẽ liên quan đến toàn bộ luồng dữ liệu hạch toán về sau của 1 tài khoản
+
+![](images/fin_DM_HeThongTK_Tao_ThietLap.png)
+
+3. Nhấn nút **Lưu**
+
+**Lưu ý:**
+
+- Nhấn **Sửa**: Nếu muốn thay đổi thông tin Tài khoản đã khai báo
+- Với các Tài khoản không có nhu cầu theo dõi tiếp, sử dụng chức năng **Sửa** và Bỏ chọn **'Có hiệu lực'**
+
+### **Tiền tệ**
+
+**Mục đích**
+
+Quản lý toàn bộ thông tin Tiền tệ của Doanh nghiệp sử dụng hệ thống Kế toán.
+
+Hệ thống đã thiết lập sẵn các Loại Tiền tệ trên thị trường. Muốn sử dụng Loại tiền nào thì Kế toán vào chuyển trạng thái Hiệu lực và khai báo thông tin Tỷ giá cho Loại tiền theo đúng thực tế.
+
+Chức năng Danh mục **Tiền tệ** được quản lý tập trung tại phần **Danh mục** của phân hệ **Kế toán**
+
+**Các bước thực hiện**
+
+1. Vào phân hệ **Kế toán**; chọn chức năng **Cấu hình\Danh mục**: chọn **Tiền tệ** và nhấn nút **Chi tiết**
+
+![](images/fin_DM_TienTe_1.png)
+
+Thông tin **Tiền tệ** được hiển thị để người dùng khai báo
+
+![](images/fin_DM_TienTe_2.png)
+
+2. Để đưa vào hoạt động Loại tiền tệ đã có, người dùng chọn thông tin Tiền tệ đó và nhấn nút **Sửa** trên màn hình **Tiền tệ** và thực hiện Cập nhật các thông tin: 
+
+![](images/fin_DM_TienTe_Sua.png)
+
+3. Nhấn nút **Lưu**
+
+**Lưu ý:**
+
+- Với các Tiền tệ không có nhu cầu theo dõi tiếp, sử dụng chức năng **Sửa** và Bỏ chọn **'Có hiệu lực'**
+
+## **Ngân hàng**
+
+### **Ngân hàng**
 
 **Mục đích**
 
@@ -206,7 +268,7 @@ Thông tin **Ngân hàng** được hiển thị để người dùng khai báo
 - Nhấn **Sửa**: Nếu muốn thay đổi thông tin Ngân hàng đã khai báo
 - Với các ngân hàng không có nhu cầu theo dõi tiếp, sử dụng chức năng **Sửa** và Bỏ chọn **'Có hiệu lực'**
 
-##### **Tài khoản ngân hàng**
+### **Tài khoản ngân hàng**
 
 **Mục đích**
 
@@ -238,17 +300,17 @@ Thông tin **Tài khoản ngân hàng** được hiển thị để người dù
 - Nhấn **Sửa**: Nếu muốn thay đổi thông tin Tài khoản Ngân hàng đã khai báo
 - Với các Tài khoản ngân hàng không có nhu cầu theo dõi tiếp, sử dụng chức năng **Sửa** và Bỏ chọn **'Có hiệu lực'**
 
-#### **Thuế**
+## **Thuế**
 
 *[Các chức năng liên quan đến quản lý về Thuế]*
 
-##### **Nhóm thuế**
+### **Nhóm thuế**
 
-##### **Thuế**
+### **Thuế**
 
-#### **Chi phí**
+## **Chi phí**
 
-##### **Đối tượng tập hợp chi phí**
+### **Đối tượng tập hợp chi phí**
 
 **Mục đích**
 
@@ -277,7 +339,7 @@ Thông tin **Đối tượng tập hợp chi phí** được hiển thị để 
 - Nhấn **Sửa**: Nếu muốn thay đổi thông tin Đối tượng tập hợp chi phí đã khai báo
 - Với các Đối tượng tập hợp chi phí không có nhu cầu theo dõi tiếp, sử dụng chức năng **Sửa** và Bỏ chọn **'Có hiệu lực'**
 
-##### **Khoản mục chi phí**
+### **Khoản mục chi phí**
 
 **Mục đích**
 
@@ -306,9 +368,9 @@ Thông tin **Khoản mục chi phí** được hiển thị để người dùng
 - Nhấn **Sửa**: Nếu muốn thay đổi thông tin Khoản mục chi phí phí đã khai báo
 - Với các Khoản mục chi phí không có nhu cầu theo dõi tiếp, sử dụng chức năng **Sửa** và Bỏ chọn **'Có hiệu lực'**
 
-#### **Chứng từ, sổ sách**
+## **Chứng từ, sổ sách**
 
-##### **Sổ kế toán**
+### **Sổ kế toán**
 
 **Mục đích**
 
@@ -338,7 +400,7 @@ Thông tin **Danh mục Sổ kế toán** được hiển thị để người d
 
 3. Nhấn nút **Lưu**
 
-##### **Nhóm chứng từ**
+### **Nhóm chứng từ**
 
 **Mục đích**
 
@@ -360,11 +422,3 @@ Chức năng này cho phép người dùng khai báo Nhóm chứng từ sử d�
 - Domain filter: Điều kiện để lọc dữ liệu, áp dụng cho phần Đánh CTGS
 
 3. Nhấn nút **Lưu**
-
-#### **Cơ cấu tổ chức**
-
-*[Các chức năng liên quan đến quản lý Đơn vị, phòng ban]*
-
-##### **Công ty**
-
-##### **Đơn vị**
