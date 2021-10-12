@@ -139,6 +139,52 @@ Trong quá trình công tác tại Công ty, nhân viên sẽ có các thông ti
 
 ![image-20210930165959740](images/image-20210930165959740.png)
 
+### Cập nhật giảm trừ gia cảnh
+
+**Đối tượng thực hiện**: Nhân viên nhân sự
+
+**Các bước thực hiện**
+
+**Bước 1:** Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình **Danh sách nhân viên**
+
+Bước 2: Tại tab **Giảm trừ gia cảnh** chọn **Sửa>Thêm một dòng**, thực hiện thay đổi thông tin người phụ thuộc của nhân viên
+
+![image-20210930142133256](images/image-20210930142133256.png)
+
+### Cập nhật kinh nghiệm và kỹ năng
+
+**Đối tượng thực hiện**: Nhân viên nhân sự
+
+**Các bước thực hiện**
+
+**Bước 1:** Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình **Danh sách nhân viên**
+
+**Bước 2:** Tại tab **Kinh nghiệm và kỹ năng** chọn **Sửa>Thêm mới**, thực hiện cập nhật thông tin về kinh nghiệm (ngoài công ty), chứng chỉ mà nhân viên đã đạt được trong quá trình làm việc, các kỹ năng bên cạnh kỹ năng liên quan đến công việc mà còn kỹ năng mềm của nhân viên
+
+![image-20211012084809495](images/image-20211012084809495.png)
+
+- Kinh nghiệm: lưu trữ các thông tin về kinh nghiệm trước khi được tuyển dụng vào công ty, nhân viên đã học qua trường, chứng chỉ, đạt được bằng cấp nào.
+
+  - Loại: gồm có 3 loại Kinh nghiệm (Experiance), Trình độ (Education), Chứng chỉ (Certification)
+  - Ngày bắt đầu: ngày bắt đầu làm việc/học tập
+  - Ngày kết thúc: ngày kết thúc làm việc/học tập
+
+  ![image-20211012092721317](images/image-20211012092721317.png)
+
+- Kỹ năng: lưu trữ thông tin về kỹ năng phục vụ cho công việc, kỹ năng mềm (hát, đàn, ngoại ngữ)
+
+  ![image-20211012151320905](images/image-20211012151320905.png)
+
+  + Loại kỹ năng: các nhóm loại kỹ năng về Âm nhạc, Ngoại ngữ, Marketing, .....
+  + Kỹ năng: tên kỹ năng 
+  + Cấp kỹ năng: lựa chọn cấp kỹ năng 
+
+### Cập nhật đăng ký công
+
+Các đăng ký công (xin nghỉ phép, tăng ca, nghỉ việc riêng, nghỉ không lương,...) của nhân viên thực hiện đăng ký trên điện thoại cá nhân sẽ được đồng bộ và ghi lại trong tab Đăng ký công, kể cả các đơn được duyệt, bị từ chối, đơn nháp 
+
+![image-20211012152217781](images/image-20211012152217781.png)
+
 ### Cập nhật hợp đồng, quá trình làm việc của nhân viên
 
 Nhân viên ký hợp đồng có thời hạn trước khi đến hạn kết thúc hợp đồng cũ, hệ thống sẽ đưa ra cảnh báo các hợp đồng sắp hết hạn để nhân viên nhân sự thực hiện đề xuất hợp đồng lên cấp trên nếu nhân viên có ý định ký tiếp hợp đồng với công ty.
