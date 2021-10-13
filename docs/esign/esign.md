@@ -215,9 +215,7 @@ Các thông báo trong quá trình ký văn bản đều hiển thị trong mụ
 
 1. Người dùng kích vào nút thông báo (hình quả chuông)
 
-![img](images/clip_image101.png)
-
-
+![](images/clip_image048.jpg)
 
 2. Từ danh sách các thông báo hiển thị, kích vào 1 thông báo quan tâm thuộc phần ký số
 
