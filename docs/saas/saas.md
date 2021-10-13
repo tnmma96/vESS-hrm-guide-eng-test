@@ -6,7 +6,7 @@ Các bước để bắt đầu sử dụng hệ thống vESS như sau:
 
 ***Bước 1: Đăng ký tài khoản sử dụng vESS***
 
- a. Người dùng truy cập vào trang web vess.store, sau đó chọn **Đăng ký ngay**
+ a. Người dùng truy cập vào trang web vess.vn, sau đó chọn **Đăng ký ngay**
 
 ![image-20210930175930358](../images/image-20210930175930358.png)
 
@@ -65,7 +65,7 @@ Người dùng trở về tab cũ để tiếp tục cài đặt các ứng dụ
 
 Ngay khi khởi động ứng dụng đầu tiên, tức là người dùng đã khởi động 1 miền ứng dụng riêng cho doanh nghiệp. Đó là nơi để quản lý và thực hiện các nghiệp vụ.
 
-Để khởi tạo dữ liệu ban đầu cho doanh nghiệp, khách hàng xem hướng dẫn chi tiết ***<u>Tại đây</u>***
+Để khởi tạo dữ liệu ban đầu cho doanh nghiệp, khách hàng xem hướng dẫn chi tiết [Tại đây](#)
 
 ***Bước 4: Làm việc với các phân hệ ứng dụng con***
 
@@ -87,7 +87,7 @@ Khách hàng có thể gửi yêu cầu hỗ trợ bằng cách thực hiện tr
 
 Khuyến khích khách hàng thực hiện gửi yêu cầu trên hệ thống theo cách sau:
 
--  Khách hàng truy cập vess.store, đăng nhập hệ thống theo email và mật khẩu đã đăng ký. Hệ thống hiển thị màn hình trang chủ danh sách các ứng dụng đã cài đặt. Nếu người dùng chưa cài đặt ứng dụng nào, hệ thống hiển thị màn hình danh sách tất cả các ứng dụng. 
+-  Khách hàng truy cập vess.vn, đăng nhập hệ thống theo email và mật khẩu đã đăng ký. Hệ thống hiển thị màn hình trang chủ danh sách các ứng dụng đã cài đặt. Nếu người dùng chưa cài đặt ứng dụng nào, hệ thống hiển thị màn hình danh sách tất cả các ứng dụng. 
 -  Khách hàng bấm mũi tên bên cạnh ảnh đại diện ở góc dưới bên trái màn hình, chọn **Hỗ trợ dịch vụ**, hệ thống hiển thị màn hình danh sách yêu cầu hỗ trợ của khách hàng
 
 ![image-20210930180849298](../images/image-20210930180849298.png)
