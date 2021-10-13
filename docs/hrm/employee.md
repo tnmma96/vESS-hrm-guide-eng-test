@@ -139,6 +139,55 @@ Trong quá trình công tác tại Công ty, nhân viên sẽ có các thông ti
 
 ![image-20210930165959740](images/image-20210930165959740.png)
 
+### Các quyết định điều chuyển, bổ nhiệm, miễn nhiệm
+
+**Đối tượng thực hiện**: Nhân viên nhân sự
+
+**Các bước thực hiện**
+
+**Bước 1:** Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình **Danh sách nhân viên**
+
+**Bước 2:** Tại tab **Quá trình làm việc** chọn **Sửa>Thêm mới**, thực hiện cập nhật thông tin về sự thay đổi về chức danh của nhân viên trong quá trình làm việc như: Bổ nhiệm, Miễn nhiệm, Điều chuyển, Tiếp nhận
+
+- Bổ nhiệm: Nhân viên nhân sự được phép thay đổi thông tin về Chức danh - đơn vị
+- Tiếp nhận: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng
+-  Điều chuyển: Nhân viên nhân sự được phép thay đổi thông tin về Chức danh - đơn vị, Lương và bảo hiểm
+
+![image-20211013092111929](images/image-20211013092111929.png)
+
+### Các quyết định nâng lương
+
+**Đối tượng thực hiện**: Nhân viên nhân sự
+
+**Các bước thực hiện**
+
+**Bước 1:** Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình **Danh sách nhân viên**
+
+**Bước 2:** Tại tab **Quá trình làm việc** chọn **Sửa>Thêm mới**, thực hiện cập nhật thông tin về lương của nhân viên như: Nâng lương hàng kỳ, Nâng lương đột xuất, Nâng lương bảo hiểm.
+
+- Nâng lương hàng kỳ: Nhân viên nhân sự được phép thay đổi thông tin về Lương và bảo hiểm
+- Nâng lương đột xuất: Nhân viên nhân sự được phép thay đổi thông tin về Lương và bảo hiểm
+- Nâng lương bảo hiểm: Nhân viên nhân sự được phép thay đổi thông tin về Lương và bảo hiểm
+
+![image-20211013092208148](images/image-20211013092208148.png)
+
+### Quá trình làm việc, công tác, nghỉ thai sản, nghỉ dài ngày
+
+**Đối tượng thực hiện**: Nhân viên nhân sự
+
+**Các bước thực hiện**
+
+**Bước 1:** Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình **Danh sách nhân viên**
+
+**Bước 2:** Tại tab **Quá trình làm việc** chọn **Sửa>Thêm mới**, thực hiện cập nhật thông tin về quá trình nghỉ dài ngày của nhân viên như: Nghỉ thai sản, Nghỉ ốm dài ngày, Nghỉ chờ hưu, Nghỉ tạm hoãn hợp đồng
+
+- Nghỉ thai sản: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng
+- Nghỉ ốm dài ngày: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng
+- Nghỉ chờ hưu: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng
+- Nghỉ tạm hoãn hợp đồng: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng
+
+![image-20211013092456703](images/image-20211013092456703.png)
+
 ### Cập nhật giảm trừ gia cảnh
 
 **Đối tượng thực hiện**: Nhân viên nhân sự

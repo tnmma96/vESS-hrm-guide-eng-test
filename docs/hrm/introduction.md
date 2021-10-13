@@ -23,8 +23,18 @@ Nếu doanh nghiệp sử dụng phân hệ Quản lý tuyển dụng (thuộc n
 
 Phân hệ Quản lý nhân sự bao gồm các phân hệ con:
 
+![image-20211012173233022](images/image-20211012173233022.png)
+
 - [Hồ sơ Nhân viên](../../hrm/employee/#quan-ly-ho-so-nhan-vien) 
   + [Quản lý hồ sơ nhân viên](../../hrm/employee/#them-moi-ho-so-nhan-vien)
+    + Thêm mới hồ sơ nhân viên
+    + Cập nhật thông tin trong quá trình làm việc
+    + Cập nhật thông tin gia đình, giảm trừ gia cảnh
+    + Các quyết định điều chuyển, tiếp nhận, miễn nhiệm
+    + Các quyết định khen thưởng, nâng lương
+    + Lưu trữ thông tin về quá trình lương chức danh, lương bảo hiểm
+    + Quá trình làm việc, công tác, nghỉ dài ngày, nghỉ ốm tai nạn,...
+    + Báo cáo
   + [Hợp đồng và cảnh báo hợp đồng](../../hrm/employee/#cap-nhat-hop-ong-qua-trinh-lam-viec-cua-nhan-vien)
 - [Chấm công - Đăng ký công](../../hrm/attendance/#gioi-thieu-chuc-nang-cham-cong-ang-ky-cong)
   + [Thiết lập kế hoạch nghỉ phép cho nhân viên](../../hrm/attendance/id=thiet-lap-ke-hoach-nghi-phep-cho-nhan-vien). 
