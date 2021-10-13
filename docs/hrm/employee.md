@@ -230,7 +230,7 @@ Bước 2: Tại tab **Giảm trừ gia cảnh** chọn **Sửa>Thêm một dòn
 
 ### Cập nhật đăng ký công
 
-Các đăng ký công (xin nghỉ phép, tăng ca, nghỉ việc riêng, nghỉ không lương,...) của nhân viên thực hiện đăng ký trên điện thoại cá nhân sẽ được đồng bộ và ghi lại trong tab Đăng ký công, kể cả các đơn được duyệt, bị từ chối, đơn nháp 
+Các đăng ký công (xin nghỉ phép, tăng ca, nghỉ việc riêng, nghỉ không lương,...) của nhân viên thực hiện đăng ký trên điện thoại cá nhân sẽ được đồng bộ và ghi lại trong tab Đăng ký công, kể cả các đơn được duyệt, bị từ chối, đơn nháp.
 
 ![image-20211012152217781](images/image-20211012152217781.png)
 
@@ -272,7 +272,9 @@ Nhân viên ký hợp đồng có thời hạn trước khi đến hạn kết t
 
 ![image-20210930173425088](images/image-20210930173425088.png)
 
-- Tại cột **Mới**, Trưởng phòng nhân sự thực hiện review hợp đồng, nếu đồng ý phê duyệt thì chọn **Phê duyệt**, nếu không đồng ý thì chọ **Hủy**
+**Bước 2:** 
+
+- Tại cột **Mới**, Trưởng phòng nhân sự thực hiện review hợp đồng, nếu đồng ý phê duyệt thì chọn **Phê duyệt**, nếu không đồng ý thì chọn **Hủy**
   - Hợp đồng được phê duyệt sẽ chuyển sang cột **Đã duyệt**.
     - Nếu ngày phê duyệt là ngày hợp đồng có hiệu lực thì hợp đồng sẽ chuyển sang cột **Đang chạy** luôn.
     - Nếu ngày phê duyệt < ngày hợp đồng có hiệu lực thì hợp đồng sẽ tự động chuyển sang cột **Đang chạy** vào ngày hợp đồng có hiệu lực.
@@ -288,8 +290,8 @@ Nếu nhân viên không có ý định ý tiếp với công ty, khi hợp đ�
 
 **Bước 1:** Tìm kiếm nhân viên muốn cập nhật trạng thái **Nghỉ việc**
 
-**Bước 2**: Chọn nhân viên và chọn **Sửa>Quá trình làm việc**
+**Bước 2**: Chọn nhân viên và chọn **Sửa>Quá trình làm việc>Thêm mới** sau đó nhập các thông tin về quyết định chấm dứt hợp đồng với nhân viên
 
 ![image-20210930175053866](images/image-20210930175053866.png)
 
-**Bước 3:** Chọn **Lưu và đóng**, nhân viên này sẽ có trạng thái là Nghỉ việc, nhân viên nhân sự thực hiện Lưu trữ nhân viên nghỉ việc.
+**Bước 3:** Chọn **Lưu và đóng**, nhân viên này sẽ có trạng thái là Nghỉ việc, nhân viên nhân sự thực hiện Lưu trữ nhân viên nghỉ việc. Việc lưu trữ hoàn toàn có thể khôi phục được lại hồ sơ nhân viên, trong trường hợp nhân viên quay trở lại làm việc cho công ty, khi đó nhân viên nhân sự sẽ không tốn nỗ lực nhập lại hồ sơ thông tin mà chỉ cần thay đổi các thông tin cần thiết (nếu có).
