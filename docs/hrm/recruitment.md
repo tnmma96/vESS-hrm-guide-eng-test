@@ -1,25 +1,32 @@
-# Quản lý tuyển dụng
+## Quản lý tuyển dụng
 
 Phân hệ Tuyển dụng có chức năng quản lý toàn bộ quá trình tuyển dụng: Từ lúc tạo vị trí công việc có nhu cầu tuyển, đăng tin và tạo form ứng tuyển trực tuyến trên website, tạo và lưu trữ hồ sơ ứng viên, thẩm định sàng lọc hồ sơ, lập lịch thi/phỏng vấn, cập nhật kết quả tuyển dụng và tạo hồ sơ nhân viên sang hệ thống nhân sự khi tuyển dụng thành công. 
 
-## **Mô tả nghiệp vụ**
+### **Quy trình nghiệp vụ**
 
-**Quy trình tổng quan** 
+
 
 ![](images/Tuyendung_1.jpg)
 
-#### **Mô tả nghiệp vụ**
+**Mô tả nghiệp vụ**
 
 Quá trình tuyển dụng sẽ thực hiện theo quy trình sau:
 
 1. Nhân sự phụ trách tuyển dụng căn cứ theo nhu cầu của đơn vị, phòng ban, tạo thông tin vị trí tuyển dụng, nhu cầu tuyển.
+
 2. Nhân sự phụ trách tuyển dụng đăng tin tuyên dụng cho vị trí cần tuyển lên các website, cho phép ứng viên quan tâm tới có thể ứng tuyển qua mẫu ứng tuyển trực tuyến. 
+
 3. Nhân sự phụ trách tuyển dụng nhận được thông tin các ứng viên, tiến hành thẩm định, đánh giá sàng lọc sơ bộ các hồ sơ ứng viên. 
+
 4. Nhân sự phụ trách tuyển dụng lập lịch thi / phỏng vấn và gửi thư mời tới ứng viên. Hội đồng phỏng vấn thực hiện phỏng vấn và đánh giá ứng viên theo mẫu đánh giá phù hợp với vị trí ứng tuyển. 
+
 5. Nhân sự phụ trách tuyển dụng căn cứ kết quả đánh giá của các vòng thi và phỏng vấn, cập nhật kết quả tuyển dụng. Trường hợp ứng viên đạt yêu cầu sẽ gửi thư trúng tuyển và các thỏa thuận như lương, chế độ... 
+
 6. Với các ứng viên đạt được thống nhất và ký hoàn tất hợp đồng lao động, phụ trách tuyển dụng tạo hồ sơ nhân viên sang hệ thống nhân sự. 
 
-## Tạo vị trí công việc có nhu cầu tuyển dụng
+### Vị trí tuyển dụng
+
+#### **Tạo vị trí công việc cần tuyển dụng**
 
 Căn cứ theo nhu cầu tuyển dụng của các đơn vị, phòng ban, người phụ trách công tác tuyển đụng sẽ tạo vị trí tuyển đụng trên hệ thống. Thông tin tuyển dụng sau đó sẽ được đưa lên các trang website tuyển dụng để tiếp cận ứng viên. 
 
@@ -62,7 +69,7 @@ Căn cứ theo nhu cầu tuyển dụng của các đơn vị, phòng ban, ngư�
    3.  Kích **Lưu**  : Thông tin  về vị trí công việc cần tuyển được lưu lại. 
    4.   Để xem thông tin tuyển của vị trí được đăng tải trên website, kích nút <img src="images/denweb.PNG" style="zoom:80%;" /> 
 
-## Đăng tin tuyển dụng trên website
+#### Đăng tin tuyển dụng trên website
 
 Sau khi tạo được thông tin vị trí công việc cần tuyển dụng, người phụ trách công tác tuyển dụng sẽ chọn đăng tin lên website tuyển dụng hoặc không. 
 
@@ -82,7 +89,9 @@ Sau khi tạo được thông tin vị trí công việc cần tuyển dụng, n
 
    Khi đó dòng trạng thái **Đang tuyển** sẽ bị ẩn đi. 
 
-## Tạo mới hồ sơ ứng viên
+### Hồ sơ ứng viên
+
+#### Tạo mới hồ sơ ứng viên
 
 Hồ sơ ứng viên được tự động tạo trên ứng dụng tuyển dụng khi ứng viên nộp hồ sơ từ website tuyển dụng hoặc người phụ trách tuyển dụng cập nhật thông tin hoặc thêm mới trực tiếp với các trường hợp hồ sơ không nộp qua website. 
 
@@ -117,7 +126,7 @@ Hồ sơ ứng viên được tự động tạo trên ứng dụng tuyển dụ
 
    ![](images/Ungvien_hoso3.PNG)
 
-## Tìm kiếm hồ sơ ứng viên
+#### Tìm kiếm hồ sơ ứng viên
 
 Người phụ trách tuyển dụng tìm kiếm hồ sơ ứng viên theo nhiều tiêu chí. 
 
@@ -138,7 +147,7 @@ Người phụ trách tuyển dụng tìm kiếm hồ sơ ứng viên theo nhi�
    
 
 
-## Xem danh sách hồ sơ ứng viên ứng tuyển cho vị trí công việc
+#### Xem danh sách hồ sơ ứng viên ứng tuyển cho vị trí công việc
 
 **Đối tượng thực hiện**: Người phụ trách tuyển dụng
 
@@ -154,7 +163,9 @@ Người phụ trách tuyển dụng tìm kiếm hồ sơ ứng viên theo nhi�
 
    ![](images/vitricongviec_6.PNG)
 
-## Thêm mới lịch phỏng vấn
+### Tổ chức phỏng vấn
+
+#### Thêm mới lịch phỏng vấn
 
 Trước mỗi vòng phỏng vấn, người phụ trách tuyển dụng thực hiện sắp lịch phỏng vấn/thi tuyển cho các ứng viên, gửi thư mời đến ứng viên và hội đồng phỏng vấn với địa điểm, thời gian cụ thể ...
 
@@ -179,11 +190,11 @@ Trước mỗi vòng phỏng vấn, người phụ trách tuyển dụng thực 
   - Chỉ chọn ứng viên ở trạng thái **Thẩm định ban đầu, phỏng vấn lần 1, phỏng vấn lần 2**
   - Ứng viên có vị trí công việc chưa được thiết lập mẫu đánh giá sẽ hiển thị cảnh báo ***Vị trí công việc chưa được thiết lập mẫu đánh giá*** . Khi đó, trước khi phỏng vấn đánh giá thì cần phải thiết lập mẫu đánh giá cho vị trí này để đánh giá được các ứng viên. 
 - Tab **Chi tiết cuộc phỏng vấn**
-  - Khai báo các thông tin 
+  - Khai báo các thông tin lịch phỏng vấn như thời gian, địa điểm... 
 
 3. Kích nút “**Lưu**”: tạo lịch phỏng vấn thành công, trạng thái lịch phỏng vấn được tạo là **Mới tạo**
 
-## Gửi thư mời ứng viên tham gia phỏng vấn
+#### Gửi thư mời ứng viên tham gia phỏng vấn
 
 Sau khi sắp xếp lịch phỏng vấn, người phụ trách tuyển dụng tiến hành liên lạc với ứng viên để mời tham gia phỏng vấn và chủ động sắp xếp lại lịch phỏng vấn cho phù hợp. 
 
@@ -203,16 +214,16 @@ Mời ứng viên tham gia phỏng vấn có thể thực hiện bằng cách g�
 
 3. Tại danh sách ứng viên, kích nút **...** -> Thông báo
 
-![phongvan_1](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\phongvan_1.PNG)
+![](images/phongvan_1.PNG)
 
 4. Nhập nội dung gửi thư mời phỏng vấn và gửi cho các ứng viên
 
    - Kích nút **Lưu mẫu mới** để tạo nội dung mẫu tái sử dụng cho lần sau. 
    - Kích nút **Gửi**: để gửi email tới người nhận
 
-   ![thumoiphongvan](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\thumoiphongvan.PNG)
+   ![](images/thumoiphongvan.PNG)
 
-## Cập nhật quá trình thực hiện lịch phỏng vấn
+#### Cập nhật quá trình thực hiện lịch phỏng vấn
 
 Người phụ trách tuyển dụng sẽ chuyển lịch phỏng vấn sang trạng thái khác theo tình hình thực hiện lịch phỏng vấn.
 
@@ -224,14 +235,14 @@ Người phụ trách tuyển dụng sẽ chuyển lịch phỏng vấn sang tr�
 
 2. Kéo thả các lịch phỏng vấn về các trạng thái tương ứng tình hình lịch thực hiện phỏng vấn
 
-   ![phongvan_2](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\phongvan_2.PNG)
+   ![](images/phongvan_1.PNG)
 
 - Trạng thái **Dự thảo**: khi mới tạo lịch phỏng vấn 
 - Trạng thái **Đã đặt lịch**: khi lịch phỏng vấn đã được sắp xếp tốt như lịch họp đã được duyệt, hội đồng phỏng vấn được mời xong, danh sách ứng viên đã xác định ... 
 - Trạng thái **Đang thực hiện**: khi đang thực hiện phỏng vấn. Ở trạng thái này cho phép cập nhật kết quả đánh giá ứng viên. 
 - Trạng thái **Đã đóng**: khi buổi phỏng vấn kết thúc, các kết quả đánh giá đã được hoàn thiện. Ở trạng thái này, người dùng không được cập nhật kết quả đánh giá hay trạng thái các ứng viên... 
 
-## Xem và tải tệp CV của ứng viên
+#### Xem và tải tệp CV của ứng viên
 
 Cho phép người dùng xem và tải CV của ứng viên. 
 
@@ -250,9 +261,9 @@ Cho phép người dùng xem và tải CV của ứng viên.
 
 4. Tại phần màn hình thảo luận, kích tải tệp CV của ứng viên nếu có tại phần Tệp đính kèm
 
-   ![xemCV](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\xemCV.PNG)
+   ![](images/xemCV.PNG)
 
-## Đánh giá ứng viên trong buổi phỏng vấn
+#### Đánh giá ứng viên trong buổi phỏng vấn
 
 Thành viên hội đồng phỏng vấn sẽ ghi lại kết quả đánh giá của mình đối với các ứng viên theo mẫu đánh giá tương ứng. 
 
@@ -286,7 +297,7 @@ Thành viên hội đồng phỏng vấn sẽ ghi lại kết quả đánh giá 
 
 4. kích nút **Hoàn thành**
 
-### Xuất tổng hợp đánh giá ứng viên 
+#### Xuất tổng hợp đánh giá ứng viên 
 
 Người phụ trách tuyển dụng có thể xuất báo cáo tổng hợp đánh giá của hội đồng phỏng vấn về các ứng viên sau khi phỏng vấn. 
 
@@ -300,9 +311,11 @@ Người phụ trách tuyển dụng có thể xuất báo cáo tổng hợp đ�
 
 3. Kích chọn **Xuất báo cáo**
 
-   ![baocaodanhgia](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\recuitment\images\baocaodanhgia.PNG)
+   ![](images/baocaodanhgia.PNG)
 
-## Cập nhật kết quả tuyển dụng qua các giai đoạn
+### Kết quả tuyển dụng
+
+#### Cập nhật kết quả tuyển dụng qua các giai đoạn
 
 Người phụ trách tuyển dụng căn cứ kết quả thẩm định hoặc đánh giá phỏng vấn, chuyển hồ sơ ứng viên sang các trạng thái tiếp theo phù hợp. 
 
@@ -322,7 +335,7 @@ Người phụ trách tuyển dụng căn cứ kết quả thẩm định hoặc
 
        ![](images/Ungvien_hoso4.PNG)
 
-## Ký hợp đồng và tạo thông tin nhân viên 
+#### Ký hợp đồng và tạo thông tin nhân viên 
 
 Khi ứng viên hoàn thành ký hợp đồng lao động với công ty, người phụ trách tuyển dụng sẽ tạo thông tin nhân viên sang hệ thống nhân sự từ thông tin hồ sơ xin việc. 
 
@@ -346,7 +359,7 @@ Khi ứng viên hoàn thành ký hợp đồng lao động với công ty, ngư�
 
    ![](images/hoso_taonhanvien.PNG)
 
-## Từ chối tuyển dụng
+#### Từ chối tuyển dụng
 
 Khi không đạt được kết quả tuyển dụng hoặc không đạt thỏa thuận hợp đồng hoặc ứng viên từ chối đi làm, người phụ trách tuyển dụng sẽ cập nhật từ chối đối với ứng viên. 
 
@@ -379,7 +392,7 @@ Khi không đạt được kết quả tuyển dụng hoặc không đạt thỏ
 
 
 
-## Báo cáo phân tích tuyển dụng
+### Báo cáo phân tích tuyển dụng
 
 Sau mỗi đợt tuyển dụng hoặc khi phát sinh nhu cầu, người phụ trách tuyển dụng tiến hành lập báo cáo phân tích, thống kê tình hình tuyển dụng của đơn vị.
 

@@ -1,4 +1,4 @@
-#  Quản lý tài liệu
+##  Quản lý tài liệu
 
 ### Tạo mới tài liệu 
 
@@ -10,8 +10,6 @@ Chức năng này cho phép người dùng tạo mới tài liệu trên ứng d
 
 1. Vào **Tài liệu** > kích nút **Tạo**
 2.  Khai báo thông tin tài liệu
-
-
 
 ![img](images/clip_image035.jpg)
 
@@ -88,22 +86,29 @@ Cho phép người dùng xem được thông tin chi tiết thuộc tính của 
 
 2. Kích chọn tài liệu: hiển thị thông tin chi tiết tài liệu
 
-   ​	
+   ​	![image-20211013012132562](images/image-20211013012132562.png)
 
    ​	
 
    ​		***Lưu ý***:  
 
-   - Hiển thị các thông tin chi tiết tài liệu 
+   - Hiển thị các thông tin chi tiết tài liệu tại khung màn hình bên phải. 
+
    - Danh sách các tệp tin và tệp phụ lục (nếu có). Tại vùng danh sách này, cho phép người dùng xem/ tải từng tệp. 
+
    - Lịch sử các phiên bản (nếu có): danh sách hiển thị sắp xếp theo phiên bản giảm dần. 
-   - Các nút hoạt động thực hiện với tài liệu: 
-     - Tải tài liệu
-     - Nâng phiên bản: chỉ hiển thị khi người dùng có quyền ghi với tài liệu
-     - Cập nhật: chỉ hiển thị khi  người dùng có quyền ghi với tài liệu và  đang mở khóa
-     - Khóa/ mở khóa: chỉ hiển thị khi người dùng là người tạo tài liệu. 
+
+   - Các nút hoạt động thực hiện với tài liệu <img src="images/image-20211013012645439.png" alt="image-20211013012645439" style="zoom: 67%;" />
+     - Tải tài liệu: cho phép tải tài liệu về máy cá nhân. 
      - Chia sẻ: hiển thị khi người dùng có quyền đọc/ghi với tài liệu
+     - Thay thế: chức năng nâng phiên bản tài liệu, chỉ hiển thị khi người dùng có quyền ghi với tài liệu
+     - Khóa/ mở khóa: chỉ hiển thị khi người dùng là người tạo tài liệu. 
+     - Cập nhật: chỉ hiển thị khi  người dùng có quyền ghi với tài liệu và  đang mở khóa
+     - Lưu trữ: Đưa tài liệu vào khu vực lưu trữ riêng, không thấy trên danh sách tài liệu. 
+     
    - tab Trao đổi: hiển thị các lịch sử trao đổi, bình luận về tài liệu và cho phép người dùng bình luận về tài liệu. 
+
+     ![image-20211013012951926](images/image-20211013012951926.png)
 
 3. Kích vào vùng ảnh đại diện tài liệu để mở màn hình xem trước các tệp thuộc tài liệu hoặc mở liên kết cho phép. 
 
@@ -126,11 +131,15 @@ Khi thấy tài liệu hay hoặc tài liệu cần lưu ý, người dùng có 
 
 1. Vào **Tài liệu** > tìm kiếm tài liệu
 
-2. Tích dấu sao  để đánh dấu yêu thích/ bỏ yêu thích với tài liệu
+   ![image-20211013013105839](images/image-20211013013105839.png)
+
+2. Tích dấu sao  ![image-20211013013131602](images/image-20211013013131602.png)để đánh dấu yêu thích/ bỏ yêu thích với tài liệu
 
    ***Lưu ý***
 
    - Tài liệu được đánh dấu yêu thích sẽ được xem nhanh bằng cách kích vào mục Tài liệu yêu thích 
+
+     ![image-20211013013212436](images/image-20211013013212436.png)
 
 ### Nâng phiên bản tài liệu
 
@@ -144,7 +153,11 @@ Cho phép thay thế/ nâng cấp tài liệu bởi phiên bản mới khi phiê
 
 2. Kích chọn tài liệu để mở màn hình xem thông tin chi tiết
 
-3. Kích nút Thay thế : hiển thị màn hình nhập thông tin chi tài liệu mới
+   ![image-20211013013255119](images/image-20211013013255119.png)
+
+3. Kích nút Thay thế <img src="images/image-20211013013314909.png" alt="image-20211013013314909" style="zoom:80%;" />: hiển thị màn hình nhập thông tin chi tài liệu mới
+
+   ​	<img src="images/image-20211013013407832.png" alt="image-20211013013407832" style="zoom:80%;" />
 
 4. Khai báo tài liệu mới và kích **Lưu**
 
@@ -160,18 +173,13 @@ Cho phép người dùng di chuyển tài liệu từ thư mục này sang thư 
 
 **Các bước thực hiện**
 
-Để thay đổi thư mục chứa tài liệu có 2 cách: 
-
-**Cách 1:** 
-
 1. Vào **Tài liệu** > tìm kiếm tài liệu
+
 2. Tích chọn tài liệu để hiển thị màn hình xem chi tiết
-3.  Tại trường Thư mục: chọn lại thư mục chứa tài liệu 
 
-**Cách 2:** 
+3. Tại trường Thư mục: chọn lại thư mục chứa tài liệu
 
-1. Vào **Tài liệu** > tìm kiếm tài liệu
-2.  Kéo thả tài liệu và thư mục mới trên cây thư mục mong muốn
+   ![image-20211013013803241](images/image-20211013013803241.png) 
 
  Lưu ý: 
 
@@ -191,16 +199,23 @@ Cho phép người dùng thêm/ bớt nhãn gán cho tài liệu.
 
 1. Vào **Tài liệu** > tìm kiếm tài liệu
 2. Tích chọn tài liệu để hiển thị màn hình xem chi tiết
-3.  Tại trường nhãn: 
+3. Tại trường nhãn: 
    - Kích icon x tương ứng để xóa nhãn đã gán
    - Nhập hoặc chọn mới nhãn từ danh sách nhãn để gán nhãn mới 
+
+![image-20211013013958725](images/image-20211013013958725.png)
 
 **Cách 2:** 
 
 1. Vào **Tài liệu** > tìm kiếm tài liệu
-2.  Tích chọn tài liệu để hiển thị màn hình xem chi tiết 
-3. Kích nút Cập nhật
+
+2. Tích chọn tài liệu để hiển thị màn hình xem chi tiết 
+
+3. Kích nút Cập nhật  <img src="images/image-20211013014250833.png" alt="image-20211013014250833" style="zoom:80%;" />
+
 4. Tại màn hình cập nhật, thay đổi thông tin nhãn gán cho tài liệu và kích **Lưu lại**
+
+   
 
 ### Chia sẻ tài liệu
 
@@ -216,7 +231,7 @@ Chức năng này cho phép người dùng chia sẻ tài liệu cho người d�
 
 
 
-2. Kích nút **Chia sẻ**
+2. Kích nút **Chia sẻ**  <img src="images/image-20211013021011970.png" alt="image-20211013021011970" style="zoom:80%;" />
 
 3. Khai báo thông tin chia sẻ tài liệu
 
@@ -248,10 +263,13 @@ Cho phép người dùng có thể đưa ra các bình luận, đánh giá về 
 
 1. Vào **Tài liệu** > tìm kiếm tài liệu
 2. Tích chọn tài liệu để hiển thị màn hình xem chi tiết
-3.  kích chọn tab **Trao đổi** > mục **Bình luận**
-   - Người dùng nhập nội dung ý kiến của cá nhân về tài liệu 
-   - Xem được các bình luận của người khác về tài liệu 
-   - Người dùng có thể đính kèm thêm các tệp tài liệu khác để tham khảo bằng cách kích vào nút **Thêm tệp đính kèm**
+3. kích chọn tab **Trao đổi** > mục **Gửi tin**
+
+<img src="images/image-20211013012951926.png" alt="image-20211013012951926" style="zoom:80%;" />
+
+- Người dùng nhập nội dung ý kiến của cá nhân về tài liệu 
+- Xem được các bình luận của người khác về tài liệu 
+- Người dùng có thể đính kèm thêm các tệp tài liệu khác để tham khảo bằng cách kích vào nút **Thêm tệp đính kèm**
 
 ### Quản lý các chia sẻ của người dùng
 
@@ -261,12 +279,15 @@ Cho phép người dùng quản lý, theo dõi các chia sẻ mình đã thực 
 
 **Các bước thực hiện**
 
-1. Vào **Tài liệu** > tìm kiếm tài liệu
-2. Tích chọn tài liệu để hiển thị màn hình xem chi tiết
-3.  kích chọn tab **Trao đổi** > mục **Bình luận**
-   - Người dùng nhập nội dung ý kiến của cá nhân về tài liệu 
-   - Xem được các bình luận của người khác về tài liệu 
-   - Người dùng có thể đính kèm thêm các tệp tài liệu khác để tham khảo bằng cách kích vào nút **Thêm tệp đính kèm**
+1. Vào **Cấu hình** >  chọn **Chia sẻ và email**
+
+   Hiển thị toàn bộ các liên kết được người dùng chia sẻ và trạng thái hiện tại còn hiệu lực hay hết hiệu lực. ![image-20211013023301734](images/image-20211013023301734.png)
+
+   
+
+2. kích chọn 1 bản ghi chia sẻ trên danh sách để xem chi tiết thông tin chia sẻ và sao chép lại liên kết
+
+   ​	
 
 ### Thông báo cho người nhận tài liệu chia sẻ
 
@@ -274,11 +295,9 @@ Chức năng này cho phép người dùng xem thông báo khi được chia s�
 
 **Các bước thực hiện**
 
-1. Click icon **Thông báo**
+1. Kích icon Thông báo -> hiển thị danh sách các thông       
 
-
-
-​                                         ![Graphical user interface, text, application  Description automatically generated](images/clip_image048.jpg)
+      ![](../esign/images/clip_image048.jpg)          
 
 - Hệ thống sẽ hiển thị: Tên chức năng, nội dung chia sẻ
 

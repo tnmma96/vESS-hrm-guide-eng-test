@@ -14,37 +14,21 @@
 
 -  Ngoài ra, ứng dụng cung cấp nhiều tiện ích khác như: đọc văn bản trực tiếp trên ứng dụng, đổi lại người ký khi cần thiết, chuyển yêu cầu ký nháy cho văn bản ...
 
-# Mô tả nghiệp vụ
+## Mô tả nghiệp vụ
 
 ![](images/Sign_process.png)
 
-**Các tính năng nghiệp vụ **
+**Mô tả nghiệp vụ**
 
-·     Các thiết lập cấu hình ban đầu. Chi tiết **[tại đây](#)**
+Quá trình trình ký văn bản sẽ thực hiện theo quy trình sau:
 
-·     Cấu hình ảnh chân ký của cá nhân. Chi tiết **[tại đây](#)**
+1.  Người trình ký tạo văn bản trên ứng dụng ký số và trình ký tới danh sách người ký.
+2.  Người trình ký có thể hủy luồng trình ký khi văn bản đang trình ký nhưng chưa có ai ký duyệt
+3.  Trường hợp văn bản gửi tới cần phải xét duyệt trước ký, người xét duyệt cần xét duyệt văn bản trước. 
+4.  Người ký gửi yêu cầu ký nháy tới người khác trước khi ký duyệt 
+5.  Người được yêu cầu ký nháy thực hiện ký nháy hoặc từ chối ký nháy  
+6. Người ký thực hiện ký duyệt hoặc từ chối ký văn bản.
+7.  Văn bản sau ký duyệt được ban hành và lưu trữ văn bản. 
 
-·     Thiết lập xác thực chứng thư số của cá nhân. Chi tiết **[tại đây](#)**
 
-·     Tạo và trình ký văn bản. Chi tiết nghiệp vụ **[tại đây](#)**
-
-·     Hủy luồng trình ký.  Chi tiết nghiệp vụ **[tại đây](#Lập yêu cầu báo giá gửi Nhà cung cấp)**
-
-·     Đổi người ký khi đang trong luồng ký văn bản . Chi tiết nghiệp vụ **[tại đây](#Lập Hợp đồng mua hàng)**
-
-·     Xét duyệt văn bản trước khi trình người ký chính . Chi tiết nghiệp vụ [**tại đây**](#_Xác_nhận_Đơn)
-
-·     Chuyển yêu cầu ký nháy. Chi tiết nghiệp vụ [**tại đây**](#_Xác_nhận_Đơn)
-
-·     Ký duyệt văn bản. Chi tiết nghiệp vụ [**tại đây**](#_Xác_nhận_Đơn)
-
-·     Ban hành văn bản sau khi ký duyệt. Chi tiết nghiệp vụ [**tại đây**](#_Xác_nhận_Đơn)
-
-·     Tìm kiếm, tra cứu văn bản trình ký. Chi tiết nghiệp vụ [**tại đây**](#_Xác_nhận_Đơn)
-
-·     Danh sách văn bản trình ký . Chi tiết nghiệp vụ [**tại đây**](#_Xác_nhận_Đơn)
-
-·     Xem chi tiết văn bản trình ký . Chi tiết nghiệp vụ [**tại đây**](#_Xác_nhận_Đơn)
-
-·    Xem trước và tải văn bản . Chi tiết nghiệp vụ [**tại đây**](#_Xác_nhận_Đơn)
 

@@ -1,12 +1,10 @@
 
 
-# Thiết lập và khai báo dữ liệu ban đầu
-
-### Thiết lập các thông tin ban đầu
+## Thiết lập và khai báo dữ liệu ban đầu
 
 Việc thiết lập và khai báo ban đầu được thực hiện khi lần đầu cài đặt ứng dụng, giúp khởi tạo dữ liệu và bắt đầu cho việc sử dụng. 
 
-#### Tạo và thiết lập phân quyền cho người dùng
+### Tạo và thiết lập phân quyền cho người dùng
 
 Để đăng nhập và sử dụng được ứng dụng Tài liệu, người dùng cần được cấp phân quyền cho ứng dụng. 
 
@@ -26,7 +24,7 @@ Việc thiết lập và khai báo ban đầu được thực hiện khi lần �
      - Người quản trị: có toàn quyền với tài liệu trong thư mục được gán quyền quản trị. 
 4. Kích **Lưu** 
 
-#### Tạo thư mục lưu trữ 
+### Tạo thư mục lưu trữ 
 
 Trước khi sử dụng hệ thống để lưu trữ, quản lý và khai thác tài liệu, đơn vị nên xây dựng quy hoạch cấu trúc thư mục lưu trữ  một cách khoa học và hiệu quả, đồng thời phân quyền sử dụng tài liệu thuộc thư mục cho người dùng.  
 
@@ -42,29 +40,36 @@ Ngay khi cài đặt ứng dụng Tài liệu, hệ thống có thiết lập m�
 
 2. Kích **Tạo**
 
-![img](images/clip_image010.jpg)
+![image-20211013010534462](images/image-20211013010534462.png)
 
 3. Nhập thông tin khai báo cho thư mục
 
    - Tên thư mục là bắt buộc nhập. 
-   - Chọn thư mục cha nếu có: 
+   - Chọn thư mục cha nếu có 
 
 4. Khai báo nhanh **nhãn** sử dụng trong thư mục
 
    - Tại tab Nhãn: kích nút **Thêm mới dòng**. 
-   -  Khai báo thông tin **nhãn** thuộc thư mục như danh mục nhãn, tên nhãn
+
+     ![image-20211013005938456](images/image-20211013005938456.png)
+
+   - Khai báo thông tin **nhãn** thuộc thư mục như danh mục nhãn, tên nhãn
+
    - Các nhãn được khai báo thành công ở đây đều được quản lý trong **Danh mục nhãn**
 
 5. Phân quyền cho thư mục 
 
+   ![image-20v211013010335493](images/image-20211013010335493.png)
+
    - Tại tab Phân quyền: khai báo các nhóm người dùng có quyền đọc/ ghi với tài liệu thuộc thư mục
      - Quyền ghi: cho phép người dùng thuộc nhóm này có quyền tạo mới/ cập nhật với tài liệu trong thư mục
      - Quyền đọc: Người dùng thuộc nhóm này chỉ có quyền đọc/xem với tài liệu trong thư muc.  
+     - Tích chọn **Chỉ cho phép với người sở hữu tài liệu**: khi muốn giới hạn chỉ đọc tài liệu của chính mình.
 
 6. Sau khi nhập xong thông tin thư mục, kích **Lưu** 
 
 
-#### Tạo và quản lý nhãn 
+### Tạo và quản lý nhãn 
 
 Cho phép tạo mới và quản lý các nhãn trên hệ thống dùng để phân loại và lọc tài liệu nhanh chóng. 
 
@@ -90,6 +95,3 @@ Cho phép tạo mới và quản lý các nhãn trên hệ thống dùng để p
 
    Lưu thông tin Nhãn vừa tạo vào hệ thống và hiển thị nhãn vừa tạo ra danh sách nhãn
 
- 
-
-![img](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\document\images\clip_image024.jpg)

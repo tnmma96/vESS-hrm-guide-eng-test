@@ -1,4 +1,4 @@
-# Các thuật ngữ trong ứng dụng Tài liệu
+## Các thuật ngữ trong ứng dụng Tài liệu
 
 Trong quá trình lưu trữ, khai thác các tài liệu của đơn vị khi sử dụng ứng dụng Tài liệu, để tránh việc hiểu sai dẫn đến dùng sai, cần phải đồng nhất cách hiểu các thuật ngữ như sau: 
 

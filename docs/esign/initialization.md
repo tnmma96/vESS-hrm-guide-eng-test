@@ -1,4 +1,4 @@
-## Hướng dẫn thiết lập và khai báo dữ liệu ban đầu
+## Thiết lập và khai báo dữ liệu ban đầu
 
 Việc thiết lập và khai báo ban đầu được thực hiện khi lần đầu cài đặt ứng dụng, giúp khởi tạo dữ liệu và bắt đầu cho việc thực hiện các nghiệp vụ ký số. 
 
@@ -11,8 +11,6 @@ Cho phép khai báo và quản lý thông tin về các loại văn bản  trên
 **Các bước thực hiện:** 
 
 1. Vào **Cấu hình** > chọn **Loại tài liệu trình ký**
-
-
 
 ​	![img](images/clip_image050.jpg)
 
@@ -67,7 +65,7 @@ Cho phép khai báo và quản lý thông tin về các tài khoản được th
 
 **Các bước thực hiện:** 
 
-1. Chọn **Cấu hình** > Click  **Tài khoản kí**
+1. Chọn **Cấu hình** > Kích**Tài khoản kí**
 
 ![img](images/clip_image056.jpg)
 
@@ -76,16 +74,25 @@ Cho phép khai báo và quản lý thông tin về các tài khoản được th
 
 2. Để khai báo tài khoản ký mới, kích nút **Tạo**:
 
+   ​	![image-20211013122404429](images/image-20211013122404429.png)
 
 
-![img](images/clip_image060.jpg)
 
 - Nhập **Tài khoản kí**: Nhập @ tìm kiếm và chọn người dùng để tạo tài khoản kí. Mỗi người dùng tồn tại duy nhất trong danh sách tài khoản kí. 
+
 - Chọn **vai trò**: Mỗi người dùng có thể có một hoặc kiêm nhiệm nhiều vai trò. 
+
 - Chọn **Người xem xét**: với vai trò có người xem xét thì bắt buộc phải cấu hình người xem xét từ danh sách người dùng. 
-- Chọn ký số: Tài khoản kí có chữ ký số hoặc không
-- Ảnh chân ký: Cho phép mỗi người dùng cấu hình ảnh chân ký của mình khi hiển thị trên các văn bản. Mỗi tài khoản ký được chọn tại cùng thời điểm tồn tại tối đa 3 loại chữ ký.  Kích thước ảnh chân ký phải thỏa mãn: 
-- Tab Chứng thư số: Cấu hình các thông tin xác thực chứng thư số khi thực hiện ký. 
+
+- Có ký điện tử: Nếu tích chọn thì người dùng có thể sử dụng chữ ký số, ngược lại thì chỉ ký duyệt thông thường. 
+
+- Tab Ảnh chân ký: Người dùng tải lên hệ thống ảnh chữ ký mộc dùng cho cá nhân để thêm vào văn bản sau khi ký duyệt (nếu yêu cầu). Mỗi tài khoản ký có thể cấu hình tối đa 3 loại chữ ký.  Kích thước ảnh chân ký phải thỏa mãn tỷ lệ 3:2 . Ngày hiệu lực mặc định là ngày tải ảnh chân ký tương ứng lên hệ thống. 
+
+- Tab Chứng thư số: Cấu hình chứng thư số để xác thực khi người dùng ký duyệt các văn bản. 	
+
+  ![image-20211013123042271](images/image-20211013123042271.png)
+
+  Để lấy serial chứng thư số khi người dùng sử dụng USB token thì có thể cắm usb token rồi kích nút **Tải chứng thư số**. Hệ thống sẽ tự động điền serial lấy được. 
 
 3. Click **Lưu**
 

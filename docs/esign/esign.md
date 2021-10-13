@@ -158,7 +158,7 @@ Trong quá trình trình ký văn bản mà có nhu cầu thay đổi người k
 3. Click **Chọn**: Thực hiện thay đổi người ký thành công. Nếu đến lượt người đó ký thì sẽ chuyển trình ký tới người vừa được đổi. 
 
 
-#### Đọc nội dung văn bản trình ký
+### Đọc nội dung văn bản trình ký
 
 Người dùng có thể đọc nội dung văn bản trình ký trực tiếp trên hệ thống với một số định dạng như pdf, ảnh.
 
@@ -215,9 +215,7 @@ Các thông báo trong quá trình ký văn bản đều hiển thị trong mụ
 
 1. Người dùng kích vào nút thông báo (hình quả chuông)
 
-![img](images/clip_image101.png)
-
-
+![](images/clip_image048.jpg)
 
 2. Từ danh sách các thông báo hiển thị, kích vào 1 thông báo quan tâm thuộc phần ký số
 

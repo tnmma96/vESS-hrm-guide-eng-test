@@ -139,6 +139,55 @@ Trong quá trình công tác tại Công ty, nhân viên sẽ có các thông ti
 
 ![image-20210930165959740](images/image-20210930165959740.png)
 
+### Các quyết định điều chuyển, bổ nhiệm, miễn nhiệm
+
+**Đối tượng thực hiện**: Nhân viên nhân sự
+
+**Các bước thực hiện**
+
+**Bước 1:** Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình **Danh sách nhân viên**
+
+**Bước 2:** Tại tab **Quá trình làm việc** chọn **Sửa>Thêm mới**, thực hiện cập nhật thông tin về sự thay đổi về chức danh của nhân viên trong quá trình làm việc như: Bổ nhiệm, Miễn nhiệm, Điều chuyển, Tiếp nhận
+
+- Bổ nhiệm: Nhân viên nhân sự được phép thay đổi thông tin về Chức danh - đơn vị
+- Tiếp nhận: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng
+-  Điều chuyển: Nhân viên nhân sự được phép thay đổi thông tin về Chức danh - đơn vị, Lương và bảo hiểm
+
+![image-20211013092111929](images/image-20211013092111929.png)
+
+### Các quyết định nâng lương
+
+**Đối tượng thực hiện**: Nhân viên nhân sự
+
+**Các bước thực hiện**
+
+**Bước 1:** Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình **Danh sách nhân viên**
+
+**Bước 2:** Tại tab **Quá trình làm việc** chọn **Sửa>Thêm mới**, thực hiện cập nhật thông tin về lương của nhân viên như: Nâng lương hàng kỳ, Nâng lương đột xuất, Nâng lương bảo hiểm.
+
+- Nâng lương hàng kỳ: Nhân viên nhân sự được phép thay đổi thông tin về Lương và bảo hiểm
+- Nâng lương đột xuất: Nhân viên nhân sự được phép thay đổi thông tin về Lương và bảo hiểm
+- Nâng lương bảo hiểm: Nhân viên nhân sự được phép thay đổi thông tin về Lương và bảo hiểm
+
+![image-20211013092208148](images/image-20211013092208148.png)
+
+### Quá trình làm việc, công tác, nghỉ thai sản, nghỉ dài ngày
+
+**Đối tượng thực hiện**: Nhân viên nhân sự
+
+**Các bước thực hiện**
+
+**Bước 1:** Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình **Danh sách nhân viên**
+
+**Bước 2:** Tại tab **Quá trình làm việc** chọn **Sửa>Thêm mới**, thực hiện cập nhật thông tin về quá trình nghỉ dài ngày của nhân viên như: Nghỉ thai sản, Nghỉ ốm dài ngày, Nghỉ chờ hưu, Nghỉ tạm hoãn hợp đồng
+
+- Nghỉ thai sản: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng
+- Nghỉ ốm dài ngày: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng
+- Nghỉ chờ hưu: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng
+- Nghỉ tạm hoãn hợp đồng: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng
+
+![image-20211013092456703](images/image-20211013092456703.png)
+
 ### Cập nhật giảm trừ gia cảnh
 
 **Đối tượng thực hiện**: Nhân viên nhân sự
@@ -181,7 +230,7 @@ Bước 2: Tại tab **Giảm trừ gia cảnh** chọn **Sửa>Thêm một dòn
 
 ### Cập nhật đăng ký công
 
-Các đăng ký công (xin nghỉ phép, tăng ca, nghỉ việc riêng, nghỉ không lương,...) của nhân viên thực hiện đăng ký trên điện thoại cá nhân sẽ được đồng bộ và ghi lại trong tab Đăng ký công, kể cả các đơn được duyệt, bị từ chối, đơn nháp 
+Các đăng ký công (xin nghỉ phép, tăng ca, nghỉ việc riêng, nghỉ không lương,...) của nhân viên thực hiện đăng ký trên điện thoại cá nhân sẽ được đồng bộ và ghi lại trong tab Đăng ký công, kể cả các đơn được duyệt, bị từ chối, đơn nháp.
 
 ![image-20211012152217781](images/image-20211012152217781.png)
 
@@ -223,7 +272,9 @@ Nhân viên ký hợp đồng có thời hạn trước khi đến hạn kết t
 
 ![image-20210930173425088](images/image-20210930173425088.png)
 
-- Tại cột **Mới**, Trưởng phòng nhân sự thực hiện review hợp đồng, nếu đồng ý phê duyệt thì chọn **Phê duyệt**, nếu không đồng ý thì chọ **Hủy**
+**Bước 2:** 
+
+- Tại cột **Mới**, Trưởng phòng nhân sự thực hiện review hợp đồng, nếu đồng ý phê duyệt thì chọn **Phê duyệt**, nếu không đồng ý thì chọn **Hủy**
   - Hợp đồng được phê duyệt sẽ chuyển sang cột **Đã duyệt**.
     - Nếu ngày phê duyệt là ngày hợp đồng có hiệu lực thì hợp đồng sẽ chuyển sang cột **Đang chạy** luôn.
     - Nếu ngày phê duyệt < ngày hợp đồng có hiệu lực thì hợp đồng sẽ tự động chuyển sang cột **Đang chạy** vào ngày hợp đồng có hiệu lực.
@@ -239,8 +290,8 @@ Nếu nhân viên không có ý định ý tiếp với công ty, khi hợp đ�
 
 **Bước 1:** Tìm kiếm nhân viên muốn cập nhật trạng thái **Nghỉ việc**
 
-**Bước 2**: Chọn nhân viên và chọn **Sửa>Quá trình làm việc**
+**Bước 2**: Chọn nhân viên và chọn **Sửa>Quá trình làm việc>Thêm mới** sau đó nhập các thông tin về quyết định chấm dứt hợp đồng với nhân viên
 
 ![image-20210930175053866](images/image-20210930175053866.png)
 
-**Bước 3:** Chọn **Lưu và đóng**, nhân viên này sẽ có trạng thái là Nghỉ việc, nhân viên nhân sự thực hiện Lưu trữ nhân viên nghỉ việc.
+**Bước 3:** Chọn **Lưu và đóng**, nhân viên này sẽ có trạng thái là Nghỉ việc, nhân viên nhân sự thực hiện Lưu trữ nhân viên nghỉ việc. Việc lưu trữ hoàn toàn có thể khôi phục được lại hồ sơ nhân viên, trong trường hợp nhân viên quay trở lại làm việc cho công ty, khi đó nhân viên nhân sự sẽ không tốn nỗ lực nhập lại hồ sơ thông tin mà chỉ cần thay đổi các thông tin cần thiết (nếu có).
