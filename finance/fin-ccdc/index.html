@@ -9,7 +9,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Fin ccdc - Hướng dẫn sử dụng hệ thống vESS</title>
+  <title>Công cụ dụng cụ - Hướng dẫn sử dụng hệ thống vESS</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../../css/theme.css" />
@@ -19,7 +19,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Fin ccdc";
+    var mkdocs_page_name = "C\u00f4ng c\u1ee5 d\u1ee5ng c\u1ee5";
     var mkdocs_page_input_path = "finance\\fin-ccdc.md";
     var mkdocs_page_url = null;
   </script>
@@ -75,7 +75,7 @@
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">Kế toán</span></p>
-                <ul>
+                <ul class="current">
                     <li class="toctree-l1"><a class="reference internal" href="../fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-initialization/">Thiết lập và khai báo ban đầu</a>
@@ -84,9 +84,9 @@
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-danh-muc-new/">Khai báo danh mục</a>
                     </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-TM/">Tiền mặt</a>
                     </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-NH/">Tiền gửi</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-mua-hang/">Mua hàng</a>
                     </li>
@@ -96,9 +96,59 @@
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-kho/">Kho vận</a>
                     </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../fin-san-xuat/">Sản xuất</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-giathanh/">Giá thành</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Công cụ dụng cụ</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#loai-cong-cu-dung-cu">Loại Công cụ dụng cụ</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cong-cu-dung-cu">Công cụ dụng cụ</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tang-cong-cu-dung-cu">Tăng Công cụ dụng cụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#quan-ly-thong-tin-khau-hao">Quản lý thông tin Khấu hao</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ieu-chinh-tang-gia-trithoi-gian-khau-hao-cua-cong-cu-dung-cu">Điều chỉnh Tăng giá trị/thời gian khấu hao của Công cụ dụng cụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ieu-chinh-giam-gia-trithoi-gian-khau-hao-cua-cong-cu-dung-cu">Điều chỉnh Giảm giá trị/thời gian khấu hao của Công cụ dụng cụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tam-dung-khau-hao-cong-cu-dung-cu">Tạm dừng khấu hao Công cụ dụng cụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tiep-tuc-khau-hao-cong-cu-dung-cu">Tiếp tục khấu hao Công cụ dụng cụ</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ieu-chuyen-cong-cu-dung-cu-giua-cac-phong-ban">Điều chuyển Công cụ dụng cụ giữa các phòng ban</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#ieu-chuyen-cong-cu-dung-cu-giua-cac-phong-ban_1">Điều chuyển Công cụ dụng cụ giữa các phòng ban</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#quan-ly-cac-chung-tu-ieu-chuyen">Quản lý các chứng từ điều chuyển</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#thanh-ly-cong-cu-dung-cu">Thanh lý Công cụ dụng cụ</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_1">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#thanh-ly-cong-cu-dung-cu_1">Thanh lý Công cụ dụng cụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#quan-ly-cac-chung-tu-thanh-ly">Quản lý các chứng từ Thanh lý</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#kiem-ke-cong-cu-dung-cu">Kiểm kê Công cụ dụng cụ</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_2">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#kiem-ke-cong-cu-dung-cu_1">Kiểm kê Công cụ dụng cụ</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-log-histories/">Lịch sử phát triển sản phẩm</a>
                     </li>
@@ -158,8 +208,12 @@
     <li><a href="../..">Docs</a> &raquo;</li>
     
       
+        
+          <li>Kế toán &raquo;</li>
+        
+      
     
-    <li>Fin ccdc</li>
+    <li>Công cụ dụng cụ</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -171,21 +225,404 @@
           <div role="main">
             <div class="section">
               
-                <h3 id="cong-cu-dung-cu"><strong>Công cụ dụng cụ</strong></h3>
-<h4 id="quy-trinh-nghiep-vu"><em>Quy trình nghiệp vụ</em></h4>
-<p><em>[Mô tả thông tin chung]</em></p>
-<p>Kế toán tổng hợp được sử dụng để cập nhật các phiếu kế toán tổng quát, các bút toán điều chỉnh, phân bổ, đánh giá, kết chuyển cuối kỳ; thực hiện lên sổ sách kế toán và báo cáo tài chính theo quy định.</p>
-<p><strong>Quy trình nghiệp vụ</strong></p>
-<p><em>[Hình luồng quy trình nghiệp vụ của Module]</em></p>
-<p><em>[Hình ảnh]</em></p>
+                <h1 id="quy-trinh-nghiep-vu">Quy trình nghiệp vụ</h1>
+<p>Quản lý toàn bộ thông tin Công cụ dụng cụ của Doanh nghiệp, đến từng bộ phận quản lý sử dụng. Tình hình biến động của Công cụ dụng cụ: Tăng; Giảm; Điều chuyển và Thanh lý Công cụ dụng cụ.</p>
+<p>Hệ thống tự động tính Khấu hao ước tính theo Phương pháp đường thẳng; Kế toán theo dõi được toàn bộ thông tin về Số tiền Khấu hao tháng; Số tiền Khấu hao lũy kế và Số tiền khấu hao còn lại của từng Công cụ dụng cụ</p>
+<p><strong>Quy trình</strong></p>
+<p><img alt="" src="../images/fin_CCDC_Quytrinh.png" /></p>
 <p><strong>Các luồng quy trình</strong></p>
-<p><em>[Liệt kê các luồng quy trình nghiệp vụ có trong Module, có link đến Phần Hướng dẫn chi tiết]</em></p>
-<p>·     Lập chứng từ ghi sổ đơn lẻ. Chi tiết nghiệp vụ <strong>tại đây</strong></p>
-<p>·     Lập chứng từ ghi sổ đồng loạt. Chi tiết nghiệp vụ <strong>tại đây</strong></p>
+<p>·     Quản lý thông tin Loại CCDC. Chi tiết nghiệp vụ <strong><a href="##Loại Công cụ dụng cụ">tại đây</a></strong></p>
+<p>·     Phân bổ CCDC, Điều chỉnh tăng/giảm, Tạm dừng phân bổ và Tiếp tục phân bổ CCDC. Chi tiết nghiệp vụ <strong><a href="##Công cụ dụng cụ">tại đây</a></strong></p>
+<p>·     Điều chuyển CCDC. Chi tiết nghiệp vụ <strong><a href="##Điều chuyển Công cụ dụng cụ giữa các phòng ban">tại đây</a></strong></p>
+<p>·     Thanh lý CCDC. Chi tiết nghiệp vụ <strong><a href="##Thanh lý Công cụ dụng cụ">tại đây</a></strong></p>
+<p>·     Kiểm kê CCDC. Chi tiết nghiệp vụ <strong><a href="##Kiểm kê Công cụ dụng cụ">tại đây</a></strong></p>
+<h2 id="loai-cong-cu-dung-cu"><strong>Loại Công cụ dụng cụ</strong></h2>
+<p><strong>Mục đích</strong></p>
+<p>Quản lý thông tin các Loại Công cụ dụng cụ theo thực tế tại Doanh nghiệp...</p>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Kế toán Công cụ dụng cụ</strong> -&gt; Chọn chức năng <strong>Danh mục</strong> -&gt; Chọn <strong>Loại Công cụ dụng cụ</strong></p>
+<p><img alt="" src="../images/fin_CCDC_TaoloaiCCDC.png" /></p>
+<p><strong>Bước 2:</strong> Nhấn vào nút <em>Tạo</em> để thêm mới loại CCDC</p>
+<p><strong>Bước 3:</strong> Người dùng nhập các thông tin </p>
+<ul>
+<li>Tên loại CCDC</li>
+<li>Thông tin phân bổ: </li>
+<li>Thời gian khấu hao: Nhập thời gian khấu hao mong muốn theo tháng hoặc năm</li>
+<li>
+<p>Theo ngày mua: Hệ thống thực hiện tính phân bổ theo ngày mua hay không tại bản ghi khấu khao CCDC</p>
+</li>
+<li>
+<p>Thông tin kế toán: Chọn Đơn vị quản lý loại CCDC, các đầu mục Tài khoản phục vụ cho việc ghi nhận phân bổ, sổ nhật ký,...</p>
+</li>
+</ul>
+<p><img alt="" src="../images/fin_CCDC_TTloaiCCDC.png" /></p>
+<p><strong>Bước 4:</strong> Thực hiện nhấn nút <strong>Lưu</strong> để lưu bản ghi</p>
+<h2 id="cong-cu-dung-cu"><strong>Công cụ dụng cụ</strong></h2>
+<h3 id="mo-ta-nghiep-vu"><strong>Mô tả nghiệp vụ</strong></h3>
+<p>Quản lý thông tin CCDC trên hệ thống bao gồm: Giá trị CCDC và các thông tin liên quan đến phân bổ CCDC, Điều chỉnh tăng/giảm, Tạm dừng hoặc Tiếp tục phân bổ</p>
+<p><strong>Luồng chức năng chính</strong></p>
+<p>·     Tăng Công cụ dụng cụ. Chi tiết nghiệp vụ <strong><a href="#Tăng Công cụ dụng cụ">tại đây</a></strong></p>
+<p>·     Quản lý thông tin Khấu hao. Chi tiết nghiệp vụ <strong><a href="###Quản lý thông tin Khấu hao">tại đây</a></strong></p>
+<p>·     Điều chỉnh Tăng Giá trị/Thời gian khấu hao của Công cụ dụng cụ. Chi tiết nghiệp vụ <strong><a href="###Điều chỉnh Tăng giá trị/thời gian khấu hao của Công cụ dụng cụ">tại đây</a></strong></p>
+<p>·     Điều chỉnh Giảm Giá trị/Thời gian khấu hao của Công cụ dụng cụ. Chi tiết nghiệp vụ <strong><a href="###Điều chỉnh Giảm giá trị/thời gian khấu hao của Công cụ dụng cụ">tại đây</a></strong></p>
+<p>·     Tạm dừng khấu hao Công cụ dụng cụ. Chi tiết nghiệp vụ <strong><a href="###Tạm dừng khấu hao Công cụ dụng cụ">tại đây</a></strong></p>
+<p>·     Tiếp tục khấu hao Công cụ dụng cụ. Chi tiết nghiệp vụ <strong><a href="###Tiếp tục khấu hao Công cụ dụng cụ">tại đây</a></strong></p>
+<h3 id="tang-cong-cu-dung-cu"><strong>Tăng Công cụ dụng cụ</strong></h3>
+<p><strong>Mô tả:</strong></p>
+<ul>
+<li>Khi Doanh nghiệp ghi nhận phát sinh Công cụ dụng cụ do: mua sắm mới; do đầu tư xây dựng cơ bản hoàn thành; do thuê ..., kế toán thực hiện ghi nhận thông tin Công cụ dụng cụ lên hệ thống để quản lý.</li>
+<li>Công cụ dụng cụ được đánh mã và thực hiện khai báo, quản lý về ngguyên giá Công cụ dụng cụ, giá trị thanh lý có thể thu hồi, thời gian khấu hao, giá trị còn lại của Công cụ dụng cụ, hao mòn lũy kế</li>
+</ul>
+<p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Kế toán Công cụ dụng cụ</strong> -&gt; chọn chức năng <strong>CCDC</strong> -&gt; Chọn <strong>Công cụ dụng cụ</strong></p>
+<p><img alt="" src="../images/fin_CCDC_VaophanboCCDC.png" /></p>
+<p><strong>Bước 2:</strong> Nhấn nút <em>Tạo</em> để khai báo CCDC và các thông tin liên quan đến Phân bổ CCDC</p>
+<p><strong>Bước 3:</strong> Người dùng thực hiện nhập thông tin bao gồm:</p>
+<ul>
+<li>
+<p>Thông tin CCDC: Mã CCDC, Tên CCDC và Loại CCDC. Khi chọn Loại CCDC, hệ thống tự động điền các thông tin đã khai báo khi tạo mới Loại CCDC vào các mục <em>Thông tin phân bổ</em> và <em>Thông tin kế toán</em></p>
+</li>
+<li>
+<p>Thông tin về giá trị phân bổ: Ngày hạch toán, số lượng, giá/1 đơn vị </p>
+</li>
+<li>
+<p>Đối với CCDC đã sử dụng ngoài phần mềm, Người dùng cần khai báo thêm thông tin tại mục <em>Thông tin phân bổ đầu kỳ</em> ( bao gồm các thông tin về Số tiền đã phân bổ, thời gian đã phân bổ)</p>
+</li>
+</ul>
+<p><img alt="" src="../images/fin_CCDC_KhaibaoTTKH.png" /></p>
+<ul>
+<li>Nhập thông tin đơn vị sử dụng và số lượng CCDC tại tab <em>Đơn vị sử dụng</em> ( Số lượng không để trống và không vượt quá Tổng số lượng CCDC khai báo trên tab Thông tin chung )</li>
+</ul>
+<p><img alt="" src="../images/fin_CCDC_Donvisudung.png" /></p>
+<ul>
+<li>Sau khi nhập thông tin tab Đơn vị sử dụng -&gt; hệ thống tự động fill Thông tin đối tượng và tỷ lệ % vào tab Thiết lập phân bổ. Người dùng chọn Tài khoản chi phí để ghi nhận bút toán phân bổ cho từng đối tượng khi thực hiện phân bổ CCDC</li>
+</ul>
+<p><img alt="" src="../images/fin_CCDC_Tabthietlap.png" /></p>
+<ul>
+<li>Trường hợp người dùng chọn các chứng từ liên quan đến CCDC sẽ được hiển thị chi tiết tại tab <em>Nguồn gốc hình thành</em> </li>
+</ul>
+<p><strong>Lưu ý:</strong> Đối với CCDC đã sử dụng ngoài phần mềm, Người dùng cần khai báo thêm thông tin tại mục <strong>Thông tin phân bổ đầu kỳ</strong> ( bao gồm các thông tin về Số tiền đã phân bổ, thời gian đã phân bổ)</p>
+<p><strong>Bước 4:</strong> Nhấn nút Tính phân bổ để tính phân bổ cho CCDC -&gt; Giá trị phân bổ của CCDC sẽ được ghi nhận tại tab <em>Bảng phân bổ ước tính</em></p>
+<h3 id="quan-ly-thong-tin-khau-hao"><strong>Quản lý thông tin Khấu hao</strong></h3>
+<p><strong>Thông tin khấu hao</strong></p>
+<p>Kết quả khấu hao sẽ được trả về tại tab <strong>Bảng phân bổ ước tính</strong>. Kết quả phụ thuộc vào các yếu tố dưới đây:</p>
+<ul>
+<li>[x] Người dùng có chọn <em>Tính khấu hao theo ngày thực tế hay không</em></li>
+<li>[x] <em>CCDC mới</em> hay <em>CCDC đã được sử dụng</em></li>
+<li>
+<p>[x] Có tick <em>Theo ngày mua hay không</em></p>
+</li>
+<li>
+<p>Nếu không tính theo ngày thực tế -&gt; Hệ thống thực hiện tính phân bổ 1 tháng = 30 ngày, ngược lại sẽ tính theo ngày thực tế của tháng</p>
+</li>
+<li>Bản ghi phân bổ CCDC có tick <em>Theo ngày mua</em> -&gt; Giá trị phân bổ sẽ được tính từ ngày theo ngày mua</li>
+<li>Bản ghi phân bổ CCDC không tick <em>Theo ngày mua</em> -&gt; Giá trị phân bổ  sẽ được tính từ <em>Ngày hạch toán</em></li>
+<li>Trường hợp là <em>CCDC đã được sử dụng</em> trước khi khai báo trên phần mềm-&gt; Hệ thống thực hiện trừ Giá trị tiền đã phân bổ và Số ngày đã phân bổ ngoài phần mềm để tính ra giá trị phân bổ cho từng kỳ</li>
+</ul>
+<p><strong>Khấu hao CCDC được tính toán dựa theo Phương pháp khấu hao Đường thẳng:</strong></p>
+<ul>
+<li>
+<p>Căn cứ vào Tổng số ngày khấu hao, Giá trị khấu hao và Tính khấu hao theo ngày thực tế hay không -&gt; Hệ thống thực hiện tính ra giá trị khấu hao cho 1 ngày</p>
+</li>
+<li>
+<p>Từ giá trị khấu hao 1 ngày -&gt; Tính ra giá trị khấu hao cho 1 tháng hoặc 1 năm</p>
+</li>
+<li>
+<p>Khi người dùng nhấn nút <strong>Xác nhận</strong>, hệ thống sẽ ghi nhận bút toán và cập nhật lại số liệu liên quan đến Giá trị tiền tại tab thông tin chung:</p>
+</li>
+<li>
+<p>Bút toán ghi nhận theo từng kỳ khấu hao</p>
+<ul>
+<li>Ghi có Tài khoản chi phí </li>
+<li>Ghi nợ Tài khoản chờ phân bổ</li>
+</ul>
+</li>
+<li>
+<p>Giá trị tiền tại Tab Thông tin chung</p>
+<ul>
+<li>
+<p>Số tiền đã phân bổ tính dựa trên bút toán đã hạch toán và số tiền đã phân bổ ngoài phần mềm</p>
+</li>
+<li>
+<p>Giá trị còn lại =Thành tiền - Số tiền đã phân bổ</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="ieu-chinh-tang-gia-trithoi-gian-khau-hao-cua-cong-cu-dung-cu"><strong>Điều chỉnh Tăng giá trị/thời gian khấu hao của Công cụ dụng cụ</strong></h3>
+<p><strong>Mô tả:</strong></p>
+<ul>
+<li>Khi có nhu cầu đánh giá lại Công cụ dụng cụ, Doanh nghiệp thực hiện đánh giá theo trình tự của đơn vị và có Điều chỉnh khi có sự thay đổi về Giá trị của Công cụ dụng cụ và Thời gian Khấu hao</li>
+<li>Kế toán căn cứ vào Biên bản đánh giá sẽ thực hiện Cập nhật thông tin của Công cụ dụng cụ</li>
+</ul>
+<p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<p><strong>Bước 1:</strong> Vào chức năng <strong>Kế toán CCDC</strong> -&gt; Chọn <strong>CCDC</strong> -&gt; Chọn bản ghi CCDC muốn điều chỉnh -&gt; Chọn <strong>Điều chỉnh CCDC</strong></p>
+<p><img alt="" src="../images/fin_CCDC_Tanggiam_1.png" /></p>
+<p><strong>Bước 2:</strong> Người dùng thực hiện nhập liệu liên quan đến</p>
+<ul>
+<li>Số chứng từ</li>
+<li>Ngày chứng từ</li>
+<li>Lý do điều chỉnh</li>
+<li>Giá trị điều chỉnh</li>
+<li>Nếu muốn tăng giá trị phân bổ -&gt; Người dùng thực hiện nhập <em>Số tiền còn lại</em> tại mục <em>Giá trị điều chỉnh</em> &gt; <em>Số tiền còn lại</em> tại mục <em>Giá trị hiện tại</em></li>
+<li>
+<p>Nếu muốn tăng thời gian phân bổ -&gt; Người dùng thực hiện nhập <em>Thời gian phân bổ</em> tại mục <em>Giá trị điều chỉnh</em> &gt; <em>Thời gian phân bổ</em> tại mục <em>Giá trị hiện tại</em></p>
+</li>
+<li>
+<p>Ngày điều chỉnh -&gt; Hệ thống thực hiện ghi nhận thay đổi từ ngày này</p>
+</li>
+<li>Thông tin các đầu Tài khoản ghi nhận thay đổi tại mục <em>Kế toán điều chỉnh</em></li>
+</ul>
+<p><img alt="" src="../images/fin_CCDC_Dieuchinh.png" /></p>
+<p><strong>Bước 3</strong>: Nhấn nút <em>Điều chỉnh</em></p>
+<ul>
+<li>
+<p>Hệ thống kiểm tra nếu <strong>ngày điều chỉnh</strong> nằm trong kỳ khấu hao đã được hạch toán -&gt; Hiển thị popup thông báo ' Không điều chỉnh vào kỳ đã hạch toán', và thoát khỏi màn hình Điều chỉnh CCDC</p>
+</li>
+<li>
+<p>Đối với bản ghi điều chỉnh thỏa mãn điều kiện sẽ ghi nhận giá trị Tăng CCDC vào trường <strong>Tổng giá trị tăng</strong> tại tab Thông tin chung và tác động đến <em>Bảng phân bổ ước tính</em> và <em>Sinh bút toán ghi nhận Tăng</em> <em>giá trị phân bổ tương ứng</em> như sau:</p>
+</li>
+<li>
+<p>Tab Bảng phân bổ ước tính</p>
+<ul>
+<li>Giá trị phân bổ được tính lại từ ngày điều chỉnh trên popup Điều chỉnh CCDC</li>
+<li>Các bút toán phân bổ trước đó vẫn được giữ nguyên theo giá trị chưa ghi nhận Tăng</li>
+</ul>
+</li>
+<li>
+<p>Bút toán ghi nhận Tăng giá trị CCDC</p>
+<ul>
+<li>Ghi nợ Tài khoản đối ứng chi phí</li>
+<li>Ghi có Tài khoản tăng tổng chi phí</li>
+</ul>
+</li>
+</ul>
+<h3 id="ieu-chinh-giam-gia-trithoi-gian-khau-hao-cua-cong-cu-dung-cu"><strong>Điều chỉnh Giảm giá trị/thời gian khấu hao của Công cụ dụng cụ</strong></h3>
+<p><strong>Mô tả:</strong></p>
+<ul>
+<li>Khi có nhu cầu đánh giá lại Công cụ dụng cụ, Doanh nghiệp thực hiện đánh giá theo trình tự của đơn vị và có Điều chỉnh khi có sự thay đổi về Giá trị của Công cụ dụng cụ và Thời gian Khấu hao</li>
+<li>Kế toán căn cứ vào Biên bản đánh giá sẽ thực hiện Cập nhật thông tin của Công cụ dụng cụ</li>
+</ul>
+<p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<p><strong>Bước 1:</strong> Vào chức năng <strong>Kế toán CCDC</strong> -&gt; Chọn <strong>CCDC</strong> -&gt; Chọn bản ghi CCDC muốn điều chỉnh -&gt; Chọn <strong>Điều chỉnh CCDC</strong></p>
+<p><img alt="" src="../images/fin_CCDC_Tanggiam_1.png" /></p>
+<p><strong>Bước 2:</strong> Người dùng thực hiện nhập liệu các thông tin liên quan đến</p>
+<ul>
+<li>Số chứng từ</li>
+<li>Ngày chứng từ</li>
+<li>Lý do điều chỉnh</li>
+<li>Giá trị điều chỉnh</li>
+<li>Nếu muốn giảm giá trị phân bổ -&gt; Người dùng thực hiện nhập <em>Số tiền còn lại</em> tại mục <em>Giá trị điều chỉnh</em> &lt; <em>Số tiền còn lại</em> tại mục <em>Giá trị hiện tại</em></li>
+<li>
+<p>Nếu muốn giảm thời gian phân bổ -&gt; Người dùng thực hiện nhập <em>Thời gian phân bổ</em> tại mục <em>Giá trị điều chỉnh</em> &lt; <em>Thời gian phân bổ</em> tại mục <em>Giá trị hiện tại</em></p>
+</li>
+<li>
+<p>Ngày điều chỉnh -&gt; Hệ thống thực hiện ghi nhận thay đổi từ ngày này</p>
+</li>
+<li>Thông tin các đầu Tài khoản ghi nhận thay đổi tại mục <em>Kế toán điều chỉnh</em></li>
+</ul>
+<p><img alt="" src="../images/fin_CCDC_Dieuchinh.png" /></p>
+<p><strong>Bước 3</strong>: Nhấn nút <em>Điều chỉnh</em></p>
+<ul>
+<li>
+<p>Hệ thống kiểm tra nếu <strong>ngày điều chỉnh</strong> nằm trong kỳ khấu hao đã được hạch toán -&gt; Hiển thị popup thông báo ' Không điều chỉnh vào kỳ đã hạch toán', và thoát khỏi màn hình Điều chỉnh CCDC</p>
+</li>
+<li>
+<p>Đối với bản ghi điều chỉnh thỏa mãn điều kiện sẽ làm thay đổi giá trị Thành tiền ( Thành tiền của CCDC gốc - giá trị giảm) và tác động đến tab<em>Bảng phân bổ ước tính</em> và <em>Sinh bút toán ghi nhận </em>Giảm giá trị CCDC* như sau:</p>
+</li>
+<li>
+<p>Tab Bảng phân bổ ước tính</p>
+<p>Giá trị khấu hao được <strong>tính từ ngày điều chỉnh</strong> trên popup Điều chỉnh CCDC. Bút toán đã ghi nhận giá trị tại các kỳ trước đó không bị ảnh hưởng</p>
+</li>
+<li>
+<p>Bút toán ghi nhận Giảm giá trị tài sản</p>
+<ul>
+<li>Ghi có Tài khoản đối ứng chi phí</li>
+<li>Ghi nợ Tài khoản tăng tổng chi phí</li>
+</ul>
+</li>
+</ul>
+<h3 id="tam-dung-khau-hao-cong-cu-dung-cu"><strong>Tạm dừng khấu hao Công cụ dụng cụ</strong></h3>
+<p><strong>Mô tả:</strong>s</p>
+<ul>
+<li>Khi CCDC không còn nhu cầu theo dõi quản lý, Kế toán thực hiện Tạm dừng khấu hao CCDC đó trên phần mềm</li>
+<li>Hệ thống sẽ thực hiện ghi nhận và xử lý các dữ liệu liên quan trước và sau thời điểm Tạm dừng khấu hao</li>
+</ul>
+<p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<p><strong>Bước 1:</strong> Vào chức năng <strong>Kế toán CCDC</strong> -&gt; Chọn <strong>CCDC</strong> -&gt; Chọn bản ghi CCDC muốn <em>Tạm dừng phân bổ</em> -&gt; Nhấn nút <strong>Tạm dừng phân bổ</strong></p>
+<p><img alt="" src="../images/fin_CCDC_Tamdung.png" /></p>
+<p><strong>Bước 2:</strong> Nhập ngày tạm dừng phân bổ</p>
+<p><img alt="" src="../images/fin_CCDC_Tamdung_1.png" /></p>
+<p><strong>Bước 3:</strong> Nhấn nút <em>Tạm dừng</em>. Sau khi thực hiện Tạm dừng khấu hao, hệ thống giữ nguyên các bút toán đã được ghi nhận trước thời điểm tạm dừng. Các bút toán ghi nhận sau thời gian này sẽ bị xóa khỏi Tab Bảng phân bổ ước tính</p>
+<h3 id="tiep-tuc-khau-hao-cong-cu-dung-cu"><strong>Tiếp tục khấu hao Công cụ dụng cụ</strong></h3>
+<p><strong>Mô tả:</strong></p>
+<ul>
+<li>Trường hợp doanh nghiệp muốn tiếp tục Khấu hao tài sản đã được tạm ngừng. Hệ thống sẽ thực hiện ghi nhận các thay đổi và cập nhật thay đổi đó tới các Tab thông tin liên quan</li>
+</ul>
+<p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<p><strong>Bước 1:</strong> Vào chức năng <strong>Kế toán CCDC</strong> -&gt; Chọn <strong>CCDC</strong> -&gt; Chọn bản ghi CCDC muốn <em>Tiếp tục phân bổ</em> -&gt; Chọn <strong>Tiếp tục phân bổ</strong></p>
+<p><img alt="" src="../images/fin_CCDC_TTphanbo.png" /></p>
+<p><strong>Bước 2</strong>: Nhập thông tin liên quan đến giá trị, thời gian tại mục Giá trị điều chỉnh và các đầu tài khoản để ghi nhận sự thay đổi tại Kế toán điều chỉnh</p>
+<ul>
+<li><img alt="" src="../images/fin_CCDC_Dieuchinh.png" /></li>
+</ul>
+<p><strong>Bước 3:</strong> Nhấn nút  <em>Điều chỉnh</em> . Sau đó, CCDC sẽ được tiếp tục tính khấu hao kể từ Ngày điều chỉnh với giá trị khấu hao và thời gian khấu hao tại mục Giá trị điều chỉnh</p>
+<h2 id="ieu-chuyen-cong-cu-dung-cu-giua-cac-phong-ban"><strong>Điều chuyển Công cụ dụng cụ giữa các phòng ban</strong></h2>
+<ul>
+<li>Khi phát sinh nhu cầu điều chuyển CCDC giữa các phòng ban, bộ phận trong doanh nghiệp, Kế toán hoặc hoặc bộ phận có CCDC bị điều chuyển sẽ lập biên bản giao nhận CCDC.</li>
+<li>Căn cứ vào lệnh điều chuyển và biên bản giao nhận CCDC, kế toán thực hiện ghi sổ </li>
+</ul>
+<p><strong>Luồng chức năng chính</strong></p>
+<p>·     Điều chuyển Công cụ dụng cụ giữa các phòng ban. Chi tiết nghiệp vụ <strong><a href="###Điều chuyển Công cụ dụng cụ giữa các phòng ban">tại đây</a></strong></p>
+<p>·     Quản lý các chứng từ điều chuyển. Chi tiết nghiệp vụ <strong><a href="###Quản lý các chứng từ điều chuyển">tại đây</a></strong></p>
+<h3 id="ieu-chuyen-cong-cu-dung-cu-giua-cac-phong-ban_1"><strong>Điều chuyển Công cụ dụng cụ giữa các phòng ban</strong></h3>
+<p><strong>Mô tả:</strong></p>
+<ul>
+<li>Khi phát sinh nhu cầu điều chuyển CCDC giữa các phòng ban, bộ phận trong doanh nghiệp, Kế toán hoặc hoặc bộ phận có CCDC bị điều chuyển sẽ lập biên bản giao nhận CCDC.</li>
+<li>Căn cứ vào lệnh điều chuyển và biên bản giao nhận CCDC, kế toán ghi vào sổ CCDC</li>
+</ul>
+<p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<p><strong>Bước 1:</strong> Vào chức năng <strong>Kế toán CCDC</strong> -&gt; Chọn <strong>CCDC</strong> -&gt; Chọn <strong>Điều chuyển CCDC</strong> -&gt; Chọn <strong>Tạo</strong></p>
+<p><img alt="" src="../images/fin_CCDC_Dieuchuyen.png" /></p>
+<p><strong>Bước 2</strong>: Người dùng nhập thông tin Người bàn giao, Người tiếp nhận và Ngày bàn giao,...</p>
+<ul>
+<li>Tại tab CCDC điều chuyển, chọn CCDC muốn điều chuyển,thông tin liên quan đến đơn vị điều chuyển, đơn vị tiếp nhận và số lượng điều chuyển</li>
+</ul>
+<p><img alt="" src="../images/fin_CCDC_TabCCDCdieuchuyen.png" /></p>
+<p><strong>Bước 3:</strong> Chọn nút <em>Điều chuyển</em></p>
+<ul>
+<li>Sau khi thực hiện điều chuyển, CCDC sẽ thuộc quyền sở hữu của đơn vị tiếp nhận điều chuyển</li>
+<li>Số lượng CCDC giữa Đơn vị điều chuyển và Đơn vị được điều chuyển tới sẽ có sự thay đổi</li>
+</ul>
+<h3 id="quan-ly-cac-chung-tu-ieu-chuyen"><strong>Quản lý các chứng từ điều chuyển</strong></h3>
+<p><strong>Mô tả:</strong></p>
+<ul>
+<li>Khi phát sinh nhu cầu điều chuyển CCDC giữa các phòng ban, bộ phận trong doanh nghiệp, Kế toán hoặc hoặc bộ phận có CCDC bị điều chuyển sẽ lập biên bản giao nhận CCDC.</li>
+<li>Căn cứ vào lệnh điều chuyển và biên bản giao nhận CCDC, kế toán ghi vào sổ CCDC</li>
+<li>Thông tin các chứng từ điều chuyển được quản lý tập trung</li>
+</ul>
+<p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<p><strong>Bước 1:</strong> Vào chức năng <strong>Kế toán CCDC</strong> -&gt; Chọn <strong>CCDC</strong> -&gt; Chọn <strong>Điều chuyển CCDC</strong> </p>
+<p><strong>Bước 2</strong>: Người dùng có thể chọn xem bản ghi điều chuyển bất kỳ trên màn hình danh sách các TCCDC đã điều chuyển hoặc tìm kiếm bản ghi theo Ngày bàn biên bản, Người bàn giao,...</p>
+<p><strong>Bước 3:</strong> Sau khi chọn bản ghi điều chuyển, người dùng có thể xem chi tiết thông tin liên quan như Người bàn giao, người tiếp nhận, biên bản giao nhận tại tab thông tin chung và chi tiết CCDC cũng như đơn vị điều chuyển, đơn vị tiếp nhận, tổng số lượng CCDC sử dụng và số lượng CCDC điều chuyển đi tại tab CCDC điều chuyển</p>
+<p><img alt="" src="../images/fin_CCDC_QlyDC.png" /></p>
+<h2 id="thanh-ly-cong-cu-dung-cu"><strong>Thanh lý Công cụ dụng cụ</strong></h2>
+<h3 id="mo-ta-nghiep-vu_1"><strong>Mô tả nghiệp vụ</strong></h3>
+<ul>
+<li>Khi doanh nghiệp có nhu cầu bán CCDC do hết khấu hao hoặc không có nhu cầu sử dụng, kế toán thực hiện thanh lý CCDC. </li>
+<li>Căn cứ vào chứng từ liên quan kế toán ghi nhận vào sổ CCDC</li>
+</ul>
+<p><strong>Luồng chức năng chính</strong></p>
+<p>·     Thanh lý Công cụ dụng cụ. Chi tiết nghiệp vụ <strong><a href="#Tăng Công cụ dụng cụ">tại đây</a></strong></p>
+<p>·     Quản lý các chứng từ Thanh lý. Chi tiết nghiệp vụ <strong><a href="#Tăng Công cụ dụng cụ">tại đây</a></strong></p>
+<h3 id="thanh-ly-cong-cu-dung-cu_1"><strong>Thanh lý Công cụ dụng cụ</strong></h3>
+<p><strong>Mô tả:</strong></p>
+<ul>
+<li>Khi doanh nghiệp có nhu cầu bán Công cụ dụng cụ do hết khấu hao hoặc không có nhu cầu sử dụng, kế toán thực hiện thanh lý Công cụ dụng cụ. </li>
+</ul>
+<p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<p><strong>Bước 1:</strong> Có 2 cách để truy cập vào Thanh lý CCDC</p>
+<ul>
+<li>Cách 1: Vào chức năng <strong>Kế toán CCDC</strong> -&gt; Chọn <strong>CCDC</strong> -&gt; Chọn <strong>Công cụ dụng cụ</strong> -&gt; Chọn CCDC muốn thanh lý -&gt; Nhấn nút <strong>Thanh lý</strong></li>
+</ul>
+<p><img alt="" src="../images/fin_CCDC_Thanhly.png" /></p>
+<ul>
+<li>Cách 2: Vào chức năng <strong>Kế toán CCDC</strong> -&gt; Chọn <strong>CCDC</strong> -&gt; Chọn <strong>Thanh lý CCDC</strong> -&gt; Nhấn nút <strong>Tạo</strong></li>
+</ul>
+<p><img alt="" src="../images/fin_CCDC_VaoThanhly.png" /></p>
+<p><strong>Bước 2</strong>: Tại màn hình thanh lý, người dùng thực hiện các thao tác:</p>
+<ul>
+<li>
+<p>Chọn CCDC muốn thanh lý</p>
+</li>
+<li>
+<p>Chọn ngày chứng từ và hạch toán ghi nhận hành động thanh lý </p>
+</li>
+<li>
+<p>Chọn phòng ban và số lượng CCDC thanh lý </p>
+</li>
+<li>
+<p>Chọn tài khoản xử lý giá trị còn lại</p>
+</li>
+</ul>
+<p><img alt="" src="../images/fin_CCDC_Thanhly1.png" /></p>
+<p><strong>Bước 3:</strong> Nhấn nút <em>Xác nhận</em></p>
+<ul>
+<li>
+<p>Hệ thống thực hiện hạch toán số tiền thanh lý ccdc theo số lượng và ngày chứng từ</p>
+</li>
+<li>
+<p>Thực hiện cập nhật giá trị phân bổ vào tab Phân bổ ước tính ở CCDC gốc.</p>
+</li>
+<li>
+<p>Thông tin ccdc thanh lý được lưu trên danh sách thanh lý ccdc</p>
+</li>
+</ul>
+<h3 id="quan-ly-cac-chung-tu-thanh-ly"><strong>Quản lý các chứng từ Thanh lý</strong></h3>
+<p><strong>Mô tả:</strong></p>
+<ul>
+<li>Hệ thống tập hợp các CCDC đã được Thanh lý, giúp doanh nghiệp dễ dàng theo dõi và quản lý hiện trạng CCDC cho đến thời điểm hiện tại</li>
+</ul>
+<p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<p><strong>Bước 1:</strong> Vào chức năng <strong>Kế toán CCDC</strong> -&gt; Chọn <strong>CCDC</strong> -&gt; Chọn <strong>Thanh lý CCDC</strong></p>
+<p><img alt="" src="../images/fin_CCDC_Thanhly_2.png" /></p>
+<p><strong>Bước 2:</strong> Người dùng có thể chọn xem CCDC thanh lý bất kỳ trên màn hình danh sách các CCDC đã được thanh lý hoặc tìm kiếm CCDC thanh lý theo Mã CCDC, Tên CCDC, ...</p>
+<p><strong>Bước 3:</strong> Sau khi chọn bản ghi, thông tin CCDC sẽ được hiển thị tại tab Thông tin chung và các bút toán ghi nhận tại tab Chi tiết hạch toán</p>
+<p><img alt="" src="../images/fin_CCDC_QuanlyTT.png" /></p>
+<h2 id="kiem-ke-cong-cu-dung-cu"><strong>Kiểm kê Công cụ dụng cụ</strong></h2>
+<h3 id="mo-ta-nghiep-vu_2"><strong>Mô tả nghiệp vụ</strong></h3>
+<ul>
+<li>Hàng kỳ Doanh nghiệp thực hiện kiểm kê Công cụ dụng cụ theo số ghi nhận trên hệ thống và số thực tế kiểm kê</li>
+<li>Kết thúc kiểm kê thu lại biên bản kiểm kê và tổng hợp kết quả. So sánh số liệu kiểm kê trên bảng tổng hợp kết quả kiểm kê với số liệu trên sổ sách kế toán</li>
+<li>Dựa trên báo cáo kết quả kiểm kê, giám đốc phê duyệt các điều chỉnh do có sự khác biệt giữa số liệu sổ sách và kết quả kiểm kê.</li>
+<li>Căn cứ vào quyết định xử lý, kế toán TSCĐ thực hiện ghi sổ TSCĐ.</li>
+</ul>
+<h3 id="kiem-ke-cong-cu-dung-cu_1"><strong>Kiểm kê Công cụ dụng cụ</strong></h3>
+<p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<p><strong>Bước 1:</strong> Vào chức năng <strong>Kế toán CCDC</strong> -&gt; Chọn <strong>Quản lý CCDC</strong> -&gt; Chọn <strong>Kiểm kế CCDC</strong></p>
+<p><img alt="" src="../images/fin_CCDC_Kiemke.png" /></p>
+<p><strong>Bước 2</strong>: Chọn nút <em>Tạo</em></p>
+<p><strong>Bước 3:</strong> Người dùng thực hiện nhập các thông tin:</p>
+<ul>
+<li>
+<p>Ngày ghi nhận kiểm kê </p>
+</li>
+<li>
+<p>Số chứng từ</p>
+</li>
+<li>
+<p>Nhập thông tin người kiểm kê tại mục Thành viên tham gia</p>
+</li>
+</ul>
+<p><img alt="" src="../images/fin_CCDC_Kiemke_1.png" /></p>
+<ul>
+<li>Chọn CCDC kiểm kê -&gt; Hệ thống tự động hiển thị số lượng CCDC theo dõi trên phần mềm. Người dùng thực hiện nhập số lượng kiểm kê theo thực tế và tình trạng CCDC tính đến thời điểm kiểm kê tại mục Chi tiết CCDC</li>
+</ul>
+<p><img alt="" src="../images/fin_CCDC_Kiemke_2.png" /></p>
+<p><strong>Bước 4:</strong> Chọn <em>Lưu</em> để ghi nhận thông tin kiểm kê</p>
               
             </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../fin-log-histories/" class="btn btn-neutral float-right" title="Lịch sử phát triển sản phẩm">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../fin-tscd/" class="btn btn-neutral" title="Tài sản cố định"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
@@ -209,6 +646,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
+      <span><a href="../fin-tscd/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../fin-log-histories/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
