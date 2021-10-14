@@ -220,7 +220,7 @@ Căn cứ vào lệnh điều động nội bộ của công ty về việc chuy
 Tương tự như **Lập phiếu xuất kho** đã trình bày ở trên, tuy nhiên cần chú ý:
 
 - Cấu hình **Kiểu giao nhận (Loại xuất)** :
-  - **Movement type:** Chọn Xuất công ty/chi nhánh (sinh phiếu nội bộ) và Value là T-
+  - **Loại nhập xuất:** Chọn loại Xuất công ty/chi nhánh (sinh phiếu nội bộ) và có mã là T-
   - **Điểm đi mặc định:** Kho của công ty
 
 ![fin_Kho_kieugiaonhan_1](images/fin_Kho_kieugiaonhan_1.png)
@@ -232,10 +232,10 @@ Tương tự như **Lập phiếu xuất kho** đã trình bày ở trên, tuy n
 
   Sau khi hoàn thành **Phiếu xuất kho**, hệ thống sẽ tự động sinh **Phiếu nhập kho** (trạng thái Nháp). Và phiếu nhập kho sẽ có cấu hình **Kiểu giao nhận (Loại nhập)** như sau:
   
-  - **Movement type**: Chọn Nhập từ công ty/chi nhánh và có Value T+
+  - **Loại nhập xuất**: Chọn Nhập từ công ty/chi nhánh và có mã T+
   - **Điểm đích mặc định:** Kho của công ty
 
-![fin_kho_KGN nhaptucty](images/fin_kho_KGN nhaptucty.png)
+![](images/fin_kho_KGN_nhaptucty.png)
 
 # *Lập phiếu chuyển kho*
 
