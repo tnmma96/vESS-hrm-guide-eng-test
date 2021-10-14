@@ -11,7 +11,7 @@ nav:
         - 'Tuyển dụng': 'hrm/recruitment.md'
         - 'Nhân viên': 'hrm/employee.md'
         - 'Chấm công': 'hrm/attendance.md'
-            # - 'Tiền lương':
+        - 'Tính lương': 'hrm/payroll.md'
         - 'Lịch sử phát triển sản phẩm': 'hrm/log-histories.md'
     - 'Kế toán': 
         - 'Giới thiệu về phân hệ Kế toán': 'finance/fin-introduction.md'
@@ -24,7 +24,7 @@ nav:
         - 'Bán hàng': 'finance/fin-ban-hang.md'
         - 'Kế toán': 'finance/fin-ke-toan-tong-hop.md'
         - 'Kho vận': 'finance/fin-kho.md'
-        - 'Giá thành': 'finance/fin-giathanh.md'		
+        - 'Giá thành': 'finance/fin-giathanh.md'
         - 'Tài sản cố định': 'finance/fin-tscd.md'
         - 'Công cụ dụng cụ': 'finance/fin-ccdc.md'
         - 'Lịch sử phát triển sản phẩm': 'finance/fin-log-histories.md'
