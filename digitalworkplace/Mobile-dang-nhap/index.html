@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Đăng nhập trên mobile - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "\u0110\u0103ng nh\u1eadp tr\u00ean mobile";
+    var mkdocs_page_input_path = "digitalworkplace\\Mobile-dang-nhap.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas-introduction/">Trang chủ</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-san-xuat/">Sản xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-login/">Đăng nhập, đăng xuất trên web</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Đăng nhập trên mobile</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#quy-trinh">Quy trình</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-Social/">Mạng xã hội</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-project/">Dự án</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-khao-sat/">Khảo sát</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-ghi-chu/">Ghi chú</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-su-kien/">Sự kiện</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-bua-an/">Bữa ăn</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Digital workplace &raquo;</li>
+        
+      
+    
+    <li>Đăng nhập trên mobile</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h3 id="quy-trinh-nghiep-vu">Quy trình nghiệp vụ</h3>
+<p>Khách hàng đăng nhập tài khoản trên ứng dụng CloudERP bằng tài khoản theo công ty đã cung cấp để thực hiện xem, cập nhật thông tin cá nhân, xem thông báo, tin tức và các nội dung khác.</p>
+<h4 id="quy-trinh">Quy trình</h4>
+<p><img alt="" src="../picture/PIC_DW_Mobile_DangNhap-QuyTrinh.png" /></p>
+<p><strong>Các luồng quy trình</strong></p>
+<ul>
+<li>Đăng nhập. Chi tiết nghiệp vụ <u><a href="#ang-nhap">tại đây</a></u>.</li>
+</ul>
+<h4 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h4>
+<p>Khi người sử dụng muốn đăng nhập vào ứng dụng CloudERP thì quy trình thực hiện như sau:</p>
+<ol>
+<li>
+<p>Mở app trên thiết bị </p>
+</li>
+<li>
+<p>Thực hiện nhập domain hoặc quét QR code domain để cung cấp thông tin </p>
+</li>
+<li>
+<p>Thực hiện đăng nhập bằng thông tin tài khoản mật khẩu đã được công ty cung cấp</p>
+</li>
+<li>
+<p>Nhập mã OTP được gửi đến để xác nhận và đăng nhập thành công.</p>
+</li>
+</ol>
+<p><strong>Luồng chức năng chính</strong></p>
+<ul>
+<li>Đăng nhập. Chi tiết nghiệp vụ <u><a href="#ang-nhap">tại đây</a></u>.</li>
+</ul>
+<p><strong>Video hướng dẫn</strong></p>
+<h3 id="ang-nhap">Đăng nhập</h3>
+<p>Khách hàng đăng nhập tài khoản trên ứng dụng CloudERP bằng tài khoản theo công ty đã cung cấp</p>
+<p><strong>Đối tượng thực hiện:</strong> Người dùng</p>
+<p>Điều kiện trước: Công ty của người dùng đã được đăng ký trên hệ thống và người dùng đã có tài khoản</p>
+<p>Điều kiện sau: Đăng nhập thành công và vào màn hình Danh sách ứng dụng hoặc onbroading</p>
+<ol>
+<li>
+<p>Mở app trên thiết bị </p>
+</li>
+<li>
+<p>Thực hiện nhập domain hoặc quét QR code domain để cung cấp thông tin: </p>
+<p><img alt="" src="../picture/PIC_DW_Mobile_DangNhap-Domain.jpg" /></p>
+<ul>
+<li>
+<p>Trường hợp ứng dụng kiểm tra chưa có domain mới thực hiện nhập domain hoặc quét QR code domain</p>
+<ul>
+<li>
+<p>Nếu người dùng chọn nhập mã domain, sẽ khai báo thông tin Đường dẫn của công ty </p>
+</li>
+<li>
+<p>Nếu người dùng chọn quét QR code domain, ứng dụng sẽ hiển thị màn hình quét QR code domain</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_Mobile_DangNhap-QRCode.jpg" /></p>
+<ul>
+<li>Trường hợp ứng dụng kiểm tra đã có domain, người dùng sẽ thực hiện đăng nhập luôn</li>
+</ul>
+</li>
+<li>
+<p>Nhấn <strong>Tiếp tục</strong>, ứng dụng sẽ thực hiện kiểm tra xem thông tin domain có tồn tại hay không.</p>
+<ul>
+<li>
+<p>Nếu thông tin domain chính xác, người dùng sẽ tiến hành đăng nhập </p>
+</li>
+<li>
+<p>Nếu thông tin domain không chính xác, người dùng sẽ tiếp tục nhập thông tin domain </p>
+</li>
+</ul>
+</li>
+<li>
+<p>Thực hiện đăng nhập bằng thông tin tài khoản mật khẩu đã được công ty cung cấp</p>
+<p><img alt="" src="../picture/PIC_DW_Mobile_DangNhap-DangNhap.jpg" /></p>
+<ul>
+<li>
+<p>Khai báo thông tin Tài khoản và Mật khẩu đã được công ty cung cấp </p>
+</li>
+<li>
+<p>Chọn <strong>Nhớ mật khẩu</strong> để lưu mật khẩu cho lần đăng nhập tiếp theo </p>
+</li>
+<li>
+<p>Nhấn <strong>Nhập lại tên miền</strong> để nhập lại domain </p>
+</li>
+<li>
+<p>Nhấn <strong>Đăng nhập</strong> hoặc chọn đăng nhập bằng vân tay </p>
+<ul>
+<li>
+<p>Nếu thông tin đăng nhập đúng, hệ thống gửi SMS OTP vào số điện thoại của người dùng</p>
+</li>
+<li>
+<p>Nếu thông tin đăng nhập không chính xác, người dùng sẽ thực hiện lại việc đăng nhập</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Tại màn hình nhập mã OTP, nhấn <strong>Gửi lại</strong> nếu không nhận được mã OTP hoặc mã OTP bị quá thời hạn cho phép</p>
+</li>
+<li>
+<p>Người dùng nhập mã OTP được gửi đến</p>
+</li>
+</ol>
+<p><img alt="" src="../picture/PIC_DW_Mobile_DangNhap-NhapOTP.jpg" /></p>
+<ol>
+<li>
+<p>Nhấn <strong>Xác nhận</strong> </p>
+<ul>
+<li>
+<p>Nếu mã OTP chính xác, người dùng đăng nhập thành công</p>
+</li>
+<li>
+<p>Nếu mã OTP không chính xác, người dùng nhập lại mã OTP</p>
+</li>
+</ul>
+</li>
+</ol>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../Addon-Website/" class="btn btn-neutral float-right" title="Trang web">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../Addon-login/" class="btn btn-neutral" title="Đăng nhập, đăng xuất trên web"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Addon-login/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Addon-Website/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/extra.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

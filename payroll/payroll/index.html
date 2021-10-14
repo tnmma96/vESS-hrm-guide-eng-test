@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Quản lý Tính lương - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Qu\u1ea3n l\u00fd T\u00ednh l\u01b0\u01a1ng";
+    var mkdocs_page_input_path = "payroll\\payroll.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas-introduction/">Trang chủ</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-san-xuat/">Sản xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-login/">Đăng nhập, đăng xuất trên web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Mobile-dang-nhap/">Đăng nhập trên mobile</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Social/">Mạng xã hội</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-project/">Dự án</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-khao-sat/">Khảo sát</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-ghi-chu/">Ghi chú</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-su-kien/">Sự kiện</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-bua-an/">Bữa ăn</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Quản lý Tính lương</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="quan-ly-tinh-luong">Quản lý Tính lương</h1>
+<h2 id="mo-ta-nghiep-vu"><strong>Mô tả nghiệp vụ</strong></h2>
+<p><strong>Quy trình tổng quan</strong> </p>
+<ul>
+<li>Nhân viên phụ trách tính lương thực hiện nhập các dữ liệu đầu vào cấu thành bảng lương như: dữ liệu chấm công nhật, dữ liệu tính công làm thêm, công theo ca, các khoản phụ cấp, các khoản khấu trừ,...Bên cạnh đó, nhân viên phụ trách cần tạo các thông số mặc định liên quan đến bảng lương như: Lương chức danh, lương bảo hiểm, thuế TNCN, người phụ thuộc, ... ở trong phân hệ Quản lý Nhân viên</li>
+<li>Nhân viên tính lương xây dựng dữ liệu phần tử lương, cấu trúc lương áp dụng cho toàn công ty hoặc áp dụng cho từng bộ phận nhân viên của công ty. Mỗi cấu trúc lương thì bao gồm các thành phần (phần tử) lương khác nhau, phụ thuộc vào từng vị trí công việc.</li>
+<li>Hàng tháng, nhân viên tính lương tạo bảng lương (áp dụng cho toàn bộ công ty hoặc từng bộ phận nhân viên của công ty). Bảng lương là thang bảng được lập ra để tập hợp và phân bổ tiền lương thực tế phải trả gồm tiền lương, tiền công, tiền thưởng, các loại phụ cấp và các khoản bảo hiểm.</li>
+<li>Nhân viên tính lương thực hiện gửi bảng lương cho các nhân viên khác để họ xác nhận và phản hồi. Sau đó, nhân viên tính lương thực hiện gửi bảng lương đã được xác nhận đến bộ phận kế toán để thực hiện chi trả lương cho nhân sự công ty.</li>
+</ul>
+<p><strong>Luồng quy trình</strong></p>
+<ul>
+<li>Quy trình tạo dữ liệu đầu vào.</li>
+<li>Quy trình tạo cấu trúc lương. </li>
+<li>Quy trình tạo bảng lương.</li>
+</ul>
+<h2 id="tao-du-lieu-luong">Tạo dữ liệu lương</h2>
+<p>Để lập được bảng lương, nhân viên phụ trách cần tạo dữ liệu tính lương trước, các dữ liệu này bao gồm dữ liệu đầu vào và thông số mặc định.</p>
+<p><strong>Đối tượng thực hiện:</strong> Nhân viên phụ trách tính lương.</p>
+<h3 id="tao-thong-so-mac-inh">Tạo thông số mặc định</h3>
+<p>Các thông số mặc định của một nhân viên bao gồm: Lương chức danh, lương bảo hiểm, người phụ thuộc. Những thông tin này đã được khai báo tại Hồ sơ nhân viên trước đó, nếu chưa được bổ sung, nhân viên phụ trách vào phân hệ Nhân viên để bổ sung đầy đủ thông số. Quy trình nghiệp vụ, xem tại đây.</p>
+<h3 id="tao-du-lieu-cham-cong-au-vao">Tạo dữ liệu chấm công đầu vào</h3>
+<p>Các dữ liệu về chấm công sẽ được lấy từ phân hệ Chấm công (quy trình nghiệp vụ xem tại đây), bao gồm các loại công như sau:</p>
+<ul>
+<li>Công tiêu chuẩn: Số ngày công tiêu chuẩn đi làm trong tháng</li>
+<li>Công đi làm: Số ngày công đi làm thực tế trên công ty</li>
+<li>Công làm online: Số ngày công đi làm online đã được ghi nhận</li>
+<li>Công tăng ca: Số ngày công tăng ca đã được phê duyệt</li>
+<li>Công tăng ca đêm: Số ngày công làm tăng ca đêm</li>
+<li>Công tăng ca lễ: Số ngày công làm tăng ca ngày lễ</li>
+<li>Công công tác: Số ngày công đi công tác</li>
+<li>Công nghỉ dưỡng: Số ngày công nghỉ dưỡng</li>
+<li>Công nghỉ không lương: Số ngày công nghỉ không lương</li>
+<li>Công nghỉ lễ: Số ngày công nghỉ lễ</li>
+<li>Công nghỉ ốm: Số ngày công nghỉ ốm</li>
+<li>Công nghỉ phép: Số ngày công nghỉ phép</li>
+<li>Công nghỉ tai nạ: Số ngày công nghỉ tai nạn</li>
+<li>Công nghỉ thai sản: Số ngày công nghỉ thai sản</li>
+<li>Công nghỉ việc riêng hưởng lương: Số ngày công nghỉ việc riêng hưởng lương</li>
+</ul>
+<h2 id="tao-cau-truc-tinh-luong">Tạo cấu trúc tính lương</h2>
+<p><strong>Đối tượng thực hiện:</strong> Nhân viên phụ trách tính lương.</p>
+<p><strong>Các bước thực hiện:</strong>*</p>
+<p><strong>Bước 1:</strong> Người dùng truy cập vào hệ thống, chọn phân hệ <strong>Tính lương &gt; Cấu hình &gt; Cấu trúc lương</strong></p>
+<p><img alt="image-20211014164832610" src="../images/image-20211014164832610.png" /></p>
+<p><strong>Bước 2</strong>: Người dùng thực hiện nhập các thông tin chung về cấu trúc lương</p>
+<ul>
+<li>
+<p>Tên: Tên cấu trúc lương</p>
+</li>
+<li>
+<p>Mã: Mã cấu trúc lương</p>
+</li>
+</ul>
+<p>Tại bảng phần tử lương, người dùng thực hiện khai báo các phần tử cấu thành nên cấu trúc lương, dựa trên công thức tính lương của công ty và sử dụng các từ khóa tham số ở bảng bên cạnh</p>
+<p><img alt="image-20211014165136930" src="../images/image-20211014165136930.png" /></p>
+<pre><code>- Cột tên: nhập tên phần tử lương sao cho dễ gợi nhớ
+- Cột mã: nhập mã tương ứng với mỗi phần tử, sao cho các phần tử không bị lặp lại mã, và đảm bảo tính chất dễ hiểu, dễ ghi nhớ trong quá trình tạo phần tử và tạo công thức
+- Cột mã Python: là cột lưu giá trị của phần tử lương, hệ thống cung cấp các hàm tính toán đảm bảo việc tính lương bao gồm: 
+  + Các phép tính toán: cộng, trừ, nhân, chia
+  + Round
+  + If
+  + ......
+</code></pre>
+<ul>
+<li>Nút mũi tên 4 chiều: dùng để di chuyển các phần tử lương sao cho đảm bảo các phần tử thỏa mãn điều kiện: Phần tử sau là kết quả phép tính của các phần tử trước.</li>
+</ul>
+<h2 id="tao-bang-luong">Tạo bảng lương</h2>
+<p><strong>Đối tượng thực hiện:</strong> Nhân viên phụ trách tính lương.</p>
+<p>Nhân viên phụ trách tính lương tạo xong các dữ liệu tính lương cho nhân sự công ty, thì mới có thể tạo được bảng lương hàng tháng dựa trên các dữ liệu đã tạo.</p>
+<p><strong>Các bước thực hiện:</strong> </p>
+<p><strong>Bước 1:</strong> Người dùng truy cập vào hệ thống, chọn phân hệ <strong>Tính lương &gt; Bảng lương &gt; Tạo</strong></p>
+<p><img alt="image-20211014170930220" src="../images/image-20211014170930220.png" /></p>
+<ul>
+<li>Tên: Nhập tên bảng lương cần tạo.</li>
+<li>Chu kỳ: Chọn thời gian để thực hiện tính toán. </li>
+<li>Cấu trúc lương: Chọn một cấu trúc lương đã cấu hình sẵn.</li>
+</ul>
+<p><strong>Bước 2:</strong> Chọn <strong>Tạo phiếu lương</strong>, lúc này sẽ mở ra một cửa sổ chọn nhân viên.</p>
+<p><img alt="image-20211014171332214" src="../images/image-20211014171332214.png" /></p>
+<ul>
+<li>Nếu chọn 1 hoặc 1 nhóm nhân viên thì thực hiện tích chọn vào các ô đầu dòng, hệ thống sẽ chỉ tạo phiếu lương cho các nhóm nhân viên này</li>
+</ul>
+<p><img alt="image-20211014171455844" src="../images/image-20211014171455844.png" /></p>
+<ul>
+<li>
+<p>Sau đó click <strong>Chọn</strong></p>
+</li>
+<li>
+<p>Nếu chọn toàn bộ nhân viên thì thực hiện chọn vào ô trống trên cùng, hệ thống sẽ thực hiện tạo phiếu lương cho toàn bộ nhân viên</p>
+</li>
+<li>
+<p>Sau đó click <strong>Tạo</strong></p>
+</li>
+</ul>
+<p><img alt="image-20211014171539825" src="../images/image-20211014171539825.png" /></p>
+<ul>
+<li>Hệ thống sẽ hiển thị các phiếu lương của các nhân viên đã chọn </li>
+</ul>
+<p><img alt="image-20211014171911461" src="../images/image-20211014171911461.png" /></p>
+<ul>
+<li>Người dùng thực hiện chọn <strong>Tính toán phiếu lương</strong>, khi chọn vào 1 phiếu lương, hệ thống hiển thị phiếu lương chi tiết của nhân viên, lúc này phiếu lương ở trạng thái <strong>Nháp</strong>.</li>
+</ul>
+<p><img alt="image-20211014172147376" src="../images/image-20211014172147376.png" /></p>
+<p><strong>Bước 3:</strong> Người dùng có thể thực hiện Nhập/xuất dữ liệu đầu vào của phiếu lương, dữ liệu đầu vào có thể là lương doanh số, thưởng sinh nhật,...Người dùng chọn <strong>Nhập/xuất dữ liệu đầu vào của phiếu lương&gt;Xuất mẫu</strong></p>
+<p>​   Người dùng thực hiện nhập dữ liệu vào file biểu mẫu, thực hiện Tải tệp đã nhập lên, chọn <strong>Nhập tệp</strong>, dữ liệu được import sẽ được chuyển vào <strong>Chi tiết phiếu lương&gt;Bảng Dữ liệu nhập ngoài khác</strong>.</p>
+<p><img alt="image-20211014174821516" src="../images/image-20211014174821516.png" /></p>
+<p><strong>Bước 4</strong>: Người dùng chuyển sang tab <strong>Phiếu lương nhân viên</strong> ở đây hiển thị các phiếu lương mà đã thực hiện gửi các phiếu lương cho nhân viên để thực hiện kiểm tra lại thông tin lương trước khi <strong>Duyệt</strong>.</p>
+<p><img alt="image-20211014175250986" src="../images/image-20211014175250986.png" /></p>
+<p><strong>Bước 5:</strong> Nếu có phản ảnh về thông tin lương, người dùng vào <strong>Phiếu lương nhân viên &gt; Thực hiện chọn phiếu lương được phản ánh &gt; Sửa</strong></p>
+<p>​   Nếu không có phản ánh nào, người dùng vào <strong>Bảng lương &gt; Chọn bảng lương &gt; Chọn Duyệt</strong></p>
+<p>​   Bảng lương sau khi duyệt sẽ được công ty thực hiện chi trả lương cho nhân viên.</p>
+<p><img alt="image-20211014175649118" src="../images/image-20211014175649118.png" /></p>
+<p>​   </p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/extra.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
