@@ -12,9 +12,9 @@ Việc thiết lập ban đầu được thực hiện ngay tại thời điểm
 
 * Cài đặt ứng dụng Nhân viên, Tài liệu. Chi tiết <u>[tại đây](../../saas/saas/#ang-ky-va-cai-at-cac-ung-dung)</u>
 
-* Tạo tài khoản cá nhân. Chi tiết <u>[tại đây](../../hrm/initialization/#tao-va-phan-quyen-nguoi-dung)</u>.
+* Tạo tài khoản cá nhân. Chi tiết <u>[tại đây](../../hrm/employee/#tao-tai-khoan)</u>.
 
-* Khai báo thông tin nhân viên. Chi tiết <u>[tại đây](../../hrm/employee/#tao-tai-khoan)</u>.
+* Khai báo thông tin nhân viên. Chi tiết <u>[tại đây](../../hrm/employee/#them-moi-ho-so-nhan-vien)</u>.
 
 * Gán tài khoản cá nhân với nhân viên. Chi tiết <u>[tại đây](#gan-tai-khoan-ca-nhan-voi-nhan-vien)</u>.
 
@@ -30,7 +30,7 @@ Các bước thực hiện
 
 Sau đó nhấn **Lưu**
 
-![](picture/PIC_DW_Mobile_gan_nhan_vien.png)
+![](../picture/PIC_DW_Mobile_gan_nhan_vien.png)
 
 
 
