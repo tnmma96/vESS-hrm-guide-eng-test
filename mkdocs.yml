@@ -28,6 +28,15 @@ nav:
         - 'Tài sản cố định': 'finance/fin-tscd.md'
         - 'Công cụ dụng cụ': 'finance/fin-ccdc.md'
         - 'Lịch sử phát triển sản phẩm': 'finance/fin-log-histories.md'
+    - 'Tài liệu': 
+        - 'Giới thiệu về ứng dụng Tài liệu': 'document/introduction.md'
+        - 'Các thuật ngữ và từ viết tắt': 'document/abbreviations.md'
+        - 'Thiết lập và khai báo ban đầu': 'document/initialization.md'
+        - 'Tài liệu': 'document/document.md'   
+    - 'Ký số': 
+        - 'Giới thiệu về ứng dụng Ký số': 'esign/introduction.md'
+        - 'Thiết lập và khai báo ban đầu': 'esign/initialization.md'
+        - 'Ký số': 'esign/esign.md'           
     - 'Digital workplace': 
         - 'Giới thiệu về phân hệ Digital workplace': 'digitalworkplace/Gioi-thieu-digital-workplace.md'
         - 'Thiết lập và khai báo ban đầu': 'digitalworkplace/dw-initialization.md'
