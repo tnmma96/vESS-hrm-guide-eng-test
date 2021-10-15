@@ -38,7 +38,8 @@ Khách hàng đăng nhập tài khoản trên ứng dụng CloudERP bằng tài 
 
 **Đối tượng thực hiện:** Người dùng
 
-Điều kiện trước: Công ty của người dùng đã được đăng ký trên hệ thống và người dùng đã có tài khoản
+Điều kiện trước: Công ty của người dùng đã được đăng ký trên hệ thống, người dùng đã có tài khoản.
+Ngoài ra, hệ thống cần cài đặt các chức năng: Nhân viên, Tài liệu.
 
 Điều kiện sau: Đăng nhập thành công và vào màn hình Danh sách ứng dụng hoặc onbroading
 
