@@ -30,7 +30,7 @@ Các bước thực hiện
 
 Sau đó nhấn **Lưu**
 
-![](../picture/PIC_DW_Mobile_gan_nhan_vien.png)
+![](../vESS_mobile/picture/PIC_DW_Mobile_gan_nhan_vien.png)
 
 
 
