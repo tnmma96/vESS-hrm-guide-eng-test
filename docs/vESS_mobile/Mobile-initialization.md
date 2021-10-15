@@ -29,8 +29,7 @@ Các bước thực hiện
 3. Tại Tài khoản hệ thống/ Tên đăng nhập: chọn tài khoản cá nhân tương ứng
 
 Sau đó nhấn **Lưu**
-
-![](../vESS_mobile/picture/PIC_DW_Mobile_gan_nhan_vien.png)
+![](picture/PIC_DW_Mobile_gan_nhan_vien.png)
 
 
 
