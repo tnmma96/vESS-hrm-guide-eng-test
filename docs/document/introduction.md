@@ -11,4 +11,4 @@
 - Chia sẻ tài liệu cho người khác khi cần thiết. 
 - Bình luận, trao đổi về tài liệu 
 
-![image-20211013004923254](images/image-20211013004923254.png)
+  ![image-20211013004923254](images/image-20211013004923254.png)

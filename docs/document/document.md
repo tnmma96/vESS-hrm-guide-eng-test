@@ -26,15 +26,19 @@ Chức năng này cho phép người dùng tạo mới tài liệu trên ứng d
 
   - **Đính kèm:** áp dụng với các tài liệu cần đính kèm tệp lên hệ thống.  Khi đó, người dùng bắt buộc phải đính kèm ít nhất 1 tệp tài liệu tại trường Tệp tài liệu. Hệ thống hỗ trợ đính kèm các tệp có định dạng doc, docx, xlsx, xls, ppt, pdf, định dạng ảnh, video, tệp nén raz, zip ... 
 
-    <img src="images/Taotailieu_1.PNG" style="zoom:80%;" /> 
+    ![](images/Taotailieu_1.PNG)
 
   - **Liên kết**: áp dụng với các tài liệu được lưu trữ là các liên kết. Khi chọn loại này, người dùng cần nhập liên kết tại trường URL. 
 
-    <img src="images/Taotailieu_2.PNG" style="zoom:80%;" />
+    ![](images/Taotailieu_2.PNG)
+
+    
 
   - **Văn bản:** Nội dung cần lưu trữ dạng văn bản sẽ được người dùng nhập luôn tại trường Mô tả. 
-
-    <img src="images/Taotailieu_3.PNG" style="zoom:80%;" />
+  
+    ![](images/Taotailieu_3.PNG)
+    
+    
 
 3. Kích nút **Lưu** để lưu lại tài liệu trên hệ thống. 
 
@@ -70,9 +74,7 @@ Hiển thị danh sách tài liệu thỏa mãn  tiêu chí tìm kiếm dưới 
 - Cây thư mục chỉ hiển thị các thư mục mà người dùng có quyền ghi/đọc
 - Người dùng chỉ có thể tìm kiếm được các tài liệu có quyền đọc / ghi
 
-
-
-<img src="images/clip_image030.jpg"  />
+  ![](images/clip_image030.jpg)
 
 ###  Xem thông tin chi tiết tài liệu
 
@@ -98,7 +100,7 @@ Cho phép người dùng xem được thông tin chi tiết thuộc tính của 
 
    - Lịch sử các phiên bản (nếu có): danh sách hiển thị sắp xếp theo phiên bản giảm dần. 
 
-   - Các nút hoạt động thực hiện với tài liệu <img src="images/image-20211013012645439.png" alt="image-20211013012645439" style="zoom: 67%;" />
+   - Các nút hoạt động thực hiện với tài liệu  ![](images/image-20211013012645439.png) 
      - Tải tài liệu: cho phép tải tài liệu về máy cá nhân. 
      - Chia sẻ: hiển thị khi người dùng có quyền đọc/ghi với tài liệu
      - Thay thế: chức năng nâng phiên bản tài liệu, chỉ hiển thị khi người dùng có quyền ghi với tài liệu
@@ -155,9 +157,9 @@ Cho phép thay thế/ nâng cấp tài liệu bởi phiên bản mới khi phiê
 
    ![image-20211013013255119](images/image-20211013013255119.png)
 
-3. Kích nút Thay thế <img src="images/image-20211013013314909.png" alt="image-20211013013314909" style="zoom:80%;" />: hiển thị màn hình nhập thông tin chi tài liệu mới
+3. Kích nút Thay thế ![](images/image-20211013013314909.png): hiển thị màn hình nhập thông tin chi tài liệu mới
 
-   ​	<img src="images/image-20211013013407832.png" alt="image-20211013013407832" style="zoom:80%;" />
+   ​	![](images/image-20211013013407832.png)
 
 4. Khai báo tài liệu mới và kích **Lưu**
 
@@ -265,7 +267,7 @@ Cho phép người dùng có thể đưa ra các bình luận, đánh giá về 
 2. Tích chọn tài liệu để hiển thị màn hình xem chi tiết
 3. kích chọn tab **Trao đổi** > mục **Gửi tin**
 
-<img src="images/image-20211013012951926.png" alt="image-20211013012951926" style="zoom:80%;" />
+![](images/image-20211013012951926.png)
 
 - Người dùng nhập nội dung ý kiến của cá nhân về tài liệu 
 - Xem được các bình luận của người khác về tài liệu 
