@@ -2,7 +2,7 @@
 
 Repository này được tạo ra với mục đích xây dựng tài liệu hướng dẫn sử dụng phần mềm. Giúp người dùng dễ dàng tiếp cận các sản phẩm của Ban CNTT. Dưới đây là các lưu ý khi cập nhật hướng dẫn sử dụng phần mềm.
 * Trang preview: https://viettel-ess.github.io/ESS-System-Guide
-
+ 
 ## Cấu trúc project 
 
     mkdocs.yml    # File cấu hình.
