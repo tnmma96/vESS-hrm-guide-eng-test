@@ -8,11 +8,11 @@ Các bước để bắt đầu sử dụng hệ thống vESS như sau:
 
  a. Người dùng truy cập vào trang web vess.vn, sau đó chọn **Đăng ký ngay**
 
-![image-20210930175930358](../images/image-20210930175930358.png)
+![image-20211026155128783](../images/image-20211026155128783.png)
 
  b. Hệ thống mở ra trang đăng ký, người dùng khai báo các thông tin để đăng ký, bấm **Đăng ký**
 
-![image-20210930180140822](../images/image-20210930180140822.png)
+![image-20211026155244024](../images/image-20211026155244024.png)
 
 *Lưu ý:* 
 
@@ -23,23 +23,23 @@ c. Người dùng  kiểm tra email, bấm **Kích hoạt tài khoản** để x
 
 Tại đây, màn hình hiển thị danh sách các ứng dụng đang xuất bản trên hệ thống, người dùng có thể tìm kiếm, xem chi tiết, xem đánh giá bình luận về các ứng dụng này.
 
-![image-20210930180244685](../images/image-20210930180244685.png)
+![image-20211026160428839](../images/image-20211026160428839.png)
 
 *Lưu ý: Khi người dùng bấm **Đăng ký**, hệ thống tự động gửi thư xác thực tài khoản đến địa chỉ email vừa đăng ký. Trong trường hợp sau 3 phút người dùng không nhận được email, vui lòng bấm **Gửi lại **trên màn hình để hệ thống gửi lại thư xác thực.*
 
-![image-20210930180331332](../images/image-20210930180331332.png)
+![Mailxacthuc.png](../images/Mailxacthuc.png)
 
 ***Bước 2: Cài đặt ứng dụng***
 
 - Với mỗi ứng dụng, khách hàng bấm vào xem chi tiết để có cái nhìn tổng quan về tính năng ứng dụng, bấm **Cài đặt** để tải ứng dụng dùng thử.
 
-  ![image-20210930180354837](../images/image-20210930180354837.png)
+  ![image-20211026160511352](../images/image-20211026160511352.png)
 
   -  *Lưu ý: Để cài đặt được ứng dụng, người dùng cần thiết lập các thông tin cơ bản. Vì vậy, hệ thống hiển thị màn hình yêu cầu **Bổ sung thông tin**.* 
 
   - Tại đây, người dùng thiết lập đủ các thông tin yêu cầu, bấm **Lưu** sau đó bấm lại nút **Cài đặt** để tiếp tục cài đặt ứng dụng.
 
-    ![image-20210930180439550](../images/image-20210930180439550.png)
+    ![image-20211026160604505](../images/image-20211026160604505.png)
 
   - Một số thông tin người dùng cần chú ý: 
 
@@ -51,13 +51,13 @@ Tại đây, màn hình hiển thị danh sách các ứng dụng đang xuất b
 
 - Hệ thống hiển thị màn hình tiến trình đang cài đặt. Khi ứng dụng được cài đặt thành công, hệ thống hiển thị thông báo cài đặt thành công, nút "Cài đặt" tự động chuyển thành nút "Khởi động". Người dùng bấm **Khởi động**, hệ thống mở ra 1 tab mới có đường dẫn chính tên miền người dùng đã khai báo với phiên đăng nhập được tự động cập nhật từ phân hệ portal. 
 
-  ![image-20210930135822039](../images/image-20210930135822039.png)
+![image-20211026160935485](../images/image-20211026160935485.png)
+
+Như ảnh trên, domain doanh nghiệp là *hoai-hai.vess.vn*
 
 Tại đây, người dùng có thể xem menu hoặc trang chủ để biết các menu ứng dụng có thể sử dụng. 
 
 Người dùng trở về tab cũ để tiếp tục cài đặt các ứng dụng khác; hoặc trên tab mới vừa mở ra (miền của doanh nghiệp), người dùng bấm vào menu **vESS Market** trên thanh menu bên trái để trở về màn hình portal.
-
-
 
 *Lưu ý: Người dùng có thể chủ động thiết lập các thông tin ban đầu bằng cách:  Bấm vào mũi tên bên cạnh ảnh đại diện ở góc dưới bên trái màn hình, chọn ***Thông tin cá nhân**, hệ thống hiển thị màn hình thông tin cá nhân; người dùng bấm **Chỉnh sửa** để cập nhật các thông tin.Sau khi nhập đủ các thông tin yêu cầu, người dùng bấm **Lưu** để hệ thống ghi nhận thông tin thay đổi*
 
@@ -90,11 +90,7 @@ Khuyến khích khách hàng thực hiện gửi yêu cầu trên hệ thống t
 -  Khách hàng truy cập vess.vn, đăng nhập hệ thống theo email và mật khẩu đã đăng ký. Hệ thống hiển thị màn hình trang chủ danh sách các ứng dụng đã cài đặt. Nếu người dùng chưa cài đặt ứng dụng nào, hệ thống hiển thị màn hình danh sách tất cả các ứng dụng. 
 -  Khách hàng bấm mũi tên bên cạnh ảnh đại diện ở góc dưới bên trái màn hình, chọn **Hỗ trợ dịch vụ**, hệ thống hiển thị màn hình danh sách yêu cầu hỗ trợ của khách hàng
 
-![image-20210930180849298](../images/image-20210930180849298.png)
-
 -  Khách hàng bấm **Tạo yêu cầu**, nhập các thông tin mô tả chi tiết yêu cầu hỗ trợ và bấm **Gửi**. Hệ thống ghi nhận yêu cầu hỗ trợ hiển thị lên danh sách yêu cầu hỗ trợ của khách hàng với trạng thái "Tạo mới"
-
-![image-20210930180748162](../images/image-20210930180748162.png)
 
 *Lưu ý: Đối với các yêu cầu có trạng thái là "Tạo mới", người dùng có thể chỉnh sửa yêu cầu này.*
 
