@@ -12,7 +12,7 @@ Phân hệ Chấm công - Đăng ký công đáp ứng được các yêu cầu 
 - Tự động đồng bộ, chấm công cho nhân viên trên hệ thống dựa theo đơn đăng ký nghỉ, đăng ký làm thêm giờ.
 - Hỗ trợ tổng hợp công dựa trên dữ liệu lịch sử vào/ ra.
 
-# Mô tả nghiệp vụ
+## Mô tả nghiệp vụ
 
 Phân hệ Chấm công - Đăng ký công cho phép người dùng thực hiện đăng ký chấm công - tổng hợp bảng công theo quy trình như sau
 
@@ -30,11 +30,11 @@ Các luồng quy trình:
 - Cán bộ chấm công tổng hợp công. Xem hướng dẫn chi tiết [Tại đây](#Tổng hợp công)
 
 
-# Thiết lập và khai báo ban đầu
+## Thiết lập và khai báo ban đầu
 
 Việc thiết lập và khai báo ban đầu của phân hệ chấm công -  đăng ký công nên được thực hiện ngay khi lần đầu cài đặt hệ thống, giúp khởi tạo dữ liệu và bắt đầu sử dụng nghiệp vụ chấm công. 
 
-## Thiết lập phân quyền người dùng
+### Thiết lập phân quyền người dùng
 
 ***Đối tượng thực hiện: Người quản trị hệ thống***
 
@@ -51,7 +51,7 @@ Việc thiết lập và khai báo ban đầu của phân hệ chấm công -  �
   - Chọn "Quản lý công": Thiết lập cho người dùng là cán bộ duyệt công, có quyền đăng ký công, xem và phê duyệt/ từ chối tất cả các đơn đăng ký công, KHÔNG có quyền tự phê duyệt/ từ chối đơn đăng ký của cá nhân người dùng đó
   - Chọn "Người quản trị": Thiết lập cho người quản trị phân hệ Đăng ký công, có quyền xem và phê duyệt tất cả các đơn đăng ký công bao gồm cả đơn của bản thân. 
 
-## Thiết lập ký hiệu công
+### Thiết lập ký hiệu công
 
 ***Đối tượng thực hiện: Người quản trị hệ thống hoặc người quản trị phân hệ Chấm công*** 
 
@@ -67,7 +67,7 @@ Hiện tại, khi người dùng cài đặt thành công phân hệ Chấm côn
 
 *Lưu ý: Các dữ liệu có sẵn này không được phép xoá. Người dùng có thể tạo thêm ký hiệu công mới bằng cách bấm **Tạo** và nhập dữ liệu phù hợp, sau đó thực hiện **Lưu**.*
 
-## Thiết lập hình thức chấm công
+### Thiết lập hình thức chấm công
 
 ***Đối tượng thực hiện: Người quản trị phân hệ Chấm công và có quyền quản trị ở các phân hệ khác trong mục thiết lập***
 
@@ -111,7 +111,7 @@ Ngay khi người dùng cài đặt thành công phân hệ "Đăng ký công", 
 
 ***Lưu ý 2:** Các loại đăng ký có sẵn trên hệ thống thì không cho phép người dùng xoá.*  
 
-## Thiết lập loại hợp đồng tính phép
+### Thiết lập loại hợp đồng tính phép
 
 ***Đối tượng thực hiện: Người quản lý công hoặc người quản trị phân hệ Đăng ký công*** 
 
@@ -123,7 +123,7 @@ Ngay khi người dùng cài đặt thành công phân hệ "Đăng ký công", 
 
 Người dùng điều chỉnh dữ liệu phù hợp với doanh nghiệp, bấm **Lưu** để hoàn tất.
 
-## Thiết lập loại hoạt động
+### Thiết lập loại hoạt động
 
 ***Đối tượng thực hiện: Người quản lý công hoặc người quản trị phân hệ Đăng ký công***
 
@@ -139,7 +139,7 @@ Người dùng điều chỉnh dữ liệu phù hợp với doanh nghiệp, bấ
 
 *Lưu ý: Các bản ghi hệ thống tạo sẵn thì không được phép xoá.*
 
-## Cấu hình chấm công Camera AI
+### Cấu hình chấm công Camera AI
 
 ***Đối tượng thực hiện: Người quản trị phân hệ Chấm công***
 
@@ -163,9 +163,9 @@ Người dùng bấm **Sửa**,  giao diện hiển thị cho phép người dù
 
 ![image-20211026144816912](images/image-20211026144816912.png)
 
-Người dùng thực hiện tải lên và đồng bộ ảnh cho tất cả nhân viên. Khi có đủ dữ liệu ảnh nhận diện, các lịch sử vào/ra nhân viên chấm công trên camera sẽ được tự động đồng bộ tức thời lên hệ thống. Hệ thống sẽ lấy bản ghi đầu tiên trong ngày của các nhân viên và đẩy vào dữ liệu tổng hợp công cùng với dữ liệu chấm công sẵn trên web/ mobile.  
+Người dùng thực hiện tải lên và đồng bộ ảnh cho tất cả nhân viên. 
 
-# Thiết lập kế hoạch nghỉ phép cho nhân viên
+## Thiết lập kế hoạch nghỉ phép cho nhân viên
 
 Tiền điều kiện: Quản trị viên hệ thống đã thiết lập loại hợp đồng tính phép ở bước [này](#Thiết lập loai hợp đồng tính phép)
 
@@ -194,7 +194,7 @@ Tiền điều kiện: Quản trị viên hệ thống đã thiết lập loại
 
   ![image-20211001104849106](images/image-20211001104849106.png)
 
-# Đăng ký chấm công
+## Đăng ký chấm công
 
 Đăng ký chấm công ở đây bao gồm cả đăng ký ngày nghỉ và đăng ký OT (Đăng ký công cho loại ngày làm đã được thiết lập).
 
@@ -245,7 +245,7 @@ Người quản lý công vào menu **Đăng ký công** >> Chọn **Quản lý*
 
 *Lưu ý: Người quản lý công có thể thực hiện tạo đơn đăng ký công cho từng nhân viên, cả công ty, cả 1 phòng/ban, theo nhóm nhân viên chung nhãn bằng cách lựa chọn phù hợp chế độ đăng ký ở hình trên.*
 
-# Phê duyệt/ Từ chối đăng ký công
+## Phê duyệt/ Từ chối đăng ký công
 
 Đối với các loại đăng ký công cần phê duyệt thì quản lý của nhân viên hoặc quản lý công hoặc người quản trị phân hệ Đăng ký công có quyền vào duyệt tương ứng. 
 
@@ -277,7 +277,7 @@ Người sử dụng đăng nhập vào ứng dụng mobile trên điện thoạ
 
 ![image-20211011163211631](images/image-20211011163211631.png) ![image-20211011163231180](images/image-20211011163231180.png) 
 
-# Tổng hợp công
+## Tổng hợp công
 
 ***Đối tượng thực hiện: Người quản trị phân hệ Chấm công***
 
