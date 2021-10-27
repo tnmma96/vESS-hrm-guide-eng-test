@@ -71,6 +71,36 @@
                     </li>
                     <li class="toctree-l1 current"><a class="reference internal current" href="./">Chấm công</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#thiet-lap-va-khai-bao-ban-au">Thiết lập và khai báo ban đầu</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#thiet-lap-phan-quyen-nguoi-dung">Thiết lập phân quyền người dùng</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#thiet-lap-ky-hieu-cong">Thiết lập ký hiệu công</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#thiet-lap-hinh-thuc-cham-cong">Thiết lập hình thức chấm công</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#thiet-lap-loai-ang-ky-cong">Thiết lập loại đăng ký công</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#thiet-lap-loai-hop-ong-tinh-phep">Thiết lập loại hợp đồng tính phép</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#thiet-lap-loai-hoat-ong">Thiết lập loại hoạt động</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#cau-hinh-cham-cong-camera-ai">Cấu hình chấm công Camera AI</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#thiet-lap-ke-hoach-nghi-phep-cho-nhan-vien">Thiết lập kế hoạch nghỉ phép cho nhân viên</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ang-ky-cham-cong">Đăng ký chấm công</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#phe-duyet-tu-choi-ang-ky-cong">Phê duyệt/ Từ chối đăng ký công</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tong-hop-cong">Tổng hợp công</a>
+    </li>
     </ul>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../payroll/">Tính lương</a>
@@ -214,14 +244,16 @@
               
                 <h1 id="gioi-thieu-chuc-nang-cham-cong-ang-ky-cong">Giới thiệu chức năng Chấm công - Đăng ký công</h1>
 <p>Chấm công, Đăng ký công là 2 phân hệ con mở rộng của phân hệ Nhân sự. Đây là nơi lưu trữ, tổng hợp tất cả dữ liệu đăng ký chấm công và chấm công của các nhân viên trong công ty. Hai phân hệ cung cấp cái nhìn toàn cảnh, bao quát và trực quan về thông tin chấm công của nhân viên; từ đó giúp các công ty/ doanh nghiệp quản lý chấm công một cách hiệu quả và chuẩn xác.</p>
+<p>Để sử dụng được các nghiệp vụ này, người dùng cần cài đặt ứng dụng Chấm công - Đăng ký công; ngoài ra nếu Khách hàng có hệ thống chấm công camera AI thì cài thêm ứng dụng <strong>Camera AI</strong> hỗ trợ sử dụng dữ liệu chấm công từ camera để tổng hợp công. </p>
 <p>Phân hệ Chấm công - Đăng ký công đáp ứng được các yêu cầu nghiệp vụ như:</p>
 <ul>
 <li>Quản lý hiệu quả kế hoạch nghỉ phép cho tất cả nhân viên bằng cách tự động tính toán số ngày nghỉ phép theo Luật lao động hiện hành.</li>
 <li>Quản lý ngày nghỉ phép, làm thêm giờ của nhân viên linh hoạt.</li>
 <li>Công cụ báo cáo, thống đơn giản và trực quan</li>
 <li>Tự động đồng bộ, chấm công cho nhân viên trên hệ thống dựa theo đơn đăng ký nghỉ, đăng ký làm thêm giờ.</li>
+<li>Hỗ trợ tổng hợp công dựa trên dữ liệu lịch sử vào/ ra.</li>
 </ul>
-<h1 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h1>
+<h2 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h2>
 <p>Phân hệ Chấm công - Đăng ký công cho phép người dùng thực hiện đăng ký chấm công - tổng hợp bảng công theo quy trình như sau</p>
 <p><img alt="image-20210930154213758" src="../images/image-20210930154213758.png" /></p>
 <p>Các luồng quy trình:</p>
@@ -240,9 +272,9 @@
 <p>Cán bộ chấm công tổng hợp công. Xem hướng dẫn chi tiết <a href="#Tổng hợp công">Tại đây</a></p>
 </li>
 </ul>
-<h1 id="thiet-lap-va-khai-bao-ban-au">Thiết lập và khai báo ban đầu</h1>
+<h2 id="thiet-lap-va-khai-bao-ban-au">Thiết lập và khai báo ban đầu</h2>
 <p>Việc thiết lập và khai báo ban đầu của phân hệ chấm công -  đăng ký công nên được thực hiện ngay khi lần đầu cài đặt hệ thống, giúp khởi tạo dữ liệu và bắt đầu sử dụng nghiệp vụ chấm công. </p>
-<h2 id="thiet-lap-phan-quyen-nguoi-dung">Thiết lập phân quyền người dùng</h2>
+<h3 id="thiet-lap-phan-quyen-nguoi-dung">Thiết lập phân quyền người dùng</h3>
 <p><strong><em>Đối tượng thực hiện: Người quản trị hệ thống</em></strong></p>
 <p>Để đảm bảo tất cả người dùng đăng nhập vào miền ứng dụng của doanh nghiệp đảm nhận đúng vai trò, quản trị viên hệ thống cần thiết lập phân quyền phù hợp. Cụ thể như sau:</p>
 <ul>
@@ -250,14 +282,14 @@
 <li>Không chọn gì (bỏ trống): Người dùng không có phân sự gì với phân hệ chấm công</li>
 <li>Chọn "Điểm danh thủ công": Người dùng chỉ có quyền điểm danh thủ công trên mobile hoặc máy chấm công. Có thể hiểu phân quyền này cho nhân viên bình thường trong công ty</li>
 <li>Chọn "Cán bộ": Người dùng là cán bộ chấm công, có quyền tổng hợp và theo dõi báo cáo công của tất cả các nhân viên</li>
-<li>Chọn "Người quản trị": Người quản trị phân hệ Chấm công.</li>
+<li>Chọn "Người quản trị": Người quản trị phân hệ Chấm công, có quyền <em>Tổng hợp công</em> và cấu hình thiết lập mục chấm công Camera AI (nếu đã cài đặt) cũng như xem dữ liệu chấm công qua camera</li>
 <li>Đối với phân hệ Đăng ký công, phân hệ này dùng để nhân viên đăng ký, quản lý trực tiếp của nhân viên phê duyệt/ từ chối đăng ký, cán bộ nhân sự phê duyệt/ từ chối và theo dõi báo cáo đăng ký công. Có 3 mức phân quyền cho phân hệ này như sau:</li>
 <li>Không chọn gì (bỏ trống): Người dùng nội bộ (nhân viên) có thể đăng ký công (đăng ký nghỉ/OT)</li>
 <li>Chọn "Người phụ trách": Thiết lập cho người dùng là quản lý của nhân viên, có quyền đăng ký công và chỉ phê duyệt/ từ chối đơn đăng ký công của nhân viên mình phụ trách, quản lý</li>
 <li>Chọn "Quản lý công": Thiết lập cho người dùng là cán bộ duyệt công, có quyền đăng ký công, xem và phê duyệt/ từ chối tất cả các đơn đăng ký công, KHÔNG có quyền tự phê duyệt/ từ chối đơn đăng ký của cá nhân người dùng đó</li>
 <li>Chọn "Người quản trị": Thiết lập cho người quản trị phân hệ Đăng ký công, có quyền xem và phê duyệt tất cả các đơn đăng ký công bao gồm cả đơn của bản thân. </li>
 </ul>
-<h2 id="thiet-lap-ky-hieu-cong">Thiết lập ký hiệu công</h2>
+<h3 id="thiet-lap-ky-hieu-cong">Thiết lập ký hiệu công</h3>
 <p><strong><em>Đối tượng thực hiện: Người quản trị hệ thống hoặc người quản trị phân hệ Chấm công</em></strong> </p>
 <p>Ký hiệu công (hay còn gọi là "Loại ngày làm"), là danh sách các ký hiệu hiển thị lên bảng chấm công tương ứng cho các loại ngày làm, ví dụ như công đi làm (X), công nghỉ phép (P), công làm tăng ca (OT),...</p>
 <p>Dữ liệu ký hiệu công (loại ngày làm) này được sử dụng để thiết lập các loại đăng ký công thì thiết lập tương ứng. </p>
@@ -267,6 +299,19 @@
 </ul>
 <p><img alt="image-20210930181238919" src="../images/image-20210930181238919.png" /></p>
 <p><em>Lưu ý: Các dữ liệu có sẵn này không được phép xoá. Người dùng có thể tạo thêm ký hiệu công mới bằng cách bấm </em><em>Tạo</em><em> và nhập dữ liệu phù hợp, sau đó thực hiện </em><em>Lưu</em><em>.</em></p>
+<h3 id="thiet-lap-hinh-thuc-cham-cong">Thiết lập hình thức chấm công</h3>
+<p><strong><em>Đối tượng thực hiện: Người quản trị phân hệ Chấm công và có quyền quản trị ở các phân hệ khác trong mục thiết lập</em></strong></p>
+<p><strong><em>Mục đích:</em></strong> Lựa chọn hình thức chấm công/ tổng hợp công cho công ty, thiết lập thời gian cho phép đi muộn/ về sớm (nếu có)</p>
+<p><strong><em>Thực hiện trên hệ thống:</em></strong> Người dùng vào menu <strong>Chấm công</strong> &gt;&gt; <strong>Cấu hình</strong> &gt;&gt; <strong>Thiết lập</strong>, giao diện hiển thị </p>
+<p><img alt="image-20211026151256067" src="../images/image-20211026151256067.png" /></p>
+<ul>
+<li>
+<p>Nếu người dùng không tích chọn vào "Chấm công dựa vào lịch sử vào - ra": hệ thống sẽ hiểu là tổng hợp công dựa trên các đơn đăng ký nghỉ/ OT ; còn lại sẽ tự động chấm công X: công đi làm</p>
+</li>
+<li>
+<p>Nếu người dùng tích chọn vào "Chấm công dựa vào lịch sử vào - ra", nhập số phút cho phép nhân viên đi muộn/ về sớm: hệ thống hiểu là tổng hợp công dựa trên các đơn đăng ký nghỉ/ OT; thời gian còn lại nhân viên được chấm công (hiển thị trên bảng tổng hợp công) chỉ khi nhân viên đó có dữ liệu vào/ ra trong ngày. </p>
+</li>
+</ul>
 <h2 id="thiet-lap-loai-ang-ky-cong">Thiết lập loại đăng ký công</h2>
 <p><strong><em>Đối tượng thực hiện: Người quản lý công hoặc Người quản trị phân hệ Đăng ký công.</em></strong> </p>
 <p><strong><em>Mục đích:</em></strong> Thiết lập các loại đăng ký công tương ứng với các ký hiệu công, để khi nhân viên đăng ký công thuộc loại đăng ký công nào thì khi cán bộ chấm công tổng hợp công, hệ thống tự động hiển thị đúng loại ký hiệu công tương ứng lên bảng công.</p>
@@ -283,13 +328,13 @@
 <li>Không giới hạn: Tức là với phân bổ kế hoạch đăng ký công thuộc loại đăng ký này thì không cần người phê duyệt. Có thể hiểu là nhân viên có thể tuỳ ý đăng ký kế hoạch cho loại đăng ký này.</li>
 <li>Thiết lập bởi người quản lý công: Tức là người quản lý công mới có quyền cấp phát phân bổ thời gian cho loại đăng ký công này</li>
 <li>Đăng ký công: Tích chọn chế độ phê duyệt đăng ký công phù hợp, cụ thể</li>
-<li>Không phê duyệt: Tức là các đơn đăng ký công thuộc loại đăng ký công này thì không cần phê duyệt, tự động có hiệu lực</li>
+<li>Không phê duyệt: Tức là các đơn đăng ký công thuộc loại đăng ký công này thì không cần phê duyệt, đơn có hiệu lực được duyệt ngay tại thời điểm nhân viên đăng ký</li>
 <li>Người quản lý công: Tức là đơn đăng ký công thuộc loại này phải được phê duyệt bởi người quản lý công mới có tính hiệu lực</li>
 <li>Quản lý nhân viên: Tức là đơn đăng ký công thuộc loại này phải được phê duyệt bởi quản lý cấp trên trực tiếp của nhân viên</li>
 <li>Quản lý nhân viên và quản lý công: Tức là đơn đăng ký công thuộc loại này phải được phê duyệt lần 1 bởi quản lý nhân viên, và phê duyệt lần 2 bởi người quản lý công mới có hiệu lực.</li>
 </ul>
 <p><em><strong>Lưu ý 2:</strong> Các loại đăng ký có sẵn trên hệ thống thì không cho phép người dùng xoá.</em>  </p>
-<h2 id="thiet-lap-loai-hop-ong-tinh-phep">Thiết lập loại hợp đồng tính phép</h2>
+<h3 id="thiet-lap-loai-hop-ong-tinh-phep">Thiết lập loại hợp đồng tính phép</h3>
 <p><strong><em>Đối tượng thực hiện: Người quản lý công hoặc người quản trị phân hệ Đăng ký công</em></strong> </p>
 <ul>
 <li>
@@ -301,7 +346,7 @@
 </ul>
 <p><img alt="image-20211001102029639" src="../images/image-20211001102029639.png" /></p>
 <p>Người dùng điều chỉnh dữ liệu phù hợp với doanh nghiệp, bấm <strong>Lưu</strong> để hoàn tất.</p>
-<h2 id="thiet-lap-loai-hoat-ong">Thiết lập loại hoạt động</h2>
+<h3 id="thiet-lap-loai-hoat-ong">Thiết lập loại hoạt động</h3>
 <p><strong><em>Đối tượng thực hiện: Người quản lý công hoặc người quản trị phân hệ Đăng ký công</em></strong></p>
 <ul>
 <li>
@@ -319,7 +364,24 @@
 <li>Người dùng có thể thiết lập thêm hoạt động bằng cách bấm nút <strong>Tạo</strong>, nhập các thông tin yêu cầu và bấm <strong>Lưu</strong> để hoàn tất.</li>
 </ul>
 <p><em>Lưu ý: Các bản ghi hệ thống tạo sẵn thì không được phép xoá.</em></p>
-<h1 id="thiet-lap-ke-hoach-nghi-phep-cho-nhan-vien">Thiết lập kế hoạch nghỉ phép cho nhân viên</h1>
+<h3 id="cau-hinh-cham-cong-camera-ai">Cấu hình chấm công Camera AI</h3>
+<p><strong><em>Đối tượng thực hiện: Người quản trị phân hệ Chấm công</em></strong></p>
+<p>Quy trình: Kích hoạt tích hợp &gt;&gt; Tạo bộ dữ liệu ảnh nhận diện cho tất cả nhân viên</p>
+<ul>
+<li><strong>Kích hoạt tích hợp</strong>: Phân hệ Chấm công vESS hỗ trợ tự động cấu hình tích hợp với Camera AI, sau khi cài đặt ứng dụng người quản trị cần kích hoạt việc cấu hình này bằng cách: Vào menu <strong>Chấm công</strong> &gt;&gt; <strong>Camera AI</strong> &gt;&gt; <strong>Cấu hình</strong>, giao diện hiển thị như hình sau</li>
+</ul>
+<p><img alt="image-20211026142048376" src="../images/image-20211026142048376.png" /></p>
+<p>Tại đây, người dùng bấm nút <strong>Cấu hình</strong>, hệ thống tự động thiết lập và hiển thị thông báo thiết lập thành công.</p>
+<p><img alt="image-20211026142134700" src="../images/image-20211026142134700.png" /></p>
+<ul>
+<li><strong>Tạo bộ dữ liệu ảnh nhận diện cho tất cả nhân viên</strong>: Tại bước này, người quản trị tải lên ảnh nhận diện cho nhân viên. </li>
+</ul>
+<p>Người dùng vào menu <strong>Chấm công</strong> &gt;&gt; <strong>Camera AI</strong> &gt;&gt; <strong>Cấu hình nhân viên</strong>, giao diện hiện lên danh sách nhân viên. Những nhân viên ở trạng thái "Chưa đồng bộ", người dùng bấm chọn nhân viên để tải ảnh lên. (Lưu ý: Người dùng cũng có thể bấm chọn nhân viên "Đã đồng bộ" để chỉnh sửa ảnh), giao diện hiển thị như sau</p>
+<p><img alt="image-20211026143450617" src="../images/image-20211026143450617.png" /></p>
+<p>Người dùng bấm <strong>Sửa</strong>,  giao diện hiển thị cho phép người dùng thêm ảnh </p>
+<p><img alt="image-20211026144816912" src="../images/image-20211026144816912.png" /></p>
+<p>Người dùng thực hiện tải lên và đồng bộ ảnh cho tất cả nhân viên. </p>
+<h2 id="thiet-lap-ke-hoach-nghi-phep-cho-nhan-vien">Thiết lập kế hoạch nghỉ phép cho nhân viên</h2>
 <p>Tiền điều kiện: Quản trị viên hệ thống đã thiết lập loại hợp đồng tính phép ở bước <a href="#Thiết lập loai hợp đồng tính phép">này</a></p>
 <p><strong><em>Đối tượng thực hiện: cán bộ quản lý công hoặc người quản trị phân hệ Đăng ký công</em></strong></p>
 <ul>
@@ -344,7 +406,7 @@
 <li><strong><em>Phê duyệt dữ liệu</em></strong>: Đối với các dòng dữ liệu hiển thị ở trạng thái <strong>Nháp</strong> thì nhân viên đó chưa được đăng ký nghỉ phép. Để hệ thống tự động cấp phát số ngày nghỉ phép này tới nhân viên tương ứng, người dùng cần thực hiện Phê duyệt để dữ liệu có hiệu lực bằng cách bấm <strong>Phê duyệt</strong> cho từng dòng hoặc tích chọn nhiều nhân viên để phê duyệt 1 lần</li>
 </ul>
 <p><img alt="image-20211001104849106" src="../images/image-20211001104849106.png" /></p>
-<h1 id="ang-ky-cham-cong">Đăng ký chấm công</h1>
+<h2 id="ang-ky-cham-cong">Đăng ký chấm công</h2>
 <p>Đăng ký chấm công ở đây bao gồm cả đăng ký ngày nghỉ và đăng ký OT (Đăng ký công cho loại ngày làm đã được thiết lập).</p>
 <p><strong><em>Hệ thống chỉ cho phép đăng ký công cho tháng hiện tại hoặc thời điểm trong tương lai.</em></strong></p>
 <p>Luồng thực hiện đăng ký chấm công được chia thành 2 trường hợp:</p>
@@ -380,7 +442,7 @@
 <p>Người quản lý công vào menu <strong>Đăng ký công</strong> &gt;&gt; Chọn <strong>Quản lý</strong> &gt;&gt; Chọn <strong>Đăng ký công</strong> &gt;&gt; Bấm <strong>Tạo</strong>, nhập liệu và bấm <strong>Lưu</strong> để hoàn tất (chờ người có thẩm quyền duyệt) hoặc bấm <strong>Tạo bản nháp</strong> để lưu đơn với trạng thái Nháp</p>
 <p><img alt="image-20211001144306068" src="../images/image-20211001144306068.png" /></p>
 <p><em>Lưu ý: Người quản lý công có thể thực hiện tạo đơn đăng ký công cho từng nhân viên, cả công ty, cả 1 phòng/ban, theo nhóm nhân viên chung nhãn bằng cách lựa chọn phù hợp chế độ đăng ký ở hình trên.</em></p>
-<h1 id="phe-duyet-tu-choi-ang-ky-cong">Phê duyệt/ Từ chối đăng ký công</h1>
+<h2 id="phe-duyet-tu-choi-ang-ky-cong">Phê duyệt/ Từ chối đăng ký công</h2>
 <p>Đối với các loại đăng ký công cần phê duyệt thì quản lý của nhân viên hoặc quản lý công hoặc người quản trị phân hệ Đăng ký công có quyền vào duyệt tương ứng. </p>
 <p>Hướng dẫn các bước thực hiện trên hệ thống theo các đối tượng như sau:</p>
 <ul>
@@ -414,8 +476,8 @@
 <p><strong><em>Cách 2: Thực hiện trên ứng dụng mobile</em></strong></p>
 <p>Người sử dụng đăng nhập vào ứng dụng mobile trên điện thoại, chọn menu <strong>Yêu cầu chấm công</strong> &gt;&gt; Chọn <strong>Phê duyệt yêu cầu chấm công</strong> &gt;&gt; Chọn yêu cầu chấm công cần duyệt để thực hiện <strong>Duyệt/ Từ chối</strong>. Người sử dụng có thể thao tác nhanh bằng cách bấm vào dấu <img alt="image-20211011163041070" src="../images/image-20211011163041070.png" /> tại đơn đăng ký cần duyệt, chọn <strong>Duyệt/ Từ chối</strong>  phù hợp</p>
 <p><img alt="image-20211011163211631" src="../images/image-20211011163211631.png" /> <img alt="image-20211011163231180" src="../images/image-20211011163231180.png" /> </p>
-<h1 id="tong-hop-cong">Tổng hợp công</h1>
-<p><strong><em>Đối tượng sử dụng: Cán bộ chấm công (Người dùng được phân quyền Cán bộ trong phân hệ Chấm công)</em></strong></p>
+<h2 id="tong-hop-cong">Tổng hợp công</h2>
+<p><strong><em>Đối tượng thực hiện: Người quản trị phân hệ Chấm công</em></strong></p>
 <p>Hằng ngày, hệ thống sẽ tự động đồng bộ và chấm công cho nhân viên dựa trên các đơn đăng ký nghỉ, đơn đăng ký OT đã được duyệt của nhân viên. Thông tin chấm công sẽ hiển thị lên bảng công cho tất cả nhân viên. </p>
 <p>Người dùng xem bảng tổng hợp công trên hệ thống bằng cách vào menu <strong>Chấm công</strong> &gt;&gt; Chọn <strong>Tổng hợp công</strong> &gt;&gt; Hệ thống hiển thị dữ liệu chấm công của tất cả nhân viên tại tháng hiện tại. </p>
 <p><img alt="image-20211001171634735" src="../images/image-20211001171634735.png" /></p>
@@ -425,6 +487,7 @@
 <li><em>Hệ thống tự động chấm công hàng đêm, nên nhân viên bắt đầu làm việc ngày n thì ngày n + 1 có dữ liệu chấm công.</em></li>
 <li><em>Trong trường hợp ngày n, cán bộ chấm công muốn chốt công luôn; để lấy được cả dữ liệu chấm công ngày hiện tại, người dùng thực hiện đồng bộ công bằng cách bấm </em><em>Đồng bộ</em><em> &gt;&gt; Chọn thời gian cần đồng bộ &gt;&gt; Hệ thống hiển thị cảnh báo sẽ xoá toàn bộ dữ liệu trên bảng công trong khoảng thời gian được chọn và tự động đồng bộ lại &gt;&gt; Người dùng xác nhận </em><em>Đồng ý</em><em> &gt;&gt; Hệ thống thực hiện đồng bộ và hiển thị lại bảng công.</em></li>
 <li><em>Cán bộ chấm công có thể thực hiện xuất dữ liệu bảng công bằng cách bấm </em><em>Xuất báo cáo</em>**</li>
+<li><em>Trường hợp cán bộ chấm công muốn kiểm tra dữ liệu vào ra của nhân viên, người dùng vào menu Chấm công &gt;&gt; Người quản lý &gt;&gt; Chấm công để xem dữ liệu vào/ ra theo điểm danh trên web, hoặc Chấm công &gt;&gt; Camera AI &gt;&gt; Lịch sử Check In để xem dữ liệu vào/ra theo camera</em></li>
 </ul>
               
             </div>
