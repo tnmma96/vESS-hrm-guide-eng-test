@@ -163,7 +163,7 @@ Người dùng bấm **Sửa**,  giao diện hiển thị cho phép người dù
 
 ![image-20211026144816912](images/image-20211026144816912.png)
 
-Người dùng thực hiện tải lên và đồng bộ ảnh cho tất cả nhân viên. 
+Người dùng thực hiện tải lên và đồng bộ ảnh cho tất cả nhân viên. Khi có đủ dữ liệu ảnh nhận diện, các lịch sử vào/ra nhân viên chấm công trên camera sẽ được tự động đồng bộ tức thời lên hệ thống. Hệ thống sẽ lấy bản ghi đầu tiên trong ngày của các nhân viên và đẩy vào dữ liệu tổng hợp công cùng với dữ liệu chấm công sẵn trên web/ mobile.  
 
 # Thiết lập kế hoạch nghỉ phép cho nhân viên
 
