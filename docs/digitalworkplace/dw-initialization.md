@@ -37,19 +37,18 @@ Sau đó nhấn **Lưu**
 
 Các bước thực hiện
 
-1. Vào phân hệ Thiết lập, chọn Người dùng > Quản lý người dùng
+1. Vào phân hệ **Thiết lập**, chọn **Người dùng** > **Quản lý người dùng**
 
 2. Chọn vào Tên người dùng bất kì
 
 3. Nhấn nút **Sửa** 
 
-4. Chọn các quyền tương ứng cho từng chức năng 
+4. Chọn các quyền tương ứng cho từng chức năng. Sau đó nhấn nút **Lưu**
 
-Ví dụ: Dự án: Chọn Người quản trị
+    Ví dụ: Dự án: Chọn Người quản trị
 
 ![](picture/PIC_DW_Thietlap.png)
 
-5. Nhấn nút **Lưu**
 
 
 
