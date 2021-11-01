@@ -3,6 +3,7 @@ site_name: Hướng dẫn sử dụng hệ thống vESS
 nav:
     - 'Trang chủ': 'saas/saas-introduction.md'
     - 'Đăng ký & cài đặt': 'saas/saas.md'
+    - 'Đăng nhập, đăng xuất': 'digitalworkplace/Addon-login.md'
     - 'Nhân sự': 
         - 'Giới thiệu về phân hệ Quản lý nhân sự': 'hrm/introduction.md'
         - 'Thiết lập và khai báo ban đầu': 'hrm/initialization.md'
@@ -41,7 +42,6 @@ nav:
         - 'Giới thiệu về phân hệ Digital workplace': 'digitalworkplace/Gioi-thieu-digital-workplace.md'
         - 'Thiết lập và khai báo ban đầu': 'digitalworkplace/dw-initialization.md'
         - 'Các thuật ngữ và từ viết tắt': 'digitalworkplace/Thuat-ngu-viet-tat.md'
-        - 'Đăng nhập, đăng xuất': 'digitalworkplace/Addon-login.md'
         - 'Trang web': 'digitalworkplace/Addon-Website.md'
         - 'Mạng xã hội': 'digitalworkplace/Addon-Social.md'
         - 'Dự án': 'digitalworkplace/Addon-project.md'
