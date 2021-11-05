@@ -1,4 +1,4 @@
-# Quản lý hồ sơ nhân viên
+Quản lý hồ sơ nhân viên
 
 ## Mô tả nghiệp vụ
 
@@ -38,7 +38,7 @@
 
 **Bước 3**: Sau khi “Đăng ký sử dụng thành công”, khách hàng mở hòm thư được khai báo khi đăng ký để lấy thông tin tài khoản truy cập. Khách hàng sử dụng thông tin này để đăng nhập vào chương trình (hướng dẫn đăng ký tại đây)
 
-![image-20211004094034200](images/image-20211004094034200.png)
+![image-20211105111512315](images/image-20211105111512315.png)
 
 **Bước 4**: Chọn ứng dụng **Nhân viên**.
 
@@ -59,13 +59,24 @@ Sau đó thực hiện khai báo thông tin của nhân viên:
 
 ![image-20211004110010849](images/image-20211004110010849.png)
 
-**Lưu ý:** Mã nhân viên sẽ được hệ thống tự sinh sau khi người dùng hoàn thành thao tác thêm mới hồ sơ nhân viên.
+**Lưu ý :** Mã nhân viên sẽ được hệ thống tự sinh sau khi người dùng hoàn thành thao tác thêm mới hồ sơ nhân viên.
+
+**Hướng dẫn nhập nhiều bản ghi:** 
+
+Trong trường hợp người dùng muốn thực hiện nhập nhiều nhân viên thì sử dụng tính năng "Thêm bản ghi" trên hệ thống. Các bước thực hiện như sau:
+
+- Vào menu Nhân viên >> Nhân viên: Hệ thống hiển thị màn hình danh sách nhân viên. Người dùng chọn ![image-20211105112344388](images/image-20211105112344388.png) Yêu thích >> Thêm bản ghi 
+
+  ![image-20211105112114225](images/image-20211105112114225.png) 
+
+- Tại đây, người dùng bấm "Tải biểu mẫu danh sách nhân viên" để tải xuống file mẫu nhập dữ liệu ![image-20211105112814203](images/image-20211105112814203.png)
+- Người dùng nhập dữ liệu thông tin nhân viên vào file excel. ![image-20211105113013152](images/image-20211105113013152.png)
+- Trên giao diện phần mềm, người dùng bấm nút ![image-20211105113059867](images/image-20211105113059867.png) >> hệ thống hiển thị màn hình như sau ![image-20211105113404324](images/image-20211105113404324.png) Tại đây người dùng kiểm tra thông tin dữ liệu, và bấm nút **Kiểm thử** để hệ thống kiểm tra dữ liệu trước khi nhập >> Hệ thống tự động kiểm tra và thông báo kết quả lỗi dữ liệu lên màn hình >> Người dùng đọc thông báo và điều chỉnh dữ liệu trên file excel để chính xác, sau đó bấm ![image-20211105113554792](images/image-20211105113554792.png) để tải lại file sau khi chỉnh sửa dữ liệu >> Tiếp tục bấm **Kiểm thử** để kiểm tra cho đến khi kết quả hệ thống kiểm tra thông báo là ![image-20211105113827486](images/image-20211105113827486.png) 
+- Người dùng bấm nút ![image-20211105113858786](images/image-20211105113858786.png) để thực hiện nạp dữ liệu vào hệ thống >> Hệ thống ghi nhận dữ liệu và hiển thị thông báo Thêm bản ghi thành công
 
 **Bước 2:** Tại tab **Hợp đồng**, người dùng chọn **Tạo** để thêm mới hợp đồng cho nhân viên. Hợp đồng sau khi tạo và duyệt tại đây sẽ được tự động sinh dữ liệu ở tab **Quá trình làm việc**
 
-![image-20210930171146814](images/image-20210930171146814.png)
-
-
+![image-20211105114155943](images/image-20211105114155943.png)
 
 Nhân viên mới sau khi được thêm sẽ được sinh dữ liệu tại màn hình Hợp đồng, trạng thái là **Chưa có**, nhân viên nhân sự chọn **Đề xuất**, hệ thống chuyển đến màn hình tạo hợp đồng mới.
 
