@@ -49,6 +49,8 @@ Tại đây, màn hình hiển thị danh sách các ứng dụng đang xuất b
   
 - Hệ thống hiển thị lên màn hình cảnh báo để xác nhận người dùng có muốn sử dụng bộ dữ liệu mẫu dùng thử không. Nếu người dùng muốn sử dụng bộ dữ liệu mẫu dùng thử, chọn "Có", ngược lại chọn "Không". 
 
+  - ***Lưu ý: Nếu Khách hàng chọn "Có" sử dụng bộ dữ liệu demo thì khi khách hàng kích hoạt dùng thật cũng sẽ không xoá được các dữ liệu này!***
+
 - Hệ thống hiển thị màn hình tiến trình đang cài đặt. Khi ứng dụng được cài đặt thành công, hệ thống hiển thị thông báo cài đặt thành công, nút "Cài đặt" tự động chuyển thành nút "Khởi động". Người dùng bấm **Khởi động**, hệ thống mở ra 1 tab mới có đường dẫn chính tên miền người dùng đã khai báo với phiên đăng nhập được tự động cập nhật từ phân hệ portal. 
 
 ![image-20211026160935485](../images/image-20211026160935485.png)
@@ -65,15 +67,15 @@ Người dùng trở về tab cũ để tiếp tục cài đặt các ứng dụ
 
 Ngay khi khởi động ứng dụng đầu tiên, tức là người dùng đã khởi động 1 miền ứng dụng riêng cho doanh nghiệp. Đó là nơi để quản lý và thực hiện các nghiệp vụ.
 
-Để khởi tạo dữ liệu ban đầu cho doanh nghiệp, khách hàng xem hướng dẫn chi tiết [Tại đây](#)
+Để khởi tạo dữ liệu ban đầu cho doanh nghiệp, khách hàng xem hướng dẫn chi tiết [Tại đây](../../hrm/initialization/#huong-dan-khai-bao)
 
 ***Bước 4: Làm việc với các phân hệ ứng dụng con***
 
--  Ứng dụng **Nhân sự**: 
+-  Ứng dụng **Nhân sự**: [Tại đây](../../hrm/introduction/#gioi-thieu-ve-phan-he-quan-ly-nhan-su)
 
-- Ứng dụng **Kế toán**: 
+- Ứng dụng **Kế toán**: [Tại đây](../../fin-introduction/)
 
-- Các ứng dụng **văn phòng điện tử**: 
+- Các ứng dụng **văn phòng điện tử**: [Tại đây](../../digitalworkplace/Gioi-thieu-digital-workplace/#gioi-thieu-ve-phan-he-digital-workplace)
 
 ## Yêu cầu hỗ trợ dịch vụ
 
