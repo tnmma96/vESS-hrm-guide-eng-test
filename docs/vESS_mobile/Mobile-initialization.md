@@ -18,6 +18,8 @@ Việc thiết lập ban đầu được thực hiện ngay tại thời điểm
 
 * Gán tài khoản cá nhân với nhân viên. Chi tiết <u>[tại đây](#gan-tai-khoan-ca-nhan-voi-nhan-vien)</u>.
 
+* Thiết lập số điện thoại nhận mã OTP. Chi tiết <u>[tại đây](#thiet-lap-so-ien-thoai-nhan-ma-oyt)</u>.
+
 #### Gán tài khoản cá nhân với nhân viên
 
 Các bước thực hiện
@@ -31,5 +33,17 @@ Các bước thực hiện
 Sau đó nhấn **Lưu**
 ![](picture/PIC_DW_Mobile_gan_nhan_vien1.png)
 
+#### Thiết lập số điện thoại nhận mã OTP
 
+Các bước thực hiện 
 
+1. Vào phân hệ Nhân viên, tìm kiếm nhân viên cần cập nhật thông tin tại màn hình Danh sách nhân viên
+
+2. Tại phần Thông tin cá nhân, nhấn nút **Sửa**
+
+3. Tại Điện thoại công ty và Di động: khai báo thông tin số điện thoại sẽ nhận mã OTP được gửi đến 
+
+Sau đó nhấn **Lưu**
+![](picture/PIC_DW_Mobile_thiet_lap_so_dien_thoai.jpg)
+
+* **Lưu ý:** Khi người dùng đăng nhập hệ thống trên mobile, mặc định mã OTP sẽ gửi đến số điện thoại Di động. Nếu số điện thoại Di động không được khai báo, mã OTP sẽ được gửi tới số Điện thoại công ty.

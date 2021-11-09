@@ -4,7 +4,7 @@ Khách hàng đăng nhập tài khoản trên ứng dụng CloudERP bằng tài 
 
 #### Quy trình
 
-![](picture/PIC_DW_Mobile_DangNhap-QuyTrinh.png)
+![](picture/PIC_DW_Mobile_DangNhap-QuyTrinh.jpeg)
 
 **Các luồng quy trình**
 
@@ -38,17 +38,15 @@ Khách hàng đăng nhập tài khoản trên ứng dụng CloudERP bằng tài 
 
 **Đối tượng thực hiện:** Người dùng
 
-**Điều kiện trước**: Công ty của người dùng đã được đăng ký trên hệ thống, người dùng đã có tài khoản.
+Điều kiện trước: Công ty của người dùng đã được đăng ký trên hệ thống và người dùng đã có tài khoản
 
-Ngoài ra, hệ thống cần cài đặt các chức năng: Nhân viên, Tài liệu. Chi tiết <u>[tại đây](../../vESS_mobile/Mobile-initialization)</u>.
-
-**Điều kiện sau**: Đăng nhập thành công và vào màn hình Danh sách ứng dụng hoặc onbroading
+Điều kiện sau: Đăng nhập thành công và vào màn hình Danh sách ứng dụng hoặc onbroading
 
 1. Mở app trên thiết bị 
 
 2. Thực hiện nhập domain hoặc quét QR code domain để cung cấp thông tin: 
 
-    ![](picture/PIC_DW_Mobile_DangNhap-Domain.jpg)
+   ![](picture/PIC_DW_Mobile_DangNhap-Domain.jpg)
     
     * Trường hợp ứng dụng kiểm tra chưa có domain mới thực hiện nhập domain hoặc quét QR code domain
     
@@ -78,14 +76,15 @@ Ngoài ra, hệ thống cần cài đặt các chức năng: Nhân viên, Tài l
     
     * Nhấn **Đăng nhập** hoặc chọn đăng nhập bằng vân tay 
         
+        * Nếu thông tin đăng nhập không chính xác, người dùng sẽ thực hiện lại việc đăng nhập
+        
         * Nếu thông tin đăng nhập đúng, hệ thống gửi SMS OTP vào số điện thoại của người dùng
     
-        * Nếu thông tin đăng nhập không chính xác, người dùng sẽ thực hiện lại việc đăng nhập
+        * **Ghi chú:** Số điện thoại của người dùng phải được thiết lập trước đó. Xem thêm <u>[Thiết lập số điện thoại nhận mã OTP](https://guide.vess.store/vESS_mobile/Mobile-initialization/)</u>.
 
 5. Tại màn hình nhập mã OTP, nhấn **Gửi lại** nếu không nhận được mã OTP hoặc mã OTP bị quá thời hạn cho phép
 
 6. Người dùng nhập mã OTP được gửi đến
-
 ![](picture/PIC_DW_Mobile_DangNhap-NhapOTP.jpg)
 
 7. Nhấn **Xác nhận** 
