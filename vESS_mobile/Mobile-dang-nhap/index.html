@@ -221,7 +221,7 @@
                 <h3 id="quy-trinh-nghiep-vu">Quy trình nghiệp vụ</h3>
 <p>Khách hàng đăng nhập tài khoản trên ứng dụng CloudERP bằng tài khoản theo công ty đã cung cấp để thực hiện xem, cập nhật thông tin cá nhân, xem thông báo, tin tức và các nội dung khác.</p>
 <h4 id="quy-trinh">Quy trình</h4>
-<p><img alt="" src="../picture/PIC_DW_Mobile_DangNhap-QuyTrinh.png" /></p>
+<p><img alt="" src="../picture/PIC_DW_Mobile_DangNhap-QuyTrinh.jpeg" /></p>
 <p><strong>Các luồng quy trình</strong></p>
 <ul>
 <li>Đăng nhập. Chi tiết nghiệp vụ <u><a href="#ang-nhap">tại đây</a></u>.</li>
@@ -250,34 +250,28 @@
 <h3 id="ang-nhap">Đăng nhập</h3>
 <p>Khách hàng đăng nhập tài khoản trên ứng dụng CloudERP bằng tài khoản theo công ty đã cung cấp</p>
 <p><strong>Đối tượng thực hiện:</strong> Người dùng</p>
-<p><strong>Điều kiện trước</strong>: Công ty của người dùng đã được đăng ký trên hệ thống, người dùng đã có tài khoản.</p>
-<p>Ngoài ra, hệ thống cần cài đặt các chức năng: Nhân viên, Tài liệu. Chi tiết <u><a href="../../vESS_mobile/Mobile-initialization">tại đây</a></u>.</p>
-<p><strong>Điều kiện sau</strong>: Đăng nhập thành công và vào màn hình Danh sách ứng dụng hoặc onbroading</p>
+<p>Điều kiện trước: Công ty của người dùng đã được đăng ký trên hệ thống và người dùng đã có tài khoản</p>
+<p>Điều kiện sau: Đăng nhập thành công và vào màn hình Danh sách ứng dụng hoặc onbroading</p>
 <ol>
 <li>
 <p>Mở app trên thiết bị </p>
 </li>
 <li>
 <p>Thực hiện nhập domain hoặc quét QR code domain để cung cấp thông tin: </p>
+</li>
+</ol>
 <p><img alt="" src="../picture/PIC_DW_Mobile_DangNhap-Domain.jpg" /></p>
-<ul>
-<li>
-<p>Trường hợp ứng dụng kiểm tra chưa có domain mới thực hiện nhập domain hoặc quét QR code domain</p>
-<ul>
-<li>
-<p>Nếu người dùng chọn nhập mã domain, sẽ khai báo thông tin Đường dẫn của công ty </p>
-</li>
-<li>
-<p>Nếu người dùng chọn quét QR code domain, ứng dụng sẽ hiển thị màn hình quét QR code domain</p>
-</li>
-</ul>
-</li>
-</ul>
-<p><img alt="" src="../picture/PIC_DW_Mobile_DangNhap-QRCode.jpg" /></p>
-<ul>
-<li>Trường hợp ứng dụng kiểm tra đã có domain, người dùng sẽ thực hiện đăng nhập luôn</li>
-</ul>
-</li>
+<pre><code>* Trường hợp ứng dụng kiểm tra chưa có domain mới thực hiện nhập domain hoặc quét QR code domain
+
+    * Nếu người dùng chọn nhập mã domain, sẽ khai báo thông tin Đường dẫn của công ty
+
+    * Nếu người dùng chọn quét QR code domain, ứng dụng sẽ hiển thị màn hình quét QR code domain
+
+![](picture/PIC_DW_Mobile_DangNhap-QRCode.jpg)
+
+* Trường hợp ứng dụng kiểm tra đã có domain, người dùng sẽ thực hiện đăng nhập luôn
+</code></pre>
+<ol>
 <li>
 <p>Nhấn <strong>Tiếp tục</strong>, ứng dụng sẽ thực hiện kiểm tra xem thông tin domain có tồn tại hay không.</p>
 <ul>
@@ -306,10 +300,13 @@
 <p>Nhấn <strong>Đăng nhập</strong> hoặc chọn đăng nhập bằng vân tay </p>
 <ul>
 <li>
+<p>Nếu thông tin đăng nhập không chính xác, người dùng sẽ thực hiện lại việc đăng nhập</p>
+</li>
+<li>
 <p>Nếu thông tin đăng nhập đúng, hệ thống gửi SMS OTP vào số điện thoại của người dùng</p>
 </li>
 <li>
-<p>Nếu thông tin đăng nhập không chính xác, người dùng sẽ thực hiện lại việc đăng nhập</p>
+<p><strong>Ghi chú:</strong> Số điện thoại của người dùng phải được thiết lập trước đó. Xem thêm <u><a href="https://guide.vess.store/vESS_mobile/Mobile-initialization/">Thiết lập số điện thoại nhận mã OTP</a></u>.</p>
 </li>
 </ul>
 </li>
@@ -319,11 +316,9 @@
 <p>Tại màn hình nhập mã OTP, nhấn <strong>Gửi lại</strong> nếu không nhận được mã OTP hoặc mã OTP bị quá thời hạn cho phép</p>
 </li>
 <li>
-<p>Người dùng nhập mã OTP được gửi đến</p>
+<p>Người dùng nhập mã OTP được gửi đến
+<img alt="" src="../picture/PIC_DW_Mobile_DangNhap-NhapOTP.jpg" /></p>
 </li>
-</ol>
-<p><img alt="" src="../picture/PIC_DW_Mobile_DangNhap-NhapOTP.jpg" /></p>
-<ol>
 <li>
 <p>Nhấn <strong>Xác nhận</strong> </p>
 <ul>
