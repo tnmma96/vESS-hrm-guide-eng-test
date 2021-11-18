@@ -4,6 +4,7 @@ nav:
     - 'Trang chủ': 'saas/saas-introduction.md'
     - 'Đăng ký & cài đặt': 'saas/saas.md'
     - 'Đăng nhập, đăng xuất': 'digitalworkplace/Addon-login.md'
+    - 'Đăng nhập bằng QR code': 'digitalworkplace/Addon-QRcode.md'
     - 'Nhân sự': 
         - 'Giới thiệu về phân hệ Quản lý nhân sự': 'hrm/introduction.md'
         - 'Thiết lập và khai báo ban đầu': 'hrm/initialization.md'
