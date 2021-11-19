@@ -2,9 +2,11 @@ site_name: Hướng dẫn sử dụng hệ thống vESS
 
 nav:
     - 'Trang chủ': 'saas/saas-introduction.md'
-    - 'Đăng ký & cài đặt': 'saas/saas.md'
-    - 'Đăng nhập, đăng xuất': 'digitalworkplace/Addon-login.md'
-    - 'Đăng nhập bằng QR code': 'digitalworkplace/Addon-QRcode.md'
+    - 'Đăng ký, đăng nhập': 
+        - 'Đăng ký & cài đặt': 'saas/saas.md'
+        - 'Đăng nhập, đăng xuất': 'digitalworkplace/Addon-login.md'
+        - 'Đăng nhập bằng QR code': 'digitalworkplace/Addon-QRcode.md'
+        - 'Xác thực 2 bước': 'digitalworkplace/Addon-xac-thuc-hai-buoc.md'
     - 'Nhân sự': 
         - 'Giới thiệu về phân hệ Quản lý nhân sự': 'hrm/introduction.md'
         - 'Thiết lập và khai báo ban đầu': 'hrm/initialization.md'
