@@ -6,6 +6,7 @@ nav:
         - 'Đăng ký & cài đặt': 'saas/saas.md'
         - 'Đăng nhập, đăng xuất': 'digitalworkplace/Addon-login.md'
         - 'Đăng nhập bằng QR code': 'digitalworkplace/Addon-QRcode.md'
+        - 'Đăng nhập bằng G+': 'digitalworkplace/Addon-DangNhapG.md'
         - 'Xác thực 2 bước': 'digitalworkplace/Addon-xac-thuc-hai-buoc.md'
     - 'Nhân sự': 
         - 'Giới thiệu về phân hệ Quản lý nhân sự': 'hrm/introduction.md'
