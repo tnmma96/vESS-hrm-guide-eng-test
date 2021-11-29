@@ -44,10 +44,10 @@ Người dùng đăng nhập nhanh vào hệ thống bằng QR code
 
     ![](picture/PIC_DW_Addon_QRcode-QuetMaQR.jpg)
 
-3. Sau đó, người dùng truy cập vào app trên thiết bị di động:
+3. Sau đó, người dùng truy cập vào app trên điện thoại di động:
     
-    * Tại menu Trang chủ, chọn biểu tượng ![](picture/PIC_DW_Addon_QRcode-IconQuetMa.png)
-
+    * Tại màn hình Trang chủ, chọn biểu tượng ![](picture/PIC_DW_Addon_QRcode-IconQuetMa.jpg):
+    
     ![](picture/PIC_DW_Addon_QRcode-QuetMa.jpg)
     
     * **Lưu ý**:
