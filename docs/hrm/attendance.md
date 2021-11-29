@@ -81,7 +81,7 @@ Hiện tại, khi người dùng cài đặt thành công phân hệ Chấm côn
 
 - Nếu người dùng tích chọn vào "Chấm công dựa vào lịch sử vào - ra", nhập số phút cho phép nhân viên đi muộn/ về sớm: hệ thống hiểu là tổng hợp công dựa trên các đơn đăng ký nghỉ/ OT; thời gian còn lại nhân viên được chấm công (hiển thị trên bảng tổng hợp công) chỉ khi nhân viên đó có dữ liệu vào/ ra trong ngày. 
 
-## Thiết lập loại đăng ký công
+### Thiết lập loại đăng ký công
 
 ***Đối tượng thực hiện: Người quản lý công hoặc Người quản trị phân hệ Đăng ký công.*** 
 

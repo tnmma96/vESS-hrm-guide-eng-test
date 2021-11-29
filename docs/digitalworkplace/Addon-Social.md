@@ -1,8 +1,9 @@
-### Quy trình nghiệp vụ
+# Mạng xã hội
+## Quy trình nghiệp vụ
 
 Cho phép người dùng quản lý các chủ đề, bài viết và tương tác với bài viết cũng như giữa các thành viên trong đơn vị.
 
-#### Quy trình
+### Quy trình
 
 ![](picture/PIC_DW_Social_quy_trinh_hoat_dong_mang_xa_hoi.png)
 
@@ -20,7 +21,7 @@ Cho phép người dùng quản lý các chủ đề, bài viết và tương t�
 
 * Xem/Xuất thống kê. Chi tiết nghiệp vụ <u>[tại đây](#xem-xuat-thong-ke)</u>.
 
-#### Mô tả nghiệp vụ
+### Mô tả nghiệp vụ
 
 Khi người sử dụng muốn quản lý hoạt động của mạng xã hội thì quy trình thực hiện như sau:
 
