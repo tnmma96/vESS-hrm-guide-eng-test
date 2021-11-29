@@ -55,11 +55,13 @@ nav:
         - 'Sự kiện': 'digitalworkplace/Addon-su-kien.md'
         - 'Bữa ăn': 'digitalworkplace/Addon-bua-an.md'
         - 'Lịch sử phát triển sản phẩm': 'digitalworkplace/Lich-su-phat-trien.md'
+        - 'Phê duyệt trên web': 'digitalworkplace/Addon-PheDuyet-Web.md'
     - 'vESS Mobile': 
         - 'Giới thiệu về vESS mobile': 'vESS_mobile/Gioi-thieu-vess-mobile.md'
         - 'Thiết lập và khai báo ban đầu': 'vESS_mobile/Mobile-initialization.md'
         - 'Các thuật ngữ và từ viết tắt': 'vESS_mobile/Thuat-ngu-viet-tat.md'
         - 'Đăng nhập': 'vESS_mobile/Mobile-dang-nhap.md'
+        - 'Phê duyệt trên mobile': 'vESS_mobile/Addon-phe-duyet.md'
         - 'Lịch sử phát triển sản phẩm': 'vESS_mobile/Mobile-Lich-su-phat-trien.md'
     - 'Release Notes': 'release-notes.md'
 theme:
