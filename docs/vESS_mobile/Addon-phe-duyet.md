@@ -6,7 +6,7 @@ Quy trình Phê duyệt bao gồm 2 phần:
 
 1. **Phê duyệt trên Website**: Quản trị viên thiết lập trường thông tin và tạo các loại phê duyệt. Chi tiết nghiệp vụ <u>[tại đây](https://guide.vess.store/digitalworkplace/Addon-PheDuyet-Web/)</u>.
 
-2. **Phê duyệt trên Mobile**: Cá nhân tạo yêu cầu phê duyệt và các yêu cầu được phê duyệt bởi người được chọn. Chi tiết nghiệp vụ <u>[tại đây](https://guide.vess.store/digitalworkplace/Addon-phe-duyet/)</u>.
+2. **Phê duyệt trên Mobile**: Cá nhân tạo yêu cầu phê duyệt và các yêu cầu được phê duyệt bởi người được chọn. Chi tiết nghiệp vụ <u>[tại đây](https://guide.vess.store/vESS_mobile/Addon-phe-duyet/)</u>.
 
 #### Quy trình
 
@@ -52,7 +52,7 @@ Người dùng thực hiện lập yêu cầu phê duyệt
     
     * Chọn **Tạo mới** từ màn hình danh sách loại yêu cầu
     
-    ![](picture/PIC_DW_PheDuyet_DanhSachLoaiYeuCauPheDuyet%20.png)
+    ![](picture/PIC_DW_PheDuyet_DanhSachLoaiYeuCauPheDuyet.png)
     
     * Người dùng cũng có thể nhấn vào loại yêu cầu rồi chọn **icon +** (icon Tạo phê duyệt) để tạo mới yêu cầu
     
