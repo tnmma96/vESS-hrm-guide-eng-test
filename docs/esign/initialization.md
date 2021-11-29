@@ -2,6 +2,10 @@
 
 Việc thiết lập và khai báo ban đầu được thực hiện khi lần đầu cài đặt ứng dụng, giúp khởi tạo dữ liệu và bắt đầu cho việc thực hiện các nghiệp vụ ký số. 
 
+### **Tải plugin chứng thư số để sử dụng usb-token** 
+
+Để USB token để ký số, người dùng cần phải tải plugin [tại đây](https://drive.google.com/file/d/1AhSJmYcurxkwipzxEM4T4HcHi5yKH80Q/view) về máy để chạy mỗi khi thực hiện ký. Trước khi thực hiện ký số với usb token, cần phải chạy tệp plugin này. 
+
 ### Loại văn bản trình ký
 
 Cho phép khai báo và quản lý thông tin về các loại văn bản  trên hệ thống, các quy tắc tự sinh số văn bản khi được ban hành. 
@@ -22,11 +26,23 @@ Cho phép khai báo và quản lý thông tin về các loại văn bản  trên
 ![](images/clip_image052.jpg)
 
 - Nhập Tên loại văn bản trình ký
-- Nhập Quy tắc đánh mã: Nhập quy tắc sẽ đánh số văn bản khi được ban hành. Quy tắc sinh mã có sử dụng các tham số được định nghĩa ở danh sách tham số cấu hình ở bên dưới theo cấu trúc khai báo {tên tham số}. 
-- Danh sách tham số cấu hình: Định nghĩa các tham số sẽ được sử dụng để sinh mã. 
-  - Tên tham số phải duy nhất trong danh sách tham số
-  - Kiểu: hỗ trợ một số kiểu như số, ngày, tháng, năm, văn bản.  Tương ứng với mỗi kiểu dữ liệu có cho phép định nghĩa giá trị khởi tạo hoặc định dạng hiển thị. 
-  - Cho phép cập nhật hoặc không giá trị tham số khi thực hiện ban hành văn bản. 
+
+- Nhập Quy tắc đánh mã: Nhập quy tắc sẽ đánh số văn bản để hệ thống tự sinh số văn bản khi được ban hành tự động. Quy tắc sinh mã có sử dụng các tham số được định nghĩa ở danh sách tham số cấu hình ở bên dưới theo cấu trúc khai báo {tên tham số}. 
+
+  Ví dụ: Một tờ trình có số văn bản khi ban hành được hệ thống tự sinh theo quy tắc sinh mã: **TT/{năm}/{số thứ tự}** , khi khai báo sẽ thực hiện như sau: 
+
+     - Nhập vào trường Quy tắc đánh mã: **TT/{năm}/{số thứ tự}**, trong đó **năm** và **số thứ tự** là các tham số tự sinh cần khai báo ở phần danh sách tham số cấu hình bên dưới. 
+
+     - Tại phần Tham số cấu hình, kích nút **Thêm tham số** để cấu hình cho từng tham số
+
+       -  Trường Tên: nhập tên tham số phải duy nhất trong danh sách tham số
+
+       - Kiểu: chọn kiểu dữ liệu tương ứng với tham số, ví dụ **số thứ tự** thì chọn kiểu số. Hệ thống đang hỗ trợ một số kiểu như số, ngày, tháng, năm, văn bản.   
+       - Giá trị khởi tạo:  Nhập giá trị khởi tạo để bắt đầu tính quy tắc,  ví dụ số thứ tự với giá trị khởi tạo là 1 thì khi sinh số văn bản sẽ tính từ 1 và tăng dần lên.
+
+       - Ô tích / bỏ tích **Cho phép cập nhật**: nếu được tích chọn thì khi ban hành văn bản người dùng có thể thay đổi giá trị ứng với tham số này.  
+
+         ![image-20211109144337318](images/image-20211109144337318.png)
 
 ### Vai trò ký
 
@@ -47,8 +63,10 @@ Cho phép khai báo và quản lý thông tin về các vai trò khi ký của n
 
 ![img](images/clip_image064.jpg)
 
-- Tích chọn Có người xem xét với những vai trò cần có người xét duyệt văn bản trước khi trình tới người ký. 
-
+- Tên: nhập tên vai trò
+- Tích chọn Có người xem xét:  
+  - Tích tùy chọn này với các vai trò cần phải qua người văn thư, thư ký xét duyệt trước khi gửi tới người ký 
+  - Không tích với các trường hợp không cần qua bộ phần xét duyệt trước.
 
 3. Kích**Lưu**
 
@@ -78,21 +96,29 @@ Cho phép khai báo và quản lý thông tin về các tài khoản được th
 
 
 
+
+
 - Nhập **Tài khoản kí**: Nhập @ tìm kiếm và chọn người dùng để tạo tài khoản kí. Mỗi người dùng tồn tại duy nhất trong danh sách tài khoản kí. 
+
+  **Chú ý**: Điều kiện để cấu hình tài khoản ký cho một người là người đó phải có tài khoản sử dụng trên hệ thống. Trường hợp chưa có tài khoản thì cần liên hệ quản trị được tạo người dùng trước. 
 
 - Chọn **vai trò**: Mỗi người dùng có thể có một hoặc kiêm nhiệm nhiều vai trò. 
 
-- Chọn **Người xem xét**: với vai trò có người xem xét thì bắt buộc phải cấu hình người xem xét từ danh sách người dùng. 
+- Chọn **Người xem xét**: với vai trò yêu cầu có người xem xét thì bắt buộc phải cấu hình người xem xét từ danh sách người dùng. 
 
-- Có ký điện tử: Nếu tích chọn thì người dùng có thể sử dụng chữ ký số, ngược lại thì chỉ ký duyệt thông thường. 
+- **Có ký điện tử?**: Nếu tích chọn thì người dùng có thể sử dụng chữ ký số, ngược lại thì chỉ ký duyệt thông thường. 
 
-- Tab Ảnh chân ký: Người dùng tải lên hệ thống ảnh chữ ký mộc dùng cho cá nhân để thêm vào văn bản sau khi ký duyệt (nếu yêu cầu). Mỗi tài khoản ký có thể cấu hình tối đa 3 loại chữ ký.  Kích thước ảnh chân ký phải thỏa mãn tỷ lệ 3:2 . Ngày hiệu lực mặc định là ngày tải ảnh chân ký tương ứng lên hệ thống. 
+- Tab **Ảnh chân ký**: Người dùng tải lên hệ thống ảnh chữ ký mộc dùng cho cá nhân để thêm vào văn bản sau khi ký duyệt (nếu yêu cầu). Mỗi tài khoản ký có thể cấu hình tối đa 3 loại chữ ký.  Kích thước ảnh chân ký phải thỏa mãn tỷ lệ 3:2, chiều rộng ảnh thuộc khoảng 200 px - 279px . Ngày hiệu lực mặc định là ngày tải ảnh chân ký tương ứng lên hệ thống. 
 
-- Tab Chứng thư số: Cấu hình chứng thư số để xác thực khi người dùng ký duyệt các văn bản. 	
+- Tab **Chứng thư số**: Cấu hình chứng thư số để xác thực khi người dùng ký duyệt các văn bản. Chứng thư số cần phải được cấu hình trước khi thực hiện ký số để xác thực người ký. 
 
   ![image-20211013123042271](images/image-20211013123042271.png)
 
-  Để lấy serial chứng thư số khi người dùng sử dụng USB token thì có thể cắm usb token rồi kích nút **Tải chứng thư số**. Hệ thống sẽ tự động điền serial lấy được. 
+  Để lấy serial chứng thư số cần thực hiện các bước sau: 
+
+  - Bước 1: Tải plugin ký số [tại đây](https://drive.google.com/file/d/1AhSJmYcurxkwipzxEM4T4HcHi5yKH80Q/view?usp=sharing) về máy tính cá nhân và kích chạy tệp vừa tải về
+  - Bước 2: Cắm usb token chứa chứng thư số vào máy tính 
+  - Bước 3: kích nút **Tải chứng thư số**  -> lựa chọn chứng thư số còn hiệu lực. 
 
 3. Click **Lưu**
 

@@ -1,4 +1,4 @@
-# *Quy trình nghiệp vụ*
+# **Bán hàng**
 
 ## **Quy trình nghiệp vụ**
 
@@ -23,7 +23,7 @@ Khi phát sinh nghiệp vụ bán hàng hóa, dịch vụ, thông thường sẽ
 
 
 
-## **Các luồng quy trình**
+### **Các luồng quy trình**
 
 ·     Lập yêu cầu báo giá gửi khách hàng. Chi tiết nghiệp vụ **[tại đây](#Lập yêu cầu báo giá)**
 
@@ -35,9 +35,9 @@ Khi phát sinh nghiệp vụ bán hàng hóa, dịch vụ, thông thường sẽ
 
 ·     Lập hóa đơn giảm giá/trả hàng gửi khách hàng. Chi tiết nghiệp vụ **[tại đây](Tạo hóa đơn giảm giá/trả hàng)**
 
-# *Yêu cầu báo giá*
+## *Yêu cầu báo giá*
 
-## Mô tả nghiệp vụ
+### Mô tả nghiệp vụ
 
 **Nghiệp vụ**
 
@@ -62,7 +62,7 @@ Bước 2: Gửi báo giá cho khách hàng. Chi tiết nghiệp vụ [tại đ�
 
 *[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
 
-## Hướng dẫn trên phần mềm
+### Hướng dẫn trên phần mềm
 
 Nhân viên kinh doanh tiến hành lập báo giá sản phẩm/dịch vụ cho khách hàng có nhu cầu
 
@@ -92,7 +92,7 @@ Bước 2: Khai báo các thông tin chi tiết trên báo giá
 
 Bước 3: Nhấn **Lưu**
 
-## **Thực hiện gửi báo giá cho khách hàng**
+### **Thực hiện gửi báo giá cho khách hàng**
 
 Bước 1: Sau khi đã có tài liệu báo giá để gửi khách hàng, Thực hiện **In** yêu cầu báo giá: kiểm tra thông tin dữ liệu trên mẫu yêu cầu báo giá và tùy chỉnh thông tin Mẫu yêu cầu
 
@@ -100,7 +100,7 @@ Bước 2: Thực hiện **Gửi qua Email** đến nhà cung cấp sau khi hoà
 
 ![](images/fin_BanHang_BaoGia_GuiEmail.png)
 
-## Xác nhận đơn bán hàng
+### Xác nhận đơn bán hàng
 
 Khi có nhu cầu mua sản phẩm, khách hàng sẽ liên hệ với nhân viên bán hàng để đặt hàng. Nhân viên bán hàng thực hiện lập đơn hàng dựa trên báo giá đã gửi
 
@@ -114,19 +114,19 @@ Bước 2: Nhấn nút **Xác nhận**
 
 Báo giá được thực hiện Xác nhận đơn hàng: Sẽ không được hiển thị trên Danh sách Báo giá
 
-## Sinh chứng từ giao hàng
+### Sinh chứng từ giao hàng
 
 Sau khi thực hiện Xác nhận đơn hàng, chương trình tự động sinh ra một yêu cầu giao hàng gửi tới kế toán kho/thủ kho (Phân hệ Quản lý kho/Phiếu xuất kho) Nhân viên có thể theo dõi tình trạng giao hàng của sản phẩm trên phiếu xuất kho đã sinh ra
 
 ![](images/fin_BanHang_DonBanHang.png)
 
-# *Hợp đồng bán hàng*
+## *Hợp đồng bán hàng*
 
-## Mô tả nghiệp vụ
+### Mô tả nghiệp vụ
 
 Đối với trường hợp bán hàng có giá trị lớn, sau khi tiếp nhận được yêu cầu mua hàng của khách hàng, nhân viên kinh doan tiến hành lập hợp đồng bán hàng  theo đơn hàng, theo dõi thanh toán và thanh lý hợp đồng
 
-## Hướng dẫn trên phần mềm
+### Hướng dẫn trên phần mềm
 
 Đối tượng thực hiện: Nhân viên kinh doanh
 
@@ -144,17 +144,17 @@ Nhấn **Lưu** để lưu lại thông tin hợp đồng
 
 
 
-# *Lập đơn bán hàng*
+## *Lập đơn bán hàng*
 
-## Mô tả nghiệp vụ
+### Mô tả nghiệp vụ
 
 Đơn bán hàng được thực hiện sau luồng Gửi báo giá cho khách hàng được hoàn thành
 
 Khi có nhu cầu mua sản phẩm, khách hàng sẽ liên hệ với nhân viên kinh doanh để đặt hàng. Khi đó nhân viên kinh doanh sẽ tiếp nhận yêu cầu của khách hàng, thực hiện tạo đơn bán hàng. Tại đơn bán hàng, nhân viên có thể theo dõi hàng xuất kho và tình trạng xuất hóa đơn cho khách hàng
 
-## Hướng dẫn trên phần mềm
+### Hướng dẫn trên phần mềm
 
-### Lập đơn bán hàng
+#### Lập đơn bán hàng
 
 Đối tượng thực hiện: Nhân viên kinh doanh
 
@@ -170,7 +170,7 @@ Bước 2: Thực hiện chọn Đơn bán hàng cần thực hiện. Tại Đơ
 - Nhân viên phụ trách có thể thực hiện sửa thông tin về Ngày đặt hàng hay Thông tin về sản phẩm
 - Mục Điều khoản thanh toán: Nếu có thỏa thuận về điều kiện thanh toán với nhà cung cấp thực hiện chọn thông tin Điều khoản đã được khai báo trên Danh mục **Điều khoản thanh toán** . Trường hợp đã thiết lập điều khoản thanh toán cho từng khách hàng tại danh mục **Khách hàng** thì chương trình sẽ tự động hiển thị sẵn thông tin này theo nhà cung cấp được chọn
 
-### Theo dõi giao hàng
+#### Theo dõi giao hàng
 
 Sau khi có đơn hàng, sản phẩm sẽ được giao cho khách hàng. Nhân viên kế toán kho thực hiện xác nhận số lượng sản phẩm bàn giao theo đơn hàng 
 
@@ -194,17 +194,17 @@ Bước 2: Nhấn **Xác nhận** để hoàn thành xuất hàng giao cho khác
 
 
 
-# *Hóa đơn bán hàng*
+## *Hóa đơn bán hàng*
 
-## Mô tả nghiệp vụ
+### Mô tả nghiệp vụ
 
 Sau khi ký được hợp đồng bán hàng với khách hàng và thực hiện giao hàng thành công, kế toán thực hiện kiểm tra dữ liệu và lập hóa đơn bán hàng, đồng thời thực hiện và theo dõi việc thanh toán của hóa đơn
 
 Sau khi kế toán phê duyệt và cấp hóa đơn, nhân viên kinh doanh sẽ nhận lấy hóa đơn từ phòng kế toán và gửi cho khách hàng
 
-## Hướng dẫn trên phần mềm
+### Hướng dẫn trên phần mềm
 
-### Lập hóa đơn bán hàng từ đơn bán hàng
+#### Lập hóa đơn bán hàng từ đơn bán hàng
 
 Đối tượng thực hiện: Nhân viên kế toán
 
@@ -240,7 +240,7 @@ Bước 4: Thông tin dữ liệu hạch toán:
 
 Bước 5: Nhân viên Kế toán thực hiện nhấn **Xác nhận** 
 
-### Lập hóa đơn bán hàng không từ đơn bán hàng
+#### Lập hóa đơn bán hàng không từ đơn bán hàng
 
 Đối tượng thực hiện: Nhân viên kế toán
 
@@ -268,7 +268,7 @@ Thông tin dữ liệu bút toán phát sinh:
 
 Bước 4: Nhân viên Kế toán thực hiện nhấn **Xác nhận** để hoàn thành xuất hóa đơn bán hàng
 
-### Ghi nhận thanh toán
+#### Ghi nhận thanh toán
 
 Kế toán thực hiện ghi nhận và theo dõi việc thanh toán của hóa đơn sau khi xác nhận xuất hóa đơn thành công
 
@@ -284,7 +284,7 @@ Bước 2: Nhấn nút **Ghi nhận thanh toán**. Kế toán nhập và sửa t
 
 Hệ thống sinh phiếu thu tiền  để thu tiền khách hàng đã thực hiện trả
 
-### Tạo hóa đơn giảm giá/trả hàng
+#### Tạo hóa đơn giảm giá/trả hàng
 
 Khi phát sinh nghiệp vụ giảm giá hàng bán hoặc trả lại hàng đã bán, thông thường sẽ có các hoạt động sau:
 
@@ -296,7 +296,7 @@ Cách 2: Kế toán bán hàng chuyển đổi hóa đơn bán hàng thành kho�
 
 Đối tượng thực hiện: Nhân viên kế toán
 
-#### Tạo hóa đơn giảm giá
+##### Tạo hóa đơn giảm giá
 
 Bước 1: Vào phân hệ **Bán hàng**, chọn **Hóa đơn**, chọn **Hóa đơn bán hàng**. Trên danh sách hóa đơn bán hàng, kế toán tìm tới các hóa đơn đã được ghi sổ, nhấn chọn **Tạo HĐ giảm giá**
 
@@ -314,7 +314,7 @@ Trên hóa đơn giảm giá được sinh ra, kế toán khai báo  các thôn
 
 Nhấn xác nhận để ghi sổ thông tin hóa đơn. Kế toán sẽ **xuất hóa đơn** để gửi lại cho khách hàng và **ghi nhận lại thanh toán**
 
-#### Chuyển đổi thành khoản hoàn tiền/công nợ giảm
+##### Chuyển đổi thành khoản hoàn tiền/công nợ giảm
 
 Bước 1: Vào phân hệ **Bán hàng**, chọn **Hóa đơn**, chọn **Hóa đơn bán hàng**. Trên danh sách hóa đơn bán hàng, kế toán tìm tới hóa đơn có nhu cầu hoàn hàng, nhấn chọn tiện ích/chuyển đổi thành khoản hoàn tiền/công nợ giảm
 

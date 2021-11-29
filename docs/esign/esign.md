@@ -24,23 +24,24 @@ Khi người dùng cần thực hiện trình ký văn bản tới danh sách ng
 
 - Nhập Tên văn bản trình kí, gắn nhãn. 
 - Trường hợp có cài đặt ứng dụng Tài liệu, hiển thị và cho phép nhập thông tin:
-  - Thư mục sau kí: thư mục lưu trữ văn bản sau khi được ban hành
-  - Chọn nhãn sau kí của Thư mục sau kí vừa chọn
+  - Thư mục sau kí: Chọn thư mục lưu trữ văn bản sau khi được ban hành bên ứng dụng Tài liệu
+  - Chọn nhãn sau kí của Thư mục sau kí vừa chọn 
+- Tài liệu liên quan: Chọn tài liệu được lưu trữ bên ứng dụng tài liệu
 - Chọn danh sách người kí:  Có thể tạo mới danh sách hoặc chọn từ mẫu danh sách người ký đã lưu trước đó. 
   - Thứ tự hiển thị trên danh sách là thứ tự sẽ trình ký. 
   - Mỗi tài khoản chỉ tồn tại duy nhất trên danh sách. 
   - Ký CA: khi tích chọn thì khi người ký tương ứng vào ký sẽ cần sử dụng usb token ký và có xác thực chứng thư số tồn tại. 
   -  Hiển thị ảnh ký: cho phép lựa chọn ảnh chân ký sẽ hiển thị trong văn bản trình ký. 
 - Danh sách tệp trình ký: 
-  - Có thể trình đồng thời một hoặc nhiều bộ văn bản trình ký. Mỗi bộ gồm một tệp ký chính và tệp phụ lục (nếu có). 
+  - Có thể trình đồng thời một hoặc nhiều bộ văn bản trình ký, mỗi bộ gồm một tệp ký chính và tệp phụ lục (nếu có). 
   - Tệp trình ký được hỗ trợ các định dạng: pdf, doc, excel, ppt, ảnh. Chỉ với tệp có định dạng pdf thì mới có thể tự động chèn thêm ảnh chân ký sau khi ký số. 
-  - Loại văn bản: 
+  - Loại văn bản: Chọn loại tài liệu tương ứng 
 - Các tùy chọn: 
   - Tùy chọn Ban hành tự động: chỉ có thể ban hành tự động khi trình ký 1 tệp trình ký chính. Khi trình ký từ 2 tệp ký chính thì bắt buộc phải được ban hành thủ công. 
-  - Tùy chọn tự động chuyển văn bản: Khi người trình ký muốn sau khi văn bản được ký duyệt và ban hành sẽ được tự động chia sẻ cho người khác có thể đọc. Tùy chọn này chỉ được sử dụng khi có tích hợp với ứng dụng Tài liệu. 
+  - Tùy chọn tự động chuyển văn bản: Khi người trình ký muốn sau khi văn bản được ký duyệt và ban hành lưu trữ bên ứng dụng tài liệu sẽ được tự động chia sẻ cho người khác có thể xem được. Tùy chọn này chỉ được sử dụng khi có tích hợp với ứng dụng Tài liệu. 
 
 3. Click nút **Lưu**: văn bản trình ký ở trạng thái Mới tạo, chưa được trình tới người ký.
-4. click nút **Trình ký**: Tạo mới văn bản và thực hiện trình ký luôn. Trạng thái văn bản trình ký sẽ hiển thị "Chờ ký duyệt". Theo thứ tự trình ký sẽ gửi thông báo yêu cầu ký duyệt tới người đầu tiên trong danh sách trình ký.
+4. click nút **Trình ký**: Tạo mới văn bản và thực hiện trình ký luôn. Trạng thái văn bản trình ký sẽ hiển thị "Chờ ký duyệt". Theo thứ tự trình ký sẽ gửi thông báo yêu cầu ký duyệt tới người đầu tiên trong danh sách trình ký. 
 
 ### Tìm kiếm và lọc văn bản trình ký
 
@@ -109,8 +110,15 @@ Khi nhận được thông báo yêu cầu ký duyệt văn bản, người dùn
 1. Vào **Quản lý văn bản trình ký** > tìm kiếm văn bản -> vào xem chi tiết văn bản
 2.  Kích nút **Ký duyệt** hoặc **Từ chối**
 
-- Trường hợp không yêu cầu phải ký CA: Người dùng có thể chọn ký duyệt thông thường hoặc ký điện tử khi sử dụng ký cA. 
-- Trường hợp yêu cầu phải ký CA: Màn hình ký duyệt văn bản chỉ hiển thị nút “Kí điện tử”. Người ký sử dụng USB token đã đăng ký để ký duyệt văn bản. 
+- Trường hợp không yêu cầu phải ký số: Người dùng có thể chọn ký duyệt thông thường hoặc ký điện tử khi sử dụng ký số
+
+- Trường hợp yêu cầu phải ký số: Màn hình ký duyệt văn bản chỉ hiển thị nút “Kí điện tử”. 
+
+  Để thực hiện ký với usb token: 
+
+  - Bước 1: Tải plugin ký số [tại đây](https://drive.google.com/file/d/1AhSJmYcurxkwipzxEM4T4HcHi5yKH80Q/view?usp=sharing) về máy tính cá nhân (nếu chưa có) và kích chạy tệp vừa tải về. Nếu đã có plugin thì chạy luôn tệp plugin đã có. 
+  - Bước 2: Cắm usb token chứa chứng thư số vào máy tính 
+  - Bước 3: kích nút "**Ký điện tử**" -> Lựa chọn chứng thư số còn hiệu lực và đã đăng ký với tài khoản để thực hiện ký. 
 
 ![img](images/clip_image081.jpg)
 
@@ -186,7 +194,7 @@ Cho phép người dùng ban hành thủ công văn bản đã ký duyệt: cấ
 
 ![img](images/clip_image090.jpg)
 
-3. Kích nút ![banhanh](D:\data desktop\HDSD\ESS-System-Guide_huyenpt\ESS-System-Guide\docs\esign\images\banhanh.PNG)  mở màn hình nhập các thông tin ban hành với từng tệp trình ký
+3. Kích nút  ![](../banhanh.PNG)  mở màn hình nhập các thông tin ban hành với từng tệp trình ký
 4. Nhập thông tin ban hành: 
 
 
