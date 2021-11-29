@@ -1,6 +1,12 @@
 ### Quy trình nghiệp vụ
 
-Phân hệ Phê duyệt có chức năng quản lý toàn bộ quá trình phê duyệt: Từ thiết lập loại yêu cầu, lập yêu cầu phê duyệt gửi lên quản lý phê duyệt đến xử lý yêu cầu phê duyệt.
+Chức năng **Phê duyệt** hỗ trợ người dùng có thể tạo và gửi phê duyệt các nhiệm vụ, yêu cầu của cán bộ nhân viên đến người có thẩm quyền quyết định một cách dễ dàng. Giúp doanh nghiệp quản lý và nắm bắt đầy đủ các thông tin nhiệm vụ, đồng thời có thể giải quyết các vấn đề trong công việc một cách hiệu quả nhất.
+
+Quy trình Phê duyệt bao gồm 2 phần:
+
+1. **Phê duyệt trên Website**: Quản trị viên thiết lập trường thông tin và tạo các loại phê duyệt. Chi tiết nghiệp vụ <u>[tại đây](https://guide.vess.store/digitalworkplace/Addon-PheDuyet-Web/)</u>.
+
+2. **Phê duyệt trên Mobile**: Cá nhân tạo yêu cầu phê duyệt và các yêu cầu được phê duyệt bởi người được chọn. Chi tiết nghiệp vụ <u>[tại đây](https://guide.vess.store/digitalworkplace/Addon-phe-duyet/)</u>.
 
 #### Quy trình
 

@@ -1,6 +1,6 @@
 ### Quy trình nghiệp vụ
 
-Khách hàng đăng nhập vào hệ thống bằng mã QR đã được đăng ký để thực hiện xem, cập nhật thông tin cá nhân, xem thông báo, tin tức và các nội dung khác.
+Đăng nhập bằng QR code là tính năng hỗ trợ khách hàng đăng nhập nhanh vào hệ thống trên website. Người dùng không cần nhập user/password trên màn hình đăng nhập website. Thay vào đó, người dùng sử dụng app trên Mobile, quét mã QR bằng tài khoản đã được đăng nhập để thực hiện xem, cập nhật thông tin cá nhân, xem thông báo, tin tức và các nội dung khác.
 
 #### Quy trình
 
@@ -34,7 +34,7 @@ Người dùng đăng nhập nhanh vào hệ thống bằng QR code
 
 **Đối tượng thực hiện:** Người dùng
 
-Điều kiện trước: Người dùng đã đăng nhập trên ứng dụng của điện thoại
+Điều kiện trước: Người dùng đã đăng nhập trên app
 
 1. Tại màn hình đăng nhập
 
@@ -44,19 +44,18 @@ Người dùng đăng nhập nhanh vào hệ thống bằng QR code
 
     ![](picture/PIC_DW_Addon_QRcode-QuetMaQR.jpg)
 
-3. Sau đó, người dùng truy cập vào app trên thiết bị di động, vào tài khoản người dùng 
-
-    ![](picture/PIC_DW_Addon_QRcode-QuetMaQR2.jpg)
-
-    Chọn biểu tượng ![](picture/PIC_DW_Addon_QRcode-QuetMaQR3.png). Di chuyển Camera đến mã QR hiển thị trên màn hình máy tính để tiến hành quét mã QR.
-
-    * **Ghi chú:** Thiết bị của người dùng phải được đăng ký trên hệ thống trước đó
-
-    * Hệ thống sẽ thực hiện đối chiếu với mã đã được quy định sẵn cho từng người dùng. Nếu mã khớp đăng nhập thành công trên máy tính
+3. Sau đó, người dùng truy cập vào app trên thiết bị di động:
     
-    * Nếu mã QR không đúng, hệ thống ở lại trang đăng nhập với mã QR và người dùng sẽ thực hiện lại việc quét mã QR
+    * Tại menu Trang chủ, chọn biểu tượng ![](picture/PIC_DW_Addon_QRcode-IconQuetMa.png)
+
+    ![](picture/PIC_DW_Addon_QRcode-QuetMa.jpg)
     
-4. Trường hợp người dùng có nhu cầu xem hướng dẫn trước khi thực hiện đăng nhập với mã QR, tại màn hình đăng nhập bằng QR Code, người dùng nhấn **Xem hướng dẫn** để di chuyển đến trang hướng dẫn quét mã QR
-
-
-
+    * **Lưu ý**:
+        
+        * **Điều kiện quét mã:** Thiết bị của người dùng phải được đăng ký trên hệ thống trước đó
+        
+        * Hệ thống sẽ thực hiện đối chiếu với mã đã được quy định sẵn cho từng người dùng. Nếu mã khớp đăng nhập thành công trên máy tính.
+        
+        * Nếu mã QR không đúng, hệ thống ở lại trang đăng nhập với mã QR và người dùng sẽ thực hiện lại việc quét mã QR.
+    
+4. Trường hợp người dùng có nhu cầu xem hướng dẫn trước khi thực hiện đăng nhập với mã QR, tại màn hình đăng nhập bằng QR Code, người dùng nhấn **Xem hướng dẫn** để di chuyển đến trang hướng dẫn quét mã QR.
