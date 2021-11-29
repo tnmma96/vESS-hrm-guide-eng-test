@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Phê duyệt trên web - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Ph\u00ea duy\u1ec7t tr\u00ean web";
+    var mkdocs_page_input_path = "digitalworkplace\\Addon-PheDuyet-Web.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas-introduction/">Trang chủ</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Đăng ký, đăng nhập</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-login/">Đăng nhập, đăng xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-QRcode/">Đăng nhập bằng QR code</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-DangNhapG/">Đăng nhập bằng G+</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-xac-thuc-hai-buoc/">Xác thực 2 bước</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/payroll/">Tính lương</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-TM/">Tiền mặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-NH/">Tiền gửi</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-giathanh/">Giá thành</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ccdc/">Công cụ dụng cụ</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Tài liệu</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/introduction/">Giới thiệu về ứng dụng Tài liệu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/document/">Tài liệu</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Ký số</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/introduction/">Giới thiệu về ứng dụng Ký số</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/esign/">Ký số</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-Social/">Mạng xã hội</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-project/">Dự án</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-khao-sat/">Khảo sát</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-ghi-chu/">Ghi chú</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-su-kien/">Sự kiện</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-bua-an/">Bữa ăn</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Phê duyệt trên web</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#quy-trinh">Quy trình</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">vESS Mobile</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Gioi-thieu-vess-mobile/">Giới thiệu về vESS mobile</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-dang-nhap/">Đăng nhập</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon-phe-duyet/">Phê duyệt trên mobile</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Digital workplace &raquo;</li>
+        
+      
+    
+    <li>Phê duyệt trên web</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h3 id="quy-trinh-nghiep-vu">Quy trình nghiệp vụ</h3>
+<p>Phê duyệt bao gồm từ các bước tạo các loại phê duyệt trên web. Cá nhân tạo yêu cầu phê duyệt và các yêu cầu được phê duyệt bởi người được chọn phê duyệt, và người dùng có thể xem vào tạo dựng các phê duyệt trên Mobile.</p>
+<h4 id="quy-trinh">Quy trình</h4>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_QuyTrinhChung.png" /></p>
+<p><strong>Các luồng quy trình Phê duyệt trên Web</strong></p>
+<ul>
+<li>
+<p>Tạo Trường thông tin. Chi tiết nghiệp vụ <u><a href="#tao-truong-thong-tin">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Tạo Loại phê duyệt. Chi tiết nghiệp vụ <u><a href="#tao-loai-phe-duyet">tai đây</a></u>.</p>
+</li>
+</ul>
+<h4 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h4>
+<p>Khi có nhu cầu thực hiện phê duyệt công việc, người dùng thực hiện các bước theo quy trình sau:</p>
+<ol>
+<li>
+<p>Quản trị viên tạo trường thông tin.</p>
+</li>
+<li>
+<p>Sau khi đã có các trường thông tin, quản trị viên vào tạo loại phê duyệt bao gồm các trường thông tin đã tạo và phù hợp với yêu cầu phê duyệt.</p>
+</li>
+<li>
+<p>Người dùng có nhu cầu tạo các yêu cầu phê duyệt sẽ tạo các phê duyệt thuộc loại phê duyệt đã có trên hệ thống.</p>
+</li>
+<li>
+<p>Tiếp theo, người dùng thực hiện gửi phê duyệt.</p>
+</li>
+<li>
+<p>Người được chọn phê duyệt sẽ vào thực hiện phê duyệt các yêu cầu vừa được gửi.</p>
+</li>
+</ol>
+<p><strong>Luồng chức năng chính</strong></p>
+<ul>
+<li>
+<p>Thiết lập Trường thông tin. Chi tiết nghiệp vụ <u><a href="#thiet-lap-truong-thong-tin">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Thiết lập thông tin cho Loại phê duyệt. Chi tiết nghiệp vụ <u><a href="#thiet-lap-thong-tin-cho-loai-phe-duyet">tại đây</a></u>.</p>
+</li>
+</ul>
+<h3 id="tao-truong-thong-tin">Tạo Trường thông tin</h3>
+<p><strong>Đối tượng thực hiện:</strong> Quản trị viên</p>
+<ol>
+<li>
+<p>Vào phân hệ <strong>Phê duyệt</strong>: Chọn menu <strong>Trường thông tin</strong></p>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_TruongThongTin.png" /></p>
+</li>
+<li>
+<p>Nhấn <strong>Tạo</strong>:</p>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_TaoTruongThongTin.png" /></p>
+</li>
+</ol>
+<h4 id="thiet-lap-truong-thong-tin">Thiết lập Trường thông tin</h4>
+<ol>
+<li>
+<p>Nhập thông tin: <strong>Tên trường</strong>, <strong>Mô tả</strong>, chọn <strong>Ảnh đại diện</strong>.</p>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_Nhap.png" /></p>
+</li>
+<li>
+<p>Chọn <strong>Loại dữ liệu</strong> cho trường thông tin:</p>
+</li>
+<li>
+<p>Nếu Loại dữ liệu là <strong>Nhập từ bàn phím</strong>, <strong>Số</strong>, <strong>Ngày tháng</strong>: Người dùng không cần nhập thêm trường dữ liệu.</p>
+</li>
+<li>
+<p>Nếu Loại dữ liệu là <strong>Chọn từ danh sách</strong> hoặc <strong>Bảng danh sách</strong>: Người dùng cần chọn thêm dữ liệu:</p>
+<ul>
+<li>Chọn <strong>Chọn từ danh sách</strong>: Người dùng chọn thêm <strong>Dữ liệu gốc</strong></li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_DuLieuGoc.png" /></p>
+<ul>
+<li>Chọn <strong>Bảng danh sách</strong>: Người dùng chọn thêm <strong>Bảng dữ liệu</strong></li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_BangDuLieu.png" /></p>
+</li>
+</ol>
+<p><strong>Lưu ý:</strong></p>
+<ol>
+<li>
+<p>Đối với <strong>Dữ liệu gốc</strong>, người dùng có thể chọn dữ liệu có sẵn:</p>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_ThemDLG.png" /></p>
+<p>hoặc tạo thêm Dữ liệu gốc theo các bước:</p>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_ThemMoiDLG.png" /></p>
+<p>Bước 1: Sau khi chọn hoặc tạo mới, màn hình sẽ hiển thị <strong>Danh sách</strong> của Dữ liệu gốc:</p>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_ThemDongDLG.png" /></p>
+<p>Bước 2: Nhấn chọn <strong>Thêm dòng</strong> và nhập dữ liệu:</p>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_ThemDongDuLieuDLG.png" /></p>
+<p>hoặc có thể tạo danh sách dữ liệu gốc trực tiếp bằng cách: Nhấn chọn <img alt="" src="../picture/PIC_DW_PheDuyetWeb_ThemTrucTiepDLG.png" /> tại <strong>Dữ liệu gốc</strong> vừa chọn.</p>
+<p>Màn hình sẽ hiển thị:</p>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_ThemTrucTiepDuLieuGoc.png" /></p>
+<p>Người dùng có thể nhập thông tin cho <strong>Dữ liệu gốc</strong> vừa chọn.</p>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_ThemTrucTiepDongDuLieuGoc.png" /></p>
+<p>Sau khi tạo thông tin, nếu chọn Dữ liệu gốc có sẵn <strong>Danh sách</strong>, màn hình chính sẽ hiển thị danh sách dữ liệu đã nhập:</p>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_DuLieuDLG.png" /></p>
+</li>
+<li>
+<p>Đối với <strong>Bảng dữ liệu</strong>, người dùng cũng có thể chọn dữ liệu có sẵn hoặc tạo mới theo các bước làm tương tự với <strong>Dữ liệu gốc</strong>:</p>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_ThemBDS.png" /></p>
+</li>
+<li>
+<p>Bước cuối cùng để tạo trường thông tin: Nhấn <strong>Lưu</strong></p>
+</li>
+</ol>
+<h3 id="tao-loai-phe-duyet">Tạo Loại phê duyệt</h3>
+<p>Sau khi đã có các trường thông tin cần thiết, Quản trị viên thực hiện tạo các loại phê duyệt.</p>
+<p><strong>Đối tượng thực hiện:</strong> Quản trị viên</p>
+<ol>
+<li>
+<p>Vào phân hệ <strong>Phê duyệt</strong>: Thao tác tại menu <strong>Bảng điều khiển</strong></p>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_BangDieuKhienpng.png" /></p>
+</li>
+<li>
+<p>Nhấn <strong>Tạo</strong>:</p>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_MHTao.png" /></p>
+</li>
+</ol>
+<h4 id="thiet-lap-thong-tin-cho-loai-phe-duyet">Thiết lập thông tin cho Loại phê duyệt</h4>
+<ol>
+<li>
+<p>Nhập thông tin cho loại phê duyệt: <strong>Tên</strong>, <strong>Mô tả</strong>, chọn <strong>Ảnh đại diện</strong>.</p>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_ThemMoi.png" /></p>
+</li>
+<li>
+<p>Chọn dữ liệu tại vùng Danh sách trường thông tin: </p>
+<ul>
+<li>Nhấn chọn <strong>Thêm dòng</strong>:</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_ThemDongTruongTT.png" /></p>
+<ul>
+<li>Chọn <strong>Tên trường, Ràng buộc</strong>:</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_ThemDongTTT.png" /></p>
+<ul>
+<li>
+<p><strong>Lưu ý 1:</strong> </p>
+<p>Khi chọn <strong>Ràng buộc</strong>:</p>
+<ul>
+<li>
+<p>Nếu chọn <strong>Bắt buộc</strong>: Khi tạo phê duyệt, người dùng bắt buộc phải nhập thông tin này.</p>
+</li>
+<li>
+<p>Nếu chọn <strong>Tùy chọn</strong>: Khi tạo phê duyệt, người dùng không bắt buộc phải nhập thông tin này.</p>
+</li>
+<li>
+<p>Nếu chọn <strong>Không hiển thị</strong>: Khi tạo phê duyệt, màn hình sẽ không hiển thị trường này.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Lưu ý 2:</strong></p>
+<ul>
+<li>
+<p>Người dùng có thể giữ chuột tại icon Kéo thả (cạnh cột #) và thực hiện kéo - thả để sắp xếp lại thứ tự các trường thông tin cho phù hợp với phê duyệt.</p>
+</li>
+<li>
+<p>Sau khi kéo - thả, thứ tự trường thông tin sẽ tự động sắp xếp lại.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Tích chọn <strong>Thông báo qua thư</strong></p>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_ThongBaoQuaThu.png" /></p>
+<ul>
+<li>
+<p>Nếu tích chọn <strong>Thông báo qua thư</strong>, hệ thống sẽ tự động gửi email tới người phê duyệt hoặc khi yêu cầu của người tạo được phê duyệt/ từ chối.</p>
+</li>
+<li>
+<p>Nếu không muốn gửi email thông báo đến người phê duyệt hoặc người tạo yêu cầu, người dùng có thể bỏ qua bước này.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Chọn người phê duyệt</p>
+</li>
+<li>
+<p>Tại vùng <strong>Người phê duyệt</strong>: Nhấn chọn <strong>Thêm dòng</strong></p>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_NguoiPheDuyet.png" /></p>
+<ul>
+<li>Nhập thông tin Tên:</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_Ten.png" /></p>
+<ul>
+<li>
+<p>Chọn thông tin cho người phê duyệt. Chỉ được phép chọn 1 trong 3 thông tin: <strong>Chọn theo cá nhân</strong>, hoặc <strong>Chọn phòng ban</strong>, hoặc <strong>Thẻ gắn với nhân viên</strong>:</p>
+</li>
+<li>
+<p>Tương ứng với từng dòng sẽ chọn tính <strong>Bắt buộc</strong> cho từng người phê duyệt:</p>
+</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyetWeb_ChonNguoiPheDuyet.png" /></p>
+<ul>
+<li>
+<p><strong>Lưu ý:</strong> </p>
+<ul>
+<li>Người dùng có thể giữ chuột tại icon Kéo thả (cạnh cột #) và thực hiện kéo - thả để sắp xếp lại thứ tự của người phê duyệt. </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Nhấn <strong>Lưu</strong> để lưu lại Loại phê duyệt.</p>
+</li>
+</ol>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../vESS_mobile/Gioi-thieu-vess-mobile/" class="btn btn-neutral float-right" title="Giới thiệu về vESS mobile">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../Lich-su-phat-trien/" class="btn btn-neutral" title="Lịch sử phát triển sản phẩm"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Lich-su-phat-trien/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../../vESS_mobile/Gioi-thieu-vess-mobile/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/extra.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

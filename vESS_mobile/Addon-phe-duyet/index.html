@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Phê duyệt trên mobile - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Ph\u00ea duy\u1ec7t tr\u00ean mobile";
+    var mkdocs_page_input_path = "vESS_mobile\\Addon-phe-duyet.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas-introduction/">Trang chủ</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Đăng ký, đăng nhập</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-login/">Đăng nhập, đăng xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-QRcode/">Đăng nhập bằng QR code</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-DangNhapG/">Đăng nhập bằng G+</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-xac-thuc-hai-buoc/">Xác thực 2 bước</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/payroll/">Tính lương</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-TM/">Tiền mặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-NH/">Tiền gửi</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-giathanh/">Giá thành</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ccdc/">Công cụ dụng cụ</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Tài liệu</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/introduction/">Giới thiệu về ứng dụng Tài liệu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/document/">Tài liệu</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Ký số</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/introduction/">Giới thiệu về ứng dụng Ký số</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/esign/">Ký số</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Social/">Mạng xã hội</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-project/">Dự án</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-khao-sat/">Khảo sát</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-ghi-chu/">Ghi chú</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-su-kien/">Sự kiện</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-bua-an/">Bữa ăn</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-PheDuyet-Web/">Phê duyệt trên web</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">vESS Mobile</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../Gioi-thieu-vess-mobile/">Giới thiệu về vESS mobile</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Mobile-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Mobile-dang-nhap/">Đăng nhập</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Phê duyệt trên mobile</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#quy-trinh">Quy trình</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Mobile-Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>vESS Mobile &raquo;</li>
+        
+      
+    
+    <li>Phê duyệt trên mobile</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h3 id="quy-trinh-nghiep-vu">Quy trình nghiệp vụ</h3>
+<p>Phân hệ Phê duyệt có chức năng quản lý toàn bộ quá trình phê duyệt: Từ thiết lập loại yêu cầu, lập yêu cầu phê duyệt gửi lên quản lý phê duyệt đến xử lý yêu cầu phê duyệt.</p>
+<h4 id="quy-trinh">Quy trình</h4>
+<p><img alt="" src="../picture/PIC_DW_PheDuyet_QuyTrinhChung.png" /></p>
+<p><strong>Các luồng quy trình</strong></p>
+<ul>
+<li>
+<p>Lập yêu cầu phê duyệt. Chi tiết nghiệp vụ <u><a href="#lap-yeu-cau-phe-duyet">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Yêu cầu phê duyệt. Chi tiết nghiệp vụ <u><a href="#yeu-cau-phe-duyet">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Xử lý yêu cầu phê duyệt. Chi tiết nghiệp vụ <u><a href="#xu-ly-yeu-cau-phe-duyet">tại đây</a></u>.</p>
+</li>
+</ul>
+<h4 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h4>
+<p>Khi có nhu cầu tạo dựng một phê duyệt, người dùng thực hiện các bước theo quy trình sau:</p>
+<ol>
+<li>
+<p>Người dùng truy cập hệ thống để lập yêu cầu phê duyệt theo loại phê duyệt đã có trên hệ thống.</p>
+</li>
+<li>
+<p>Gửi yêu cầu đến cán bộ có quyền phê duyệt loại yêu cầu đó.</p>
+</li>
+<li>
+<p>Người được cấp quyền phê duyệt loại yêu cầu thực hiện chấp thuận, từ chối yêu cầu.</p>
+</li>
+</ol>
+<p><strong>Luồng chức năng chính</strong></p>
+<ul>
+<li>
+<p>Lập yêu cầu phê duyệt. Chi tiết nghiệp vụ <u><a href="#lap-yeu-cau-phe-duyet">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Gửi yêu cầu phê duyệt. Chi tiết nghiệp vụ <u><a href="#gui-yeu-cau-phe-duyet">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Phê duyệt yêu cầu. Chi tiết nghiệp vụ <u><a href="#phe-duyet-yeu-cau">tại đây</a></u>.</p>
+</li>
+</ul>
+<h3 id="lap-yeu-cau-phe-duyet">Lập yêu cầu phê duyệt</h3>
+<p>Người dùng thực hiện lập yêu cầu phê duyệt</p>
+<p><strong>Đối tượng thực hiện:</strong> Người dùng có quyền sử dụng phân hệ Yêu cầu</p>
+<ol>
+<li>
+<p>Thực hiện truy cập vào app mobile, chọn phân hệ <strong>Yêu cầu</strong></p>
+<p><img alt="" src="../picture/PIC_DW_PheDuyet_Phanheyeucau.png" /></p>
+</li>
+<li>
+<p>Để tạo mới yêu cầu phê duyệt người dùng có thể thực hiện bằng một trong hai cách:</p>
+<ul>
+<li>Chọn <strong>Tạo mới</strong> từ màn hình danh sách loại yêu cầu</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyet_DanhSachLoaiYeuCauPheDuyet%20.png" /></p>
+<ul>
+<li>Người dùng cũng có thể nhấn vào loại yêu cầu rồi chọn <strong>icon +</strong> (icon Tạo phê duyệt) để tạo mới yêu cầu</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyet_Danhsachpheduyet.png" /></p>
+</li>
+<li>
+<p>Tiến hành nhập các nội dung cho yêu cầu</p>
+<ul>
+<li>Người dùng thực hiện nhập <strong>Thông tin yêu cầu</strong></li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyet_Thongtinyeucau.png" /></p>
+<ul>
+<li>
+<p>Nhấn <strong>Tiếp tục</strong> để di chuyển đến màn hình <strong>Thông tin bổ sung</strong></p>
+</li>
+<li>
+<p>Nhập thông tin bổ sung cho yêu cầu phê duyệt</p>
+</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyet_Thongtinbosung.png" /></p>
+<ul>
+<li>
+<p>Nhấn <strong>Tiếp tục</strong> để di chuyển đến màn hình <strong>Mô tả yêu cầu</strong></p>
+</li>
+<li>
+<p>Nhập mô tả cho yêu cầu phê duyệt</p>
+</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyet_Motayeucau.png" /></p>
+</li>
+<li>
+<p>Nhấn <strong>Lưu</strong>.</p>
+<ul>
+<li><strong>Lưu ý:</strong> Sau khi lưu, trạng thái của yêu cầu là <strong>Nháp</strong></li>
+</ul>
+</li>
+</ol>
+<h3 id="yeu-cau-phe-duyet">Yêu cầu phê duyệt</h3>
+<h4 id="gui-yeu-cau-phe-duyet">Gửi yêu cầu phê duyệt</h4>
+<p>Người dùng thực hiện gửi yêu cầu phê duyệt. </p>
+<p><strong>Đối tượng thực hiện:</strong> Người dùng đã tạo yêu cầu phê duyệt</p>
+<ol>
+<li>
+<p>Thực hiện truy cập vào app mobile, chọn phân hệ <strong>Yêu cầu</strong></p>
+</li>
+<li>
+<p>Để gửi yêu cầu phê duyệt người dùng có thể thực hiện bằng một trong các cách:</p>
+<ul>
+<li>Khi tạo yêu cầu phê duyệt, chọn <strong>Gửi</strong> để gửi luôn yêu cầu</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyet_Guiyeucau.png" /></p>
+<ul>
+<li>Hoặc sau khi đã tạo mới yêu cầu, tại màn hình danh sách thực hiện nhấn vào <strong>icon Menu</strong>, chọn <strong>Gửi</strong></li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyet_Guiyeucautudanhsach.png" /></p>
+<ul>
+<li>Người dùng cũng có thể truy cập vào chi tiết yêu cầu từ màn hình danh sách rồi nhấn <strong>Gửi</strong></li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyet_Guiyeucautuchitiet.png" /></p>
+</li>
+<li>
+<p>Sau khi gửi yêu cầu, trạng thái của yêu cầu chuyển thành <strong>Chờ duyệt</strong></p>
+<ul>
+<li>
+<p><strong>Lưu ý:</strong></p>
+<ul>
+<li>
+<p>Nếu loại yêu cầu được cấu hình <strong>Tài liệu</strong> là bắt buộc thì khi nhấn <strong>Gửi</strong> sẽ hiển thị thông báo yêu cầu đính kèm tài liệu. Người dùng cần đính kèm tài liệu mới có thế gửi yêu cầu đi.</p>
+</li>
+<li>
+<p>Nếu loại yêu cầu được cấu hình <strong>Tài liệu</strong> là tùy chọn thì khi nhấn <strong>Gửi</strong> yêu cầu sẽ được gửi đi luôn.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h4 id="huy-yeu-cau-phe-duyet">Hủy yêu cầu phê duyệt</h4>
+<p>Người dùng sau khi tạo xong yêu cầu phê duyệt có thể hủy yêu cầu nếu không muốn gửi đi</p>
+<p><strong>Đối tượng thực hiện:</strong> Người dùng đã tạo yêu cầu phê duyệt và trạng thái yêu cầu là nháp</p>
+<p><strong>Điều kiện sử dụng:</strong> Chỉ có thể hủy khi yêu cầu khi phê duyệt ở trạng thái <strong>Nháp</strong></p>
+<ol>
+<li>
+<p>Thực hiện truy cập vào app mobile, chọn phân hệ <strong>Yêu cầu</strong></p>
+</li>
+<li>
+<p>Chọn loại yêu cầu phê duyệt</p>
+</li>
+<li>
+<p>Chọn <strong>Nháp</strong> tại màn hình danh sách yêu cầu</p>
+</li>
+<li>
+<p>Tại yêu cầu muốn hủy, nhấn <strong>icon Menu</strong>, chọn <strong>Hủy bỏ</strong></p>
+<p><img alt="" src="../picture/PIC_DW_PheDuyet_Guiyeucautudanhsach.png" /></p>
+</li>
+<li>
+<p>Sau khi hủy yêu cầu, trạng thái của yêu cầu chuyển thành <strong>Hủy bỏ</strong></p>
+</li>
+</ol>
+<h3 id="xu-ly-yeu-cau-phe-duyet">Xử lý yêu cầu phê duyệt</h3>
+<h4 id="phe-duyet-yeu-cau">Phê duyệt yêu cầu</h4>
+<p>Người dùng thực hiện phê duyệt yêu cầu</p>
+<p><strong>Đối tượng thực hiện:</strong> Người dùng được cấp quyền phê duyệt loại yêu cầu</p>
+<ol>
+<li>
+<p>Thực hiện truy cập vào app mobile, phân hệ <strong>Yêu cầu</strong></p>
+</li>
+<li>
+<p>Để đi đến danh sách yêu cầu phê duyệt người dùng có thể thực hiện bằng một trong hai cách:</p>
+<ul>
+<li>Nhấn nút <strong>Chờ duyệt</strong> từ màn hình danh sách loại yêu cầu để di chuyển trực tiếp đến màn hình danh sách yêu cầu cần duyệt</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyet_DanhSachLoaiYeuCauPheDuyet%20.png" /></p>
+<ul>
+<li>Hoặc nhấn vào loại yêu cầu phê duyệt rồi chọn <strong>Chờ duyệt</strong></li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyet_Yeucaucanpheduyet.png" /></p>
+</li>
+<li>
+<p>Người dùng thực hiện phê duyệt yêu cầu</p>
+<ul>
+<li>Tại yêu cầu muốn phê duyệt thực hiện nhấn vào <strong>icon Menu</strong>, chọn <strong>Duyệt</strong></li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyet_Duyetyeucau.png" /></p>
+<ul>
+<li>Người dùng cũng có thể truy cập vào chi tiết yêu cầu rồi nhấn <strong>Phê duyệt</strong></li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyet_Chitietyeucau.png" /></p>
+<ul>
+<li>
+<p><strong>Lưu ý:</strong></p>
+<ul>
+<li>
+<p>Nếu loại yêu cầu chỉ có một người phê duyệt thì trạng thái yêu cầu sẽ đổi thành <strong>Đã duyệt</strong> sau khi người đó phê duyệt</p>
+</li>
+<li>
+<p>Nếu loại yêu cầu có nhiều người phê duyệt thì trạng thái yêu cầu chỉ đổi thành <strong>Đã duyệt</strong> khi tất cả những người thuộc danh sách phê duyệt đã phê duyệt yêu cầu đó</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h4 id="tu-choi-yeu-cau">Từ chối yêu cầu</h4>
+<p>Người dùng thực hiện từ chối yêu cầu phê duyệt</p>
+<p><strong>Đối tượng thực hiện:</strong> Người dùng được cấp quyền phê duyệt loại yêu cầu</p>
+<ol>
+<li>
+<p>Thực hiện truy cập vào app mobile, chọn phân hệ <strong>Yêu cầu</strong></p>
+</li>
+<li>
+<p>Để di chuyển đến danh sách yêu cầu phê duyệt người dùng có thể thực hiện bằng một trong hai cách:</p>
+<ul>
+<li>Nhấn nút <strong>Chờ duyệt</strong> từ màn hình danh sách loại yêu cầu</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyet_DanhSachLoaiYeuCauPheDuyet%20.png" /></p>
+<ul>
+<li>Hoặc nhấn vào loại yêu cầu phê duyệt rồi chọn <strong>Chờ duyệt</strong></li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyet_Yeucaucanpheduyet.png" /></p>
+</li>
+<li>
+<p>Người dùng thực hiện từ chối yêu cầu phê duyệt</p>
+<ul>
+<li>Tại yêu cầu muốn từ chối thực hiện nhấn vào <strong>icon Menu</strong> chọn <strong>Từ chối</strong></li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyet_Duyetyeucau.png" /></p>
+<ul>
+<li>Người dùng cũng có thể truy cập vào chi tiết yêu cầu rồi nhấn <strong>Từ chối</strong></li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_PheDuyet_Chitietyeucau.png" /></p>
+<ul>
+<li>
+<p><strong>Lưu ý:</strong></p>
+<ul>
+<li>
+<p>Nếu loại yêu cầu chỉ có một người phê duyệt thì trạng thái yêu cầu sẽ đổi thành <strong>Từ chối</strong> sau khi người đó từ chối yêu cầu phê duyệt.</p>
+</li>
+<li>
+<p>Nếu loại yêu cầu có nhiều người phê duyệt thì trạng thái yêu cầu sẽ đổi thành <strong>Từ chối</strong> khi một trong những người thuộc danh sách bắt buộc <strong>Từ chối</strong> yêu cầu đó.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../Mobile-Lich-su-phat-trien/" class="btn btn-neutral float-right" title="Lịch sử phát triển sản phẩm">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../Mobile-dang-nhap/" class="btn btn-neutral" title="Đăng nhập"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Mobile-dang-nhap/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Mobile-Lich-su-phat-trien/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/extra.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
