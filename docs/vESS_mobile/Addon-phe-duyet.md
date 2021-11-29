@@ -45,19 +45,19 @@ Người dùng thực hiện lập yêu cầu phê duyệt
 **Đối tượng thực hiện:** Người dùng có quyền sử dụng phân hệ Yêu cầu
 
 1. Thực hiện truy cập vào app mobile, chọn phân hệ **Yêu cầu**
-    
+   
     ![](picture/PIC_DW_PheDuyet_Phanheyeucau.png)
 
 2. Để tạo mới yêu cầu phê duyệt người dùng có thể thực hiện bằng một trong hai cách:
-    
+   
     * Chọn **Tạo mới** từ màn hình danh sách loại yêu cầu
     
-    ![](picture/PIC_DW_PheDuyet_DanhSachLoaiYeuCauPheDuyet.png)
+    ![](picture\PIC_DW_PheDuyet_DanhSachLoaiYeuCauPheDuyet .png)
     
     * Người dùng cũng có thể nhấn vào loại yêu cầu rồi chọn **icon +** (icon Tạo phê duyệt) để tạo mới yêu cầu
     
     ![](picture/PIC_DW_PheDuyet_Danhsachpheduyet.png)
-     
+    
 3.  Tiến hành nhập các nội dung cho yêu cầu
 
     * Người dùng thực hiện nhập **Thông tin yêu cầu**
@@ -91,7 +91,7 @@ Người dùng thực hiện gửi yêu cầu phê duyệt.
 1. Thực hiện truy cập vào app mobile, chọn phân hệ **Yêu cầu**
 
 2. Để gửi yêu cầu phê duyệt người dùng có thể thực hiện bằng một trong các cách:
-    
+   
     * Khi tạo yêu cầu phê duyệt, chọn **Gửi** để gửi luôn yêu cầu
     
     ![](picture/PIC_DW_PheDuyet_Guiyeucau.png)
@@ -105,9 +105,9 @@ Người dùng thực hiện gửi yêu cầu phê duyệt.
     ![](picture/PIC_DW_PheDuyet_Guiyeucautuchitiet.png)
 
 3. Sau khi gửi yêu cầu, trạng thái của yêu cầu chuyển thành **Chờ duyệt**
-    
+   
     * **Lưu ý:**
-        
+      
         * Nếu loại yêu cầu được cấu hình **Tài liệu** là bắt buộc thì khi nhấn **Gửi** sẽ hiển thị thông báo yêu cầu đính kèm tài liệu. Người dùng cần đính kèm tài liệu mới có thế gửi yêu cầu đi.
         
         * Nếu loại yêu cầu được cấu hình **Tài liệu** là tùy chọn thì khi nhấn **Gửi** yêu cầu sẽ được gửi đi luôn.
@@ -143,7 +143,7 @@ Người dùng thực hiện phê duyệt yêu cầu
 1. Thực hiện truy cập vào app mobile, phân hệ **Yêu cầu**
 
 2. Để đi đến danh sách yêu cầu phê duyệt người dùng có thể thực hiện bằng một trong hai cách:
-    
+   
     * Nhấn nút **Chờ duyệt** từ màn hình danh sách loại yêu cầu để di chuyển trực tiếp đến màn hình danh sách yêu cầu cần duyệt
     
     ![](picture/PIC_DW_PheDuyet_DanhSachLoaiYeuCauPheDuyet%20.png)
@@ -151,9 +151,9 @@ Người dùng thực hiện phê duyệt yêu cầu
     * Hoặc nhấn vào loại yêu cầu phê duyệt rồi chọn **Chờ duyệt**
     
     ![](picture/PIC_DW_PheDuyet_Yeucaucanpheduyet.png)
-      
-3. Người dùng thực hiện phê duyệt yêu cầu
     
+3. Người dùng thực hiện phê duyệt yêu cầu
+   
     * Tại yêu cầu muốn phê duyệt thực hiện nhấn vào **icon Menu**, chọn **Duyệt**
     
     ![](picture/PIC_DW_PheDuyet_Duyetyeucau.png)
@@ -163,13 +163,13 @@ Người dùng thực hiện phê duyệt yêu cầu
     ![](picture/PIC_DW_PheDuyet_Chitietyeucau.png)
     
     * **Lưu ý:**
-        
+      
         * Nếu loại yêu cầu chỉ có một người phê duyệt thì trạng thái yêu cầu sẽ đổi thành **Đã duyệt** sau khi người đó phê duyệt
         
         * Nếu loại yêu cầu có nhiều người phê duyệt thì trạng thái yêu cầu chỉ đổi thành **Đã duyệt** khi tất cả những người thuộc danh sách phê duyệt đã phê duyệt yêu cầu đó
 
 #### Từ chối yêu cầu
-    
+
 Người dùng thực hiện từ chối yêu cầu phê duyệt
 
 **Đối tượng thực hiện:** Người dùng được cấp quyền phê duyệt loại yêu cầu
@@ -185,9 +185,9 @@ Người dùng thực hiện từ chối yêu cầu phê duyệt
     * Hoặc nhấn vào loại yêu cầu phê duyệt rồi chọn **Chờ duyệt**
     
     ![](picture/PIC_DW_PheDuyet_Yeucaucanpheduyet.png)
-      
-3. Người dùng thực hiện từ chối yêu cầu phê duyệt
     
+3. Người dùng thực hiện từ chối yêu cầu phê duyệt
+   
     * Tại yêu cầu muốn từ chối thực hiện nhấn vào **icon Menu** chọn **Từ chối**
     
     ![](picture/PIC_DW_PheDuyet_Duyetyeucau.png)
@@ -197,7 +197,7 @@ Người dùng thực hiện từ chối yêu cầu phê duyệt
     ![](picture/PIC_DW_PheDuyet_Chitietyeucau.png)
     
     * **Lưu ý:**
-        
+      
         * Nếu loại yêu cầu chỉ có một người phê duyệt thì trạng thái yêu cầu sẽ đổi thành **Từ chối** sau khi người đó từ chối yêu cầu phê duyệt.
         
         * Nếu loại yêu cầu có nhiều người phê duyệt thì trạng thái yêu cầu sẽ đổi thành **Từ chối** khi một trong những người thuộc danh sách bắt buộc **Từ chối** yêu cầu đó.
