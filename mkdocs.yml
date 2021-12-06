@@ -1,7 +1,7 @@
 site_name: Hướng dẫn sử dụng hệ thống vESS
 
 nav:
-    - 'Trang chủ': 'saas/saas-introduction.md'
+    - 'Trang chủ': 'index.md'
     - 'Đăng ký, đăng nhập': 
         - 'Đăng ký & cài đặt': 'saas/saas.md'
         - 'Đăng nhập, đăng xuất': 'digitalworkplace/Addon-login.md'
