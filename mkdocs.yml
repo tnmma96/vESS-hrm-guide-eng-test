@@ -32,6 +32,7 @@ nav:
             # - 'Sản xuất': 'finance/fin-san-xuat.md'
         - 'Tài sản cố định': 'finance/fin-tscd.md'
         - 'Công cụ dụng cụ': 'finance/fin-ccdc.md'
+        - 'Giá thành': 'finance/fin-giathanh.md'
         - 'Lịch sử phát triển sản phẩm': 'finance/fin-log-histories.md'
     - 'Tài liệu': 
         - 'Giới thiệu về ứng dụng Tài liệu': 'document/introduction.md'

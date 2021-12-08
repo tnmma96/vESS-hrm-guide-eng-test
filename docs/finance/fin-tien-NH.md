@@ -1,6 +1,4 @@
-# Quản lý tiền ngân hàng
-
-Quy trình nghiệp vụ
+# Quy trình nghiệp vụ
 
 Kế toán được sử dụng để  :
 
@@ -20,7 +18,7 @@ Quy trình nghiệp vụ
 
 ·     Lập chứng từ Phiếu chi tiền ngân hàng. Chi tiết nghiệp vụ [Báo có]()
 
-## Báo Nợ
+## Báo Có
 
 ### Khách hàng ứng trước tiền mua hàng bằng tiền gửi ngân hàng
 
@@ -109,7 +107,7 @@ Khi khách hàng chuyển khoản hoặc mang tiền nộp vào tài khoản ng�
 
 Lưu ý: Muốn chuyển trạng thái từ Hoàn thành về Nháp thì Nhấn **Đưa về dự thảo**
 
-### Thu tiền trả nợ của nhiều khách hàng bằng tiền mặt
+### Thu tiền trả nợ của nhiều khách hàng bằng tiền Ngân hàng
 
 #### Mô tả nghiệp vụ
 
@@ -324,7 +322,7 @@ Khi phát sinh các nghiệp vụ thu khác bằng tiền gửi ngân hàng, th�
 3. Nhấn **Lưu**
 4. Nhấn **Xác nhận**
 
-## Phiếu chi tiền mặt
+## Báo nợ
 
 ### Trả trước tiền hàng cho nhà cung cấp bằng tiền gửi Ngân hàng
 
@@ -626,7 +624,7 @@ Nghiệp vụ “Nộp bảo hiểm bằng tiền mặt” chỉ thực hiện �
 
 2. Khai báo các thông tin Nộp bảo hiểm
 
-- Tại mục **Sổ nhật ký**: Chọn Tiền mặt
+- Tại mục **Sổ nhật ký**: Chọn Tiền ngân hàng
 - Tại mục **Ngày**: Nhập ngày nộp Bảo hiểm
 - Tích chọn các khoản bảo hiểm phải nộp và nhấn **Nộp bảo hiểm** => Phần mềm tự động sinh ra chứng từ **Phiếu chi nộp tiền bảo hiểm**.
 
