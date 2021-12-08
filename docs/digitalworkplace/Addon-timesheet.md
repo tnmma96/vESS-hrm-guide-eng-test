@@ -1,7 +1,7 @@
-### Quy trình nghiệp vụ
+# Quy trình nghiệp vụ
 Cho phép người dùng quản lý thực hiện lập vào theo dõi thời gian biểu cá nhân hoặc của nhóm trên từng dự án hoặc nhiệm vụ và theo dõi tất cả các tài nguyên được phân bổ cho dự án.
 
-#### Quy trình
+**Quy trình**
 
 ![](picture/PIC_DW_Timesheets_QuyTrinh.png)
 
@@ -13,7 +13,7 @@ Cho phép người dùng quản lý thực hiện lập vào theo dõi thời gi
 
 * Quản lý cấu hình thời gian biểu. Chi tiết nghiệp vụ <u>[tại đây](#quan-ly-cau-hinh-thoi-gian-bieu)</u>.
 
-#### Mô tả nghiệp vụ
+**Mô tả nghiệp vụ**
 
 Khi người sử dụng muốn quản lý thời gian biểu thì quy trình thực hiện như sau:
 
@@ -42,9 +42,9 @@ Khi người sử dụng muốn quản lý thời gian biểu thì quy trình th
 **Video hướng dẫn**
 
 
-### Quản lý thời gian biểu
+## **Quản lý thời gian biểu**
 
-#### Thời gian biểu của tôi
+### **Thời gian biểu của tôi**
 
 Người sử dụng ghi lại thời gian thực hiện cho từng nhiệm vụ của cá nhân theo ngày tương ứng. Sau đó thực hiện theo dõi và quản lý danh sách các công việc cá nhân.
 
@@ -83,7 +83,7 @@ Người sử dụng ghi lại thời gian thực hiện cho từng nhiệm vụ
 4. Người sử dụng thực hiện **Xuất** toàn bộ danh sách hoặc một số thời gian biểu cá nhân cần thiết để theo dõi
 
 
-#### Tất cả thời gian biểu
+### **Tất cả thời gian biểu**
 
 Người sử dụng thực hiện theo dõi và quản lý danh sách tất cả thời gian biểu của người dùng trên hệ thống.
 
@@ -114,9 +114,9 @@ Người sử dụng thực hiện theo dõi và quản lý danh sách tất c�
 
 
 
-### Báo cáo thời gian biểu
+## **Báo cáo thời gian biểu**
 
-#### Báo cáo theo nhân viên
+### **Báo cáo theo nhân viên**
 
 Người sử dụng thực hiện Báo cáo theo nhân viên để quản lý và theo dõi hiệu suất làm việc của nhân viên trong từng tháng 
 
@@ -139,7 +139,7 @@ Người sử dụng thực hiện Báo cáo theo nhân viên để quản lý v
 
 4. Thực hiện **Xuất toàn bộ** báo cáo theo nhân viên
 
-#### Báo cáo theo dự án
+### **Báo cáo theo dự án**
 
 Người sử dụng thực hiện Báo cáo theo dự án để quản lý và theo dõi hiệu suất, thời gian sử dụng để thực hiện dự án
 
@@ -162,7 +162,7 @@ Người sử dụng thực hiện Báo cáo theo dự án để quản lý và 
 
 4. Thực hiện **Xuất toàn bộ** báo cáo theo dự án
 
-#### Báo cáo theo công việc
+### **Báo cáo theo công việc**
 
 Người sử dụng thực hiện Báo cáo theo công việc để quản lý và theo dõi hiệu suất, thời gian sử dụng để thực hiện công việc
 
@@ -187,7 +187,7 @@ Người sử dụng thực hiện Báo cáo theo công việc để quản lý 
 
 
 
-### Quản lý cấu hình thời gian biểu
+## **Quản lý cấu hình thời gian biểu**
 
 Người sử dụng thực hiện **Cấu hình** đơn vị tính thời gian cho thời gian biểu là Giờ hoặc Ngày 
 

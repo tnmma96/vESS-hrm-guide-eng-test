@@ -1,8 +1,7 @@
-# Khảo sát
-### Quy trình nghiệp vụ
+#  Quy trình nghiệp vụ
 Cho phép người dùng quản lý khảo sát, kết quả nhằm thu nhập thông tin, nhân định và đánh giá thực trạng của vấn đề.
 
-#### Quy trình
+**Quy trình**
 ![](picture/PIC_DW_KhaoSat-QuyTrinh.png)
 
 **Các luồng quy trình**
@@ -14,7 +13,7 @@ Cho phép người dùng quản lý khảo sát, kết quả nhằm thu nhập t
 * Quản lý tham gia khảo sát. Chi tiết nghiệp vụ <u>[tại đây](#quan-ly-tham-gia-khao-sat)</u>.
 
 
-#### Mô tả nghiệp vụ
+**Mô tả nghiệp vụ**
 
 Khi người sử dụng muốn quản lý khảo sát thì quy trình thực hiện như sau:
 
@@ -40,9 +39,9 @@ Khi người sử dụng muốn quản lý khảo sát thì quy trình thực hi
 
 **Video hướng dẫn**
 
-### Khảo sát
+## **Khảo sát**
 
-#### Quản lý khảo sát
+### **Quản lý khảo sát**
 
 Người sử dụng thực hiện phân loại khảo sát và tạo mới tạo cuộc khảo sát bao gồm các câu hỏi khảo sát, cấu hình bộ câu hỏi khảo sát.
 
@@ -181,7 +180,7 @@ Người sử dụng thực hiện phân loại khảo sát và tạo mới tạ
 9. Người sử dụng thực hiện **Lên lịch công việc** cho khảo sát 
 
 
-#### Chia sẻ khảo sát
+### **Chia sẻ khảo sát**
 
 Cho phép người dùng chia sẻ khảo sát đã tạo 
 
@@ -211,7 +210,7 @@ Cho phép người dùng chia sẻ khảo sát đã tạo
 4. Người dùng nhấn **Gửi**
 
 
-#### Trả lời khảo sát
+### **Trả lời khảo sát**
 
 Người dùng sẽ nhận được email thông báo tham gia khảo sát. Thực hiện trả lời khảo sát theo các thông tin đã được gửi
 
@@ -224,7 +223,7 @@ Người dùng sẽ nhận được email thông báo tham gia khảo sát. Th�
 ![](picture/PIC_DW_Khaosat_Traloi.jpeg)
 
 
-#### Xem kết quả khảo sát
+### **Xem kết quả khảo sát**
 
 Cho phép người dùng xem kết quả khảo sát (Báo cáo kết quả khảo sát theo từng câu hỏi khảo sát)
 
@@ -241,7 +240,7 @@ Cho phép người dùng xem kết quả khảo sát (Báo cáo kết quả kh�
 
 
 
-### Quản lý tham gia khảo sát
+## **Quản lý tham gia khảo sát**
 
 Cho phép Quản trị hệ thống xem được chi tiết các thành viên đã tham gia trả lời khảo sát của từng khảo sát
 

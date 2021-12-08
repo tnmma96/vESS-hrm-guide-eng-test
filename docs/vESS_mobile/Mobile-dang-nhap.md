@@ -1,16 +1,16 @@
-### Quy trình nghiệp vụ
+# Quy trình nghiệp vụ
 
 Khách hàng đăng nhập tài khoản trên ứng dụng CloudERP bằng tài khoản theo công ty đã cung cấp để thực hiện xem, cập nhật thông tin cá nhân, xem thông báo, tin tức và các nội dung khác.
 
-#### Quy trình
+**Quy trình**
 
-![](picture/PIC_DW_Mobile_DangNhap-QuyTrinh.jpeg)
+![](picture/PIC_DW_Mobile_DangNhap-QuyTrinh.jpg)
 
 **Các luồng quy trình**
 
 * Đăng nhập. Chi tiết nghiệp vụ <u>[tại đây](#ang-nhap)</u>.
 
-#### Mô tả nghiệp vụ
+**Mô tả nghiệp vụ**
 
 Khi người sử dụng muốn đăng nhập vào ứng dụng CloudERP thì quy trình thực hiện như sau:
 
@@ -32,13 +32,14 @@ Khi người sử dụng muốn đăng nhập vào ứng dụng CloudERP thì qu
 **Video hướng dẫn**
 
 
-### Đăng nhập
+## **Đăng nhập**
 
 Khách hàng đăng nhập tài khoản trên ứng dụng CloudERP bằng tài khoản theo công ty đã cung cấp
 
 **Đối tượng thực hiện:** Người dùng
 
-Điều kiện trước: Công ty của người dùng đã được đăng ký trên hệ thống và người dùng đã có tài khoản
+Điều kiện trước: Công ty của người dùng đã được đăng ký trên hệ thống, người dùng đã có tài khoản.
+Ngoài ra, hệ thống cần cài đặt các chức năng: Nhân viên, Tài liệu.
 
 Điều kiện sau: Đăng nhập thành công và vào màn hình Danh sách ứng dụng hoặc onbroading
 
@@ -46,7 +47,7 @@ Khách hàng đăng nhập tài khoản trên ứng dụng CloudERP bằng tài 
 
 2. Thực hiện nhập domain hoặc quét QR code domain để cung cấp thông tin: 
 
-   ![](picture/PIC_DW_Mobile_DangNhap-Domain.jpg)
+    ![](picture/PIC_DW_Mobile_DangNhap-Domain.jpg)
     
     * Trường hợp ứng dụng kiểm tra chưa có domain mới thực hiện nhập domain hoặc quét QR code domain
     
@@ -76,15 +77,14 @@ Khách hàng đăng nhập tài khoản trên ứng dụng CloudERP bằng tài 
     
     * Nhấn **Đăng nhập** hoặc chọn đăng nhập bằng vân tay 
         
-        * Nếu thông tin đăng nhập không chính xác, người dùng sẽ thực hiện lại việc đăng nhập
-        
         * Nếu thông tin đăng nhập đúng, hệ thống gửi SMS OTP vào số điện thoại của người dùng
     
-        * **Ghi chú:** Số điện thoại của người dùng phải được thiết lập trước đó. Xem thêm <u>[Thiết lập số điện thoại nhận mã OTP](https://guide.vess.store/vESS_mobile/Mobile-initialization/)</u>.
+        * Nếu thông tin đăng nhập không chính xác, người dùng sẽ thực hiện lại việc đăng nhập
 
 5. Tại màn hình nhập mã OTP, nhấn **Gửi lại** nếu không nhận được mã OTP hoặc mã OTP bị quá thời hạn cho phép
 
 6. Người dùng nhập mã OTP được gửi đến
+
 ![](picture/PIC_DW_Mobile_DangNhap-NhapOTP.jpg)
 
 7. Nhấn **Xác nhận** 

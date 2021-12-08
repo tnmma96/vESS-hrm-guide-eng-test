@@ -1,8 +1,7 @@
-# Bữa ăn
-### Quy trình nghiệp vụ
+# Quy trình nghiệp vụ
 Cho phép người dùng thiết lập các thông tin như danh sách nhà cung cấp, danh sách các món ăn, quản lý các thông tin về tài khoản, đơn hàng. Đưa ra các cảnh báo nhắc nhở người dùng nhằm hỗ trợ người dùng trong việc nạp tiền vào tài khoản và đặt bữa ăn hàng ngày.
 
-#### Quy trình
+**Quy trình**
 ![](picture/PIC_DW_BuaAn-QuyTrinh.jpg)
 
 **Các luồng quy trình**
@@ -15,7 +14,7 @@ Cho phép người dùng thiết lập các thông tin như danh sách nhà cung
 
 * Báo cáo. Chi tiết nghiệp vụ <u>[tại đây](#bao-cao)</u>.
 
-#### Mô tả nghiệp vụ
+**Mô tả nghiệp vụ**
 
 Khi người sử dụng muốn quản lý thông tin bữa ăn thì quy trình thực hiện như sau:
 
@@ -46,9 +45,9 @@ Khi người sử dụng muốn quản lý thông tin bữa ăn thì quy trình 
 **Video hướng dẫn**
 
 
-### Cấu hình
+## **Cấu hình**
 
-#### Thiết lập thực đơn 
+### **Thiết lập thực đơn**
 
 Người sử dụng là Quản trị viên sẽ thiết lập các thông tin về **Nhà cung cấp**, **Sản phẩm**, **Thấu chi** để phục vụ cho việc đặt bữa ăn của người dùng.
 
@@ -60,7 +59,7 @@ Người sử dụng là Quản trị viên sẽ thiết lập các thông tin v
     ![](picture/PIC_DW_BuaAn-NCC.png)
     
     * Nhập thông tin chi tiết cho Nhà cung cấp
-      ![](picture/PIC_DW_BuaAn-NCCTao.png)
+    ![](picture/PIC_DW_BuaAn-NCCTao.png)
       
         * Khi chọn thông tin Khả dụng: với các ngày không được chọn, người dùng sẽ không thể đặt món ăn của nhà cung cấp đó
         
@@ -94,7 +93,7 @@ Người sử dụng là Quản trị viên sẽ thiết lập các thông tin v
       
         * **Ghi chú:** Sau khi viết lập thông tin thấu chi thì khi đặt món, nếu người dùng nợ quá thấu chi tối đa có thể đạt được thì sẽ không được phép đặt món.
 
-#### Thiết lập cảnh báo
+### **Thiết lập cảnh báo**
 
 Người sử dụng là Quản trị viên sẽ thiết lập các thông tin cảnh báo nhắc nhở người dùng 
 
@@ -109,7 +108,7 @@ Người sử dụng là Quản trị viên sẽ thiết lập các thông tin c
     
 3. Nhấn **Lưu** để thiết lập việc gửi thông báo đến người dùng theo thời gian đã đặt
 
-### Đặt món
+## **Đặt món**
 
 Người dùng thực hiện đặt món ăn và Quản trị sẽ xác nhận đơn đặt của người dùng.
 
@@ -129,10 +128,10 @@ Người dùng thực hiện đặt món ăn và Quản trị sẽ xác nhận �
 
 2. Sau khi người dùng đặt hàng xong, Quản trị sẽ thực hiện xác nhận đơn:
    
-    * Vào chức năng **Người quản lý/Đặt món hôm nay** hoặc vào chức năng **Người quản lý Kiểm soát nhà cung cấp** nhấn **Xác nhận** để xác nhận đơn đặt của người dùng
+    * Vào chức năng **Người quản lý/Đặt món hôm nay** hoặc vào chức năng **Người quản lý/Kiểm soát nhà cung cấp** nhấn **Xác nhận** để xác nhận đơn đặt của người dùng
     ![](picture/PIC_DW_BuaAn-XacNhanDon.png)
 
-### Chuyển tiền 
+## **Chuyển tiền**
 
 Quản trị viên tạo xác nhận chuyển tiền cho người dùng để nạp tiền đặt bữa ăn.
 
@@ -147,9 +146,9 @@ Quản trị viên tạo xác nhận chuyển tiền cho người dùng để n�
 4. Nhấn **Lưu** để thêm thông tin tài khoản của người dùng.
 
 
-### Báo cáo 
+## **Báo cáo**
 
-#### Xem lịch sử cá nhân
+### **Xem lịch sử cá nhân**
 
 Người dùng thực hiện đặt món ăn hoặc chuyển tiền sẽ thực hiện xem lại lịch sử đặt hàng và tài khoản của cá nhân. 
 
@@ -161,7 +160,7 @@ Người dùng thực hiện đặt món ăn hoặc chuyển tiền sẽ thực 
 2. Người dùng thống kê số tiền đã chuyển vào và mức chi tiêu cá nhân bằng cách vào **Bữa trưa của tôi/Lịch sử tài khoản của tôi**
 ![](picture/PIC_DW_BuaAn-LichSuTaiKhoan.png)
 
-#### Kiểm soát thông tin 
+### **Kiểm soát thông tin**
 
 Người dùng là Quản trị viên sẽ thực hiện việc theo dõi thông tin nhà cung cấp và thông tin tài khoản của người dùng khác. 
 

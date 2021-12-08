@@ -1,7 +1,7 @@
-### Quy trình nghiệp vụ
+# Quy trình nghiệp vụ
 Cho phép người dùng quản lý toàn bộ quy trình tổ chức sự kiện từ lập kế hoạch sự kiện, bán vé cho đến hiển thị trên trang web và quảng bá. Đồng thời cho phép quản lý lên danh sách người tham gia sự kiện.
 
-#### Quy trình
+**Quy trình**
 
 ![](picture/PIC_DW_SuKien-QuyTrinh.png)
 
@@ -14,7 +14,7 @@ Cho phép người dùng quản lý toàn bộ quy trình tổ chức sự kiệ
 * Cấu hình. Chi tiết nghiệp vụ <u>[tại đây](#cau-hinh)</u>.
 
 
-#### Mô tả nghiệp vụ
+**Mô tả nghiệp vụ**
 
 Khi người sử dụng muốn quản lý sự kiện thì quy trình thực hiện như sau:
 
@@ -42,9 +42,9 @@ Khi người sử dụng muốn quản lý sự kiện thì quy trình thực hi
 **Video hướng dẫn**
 
 
-### Sự kiện
+## **Sự kiện**
 
-#### Quản lý sự kiện
+### **Quản lý sự kiện**
 
 Người dùng quản lý thông tin của các sự kiện 
 
@@ -53,20 +53,20 @@ Người dùng quản lý thông tin của các sự kiện
 1. Vào chức năng **Các sự kiện**, người sử dụng thực hiện phân loại sự kiện bằng cách di chuyển sự kiện tới giai đoạn tương ứng (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 ![](picture/PIC_DW_SuKien-Menu.png)
 
-    * **Lưu ý:** Tại màn hình **Các sự kiện** có thể thêm giai đoạn bằng cách nhấn vào **Thêm một cột**. Ngoài ra các giai đoạn cũng có thể được được thêm tại **Cấu hình/Event Stages**
+    * **Lưu ý:** Tại màn hình **Các sự kiện** có thể thêm giai đoạn bằng cách nhấn vào **Thêm một cột**. Ngoài ra các giai đoạn cũng có thể được được thêm tại **Cấu hình/Các giai đoạn của sự kiện**
 
 2. Thực hiện tạo **Các sự kiện**
-![](picture/PIC_DW_SuKien-Tao.png)
+![](picture/PIC_DW_SuKien-Tao.jpg)
 
 3. Khai báo các thông tin chi tiết của Các sự kiện
    
     * Chọn thông tin Mẫu 
       
-        * Danh sách mẫu sự kiện để lựa chọn sẽ được thêm tại **Cấu hình/Event Templates**
+        * Danh sách mẫu sự kiện để lựa chọn sẽ được thêm tại **Cấu hình/Mẫu sự kiện**
     
     * Chọn thông tin Tag 
       
-        * Danh sách thẻ sự kiện để lựa chọn sẽ được thêm tại **Cấu hình/Event tags Categories**
+        * Danh sách thẻ sự kiện để lựa chọn sẽ được thêm tại **Cấu hình/Phân loại các tag của sự kiện**
         
     * Chọn thông tin Limit Registrations, người dùng khai báo thêm thông tin giới hạn số lượng Người Tham dự 
     
@@ -90,25 +90,21 @@ Người dùng quản lý thông tin của các sự kiện
     
     * Nhân sự hoàn thành công việc được giao sẽ đánh dấu công việc là **Hoàn tất hoàn thành**
     
-    ![](picture/PIC_DW_SuKien-LenLichCV.png)
+    ![](picture/PIC_DW_SuKien-LenLichCV.jpg)
 
 8. Người dùng thực hiện thay đổi giai đoạn của sự kiện: Đang thực hiện, Sẵn sàng cho trạng thái kế tiếp hoặc Đã bị khóa
    
 9. Người dùng nhấn **Vết** để quản lý các thông tin về các buổi thuyết trình trong quá trình diễn ra sự kiện và thông tin người diễn thuyết 
 
-    * **Lưu ý**: Thông tin **Vết** được quản lý khi tại **Cấu hình/Thiết lập**, người dùng chọn thông tin Schedule & Tracks
+    * **Lưu ý**: Thông tin **Vết** được quản lý khi tại **Cấu hình/Thiết lập**, người dùng chọn thông tin *Lên lịch & Theo dõi*
 
 10. Nhấn **Nhà tài trợ** để theo dõi và bổ sung danh sách nhà tài trợ cho sự kiện 
 
-    * **Lưu ý**: Thông tin **Nhà tài trợ** được quản lý khi tại **Cấu hình/Thiết lập**, người dùng chọn thông tin Schedule & Tracks
+    * **Lưu ý**: Thông tin **Nhà tài trợ** được quản lý khi tại **Cấu hình/Thiết lập**, người dùng chọn thông tin *Lên lịch & Theo dõi*
 
-11. Nhấn **Rooms** để quản lý danh sách và tạo phòng hội nghị ảo, để người tham dự sự kiện có thể trao đổi, tăng tương tác với nhau
+11. Sau khi cập nhật hoàn chỉnh thông tin sự kiện, nhấn **Đến trang web** để thực hiện chuyển sự kiện thành công khai. Cho phép người dùng đăng ký tham dự sự kiện trực tuyến.
 
-    * **Lưu ý**: Thông tin **Rooms** được quản lý khi tại **Cấu hình/Thiết lập**, người dùng chọn thông tin Community Chat Rooms
-    
-12. Sau khi cập nhật hoàn chỉnh thông tin sự kiện, nhấn **Đến trang web** để thực hiện chuyển sự kiện thành công khai. Cho phép người dùng đăng ký tham dự sự kiện trực tuyến.
-
-#### Quản lý người tham dự
+### **Quản lý người tham dự**
 Sau khi quản trị viên đăng tải sự kiện công khai, người dùng có thể tham dự sự kiện bằng các đăng ký trực tiếp trên website hoặc được thêm vào danh sách người tham dự bởi quản trị hệ thống. Quản trị hệ thống sẽ thống kê vào theo dõi danh sách người tham dự.
 
 **Đối tượng thực hiện:** Người sử dụng hệ thống
@@ -126,7 +122,7 @@ Sau khi quản trị viên đăng tải sự kiện công khai, người dùng c
     
     * Nhấn **Tiếp tục** để đăng ký thành công
     
-2. Sau khi người dùng thực hiện đăng ký tham dự sự kiện trên website thành công, quản trị hệ thống sẽ thực hiện quản lý danh sách người tham dự bằng cách: vào chức năng **Các sự kiện**, nhấn vào sự kiện để xem thông tin của sự kiện .Nhấn **Người tham dự** để xem và theo dõi danh sách người tham dự sự kiện. 
+2. Sau khi người dùng thực hiện đăng ký tham dự sự kiện trên website thành công, quản trị hệ thống sẽ thực hiện quản lý danh sách người tham dự bằng cách: đăng nhập vào hệ thống, chọn chức năng **Các sự kiện**, nhấn vào sự kiện để xem thông tin của sự kiện. Nhấn **Người tham dự** để xem và theo dõi danh sách người tham dự sự kiện. 
 
 3. Tại **Người tham dự**, người dùng có thể thêm người tham dự sự kiện bằng cách nhấn **Tạo** để thêm một hoặc nhiều người tham dự khác
    ![](picture/PIC_DW_SuKien-NguoiThamGiaTao.png)   
@@ -136,12 +132,13 @@ Sau khi quản trị viên đăng tải sự kiện công khai, người dùng c
    
     * Nhấn **Xác nhận** để tham gia sự kiện
    
-    * Nhấn **Gửi qua Email** để gửi mail cảm ơn đến người tham dự 
+    * Nhấn **Gửi qua Email** để gửi mail xác nhận đăng ký, mail nhắc nhở tham dự sự kiện hoặc mail cảm ơn đến người đã tham dự sự kiện
    
     * Nhấn **Đã tham dự** để xác nhận người tham dự đã tham dự sự kiện
    
     * Nhấn **Đơn bán hàng** để tạo đơn hàng cho người tham dự 
     ![](picture/PIC_DW_SuKien-DonBanHangTao.png) 
+    
         * Khai báo các thông tin cần thiết
        
         * Nhấn **Gửi qua Email** để gửi email báo giá đến người tham dự
@@ -152,7 +149,7 @@ Sau khi quản trị viên đăng tải sự kiện công khai, người dùng c
        
 
 
-### Báo cáo
+## **Báo cáo**
 
 Người sử dụng thực hiện báo cáo danh sách **Các sự kiện** và danh sách **Người tham dự**
 
@@ -178,43 +175,31 @@ Người sử dụng thực hiện báo cáo danh sách **Các sự kiện** và
 
 5. Thực hiện **Xuất toàn bộ** danh sách thông tin các sự kiện
 
-### Cấu hình
+## **Cấu hình**
 
-#### Thiết lập
+### **Thiết lập**
 
 Người sử dụng thực hiện **Thiết lập** thêm các thông tin cho sự kiện 
 
 **Đối tượng thực hiện:** Người sử dụng là Quản trị hệ thống
 
 1. Vào chức năng **Các sự kiện**, chọn **Cấu hình/Thiết lập** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
-![](picture/PIC_DW_SuKien-ThietLapTao.png)
+![](picture/PIC_DW_SuKien-ThietLapTao.jpg)
 
 2. Khai báo thông tin chi tiết của Thiết lập 
-    * Chọn thông tin Schedule & Tracks
+    * Chọn thông tin *Lên lịch & Theo dõi*
    
-        * Chọn thông tin Schedule & Tracks, khi tạo sự kiện người sử dụng sẽ quản lý thêm các thông tin Vết và Nhà tài trợ
+        * Chọn thông tin *Lên lịch & Theo dõi*, khi tạo sự kiện người sử dụng sẽ quản lý thêm các thông tin *Vết* và *Nhà tài trợ*
         
         * Lưu ý người dùng sẽ khai báo thêm các thông tin:
         
-            * Chọn thông tin Live Broadcast
+            * Chọn thông tin *Phát sóng trực tiếp*
             
-            * Chọn thông tin Event Gamification
+            * Chọn thông tin *Trò chơi hóa sự kiện*
    
-    * Chọn thông tin Community Chat Rooms
-   
-        * Chọn thông tin Community Chat Rooms, khi tạo sự kiện người sử dụng sẽ quản lý thêm thông tin Rooms
-   
-    * Chọn thông tin Online Exhibitors
-   
-    * Chọn thông tin Ticket
-   
-    *  Chọn thông tin Câu hỏi 
+    *  Chọn thông tin *Câu hỏi* 
        
-        * Chọn thông tin Câu hỏi, khi tạo sự kiện người sử dụng khai báo thêm thông tin Câu hỏi
-   
-    * Chọn thông tin Vé trực tuyến
-   
-    * Chọn thông tin Mã vạch 
+        * Chọn thông tin *Câu hỏi*, khi tạo sự kiện người sử dụng khai báo thêm thông tin *Câu hỏi*
    
 3. Nhấn **Lưu** để lưu thông tin cấu hình
 
