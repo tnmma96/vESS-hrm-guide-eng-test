@@ -1,4 +1,6 @@
-# Quy trình nghiệp vụ
+# Quản lý tiền ngân hàng
+
+Quy trình nghiệp vụ
 
 Kế toán được sử dụng để  :
 
@@ -18,11 +20,11 @@ Quy trình nghiệp vụ
 
 ·     Lập chứng từ Phiếu chi tiền ngân hàng. Chi tiết nghiệp vụ [Báo có]()
 
-# Báo Nợ
+## Báo Nợ
 
-## Khách hàng ứng trước tiền mua hàng bằng tiền gửi ngân hàng
+### Khách hàng ứng trước tiền mua hàng bằng tiền gửi ngân hàng
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Căn cứ vào hợp đồng bán hàng, đơn đặt hàng hoặc thỏa thuận giữa 2 bên khách hàng chuyển tiền ứng trước tiền mua hàng bằng tiền gửi ngân hàng, khi đó quy trình thực hiện như sau:
 
@@ -38,7 +40,7 @@ Căn cứ vào hợp đồng bán hàng, đơn đặt hàng hoặc thỏa thuậ
 
 *[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền ngân hàng**, Chọn **Báo có** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -61,9 +63,9 @@ Căn cứ vào hợp đồng bán hàng, đơn đặt hàng hoặc thỏa thuậ
 
 Lưu ý: Muốn chuyển trạng thái từ Hoàn thành về Nháp thì Nhấn **Đưa về dự thảo**
 
-## Khách hàng trả nợ bằng tiền gửi Ngân hàng
+### Khách hàng trả nợ bằng tiền gửi Ngân hàng
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khi khách hàng chuyển khoản hoặc mang tiền nộp vào tài khoản ngân hàng của công ty để trả nợ tiền hàng, quy trình qua các bước sau:
 
@@ -79,7 +81,7 @@ Khi khách hàng chuyển khoản hoặc mang tiền nộp vào tài khoản ng�
 
 *[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền ngân hàng**, Chọn **Thu tiền từ khách hàng** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
@@ -107,9 +109,9 @@ Khi khách hàng chuyển khoản hoặc mang tiền nộp vào tài khoản ng�
 
 Lưu ý: Muốn chuyển trạng thái từ Hoàn thành về Nháp thì Nhấn **Đưa về dự thảo**
 
-## Thu tiền trả nợ của nhiều khách hàng bằng tiền mặt
+### Thu tiền trả nợ của nhiều khách hàng bằng tiền mặt
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khi khách hàng chuyển khoản hoặc mang tiền nộp vào tài khoản ngân hàng của công ty để trả nợ tiền hàng, quy trình qua các bước sau:
 
@@ -125,7 +127,7 @@ Khi khách hàng chuyển khoản hoặc mang tiền nộp vào tài khoản ng�
 
 *[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền ngân hàng**, Chọn **Thu tiền từ khách hàng** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
@@ -146,9 +148,9 @@ Khi khách hàng chuyển khoản hoặc mang tiền nộp vào tài khoản ng�
 7. Nhấn **Lưu**
 8. Nhấn **Xác nhận** để vào sổ
 
-## Thu lãi đầu tư tài chính
+### Thu lãi đầu tư tài chính
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khi phát sinh các nghiệp vụ thu lãi từ hoạt động đầu tư tài chính thông qua tài khoản ngân hàng, thường phát sinh các hoạt động sau:
 
@@ -162,7 +164,7 @@ Khi phát sinh các nghiệp vụ thu lãi từ hoạt động đầu tư tài c
 
 *[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền ngân hàng**, Chọn **Báo có** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -183,9 +185,9 @@ Khi phát sinh các nghiệp vụ thu lãi từ hoạt động đầu tư tài c
 
 6. Nhấn **Xác nhận**
 
-## Nhận tiền vay bằng tiền gửi
+### Nhận tiền vay bằng tiền gửi
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khi phát sinh các nghiệp vụ nhận tiền vay thông qua tài khoản ngân hàng, thường phát sinh các hoạt động sau:
 
@@ -199,7 +201,7 @@ Khi phát sinh các nghiệp vụ nhận tiền vay thông qua tài khoản ngâ
 
 *[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền ngân hàng**, Chọn **Báo có** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -218,9 +220,9 @@ Khi phát sinh các nghiệp vụ nhận tiền vay thông qua tài khoản ngâ
 3. Nhấn **Lưu**
 4. Nhấn **Xác nhận**
 
-## Thu khác Hoàn ứng sau khi quyết toán tạm ứng nhân viên
+### Thu khác Hoàn ứng sau khi quyết toán tạm ứng nhân viên
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Nhân viên tạm ứng đi công tác về hoặc hoàn thành công việc được giao sẽ chuẩn bị đủ các hoá đơn, chứng từ liên quan và thực hiện quyết toán tạm ứng. Số tiền tạm ứng chi không hết sẽ phải nộp trả lại. Quy trình quyết toán tạm ứng được thực hiện như sau:
 
@@ -242,7 +244,7 @@ Nhân viên tạm ứng đi công tác về hoặc hoàn thành công việc đ�
 
 *[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền ngân hàng**, Chọn **Báo có** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -259,9 +261,9 @@ Nhân viên tạm ứng đi công tác về hoặc hoàn thành công việc đ�
 3. Nhấn **Lưu**
 4.  Nhấn **Xác nhận**
 
-## Hoàn thuế GTGT bằng tiền gửi Ngân hàng
+### Hoàn thuế GTGT bằng tiền gửi Ngân hàng
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Trường hợp công ty đủ điều kiện xin xét hoàn thuế GTGT, sẽ phát sinh các hoạt động sau:
 
@@ -277,7 +279,7 @@ Trường hợp công ty đủ điều kiện xin xét hoàn thuế GTGT, sẽ p
 
 - Căn cứ vào giấy báo Có, Kế toán thanh toán hạch toán ghi nhận số tiền thuế GTGT được hoàn, đồng thời ghi sổ tiền gửi ngân hàng.
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền ngân hàng**, Chọn **Báo có** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -294,9 +296,9 @@ Trường hợp công ty đủ điều kiện xin xét hoàn thuế GTGT, sẽ p
 3. Nhấn **Lưu**
 4. Nhấn **Xác nhận**
 
-## Thu Khác bằng tiền gửi Ngân hàng
+### Thu Khác bằng tiền gửi Ngân hàng
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khi phát sinh các nghiệp vụ thu khác bằng tiền gửi ngân hàng, thường phát sinh các hoạt động sau:
 
@@ -306,7 +308,7 @@ Khi phát sinh các nghiệp vụ thu khác bằng tiền gửi ngân hàng, th�
 
 1. Căn cứ vào giấy báo Có, Kế toán thanh toán hạch toán, đồng thời ghi sổ tiền gửi ngân hàng.
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền ngân hàng**, Chọn **Báo có** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -322,11 +324,11 @@ Khi phát sinh các nghiệp vụ thu khác bằng tiền gửi ngân hàng, th�
 3. Nhấn **Lưu**
 4. Nhấn **Xác nhận**
 
-# Báo Nợ
+## Phiếu chi tiền mặt
 
-## Trả trước tiền hàng cho nhà cung cấp bằng tiền gửi Ngân hàng
+### Trả trước tiền hàng cho nhà cung cấp bằng tiền gửi Ngân hàng
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Trường hợp công ty ứng trước tiền mua hàng cho nhà cung cấp, khi đó quy trình thực hiện như sau:
 
@@ -340,7 +342,7 @@ Trường hợp công ty ứng trước tiền mua hàng cho nhà cung cấp, kh
 
 ​       => Nếu trường hợp trả bằng Séc thì nhân viên đề nghị chi tiền sẽ nhận Séc để chuyển cho nhà cung cấp.
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền Ngân hàng**, Chọn **Báo Nợ** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -357,9 +359,9 @@ Trường hợp công ty ứng trước tiền mua hàng cho nhà cung cấp, kh
 3. Nhấn **Lưu**
 4. Nhấn **Xác nhận**
 
-## Trả nợ cho nhà cung cấp bằng tiền ngân hàng
+### Trả nợ cho nhà cung cấp bằng tiền ngân hàng
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khi công ty chuyển khoản trả nợ cho nhà cung cấp, quy trình thực hiện như sau:
 
@@ -371,7 +373,7 @@ Khi công ty chuyển khoản trả nợ cho nhà cung cấp, quy trình thực 
 
 - Căn cứ vào giấy báo Nợ của ngân hàng, Kế toán thanh toán sẽ hạch toán, đồng thời ghi sổ tiền gửi ngân hàng.
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Tại phân hệ Kế toán, Chọn Tiền Ngân hàng, Chọn Thanh toán cho nhà cung cấp (Hoặc thực hiện tìm kiếm trức tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
@@ -388,9 +390,9 @@ Khi công ty chuyển khoản trả nợ cho nhà cung cấp, quy trình thực 
 1. Trường hợp số tiền khách hàng thanh toán nhỏ hơn số nợ thực tế trên chứng từ, cần nhập lại số tiền khách hàng trả nợ vào cột **Số trả**. 
 2. Nhấn **Tạo Thanh toán** để tạo **Báo Nợ**
 
-## Tạm ứng cho nhân viên thông qua chuyển khoản ngân hàng
+### Tạm ứng cho nhân viên thông qua chuyển khoản ngân hàng
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Nhân viên nhận được nhiệm vụ phân công của lãnh đạo doanh nghiệp như đi công tác, đi mua hàng… sẽ chuẩn bị giấy đề nghị tạm ứng và thực hiện công việc tạm ứng. Quy trình tạm ứng được thực hiện như sau:
 
@@ -406,7 +408,7 @@ Nhân viên nhận được nhiệm vụ phân công của lãnh đạo doanh ng
 
 - Căn cứ vào giấy báo Nợ của ngân hàng, Kế toán thanh toán sẽ hạch toán, đồng thời ghi sổ tiền gửi ngân hàng.
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền ngân hàng**, Chọn **Báo nợ** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -422,9 +424,9 @@ Nhân viên nhận được nhiệm vụ phân công của lãnh đạo doanh ng
 3. Nhấn **Lưu**
 4. Nhấn **Xác nhận**
 
-## Chi bổ sung tiền tạm ứng thiếu bằng tiền Ngân hàng cho nhân viên sau khi thực hiện quyết toán tạm ứng
+### Chi bổ sung tiền tạm ứng thiếu bằng tiền Ngân hàng cho nhân viên sau khi thực hiện quyết toán tạm ứng
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Nhân viên tạm ứng đi công tác về hoặc hoàn thành công việc được giao sẽ chuẩn bị đủ các hoá đơn, chứng từ liên quan và thực hiện quyết toán tạm ứng. Số tiền tạm ứng chi không đủ sẽ được đơn vị chi bổ sung thêm. Quy trình quyết toán tạm ứng được thực hiện như sau:
 
@@ -440,7 +442,7 @@ Nhân viên tạm ứng đi công tác về hoặc hoàn thành công việc đ�
 
 - Căn cứ vào giấy báo Nợ của ngân hàng, Kế toán thanh toán sẽ hạch toán, đồng thời ghi sổ tiền gửi ngân hàng.
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền ngân hàng**, Chọn **Báo nợ** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -456,9 +458,9 @@ Nhân viên tạm ứng đi công tác về hoặc hoàn thành công việc đ�
 3. Nhấn **Lưu**
 4. Nhấn **Xác nhận**
 
-## Thanh toán tiền gửi ngân hàng trong trường hợp nhân viên mua hàng không tạm ứng trước
+### Thanh toán tiền gửi ngân hàng trong trường hợp nhân viên mua hàng không tạm ứng trước
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Nhân viên nhận được nhiệm vụ phân công của lãnh đạo doanh nghiệp như đi công tác, đi mua hàng… mà không thực hiện tạm ứng chi phí trước, khi hoàn thành sẽ làm các thủ tục thanh toán tiền theo quy trình sau:
 
@@ -474,7 +476,7 @@ Nhân viên nhận được nhiệm vụ phân công của lãnh đạo doanh ng
 
 - Căn cứ vào giấy báo Nợ của ngân hàng, Kế toán thanh toán sẽ hạch toán, đồng thời ghi sổ tiền gửi ngân hàng. 
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 Vào phân hệ **Kế toán**, Chọn **Tiền ngân hàng**, Chọn **Báo nợ** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -490,9 +492,9 @@ Vào phân hệ **Kế toán**, Chọn **Tiền ngân hàng**, Chọn **Ba
 3. Nhấn **Lưu**
 4. Nhấn **Xác nhận**
 
-## Nộp thuế GTGT hàng nhập khẩu bằng tiền ngân hàng
+### Nộp thuế GTGT hàng nhập khẩu bằng tiền ngân hàng
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khi công ty mua hàng hóa nhập khẩu thực hiện kê khai tờ khai hải quan và xác định số thuế nhập khẩu, thuế TTĐB, thuế BVMT, thuế GTGT hàng nhập khẩu đối với hàng nhập khẩu, khi tiến hành nộp thuế bằng tiền gửi, thực hiện như sau:
 
@@ -506,7 +508,7 @@ Khi công ty mua hàng hóa nhập khẩu thực hiện kê khai tờ khai hải
 
 - Kế toán thuế kê khai hoá đơn nhập khẩu lên bảng kê thuế GTGT mua vào. 
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**,Chọn **Tiền ngân hàng**,Chọn **Nộp Thuế** (Hoặc thực hiện Tìm kiếm trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
@@ -527,9 +529,9 @@ Khi công ty mua hàng hóa nhập khẩu thực hiện kê khai tờ khai hải
 4. Nhấn **Lưu**
 5. Nhấn **Xác nhận**
 
-## Nộp các loại thuế khác (Ngân hàng)
+### Nộp các loại thuế khác (Ngân hàng)
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khi công ty phát sinh các nghiệp vụ nộp: thuế GTGT, thuế TNDN, thuế TNCN, thuế tiêu thụ đặc biệt... thường phát sinh các hoạt động sau:
 
@@ -543,7 +545,7 @@ Khi công ty phát sinh các nghiệp vụ nộp: thuế GTGT, thuế TNDN, thu�
 
 - Kế toán thanh toán căn cứ vào giấy báo Nợ của ngân hàng để ghi sổ kế toán.
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**,Chọn **Ngân hàng**,Chọn **Nộp Thuế** (Hoặc thực hiện Tìm kiếm trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
@@ -567,9 +569,9 @@ Khi công ty phát sinh các nghiệp vụ nộp: thuế GTGT, thuế TNDN, thu�
 
 Lưu ý : Trường hợp số thuế thực nộp nhỏ hơn số thuế phải nộp, cần nhập lại số tiền thuế thực nộp vào cột **Số trả lần này**.
 
-## Chi khác bằng tiền ngân hàng
+### Chi khác bằng tiền ngân hàng
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khi phát sinh các nghiệp vụ chi khác bằng tiền gửi ngân hàng, thường phát sinh các hoạt động sau:
 
@@ -581,7 +583,7 @@ Khi phát sinh các nghiệp vụ chi khác bằng tiền gửi ngân hàng, th�
 
 - Căn cứ vào giấy báo Nợ của ngân hàng, kế toán thanh toán sẽ hạch toán, đồng thời ghi sổ tiền gửi ngân hàng.
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 Vào phân hệ **Kế toán**, Chọn **Tiền ngân hàng**, Chọn **Báo Nợ** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -614,7 +616,7 @@ Khi công ty phát sinh các nghiệp vụ nộp bảo hiểm cho nhân viên, t
 
 - Sau khi nộp bảo hiểm xong, nhân viên đi nộp thuế sẽ giao lại cho kế toán thanh toán giấy xác nhận nộp bảo hiểm của cơ quan bảo hiểm.
 
-### Hướng dẫn trên phần mềm
+Hướng dẫn trên phần mềm
 
 Nghiệp vụ “Nộp bảo hiểm bằng tiền mặt” chỉ thực hiện được khi trên phần mềm đã phát sinh các chứng từ hạch toán chi phí BHXH, BHYT, BHTN, KPCĐ. 
 
@@ -624,7 +626,7 @@ Nghiệp vụ “Nộp bảo hiểm bằng tiền mặt” chỉ thực hiện �
 
 2. Khai báo các thông tin Nộp bảo hiểm
 
-- Tại mục **Sổ nhật ký**: Chọn Tiền ngân hàng
+- Tại mục **Sổ nhật ký**: Chọn Tiền mặt
 - Tại mục **Ngày**: Nhập ngày nộp Bảo hiểm
 - Tích chọn các khoản bảo hiểm phải nộp và nhấn **Nộp bảo hiểm** => Phần mềm tự động sinh ra chứng từ **Phiếu chi nộp tiền bảo hiểm**.
 

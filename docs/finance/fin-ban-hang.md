@@ -1,4 +1,4 @@
-# **Bán hàng**
+# *Quy trình nghiệp vụ*
 
 ## **Quy trình nghiệp vụ**
 
@@ -23,7 +23,7 @@ Khi phát sinh nghiệp vụ bán hàng hóa, dịch vụ, thông thường sẽ
 
 
 
-### **Các luồng quy trình**
+## **Các luồng quy trình**
 
 ·     Lập yêu cầu báo giá gửi khách hàng. Chi tiết nghiệp vụ **[tại đây](#Lập yêu cầu báo giá)**
 
@@ -92,7 +92,7 @@ Bước 2: Khai báo các thông tin chi tiết trên báo giá
 
 Bước 3: Nhấn **Lưu**
 
-### **Thực hiện gửi báo giá cho khách hàng**
+#### **Thực hiện gửi báo giá cho khách hàng**
 
 Bước 1: Sau khi đã có tài liệu báo giá để gửi khách hàng, Thực hiện **In** yêu cầu báo giá: kiểm tra thông tin dữ liệu trên mẫu yêu cầu báo giá và tùy chỉnh thông tin Mẫu yêu cầu
 
@@ -100,7 +100,7 @@ Bước 2: Thực hiện **Gửi qua Email** đến nhà cung cấp sau khi hoà
 
 ![](images/fin_BanHang_BaoGia_GuiEmail.png)
 
-### Xác nhận đơn bán hàng
+#### Xác nhận đơn bán hàng
 
 Khi có nhu cầu mua sản phẩm, khách hàng sẽ liên hệ với nhân viên bán hàng để đặt hàng. Nhân viên bán hàng thực hiện lập đơn hàng dựa trên báo giá đã gửi
 
@@ -114,7 +114,7 @@ Bước 2: Nhấn nút **Xác nhận**
 
 Báo giá được thực hiện Xác nhận đơn hàng: Sẽ không được hiển thị trên Danh sách Báo giá
 
-### Sinh chứng từ giao hàng
+#### Sinh chứng từ giao hàng
 
 Sau khi thực hiện Xác nhận đơn hàng, chương trình tự động sinh ra một yêu cầu giao hàng gửi tới kế toán kho/thủ kho (Phân hệ Quản lý kho/Phiếu xuất kho) Nhân viên có thể theo dõi tình trạng giao hàng của sản phẩm trên phiếu xuất kho đã sinh ra
 
