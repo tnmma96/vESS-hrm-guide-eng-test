@@ -20,11 +20,11 @@ Quy trình nghiệp vụ
 
 
 
-# Phiếu thu tiền mặt
+## Phiếu thu tiền mặt
 
-## Rút tiền gửi ngân hàng về nhập quỹ tiền mặt
+### Rút tiền gửi ngân hàng về nhập quỹ tiền mặt
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Định kỳ hàng ngày, hàng tuần,... căn cứ vào nhu cầu chi tiền trong ngày hoặc đột xuất cần chi tiền mà quỹ không còn đủ tiền thì sẽ rút tiền từ ngân hàng về nhập quỹ để phục vụ cho việc chi tiêu. Tại doanh nghiệp, nghiệp vụ này sẽ thực hiện qua các bước sau:
 
@@ -40,11 +40,11 @@ Quy trình nghiệp vụ
 
 - Thủ quỹ sẽ căn cứ vào Phiếu thu để thu tiền; người nộp và Thủ quỹ ký vào phiếu thu, Thủ quỹ chuyển lại 1 liên cho Kế toán thanh toán, Thủ quỹ lưu 1 liên và đồng thời ghi sổ quỹ
 
-### **Xem video hướng dẫn**
+**Xem video hướng dẫn**
 
 *[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền mặt**, Chọn **Phiếu thu tiền mặt** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -66,9 +66,9 @@ Quy trình nghiệp vụ
 
 Lưu ý: Muốn chuyển trạng thái từ Hoàn thành về Nháp thì Nhấn **Đưa về dự thảo**
 
-## Khách hàng ứng trước tiền mua hàng bằng tiền mặt
+### Khách hàng ứng trước tiền mua hàng bằng tiền mặt
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Trường hợp khách hàng ứng trước tiền mua hàng bằng tiền mặt (có thể do nhân viên đi thu hoặc có thể khách hàng tự đem đến ứng trước), sẽ phát sinh các hoạt động sau:
 
@@ -86,7 +86,7 @@ Trường hợp khách hàng ứng trước tiền mua hàng bằng tiền mặt
 
 *[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền mặt**, Chọn **Phiếu thu tiền mặt** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -107,9 +107,9 @@ Trường hợp khách hàng ứng trước tiền mua hàng bằng tiền mặt
 
 Lưu ý: Muốn chuyển trạng thái từ Hoàn thành về Nháp thì Nhấn **Đưa về dự thảo**
 
-## Khách hàng trả nợ bằng tiền mặt
+### Khách hàng trả nợ bằng tiền mặt
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khi khách hàng mang tiền mặt đến trả nợ hoặc nhân viên đơn vị đi thu tiền tại khách hàng bằng tiền mặt và mang tiền về nộp lại, sẽ phát sinh một số hoạt động sau:
 
@@ -127,7 +127,7 @@ Khi khách hàng mang tiền mặt đến trả nợ hoặc nhân viên đơn v�
 
 *[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền mặt**, Chọn **Phiếu thu tiền mặt** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -148,9 +148,9 @@ Khi khách hàng mang tiền mặt đến trả nợ hoặc nhân viên đơn v�
 
 Lưu ý: Muốn chuyển trạng thái từ Hoàn thành về Nháp thì Nhấn **Đưa về dự thảo**
 
-## Thu tiền trả nợ của nhiều khách hàng bằng tiền mặt
+### Thu tiền trả nợ của nhiều khách hàng bằng tiền mặt
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khi khách hàng mang tiền mặt đến trả nợ hoặc nhân viên đơn vị đi thu tiền tại khách hàng bằng tiền mặt và mang tiền về nộp lại, sẽ phát sinh một số hoạt động sau:
 
@@ -168,7 +168,7 @@ Khi khách hàng mang tiền mặt đến trả nợ hoặc nhân viên đơn v�
 
 *[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền mặt**, Chọn **Thu tiền từ khách hàng** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
@@ -182,9 +182,9 @@ Khi khách hàng mang tiền mặt đến trả nợ hoặc nhân viên đơn v�
 
 ![fin_Thutienkhachhang_02](images/fin_Thutienkhachhang_02.png)
 
-## Thu hoàn ứng bằng tiền mặt sau khi quyết toán tạm ứng nhân viên
+### Thu hoàn ứng bằng tiền mặt sau khi quyết toán tạm ứng nhân viên
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 hân viên tạm ứng đi công tác về hoặc hoàn thành công việc được giao sẽ chuẩn bị đủ các hoá đơn, chứng từ liên quan và thực hiện quyết toán tạm ứng. Số tiền tạm ứng chi không hết sẽ phải nộp lại quỹ. Quy trình quyết toán tạm ứng được thực hiện như sau:
 
@@ -204,7 +204,7 @@ hân viên tạm ứng đi công tác về hoặc hoàn thành công việc đư
 
 *[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền mặt**, Chọn **Phiếu thu tiền mặt** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -222,9 +222,9 @@ hân viên tạm ứng đi công tác về hoặc hoàn thành công việc đư
 3. Nhấn **Lưu**
 4. Nhấn **Xác nhận**
 
-## Thu khác bằng tiền mặt
+### Thu khác bằng tiền mặt
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khi phát sinh các nghiệp vụ thu tiền mặt do đi vay hoặc thu hồi khoản vay; do thu hồi các khoản ký quỹ, ký cược, thu hồi các khoản đầu tư... thường phát sinh các bước sau:
 
@@ -240,7 +240,7 @@ Khi phát sinh các nghiệp vụ thu tiền mặt do đi vay hoặc thu hồi k
 
 *[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền mặt**, Chọn **Phiếu thu tiền mặt** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -254,11 +254,11 @@ Khi phát sinh các nghiệp vụ thu tiền mặt do đi vay hoặc thu hồi k
 3. Nhấn **Lưu**
 4.  Nhấn **Xác nhận**
 
-# Phiếu chi tiền mặt
+## Phiếu chi tiền mặt
 
-## Mang tiền mặt vào gửi ngân hàng
+### Mang tiền mặt vào gửi ngân hàng
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khi tiền mặt tại quỹ lớn hơn mức quy định của công ty, Kế toán thanh toán  sẽ mang tiền mặt nộp vào tài khoản tại ngân hàng:
 
@@ -270,7 +270,7 @@ Khi tiền mặt tại quỹ lớn hơn mức quy định của công ty, Kế t
 
 - Kế toán tiền mặt sẽ căn cứ vào Phiếu chi có chữ ký của Thủ quỹ và người nhận tiền để ghi sổ kế toán tiền mặt.
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền mặt**, Chọn **Phiếu chi tiền mặt** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -288,9 +288,9 @@ Khi tiền mặt tại quỹ lớn hơn mức quy định của công ty, Kế t
 3. Nhấn **Lưu**
 4. Nhấn **Xác nhận** để hạch toán vào sổ
 
-## Trả trước tiền hàng cho nhà cung cấp bằng tiền mặt
+### Trả trước tiền hàng cho nhà cung cấp bằng tiền mặt
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Trường hợp ứng trước tiền mua hàng cho nhà cung cấp bằng tiền mặt (có thể do nhân viên đi mua hàng tự mang nộp hoặc có thể do nhà cung cấp đến thu trực tiếp) sẽ phát sinh các hoạt động sau:
 
@@ -306,7 +306,7 @@ Trường hợp ứng trước tiền mua hàng cho nhà cung cấp bằng tiề
 
 - Kế toán tiền mặt căn cứ vào Phiếu chi có đủ chữ ký để ghi số kể toán tiền mặt và sau đó kèm theo phiếu thu của nhà cung cấp sẽ lưu chứng từ tại phòng kế toán.
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền mặt**, Chọn **Phiếu chi tiền mặt** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -324,9 +324,9 @@ Trường hợp ứng trước tiền mua hàng cho nhà cung cấp bằng tiề
 3. Nhấn **Lưu**
 4. Nhấn **Xác nhận**
 
-## Trả nợ cho nhà cung cấp bằng tiền mặt
+### Trả nợ cho nhà cung cấp bằng tiền mặt
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khi nhà cung cấp đến nhận tiền mặt trực tiếp hoặc nhân viên mua hàng mang tiền mặt đến trả nợ cho nhà cung cấp sẽ phát sinh một số hoạt động sau:
 
@@ -340,7 +340,7 @@ Khi nhà cung cấp đến nhận tiền mặt trực tiếp hoặc nhân viên 
 
 - Kế toán tiền mặt căn cứ vào Phiếu chi đã đủ chữ ký để ghi sổ kế toán tiền mặt và lưu trữ Phiếu chi.
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Tại phân hệ Kế toán, Chọn Tiền mặt, Chọn Thanh toán cho nhà cung cấp (Hoặc thực hiện tìm kiếm trức tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
@@ -354,9 +354,9 @@ Khi nhà cung cấp đến nhận tiền mặt trực tiếp hoặc nhân viên 
 
 ![fin_Thanhtoanchonhacungcap_02](images/fin_Thanhtoanchonhacungcap_02.png)
 
-## Tạm ứng cho nhân viên bằng tiền mặt
+### Tạm ứng cho nhân viên bằng tiền mặt
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Nhân viên nhận được nhiệm vụ phân công của lãnh đạo doanh nghiệp như đi công tác, đi mua hàng… sẽ chuẩn bị giấy đề nghị tạm ứng và thực hiện công việc tạm ứng. Quy trình tạm ứng được thực hiện như sau:
 
@@ -374,7 +374,7 @@ Nhân viên nhận được nhiệm vụ phân công của lãnh đạo doanh ng
 
 - Kế toán tiền mặt căn cứ vào Phiếu chi đã đủ chữ ký để ghi sổ kế toán tiền mặt và lưu trữ Phiếu chi.
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 Vào phân hệ **Kế toán**, Chọn **Tiền mặt**, Chọn **Phiếu chi tiền mặt** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -392,9 +392,9 @@ Vào phân hệ **Kế toán**, Chọn **Tiền mặt**, Chọn **Phiếu
 3. Nhấn **Lưu**
 4. Nhấn **Xác nhận**
 
-## Chi bổ sung tiền tạm ứng thiếu bằng tiền mặt cho nhân viên sau khi thực hiện quyết toán tạm ứng
+### Chi bổ sung tiền tạm ứng thiếu bằng tiền mặt cho nhân viên sau khi thực hiện quyết toán tạm ứng
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Nhân viên tạm ứng đi công tác về hoặc hoàn thành công việc được giao sẽ chuẩn bị đủ các hoá đơn, chứng từ liên quan và thực hiện quyết toán tạm ứng. Số tiền tạm ứng chi không đủ sẽ được đơn vị chi bổ sung thêm. Quy trình quyết toán tạm ứng được thực hiện như sau:
 
@@ -410,7 +410,7 @@ Nhân viên tạm ứng đi công tác về hoặc hoàn thành công việc đ�
 
 - Kế toán thanh toán căn cứ vào Phiếu chi đã đủ chữ ký để ghi sổ kế toán tiền mặt và lưu trữ Phiếu chi..
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền mặt**, Chọn **Phiếu chi tiền mặt** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -428,9 +428,9 @@ Nhân viên tạm ứng đi công tác về hoặc hoàn thành công việc đ�
 3. Nhấn **Lưu**
 4. Nhấn **Xác nhận**
 
-## Thanh toán tiền mặt trong trường hợp nhân viên mua hàng không tạm ứng trước
+### Thanh toán tiền mặt trong trường hợp nhân viên mua hàng không tạm ứng trước
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Nhân viên nhận được nhiệm vụ phân công của lãnh đạo doanh nghiệp như đi công tác, đi mua hàng… mà không thực hiện tạm ứng chi phí trước, khi hoàn thành sẽ làm các thủ tục thanh toán tiền theo quy trình sau: 
 
@@ -446,7 +446,7 @@ Nhân viên nhận được nhiệm vụ phân công của lãnh đạo doanh ng
 
 - Kế toán thanh toán căn cứ vào Phiếu chi đã đủ chữ ký để ghi sổ kế toán tiền mặt và lưu trữ Phiếu chi.
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 Vào phân hệ **Kế toán**, Chọn **Tiền mặt**, Chọn **Phiếu chi tiền mặt** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -464,9 +464,9 @@ Vào phân hệ **Kế toán**, Chọn **Tiền mặt**, Chọn **Phiếu
 3. Nhấn **Lưu**
 4. Nhấn **Xác nhận**
 
-## Nộp thuế GTGT hàng nhập khẩu bằng tiền mặt
+### Nộp thuế GTGT hàng nhập khẩu bằng tiền mặt
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khi công ty mua hàng hóa nhập khẩu thực hiện kê khai tờ khai hải quan và xác định số thuế GTGT hàng nhập khẩu, khi tiến hành nộp thuế thì thực hiện như sau:
 
@@ -482,7 +482,7 @@ Khi công ty mua hàng hóa nhập khẩu thực hiện kê khai tờ khai hải
 
 - Kế toán thuế căn cứ giấy xác nhận nộp thuế để kê khai hóa đơn nhập khẩu lên bảng kê thuế GTGT mua vào.
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**,Chọn **Tiền mặt**,Chọn **Nộp Thuế** (Hoặc thực hiện Tìm kiếm trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
@@ -503,9 +503,9 @@ Khi công ty mua hàng hóa nhập khẩu thực hiện kê khai tờ khai hải
 4. Nhấn **Lưu**
 5. Nhấn **Xác nhận**
 
-## Nộp các loại thuế khác (Tiền mặt)
+### Nộp các loại thuế khác (Tiền mặt)
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khi công ty phát sinh các nghiệp vụ nộp: thuế GTGT, thuế TNDN, thuế TNCN, thuế tiêu thụ đặc biệt... thường phát sinh các hoạt động sau:
 
@@ -517,7 +517,7 @@ Khi công ty phát sinh các nghiệp vụ nộp: thuế GTGT, thuế TNDN, thu�
 
 -  Kế toán thuế nhận tiền và nộp thuế vào tài khoản của cơ quan thuế. Còn Kế toán thanh toán thì căn cứ vào Phiếu chi có chữ ký của Thủ quỹ và người nhận tiền để ghi sổ kế toán tiền mặt.
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**,Chọn **Tiền mặt**,Chọn **Nộp Thuế** (Hoặc thực hiện Tìm kiếm trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
@@ -541,9 +541,9 @@ Khi công ty phát sinh các nghiệp vụ nộp: thuế GTGT, thuế TNDN, thu�
 
 Lưu ý : Trường hợp số thuế thực nộp nhỏ hơn số thuế phải nộp, cần nhập lại số tiền thuế thực nộp vào cột **Số trả lần này**.
 
-## Chi khác bằng tiền mặt
+### Chi khác bằng tiền mặt
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khi có nhu cầu chi tiền mặt phục vụ cho các hoạt động sản xuất kinh doanh, doanh nghiệp sẽ thực hiện qua các bước sau:
 
@@ -559,7 +559,7 @@ Khi có nhu cầu chi tiền mặt phục vụ cho các hoạt động sản xu�
 
 - Người yêu cầu chi tiền nhận tiền, Thủ quỹ ghi sổ quỹ.
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 Vào phân hệ **Kế toán**, Chọn **Tiền mặt**, Chọn **Phiếu chi tiền mặt** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
@@ -614,9 +614,9 @@ Nghiệp vụ “Nộp bảo hiểm bằng tiền mặt” chỉ thực hiện �
 4. Nhấn Lưu
 5. Nhấn Xác nhận
 
-# Kiểm kê quỹ
+## Kiểm kê quỹ
 
-## Mô tả nghiệp vụ
+### Mô tả nghiệp vụ
 
 Định kỳ theo quy định hoặc khi có phát sinh yêu cầu kiểm kê quỹ từ Ban lãnh đạo công ty, sẽ phát sinh một số hoạt động sau:
 
@@ -628,7 +628,7 @@ Nghiệp vụ “Nộp bảo hiểm bằng tiền mặt” chỉ thực hiện �
 
 - Sau khi tìm nguyên nhân thì Giám đốc hoặc Kế toán trưởng sẽ ra quyết định xử lý.
 
-## Hướng dẫn trên phần mềm
+### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền mặt**, Chọn **Kiểm kê tiền mặt** (Hoặc thực hiện Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 

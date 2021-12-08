@@ -18,9 +18,9 @@ Quản lý toàn bộ quy trình Mua hàng: Từ yêu cầu gửi báo giá đ�
 
 ·     Mua hàng hóa nhập khẩu về nhập kho. Chi tiết nghiệp vụ [**tại đây**](#_Mua_hàng_hóa)
 
-# **Yêu cầu báo giá**
+## **Yêu cầu báo giá**
 
-## **Mô tả nghiệp vụ**
+### **Mô tả nghiệp vụ**
 
 Khi đơn vị có nhu cầu mua hàng, lập yêu cầu mua hàng thì quy trình thực hiện như sau:
 
@@ -41,7 +41,7 @@ Khi đơn vị có nhu cầu mua hàng, lập yêu cầu mua hàng thì quy trì
 
 *[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
 
-## **Lập yêu cầu báo giá gửi Nhà cung cấp**
+### **Lập yêu cầu báo giá gửi Nhà cung cấp**
 
 **Lập yêu cầu báo giá**
 
@@ -72,7 +72,7 @@ Khi đơn vị có nhu cầu mua hàng, lập yêu cầu mua hàng thì quy trì
 
 **Bước 5**: Thực hiện Gửi Email đến nhà cung cấp sau khi hoàn thành Yêu cầu báo giá
 
-## **Xác nhận Đơn hàng từ Nhà cung cấp**
+### **Xác nhận Đơn hàng từ Nhà cung cấp**
 
 **Xác nhận Đơn hàng**
 
@@ -99,9 +99,9 @@ Khi đơn vị có nhu cầu mua hàng, lập yêu cầu mua hàng thì quy trì
 - Sau khi thực hiện Xác nhận đơn hàng, chương trình tự động tạo ra một Phiếu nhập kho bên Phân hệ Quản lý kho
 - Yêu cầu báo giá được thực hiện Xác nhận đơn hàng: Sẽ không được hiển thị trên Danh sách Yêu cầu báo giá.
 
-# **Hợp đồng mua hàng**
+## **Hợp đồng mua hàng**
 
-## **Mô tả nghiệp vụ**
+### **Mô tả nghiệp vụ**
 
 Hợp đồng mua hàng được thực hiện sau luồng Yêu cầu báo giá gửi nhà cung cấp được hoàn thành:
 
@@ -122,7 +122,7 @@ Hợp đồng mua hàng được thực hiện sau luồng Yêu cầu báo giá 
 
 *[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
 
-## **Lập Hợp đồng mua hàng**
+### **Lập Hợp đồng mua hàng**
 
 **Hợp đồng mua hàng**
 
@@ -153,7 +153,7 @@ Hợp đồng mua hàng được thực hiện sau luồng Yêu cầu báo giá 
 
 - Để nhập nhanh Hợp đồng: Kế toán thực hiện chọn **Đơn đặt hàng**: Khi đó thông tin về Nhà cung cấp và Danh sách hàng hóa được lấy mặc định theo Đơn đặt hàng
 
-## **Quản lý hợp đồng mua**
+### **Quản lý hợp đồng mua**
 
 **Quản lý Hợp đồng mua hàng**
 
@@ -170,9 +170,9 @@ Hợp đồng mua hàng được thực hiện sau luồng Yêu cầu báo giá 
 - Thực hiện cập nhật trạng thái thực của Hợp đồng theo từng đơn hàng: Chưa thực hiện, Đang thực hiện, Thanh lý hoặc Huỷ bỏ
 - Theo dõi các thông tin về Tổng thu/Tổng chi tương ứng của Hợp đồng; Xem chi tiết theo từng giao dịch
 
-# **Đơn mua hàng**
+## **Đơn mua hàng**
 
-## **Mô tả nghiệp vụ**
+### **Mô tả nghiệp vụ**
 
 Đơn mua hàng được thực hiện sau luồng Yêu cầu báo giá gửi nhà cung cấp được hoàn thành:
 
@@ -192,7 +192,7 @@ Hợp đồng mua hàng được thực hiện sau luồng Yêu cầu báo giá 
 
 *[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
 
-## **Đơn mua hàng từ yêu cầu báo giá**
+### **Đơn mua hàng từ yêu cầu báo giá**
 
 **Đơn mua hàng**
 
@@ -231,7 +231,7 @@ Hợp đồng mua hàng được thực hiện sau luồng Yêu cầu báo giá 
 
 - Nhấn **Xác nhận** Số lượng đã nhập từ Nhà cung cấp: Hệ thống tạo ra Phiếu nhập kho tương ứng với Đơn hàng đã nhận về
 
-## **Đơn mua hàng từ Lệnh sản xuất**
+### **Đơn mua hàng từ Lệnh sản xuất**
 
 **Đơn mua hàng**
 
@@ -279,9 +279,9 @@ Khi có yêu cầu xuất kho vật tư hàng hóa để lắp ráp thành thàn
 
 - Nhấn **Xác nhận** Số lượng đã nhập từ Nhà cung cấp: Hệ thống tạo ra Phiếu nhập kho tương ứng với Đơn hàng đã nhận về
 
-# **Hóa đơn mua hàng**
+## **Hóa đơn mua hàng**
 
-## **Mô tả nghiệp vụ**
+### **Mô tả nghiệp vụ**
 
 Đơn mua hàng được thực hiện sau luồng Yêu cầu báo giá gửi nhà cung cấp được hoàn thành:
 
@@ -297,7 +297,7 @@ Khi có yêu cầu xuất kho vật tư hàng hóa để lắp ráp thành thàn
 
 ·     Đơn mua hàng từ Lệnh sản xuất. Chi tiết nghiệp vụ [**tại đây**](#Đơn mua hàng từ Lệnh sản xuất)
 
-## **Tạo hóa đơn từ Đơn mua hàng**
+### **Tạo hóa đơn từ Đơn mua hàng**
 
 **Tạo hóa đơn**
 
@@ -323,7 +323,7 @@ Khi có yêu cầu xuất kho vật tư hàng hóa để lắp ráp thành thàn
 
 **Bước 4:** Nhân viên Kế toán thực hiện nhấn Xác nhận 
 
-## **Thanh toán cho Nhà cung cấp**
+### **Thanh toán cho Nhà cung cấp**
 
 **Ghi nhận thanh toán**
 
@@ -347,7 +347,7 @@ Khi có yêu cầu xuất kho vật tư hàng hóa để lắp ráp thành thàn
 
 **Bước 3:** Nhấn **Lưu**
 
-## **Phân bổ chi phí**
+### **Phân bổ chi phí**
 
 **Phân bổ chi phí**
 
@@ -358,9 +358,9 @@ Khi có yêu cầu xuất kho vật tư hàng hóa để lắp ráp thành thàn
 1. Vào phân hệ **Mua hàng**, Chọn **Đơn mua hàng** đã hoàn thành Nhận hàng từ Nhà cung cấp và Nhấn **Tạo hóa đơn** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 2. Nhân viên kế toán khai báo thông tin Chi phí dịch vụ cho Đơn mua hàng và thực hiện phân bổ các Chi phí dịch vụ phát sinh
 
-# **Hóa đơn giảm giá/trả lại hàng mua**
+## **Hóa đơn giảm giá/trả lại hàng mua**
 
-## **Mô tả nghiệp vụ**
+### **Mô tả nghiệp vụ**
 
 Khi phát hiện hàng mua về không đúng quy cách, chất lượng như đã thỏa thuận ban đầu.... thì đơn vị thực hiện trả lại hàng:
 
@@ -374,7 +374,7 @@ Khi phát hiện hàng mua về không đúng quy cách, chất lượng như đ
 
 ·     Đơn mua hàng từ Lệnh sản xuất. Chi tiết nghiệp vụ [**tại đây**](#Đơn mua hàng từ Lệnh sản xuất)
 
-## **Tạo hóa đơn giảm giá/trả lại hàng**
+### **Tạo hóa đơn giảm giá/trả lại hàng**
 
 **Tạo hóa đơn**
 

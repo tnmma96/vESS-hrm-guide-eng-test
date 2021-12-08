@@ -16,9 +16,9 @@ Phân hệ Giá thành hỗ trợ doanh nghiệp tính giá thành sản phẩm 
 
 ![fin_giathanh_quitrinhchung](images/fin_giathanh_quitrinhchung.png)
 
-# Tính giá thành theo PP giản đơn
+## Tính giá thành theo PP giản đơn
 
-## Quy trình nghiệp vụ
+### Quy trình nghiệp vụ
 
 **Tính giá thành theo PP giản đơn**: Áp dụng với doanh nghiệp có quy trình công nghệ sản xuất liên tục, khép kín, kết thúc quy trình tạo ra 1 sản phẩm, đối tượng tập hợp chi phí là toàn bộ quy trình sản xuất sản phẩm, đối tượng tính giá thành là sản phẩm hoàn thành của quy trình sản xuất đó. Ví dụ: Doanh nghiệp sản xuất bê tông, cọc bê tông, tấm cách nhiệt, bao bì xốp…
 
@@ -34,15 +34,15 @@ Phân hệ Giá thành hỗ trợ doanh nghiệp tính giá thành sản phẩm 
 
 ·     Tính giá thành theo TT200. Chi tiết nghiệp vụ  [Tính giá thành theo TT200]()
 
-## Thiết lập định mức PBCP theo đối tượng THCP
+### Thiết lập định mức PBCP theo đối tượng THCP
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khai báo định mức chi phí của từng đối tượng THCP theo từng yếu tố, phục vụ cho việc phân bổ chi phí chung theo định mức khi tính giá thành theo phương pháp giản đơn.
 
-### Các bước thực hiện
+#### Các bước thực hiện
 
-#### Áp dụng TT 133
+##### Áp dụng TT 133
 
 Bước 1: Vào Menu **Giá thành\Sản xuất liên tục - Giản đơn\Khai báo định mức phân bổ chi phí**, Chọn **Tạo mới**. Màn hình hiển thị thông tin sau:
 
@@ -50,7 +50,7 @@ Bước 1: Vào Menu **Giá thành\Sản xuất liên tục - Giản đơn\Khai 
 
 Bước 2: Người dùng điền các thông tin trên màn hình. Lưu ý: Tích vào **Thêm một dòng** để chọn các Khoản mục phí cần khai báo. Nhấn **Lưu** , Nhấn **Xác nhận** khi đó bản ghi đã được **Hoàn thành**.
 
-#### Áp dụng TT 200
+##### Áp dụng TT 200
 
 Bước 1: Vào Menu **Giá thành\Sản xuất liên tục - Giản đơn\Khai báo định mức phân bổ chi phí**, Chọn **Tạo mới**. Màn hình hiển thị thông tin sau:
 
@@ -58,13 +58,13 @@ Bước 1: Vào Menu **Giá thành\Sản xuất liên tục - Giản đơn\Khai 
 
 Bước 2: Người dùng điền các thông tin trên màn hình. Lưu ý: Tích vào **Thêm một dòng** để chọn các Tài khoản cần khai báo. Nhấn **Lưu** , Nhấn **Xác nhận** khi đó bản ghi đã được **Hoàn thành**.
 
-## Thiết lập định mức giá thành thành phẩm
+### Thiết lập định mức giá thành thành phẩm
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khai báo định mức chi phí của từng thành phẩm theo từng yếu tố, phục vụ cho việc đánh giá sản phẩm dở dang theo định mức khi tính giá thành theo phương pháp giản đơn.
 
-### Các bước thực hiện
+#### Các bước thực hiện
 
 Bước 1: Vào Menu **Giá thành\Sản xuất liên tục - Giản đơn\Khai báo định mức giá thành**, Chọn **Tạo mới**. Màn hình hiển thị thông tin sau:
 
@@ -82,13 +82,13 @@ Bước 2: Người dùng điền các thông tin trên màn hình. Lưu ý: Tí
 
 Bước 3: Nhấn **Lưu** , Nhấn **Xác nhận** khi đó bản ghi đã được **Hoàn thành**.
 
-## Thiết lập chi phí dở dang đầu kỳ
+### Thiết lập chi phí dở dang đầu kỳ
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Với trường hợp lần đầu sử dụng phần mềm để tính giá thành, hệ thống hỗ trợ nhập được chi phí dở dang đầu kỳ chi tiết theo nhiều đối tượng tập hợp chi phí để làm căn cứ tính giá thành cho các kỳ tiếp theo.
 
-### Các bước thực hiện
+#### Các bước thực hiện
 
 Bước 1: Vào Menu **Giá thành\Sản xuất liên tục - Giản đơn\Thiết lập chi phí dở dang đầu kỳ**, chọn **Tạo mới**. Màn hình hiển thị thông tin sau:
 
@@ -104,15 +104,15 @@ Bước 2: Người dùng điền các thông tin trên màn hình. Lưu ý: Tí
 
 Bước 3: Nhấn **Lưu** , Nhấn **Xác nhận** khi đó bản ghi đã được **Hoàn thành**.
 
-## Tính giá thành theo TT133
+### Tính giá thành theo TT133
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Áp dụng với các doanh nghiệp sử dụng chế độ kế toán doanh nghiệp theo TT133.
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
-#### Bước 1: Khai báo nguyên vật liệu sản xuất và thành phẩm
+##### Bước 1: Khai báo nguyên vật liệu sản xuất và thành phẩm
 
 - Vào Menu **Kế toán giá thành\Danh mục\Sản phẩm**, nhấn **Tạo mới**. Màn hình hiển thị như hình dưới:
 
@@ -124,7 +124,7 @@ Bước 3: Nhấn **Lưu** , Nhấn **Xác nhận** khi đó bản ghi đã đư
 
 ![fin_giathanh_GD_thanhpham](images/gia_thanh/fin_giathanh_GD_thanhpham.png)
 
-#### Bước 2: Khai báo đối tượng tập hợp chi phí
+##### Bước 2: Khai báo đối tượng tập hợp chi phí
 
 - Vào Menu **Kế toán giá thành\Danh mục\Đối tượng tập hợp chi phí**, nhấn **Tạo mới**. Màn hình hiển thị như hình dưới:
 
@@ -136,7 +136,7 @@ Bước 3: Nhấn **Lưu** , Nhấn **Xác nhận** khi đó bản ghi đã đư
 
 - Nhấn **Lưu**, hoàn thành khai báo Đối tượng THCP.
 
-#### Bước 3: Xuất kho nguyên vật liệu sản xuất
+##### Bước 3: Xuất kho nguyên vật liệu sản xuất
 
 - Xuất kho NVL sản xuất và nhập kho thành phẩm : 2 giai đoạn này được thể hiện trong quá trình sản xuất. Cụ thể trong hệ thống : Vào Menu **Kế toán kho\Nghiệp vụ kho\Lệnh sản xuất**, tích chọn **Tạo mới**. Màn hình hiển thị như hình dưới:
 
@@ -146,12 +146,12 @@ Bước 3: Nhấn **Lưu** , Nhấn **Xác nhận** khi đó bản ghi đã đư
 - Người dùng lưu ý chọn **Đối tượng THCP** ở tab chung.
 - Sau khi hoàn thành lệnh sản xuất, hệ thống sẽ tự động sinh 1 phiếu xuất NVL sản xuất và 1 phiếu nhập Thành phẩm sản xuất. (Trong đó có gắn Đối tượng THCP).
 
-#### Bước 4: Hạch toán các chi phí phát sinh
+##### Bước 4: Hạch toán các chi phí phát sinh
 
 - Các chi phí phát sinh liên quan đến việc tính giá thành (chi phí nguyên vật liệu trực tiếp, nhân công trực tiếp, chi phí sản xuất chung,..) được hạch toán ở các phân hệ: **Kế toán tổng hợp, Kế toán Quỹ, Kế toán ngân hàng**.
 - Khi thực hiện tính giá thành theo TT133, bắt buộc phải chọn thông tin về **Khoản mục chi phí**. Riêng thông tin về **Đối tượng THCP**, xác định được là chi phí phát sinh cho Đối tượng THCP nào thì tích chọn.
 
-#### Bước 5: Nhập kho thành phẩm sản xuất
+##### Bước 5: Nhập kho thành phẩm sản xuất
 
 - Xuất kho NVL sản xuất và nhập kho thành phẩm : 2 giai đoạn này được thể hiện trong quá trình sản xuất. Cụ thể trong hệ thống : Vào Menu **Kế toán kho\Nghiệp vụ kho\Lệnh sản xuất**, tích chọn **Tạo mới**. Màn hình hiển thị như hình dưới:
 
@@ -161,7 +161,7 @@ Bước 3: Nhấn **Lưu** , Nhấn **Xác nhận** khi đó bản ghi đã đư
 - Người dùng lưu ý chọn **Đối tượng THCP** ở tab chung.
 - Sau khi hoàn thành lệnh sản xuất, hệ thống sẽ tự động sinh 1 phiếu xuất NVL sản xuất và 1 phiếu nhập Thành phẩm sản xuất. (Trong đó có gắn Đối tượng THCP).
 
-#### Bước 6: Xác định kỳ tính giá thành
+##### Bước 6: Xác định kỳ tính giá thành
 
 - Vào Menu **Kế toán giá thành\Sản xuất liên tục - Giản đơn\Kỳ tính giá thành**, nhấn **Tạo mới**. Màn hình hiển thị như hình dưới:
 
@@ -172,7 +172,7 @@ Bước 3: Nhấn **Lưu** , Nhấn **Xác nhận** khi đó bản ghi đã đư
 - Tab **Đối tượng tập hợp chi phí** tích **Thêm một dòng** để chọn đối tượng tập hợp chi phí tập hợp trong kỳ.
 - Nhấn **Lưu,** nhấn **Xác nhận** , bản ghi chuyển trạng thái **Đang thực hiện**. Khi đó bước Khai báo kỳ giá thành đã hoàn thành.
 
-#### Bước 7: Tính giá thành phẩm
+##### Bước 7: Tính giá thành phẩm
 
 Với các doanh nghiệp tính giá xuất kho theo phương pháp **Bình quân cuối kỳ**, trước khi thực hiện tính giá thành cần phải thực hiện chức năng Tính giá xuất kho cuối kỳ trên **Phân hệ Kho**. Sau đó, thực hiện tính giá thành như sau:
 
@@ -225,15 +225,15 @@ Lưu ý:
 - Sau khi tính giá thành, hệ thống tự động cập nhật dữ liệu vào (các tab thông tin tương ứng) của bảng **Kỳ tính giá thành**.
 - Nhấn **Giá thành**, bản ghi chuyển đến **Kỳ tính giá thành.**
 
-## Tính giá thành theo TT200
+### Tính giá thành theo TT200
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Áp dụng với các doanh nghiệp sử dụng chế độ kế toán doanh nghiệp theo TT200.
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
-#### Bước 1: Khai báo nguyên vật liệu sản xuất và thành phẩm
+##### Bước 1: Khai báo nguyên vật liệu sản xuất và thành phẩm
 
 - Vào Menu **Kế toán giá thành\Danh mục\Sản phẩm**, nhấn **Tạo mới**. Màn hình hiển thị như hình dưới:
 
@@ -245,7 +245,7 @@ Lưu ý:
 
 ![fin_giathanh_GD_thanhpham](images/gia_thanh/fin_giathanh_GD_thanhpham.png)
 
-#### Bước 2: Khai báo đối tượng tập hợp chi phí
+##### Bước 2: Khai báo đối tượng tập hợp chi phí
 
 - Vào Menu **Kế toán giá thành\Danh mục\Đối tượng tập hợp chi phí**, nhấn **Tạo mới**. Màn hình hiển thị như hình dưới:
 
@@ -257,7 +257,7 @@ Lưu ý:
 
 - Nhấn **Lưu**, hoàn thành khai báo Đối tượng THCP.
 
-#### Bước 3: Xuất kho nguyên vật liệu sản xuất
+##### Bước 3: Xuất kho nguyên vật liệu sản xuất
 
 - Xuất kho NVL sản xuất và nhập kho thành phẩm : 2 giai đoạn này được thể hiện trong quá trình sản xuất. Cụ thể trong hệ thống : Vào Menu **Kế toán kho\Nghiệp vụ kho\Lệnh sản xuất**, tích chọn **Tạo mới**. Màn hình hiển thị như hình dưới:
 
@@ -267,16 +267,16 @@ Lưu ý:
 - Người dùng lưu ý chọn **Đối tượng THCP** ở tab chung.
 - Sau khi hoàn thành lệnh sản xuất, hệ thống sẽ tự động sinh 1 phiếu xuất NVL sản xuất và 1 phiếu nhập Thành phẩm sản xuất. (Trong đó có gắn Đối tượng THCP).
 
-#### Bước 4: Hạch toán các chi phí phát sinh
+##### Bước 4: Hạch toán các chi phí phát sinh
 
 - Các chi phí phát sinh liên quan đến việc tính giá thành (chi phí nguyên vật liệu trực tiếp, nhân công trực tiếp, chi phí sản xuất chung,..) được hạch toán ở các phân hệ: **Kế toán tổng hợp, Kế toán Quỹ, Kế toán ngân hàng**.
 - Khi thực hiện tính giá thành theo TT133, bắt buộc phải chọn thông tin về **Khoản mục chi phí**. Riêng thông tin về **Đối tượng THCP**, xác định được là chi phí phát sinh cho Đối tượng THCP nào thì tích chọn.
 
-#### Bước 5: Nhập kho thành phẩm sản xuất
+##### Bước 5: Nhập kho thành phẩm sản xuất
 
 *(Mô tả như bước 3)*
 
-#### Bước 6: Xác định kỳ tính giá thành
+##### Bước 6: Xác định kỳ tính giá thành
 
 - Vào Menu **Kế toán giá thành\Sản xuất liên tục - Giản đơn\Kỳ tính giá thành**, nhấn **Tạo mới**. Màn hình hiển thị như hình dưới:
 
@@ -287,11 +287,11 @@ Lưu ý:
 - Tab **Đối tượng tập hợp chi phí** tích **Thêm một dòng** để chọn đối tượng tập hợp chi phí tập hợp trong kỳ.
 - Nhấn **Lưu,** nhấn **Xác nhận** , bản ghi chuyển trạng thái **Đang thực hiện**. Khi đó bước Khai báo kỳ giá thành đã hoàn thành.
 
-#### Bước 7: Tính giá thành phẩm
+##### Bước 7: Tính giá thành phẩm
 
 Với các doanh nghiệp tính giá xuất kho theo phương pháp **Bình quân cuối kỳ**, trước khi thực hiện tính giá thành cần phải thực hiện chức năng Tính giá xuất kho cuối kỳ trên **Phân hệ Kho**. Sau đó, thực hiện tính giá thành như sau:
 
-##### **Phân bổ chi phí chung**
+###### **Phân bổ chi phí chung**
 
 - Vào Menu **Kế toán giá thành\Sản xuất liên tục - Giản đơn\Kỳ tính giá thành**, nhấn **Tạo mới**. Màn hình hiển thị như hình dưới:
 
@@ -310,7 +310,7 @@ Với các doanh nghiệp tính giá xuất kho theo phương pháp **Bình quâ
 - Hệ thống sẽ tự động cập nhập lên tab **Phân bổ chi phí chung** ở **Kỳ tính giá thành**.
 - Nhấn vào nút Giá thành, hệ thống sẽ tự động chuyển đến màn hình **Kỳ tính giá thành**.
 
-##### **Đánh giá dở dang**
+###### **Đánh giá dở dang**
 
 Trường hợp kết thúc kỳ tính giá thành vẫn còn có các thành phẩm chưa sản xuất xong, kế toán cần xác định giá trị dở dang cuối kỳ cho từng đối tượng THCP (Tiêu thức đánh giá dở dang đã được lựa chọn khi khai báo Đối tượng THCP).
 
@@ -323,7 +323,7 @@ Trường hợp kết thúc kỳ tính giá thành vẫn còn có các thành ph
 
 ![fin_giathanh_GD_TinhCPDDCK_TabCPDDCK](images/gia_thanh/fin_giathanh_GD_TinhCPDDCK_TabCPDDCK.png)
 
-##### **Tính giá thành**
+###### **Tính giá thành**
 
 - Nhấn **Tính giá thành**, hệ thống thực hiện tính giá thành theo từng thành phẩm:
 
@@ -340,7 +340,7 @@ Lưu ý:
 - Sau khi tính giá thành, hệ thống tự động cập nhật dữ liệu vào (các tab thông tin tương ứng) của bảng **Kỳ tính giá thành**.
 - Nhấn **Giá thành**, bản ghi chuyển đến **Kỳ tính giá thành.**
 
-#### Bước 8: Kết chuyển chi phí
+##### Bước 8: Kết chuyển chi phí
 
 - Vào Menu **Kế toán giá thành\Sản xuất liên tục - Giản đơn\Kết chuyển chi phí**. Màn hình hiển thị như sau:
 
@@ -349,9 +349,9 @@ Lưu ý:
 - Người dùng điền các thông tin trên màn hình, nhấn **Tính kết chuyển** hệ thống tự động thực hiện kết chuyển chi phí ở tab **Chi tiết**.
 - Nhấn **Lưu,** nhấn **Xác nhận**, khi đó bản ghi kết chuyển chi phí **Đã hạch toán.**
 
-# Tính giá thành theo PP Hệ số tỷ lệ
+## Tính giá thành theo PP Hệ số tỷ lệ
 
-## Quy trình nghiệp vụ
+### Quy trình nghiệp vụ
 
 **Giá thành theo phương pháp hệ số, tỷ lệ**: Áp dụng cho các doanh nghiệp có quy trình sản xuất sử dụng cùng loại nguyên vật liệu chính và tạo ra nhiều sản phẩm/nhóm sản phẩm khác nhau. Trong đó, đối tượng tập hợp chi phí là toàn bộ quy trình công nghệ và đối tượng tính giá thành là từng sản phẩm/nhóm sản phẩm hoàn thành. Ví dụ: doanh nghiệp sản xuất các mặt hàng như sản xuất đá các loại, gạch các loại,…
 
@@ -367,15 +367,15 @@ Lưu ý:
 
 ·     Tính giá thành theo TT200. Chi tiết nghiệp vụ [Tính giá thành theo TT200]()
 
-## Thiết lập định mức PBCP theo đối tượng THCP
+### Thiết lập định mức PBCP theo đối tượng THCP
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 ·    Cho phép nhân viên kế toán giá thành Khai báo định mức phân bổ chi phí theo Đối tượng THCP
 
-### Các bước thực hiện
+#### Các bước thực hiện
 
-#### Áp dụng TT 133
+##### Áp dụng TT 133
 
 Bước 1: Vào phân hệ **Kế toán Giá thành**, Chọn chức năng **Khai báo định mức phân bổ chi phí.** Chọn **Tạo mới**.Màn hình hiển thị thông tin sau:
 
@@ -385,7 +385,7 @@ Bước 1: Vào phân hệ **Kế toán Giá thành**, Chọn chức năng **Kha
 
 **Bước 3:** Bấm Lưu. Sau khi bấm **Lưu**, Bản ghi chuyển trạng thái **Dự thảo**. Để chuyển bản ghi sang trạng thái **Đã hoàn thành** --> Bấm **Xác Nhận**
 
-#### Áp dụng TT 200
+##### Áp dụng TT 200
 
 Bước 1: Vào phân hệ **Kế toán Giá thành**, Chọn chức năng **Khai báo định mức phân bổ chi phí.** Màn hình hiển thị thông tin sau:
 
@@ -397,13 +397,13 @@ Bước 1: Vào phân hệ **Kế toán Giá thành**, Chọn chức năng **Kha
 
 <u>*Lưu ý:*</u> Bản ghi chỉ cho phép **Xóa** ở trạng thái **Dự thảo**. Và bản ghi chỉ sử dụng ở các chức năng khác với trạng thái bản ghi **Đã hoàn thành**
 
-## Thiết lập định mức giá thành 
+### Thiết lập định mức giá thành 
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 ·  Cho phép nhân viên kế toán giá thành Khai báo định mức giá thành
 
-### Các bước thực hiện
+#### Các bước thực hiện
 
 **Bước 1**: Vào Phân hệ **Kế toán giá thành**, Chọn menu **Khai báo định mức giá thành**. Chọn Tạo mới. Màn hình hiển thị thông tin như sau:
 
@@ -421,13 +421,13 @@ Tiếp theo, người dùng thực hiện khai báo từ [Bước 2](Bước 2)
 
 <u>*Lưu ý:*</u> Bản ghi chỉ cho phép **Xóa** ở trạng thái **Dự thảo**. Và bản ghi chỉ sử dụng ở các chức năng khác với trạng thái bản ghi **Đã hoàn thành**
 
-## Thiết lập chi phí dở dang đầu kỳ
+### Thiết lập chi phí dở dang đầu kỳ
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 ·  Cho phép nhân viên kế toán giá thành Khai báo chi phí dở dang đầu kỳ
 
-### Các bước thực hiện
+#### Các bước thực hiện
 
 Bước 1: Vào Phân hệ Kế toán giá thành, Chọn menu Khai báo chi phí dở dang đầu kỳ. Chọn Tạo mới. Màn hình hiển thị thông tin như sau:
 
@@ -447,9 +447,9 @@ Tiếp theo, người dùng thực hiện khai báo từ Bước 2
 
 <u>*Lưu ý:*</u> Bản ghi chỉ cho phép **Xóa** ở trạng thái **Dự thảo**. Và bản ghi chỉ sử dụng ở các chức năng khác với trạng thái bản ghi **Đã hoàn thành**
 
-## Tính giá thành theo TT133
+### Tính giá thành theo TT133
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Cho phép nhân viên kế toán tính giá thành theo từng khoản mục phí 
 
@@ -457,9 +457,9 @@ Thực hiện tính chi phí dở dang đầu kỳ,phát sinh trong kỳ, dở d
 
 Cập nhật giá thành vào Phiếu nhập kho và Phiếu xuất kho
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
-#### Bước 1: Khai báo nguyên vật liệu sản xuất và thành phẩm
+##### Bước 1: Khai báo nguyên vật liệu sản xuất và thành phẩm
 
 Vào **Kế toán Giá thành**, chọn Nhóm **Danh mục,** Chọn chức năng **Sản Phẩm**. Màn hình khai báo hiển thị thông tin như sau:
 
@@ -467,7 +467,7 @@ Vào **Kế toán Giá thành**, chọn Nhóm **Danh mục,** Chọn chức năn
 
 Sau đó, Nhập **Tên sản phẩm**. Chọn Tuyến cung ứng **Sản xuất**. Bấm **Lưu**
 
-#### Bước 2: Khai báo đối tượng tập hợp chi phí
+##### Bước 2: Khai báo đối tượng tập hợp chi phí
 
 Vào **Kế toán Giá thành**, chọn Nhóm **Danh mục,** Chọn chức năng **Đối tượng THCP**. Màn hình khai báo hiển thị thông tin như sau:
 
@@ -482,7 +482,7 @@ Thực hiện nhập dữ liệu:
 
 Bấm **Lưu** bản ghi
 
-#### Bước 3: Xuất kho nguyên vật liệu sản xuất
+##### Bước 3: Xuất kho nguyên vật liệu sản xuất
 
 Bước 3.1. Vào Phân hệ **Kế toán kho**. Chọn Nhóm **Danh mục**. Chọn chức năng Kiểu hoạt động.Bấm **Tạo mới.** Màn hình hiển thị thông tin như sau:
 
@@ -504,11 +504,11 @@ Nhập **Nhu cầu**
 
 Bước 3.5: Bấm **Lưu**. Sau đó bấm Đánh dấu cần làm để chuyển trạng thái bản ghi sang **Sẵn sàng**. Chọn Xác nhận để chuyển trạng thái **Hoàn thành**
 
-#### Bước 4: Hạch toán các chi phí phát sinh
+##### Bước 4: Hạch toán các chi phí phát sinh
 
 Thực hiện hạch toán các chi phí phát sinh liên quan đến việc tính giá thành (Nợ TK 621, 622, 623, 627, 154) có thể được hạch toán trên phân hệ khác với các đối tượng THCP đang tính giá thành
 
-#### Bước 5: Nhập kho thành phẩm sản xuất
+##### Bước 5: Nhập kho thành phẩm sản xuất
 
 Bước 5.1: Vào Phân hệ **Kế toán kho**. Chọn Nhóm **Danh mục**. Chọn chức năng Kiểu hoạt động.Bấm **Tạo mới.** Màn hình hiển thị thông tin như sau:
 
@@ -530,7 +530,7 @@ Bước 5.4: bấm **Lưu**. Sau đó bấm **Đánh dấu cần làm** để b�
 
 Bước 5.5. Bấm **Xác nhận** để chuyển trạng thái bản ghi sang **Hoàn thành**
 
-#### Bước 6: Xác định kỳ tính giá thành
+##### Bước 6: Xác định kỳ tính giá thành
 
 Bước 6.1: Vào Phân hệ **Kế toán giá thành**. Chọn nhóm **Sản xuất liên tục-Hệ số,tỷ lệ**. Chọn **Kỳ tính giá thành**. Bấm **Tạo mới**. Màn hình hiển thị thông tin như sau:
 
@@ -546,7 +546,7 @@ Bước 6.4: Bấm **Xác nhận** để lưu trạng thái **Đang thực hiệ
 
 *<u>**Lưu ý:**</u>* Bản ghi chỉ được phép **Sửa**,**Xóa** khi ở trạng thái **Dự thảo**. Và chỉ được sử dụng khi ở trạng thái **Đang thực hiện**. Không cho phép chuyển bản ghi về trạng thái dự thảo khi bản ghi đang được sử dụng tính toán ở các chức năng khác.
 
-#### Bước 7: Tính giá thành phẩm
+##### Bước 7: Tính giá thành phẩm
 
 - Tính Phân bổ chi phí chung
 
@@ -602,9 +602,9 @@ Lưu ý:
 
 * Trường hợp muốn kiểm tra lại các khoản chi phí trực tiếp, phục vụ cho việc tính giá thành hoặc các khoản chi phí làm giảm giá thành của thành phẩm, kế toán nhấn chuột phải tại màn hình danh sách kỳ tính giá thành và chọn chức năng **Tập hợp chi phí trực tiếp* hoặc **Tập hợp khoản giảm giá thành
 
-## Tính giá thành theo TT200
+### Tính giá thành theo TT200
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Cho phép nhân viên kế toán tính giá thành theo từng khoản mục phí 
 
@@ -612,9 +612,9 @@ Thực hiện tính chi phí dở dang đầu kỳ,phát sinh trong kỳ, dở d
 
 Cập nhật giá thành vào Phiếu nhập kho và Phiếu xuất kho
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
-#### Bước 1: Khai báo nguyên vật liệu sản xuất và thành phẩm
+##### Bước 1: Khai báo nguyên vật liệu sản xuất và thành phẩm
 
 Vào **Kế toán Giá thành**, chọn Nhóm **Danh mục,** Chọn chức năng **Sản Phẩm**. Màn hình khai báo hiển thị thông tin như sau:
 
@@ -622,7 +622,7 @@ Vào **Kế toán Giá thành**, chọn Nhóm **Danh mục,** Chọn chức năn
 
 Sau đó, Nhập **Tên sản phẩm**. Chọn Tuyến cung ứng **Sản xuất**. Bấm **Lưu**
 
-#### Bước 2: Khai báo đối tượng tập hợp chi phí
+##### Bước 2: Khai báo đối tượng tập hợp chi phí
 
 Vào **Kế toán Giá thành**, chọn Nhóm **Danh mục,** Chọn chức năng **Đối tượng THCP**. Màn hình khai báo hiển thị thông tin như sau:
 
@@ -637,7 +637,7 @@ Thực hiện nhập dữ liệu:
 
 Bấm **Lưu** bản ghi
 
-#### Bước 3: Xuất kho nguyên vật liệu sản xuất
+##### Bước 3: Xuất kho nguyên vật liệu sản xuất
 
 Bước 3.1. Vào Phân hệ **Kế toán kho**. Chọn Nhóm **Danh mục**. Chọn chức năng Kiểu hoạt động.Bấm **Tạo mới.** Màn hình hiển thị thông tin như sau:
 
@@ -659,11 +659,11 @@ Nhập **Nhu cầu**
 
 Bước 3.5: Bấm **Lưu**. Sau đó bấm Đánh dấu cần làm để chuyển trạng thái bản ghi sang **Sẵn sàng**. Chọn Xác nhận để chuyển trạng thái **Hoàn thành**
 
-#### Bước 4: Hạch toán các chi phí phát sinh
+##### Bước 4: Hạch toán các chi phí phát sinh
 
 Thực hiện hạch toán các chi phí phát sinh liên quan đến việc tính giá thành (Nợ TK 621, 622, 623, 627, 154) có thể được hạch toán trên phân hệ khác với các đối tượng THCP đang tính giá thành
 
-#### Bước 5: Nhập kho thành phẩm sản xuất
+##### Bước 5: Nhập kho thành phẩm sản xuất
 
 Bước 5.1: Vào Phân hệ **Kế toán kho**. Chọn Nhóm **Danh mục**. Chọn chức năng Kiểu hoạt động.Bấm **Tạo mới.** Màn hình hiển thị thông tin như sau:
 
@@ -685,7 +685,7 @@ Bước 5.4: bấm **Lưu**. Sau đó bấm **Đánh dấu cần làm** để b�
 
 Bước 5.5. Bấm **Xác nhận** để chuyển trạng thái bản ghi sang **Hoàn thành**
 
-#### Bước 6: Xác định kỳ tính giá thành
+##### Bước 6: Xác định kỳ tính giá thành
 
 Bước 6.1: Vào Phân hệ **Kế toán giá thành**. Chọn nhóm **Sản xuất liên tục-Hệ số,tỷ lệ**. Chọn **Kỳ tính giá thành**. Bấm **Tạo mới**. Màn hình hiển thị thông tin như sau:
 
@@ -701,7 +701,7 @@ Bước 6.4: Bấm **Xác nhận** để lưu trạng thái **Đang thực hiệ
 
 *<u>**Lưu ý:**</u>* Bản ghi chỉ được phép **Sửa**,**Xóa** khi ở trạng thái **Dự thảo**. Và chỉ được sử dụng khi ở trạng thái **Đang thực hiện**. Không cho phép chuyển bản ghi về trạng thái dự thảo khi bản ghi đang được sử dụng tính toán ở các chức năng khác.
 
-#### Bước 7: Tính giá thành phẩm
+##### Bước 7: Tính giá thành phẩm
 
 - Tính Phân bổ chi phí chung
 
@@ -757,7 +757,7 @@ Lưu ý:
 
 * Trường hợp muốn kiểm tra lại các khoản chi phí trực tiếp, phục vụ cho việc tính giá thành hoặc các khoản chi phí làm giảm giá thành của thành phẩm, kế toán nhấn chuột phải tại màn hình danh sách kỳ tính giá thành và chọn chức năng **Tập hợp chi phí trực tiếp* hoặc **Tập hợp khoản giảm giá thành
 
-#### Bước 8: Kết chuyển chi phí
+##### Bước 8: Kết chuyển chi phí
 
 Bước 8.1: Vào phân hệ **Kế toán giá thành**. Chọn nhóm **Sản xuất liên tục- Hệ số,tỷ lệ**. Chọn chức năng **Kết chuyển chi phí**. Bấm **Tạo mới**. Màn hình hiển thị các thông tin sau:
 
@@ -769,9 +769,9 @@ Bước 8.3: Bấm **Tính kết chuyển**. Hệ thống tự động thực hi
 
 Bước 8.4: Bấm **Xác nhận** để hạch toán bản ghi
 
-# Tính giá thành Công trình
+## Tính giá thành Công trình
 
-## *Quy trình nghiệp vụ*
+### *Quy trình nghiệp vụ*
 
 **Giá thành công trình**: Áp dụng đối với các doanh nghiệp xây dựng có các công trình như: nhà ở, đường xá,
 cầu đường… với nhiều hạng mục công trình con. Đối tượng tập hợp chi phí sẽ gắn với các các mục con, cuối cùng sẽ được tổng hợp lại thành giá thành chung của cả công trình.
@@ -788,13 +788,13 @@ cầu đường… với nhiều hạng mục công trình con. Đối tượng 
 
 ·     Tính giá thành theo TT200. Chi tiết nghiệp vụ  [Tính giá thành theo TT200]()
 
-## Thiết lập định mức nguyên vật liệu công trình
+### Thiết lập định mức nguyên vật liệu công trình
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khai báo định mức nguyên vật liệu theo từng công trình, phục vụ cho việc đối chiếu báo cáo Bảng so sánh định mức dự toán vật tư (áp dụng với đơn vị tính giá thành theo TT133 và TT200).
 
-### Các bước thực hiện
+#### Các bước thực hiện
 
 **Bước 1**: Vào Menu **Kế toán giá thành\Công trình\Định mức nguyên vật liệu công trình** , người dùng tích vào **Tạo mới** . Màn hình hiển thị thông tin sau:
 
@@ -809,13 +809,13 @@ Khai báo định mức nguyên vật liệu theo từng công trình, phục v�
 
 
 
-## Thiết lập định mức chi phí phân bổ theo công trình
+### Thiết lập định mức chi phí phân bổ theo công trình
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Khai báo định mức chi phí của từng công trình/hạng mục công trình theo từng yếu tố, để phục vụ cho việc phân bổ chi phí chung theo định mức khi tính giá thành theo công trình (chỉ áp dụng với đơn vị tính giá thành theo TT200)
 
-### Các bước thực hiện
+#### Các bước thực hiện
 
 Bước 1: Vào Menu **Kế toán giá thành\Công trình\Định mức nguyên vật liệu công trình** , người dùng tích vào **Tạo mới** . Màn hình hiển thị thông tin sau: 
 
@@ -825,13 +825,13 @@ Bước 2: Người dùng nhập các thông tin trên màn hình. Ở Tab **Dan
 
 Bước 3: Nhấn **Lưu**, nhấn **Xác nhận** , khi đó bản ghi chuyển sang trạng thái **Đã hoàn thành.**
 
-## Thiết lập chi phí dở dang đầu kỳ
+### Thiết lập chi phí dở dang đầu kỳ
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Quản lý chi phí dở dang đầu kỳ cho các công trình/hạng mục công trình của doanh nghiệp (áp dụng với đơn vị tính giá thành theo TT133 và TT200).
 
-### Các bước thực hiện
+#### Các bước thực hiện
 
 **Bước 1**: Vào Menu **Kế toán giá thành\Công trình\Khai báo chi phí dở dang đầu kỳ** , người dùng tích vào **Tạo mới** . Màn hình hiển thị thông tin sau: 
 
@@ -846,13 +846,13 @@ Quản lý chi phí dở dang đầu kỳ cho các công trình/hạng mục cô
 
 **Bước 3**: Nhấn **Lưu**, nhấn **Xác nhận**, khi đó bản ghi **Đã hoàn thành.**
 
-## Dự toán công trình
+### Dự toán công trình
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Cho phép kế toán có thể xây dựng được dự toán chi phí cho từng khoản mục chi phí theo từng công trình. Từ đó xây dựng được các kế hoạch triển khai công trình một cách hiệu quả và khoa học. (Áp dụng cho cả TT133 và TT200).
 
-### Các bước thực hiện
+#### Các bước thực hiện
 
 Bước 1: Vào Menu **Kế toán giá thành\Công trình\Dự toán công trình** , người dùng tích vào **Tạo mới** . Màn hình hiển thị thông tin sau: 
 
@@ -862,15 +862,15 @@ Bước 2: Người dùng nhập các thông tin trên màn hình. Ở Tab **Chi
 
 Bước 3: Nhấn **Lưu**, nhấn **Xác nhận**, khi đó bản ghi **Đã hoàn thành.**
 
-## Tính giá thành theo TT133
+### Tính giá thành theo TT133
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Tính giá thành công trình  đối với các doanh nghiệp áp dụng chế độ kế toán theo TT133.
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
-#### Bước 1: Khai báo nguyên vật liệu
+##### Bước 1: Khai báo nguyên vật liệu
 
 - Vào Menu **Kế toán giá thành\Danh mục\Sản phẩm**, nhấn **Tạo mới**. Màn hình hiển thị như hình dưới:
 
@@ -883,7 +883,7 @@ Tính giá thành công trình  đối với các doanh nghiệp áp dụng ch�
 
 - Nhấn **Lưu,** như vậy đã hoàn thành khai báo nguyên vật liệu.
 
-#### Bước 2: Khai báo công trình
+##### Bước 2: Khai báo công trình
 
 - Vào Menu **Kế toán giá thành\Danh mục\Công trình**, nhấn **Tạo mới**. Màn hình hiển thị như hình dưới:
 
@@ -892,7 +892,7 @@ Tính giá thành công trình  đối với các doanh nghiệp áp dụng ch�
 - Người dùng nhập các thông tin như trên màn hình, nếu là **Hạng mục công trình** thì chọn thông tin tương ứng tại **Thuộc công trình**. (Trường hợp là công trình thì bỏ qua trường này).
 - Nhấn **Lưu**, khi đó khai báo công trình đã hoàn thành.
 
-#### Bước 3: Xuất kho nguyên vật liệu
+##### Bước 3: Xuất kho nguyên vật liệu
 
 - Vào Menu **Kế toán Kho\Nghiệp vụ Kho\Phiếu xuất kho**, nhấn **Tạo mới**. Màn hình hiển thị như hình dưới:
 
@@ -908,12 +908,12 @@ Tính giá thành công trình  đối với các doanh nghiệp áp dụng ch�
 
 - Nhấn **Lưu,** khi đó phiếu xuất kho nguyên vật liệu đã **Hoàn thành**.
 
-#### Bước 4: Hạch toán các chi phí phát sinh
+##### Bước 4: Hạch toán các chi phí phát sinh
 
 - Các chi phí phát sinh liên quan đến việc tính giá thành (chi phí nguyên vật liệu trực tiếp, nhân công trực tiếp, chi phí máy thi công,..) được hạch toán ở các phân hệ: **Kế toán tổng hợp, Kế toán Quỹ, Kế toán ngân hàng**.
 - Khi thực hiện tính giá thành theo TT133, bắt buộc phải chọn thông tin về **Khoản mục chi phí**. Riêng thông tin về **Công trình**, xác định được là chi phí phát sinh cho công trình/hạng mục công trình nào thì tích chọn.
 
-#### Bước 5: Xác định kỳ tính giá thành
+##### Bước 5: Xác định kỳ tính giá thành
 
 - Vào Menu **Kế toán giá thành\Công trình\Kỳ giá thành**, nhấn **Tạo mới**. Màn hình hiển thị như hình dưới: 
 
@@ -924,7 +924,7 @@ Tính giá thành công trình  đối với các doanh nghiệp áp dụng ch�
 - Tab **Đối tượng tập hợp chi phí** tích **Thêm một dòng** để chọn đối tượng tập hợp chi phí (công trình) tập hợp trong kỳ.
 - Nhấn **Lưu,** nhấn **Xác nhận** , bản ghi chuyển trạng thái **Đang thực hiện**. Khi đó bước Khai báo kỳ giá thành đã hoàn thành.
 
-#### Bước 6: Phân bổ chi phí chung
+##### Bước 6: Phân bổ chi phí chung
 
 - Vào Menu **Kế toán giá thành\Công trình\Phân bổ chi phí công trình**, nhấn **Tạo mới**. Màn hình hiển thị như hình dưới:
 
@@ -943,7 +943,7 @@ Tính giá thành công trình  đối với các doanh nghiệp áp dụng ch�
 - Hệ thống sẽ tự động cập nhập lên tab **Phân bổ chi phí chung** ở **Kỳ tính giá thành**.
 - Nhấn vào nút Giá thành, hệ thống sẽ tự động chuyển đến màn hình **Kỳ tính giá thành**.
 
-#### Bước 7: Nghiệm thu công trình
+##### Bước 7: Nghiệm thu công trình
 
 - Vào Menu **Kế toán giá thành\Công trình\Nghiệm thu công trình**, nhấn **Tạo mới**. Màn hình hiển thị như hình dưới:
 
@@ -962,15 +962,15 @@ Tính giá thành công trình  đối với các doanh nghiệp áp dụng ch�
 - Người dùng có thể nhấn vào nút **Giá thành** để chuyển sang màn hình **Kỳ tính giá thành**.
 - Người dùng có thể nhấn vào nút **Bút toán** để chuyển sang màn hình Các bút toàn phát sinh (phân hệ Kế toán tổng hợp).
 
-## Tính giá thành theo TT200
+### Tính giá thành theo TT200
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Tính giá thành công trình  đối với các doanh nghiệp áp dụng chế độ kế toán theo TT200
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
-#### Bước 1: Khai báo nguyên vật liệu
+##### Bước 1: Khai báo nguyên vật liệu
 
 - Vào Menu **Kế toán giá thành\Danh mục\Sản phẩm**, nhấn **Tạo mới**. Màn hình hiển thị như hình dưới:
 
@@ -983,7 +983,7 @@ Tính giá thành công trình  đối với các doanh nghiệp áp dụng ch�
 
 - Nhấn **Lưu,** như vậy đã hoàn thành khai báo nguyên vật liệu.
 
-#### Bước 2: Khai báo công trình
+##### Bước 2: Khai báo công trình
 
 - Vào Menu **Kế toán giá thành\Danh mục\Công trình**, nhấn **Tạo mới**. Màn hình hiển thị như hình dưới:
 
@@ -992,7 +992,7 @@ Tính giá thành công trình  đối với các doanh nghiệp áp dụng ch�
 - Người dùng nhập các thông tin như trên màn hình, nếu là **Hạng mục công trình** thì chọn thông tin tương ứng tại **Thuộc công trình**. (Trường hợp là công trình thì bỏ qua trường này).
 - Nhấn **Lưu**, khi đó khai báo công trình đã hoàn thành.
 
-#### Bước 3: Xuất kho nguyên vật liệu
+##### Bước 3: Xuất kho nguyên vật liệu
 
 - Vào Menu **Kế toán Kho\Nghiệp vụ Kho\Phiếu xuất kho**, nhấn **Tạo mới**. Màn hình hiển thị như hình dưới:
 
@@ -1008,12 +1008,12 @@ Tính giá thành công trình  đối với các doanh nghiệp áp dụng ch�
 
 - Nhấn **Lưu,** khi đó phiếu xuất kho nguyên vật liệu đã **Hoàn thành**.
 
-#### Bước 4: Hạch toán các chi phí phát sinh
+##### Bước 4: Hạch toán các chi phí phát sinh
 
 - Các chi phí phát sinh liên quan đến việc tính giá thành (chi phí nguyên vật liệu trực tiếp, nhân công trực tiếp, chi phí máy thi công,..) được hạch toán ở các phân hệ: **Kế toán tổng hợp, Kế toán Quỹ, Kế toán ngân hàng**.
 - Riêng thông tin về **Công trình**, xác định được là chi phí phát sinh cho công trình/hạng mục công trình nào thì tích chọn.
 
-#### Bước 5: Xác định kỳ tính giá thành
+##### Bước 5: Xác định kỳ tính giá thành
 
 - Vào Menu **Kế toán giá thành\Công trình\Kỳ giá thành**, nhấn **Tạo mới**. Màn hình hiển thị như hình dưới: 
 
@@ -1024,7 +1024,7 @@ Tính giá thành công trình  đối với các doanh nghiệp áp dụng ch�
 - Tab **Đối tượng tập hợp chi phí** tích **Thêm một dòng** để chọn đối tượng tập hợp chi phí (công trình) tập hợp trong kỳ.
 - Nhấn **Lưu,** nhấn **Xác nhận** , bản ghi chuyển trạng thái **Đang thực hiện**. Khi đó bước Khai báo kỳ giá thành đã hoàn thành.
 
-#### Bước 6: Phân bổ chi phí chung
+##### Bước 6: Phân bổ chi phí chung
 
 - Vào Menu **Kế toán giá thành\Công trình\Phân bổ chi phí công trình**, nhấn **Tạo mới**. Màn hình hiển thị như hình dưới:
 
@@ -1043,7 +1043,7 @@ Tính giá thành công trình  đối với các doanh nghiệp áp dụng ch�
 - Hệ thống sẽ tự động cập nhập lên tab **Phân bổ chi phí chung** ở **Kỳ tính giá thành**.
 - Nhấn vào nút Giá thành, hệ thống sẽ tự động chuyển đến màn hình **Kỳ tính giá thành**.
 
-#### Bước 7: Kết chuyển chi phí
+##### Bước 7: Kết chuyển chi phí
 
 - Vào Menu **Kế toán giá thành\Công trình\Kết chuyển chi phí**, nhấn **Tạo mới**. Màn hình hiển thị như hình dưới: 
 
@@ -1053,7 +1053,7 @@ Tính giá thành công trình  đối với các doanh nghiệp áp dụng ch�
 - Nhấn **Tính kết chuyển** , hệ thống tự động đẩy dữ liệu xuống tab **Chi tiết** và cập nhật tại trường Tổng tiền ở tab chung.
 - Nhấn **Lưu,** nhấn **Xác nhận**, bản ghi đã được hạch toán.
 
-#### Bước 8: Nghiệm thu công trình
+##### Bước 8: Nghiệm thu công trình
 
 - Vào Menu **Kế toán giá thành\Công trình\Nghiệm thu công trình**, nhấn **Tạo mới**. Màn hình hiển thị như hình dưới:
 
@@ -1072,9 +1072,9 @@ Tính giá thành công trình  đối với các doanh nghiệp áp dụng ch�
 - Người dùng có thể nhấn vào nút **Giá thành** để chuyển sang màn hình **Kỳ tính giá thành**.
 - Người dùng có thể nhấn vào nút **Bút toán** để chuyển sang màn hình Các bút toàn phát sinh (phân hệ Kế toán tổng hợp).
 
-# Tính giá thành Đơn hàng
+## Tính giá thành Đơn hàng
 
-## *Quy trình nghiệp vụ*
+### *Quy trình nghiệp vụ*
 
 **Giá thành Đơn hàng**: Áp dụng đối với các doanh nghiệp sản xuất theo đơn đặt hàng của khách hàng như: giày da, may mặc, phim ảnh, băng đĩa nhạc… và đối tượng tập hợp chi phí sẽ là các các đơn hàng.
 
@@ -1088,13 +1088,13 @@ Tính giá thành công trình  đối với các doanh nghiệp áp dụng ch�
 
 ·     Tính giá thành theo TT200. Chi tiết nghiệp vụ [Tính giá thành theo TT200]()
 
-## Thiết lập chi phí dở dang đầu kỳ
+### Thiết lập chi phí dở dang đầu kỳ
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Cho phép nhập chi phí dở dang đầu kỳ cho từng đơn hàng
 
-### Các bước thực hiện
+#### Các bước thực hiện
 
 Bước 1: Vào phân hệ **Kế toán Giá Thành**. Chọn Nhóm **Đơn Hàng**. Chọn chức năng **Chi phí dở dang đầu kỳ**. Màn hình hiển thị thông tin như sau:
 
@@ -1106,15 +1106,15 @@ Bước 3: Bấm Lưu để lưu bản ghi trạng thái **Dự thảo**
 
 Bước 4: Bấm Xác nhận để lưu bản ghi trạng thái **Đang thực hiện**
 
-## Tính giá thành theo TT133
+### Tính giá thành theo TT133
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Tính giá thành với các đơn hàng theo Công ty áp dụng thông tư 133
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
-#### Bước 1: Khai báo đơn đặt hàng được sử dụng để THCP khi tính giá thành
+##### Bước 1: Khai báo đơn đặt hàng được sử dụng để THCP khi tính giá thành
 
 Bước 1.1: Vào phân hệ Kế toán giá thành. Chọn Nhóm Đơn hàng. Chọn Đơn bán hàng. Bấm Tạo mới. Màn hình hiển thị thông tin như sau:
 
@@ -1124,11 +1124,11 @@ Bước 1.2: Chọn **Khách hàng**. Chọn **sản phẩm** cho đơn hàng.
 
 Bước 1.3: Bấm **Lưu**
 
-#### Bước 2: Hạch toán các chi phí phát sinh
+##### Bước 2: Hạch toán các chi phí phát sinh
 
 Thực hiện hạch toán các chi phí phát sinh liên quan đến việc tính giá thành (Nợ TK 621, 622, 623, 627, 154) có thể được hạch toán trên phân hệ khác với các đơn hàng đang tính giá thành
 
-#### Bước 3: Xác định kỳ tính giá thành
+##### Bước 3: Xác định kỳ tính giá thành
 
 Vào phân hệ **Kỳ tính giá thành**. Chọn Nhóm **Đơn hàng**. Chọn **Kỳ tính giá thành**. Bấm **Tạo mới**. Màn hình hiển thị thông tin như sau:
 
@@ -1141,7 +1141,7 @@ Bước 5.3: Bấm **Xác nhận** để lưu bản ghi ở trạng thái **Đan
 
 <u>*Lưu ý:*</u>Bản ghi chỉ cho phép sửa xóa ở trạng thái Dự thảo và chỉ cho phép chuyển trạng thái Đang thực hiện về dự thảo khi kỳ tính giá thành không được sử dụng ở các chức năng khác. 
 
-#### Bước 4: Phân bổ chi phí chung
+##### Bước 4: Phân bổ chi phí chung
 
 Vào phân hệ **Kỳ tính giá Thành**. Chọn **Nhóm Đơn hàng**. Chọn **Phân bổ chi phí chung**. Màn hình hiển thị thông tin như sau:
 
@@ -1157,7 +1157,7 @@ Bước 4.3: Bấm Lưu để lưu bản ghi ở trạng thái Dự thảo
 
 Bước 4.4: bấm Xác nhận để lưu bản ghi ở trạng thái Đang thực hiện
 
-#### Bước 5: Nghiệm thu đơn hàng
+##### Bước 5: Nghiệm thu đơn hàng
 
 Vào Phân hệ **Kế toán Giá thành**. Chọn Nhóm **Đơn hàng.** Chọn **Nghiệm thu đơn hàng**. Chọn **Tạo mới**. Màn hình hiển thị thông tin như dưới đây:
 
@@ -1172,15 +1172,15 @@ Bước 5.3: Bấm **Xác nhận** để thực hiện nghiệm thu với bút t
 
 <u>*Lưu ý:*</u> Sau khi nghiệm thu. Hệ thống tự động cập nhật lại số đã nghiệm thu ở Kỳ tính giá thành. Để xem chi tiết số đã nghiệm thu ở màn hình Kỳ tính giá thành
 
-## Tính giá thành theo TT200
+### Tính giá thành theo TT200
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Tính giá thành đơn hàng áp dụng với các công ty theo thông tư 200
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
-#### Bước 1: Khai báo đơn đặt hàng được sử dụng để THCP khi tính giá thành
+##### Bước 1: Khai báo đơn đặt hàng được sử dụng để THCP khi tính giá thành
 
 Bước 1.1: Vào phân hệ Kế toán giá thành. Chọn Nhóm Đơn hàng. Chọn Đơn bán hàng. Bấm Tạo mới. Màn hình hiển thị thông tin như sau:
 
@@ -1190,11 +1190,11 @@ Bước 1.2: Chọn **Khách hàng**. Chọn **sản phẩm** cho đơn hàng.
 
 Bước 1.3: Bấm **Lưu**
 
-#### Bước 2: Hạch toán các chi phí phát sinh
+##### Bước 2: Hạch toán các chi phí phát sinh
 
 Thực hiện hạch toán các chi phí phát sinh liên quan đến việc tính giá thành (Nợ TK 621, 622, 623, 627, 154) có thể được hạch toán trên phân hệ khác với các đơn hàng đang tính giá thành
 
-#### Bước 3: Xác định kỳ tính giá thành
+##### Bước 3: Xác định kỳ tính giá thành
 
 Vào phân hệ **Kỳ tính giá thành**. Chọn Nhóm **Đơn hàng**. Chọn **Kỳ tính giá thành**. Bấm **Tạo mới**. Màn hình hiển thị thông tin như sau:
 
@@ -1207,7 +1207,7 @@ Bước 5.3: Bấm **Xác nhận** để lưu bản ghi ở trạng thái **Đan
 
 <u>*Lưu ý:*</u>Bản ghi chỉ cho phép sửa xóa ở trạng thái Dự thảo và chỉ cho phép chuyển trạng thái Đang thực hiện về dự thảo khi kỳ tính giá thành không được sử dụng ở các chức năng khác. 
 
-#### Bước 4: Phân bổ chi phí chung
+##### Bước 4: Phân bổ chi phí chung
 
 Vào phân hệ **Kỳ tính giá Thành**. Chọn **Nhóm Đơn hàng**. Chọn **Phân bổ chi phí chung**. Màn hình hiển thị thông tin như sau:
 
@@ -1223,7 +1223,7 @@ Bước 4.3: Bấm **Lưu** để lưu bản ghi ở trạng thái **Dự thảo
 
 Bước 4.4: bấm **Xác nhận** để lưu bản ghi ở trạng thái **Đang thực hiện**
 
-#### **Bước 4: Kết chuyển chi phí**
+##### **Bước 6: Kết chuyển chi phí**
 
 Bước 4.1: Vào phân hệ **Kế toán giá thành**. Chọn nhóm **Đơn hàng**. Chọn chức năng **Kết chuyển chi phí**. Bấm **Tạo mới**. Màn hình hiển thị các thông tin sau:
 
@@ -1237,7 +1237,7 @@ Bước 8.3: Bấm **Tính kết chuyển**. Hệ thống tự động thực hi
 
 Bước 8.4: Bấm **Xác nhận** để hạch toán bản ghi.
 
-#### Bước 5: Nghiệm thu đơn hàng
+##### Bước 5: Nghiệm thu đơn hàng
 
 Vào Phân hệ **Kế toán Giá thành**. Chọn Nhóm **Đơn hàng.** Chọn **Nghiệm thu đơn hàng**. Chọn **Tạo mới**. Màn hình hiển thị thông tin như dưới đây:
 
@@ -1252,9 +1252,9 @@ Bước 5.3: Bấm **Xác nhận** để thực hiện nghiệm thu với bút t
 
 <u>*Lưu ý:*</u> Sau khi nghiệm thu. Hệ thống tự động cập nhật lại số đã nghiệm thu ở Kỳ tính giá thành. Để xem chi tiết số đã nghiệm thu ở màn hình Kỳ tính giá thành
 
-# Tính giá thành Hợp đồng
+## Tính giá thành Hợp đồng
 
-## *Quy trình nghiệp vụ*
+### *Quy trình nghiệp vụ*
 
 **Giá thành Hợp đồng**: Áp dụng đối với các doanh nghiệp sản xuất theo hợp đồng, với đối tượng tập hợp chi phí sẽ là các các hợp đồng cụ thể. Thông thường mục đích của việc tính giá thành theo hợp đồng là để xác định giá trị của thương vụ là bao nhiêu, không quan tâm đến đơn giá của từng hàng hoá trên sản phẩm. 
 
@@ -1268,13 +1268,13 @@ Bước 5.3: Bấm **Xác nhận** để thực hiện nghiệm thu với bút t
 
 ·     Tính giá thành theo TT200. Chi tiết nghiệp vụ [Tính giá thành theo TT200]()
 
-## Thiết lập chi phí dở dang đầu kỳ
+### Thiết lập chi phí dở dang đầu kỳ
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 ·    Cho phép nhập chi phí dở dang đầu kỳ cho từng hợp đồng
 
-### Các bước thực hiện
+#### Các bước thực hiện
 
 **Bước 1:** Khai báo hợp đồng được sử dụng để THCP khi tính giá thành
 
@@ -1311,17 +1311,17 @@ Bước 5.3: Bấm **Xác nhận** để thực hiện nghiệm thu với bút t
 
 **Bước 4:** Nhấn **Xác nhận**
 
-## Tính giá thành theo TT133
+### Tính giá thành theo TT133
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Áp dụng đối với các doanh nghiệp sản xuất theo hợp đồng, với đối tượng tập hợp chi phí sẽ là các hợp đồng cụ thể. Thông thường mục đích của việc tính giá thành theo hợp đồng là để xác định giá trị của thương vụ là bao nhiêu, không quan tâm đến đơn giá của từng hàng hoá trên sản phẩm. Ví dụ: Có hợp đồng đặt 5 bức tranh hoa, 5 bức tranh chữ và 5 bức tranh chân dung, sau khi tính giá xong thì toàn bộ số tranh này sẽ được bàn giao thẳng cho khách hàng mà không nhập kho. 
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 Đối với các doanh nghiệp áp dụng theo **TT133**, việc tính giá thành theo **Hợp đồng** được thực hiện qua các bước sau:
 
-#### Bước 1: Hạch toán các chi phí phát sinh
+##### Bước 1: Hạch toán các chi phí phát sinh
 
 Các chi phí phát sinh liên quan đến việc tính giá thành (Nợ 154) có thể được hoạch toán trên phân hệ **Quỹ, Ngân hàng** hoặc **Tổng hợp**
 
@@ -1329,7 +1329,7 @@ Các chi phí phát sinh liên quan đến việc tính giá thành (Nợ 154) c
 
 **Lưu ý:** Khi thực hiện tính giá thành theo TT133, bắt buộc phải chọn thông tin về **Khoản mục CP**. Riêng thông tin về **Hợp đồng**, sẽ chọn nếu xác định được là chi phí phát sinh cho hợp đồng nào và bỏ trống nếu chưa xác định được hợp đồng.
 
-#### Bước 2: Xác định kỳ tính giá thành
+##### Bước 2: Xác định kỳ tính giá thành
 
 - Vào phân hệ **Kế toán giá thành\Hợp đồng\Kỳ tính giá thành** chọn **Tạo** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 - Khai báo khoảng thời gian tính giá thành
@@ -1345,7 +1345,7 @@ Các chi phí phát sinh liên quan đến việc tính giá thành (Nợ 154) c
 
 ​	**·** Sử dụng chức năng **Thêm một dòng/Xoá** để chọn bổ sung hoặc xoá xác hợp đồng bán trên danh sách.
 
-#### Bước 3: Phân bổ chi phí chung
+##### Bước 3: Phân bổ chi phí chung
 
 - Vào phân hệ **Kế toán giá thành\Hợp đồng\Phân bổ chi phí chung** chọn **Tạo** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống).
 - Chọn kỳ tính giá thành và nhấn **Lấy dữ liệu**, chương trình sẽ tổng hợp các chứng từ xuất kho NVL, hoạch toán chi phí lương, chi phí sản xuất chung có hoạch toán nợ TK154, chọn **Khoản mục CP** nhưng chưa chọn **Hợp đồng** để thực hiện việc phân bổ.
@@ -1367,7 +1367,7 @@ Các chi phí phát sinh liên quan đến việc tính giá thành (Nợ 154) c
 
 ​		**·** Sau khi tính phân bổ xong, có thể kiểm tra thông tin chung được phân bổ trên tab **Phân bổ** chi phí chung của màn hình **kỳ tính giá thành**.
 
-#### Bước 4: Nghiệm thu hợp đồng
+##### Bước 4: Nghiệm thu hợp đồng
 
 - Vào phân hệ **Kế toán giá thành\Hợp đồng\Nghiệm thu hợp đồng** chọn **Tạo** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống).
 - Chọn **Kỳ tính giá  thành**.
@@ -1386,15 +1386,15 @@ Các chi phí phát sinh liên quan đến việc tính giá thành (Nợ 154) c
 
 - Nhấn **Xác nhận**
 
-## Tính giá thành theo TT200
+### Tính giá thành theo TT200
 
-### Mô tả nghiệp vụ
+#### Mô tả nghiệp vụ
 
 Áp dụng đối với các doanh nghiệp sản xuất theo hợp đồng, với đối tượng tập hợp chi phí sẽ là các hợp đồng cụ thể. Thông thường mục đích của việc tính giá thành theo hợp đồng là để xác định giá trị của thương vụ là bao nhiêu, không quan tâm đến đơn giá của từng hàng hoá trên sản phẩm. Ví dụ: Có hợp đồng đặt 5 bức tranh hoa, 5 bức tranh chữ và 5 bức tranh chân dung, sau khi tính giá xong thì toàn bộ số tranh này sẽ được bàn giao thẳng cho khách hàng mà không nhập kho. 
 
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
-#### Bước 1: Hạch toán các chi phí phát sinh
+##### Bước 1: Hạch toán các chi phí phát sinh
 
 Các chi phí phát sinh liên quan đến việc tính giá thành (Nợ TK 621, 622, 627, 154) có thể hoạch toán trên phân hệ **Quỹ, Ngân hàng** hoặc **Tổng hợp.**
 
@@ -1404,7 +1404,7 @@ Các chi phí phát sinh liên quan đến việc tính giá thành (Nợ TK 621
 
 **Lưu ý:** Khi hoạch toán các chứng từ chi phí phát sinh nếu xác định được là chi phí phát sinh cho hợp đồng nào, thì chọn thông tin tại cột **Hợp đồng bán** hoặc bỏ trống nếu chưa xác định được hợp đồng nào.
 
-#### Bước 2: Xác định kỳ tính giá thành
+##### Bước 2: Xác định kỳ tính giá thành
 
 - Vào phân hệ **Kế toán giá thành\Hợp đồng\Kỳ tính giá thành** chọn **Tạo** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 - Khai báo khoảng thời gian tính giá thành
@@ -1420,7 +1420,7 @@ Các chi phí phát sinh liên quan đến việc tính giá thành (Nợ TK 621
 
 ​	**·** Sử dụng chức năng **Thêm một dòng/Xoá** để chọn bổ sung hoặc xoá xác hợp đồng bán trên danh sách.
 
-#### Bước 3: Phân bổ chi phí chung
+##### Bước 3: Phân bổ chi phí chung
 
 - Vào phân hệ **Kế toán giá thành\Hợp đồng\Phân bổ chi phí chung** chọn **Tạo** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống).
 - Chọn kỳ tính giá thành và nhấn **Lấy dữ liệu**, chương trình sẽ tổng hợp các chứng từ xuất kho NVL (TK 621), hoạch toán chi phí lương (TK 622), chi phí sản xuất chung (627), chưa có thông tin **Hợp đồng** để thực hiện việc phân bổ
@@ -1440,7 +1440,7 @@ Các chi phí phát sinh liên quan đến việc tính giá thành (Nợ TK 621
 
 ​		**·** Sau khi tính phân bổ xong, có thể kiểm tra thông tin chung được phân bổ trên tab **Phân bổ** chi phí chung của màn hình **kỳ tính giá thành**.
 
-#### Bước 4: Kết chuyển chi phí
+##### Bước 4: Kết chuyển chi phí
 
 - Vào phân hệ **Kế toán giá thành\Hợp đồng\Kết chuyển chi phí** chọn **Tạo** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống).
 - Nhập đầy đủ thông tin: Đơn vị, Sổ nhật ký, Bút toán kết chuyển
@@ -1451,7 +1451,7 @@ Các chi phí phát sinh liên quan đến việc tính giá thành (Nợ TK 621
 
 - Nhấn **Xác nhận** để lưu các bút toán kết chuyển 
 
-#### Bước 8: Nghiệm thu hợp đồng
+##### Bước 6: Nghiệm thu hợp đồng
 
 - Vào phân hệ **Kế toán giá thành\Hợp đồng\Nghiệm thu hợp đồng** chọn **Tạo** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống).
 - Chọn **Kỳ tính giá  thành**.
