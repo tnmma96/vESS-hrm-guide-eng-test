@@ -48,7 +48,7 @@
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas-introduction/">Trang chủ</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../..">Trang chủ</a>
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">Đăng ký, đăng nhập</span></p>
@@ -95,12 +95,62 @@
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-danh-muc-new/">Khai báo danh mục</a>
                     </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-TM/">Tiền mặt</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
                     </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-NH/">Tiền gửi</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
                     </li>
                     <li class="toctree-l1 current"><a class="reference internal current" href="./">Mua hàng</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#yeu-cau-bao-gia">Yêu cầu báo giá</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#lap-yeu-cau-bao-gia-gui-nha-cung-cap">Lập yêu cầu báo giá gửi Nhà cung cấp</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#xac-nhan-on-hang-tu-nha-cung-cap">Xác nhận Đơn hàng từ Nhà cung cấp</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#hop-ong-mua-hang">Hợp đồng mua hàng</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_1">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#lap-hop-ong-mua-hang">Lập Hợp đồng mua hàng</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#quan-ly-hop-ong-mua">Quản lý hợp đồng mua</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#on-mua-hang">Đơn mua hàng</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_2">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#on-mua-hang-tu-yeu-cau-bao-gia">Đơn mua hàng từ yêu cầu báo giá</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#on-mua-hang-tu-lenh-san-xuat">Đơn mua hàng từ Lệnh sản xuất</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#hoa-on-mua-hang">Hóa đơn mua hàng</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_3">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tao-hoa-on-tu-on-mua-hang">Tạo hóa đơn từ Đơn mua hàng</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#thanh-toan-cho-nha-cung-cap">Thanh toán cho Nhà cung cấp</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#phan-bo-chi-phi">Phân bổ chi phí</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#hoa-on-giam-giatra-lai-hang-mua">Hóa đơn giảm giá/trả lại hàng mua</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_4">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tao-hoa-on-giam-giatra-lai-hang">Tạo hóa đơn giảm giá/trả lại hàng</a>
+    </li>
+        </ul>
+    </li>
     </ul>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-ban-hang/">Bán hàng</a>
@@ -108,8 +158,6 @@
                     <li class="toctree-l1"><a class="reference internal" href="../fin-ke-toan-tong-hop/">Kế toán</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-kho/">Kho vận</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../fin-giathanh/">Giá thành</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-tscd/">Tài sản cố định</a>
                     </li>
@@ -233,8 +281,8 @@
 <p>·     Lập Đơn mua hàng gửi Nhà cung cấp. Chi tiết nghiệp vụ <a href="#_Xác_nhận_Đơn"><strong>tại đây</strong></a></p>
 <p>·     Mua hàng trong nước về nhập kho. Chi tiết nghiệp vụ <a href="#_Mua_hàng_trong"><strong>tại đây</strong></a></p>
 <p>·     Mua hàng hóa nhập khẩu về nhập kho. Chi tiết nghiệp vụ <a href="#_Mua_hàng_hóa"><strong>tại đây</strong></a></p>
-<h1 id="yeu-cau-bao-gia"><strong>Yêu cầu báo giá</strong></h1>
-<h2 id="mo-ta-nghiep-vu"><strong>Mô tả nghiệp vụ</strong></h2>
+<h2 id="yeu-cau-bao-gia"><strong>Yêu cầu báo giá</strong></h2>
+<h3 id="mo-ta-nghiep-vu"><strong>Mô tả nghiệp vụ</strong></h3>
 <p>Khi đơn vị có nhu cầu mua hàng, lập yêu cầu mua hàng thì quy trình thực hiện như sau:</p>
 <ul>
 <li>Trưởng bộ phận có nhu cầu mua hàng trình Giám đốc đề nghị mua hàng kèm với đề xuất về nhà cung cấp (nếu có.</li>
@@ -249,7 +297,7 @@
 <p>·     Xác nhận Đơn hàng từ Nhà cung cấp. Chi tiết nghiệp vụ <a href="#Xác nhận Đơn hàng từ Nhà cung cấp"><strong>tại đây</strong></a></p>
 <p><strong>Xem video hướng dẫn</strong></p>
 <p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
-<h2 id="lap-yeu-cau-bao-gia-gui-nha-cung-cap"><strong>Lập yêu cầu báo giá gửi Nhà cung cấp</strong></h2>
+<h3 id="lap-yeu-cau-bao-gia-gui-nha-cung-cap"><strong>Lập yêu cầu báo giá gửi Nhà cung cấp</strong></h3>
 <p><strong>Lập yêu cầu báo giá</strong></p>
 <p>·     Khi Ban GĐ/Quản lý phê duyệt kế hoạch mua hàng; bộ phận mua hàng thực hiện lập Yêu cầu báo giá gửi cho Nhà cung cấp. Theo dõi phản hồi của nhà cung cấp về yêu cầu báo giá.</p>
 <p><strong>Đối tượng thực hiện :</strong> Nhân viên bộ phận mua hàng </p>
@@ -276,7 +324,7 @@
 <p><strong>Bước 3</strong>: Nhấn <strong>Lưu</strong></p>
 <p><strong>Bước 4</strong>: Thực hiện In yêu cầu báo giá: kiểm tra thông tin dữ liệu trên mẫu yêu cầu báo giá và tùy chỉnh thông tin Mẫu yêu cầu</p>
 <p><strong>Bước 5</strong>: Thực hiện Gửi Email đến nhà cung cấp sau khi hoàn thành Yêu cầu báo giá</p>
-<h2 id="xac-nhan-on-hang-tu-nha-cung-cap"><strong>Xác nhận Đơn hàng từ Nhà cung cấp</strong></h2>
+<h3 id="xac-nhan-on-hang-tu-nha-cung-cap"><strong>Xác nhận Đơn hàng từ Nhà cung cấp</strong></h3>
 <p><strong>Xác nhận Đơn hàng</strong></p>
 <p>·     Các đơn hàng được Nhà cung cấp trả hàng theo Yêu cầu báo giá đã gửi, bộ phận mua hàng/kho thực hiện xác nhận về kho của công ty</p>
 <p><strong>Đối tượng thực hiện :</strong> Nhân viên bộ phận mua hàng</p>
@@ -292,8 +340,8 @@
 <li>Sau khi thực hiện Xác nhận đơn hàng, chương trình tự động tạo ra một Phiếu nhập kho bên Phân hệ Quản lý kho</li>
 <li>Yêu cầu báo giá được thực hiện Xác nhận đơn hàng: Sẽ không được hiển thị trên Danh sách Yêu cầu báo giá.</li>
 </ul>
-<h1 id="hop-ong-mua-hang"><strong>Hợp đồng mua hàng</strong></h1>
-<h2 id="mo-ta-nghiep-vu_1"><strong>Mô tả nghiệp vụ</strong></h2>
+<h2 id="hop-ong-mua-hang"><strong>Hợp đồng mua hàng</strong></h2>
+<h3 id="mo-ta-nghiep-vu_1"><strong>Mô tả nghiệp vụ</strong></h3>
 <p>Hợp đồng mua hàng được thực hiện sau luồng Yêu cầu báo giá gửi nhà cung cấp được hoàn thành:</p>
 <ul>
 <li>Ban giám đốc phê duyệt về kế hoạch mua hàng; phê duyệt Nhà cung cấp mua hàng cùng với Hàng hóa, số lượng, đơn giá cho đợt mua</li>
@@ -308,7 +356,7 @@
 <p>·     Quản lý Hợp đồng mua. Chi tiết nghiệp vụ <a href="#Đơn mua hàng từ Lệnh sản xuất"><strong>tại đây</strong></a></p>
 <p><strong>Xem video hướng dẫn</strong></p>
 <p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
-<h2 id="lap-hop-ong-mua-hang"><strong>Lập Hợp đồng mua hàng</strong></h2>
+<h3 id="lap-hop-ong-mua-hang"><strong>Lập Hợp đồng mua hàng</strong></h3>
 <p><strong>Hợp đồng mua hàng</strong></p>
 <p>·     Hợp đồng mua hàng được lập để theo dõi tình hình cung cấp hàng, tình hình thanh toán cho Nhà cung cấp</p>
 <p><strong>Đối tượng thực hiện :</strong> Nhân viên bộ phận mua hàng và Kế toán thanh toán</p>
@@ -338,7 +386,7 @@
 <ul>
 <li>Để nhập nhanh Hợp đồng: Kế toán thực hiện chọn <strong>Đơn đặt hàng</strong>: Khi đó thông tin về Nhà cung cấp và Danh sách hàng hóa được lấy mặc định theo Đơn đặt hàng</li>
 </ul>
-<h2 id="quan-ly-hop-ong-mua"><strong>Quản lý hợp đồng mua</strong></h2>
+<h3 id="quan-ly-hop-ong-mua"><strong>Quản lý hợp đồng mua</strong></h3>
 <p><strong>Quản lý Hợp đồng mua hàng</strong></p>
 <p>·     Kế toán theo dõi và cập nhật thông tin Trạng thái của Hợp đồng, đồng thời theo dõi tình hình cung cấp hàng theo hợp đồng, tình hình thanh toán tiền và nhận các hóa đơn mua vào</p>
 <p><strong>Đối tượng thực hiện :</strong> Kế toán thanh toán</p>
@@ -349,8 +397,8 @@
 <li>Thực hiện cập nhật trạng thái thực của Hợp đồng theo từng đơn hàng: Chưa thực hiện, Đang thực hiện, Thanh lý hoặc Huỷ bỏ</li>
 <li>Theo dõi các thông tin về Tổng thu/Tổng chi tương ứng của Hợp đồng; Xem chi tiết theo từng giao dịch</li>
 </ul>
-<h1 id="on-mua-hang"><strong>Đơn mua hàng</strong></h1>
-<h2 id="mo-ta-nghiep-vu_2"><strong>Mô tả nghiệp vụ</strong></h2>
+<h2 id="on-mua-hang"><strong>Đơn mua hàng</strong></h2>
+<h3 id="mo-ta-nghiep-vu_2"><strong>Mô tả nghiệp vụ</strong></h3>
 <p>Đơn mua hàng được thực hiện sau luồng Yêu cầu báo giá gửi nhà cung cấp được hoàn thành:</p>
 <ul>
 <li>Ban giám đốc phê duyệt về kế hoạch mua hàng</li>
@@ -364,7 +412,7 @@
 <p>·     Đơn mua hàng từ Lệnh sản xuất. Chi tiết nghiệp vụ <a href="#Đơn mua hàng từ Lệnh sản xuất"><strong>tại đây</strong></a></p>
 <p><strong>Xem video hướng dẫn</strong></p>
 <p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
-<h2 id="on-mua-hang-tu-yeu-cau-bao-gia"><strong>Đơn mua hàng từ yêu cầu báo giá</strong></h2>
+<h3 id="on-mua-hang-tu-yeu-cau-bao-gia"><strong>Đơn mua hàng từ yêu cầu báo giá</strong></h3>
 <p><strong>Đơn mua hàng</strong></p>
 <p>·     Được thực hiện sau khi lựa chọn giá cả và Nhà cung cấp đã được Phê duyệt.</p>
 <p>·     Bộ phận mua hàng thực hiện lập đơn mua hàng theo thỏa thuận với nhà cung cấp để chốt lại hàng hóa, số lượng, giá cả, hạn thanh toán, hạn giao hàng, địa điểm giao hàng</p>
@@ -397,7 +445,7 @@
 <ul>
 <li>Nhấn <strong>Xác nhận</strong> Số lượng đã nhập từ Nhà cung cấp: Hệ thống tạo ra Phiếu nhập kho tương ứng với Đơn hàng đã nhận về</li>
 </ul>
-<h2 id="on-mua-hang-tu-lenh-san-xuat"><strong>Đơn mua hàng từ Lệnh sản xuất</strong></h2>
+<h3 id="on-mua-hang-tu-lenh-san-xuat"><strong>Đơn mua hàng từ Lệnh sản xuất</strong></h3>
 <p><strong>Đơn mua hàng</strong></p>
 <p>Khi có yêu cầu xuất kho vật tư hàng hóa để lắp ráp thành thành phẩm, thông thường sẽ phát sinh các hoạt động sau</p>
 <p>·     Căn cứ vào đơn hàng của khách hàng, trưởng bộ phận bán hàng hoặc bộ phận kho lập lệnh sản xuất</p>
@@ -437,8 +485,8 @@
 <ul>
 <li>Nhấn <strong>Xác nhận</strong> Số lượng đã nhập từ Nhà cung cấp: Hệ thống tạo ra Phiếu nhập kho tương ứng với Đơn hàng đã nhận về</li>
 </ul>
-<h1 id="hoa-on-mua-hang"><strong>Hóa đơn mua hàng</strong></h1>
-<h2 id="mo-ta-nghiep-vu_3"><strong>Mô tả nghiệp vụ</strong></h2>
+<h2 id="hoa-on-mua-hang"><strong>Hóa đơn mua hàng</strong></h2>
+<h3 id="mo-ta-nghiep-vu_3"><strong>Mô tả nghiệp vụ</strong></h3>
 <p>Đơn mua hàng được thực hiện sau luồng Yêu cầu báo giá gửi nhà cung cấp được hoàn thành:</p>
 <ul>
 <li>Nhà cung cấp thực hiện giao hàng, hàng về đến công ty, phân xưởng sản xuất, công trường, kế toán mua hàng nhận hàng và bàn giao cho bộ phận sử dụng</li>
@@ -450,7 +498,7 @@
 <p><strong>Luồng chức năng chính</strong></p>
 <p>·     Tạo hóa đơn từ Đơn mua hàng. Chi tiết nghiệp vụ <strong><a href="#Tạo hóa đơn từ Đơn mua hàng">tại đây</a></strong></p>
 <p>·     Đơn mua hàng từ Lệnh sản xuất. Chi tiết nghiệp vụ <a href="#Đơn mua hàng từ Lệnh sản xuất"><strong>tại đây</strong></a></p>
-<h2 id="tao-hoa-on-tu-on-mua-hang"><strong>Tạo hóa đơn từ Đơn mua hàng</strong></h2>
+<h3 id="tao-hoa-on-tu-on-mua-hang"><strong>Tạo hóa đơn từ Đơn mua hàng</strong></h3>
 <p><strong>Tạo hóa đơn</strong></p>
 <p>·     Sau khi hàng hóa được nhận từ Nhà cung cấp, Kế toán mua hàng căn cứ vào hóa đơn chứng từ của Nhà cung cấp để thực hiện Tạo hóa đơn mua hàng</p>
 <p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
@@ -468,7 +516,7 @@
 </ul>
 <p><em>[Bổ sung hình ảnh]</em></p>
 <p><strong>Bước 4:</strong> Nhân viên Kế toán thực hiện nhấn Xác nhận </p>
-<h2 id="thanh-toan-cho-nha-cung-cap"><strong>Thanh toán cho Nhà cung cấp</strong></h2>
+<h3 id="thanh-toan-cho-nha-cung-cap"><strong>Thanh toán cho Nhà cung cấp</strong></h3>
 <p><strong>Ghi nhận thanh toán</strong></p>
 <p>·     Sau khi thực hiện Nhận hàng từ Nhà cung cấp, đơn vị thực hiện kiểm tra thông tin đơn hàng và tiến hành Thanh toán cho Nhà cung cấp.</p>
 <p>·     Việc thanh toán có thể ghi nhận thực hiện nhiều lần.</p>
@@ -486,7 +534,7 @@
 </ul>
 <p><em>[Hình]</em></p>
 <p><strong>Bước 3:</strong> Nhấn <strong>Lưu</strong></p>
-<h2 id="phan-bo-chi-phi"><strong>Phân bổ chi phí</strong></h2>
+<h3 id="phan-bo-chi-phi"><strong>Phân bổ chi phí</strong></h3>
 <p><strong>Phân bổ chi phí</strong></p>
 <p>·     Với các Đơn hàng có phát sinh chi phí dịch vụ, sau khi đã xác nhận hàng và hóa đơn của Nhà cung cấp, kế toán thực hiện Phân bổ chi phí cho các Phí dịch vụ trong quá trình Mua hàng</p>
 <p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
@@ -494,8 +542,8 @@
 <li>Vào phân hệ <strong>Mua hàng</strong>, Chọn <strong>Đơn mua hàng</strong> đã hoàn thành Nhận hàng từ Nhà cung cấp và Nhấn <strong>Tạo hóa đơn</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</li>
 <li>Nhân viên kế toán khai báo thông tin Chi phí dịch vụ cho Đơn mua hàng và thực hiện phân bổ các Chi phí dịch vụ phát sinh</li>
 </ol>
-<h1 id="hoa-on-giam-giatra-lai-hang-mua"><strong>Hóa đơn giảm giá/trả lại hàng mua</strong></h1>
-<h2 id="mo-ta-nghiep-vu_4"><strong>Mô tả nghiệp vụ</strong></h2>
+<h2 id="hoa-on-giam-giatra-lai-hang-mua"><strong>Hóa đơn giảm giá/trả lại hàng mua</strong></h2>
+<h3 id="mo-ta-nghiep-vu_4"><strong>Mô tả nghiệp vụ</strong></h3>
 <p>Khi phát hiện hàng mua về không đúng quy cách, chất lượng như đã thỏa thuận ban đầu.... thì đơn vị thực hiện trả lại hàng:</p>
 <ul>
 <li>Đơn vị và nhà cung cấp sẽ thỏa thuận với nhau và lập biên bản về việc trả lại hàng.</li>
@@ -505,7 +553,7 @@
 <p><strong>Luồng chức năng chính</strong></p>
 <p>·     Tạo hóa đơn giảm giá/trả lại hàng. Chi tiết nghiệp vụ <strong><a href="#Tạo hóa đơn từ Đơn mua hàng">tại đây</a></strong></p>
 <p>·     Đơn mua hàng từ Lệnh sản xuất. Chi tiết nghiệp vụ <a href="#Đơn mua hàng từ Lệnh sản xuất"><strong>tại đây</strong></a></p>
-<h2 id="tao-hoa-on-giam-giatra-lai-hang"><strong>Tạo hóa đơn giảm giá/trả lại hàng</strong></h2>
+<h3 id="tao-hoa-on-giam-giatra-lai-hang"><strong>Tạo hóa đơn giảm giá/trả lại hàng</strong></h3>
 <p><strong>Tạo hóa đơn</strong></p>
 <p>·     Sau khi hoàn thành việc thỏa thuận với Nhà cung cấp về các mặt hàng không đảm bảo, kế toán thực hiện Lập Hóa đơn giảm giá/trả lại hàng cho Nhà cung cấp</p>
 <p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
@@ -535,7 +583,7 @@
         <a href="../fin-ban-hang/" class="btn btn-neutral float-right" title="Bán hàng">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../fin-tien-NH/" class="btn btn-neutral" title="Tiền gửi"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../fin-tien-NH/" class="btn btn-neutral" title="Quản lý tiền - Tiền gửi"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
