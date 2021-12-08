@@ -1,9 +1,8 @@
-# Đăng nhập Google+
-### Quy trình nghiệp vụ
+# Quy trình nghiệp vụ
 
 Đăng nhập bằng G+ là tính năng hỗ trợ người dùng đăng nhập hệ thống bằng tài khoản gmail qua xác thực G+, giảm thiểu thời gian nhập user/password trên màn hình đăng nhập truyền thống.
 
-#### Quy trình
+**Quy trình**
 
 ![](picture/PIC_DW_DangNhapG_QuyTrinh.png)
 
@@ -11,7 +10,7 @@
 
 * Đăng nhập bằng G+. Chi tiết nghiệp vụ <u>[tại đây](#ang-nhap-bang-g)</u>.
 
-#### Mô tả nghiệp vụ
+**Mô tả nghiệp vụ**
 
 Người dùng có nhu cầu đăng nhập nhanh hơn mà không cần nhập user/password nhiều lần, có thể thực hiện đăng nhập bằng G+ qua quy trình đơn giản như sau:
 
@@ -23,7 +22,7 @@ Người dùng có nhu cầu đăng nhập nhanh hơn mà không cần nhập us
 
 * Đăng nhập bằng G+. Chi tiết nghiệp vụ <u>[tại đây](#ang-nhap-bang-g)</u>.
 
-### Đăng nhập bằng G+
+## **Đăng nhập bằng G+**
 
 **Đối tượng thực hiện:** Người dùng
 

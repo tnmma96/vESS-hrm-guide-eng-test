@@ -1,8 +1,8 @@
-### Quy trình nghiệp vụ
+# Quy trình nghiệp vụ
 
 Quản lý toàn bộ quá trình tạo dựng trang Web: Từ thiết lập chủ đề trang Web, Cấu hình quản lý truy cập, phân tích thông tin. Đồng thời, cho phép người dùng Viết bài, Đăng bài, Xem bài viết trên trang Web và quản lý lượng Khách truy cập website.
 
-#### Quy trình
+**Quy trình**
 
 ![](picture/PIC_DW_Website_Motaquytrinh.png)
 
@@ -14,17 +14,15 @@ Quản lý toàn bộ quá trình tạo dựng trang Web: Từ thiết lập ch�
 
 * Quản lý Khách truy cập trang Web. Chi tiết nghiệp vụ <u>[tại đây](#theo-doi-luong-khach-truy-cap-trang-web)</u>.
 
-#### Mô tả nghiệp vụ
+## **Thiết lập trang Web**
 
-Khi có nhu cầu tạo dựng một trang Web, người dùng thực hiện các bước theo quy trình sau:
+Quản trị viên thiết lập trang chủ, tạo dựng bộ khung ban đầu để hình thành nên trang Web.
 
-1. Quản trị viên thiết lập, tạo dựng bố cục và cấu hình trang Web.
+**Đối tượng thực hiện:** Quản trị viên
 
-2. Sau khi đã có giao diện hoàn chỉnh, người dùng có thể vào viết bài, đăng bài trên Website.
+**Mô tả nghiệp vụ**
 
-4. Các bài viết tạo dựng thành blog và người dùng có thể vào xem bài viết đã được đăng tải trên Website.
-
-5. Để quản lý tốt, Quản trị viên sẽ vào theo dõi Lượt xem lượng Khách truy cập trang Web để phát triển Website đúng hướng.
+Khi có nhu cầu tạo dựng một trang Web, Quản trị viên thiết lập, tạo dựng bố cục và cấu hình trang Web.
 
 **Luồng chức năng chính**
 
@@ -34,21 +32,7 @@ Khi có nhu cầu tạo dựng một trang Web, người dùng thực hiện cá
 
 * Thiết lập menu. Chi tiết nghiệp vụ <u>[tại đây](#thiet-lap-menu)</u>.
 
-* Viết bài và Đăng bài. Chi tiết nghiệp vụ <u>[tại đây](#viet-bai-va-ang-bai)</u>.
-
-* Xem chi tiết bài viết trên Website. Chi tiết nghiệp vụ <u>[tại đây](#xem-bai-viet-tren-trang-web)</u>.
-
-* Theo dõi Khách truy cập. Chi tiết nghiệp vụ <u>[tại đây](#theo-doi-khach-truy-cap)</u>
-
-* Theo dõi Lượt xem trang Web. Chi tiết nghiệp vụ <u>[tại đây](#theo-doi-luot-xem-trang-web)</u>.
-
-### Thiết lập trang Web
-
-Quản trị viên thiết lập trang chủ, tạo dựng bộ khung ban đầu để hình thành nên trang Web.
-
-**Đối tượng thực hiện:** Quản trị viên
-
-#### Chọn chủ đề cho trang Web
+### **Chọn chủ đề cho trang Web**
 
 1. Vào phân hệ **Trang Web**. Chọn **Cấu hình** và **Thiết lập**. 
     
@@ -66,7 +50,7 @@ Quản trị viên thiết lập trang chủ, tạo dựng bộ khung ban đầu
     
     ![](picture/PIC_DW_Website_Thietlapgiaodientrangchu.png)
 
-#### Thiết lập giao diện Trang chủ
+### **Thiết lập giao diện Trang chủ**
 
 1. Kéo - thả các Khối nội dung phù hợp
     
@@ -136,7 +120,7 @@ Quản trị viên thiết lập trang chủ, tạo dựng bộ khung ban đầu
     
     * Người dùng đã hoàn thành quy trình xây dựng giao diện Website.
 
-#### Thiết lập menu
+### **Thiết lập menu**
 
 1. Vào phân hệ **Trang Web** 
     
@@ -158,9 +142,21 @@ Quản trị viên thiết lập trang chủ, tạo dựng bộ khung ban đầu
 
     * Tích chọn cột Menu hoạt động để lựa chọn mên hiển thị lên trang Web. Những menu không được tích sẽ ẩn đi.
 
-### Viết bài, Đăng bài và Xem bài viết
+## **Viết bài, Đăng bài và Xem bài viết**
 
-#### Viết bài và Đăng bài
+**Mô tả nghiệp vụ**
+
+- [x] Sau khi đã có giao diện hoàn chỉnh, người dùng có thể vào viết bài, đăng bài trên Website.
+
+- [x] Các bài viết tạo dựng thành blog và người dùng có thể vào xem bài viết đã được đăng tải trên Website.
+
+**Luồng chức năng chính**
+
+* Viết bài và Đăng bài. Chi tiết nghiệp vụ <u>[tại đây](#viet-bai-va-ang-bai)</u>.
+
+* Xem chi tiết bài viết trên Website. Chi tiết nghiệp vụ <u>[tại đây](#xem-bai-viet-tren-trang-web)</u>.
+
+### **Viết bài và Đăng bài**
 
 Người dùng sẽ viết bài và đăng bài, tạo dựng nội dung cho trang Web.
 
@@ -232,7 +228,7 @@ Sau khi Lưu, có thể **Gửi tin nhắn, Tạo ghi chú, hoặc Theo dõi bà
 
     ![](picture/PIC_DW_Website_Datheodoi.png)
 
-#### Xem bài viết trên trang Web
+### **Xem bài viết trên trang Web**
 
 Sau khi đăng bài viết, người dùng có thể vào xem lại nội dung đã đăng tải.
 
@@ -246,13 +242,21 @@ Sau khi đăng bài viết, người dùng có thể vào xem lại nội dung �
     
     ![](picture/PIC_DW_Website_Chitietbaiviet.png)
 
-### Theo dõi lượng Khách truy cập trang Web
+## **Theo dõi lượng Khách truy cập trang Web**
 
-Quản trị viên có nhu cầu nắm bắt số lượng khách truy cập trên Website sẽ thực hiện theo dõi lưu lượng khách hàng truy cập Website.
+**Mô tả:**
+
+Để quản lý tốt, Quản trị viên sẽ vào theo dõi Lượt xem lượng Khách truy cập trang Web để phát triển Website đúng hướng, nắm bắt số lượng khách truy cập trên Website sẽ thực hiện theo dõi lưu lượng khách hàng truy cập Website.
+
+**Luồng chức năng chính**
+
+* Theo dõi Khách truy cập. Chi tiết nghiệp vụ <u>[tại đây](#theo-doi-khach-truy-cap)</u>
+
+* Theo dõi Lượt xem trang Web. Chi tiết nghiệp vụ <u>[tại đây](#theo-doi-luot-xem-trang-web)</u>.
 
 **Đối tượng thực hiện:** Quản trị viên
 
-#### Theo dõi Khách truy cập
+### **Theo dõi Khách truy cập**
 
 1. Vào phân hệ **Trang Web**. Chọn **Khách truy cập**:
     
@@ -318,7 +322,7 @@ Quản trị viên có nhu cầu nắm bắt số lượng khách truy cập tr�
     
     ![](picture/PIC_DW_Website_Guidanhsachsmsemail.png)
 
-#### Theo dõi Lượt xem trang Web
+### **Theo dõi Lượt xem trang Web**
 
 1. Vào phân hệ **Trang Web**. Chọn **Khách truy cập**
     

@@ -13,7 +13,6 @@ Cho phép người dùng quản lý toàn bộ quy trình tổ chức sự kiệ
 
 * Cấu hình. Chi tiết nghiệp vụ <u>[tại đây](#cau-hinh)</u>.
 
-
 **Mô tả nghiệp vụ**
 
 Khi người sử dụng muốn quản lý sự kiện thì quy trình thực hiện như sau:
@@ -26,9 +25,7 @@ Khi người sử dụng muốn quản lý sự kiện thì quy trình thực hi
 
 4. Xuất báo cáo danh sách thông tin sự kiện để quản lý và theo dõi 
 
-
 **Luồng chức năng chính**
-
 
 * Quản lý sự kiện. Chi tiết nghiệp vụ <u>[tại đây](#quan-ly-su-kien)</u>.
 

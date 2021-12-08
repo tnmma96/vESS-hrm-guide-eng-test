@@ -1,10 +1,10 @@
-### Quy trình nghiệp vụ
+# Quy trình nghiệp vụ
 
 Là ứng dụng quản lý dự án và các chức năng liên quan đến dự án, cung cấp bức tranh toàn cảnh về hoạt động của mỗi dự án, tăng cường hỗ trợ quản lý hiệu quả.
 
 Thực hiện quản lý: Thông tin dự án, công việc trong dự án, tài liệu dự án, các báo cáo và các chức năng tích hợp như: Quản lý nhân viên, Thảo luận, Timesheet...
 
-#### Quy trình
+**Quy trình**
 
 ![](picture/PIC_DW_DuAn_Luong.png)
 
@@ -18,7 +18,7 @@ Thực hiện quản lý: Thông tin dự án, công việc trong dự án, tài
 
 * Báo cáo
 
-#### Mô tả nghiệp vụ
+**Mô tả nghiệp vụ**
 
 Khi người sử dụng muốn quản lý dự án thì quy trình thực hiện như sau:
 
@@ -44,9 +44,9 @@ Khi người sử dụng muốn quản lý dự án thì quy trình thực hiệ
 
 **Video hướng dẫn**
 
-### Quản lý dự án
+## **Quản lý dự án**
 
-#### Danh sách dự án
+### **Danh sách dự án**
 
 Cho phép người dùng xem danh sách Dự án của hệ thống theo định dạng Kanban hoặc Danh sách
 
@@ -96,7 +96,7 @@ Tại màn hình này người dùng có thể thực hiện xem, tìm kiếm d�
     
     ![](picture/PIC_DW_DuAn_MauDuAn.png)
 
-#### Tạo mới dự án
+### **Tạo mới dự án**
 
 Người sử dụng thực hiện tạo mới dự án bao gồm các thông tin về Tên dự án, Loại dự án, Quản lý , Thành viên tham gia, Nỗ lực thực hiện, Hạn chót,...
 
@@ -176,7 +176,7 @@ Người sử dụng thực hiện tạo mới dự án bao gồm các thông ti
     
     ![](picture/PIC_DW_DuAn_MailMoi.png)
 
-### Quản lý tài liệu dự án
+## **Quản lý tài liệu dự án**
 
 Chức năng này cho phép người dùng thêm/ xóa tài liệu dự án
 
@@ -208,9 +208,9 @@ Chức năng này cho phép người dùng thêm/ xóa tài liệu dự án
 
 6. Người dùng có thể xóa tài liệu đã được thêm vào
 
-### Nhiệm vụ 
+## **Nhiệm vụ** 
 
-#### Danh sách nhiệm vụ
+### **Danh sách nhiệm vụ**
 
 Cho phép người dùng xem danh sách nhiệm vụ đã tạo của dự án
 
@@ -230,7 +230,7 @@ Cho phép người dùng xem danh sách nhiệm vụ đã tạo của dự án
     
     ![](picture/PIC_DW_DuAn_CheDoXem.png)
 
-#### Quản lý giai đoạn
+### **Quản lý giai đoạn**
 
 Chức năng này cho phép người dùng Tạo/ Sửa giai đoạn trong dự án
 
@@ -296,7 +296,7 @@ Chức năng này cho phép người dùng Tạo/ Sửa giai đoạn trong dự 
         
     * Khai báo/sửa thông tin mô tả chi tiết cho từng giai đoạn
 
-#### Tạo công việc
+### **Tạo công việc**
 
 Chức năng này cho phép người dùng tạo công việc cho dự án
 
@@ -400,9 +400,9 @@ Chức năng này cho phép người dùng tạo công việc cho dự án
         
         * Thực hiện nhắn tin, gửi tệp đính kèm đến người nhận
 
-### Báo cáo
+## **Báo cáo**
 
-#### Báo cáo theo dự án
+### **Báo cáo theo dự án**
 
 Chức năng này được sử dụng để thống kê hiện trạng công việc theo từng dự án gồm:
 
@@ -456,7 +456,7 @@ Tại màn hình nhiệm vụ, nhấn chọn xem **Tổng quan dự án**
     
     ![](picture/PIC_DW_DuAn_Dashboard5.png)
 
-#### Báo cáo tổng hợp
+### **Báo cáo tổng hợp**
 
 Chức năng này được sử dụng để thống kê hiện trạng tất cả các dự án gồm:
 
@@ -486,9 +486,9 @@ Chức năng này được sử dụng để thống kê hiện trạng tất c�
     
     <p align="center">Biểu đồ tròn</p>
 
-### Cấu hình Webhook
+## **Cấu hình Webhook**
 
-#### Tạo cấu hình
+### **Tạo cấu hình**
 
 Chức năng cho phép người dùng tạo mới cấu hình Webhook
 

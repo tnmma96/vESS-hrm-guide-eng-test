@@ -1,4 +1,4 @@
-### Tổng quan
+# Tổng quan
 
 **Xác thực 2 bước là gì??**
 
@@ -20,9 +20,9 @@ Việc bảo mật cho tài khoản càng quan trọng hơn khi hiện nay các 
 
 Bước bảo mật lần hai sẽ khiến các hacker sẽ không thể giả mạo người dùng truy cập trái phép. Chính vì vậy mà các bước xác nhận lần hai ngày càng trở nên quan trọng hơn, và ngày càng có nhiều hệ thống sử dụng bảo mật 2 lớp, nhất là cho người dùng làm việc ở xa, qua các hệ thống đám mây.
 
-### Quy trình nghiệp vụ
+# Quy trình nghiệp vụ
     
-#### Quy trình
+**Quy trình**
 
 ![](picture/PIC_DW_Addon_XacThuc2Buoc-0.png)
 
@@ -32,8 +32,7 @@ Bước bảo mật lần hai sẽ khiến các hacker sẽ không thể giả m
 * Kích hoạt xác thực 2 bước.Chi tiết nghiệp vụ <u>[tại đây](#cach-kich-hoat-ang-nhap-2-buoc)</u>.
 * Đăng nhập sau khi bật xác thực 2 bước.Chi tiết nghiệp vụ <u>[tại đây](#5-huong-dan-ang-nhap-sau-khi-kich-hoat-xac-thuc-2-lan)</u>.
 
-
-#### Mô tả nghiệp vụ
+**Mô tả nghiệp vụ**
 
 1. Người dùng thực hiện đăng nhập vào hệ thống.
 
@@ -57,9 +56,9 @@ Bước bảo mật lần hai sẽ khiến các hacker sẽ không thể giả m
 
 **Video hướng dẫn**
 
-### Xác thực 2 bước
+## **Xác thực 2 bước**
 
-#### Kích hoạt đăng nhập 2 bước
+### **Kích hoạt đăng nhập 2 bước**
 
 **Bước 1**: Tại màn hình đăng nhập, người dùng điền đúng và đủ thông tin Tài khoản, Mật khẩu, Domain công ty.
 
@@ -94,7 +93,7 @@ Sau khi lấy mã xác thực thành công, người dùng có thể sử dụng
 
 Chi tiết xem thêm ở mục [Hướng dẫn đăng nhập sau khi kích hoạt Xác thực 2 lần](#huong-dan-ang-nhap-sau-khi-kich-hoat-xac-thuc-2-lan)
 
-#### Hướng dẫn lấy mã dự phòng
+### **Hướng dẫn lấy mã dự phòng**
 
 Với Xác thực 2 bước theo Mã dự phòng, người dùng lấy và sử dụng theo trình tự sau.
 
@@ -112,7 +111,7 @@ Vào lần đăng nhập tiếp theo, người dùng sẽ đăng nhập bằng p
 
 Chi tiết xem thêm ở mục [Hướng dẫn đăng nhập sau khi kích hoạt Xác thực 2 lần](#huong-dan-ang-nhap-sau-khi-kich-hoat-xac-thuc-2-lan)
 
-#### Hướng dẫn cài đặt và lấy mã ứng dụng Google Authenticator
+### **Hướng dẫn cài đặt và lấy mã ứng dụng Google Authenticator**
 
 Với Xác thực 2 bước theo ứng dụng Google Authenticator, người dùng cần cài đặt ứng dụng Google Authenticator, lấy mã xác thực và sử dụng theo trình tự dưới đây.
 
@@ -195,7 +194,7 @@ Vào lần đăng nhập tiếp theo, người dùng sẽ đăng nhập bằng p
 Chi tiết xem thêm ở mục [Hướng dẫn đăng nhập sau khi kích hoạt Xác thực 2 lần](#huong-dan-ang-nhap-sau-khi-kich-hoat-xac-thuc-2-lan)
 
 
-#### Hướng dẫn đăng nhập sau khi kích hoạt Xác thực 2 bước
+### **Hướng dẫn đăng nhập sau khi kích hoạt Xác thực 2 bước**
 
 **Bước 1**: Tại màn hình đăng nhập, người dùng điền đúng và đủ thông tin Tài khoản, Mật khẩu, Domain công ty.
 
@@ -213,7 +212,7 @@ Như vậy, người dùng đã Đăng nhập thành công và có thể sử d�
 
 > *<u>Chú ý</u>*: Mỗi lần kích hoạt lấy mã xác thực, ứng dụng cấp cho người dùng 1 mã xác thực trong khoảng thời gian quy định. Khi người dùng đăng nhập, sử dụng mã xác nhận hiện thời trên ứng dụng để đăng nhập hệ thống.
 
-#### Hướng dẫn tắt Xác thực 2 bước
+### **Hướng dẫn tắt Xác thực 2 bước**
 **Bước 1**: Tại màn hình đăng nhập, người dùng điền đúng và đủ thông tin Tài khoản, Mật khẩu, Domain công ty.
 
 **Bước 2**: Nhấn **Đăng nhập**. 

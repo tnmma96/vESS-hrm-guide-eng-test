@@ -1,8 +1,8 @@
-### Quy trình nghiệp vụ
+# Quy trình nghiệp vụ
 
 Đăng nhập bằng QR code là tính năng hỗ trợ khách hàng đăng nhập nhanh vào hệ thống trên website. Người dùng không cần nhập user/password trên màn hình đăng nhập website. Thay vào đó, người dùng sử dụng app trên Mobile, quét mã QR bằng tài khoản đã được đăng nhập để thực hiện xem, cập nhật thông tin cá nhân, xem thông báo, tin tức và các nội dung khác.
 
-#### Quy trình
+**Quy trình**
 
 ![](picture/PIC_DW_Addon_QRcode-QuyTrinh.jpg)
 
@@ -10,7 +10,7 @@
 
 * Đăng nhập bằng QR code. Chi tiết nghiệp vụ <u>[tại đây](#ang-nhap-bang-qr-code)</u>.
 
-#### Mô tả nghiệp vụ
+**Mô tả nghiệp vụ**
 
 Khi người sử dụng muốn đăng nhập vào hệ thống bằng QR code thì quy trình thực hiện như sau:
 
@@ -21,14 +21,11 @@ Khi người sử dụng muốn đăng nhập vào hệ thống bằng QR code t
 
 **Luồng chức năng chính**
 
-
 * Đăng nhập bằng QR code. Chi tiết nghiệp vụ <u>[tại đây](#ang-nhap-bang-qr-code)</u>.
-
 
 **Video hướng dẫn**
 
-
-### Đăng nhập bằng QR code
+## **Đăng nhập bằng QR code**
 
 Người dùng đăng nhập nhanh vào hệ thống bằng QR code
 

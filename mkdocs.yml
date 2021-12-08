@@ -54,8 +54,8 @@ nav:
         - 'Timesheet': 'digitalworkplace/Addon-timesheet.md'
         - 'Sự kiện': 'digitalworkplace/Addon-su-kien.md'
         - 'Bữa ăn': 'digitalworkplace/Addon-bua-an.md'
-        - 'Lịch sử phát triển sản phẩm': 'digitalworkplace/Lich-su-phat-trien.md'
         - 'Phê duyệt trên web': 'digitalworkplace/Addon-PheDuyet-Web.md'
+        - 'Lịch sử phát triển sản phẩm': 'digitalworkplace/Lich-su-phat-trien.md'
     - 'vESS Mobile': 
         - 'Giới thiệu về vESS mobile': 'vESS_mobile/Gioi-thieu-vess-mobile.md'
         - 'Thiết lập và khai báo ban đầu': 'vESS_mobile/Mobile-initialization.md'

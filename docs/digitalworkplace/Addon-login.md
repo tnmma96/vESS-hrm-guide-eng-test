@@ -1,8 +1,8 @@
-### Quy trình nghiệp vụ
+# Quy trình nghiệp vụ
 
 Cho phép người dùng thực hiện đăng nhập vào hệ thống, đăng xuất khỏi hệ thống, thay đổi mật khẩu, đặt lại mật khẩu.
 
-#### Quy trình
+**Quy trình**
 
 ![](picture/PIC_DW_Login-QuyTrinh.png)
 
@@ -17,7 +17,7 @@ Cho phép người dùng thực hiện đăng nhập vào hệ thống, đăng x
 * Đăng xuất. Chi tiết nghiệp vụ <u>[tại đây](#ang-xuat)</u>.
 
 
-#### Mô tả nghiệp vụ
+**Mô tả nghiệp vụ**
 
 Khi người sử dụng muốn đăng nhập vào hệ thống thì quy trình thực hiện như sau:
 
@@ -41,7 +41,7 @@ Khi người sử dụng muốn đăng nhập vào hệ thống thì quy trình 
 
 **Video hướng dẫn**
 
-### Đăng nhập, đăng xuất
+## **Đăng nhập, đăng xuất**
 
  > *<u>Chú ý</u>*:
  >
@@ -49,7 +49,7 @@ Khi người sử dụng muốn đăng nhập vào hệ thống thì quy trình 
  >
  > - Ví dụ: URL của hệ thống cần truy cập là http://vess.store thì Domain công ty là: vess.store
  
-#### Đổi mật khẩu
+### **Đổi mật khẩu**
 
 Người sử dụng thực hiện đổi mật khẩu khác với 5 mật khẩu cũ gần đây nhất.
 
@@ -78,7 +78,7 @@ Người sử dụng thực hiện đổi mật khẩu khác với 5 mật khẩ
 Thực hiện thay đổi mật khẩu thành công.
 
 
-#### Quên mật khẩu
+### **Quên mật khẩu**
 
    Khi bị quên mật khẩu, người dùng thực hiện lấy lại mật khẩu bằng cách thực hiện chức năng quên mật khẩu, sau khi có mã bí mật gửi vào email hoặc sms người dùng sẽ truy cập vào đường dẫn được gửi trong mail / sms để truy cập vào màn hình đặt lại mật khẩu. Người dùng thực hiện đặt lại mật khẩu khác với 5 mật khẩu cũ gần đây nhất.
 
@@ -104,7 +104,7 @@ Thực hiện thay đổi mật khẩu thành công.
 
 Thực hiện quên mật khẩu thành công
 
-#### Đăng nhập
+### **Đăng nhập**
 
 1. Nhập đầy đủ thông tin Domain công ty (nếu có), Tên đăng nhập, Mật khẩu theo thông tin đã đăng ký trên hệ thống VESS
 
@@ -114,7 +114,7 @@ Thực hiện quên mật khẩu thành công
 
 Thực hiện đăng nhập thành công
 
-#### Đăng xuất
+### **Đăng xuất**
 Khi người dùng đang truy cập hệ thống VESS mà muốn đăng xuất ra khỏi hệ thống thì sẽ thực hiện chức năng đăng xuất.
 
 1. Tại góc phải phía trên, nhân chọn vào ảnh đại diện hoặc tên của người dùng.

@@ -2,6 +2,7 @@
 Cho phép người dùng thiết lập các thông tin như danh sách nhà cung cấp, danh sách các món ăn, quản lý các thông tin về tài khoản, đơn hàng. Đưa ra các cảnh báo nhắc nhở người dùng nhằm hỗ trợ người dùng trong việc nạp tiền vào tài khoản và đặt bữa ăn hàng ngày.
 
 **Quy trình**
+
 ![](picture/PIC_DW_BuaAn-QuyTrinh.jpg)
 
 **Các luồng quy trình**

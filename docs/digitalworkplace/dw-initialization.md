@@ -1,8 +1,8 @@
-## Thiết lập và khai báo ban đầu
+# Thiết lập và khai báo ban đầu
 
 Việc thiết lập và khai báo ban đầu được thực hiện khi lần đầu cài đặt hệ thống, giúp khởi tạo dữ liệu và bắt đầu cho việc thực hiện các nghiệp vụ phân hệ Digital workplace
 
-#### Thiết lập ban đầu
+## **Thiết lập ban đầu**
 
 **Đối tượng thực hiện:** Quản trị hệ thống
 
@@ -20,7 +20,7 @@ Việc thiết lập ban đầu được thực hiện ngay tại thời điểm
 
 * Phân quyền cho từng tài khoản cá nhân. Chi tiết <u>[tại đây](#phan-quyen-cho-tung-tai-khoan-ca-nhan)</u>.
 
-#### Gán tài khoản cá nhân với nhân viên
+## **Gán tài khoản cá nhân với nhân viên**
 
 Các bước thực hiện
 
@@ -33,7 +33,7 @@ Các bước thực hiện
 Sau đó nhấn **Lưu**
 ![](picture/PIC_DW_Mobile_gan_nhan_vien1.png)
 
-#### Phân quyền cho từng tài khoản cá nhân
+## **Phân quyền cho từng tài khoản cá nhân**
 
 Các bước thực hiện
 

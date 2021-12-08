@@ -14,7 +14,6 @@ Cho phép người dùng quản lý thực hiện lập vào theo dõi thời gi
 * Quản lý cấu hình thời gian biểu. Chi tiết nghiệp vụ <u>[tại đây](#quan-ly-cau-hinh-thoi-gian-bieu)</u>.
 
 **Mô tả nghiệp vụ**
-
 Khi người sử dụng muốn quản lý thời gian biểu thì quy trình thực hiện như sau:
 
 1. Tại **Thời gian làm việc**, người sử dụng ghi lại thời gian thực hiện cho từng nhiệm vụ của cá nhân theo ngày tương ứng. 
@@ -40,7 +39,6 @@ Khi người sử dụng muốn quản lý thời gian biểu thì quy trình th
 * Quản lý cấu hình thời gian biểu. Chi tiết nghiệp vụ <u>[tại đây](#quan-ly-cau-hinh-thoi-gian-bieu)</u>.
 
 **Video hướng dẫn**
-
 
 ## **Quản lý thời gian biểu**
 

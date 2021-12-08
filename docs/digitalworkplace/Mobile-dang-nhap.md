@@ -1,16 +1,16 @@
-### Quy trình nghiệp vụ
+# Quy trình nghiệp vụ
 
 Khách hàng đăng nhập tài khoản trên ứng dụng CloudERP bằng tài khoản theo công ty đã cung cấp để thực hiện xem, cập nhật thông tin cá nhân, xem thông báo, tin tức và các nội dung khác.
 
-#### Quy trình
+**Quy trình**
 
-![](picture/PIC_DW_Mobile_DangNhap-QuyTrinh.png)
+![](picture/PIC_DW_Mobile_DangNhap-QuyTrinh.jpg)
 
 **Các luồng quy trình**
 
 * Đăng nhập. Chi tiết nghiệp vụ <u>[tại đây](#ang-nhap)</u>.
 
-#### Mô tả nghiệp vụ
+**Mô tả nghiệp vụ**
 
 Khi người sử dụng muốn đăng nhập vào ứng dụng CloudERP thì quy trình thực hiện như sau:
 
@@ -25,14 +25,11 @@ Khi người sử dụng muốn đăng nhập vào ứng dụng CloudERP thì qu
 
 **Luồng chức năng chính**
 
-
 * Đăng nhập. Chi tiết nghiệp vụ <u>[tại đây](#ang-nhap)</u>.
-
 
 **Video hướng dẫn**
 
-
-### Đăng nhập
+## **Đăng nhập**
 
 Khách hàng đăng nhập tài khoản trên ứng dụng CloudERP bằng tài khoản theo công ty đã cung cấp
 

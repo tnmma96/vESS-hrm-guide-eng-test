@@ -1,9 +1,8 @@
-# Mạng xã hội
-## Quy trình nghiệp vụ
+# Quy trình nghiệp vụ
 
 Cho phép người dùng quản lý các chủ đề, bài viết và tương tác với bài viết cũng như giữa các thành viên trong đơn vị.
 
-### Quy trình
+**Quy trình**
 
 ![](picture/PIC_DW_Social_quy_trinh_hoat_dong_mang_xa_hoi.png)
 
@@ -21,7 +20,7 @@ Cho phép người dùng quản lý các chủ đề, bài viết và tương t�
 
 * Xem/Xuất thống kê. Chi tiết nghiệp vụ <u>[tại đây](#xem-xuat-thong-ke)</u>.
 
-### Mô tả nghiệp vụ
+**Mô tả nghiệp vụ**
 
 Khi người sử dụng muốn quản lý hoạt động của mạng xã hội thì quy trình thực hiện như sau:
 
@@ -67,9 +66,9 @@ Khi người sử dụng muốn quản lý hoạt động của mạng xã hội
 
 **Video hướng dẫn**
 
-### Trang web
+## **Trang web**
 
-#### Thiết lập tài nguyên dùng chung
+### **Thiết lập tài nguyên dùng chung**
 
 Người sử dụng thực hiện thiết lập các tài nguyên dùng chung của phân hệ trang web gồm:
 
@@ -185,7 +184,7 @@ Người sử dụng tạo mới huy hiệu và trao huy hiệu cho thành viên
     
 4. Khi người sử dụng muốn đóng bài viết có thể chọn lý do đóng bài đăng đã tạo. 
 
-#### Tạo chủ đề
+### **Tạo chủ đề**
 
 Người sử dụng thực hiện tạo các chủ đề cho mạng xã hội.
 
@@ -221,7 +220,7 @@ Người sử dụng thực hiện tạo các chủ đề cho mạng xã hội.
 
 5. Sau khi tạo thành công chủ đề, khi người dùng tạo bài viết có thể chọn chủ đề đã tạo.
 
-#### Quản trị tạo bài viết
+### **Quản trị tạo bài viết**
 
 Người sử dụng thực hiện tạo các bài viết cho mạng xã hội.
 
@@ -251,9 +250,9 @@ Người sử dụng thực hiện tạo các bài viết cho mạng xã hội.
     
 4. Người dùng nhấn **Lưu** để tạo mới bài viết.
 
-### Mạng xã hội
+## **Mạng xã hội**
 
-#### Xem danh sách bài viết
+### **Xem danh sách bài viết**
 
 Cho phép người dùng xem danh sách các bài viết, tra cứu bài viết theo tiêu chí tìm kiếm như sau:
     
@@ -293,7 +292,7 @@ Cho phép người dùng xem danh sách các bài viết, tra cứu bài viết 
     * Người dùng muốn tra cứu bài viết theo tên bài viết, nội dung bài viết thì sẽ nhập nội dung muốn tra cứu và nhấn enter. Khi đó vùng danh sách bài viết sẽ hiển thị những bài viết có tiêu đề hoặc nội dung chứa nội dung mà người dùng tìm kiếm.
     
     
-#### Tạo bài viết
+### **Tạo bài viết**
 
 Cho phép người dùng tạo bài viết trên mạng xã hội. Người dùng có thể tạo bài viết văn bản thông thường hoặc bài viết có ảnh, video cũng như bài viết có gắn thẻ liên kết tới bài viết hoặc trang web khác.
 
@@ -338,7 +337,7 @@ Cho phép người dùng tạo bài viết trên mạng xã hội. Người dùn
     * Người dùng nhấn **Đăng bài** để tạo bài viết
 
 
-#### Tương tác bài viết
+### **Tương tác bài viết**
 
 Cho phép người dùng tương tác với bài viết như: Xem chi tiết bài viết, Yêu thích, theo dõi, trả lời, phản hồi cầu trả lời, cộng hoặc trừ điểm bài viết, cộng hoặc trừ điểm câu trả lời, báo cáo vi phạm bài việt, báo cáo vi phạm câu trả lời.
 
@@ -375,7 +374,7 @@ Cho phép người dùng tương tác với bài viết như: Xem chi tiết bà
     >Lưu ý: Người dùng chỉ có thể cộng điểm hoặc trừ điểm đối với bài viết, câu trả lời của thành viên khác, không được phép cộng/ trừ điểm cho bài viết/ câu trả lời của chính mình.
    
    
-#### Nhân viên
+### **Nhân viên**
 
 Chức năng này cho phép người dùng xem thông tin các cá nhân khác trên mạng xã hội. Ngoài ra, người dùng có thể trực tiếp mở màn hình chat với từng cá nhân bằng cách nhấn vào ảnh đại diện.
 
@@ -394,7 +393,7 @@ Chức năng này cho phép người dùng xem thông tin các cá nhân khác t
 5. Người dùng muốn xem bảng xếp hạng thành viên theo từ trước đến nay thì sẽ chọn **Đến nay**, khi đó hệ thống sẽ sắp xếp hiển thị người dùng theo số điểm đạt được.
     
 
-#### Thẻ
+### **Thẻ**
 
 Chức năng này cho phép người dùng theo dõi tất cả các thẻ đã sử dụng trong các bài đăng, trên hệ thống (không phân biệt người tạo thẻ). Ngoài ra, người dùng có thể đăng ký nhận tin hoặc truy cập trực tiếp các bài viết đã sử dụng thẻ từ menu này.
 
@@ -407,13 +406,13 @@ Chức năng này cho phép người dùng theo dõi tất cả các thẻ đã 
 
     ![](picture/PIC_DW_Social_Tag_5.png)
 
-### Xem xuất thống kê
+## **Xem xuất thống kê**
 
 Cho phép Quản trị hệ thống xem được chi tiết các bài viết, xem thống kê lượt xem, số câu trả lời, số yêu thích của mỗi bài viết hoặc chủ đề.
 
 **Đối tượng thực hiện:** Quản trị hệ thống 
 
-#### Xem xuất thống kê theo bài viết
+### **Xem xuất thống kê theo bài viết**
 
 1. Vào phân hệ **Trang web**, chọn **Mạng xã hội/ Bài viết**
 
@@ -425,7 +424,7 @@ Cho phép Quản trị hệ thống xem được chi tiết các bài viết, xe
     
 3. Nhấn **Xuất toàn bộ** để xuất toàn bộ danh sách bài viết.
 
-#### Xem xuất thống kê theo chủ đề
+### **Xem xuất thống kê theo chủ đề**
 
 1. Vào phân hệ **Trang web**, chọn **Cấu hình/ Mạng xã hội/ Chủ đề**
 

@@ -2,9 +2,11 @@
 Cho phép người dùng sắp xếp công việc với các ghi chú, giúp tăng năng suất của người dùng từ các nhiệm vụ cá nhân đến biên bản cuộc họp hợp tác, bằng cách cung cấp các công cụ phù hợp để ưu tiên từng công việc, chia sẻ ý tưởng và cộng tác trên các tài liệu.
 
 **Quy trình** 
+
 ![](picture/PIC_DW_GhiChu_QuyTrinh.png)
 
 **Các luồng quy trình**
+
 * Ghi chú. Chi tiết nghiệp vụ <u>[tại đây](#ghi-chu)</u>.
 
 **Mô tả nghiệp vụ** 
@@ -22,7 +24,6 @@ Khi người sử dụng muốn quản lý ghi chú thì quy trình thực hiệ
 * Quản lý ghi chú. Chi tiết nghiệp vụ <u>[tại đây](#quan-ly-ghi-chu)</u>.
 
 **Video hướng dẫn**
-
 
 ## **Ghi chú**
 

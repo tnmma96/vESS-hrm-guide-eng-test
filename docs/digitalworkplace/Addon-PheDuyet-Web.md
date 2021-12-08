@@ -18,19 +18,29 @@ Quy trình Phê duyệt bao gồm 2 phần:
 
 * Tạo Loại phê duyệt. Chi tiết nghiệp vụ <u>[tai đây](#tao-loai-phe-duyet)</u>.
 
-## **Tạo Trường thông tin**
+**Mô tả nghiệp vụ**
 
-**Mục đích**
+Khi có nhu cầu thực hiện phê duyệt công việc, người dùng thực hiện các bước theo quy trình sau:
 
-Tạo trường thông tin để thiết lập các thông tin cơ sở ban đầu.
+1. Quản trị viên tạo trường thông tin.
 
-**Đối tượng thực hiện:** Quản trị viên
+2. Sau khi đã có các trường thông tin, quản trị viên vào tạo loại phê duyệt bao gồm các trường thông tin đã tạo và phù hợp với yêu cầu phê duyệt.
+
+3. Người dùng có nhu cầu tạo các yêu cầu phê duyệt sẽ tạo các phê duyệt thuộc loại phê duyệt đã có trên hệ thống.
+
+4. Tiếp theo, người dùng thực hiện gửi phê duyệt.
+
+5. Người được chọn phê duyệt sẽ vào thực hiện phê duyệt các yêu cầu vừa được gửi.
 
 **Luồng chức năng chính**
 
 * Thiết lập Trường thông tin. Chi tiết nghiệp vụ <u>[tại đây](#thiet-lap-truong-thong-tin)</u>.
 
-### **Thiết lập Trường thông tin**
+* Thiết lập thông tin cho Loại phê duyệt. Chi tiết nghiệp vụ <u>[tại đây](#thiet-lap-thong-tin-cho-loai-phe-duyet)</u>.
+
+## **Tạo Trường thông tin**
+
+**Đối tượng thực hiện:** Quản trị viên
 
 1. Vào phân hệ **Phê duyệt**: Chọn menu **Trường thông tin**
     
@@ -40,11 +50,13 @@ Tạo trường thông tin để thiết lập các thông tin cơ sở ban đ�
     
     ![](picture/PIC_DW_PheDuyetWeb_TaoTruongThongTin.png)
 
-3. Nhập thông tin: **Tên trường**, **Mô tả**, chọn **Ảnh đại diện**.
+### **Thiết lập Trường thông tin**
+
+1. Nhập thông tin: **Tên trường**, **Mô tả**, chọn **Ảnh đại diện**.
     
     ![](picture/PIC_DW_PheDuyetWeb_Nhap.png)
 
-4. Chọn **Loại dữ liệu** cho trường thông tin:
+2. Chọn **Loại dữ liệu** cho trường thông tin:
     
 * Nếu Loại dữ liệu là **Nhập từ bàn phím**, **Số**, **Ngày tháng**: Người dùng không cần nhập thêm trường dữ liệu.
     
@@ -60,7 +72,7 @@ Tạo trường thông tin để thiết lập các thông tin cơ sở ban đ�
 
 **Lưu ý:**
 
-- [x] Đối với **Dữ liệu gốc**, người dùng có thể chọn dữ liệu có sẵn:
+ 1. Đối với **Dữ liệu gốc**, người dùng có thể chọn dữ liệu có sẵn:
     
     ![](picture/PIC_DW_PheDuyetWeb_ThemDLG.png)
 
@@ -90,25 +102,17 @@ Tạo trường thông tin để thiết lập các thông tin cơ sở ban đ�
     
     ![](picture/PIC_DW_PheDuyetWeb_DuLieuDLG.png)
 
-5. Đối với **Bảng dữ liệu**, người dùng cũng có thể chọn dữ liệu có sẵn hoặc tạo mới theo các bước làm tương tự với **Dữ liệu gốc**:
+2. Đối với **Bảng dữ liệu**, người dùng cũng có thể chọn dữ liệu có sẵn hoặc tạo mới theo các bước làm tương tự với **Dữ liệu gốc**:
     
     ![](picture/PIC_DW_PheDuyetWeb_ThemBDS.png)
 
-6. Bước cuối cùng để tạo trường thông tin: Nhấn **Lưu**
+3. Bước cuối cùng để tạo trường thông tin: Nhấn **Lưu**
 
 ## **Tạo Loại phê duyệt**
 
-**Mô tả**
-
 Sau khi đã có các trường thông tin cần thiết, Quản trị viên thực hiện tạo các loại phê duyệt.
 
-**Luồng chức năng chính**
-
-* Thiết lập thông tin cho Loại phê duyệt. Chi tiết nghiệp vụ <u>[tại đây](#thiet-lap-thong-tin-cho-loai-phe-duyet)</u>.
-
 **Đối tượng thực hiện:** Quản trị viên
-
-### **Thiết lập thông tin cho Loại phê duyệt**
 
 1. Vào phân hệ **Phê duyệt**: Thao tác tại menu **Bảng điều khiển**
     
@@ -117,12 +121,14 @@ Sau khi đã có các trường thông tin cần thiết, Quản trị viên th�
 2. Nhấn **Tạo**:
     
     ![](picture/PIC_DW_PheDuyetWeb_MHTao.png)
+
+### **Thiết lập thông tin cho Loại phê duyệt**
     
-3. Nhập thông tin cho loại phê duyệt: **Tên**, **Mô tả**, chọn **Ảnh đại diện**.
+1. Nhập thông tin cho loại phê duyệt: **Tên**, **Mô tả**, chọn **Ảnh đại diện**.
     
     ![](picture/PIC_DW_PheDuyetWeb_ThemMoi.png)
     
-4. Chọn dữ liệu tại vùng Danh sách trường thông tin: 
+2. Chọn dữ liệu tại vùng Danh sách trường thông tin: 
 
     * Nhấn chọn **Thêm dòng**:
     
@@ -148,7 +154,7 @@ Sau khi đã có các trường thông tin cần thiết, Quản trị viên th�
         
         * Sau khi kéo - thả, thứ tự trường thông tin sẽ tự động sắp xếp lại.
     
-5. Tích chọn **Thông báo qua thư**
+3. Tích chọn **Thông báo qua thư**
     
     ![](picture/PIC_DW_PheDuyetWeb_ThongBaoQuaThu.png)
 
@@ -156,7 +162,7 @@ Sau khi đã có các trường thông tin cần thiết, Quản trị viên th�
     
     * Nếu không muốn gửi email thông báo đến người phê duyệt hoặc người tạo yêu cầu, người dùng có thể bỏ qua bước này.
 
-6. Chọn người phê duyệt
+4. Chọn người phê duyệt
 
 * Tại vùng **Người phê duyệt**: Nhấn chọn **Thêm dòng**
     
@@ -176,4 +182,4 @@ Sau khi đã có các trường thông tin cần thiết, Quản trị viên th�
     
         * Người dùng có thể giữ chuột tại icon Kéo thả (cạnh cột #) và thực hiện kéo - thả để sắp xếp lại thứ tự của người phê duyệt. 
     
-7. Nhấn **Lưu** để lưu lại Loại phê duyệt.
+5. Nhấn **Lưu** để lưu lại Loại phê duyệt.
