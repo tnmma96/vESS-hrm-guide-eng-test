@@ -9,6 +9,7 @@
 - Nhân viên nhân sự thực hiện tạo tài khoản đăng nhập cho nhân viên mới, tạo hợp đồng, nhập các thông tin liên quan đến nhân sự mới.
 - Nhân viên mới thực hiện quy trình Onboarding, cập nhật thông tin cá nhân vào ngày đầu làm việc.
 - Nhân viên nhân sự kiểm tra và hoàn thiện hồ sơ nhân viên mới, thực hiện cập nhật thông tin trong quá trình làm việc của nhân viên.
+- Cán bộ nhân sự kiểm tra, xuất các báo cáo nhân sự
 
 ### Luồng chức năng chính
 
@@ -16,6 +17,7 @@
 - Tạo tài khoản đăng nhập. Chi tiết [tại đây](#tao-tai-khoan)
 - Thêm mới hồ sơ nhân viên. Chi tiết [tại đây](#them-moi-ho-so-nhan-vien).
 - Cập nhật thông tin trong quá trình làm việc của nhân viên. Chi tiết [tại đây](#cap-nhat-ho-so-nhan-vien).
+- Xuất báo cáo nhân sự. Chi tiết [tại đây](#xuat-cac-bao-cao-nhan-su)
 
 ## Tạo tài khoản
 
@@ -306,3 +308,30 @@ Nếu nhân viên không có ý định ý tiếp với công ty, khi hợp đ�
 ![image-20210930175053866](images/image-20210930175053866.png)
 
 **Bước 3:** Chọn **Lưu và đóng**, nhân viên này sẽ có trạng thái là Nghỉ việc, nhân viên nhân sự thực hiện Lưu trữ nhân viên nghỉ việc. Việc lưu trữ hoàn toàn có thể khôi phục được lại hồ sơ nhân viên, trong trường hợp nhân viên quay trở lại làm việc cho công ty, khi đó nhân viên nhân sự sẽ không tốn nỗ lực nhập lại hồ sơ thông tin mà chỉ cần thay đổi các thông tin cần thiết (nếu có).
+
+## Xuất các báo cáo nhân sự
+
+- **Mục đích:** Xem trước và xuất các báo cáo nhân sự cần thiết
+
+- **Đối tượng sử dụng:** Nhân viên HR
+
+- **Các bước thực hiện:**
+
+  - ​	Vào menu **Nhân viên** > Chọn **Báo cáo** > Màn hình hiển thị như sau
+
+  ![image-20211209161442701](images/image-20211209161442701.png)
+
+  - ​	Người sử dụng chọn báo cáo phù hợp > Lựa chọn bộ lọc > Bấm Xem trước để xem trước và định dạng file báo cáo
+
+  hoặc bấm Xuất để tải file báo cáo về máy. Dưới đây là ảnh minh hoạ xem trước báo cáo cơ cấu lao động
+
+  ![image-20211209161648833](images/image-20211209161648833.png)
+
+  
+
+- **Ý nghĩa chi tiết của các báo cáo**
+  - ​	*Báo cáo cơ cấu lao động*: Xem thống kê cơ cấu lao động của phòng/ban theo từng thời điểm lựa chọn. Quân số được thống kê theo các cấp phòng ban trong công ty. Thống kê dựa vào quá trình làm việc của nhân viên.
+  - *Báo cáo tình hình sử dụng lao động*: Dựa trên sự thay đổi theo quá trình làm việc, xuất ra báo cáo tình hình sử dụng, tình hình tăng/giảm tiền lương, số lao động theo các kỳ.
+  - *Báo cáo thay đổi phòng ban*: Dựa trên các quá trình làm việc, xuất báo cáo danh sách nhân viên thay đổi trong phòng ban được chọn, trong khoảng thời gian chọn trên giao diện.
+  - *Báo cáo thay đổi hợp đồng*: Dựa theo thông tin hợp đồng lưu trong quá trình làm việc, báo cáo xuất ra danh sách các nhân viên thay đổi hợp đồng trong khoảng thời gian và thuộc phòng ban được chọn
+  - *Báo cáo tăng nhân sự, giảm nhân sự*: Dựa trên sự thay đổi quá trình làm việc, xuất ra danh sách tăng/ giảm nhân sự trong khoảng thời gian và thuộc phòng ban được chọn
