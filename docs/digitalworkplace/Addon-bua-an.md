@@ -39,7 +39,7 @@ Khi người sử dụng muốn quản lý thông tin bữa ăn thì quy trình 
 
 * Chuyển tiền. Chi tiết nghiệp vụ <u>[tại đây](#chuyen-tien)</u>.
 
-* Xem lịch sử cá nhân. Chi tiết nghiệp vụ <u>[tại đây](#xem-lich-su-ca-nha)</u>.
+* Xem lịch sử cá nhân. Chi tiết nghiệp vụ <u>[tại đây](#xem-lich-su-ca-nhan)</u>.
 
 * Kiểm soát thông tin. Chi tiết nghiệp vụ <u>[tại đây](#kiem-soat-thong-tin)</u>.
 

@@ -190,7 +190,7 @@ Người sử dụng thực hiện tạo các chủ đề cho mạng xã hội.
 
 **Đối tượng thực hiện:** Quản trị hệ thống
 
-1. Tại phân hệ **Trang web**, người sử dụng thực hiện tạo chủ đề bằng cách chọn Cấu hình/ Mạng xã hội/ Chủ đề.
+1. Tại phân hệ **Trang web**, người sử dụng thực hiện tạo chủ đề bằng cách chọn **Cấu hình/ Mạng xã hội/ Chủ đề**.
 
     ![](picture/PIC_DW_Social_ChuDe_1.png)
 
@@ -226,7 +226,7 @@ Người sử dụng thực hiện tạo các bài viết cho mạng xã hội.
 
 **Đối tượng thực hiện:** Quản trị hệ thống
 
-1. Tại phân hệ **Trang web**, người sử dụng thực hiện tạo bài viết bằng cách chọn Cấu hình/ Mạng xã hội/ Chủ đề.
+1. Tại phân hệ **Trang web**, người sử dụng thực hiện tạo bài viết bằng cách chọn **Mạng xã hội/ Bài viết**.
 
     ![](picture/PIC_DW_Social_Admin_BaiViet_1.png)
 
