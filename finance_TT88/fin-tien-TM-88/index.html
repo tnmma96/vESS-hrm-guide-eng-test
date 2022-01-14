@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Quản lý tiền - Tiền mặt - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Qu\u1ea3n l\u00fd ti\u1ec1n - Ti\u1ec1n m\u1eb7t";
+    var mkdocs_page_input_path = "finance_TT88\\fin-tien-TM-88.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../..">Trang chủ</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Đăng ký, đăng nhập</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-login/">Đăng nhập, đăng xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-QRcode/">Đăng nhập bằng QR code</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-DangNhapG/">Đăng nhập bằng G+</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-xac-thuc-hai-buoc/">Xác thực 2 bước</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/payroll/">Tính lương</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán - Dành cho kế toán doanh nghiệp</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ccdc/">Công cụ dụng cụ</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-giathanh/">Giá thành</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán - Dành cho hộ, cá thể kinh doanh</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-introduction-88/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-initialization-88/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-abbreviations-88/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-danh-muc-new-88/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Quản lý tiền - Tiền mặt</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#phieu-thu">Phiếu thu</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#nhap-so-du-au-ky">Nhập số dư đầu kỳ</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#huong-dan-tren-phan-mem">Hướng dẫn trên phần mềm</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#phieu-chi">Phiếu chi</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#thanh-toan-tien-ien-nuoc-tien-internet-tien-thue-mat-bang">Thanh toán tiền điện nước, tiền internet, tiền thuê mặt bằng..</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#mo-ta-nghiep-vu_1">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#huong-dan-tren-phan-mem_1">Hướng dẫn trên phần mềm</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#thanh-toan-tien-luong-cho-nhan-vien">Thanh toán tiền lương cho nhân viên</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#mo-ta-nghiep-vu_2">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#huong-dan-tren-phan-mem_2">Hướng dẫn trên phần mềm</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#thanh-toan-cac-chi-phi-bhxh-bhyt-bh-that-nghiep">Thanh toán các chi phí: BHXH, BHYT, BH thất nghiệp</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#mo-ta-nghiep-vu_3">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#huong-dan-tren-phan-mem_3">Hướng dẫn trên phần mềm</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-NH-88/">Quản lý tiền - Tiền gửi</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-mua-hang-88/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-ban-hang-88/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-ke-toan-tong-hop-88/">Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-log-histories-88/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Tài liệu</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/introduction/">Giới thiệu về ứng dụng Tài liệu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/document/">Tài liệu</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Ký số</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/introduction/">Giới thiệu về ứng dụng Ký số</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/esign/">Ký số</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Social/">Mạng xã hội</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-project/">Dự án</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-khao-sat/">Khảo sát</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-ghi-chu/">Ghi chú</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-su-kien/">Sự kiện</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-bua-an/">Bữa ăn</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-PheDuyet-Web/">Phê duyệt trên web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-meeting/">Cuộc họp trực tuyến</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">vESS Mobile</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Gioi-thieu-vess-mobile/">Giới thiệu về vESS mobile</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-dang-nhap/">Đăng nhập</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon-phe-duyet/">Phê duyệt trên mobile</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Kế toán - Dành cho hộ, cá thể kinh doanh &raquo;</li>
+        
+      
+    
+    <li>Quản lý tiền - Tiền mặt</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="quy-trinh-nghiep-vu">Quy trình nghiệp vụ</h1>
+<p>Kế toán được sử dụng để  :</p>
+<ul>
+<li>Quản lý tình hình thu, chi, tồn tiền mặt</li>
+<li>Hỗ trợ phiếu in theo mẫu TT88</li>
+<li>Lên các báo cáo sổ quỹ tiền mặt, báo cáo kế toán</li>
+</ul>
+<p>Quy trình nghiệp vụ</p>
+<p><img alt="TM_2218" src="../images/TM_2218.PNG" /></p>
+<p><strong>Các luồng quy trình</strong></p>
+<p>·     Lập chứng từ Phiếu thu. Chi tiết nghiệp vụ <a href="">Phiếu thu</a></p>
+<p>·     Lập chứng từ Phiếu chi. Chi tiết nghiệp vụ <a href="">Phiếu chi</a></p>
+<h2 id="phieu-thu">Phiếu thu</h2>
+<h3 id="nhap-so-du-au-ky">Nhập số dư đầu kỳ</h3>
+<h4 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h4>
+<p>Cho phép nhập số dư ban đầu cho các tài khoản không có nhu cầu theo dõi chi tiết theo đối tượng (khách hàng, nhà cung cấp, nhân viên), vật tư hàng hoá</p>
+<h4 id="huong-dan-tren-phan-mem">Hướng dẫn trên phần mềm</h4>
+<ol>
+<li>Vào phân hệ <strong>Ngân quỹ</strong>, Chọn <strong>Tiền mặt</strong>, Chọn <strong>Phiếu thu </strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn <strong>Tạo</strong></li>
+</ol>
+<p><img alt="PT_2201" src="../images/PT_2201.png" /></p>
+<ol>
+<li>
+<p>Khai báo các thông tin của <strong>Phiếu thu</strong></p>
+</li>
+<li>
+<p>Tại mục <strong>Lý do thu</strong>(Tab chung) : Chọn <strong>Số dư đầu kỳ</strong></p>
+</li>
+<li>Tại mục <strong>Sổ nhật ký</strong> (Tab chung): Chọn <strong>Tiền mặt</strong></li>
+<li>Tại mục <strong>Tổng tiền nguyên tệ</strong> (Tab chung): Nhập số tiền dư đầu kỳ</li>
+</ol>
+<p><img alt="TM_2202" src="../images/TM_2202.png" /></p>
+<ol>
+<li>Nhấn <strong>Lưu</strong></li>
+</ol>
+<p><img alt="TM_2203" src="../images/TM_2203.png" /></p>
+<ol>
+<li>Nhấn <strong>Xác nhận</strong></li>
+</ol>
+<p><img alt="TM_2204" src="../images/TM_2204.png" /></p>
+<p>Lưu ý:</p>
+<ul>
+<li>Muốn chuyển trạng thái từ Hoàn thành về Nháp thì Nhấn <strong>Hủy xác nhận</strong></li>
+</ul>
+<p><img alt="TM_2205" src="../images/TM_2205.png" /></p>
+<ul>
+<li>
+<p>Trường hợp có nhu cầu theo dõi số dư đầu kỳ chi tiết theo Khoản mục chi phí, Công trình, Đơn hàng, Hợp đồng...</p>
+</li>
+<li>
+<p>Nhấn thêm cột dữ liệu ở Tab <strong>Bút toán</strong></p>
+<ul>
+<li>Chọn thông tin <strong>Khoản mục chi phí</strong>, <strong>Công trình</strong>, <strong>Đơn hàng</strong>, <strong>Hợp đồng</strong>... muốn theo dõi chi tiết</li>
+</ul>
+</li>
+</ul>
+<p><img alt="TM_2207" src="../images/TM_2207.png" /></p>
+<h2 id="phieu-chi">Phiếu chi</h2>
+<h3 id="thanh-toan-tien-ien-nuoc-tien-internet-tien-thue-mat-bang">Thanh toán tiền điện nước, tiền internet, tiền thuê mặt bằng..</h3>
+<h4 id="mo-ta-nghiep-vu_1">Mô tả nghiệp vụ</h4>
+<p>Kế toán thực hiện tạo Phiếu chi tiền mặt cho các dịch vụ phát sinh hàng tháng như : Điện, nước,internet. mặt bằng,......</p>
+<h4 id="huong-dan-tren-phan-mem_1">Hướng dẫn trên phần mềm</h4>
+<ol>
+<li>Vào phân hệ <strong>Ngân quỹ</strong>, Chọn <strong>Tiền mặt</strong>, Chọn <strong>Phiếu chi</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn <strong>Tạo</strong></li>
+</ol>
+<p><img alt="TM_2208" src="../images/TM_2208.png" /></p>
+<ol>
+<li>
+<p>Khai báo các thông tin của <strong>Phiếu chi</strong></p>
+</li>
+<li>
+<p>Tại mục <strong>Đối tượng</strong>: Chọn Khách hàng/Nhà cung cấp.</p>
+</li>
+<li>Tại mục <strong>Tài khoản ngân hàng đối tượng</strong> : Chọn tài khoản nhận tiền (Nếu có)</li>
+<li>Tại mục <strong>Người nhận</strong>: Nhập người nhận tiền (Nếu có)</li>
+<li>Tại <strong>Tổng tiền nguyên tệ</strong>: Nhập số tiền cần thanh toán</li>
+<li>Tại mục <strong>Lý do chi</strong>: Thực hiện chọn Lý do chi như <strong>Chi tiền điện bằng tiền mặt</strong>, <strong>Chi tiền mua văn phòng phẩm</strong>,.... (nhấn <strong>Tìm kiếm thêm</strong> để tìm thêm Lý do chi tiền)</li>
+</ol>
+<p><img alt="TM_2209" src="../images/TM_2209.png" /></p>
+<ol>
+<li>Nhấn <strong>Lưu</strong></li>
+</ol>
+<p><img alt="TM_2210" src="../images/TM_2210.png" /></p>
+<ol>
+<li>Nhấn <strong>Xác nhận</strong></li>
+</ol>
+<p><img alt="TM_2211" src="../images/TM_2211.png" /></p>
+<p>Lưu ý:</p>
+<ul>
+<li>Muốn chuyển trạng thái từ Hoàn thành về Nháp thì Nhấn <strong>Hủy xác nhận</strong></li>
+</ul>
+<p><img alt="TM_2212" src="../images/TM_2212.png" /></p>
+<ul>
+<li>Trường hợp có nhu cầu theo dõi chi phí chi tiết theo Khoản mục chi phí, Công trình, Đơn hàng, Hợp đồng...</li>
+<li>Nhấn thêm cột dữ liệu ở Tab <strong>Bút toán</strong></li>
+<li>Chọn thông tin <strong>Khoản mục chi phí</strong>, <strong>Công trình</strong>, <strong>Đơn hàng</strong>, <strong>Hợp đồng</strong>... muốn theo dõi chi tiết</li>
+</ul>
+<h3 id="thanh-toan-tien-luong-cho-nhan-vien">Thanh toán tiền lương cho nhân viên</h3>
+<h4 id="mo-ta-nghiep-vu_2">Mô tả nghiệp vụ</h4>
+<p>Căn cứ vào bảng lương của nhân viên, Kế toán thực hiện tạo phiếu chi trả lương cho nhân viên tiền mặt hàng tháng.</p>
+<h4 id="huong-dan-tren-phan-mem_2">Hướng dẫn trên phần mềm</h4>
+<ol>
+<li>Vào phân hệ <strong>Ngân quỹ</strong>, Chọn <strong>Tiền mặt</strong>, Chọn <strong>Phiếu chi</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn <strong>Tạo</strong></li>
+</ol>
+<p><img alt="TM_2208" src="../images/TM_2208.png" /></p>
+<ol>
+<li>
+<p>Khai báo các thông tin của <strong>Phiếu chi</strong></p>
+</li>
+<li>
+<p>Tại mục <strong>Lý do chi</strong>: Chọn <strong>Chi thanh toán lương cho nhân viên bằng tiền mặt</strong>.</p>
+</li>
+<li>Tại <strong>Tổng tiền nguyên tệ</strong>: Nhập số tiền cần thanh toán</li>
+</ol>
+<p><img alt="TM_2213" src="../images/TM_2213.png" /></p>
+<ol>
+<li>Nhấn <strong>Lưu</strong></li>
+</ol>
+<p><img alt="TM_2214" src="../images/TM_2214.png" /></p>
+<ol>
+<li>Nhấn <strong>Xác nhận</strong></li>
+</ol>
+<p>Lưu ý: Muốn chuyển trạng thái từ Hoàn thành về Nháp thì Nhấn <strong>Hủy xác nhận</strong></p>
+<h3 id="thanh-toan-cac-chi-phi-bhxh-bhyt-bh-that-nghiep">Thanh toán các chi phí: BHXH, BHYT, BH thất nghiệp</h3>
+<h4 id="mo-ta-nghiep-vu_3">Mô tả nghiệp vụ</h4>
+<p>Khi công ty phát sinh các nghiệp vụ nộp bảo hiểm cho nhân viên, thường phát sinh các hoạt động sau:</p>
+<ul>
+<li>
+<p>Căn cứ vào Bảng lương của nhân viên, nhân viên chịu trách nhiệp nộp bảo hiểm sẽ lập yêu cầu chi tiền mặt để nộp bảo hiểm.</p>
+</li>
+<li>
+<p>Kế toán thanh toán lập Phiếu chi, sau đó chuyển cho Kế toán trưởng và Giám đốc ký duyệt.</p>
+</li>
+<li>
+<p>Thủ quỹ căn cứ vào Phiếu chi đã được duyệt thực hiện xuất quỹ tiền mặt</p>
+</li>
+<li>
+<p>Kế toán thanh toán căn cứ vào Phiếu chi có chữ ký của thủ quỹ và người nhận tiền để ghi sổ kế toán tiền mặt</p>
+</li>
+<li>
+<p>Sau khi nộp bảo hiểm xong, nhân viên đi nộp thuế sẽ giao lại cho kế toán thanh toán giấy xác nhận nộp bảo hiểm của cơ quan bảo hiểm.</p>
+</li>
+</ul>
+<h4 id="huong-dan-tren-phan-mem_3">Hướng dẫn trên phần mềm</h4>
+<ol>
+<li>Vào phân hệ <strong>Ngân quỹ</strong>, Chọn <strong>Tiền mặt</strong>, Chọn <strong>Phiếu chi</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn <strong>Tạo</strong></li>
+</ol>
+<p><img alt="TM_2208" src="../images/TM_2208.png" /></p>
+<ol>
+<li>
+<p>Khai báo các thông tin của <strong>Phiếu chi</strong></p>
+</li>
+<li>
+<p>Tại mục <strong>Lý do chi</strong>: Chọn <strong>Chi trả bảo hiểm xã hội</strong> hoặc <strong>Chi trả bảo hiểm y tế</strong> hoặc <strong>Chi trả bảo hiểm thất nghiệp</strong></p>
+</li>
+<li>Tại <strong>Tổng tiền nguyên tệ</strong>: Nhập số tiền cần thanh toán</li>
+</ol>
+<p><img alt="TM_2215" src="../images/TM_2215.png" /></p>
+<ol>
+<li>Nhấn <strong>Lưu</strong></li>
+</ol>
+<p><img alt="TM_2216" src="../images/TM_2216.png" /></p>
+<ol>
+<li>Nhấn <strong>Xác nhận</strong></li>
+</ol>
+<p><img alt="TM_2217" src="../images/TM_2217.png" /></p>
+<p>Lưu ý: Muốn chuyển trạng thái từ Hoàn thành về Nháp thì Nhấn <strong>Hủy xác nhận</strong>   </p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../fin-tien-NH-88/" class="btn btn-neutral float-right" title="Quản lý tiền - Tiền gửi">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../fin-danh-muc-new-88/" class="btn btn-neutral" title="Khai báo danh mục"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../fin-danh-muc-new-88/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../fin-tien-NH-88/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/extra.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

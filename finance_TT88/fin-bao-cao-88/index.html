@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>*Quy trình nghiệp vụ* - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "*Quy tr\u00ecnh nghi\u1ec7p v\u1ee5*";
+    var mkdocs_page_input_path = "finance_TT88\\fin-bao-cao-88.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../..">Trang chủ</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Đăng ký, đăng nhập</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-login/">Đăng nhập, đăng xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-QRcode/">Đăng nhập bằng QR code</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-DangNhapG/">Đăng nhập bằng G+</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-xac-thuc-hai-buoc/">Xác thực 2 bước</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/payroll/">Tính lương</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán - Dành cho kế toán doanh nghiệp</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ccdc/">Công cụ dụng cụ</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-giathanh/">Giá thành</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán - Dành cho hộ, cá thể kinh doanh</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-introduction-88/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-initialization-88/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-abbreviations-88/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-danh-muc-new-88/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-TM-88/">Quản lý tiền - Tiền mặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-NH-88/">Quản lý tiền - Tiền gửi</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-mua-hang-88/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-ban-hang-88/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-ke-toan-tong-hop-88/">Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-log-histories-88/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Tài liệu</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/introduction/">Giới thiệu về ứng dụng Tài liệu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/document/">Tài liệu</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Ký số</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/introduction/">Giới thiệu về ứng dụng Ký số</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/esign/">Ký số</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Social/">Mạng xã hội</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-project/">Dự án</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-khao-sat/">Khảo sát</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-ghi-chu/">Ghi chú</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-su-kien/">Sự kiện</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-bua-an/">Bữa ăn</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-PheDuyet-Web/">Phê duyệt trên web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-meeting/">Cuộc họp trực tuyến</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">vESS Mobile</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Gioi-thieu-vess-mobile/">Giới thiệu về vESS mobile</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-dang-nhap/">Đăng nhập</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon-phe-duyet/">Phê duyệt trên mobile</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>*Quy trình nghiệp vụ*</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="quy-trinh-nghiep-vu"><em>Quy trình nghiệp vụ</em></h1>
+<p>Sau khi nhập chứng từ phát sinh, người dùng có thể xem được các báo cáo phân tích, thống kê dữ liệu và tùy chỉnh mẫu báo cáo theo nhu cầu</p>
+<p>Danh sách báo cáo gồm có:</p>
+<ul>
+<li>Sổ chi tiết doanh thu bán hàng hóa, dịch vụ  (S1-HKD)</li>
+<li>Sổ chi tiết vật liệu, dụng cụ, sản phẩm, hàng hóa (S2-HKD)</li>
+<li>Sổ chi phí sản xuất kinh doanh (S3-HKD)</li>
+<li>Sổ theo dõi tình hình thực hiện nghĩa vụ thuế với NSNN  (S4-HKD)</li>
+<li>Sổ theo dõi tình hình TT tiền lương và các khoản phải nộp theo lương của NLĐ  (S5-HKD)</li>
+<li>Sổ tiền mặt  (S6-HKD)</li>
+<li>Sổ tiền gửi  (S7-HKD)</li>
+<li>Sổ nhật ký mua hàng</li>
+<li>Sổ chi tiết theo tài khoản</li>
+<li>Sổ chi tiết phát sinh tài khoản</li>
+<li>Sổ nhật ký chung</li>
+</ul>
+<p><strong>Các luồng quy trình</strong></p>
+<p>·     Lập đơn bán hàng gửi khách hàng. Chi tiết thao tác chức năng <strong><a href="#Lap-don-ban-hang">tại đây</a></strong></p>
+<p>·     Xuất kho đơn bán hàng. Chi tiết thao tác chức năng <a href="#Xuat-kho-don-ban-hang"><strong>tại đây</strong></a></p>
+<p>·     Tạo hóa đơn bán hàng. Chi tiết thao tác chức năng <strong><a href="#Hoa-don-ban-hang">tại đây</a></strong></p>
+<p>·     Ghi nhận thanh toán từ khách hàng. Chi tiết thao tác chức năng <strong><a href="Ghi-nhan-thanh-toan-tu-khach-hang">tại đây</a></strong></p>
+<p>·     Xuất hóa đơn điện tử. Chi tiết thao tác chức năng <strong><a href="Xuat-hoa-don-dien-tu">tại đây</a></strong></p>
+<p>·     Tạo hóa đơn giảm giá/Trả hàng.  Chi tiết thao tác chức năng <strong><a href="Hoa-don-giam-gia/tra-hang">tại đây</a></strong></p>
+<h2 id="huong-dan-xem-bao-cao"><em>Hướng dẫn xem báo cáo</em></h2>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_bao_cao.png" /></p>
+<p>Hoặc chọn biểu tượng <img alt="" src="../images/fin_bacham.png" /> rồi chọn <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_baocao_1.png" /></p>
+<p><strong>Bước 2</strong>: Chọn một báo cáo muốn xem</p>
+<p><img alt="" src="../images/fin_baocao_danhsach.png" /></p>
+<p><strong>Bước 3</strong>: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị, ....</p>
+<p>Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn</p>
+<p><img alt="" src="../images/fin_baocao_tem.png" /></p>
+<p><strong>Bước 4</strong>: trên cửa sổ báo cáo, người dùng có thể thực hiện thêm một số chức năng khác:</p>
+<p><strong>Tải lại</strong>: Xuất lại báo cáo theo tham số đang có</p>
+<p><strong>Gửi email</strong>: Cho phép gửi báo cáo này vào email</p>
+<p><strong>Xuất excel</strong>: Xuất báo cáo dưới dạng file excel (xls,xlsx)</p>
+<p><strong>PDF</strong>:  Xuất báo cáo dưới dạng file PDF(.pdf)</p>
+<p>Tùy chọn <strong>cấu hình chữ ký</strong>: Bổ sung/xóa bỏ chân ký trên báo cáo. Người dùng nhấn nút  <img alt="" src="../images/fin_banhxe.png" />chọn cấu hình chữ ký --&gt; Hiển thị thông tin các chân ký đang có thuộc báo cáo đang chọn</p>
+<p><img alt="" src="../images/fin_baocao_cauhinh_popup.png" /></p>
+<p>Người dùng có thể thay đổi chức danh, tiêu đề người ký, tên người ký cho phù hợp với biểu mẫu mong muốn</p>
+<h2 id="so-chi-tiet-doanh-thu-ban-hang-hoa-dich-vu-s1-hkd"><em>Sổ chi tiết doanh thu bán hàng hóa, dịch vụ  (S1-HKD)</em></h2>
+<h3 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h3>
+<p><strong>Nghiệp vụ</strong></p>
+<p>Sổ chi tiết doanh thu bán hàng và cung cấp dịch vụ là mẫu sổ được lập ra để ghi chép về doanh thu bán hàng và cung cấp dịch vụ của hộ kinh doanh, cá thể</p>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
+<h3 id="huong-dan-tren-phan-mem">Hướng dẫn trên phần mềm</h3>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_bao_cao.png" /></p>
+<p>Hoặc chọn biểu tượng <img alt="" src="../images/fin_bacham.png" /> rồi chọn <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_baocao_1.png" /></p>
+<p><strong>Bước 2</strong>: Chọn báo cáo Sổ chi tiết doanh thu bán hàng hóa, dịch vụ  (S1-HKD)</p>
+<p><img alt="" src="../images/fin_baocao_danhsach.png" /></p>
+<p><strong>Bước 3</strong>: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị, ....</p>
+<p>Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn</p>
+<p><img alt="" src="../images/fin_baocao_s1.png" /></p>
+<h2 id="so-chi-tiet-vat-lieu-dung-cu-san-pham-hang-hoa-s2-hkd"><em>Sổ chi tiết vật liệu, dụng cụ, sản phẩm, hàng hóa (S2-HKD)</em></h2>
+<h3 id="mo-ta-nghiep-vu_1">Mô tả nghiệp vụ</h3>
+<p><strong>Nghiệp vụ</strong></p>
+<p>Sổ chi tiết vật liệu, dụng cụ, sản phẩm, hàng hóa (S2-HKD) dùng để theo dõi chi tiết tình hình nhập, xuất, tồn kho về cả số lượng và giá trị của từng nguyên liệu, hàng hóa, dụng cụ, sản phẩm ở từng kho</p>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
+<h3 id="huong-dan-tren-phan-mem_1">Hướng dẫn trên phần mềm</h3>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_bao_cao.png" /></p>
+<p>Hoặc chọn biểu tượng <img alt="" src="../images/fin_bacham.png" /> rồi chọn <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_baocao_1.png" /></p>
+<p><strong>Bước 2</strong>: Chọn báo cáo Sổ chi tiết vật liệu, dụng cụ, sản phẩm, hàng hóa (S2-HKD)</p>
+<p><img alt="" src="../images/fin_baocao_danhsach.png" /></p>
+<p><strong>Bước 3</strong>: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị, ....</p>
+<p>Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn</p>
+<p><img alt="" src="../images/fin_baocao_s2.png" /></p>
+<h2 id="so-chi-phi-san-xuat-kinh-doanh-s3-hkd"><em>Sổ chi phí sản xuất kinh doanh (S3-HKD)</em></h2>
+<h3 id="mo-ta-nghiep-vu_2">Mô tả nghiệp vụ</h3>
+<p><strong>Nghiệp vụ</strong></p>
+<p>Sổ chi phí sản xuất kinh doanh mở theo từng đối tượng tập hợp chi phí (theo khoản mục phí hoặc nội dung chi phí)</p>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
+<h3 id="huong-dan-tren-phan-mem_2">Hướng dẫn trên phần mềm</h3>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_bao_cao.png" /></p>
+<p>Hoặc chọn biểu tượng <img alt="" src="../images/fin_bacham.png" /> rồi chọn <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_baocao_1.png" /></p>
+<p><strong>Bước 2</strong>: Chọn báo cáo Sổ chi phí sản xuất kinh doanh (S3-HKD)</p>
+<p><img alt="" src="../images/fin_baocao_danhsach.png" /></p>
+<p><strong>Bước 3</strong>: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị, ....</p>
+<p>Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn</p>
+<p><img alt="" src="../images/fin_baocao_s3.png" /></p>
+<h2 id="so-theo-doi-tinh-hinh-thuc-hien-nghia-vu-thue-voi-nsnn-s4-hkd"><em>Sổ theo dõi tình hình thực hiện nghĩa vụ thuế với NSNN  (S4-HKD)</em></h2>
+<h3 id="mo-ta-nghiep-vu_3">Mô tả nghiệp vụ</h3>
+<p><strong>Nghiệp vụ</strong></p>
+<p>Sổ theo dõi tình hình thực hiện nghĩa vụ thuế với NSNN là mẫu sổ được lập ra để thống kê tình hình nộp thuế vào ngân sách nhà nước</p>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
+<h3 id="huong-dan-tren-phan-mem_3">Hướng dẫn trên phần mềm</h3>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_bao_cao.png" /></p>
+<p>Hoặc chọn biểu tượng <img alt="" src="../images/fin_bacham.png" /> rồi chọn <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_baocao_1.png" /></p>
+<p><strong>Bước 2</strong>: Chọn báo cáo Sổ theo dõi tình hình thực hiện nghĩa vụ thuế với NSNN  (S4-HKD)</p>
+<p><img alt="" src="../images/fin_baocao_danhsach.png" /></p>
+<p><strong>Bước 3</strong>: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị, ....</p>
+<p>Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn</p>
+<p><img alt="" src="../images/fin_baocao_s4.png" /></p>
+<h2 id="so-theo-doi-tinh-hinh-tt-tien-luong-va-cac-khoan-phai-nop-theo-luong-cua-nl-s5-hkd"><em>Sổ theo dõi tình hình TT tiền lương và các khoản phải nộp theo lương của NLĐ  (S5-HKD)</em></h2>
+<h3 id="mo-ta-nghiep-vu_4">Mô tả nghiệp vụ</h3>
+<p><strong>Nghiệp vụ</strong></p>
+<p>Sổ theo dõi tình hình TT tiền lương và các khoản phải nộp theo lương của NLĐ là mẫu sổ được lập ra để theo dõi về tình hình thanh toán tiền lương và các khoản nộp theo lương</p>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
+<h3 id="huong-dan-tren-phan-mem_4">Hướng dẫn trên phần mềm</h3>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_bao_cao.png" /></p>
+<p>Hoặc chọn biểu tượng <img alt="" src="../images/fin_bacham.png" /> rồi chọn <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_baocao_1.png" /></p>
+<p><strong>Bước 2</strong>: Chọn báo cáo Sổ theo dõi tình hình TT tiền lương và các khoản phải nộp theo lương của NLĐ  (S5-HKD)</p>
+<p><img alt="" src="../images/fin_baocao_danhsach.png" /></p>
+<p><strong>Bước 3</strong>: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị, ....</p>
+<p>Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn</p>
+<p><img alt="" src="../images/fin_baocao_s5.png" /></p>
+<h2 id="so-tien-mat-s6-hkd"><em>Sổ tiền mặt  (S6-HKD)</em></h2>
+<h3 id="mo-ta-nghiep-vu_5">Mô tả nghiệp vụ</h3>
+<p><strong>Nghiệp vụ</strong></p>
+<p>Sổ tiền mặt là mẫu sổ được sử dụng khá thường xuyên để theo dõi tình hình thu chi và tồn quỹ bằng tiền mặt của một đơn vị, tổ chức, doanh nghiệp</p>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
+<h3 id="huong-dan-tren-phan-mem_5">Hướng dẫn trên phần mềm</h3>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_bao_cao.png" /></p>
+<p>Hoặc chọn biểu tượng <img alt="" src="../images/fin_bacham.png" /> rồi chọn <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_baocao_1.png" /></p>
+<p><strong>Bước 2</strong>: Chọn báo cáo Sổ tiền mặt  (S6-HKD)</p>
+<p><img alt="" src="../images/fin_baocao_danhsach.png" /></p>
+<p><strong>Bước 3</strong>: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị, ....</p>
+<p>Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn</p>
+<p><img alt="" src="../images/fin_baocao_s6.png" /></p>
+<h2 id="so-tien-gui-s7-hkd"><em>Sổ tiền gửi  (S7-HKD)</em></h2>
+<h3 id="mo-ta-nghiep-vu_6">Mô tả nghiệp vụ</h3>
+<p><strong>Nghiệp vụ</strong></p>
+<p>Sổ tiền gửi là mẫu sổ dùng để theo dõi chi tiết tiền Việt Nam của một cá thể gửi tại ngân hàng</p>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
+<h3 id="huong-dan-tren-phan-mem_6">Hướng dẫn trên phần mềm</h3>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_bao_cao.png" /></p>
+<p>Hoặc chọn biểu tượng <img alt="" src="../images/fin_bacham.png" /> rồi chọn <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_baocao_1.png" /></p>
+<p><strong>Bước 2</strong>: Chọn báo cáo Sổ tiền gửi  (S7-HKD)</p>
+<p><img alt="" src="../images/fin_baocao_danhsach.png" /></p>
+<p><strong>Bước 3</strong>: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị, ....</p>
+<p>Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn</p>
+<p><img alt="" src="../images/fin_baocao_s7.png" /></p>
+<h2 id="so-nhat-ky-mua-hang"><em>Sổ nhật ký mua hàng</em></h2>
+<h3 id="mo-ta-nghiep-vu_7">Mô tả nghiệp vụ</h3>
+<p><strong>Nghiệp vụ</strong></p>
+<p>Sổ nhật ký mua hàng là một loại sổ Nhật ký đặc biệt dùng để ghi chép các nghiệp vụ mua hàng theo từng loại hàng tồn kho của đơn vị, như: Nguyên liệu, vật liệu; công cụ, dụng cụ; hàng hoá</p>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
+<h3 id="huong-dan-tren-phan-mem_7">Hướng dẫn trên phần mềm</h3>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_bao_cao.png" /></p>
+<p>Hoặc chọn biểu tượng <img alt="" src="../images/fin_bacham.png" /> rồi chọn <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_baocao_1.png" /></p>
+<p><strong>Bước 2</strong>: Chọn báo cáo Sổ nhật ký mua hàng</p>
+<p><img alt="" src="../images/fin_baocao_danhsach.png" /></p>
+<p><strong>Bước 3</strong>: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị, ....</p>
+<p>Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn</p>
+<p><img alt="" src="../images/fin_baocao_s8.png" /></p>
+<h2 id="so-chi-tiet-theo-tai-khoan"><em>Sổ chi tiết theo tài khoản</em></h2>
+<h3 id="mo-ta-nghiep-vu_8">Mô tả nghiệp vụ</h3>
+<p><strong>Nghiệp vụ</strong></p>
+<p>Sổ chi tiết theo tài khoản dùng cho một số tài khoản thuộc loại thanh toán nguồn vốn mà chưa có mẫu sổ riêng</p>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
+<h3 id="huong-dan-tren-phan-mem_8">Hướng dẫn trên phần mềm</h3>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_bao_cao.png" /></p>
+<p>Hoặc chọn biểu tượng <img alt="" src="../images/fin_bacham.png" /> rồi chọn <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_baocao_1.png" /></p>
+<p><strong>Bước 2</strong>: Chọn báo cáo Sổ chi tiết theo tài khoản</p>
+<p><img alt="" src="../images/fin_baocao_danhsach.png" /></p>
+<p><strong>Bước 3</strong>: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị, ....</p>
+<p>Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn</p>
+<p><img alt="" src="../images/fin_baocao_s9.png" /></p>
+<h2 id="so-chi-tiet-phat-sinh-tai-khoan"><em>Sổ chi tiết phát sinh tài khoản</em></h2>
+<h3 id="mo-ta-nghiep-vu_9">Mô tả nghiệp vụ</h3>
+<p><strong>Nghiệp vụ</strong></p>
+<p>Sổ chi tiết phát sinh tài khoản dùng cho một số tài khoản thuộc loại thanh toán nguồn vốn mà chưa có mẫu sổ riêng</p>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
+<h3 id="huong-dan-tren-phan-mem_9">Hướng dẫn trên phần mềm</h3>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_bao_cao.png" /></p>
+<p>Hoặc chọn biểu tượng <img alt="" src="../images/fin_bacham.png" /> rồi chọn <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_baocao_1.png" /></p>
+<p><strong>Bước 2</strong>: Chọn báo cáo Sổ chi tiết phát sinh tài khoản</p>
+<p><img alt="" src="../images/fin_baocao_danhsach.png" /></p>
+<p><strong>Bước 3</strong>: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị, ....</p>
+<p>Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn</p>
+<p><img alt="" src="../images/fin_baocao_s10.png" /></p>
+<h2 id="so-nhat-ky-chung"><em>Sổ nhật ký chung</em></h2>
+<h3 id="mo-ta-nghiep-vu_10">Mô tả nghiệp vụ</h3>
+<p><strong>Nghiệp vụ</strong></p>
+<p>Sổ nhật ký chung dùng để ghi chép các nghiệp vụ kinh tế, tài chính phát sinh theo trình tự thời gian đồng thời phản ánh quan hệ đối ứng tài khoản</p>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
+<h3 id="huong-dan-tren-phan-mem_10">Hướng dẫn trên phần mềm</h3>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_bao_cao.png" /></p>
+<p>Hoặc chọn biểu tượng <img alt="" src="../images/fin_bacham.png" /> rồi chọn <strong>Báo cáo</strong></p>
+<p><img alt="" src="../images/fin_baocao_1.png" /></p>
+<p><strong>Bước 2</strong>: Chọn báo cáo Sổ nhật ký chung</p>
+<p><img alt="" src="../images/fin_baocao_danhsach.png" /></p>
+<p><strong>Bước 3</strong>: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị, ....</p>
+<p>Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn</p>
+<p><img alt="" src="../images/fin_baocao_s11.png" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/extra.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

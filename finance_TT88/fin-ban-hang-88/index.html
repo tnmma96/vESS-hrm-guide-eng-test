@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Bán hàng - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "B\u00e1n h\u00e0ng";
+    var mkdocs_page_input_path = "finance_TT88\\fin-ban-hang-88.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../..">Trang chủ</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Đăng ký, đăng nhập</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-login/">Đăng nhập, đăng xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-QRcode/">Đăng nhập bằng QR code</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-DangNhapG/">Đăng nhập bằng G+</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-xac-thuc-hai-buoc/">Xác thực 2 bước</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/payroll/">Tính lương</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán - Dành cho kế toán doanh nghiệp</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ccdc/">Công cụ dụng cụ</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-giathanh/">Giá thành</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán - Dành cho hộ, cá thể kinh doanh</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-introduction-88/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-initialization-88/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-abbreviations-88/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-danh-muc-new-88/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-TM-88/">Quản lý tiền - Tiền mặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-NH-88/">Quản lý tiền - Tiền gửi</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-mua-hang-88/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Bán hàng</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#lap-on-ban-hang">Lập đơn bán hàng</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#huong-dan-tren-phan-mem">Hướng dẫn trên phần mềm</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#them-moi-on-hang">Thêm mới đơn hàng</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#thuc-hien-gui-on-hang-cho-khach-hang">Thực hiện gửi đơn hàng cho khách hàng</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#xac-nhan-on-ban-hang">Xác nhận đơn bán hàng</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#xuat-kho-on-ban-hang">Xuất kho đơn bán hàng</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_1">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#huong-dan-tren-phan-mem_1">Hướng dẫn trên phần mềm</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#hoa-on-ban-hang">Hóa đơn bán hàng</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_2">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#huong-dan-tren-phan-mem_2">Hướng dẫn trên phần mềm</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#lap-hoa-on-ban-hang-tu-on-ban-hang">Lập hóa đơn bán hàng từ đơn bán hàng</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#lap-hoa-on-ban-hang-khong-tu-on-ban-hang">Lập hóa đơn bán hàng không từ đơn bán hàng</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ghi-nhan-thanh-toan-tu-khach-hang">Ghi nhận thanh toán từ khách hàng</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_3">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#huong-dan-tren-phan-mem_3">Hướng dẫn trên phần mềm</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#hoa-on-giam-giatra-hang">Hóa đơn giảm giá/trả hàng</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_4">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#huong-dan-tren-phan-mem_4">Hướng dẫn trên phần mềm</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#tao-hoa-on-giam-gia">Tạo hóa đơn giảm giá</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#chuyen-oi-thanh-khoan-hoan-tiencong-no-giam">Chuyển đổi thành khoản hoàn tiền/công nợ giảm</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-ke-toan-tong-hop-88/">Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-log-histories-88/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Tài liệu</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/introduction/">Giới thiệu về ứng dụng Tài liệu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/document/">Tài liệu</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Ký số</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/introduction/">Giới thiệu về ứng dụng Ký số</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/esign/">Ký số</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Social/">Mạng xã hội</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-project/">Dự án</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-khao-sat/">Khảo sát</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-ghi-chu/">Ghi chú</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-su-kien/">Sự kiện</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-bua-an/">Bữa ăn</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-PheDuyet-Web/">Phê duyệt trên web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-meeting/">Cuộc họp trực tuyến</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">vESS Mobile</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Gioi-thieu-vess-mobile/">Giới thiệu về vESS mobile</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-dang-nhap/">Đăng nhập</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon-phe-duyet/">Phê duyệt trên mobile</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Kế toán - Dành cho hộ, cá thể kinh doanh &raquo;</li>
+        
+      
+    
+    <li>Bán hàng</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="quy-trinh-nghiep-vu"><em>Quy trình nghiệp vụ</em></h1>
+<p>Quy trình bán hàng là một loạt các bước cần thực hiện để thúc đẩy hoạt động bán hàng tại các hộ kinh doanh nhỏ lẻ.Việc xây dựng quy trình bán hàng trên hệ thống sẽ giúp các hộ kinh doanh xác định được các cơ hội bán hàng và tỷ lệ thành công của các cơ hội đó từ đó xác định được các chiến lược kinh doanh phù hợp để đạt được doanh thu lớn nhất. Quy trình sẽ bao gồm các chức năng: Từ tạo đơn bán hàng đến hóa đơn bán hàng, ghi nhận thanh toán cho khách hàng</p>
+<p>Khi phát sinh nghiệp vụ bán hàng hóa, dịch vụ, thông thường sẽ phát sinh các hoạt động sau:</p>
+<ul>
+<li>
+<p>Người bán hàng có thể thực hiện tiếp thị, chào bán sản phẩm cho các khách hàng có nhu cầu</p>
+</li>
+<li>
+<p>Sau khi khách hàng gọi điện hoặc gửi mail yêu cầu giao hàng cho khách hàng thì hộ kinh doanh thực hiện lập đơn bán hàng cho khách</p>
+</li>
+<li>Thực hiện xuất kho hàng hoá và ghi Sổ kho</li>
+<li>Hộ kinh doanh bàn giao hàng hóa cho khách hàng, lập và  gửi hóa đơn GTGT cho khách hàng</li>
+<li>Hộ kinh doanh sẽ ghi nhận thanh toán từ khách hàng. Nếu khách hàng thanh toán bằng tiền mặt  thì người bán hàng sẽ nhận tiền và mang về nhập quỹ, nếu thanh toán bằng tiền gửi thì khách hàng sẽ chuyển khoản vào tài khoản của công ty. </li>
+</ul>
+<p><img alt="" src="../images/fin_banhang_quytrinh.png" /></p>
+<p><strong>Các luồng quy trình</strong></p>
+<p>·     Lập đơn bán hàng gửi khách hàng. Chi tiết thao tác chức năng <strong><a href="#Lap-don-ban-hang">tại đây</a></strong></p>
+<p>·     Xuất kho đơn bán hàng. Chi tiết thao tác chức năng <a href="#Xuat-kho-don-ban-hang"><strong>tại đây</strong></a></p>
+<p>·     Tạo hóa đơn bán hàng. Chi tiết thao tác chức năng <strong><a href="#Hoa-don-ban-hang">tại đây</a></strong></p>
+<p>·     Ghi nhận thanh toán từ khách hàng. Chi tiết thao tác chức năng <strong><a href="Ghi-nhan-thanh-toan-tu-khach-hang">tại đây</a></strong></p>
+<p>·     Xuất hóa đơn điện tử. Chi tiết thao tác chức năng <strong><a href="Xuat-hoa-don-dien-tu">tại đây</a></strong></p>
+<p>·     Tạo hóa đơn giảm giá/Trả hàng.  Chi tiết thao tác chức năng <strong><a href="Hoa-don-giam-gia/tra-hang">tại đây</a></strong></p>
+<h2 id="lap-on-ban-hang"><em>Lập đơn bán hàng</em></h2>
+<h3 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h3>
+<p><strong>Nghiệp vụ</strong></p>
+<p>Khi có nhu cầu mua sản phẩm, khách hàng sẽ liên hệ với hộ kinh doanh để đặt hàng. Người bán hàng thực hiện lập đơn hàng dựa trên nhu cầu của khách hàng</p>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
+<h3 id="huong-dan-tren-phan-mem">Hướng dẫn trên phần mềm</h3>
+<p><strong>Đối tượng thực hiện:</strong> Người bán hàng</p>
+<h4 id="them-moi-on-hang">Thêm mới đơn hàng</h4>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Bán hàng</strong>, Chọn <strong>Đơn bán hàng</strong>, chọn <strong>Báo giá</strong> </p>
+<p><img alt="" src="../images/fin_banhang_vaochucnang.png" /></p>
+<p>Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống</p>
+<p><img alt="" src="../images/fin_banhang_vaochucnang_nhanh.png" /></p>
+<p><img alt="" src="../images/fin_banhang_danhsach.png" /></p>
+<p><strong>Bước 2:</strong> Nhấn nút <strong>Tạo</strong> <img alt="" src="../images/fin_banhang_taomoi.png" />trên chức năng để thực hiện thêm một đơn hàng mới. Khai báo các thông tin chi tiết trên đơn bán hàng. Lưu ý: Các ô màu hồng là những thông tin cần bắt buộc nhập</p>
+<p><img alt="" src="../images/fin_banhang_tabchung.png" /></p>
+<p>·     Chọn thông tin <strong><em>khách hàng</em></strong>. Nếu chưa có khách hàng thì có thể nhập bổ sung thêm bằng cách nhập tên khách hàng và chọn tạo mới <img alt="" src="../images/fin_banhang_khachhang.png" /></p>
+<p>hoặc vào đường dẫn <strong>Danh mục/Khách hàng</strong> và thực hiện thêm mới</p>
+<p><img alt="" src="../images/fin_banhang_danhmuc_khachhang.png" /></p>
+<p>·     Chọn <strong><em>bảng giá</em></strong>,  là tiền tệ giao dịch trong Đơn hàng</p>
+<p>·     Khai báo thêm thông tin về <strong><em>Ngày đặt hàng, hiệu lực đến, điều khoản thanh toán</em></strong> (Xác định thời gian để thanh toán), <strong><em>nội dung</em></strong> chi tiết đơn hàng</p>
+<p>Mục Điều khoản thanh toán: Nếu có thỏa thuận về điều kiện thanh toán với khách hàng, thực hiện chọn thông tin Điều khoản đã được khai báo trên Danh mục <strong>Điều khoản thanh toán</strong> . Trường hợp đã thiết lập điều khoản thanh toán cho từng khách hàng tại danh mục <strong>Khách hàng</strong> thì chương trình sẽ tự động hiển thị sẵn thông tin này theo nhà cung cấp được chọn</p>
+<p>·     Khai báo thêm thông tin về Sản phẩm/dịch vụ tại chi tiết đơn hàng bằng cách nhấn chọn thêm sản phẩm   <img alt="" src="../images/fin_banhang_themsanpham.png" /></p>
+<p>​           Chọn các sản phẩm bán hàng cho khách hàng</p>
+<p>​           Nhập thông tin Số lượng, Đơn giá,  mức Thuế đối với từng Sản phẩm</p>
+<p><img alt="" src="../images/fin_banhang_chitiet.png" /></p>
+<p>​           Khi thực hiện Thêm ghi chú --&gt; Thông tin nội dung sẽ được in trên file gửi khách hàng</p>
+<p><strong>Bước 3</strong>: Nhấn <strong>Lưu</strong></p>
+<h4 id="thuc-hien-gui-on-hang-cho-khach-hang"><strong>Thực hiện gửi đơn hàng cho khách hàng</strong></h4>
+<p><strong>Bước 1</strong>: Sau khi đã có đơn hàng để gửi khách hàng, Thực hiện <strong>In</strong> đơn hàng bằng cách chọn chức năng In</p>
+<p><img alt="" src="../images/fin_banhang_donhang_in.png" /></p>
+<p><strong>Bước 2:</strong> Thực hiện <strong>Gửi qua Email</strong> đến khách hàng sau khi hoàn thành  báo giá, có thể tùy chỉnh thông tin mẫu gửi báo giá theo yêu cầu</p>
+<p><img alt="" src="../images/fin_BanHang_donhang_GuiEmail.png" /></p>
+<h4 id="xac-nhan-on-ban-hang">Xác nhận đơn bán hàng</h4>
+<p>Tại đơn hàng đã tạo, nếu khách hàng thực sự có nhu cầu mua hàng, người bán hàng nhấn nút <strong>Xác nhận</strong> để hoàn thành đơn hàng</p>
+<p>Nếu không còn nhu cầu bán hàng, người bán nhấn <strong>Hủy</strong> hoặc thực hiện xóa đơn hàng đã tạo</p>
+<p>Sau khi có đơn hàng, sản phẩm sẽ được giao cho khách hàng</p>
+<p><img alt="" src="../images/fin_banhang_donhang_xoa.png" /></p>
+<h2 id="xuat-kho-on-ban-hang"><em>Xuất kho đơn bán hàng</em></h2>
+<h3 id="mo-ta-nghiep-vu_1">Mô tả nghiệp vụ</h3>
+<p>Sau khi thực hiện Xác nhận đơn hàng, chương trình tự động sinh ra một yêu cầu giao hàng. Người dùng có thể theo dõi tình trạng giao hàng của sản phẩm trên phiếu xuất kho đã sinh ra và xác nhận số lượng sản phẩm bàn giao theo đơn hàng </p>
+<p><img alt="" src="../images/fin_banhang_donhang_phieuxuat.png" /></p>
+<h3 id="huong-dan-tren-phan-mem_1"><strong>Hướng dẫn trên phần mềm</strong></h3>
+<p><strong>Bước 1</strong>: Chọn <strong>Phiếu xuất kho</strong>, hệ thống chuyển sang chức năng phiếu xuất kho. </p>
+<p><img alt="" src="../images/fin_banhang_donhang_pxk.png" /></p>
+<p><strong>Bước 2</strong>: Thực hiện nhập số lượng hàng đã hoàn thành giao cho khách hàng </p>
+<ul>
+<li>Nếu Số lượng xuất kho đủ theo Số lượng của Đơn bánhàng: Thực hiện nhấn <strong>Xác nhận</strong> để xác nhận toàn bộ Đơn hàng</li>
+</ul>
+<p><img alt="" src="../images/fin_banhang_donhang_pxk_xacnhan.png" /></p>
+<ul>
+<li>Nếu Số lượng xuất kho Chưa đủ theo Số lượng của Đơn bán hàng: Thực hiện nhập số lượng theo thực tế bằng cách nhấn <strong>Sửa</strong>, vào nhóm <strong>Vật tư, hàng hóa chi tiết</strong>, nhập số lương <strong>hoàn thành</strong>, sau đó nhấn <strong>Lưu</strong></li>
+</ul>
+<p><img alt="" src="../images/fin_banhang_donhang_nhapslhoanthanh.png" /></p>
+<p>Nhấn <strong>Xác nhận</strong> để hoàn thành xuất hàng giao cho khách hàng</p>
+<p>Khi đó có 2 hướng thực hiện :</p>
+<ul>
+<li>Nếu chọn <strong>Tạo phần dở dang</strong>: Với Số lượng còn thiếu, hệ thống tạo sẵn 1 chứng từ Phiếu xuất kho, để Khi nhập kho với Số lượng còn lại, bộ phận Kho tiếp tục vào Phiếu xuất kho (đã tạo phần dở dang) để thực hiện Xác nhận Số lượng xuất kho còn lại.</li>
+<li>Nếu chọn <strong>Không tạo phần dở dang</strong>: Khi đó hệ thống Tách Số lượng nhu cầu ban đầu Bằng đúng Số lượng thực xuất, còn Số lượng chênh chưa nhận được thì Số lượng hoàn thành = 0</li>
+</ul>
+<p>Như vậy <strong>Phiếu xuất kho</strong> đã <strong>Hoàn thành</strong> .</p>
+<h2 id="hoa-on-ban-hang"><em>Hóa đơn bán hàng</em></h2>
+<h3 id="mo-ta-nghiep-vu_2">Mô tả nghiệp vụ</h3>
+<p>Sau khi giao hàng thành công, người dùng thực hiện kiểm tra dữ liệu và lập hóa đơn bán hàng và gửi hóa đơn cho khách hàng</p>
+<h3 id="huong-dan-tren-phan-mem_2">Hướng dẫn trên phần mềm</h3>
+<p>Người dùng có thể lập hóa đơn bán hàng theo hai cách khác nhau</p>
+<p>Cách 1:Lập hóa đơn bán hàng từ đơn bán hàng. Chi tiết nghiệp vụ <strong><a href="#Lap-hoa-don-ban-hang-tu-don-ban-hang">tại đây</a></strong></p>
+<p>Cách 2: Lập hóa đơn bán hàng không từ đơn bán hàng. Chi tiết nghiệp vụ <strong><a href="#Lap-hoa-don-ban-hang-khong-tu-don-ban-hang">tại đây</a></strong></p>
+<h4 id="lap-hoa-on-ban-hang-tu-on-ban-hang">Lập hóa đơn bán hàng từ đơn bán hàng</h4>
+<p>Đối tượng thực hiện: Người bán hàng</p>
+<p><strong>Bước 1</strong>: Vào phân hệ <strong>Bán hàng</strong>, Chọn <strong>Đơn bán hàng</strong> đã hoàn thành Giaohàng cho khách hàng và Nhấn <strong>Tạo hóa đơn</strong></p>
+<p><img alt="" src="../images/fin_banhang_donhang_taohoadon.png" /></p>
+<p><strong>Bước 2</strong>: Trên màn hình <strong>Tạo Hóa đơn</strong>, kế toán thực hiện chọn loại hóa đơn thanh toán dựa trên số tiền khách hành thanh toán</p>
+<p><img alt="" src="../images/fin_banhang_donhang_taohoadon_popup.png" /></p>
+<ul>
+<li>Hóa đơn thông thường: Hệ thống tạo 1 hóa đơn với số lượng, số tiền tương ứng với đơn bán hàng</li>
+<li>Tiền đặt cọc (Theo phần trăm): Hệ thống tạo 1 hóa đơn với số tiền thanh toán theo tỷ lệ phần trăm với số tiền bên đơn bán hàng</li>
+<li>Tiền đặt cọc (Số tiền cố định): Hệ thống tạo 1 hóa đơn với số tiền thanh toán bằng số tiền đã nhập sẵn trên giao diện</li>
+</ul>
+<p>Chọn <strong>Tạo &amp; xem hóa đơn</strong> hoặc <strong>Tạo hóa đơn</strong> để thực hiện sinh hóa đơn theo yêu cầu</p>
+<p><strong>Bước 3</strong>: Trên thông tin <strong>Hóa đơn bán hàng</strong> vừa được tạo , Nhân viên thực hiện nhập các dữ liệu về:</p>
+<ul>
+<li>Hóa đơn: <strong>Ngày hóa đơn, Mẫu số hóa đơn,  Số hóa đơn</strong></li>
+</ul>
+<p><img alt="" src="../images/fin_banhang_donhang_hoadon_tabchung.png" /></p>
+<ul>
+<li>Chọn và nhập thông tin về Thuế và Chiết khấu tương ứng của Đơn hàng (Nếu có)</li>
+</ul>
+<p><img alt="" src="../images/fin_banhang_donhang_hoadon_tabchitiet.png" /></p>
+<p><strong>Bước 4</strong>:  Nếu hóa đơn có nhu cầu liên kết với chứng từ khác để theo dõi, vào mục Tham chiếu, thêm chứng từ tham chiếu và thực hiện tìm kiếm chứng từ</p>
+<p><img alt="" src="../images/fin_banhang_hoadon_thamchieu.png" /></p>
+<p><img alt="" src="../images/fin_banhang_hoadon_thamchieu_popup.png" /></p>
+<p><strong>Bước 5</strong>: Nhân viên thực hiện nhấn <strong>Xác nhận</strong></p>
+<p><strong>Lưu ý:</strong> Để nhìn lại tình trạng hóa đơn của đơn bán hàng, người dùng có thể vào chức năng đơn bán hàng, nhấn chọn <strong>Hóa đơn</strong> tại góc phải màn hình </p>
+<p><img alt="" src="../images/fin_banhang_donhang_hoadon_button.png" /></p>
+<h4 id="lap-hoa-on-ban-hang-khong-tu-on-ban-hang">Lập hóa đơn bán hàng không từ đơn bán hàng</h4>
+<p>Đối tượng thực hiện: Người bán hàng</p>
+<p><strong>Bước 1</strong>: Vào phân hệ <strong>Bán hàng</strong>, Chọn <strong>Hóa đơn</strong> , chọn <strong>Hóa đơn bán hàng</strong> </p>
+<p><img alt="" src="../images/fin_banhang_hoadon.png" /></p>
+<p>Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống</p>
+<p><img alt="" src="../images/fin_banhang_hoadon_timkiemnhanh.png" /></p>
+<p><img alt="" src="../images/fin_banhang_hoadon_viewdanhsach.png" /></p>
+<p><strong>Bước 2</strong>: Nhấn nút <strong>tạo</strong> <img alt="" src="../images/fin_banhang_taomoi.png" /> để thêm hóa đơn. </p>
+<p>Trên thông tin Hóa đơn bán hàng, Nhân viên kế toán thực hiện nhập các dữ liệu về:</p>
+<ul>
+<li>Chọn thông tin <strong><em>khách hàng</em></strong>. Nếu chưa có khách hàng thì có thể nhập bổ sung thêm bằng cách nhập tên khách hàng và chọn tạo mới <img alt="" src="../images/fin_banhang_khachhang.png" /></li>
+</ul>
+<p>hoặc vào đường dẫn <strong>Danh mục/Khách hàng</strong> và thực hiện thêm mới</p>
+<p><img alt="" src="../images/fin_banhang_danhmuc_khachhang.png" /></p>
+<ul>
+<li>Nhập bổ sung thông tin gồm: Ngày hóa đơn, Mẫu số, Ký hiệu hóa đơn ,Số hóa đơn, hạn thanh toán</li>
+</ul>
+<p><img alt="" src="../images/fin_banhang_donhang_hoadon_tabchung.png" /></p>
+<ul>
+<li>Chọn và nhập thông tin về sản phẩm, số lượng, giá thành bán,Thuế và Chiết khấu của sản phẩm cần lập hóa đơn</li>
+</ul>
+<p><img alt="" src="../images/fin_banhang_donhang_hoadon_tabchitiet.png" /></p>
+<p><strong>Bước 3</strong>: Nhân viên Kế toán thực hiện nhấn <strong>Lưu</strong> . Hệ thống lưu thông tin chi tiết hóa đơn đã nhập và tự động sinh ra các chi tiết bút toán phát sinh</p>
+<p>Thông tin dữ liệu bút toán phát sinh:</p>
+<ul>
+<li>Căn cứ thông tin Thuế  đã lựa chọn cùng với thông tin Chiết khấu, Đơn giá, Số lượng đã nhập bên chi tiết hóa đơn, hệ thống thực hiện mặc định thông tin các bút toán tương ứng</li>
+</ul>
+<p><img alt="" src="../images/fin_banhang_hoadon_buttoan.png" /></p>
+<p><strong>Bước 4</strong>: Nhân viên Kế toán thực hiện nhấn <strong>Xác nhận</strong> để hoàn thành xuất hóa đơn bán hàng</p>
+<h2 id="ghi-nhan-thanh-toan-tu-khach-hang"><em>Ghi nhận thanh toán từ khách hàng</em></h2>
+<h3 id="mo-ta-nghiep-vu_3">Mô tả nghiệp vụ</h3>
+<p>Người dùng thực hiện ghi nhận và theo dõi việc thanh toán của hóa đơn sau khi xác nhận xuất hóa đơn thành công</p>
+<h3 id="huong-dan-tren-phan-mem_3">Hướng dẫn trên phần mềm</h3>
+<p>Đối tượng thực hiện: Người bán hàng</p>
+<p><strong>Bước 1</strong>: Vào phân hệ <strong>Bán hàng</strong>, chọn <strong>Hóa đơn</strong>, chọn <strong>Hóa đơn bán hàng</strong>. Trên danh sách hóa đơn bán hàng, kế toán tìm tới các hóa đơn đã được ghi sổ</p>
+<p><img alt="" src="../images/fin_banhang_hoadon_danhsach.png" /></p>
+<p><strong>Bước 2</strong>: Chọn hóa đơn cần thanh toán, Nhấn nút <strong>Ghi nhận thanh toán</strong>. </p>
+<p><img alt="" src="../images/fin_BanHang_HoaDon_GhiNhanThanhToan.png" /></p>
+<p>Người dùng nhập và sửa thông tin Tài khoản ngân hàng người nhận, khách hàng, ngày thanh toán tiền, số tiền khách hàng đã trả</p>
+<p><img alt="" src="images/fin_BanHang_HoaDon_GhiNhanThanhToan_Popup.png" /></p>
+<p><strong>Bước 3</strong>: Nhấn <strong>Tạo thanh toán</strong>, hệ thống sinh phiếu thu tiền  để thu tiền khách hàng đã thực hiện trả</p>
+<p><strong>Bước 4</strong>: Để kiểm tra lại phiếu thu tiền, người dùng có thể tìm phiếu thu bằng cách:</p>
+<p>Nếu Tại thông tin <strong>Ghi nhận thanh toán</strong>, <strong>Sổ nhật ký</strong> được chọn là <strong>tiền mặt</strong> thì người dùng vào chức năng <strong>Ngân quỹ/Tiền mặt/Phiếu thu</strong>. </p>
+<p><img alt="" src="../images/fin_banhang_hoadon_phieuthu.png" /></p>
+<p>Nếu Tại thông tin <strong>Ghi nhận thanh toán</strong>, <strong>Sổ nhật ký</strong> được chọn là <strong>tiền gửi</strong> thì người dùng vào chức năng <strong>Ngân quỹ/Tiền gửi/Báo có</strong>. </p>
+<p><img alt="" src="../images/fin_banhang_hoadon_baoco.png" /></p>
+<p>Người dùng có thể tìm thấy phiếu thu tiền dựa trên ngày thanh toán, đối tác thanh toán, tổng tiền, nội dung giao dịch</p>
+<p><img alt="" src="../images/fin_banhang_hoadon_phieuthu_danhsach.png" /></p>
+<h2 id="hoa-on-giam-giatra-hang"><em>Hóa đơn giảm giá/trả hàng</em></h2>
+<h3 id="mo-ta-nghiep-vu_4">Mô tả nghiệp vụ</h3>
+<p>Khi phát sinh nghiệp vụ giảm giá hàng bán hoặc trả lại hàng đã bán, thông thường sẽ có các hoạt động sau:</p>
+<p>Nếu phát hiện hàng mua về không đúng quy cách, phẩm chất theo hợp đồng đã ký, khách hàng thoả thuận với doanh nghiệp trả lại hàng đã mua.</p>
+<p>Cách 1: Người bán hàng lập hóa đơn giảm giá hàng bán để giao cho khách hàng và ghi sổ kế toán.Chi tiết nghiệp vụ <strong><a href="#Tao-hoa-don-giam-gia">tại đây</a></strong></p>
+<p>Cách 2: Người bán hàng chuyển đổi hóa đơn bán hàng thành khoản hoàn tiền/công nợ giảm. Chi tiết nghiệp vụ <strong><a href="#Chuyen-doi-thanh-khoan-hoan-tien/cong-no-giam">tại đây</a></strong></p>
+<h3 id="huong-dan-tren-phan-mem_4">Hướng dẫn trên phần mềm</h3>
+<p>Đối tượng thực hiện: Nhân viên kế toán</p>
+<h4 id="tao-hoa-on-giam-gia">Tạo hóa đơn giảm giá</h4>
+<p><strong>Bước 1</strong>: Vào phân hệ <strong>Bán hàng</strong>, chọn <strong>Hóa đơn</strong>, chọn <strong>Hóa đơn bán hàng</strong>. Trên danh sách hóa đơn bán hàng, kế toán tìm tới các hóa đơn đã được ghi sổ, nhấn chọn <strong>Tạo HĐ giảm giá</strong></p>
+<p><img alt="" src="../images/fin_BanHang_HoaDon_TaoHDGiamGia.png" /></p>
+<p><strong>Bước 2</strong>: Nhập Lý do tạo hóa đơn, Nhấn <strong>Đảo ngược</strong></p>
+<p><img alt="" src="../images/fin_BanHang_HoaDon_TaoHDGiamGia_popup.png" /></p>
+<p>Hệ thống tự sinh hóa đơn giảm giá với thông tin tương ứng với hóa đơn bán hàng. </p>
+<p>Trên hóa đơn giảm giá được sinh ra, kế toán khai báo  các thông tin trên chứng từ giảm giá hàng bán như: số lượng hàng được giảm, giá trị giảm</p>
+<p><img alt="" src="../images/fin_BanHang_HoaDon_HDGiamGia.png" /></p>
+<p>Nhấn <strong>xác nhận</strong> để ghi sổ thông tin hóa đơn. </p>
+<p>Sau đó, người dùng sẽ <strong>xuất hóa đơn</strong> để gửi lại cho khách hàng và <strong>ghi nhận lại thanh toán</strong></p>
+<p><img alt="" src="../images/fin_banhang_hoadon_giamgia_ghinhantt.png" /></p>
+<h4 id="chuyen-oi-thanh-khoan-hoan-tiencong-no-giam">Chuyển đổi thành khoản hoàn tiền/công nợ giảm</h4>
+<p>Bước 1: Vào phân hệ <strong>Bán hàng</strong>, chọn <strong>Hóa đơn</strong>, chọn <strong>Hóa đơn bán hàng</strong>. Trên danh sách hóa đơn bán hàng, kế toán tìm tới hóa đơn có nhu cầu hoàn hàng, nhấn chọn tiện ích/chuyển đổi thành khoản hoàn tiền/công nợ giảm</p>
+<p><img alt="" src="../images/fin_BanHang_HoaDon_ButtonChuyenDoi.png" /></p>
+<p>Hệ thống chuyển đổi từ hóa đơn bán hàng thành hóa đơn giảm giá/trả hàng, các thông tin được giữ nguyên</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../fin-ke-toan-tong-hop-88/" class="btn btn-neutral float-right" title="Kế toán">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../fin-mua-hang-88/" class="btn btn-neutral" title="Mua hàng"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../fin-mua-hang-88/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../fin-ke-toan-tong-hop-88/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/extra.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
