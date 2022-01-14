@@ -68,7 +68,6 @@ nav:
         - 'Bữa ăn': 'digitalworkplace/Addon-bua-an.md'
         - 'Phê duyệt trên web': 'digitalworkplace/Addon-PheDuyet-Web.md'
         - 'Cuộc họp trực tuyến': 'digitalworkplace/Addon-meeting.md'
-        - 'Ký số': 'digitalworkplace/Addon-ky-so.md'
         - 'Lịch sử phát triển sản phẩm': 'digitalworkplace/Lich-su-phat-trien.md'
     - 'vESS Mobile': 
         - 'Giới thiệu về vESS mobile': 'vESS_mobile/Gioi-thieu-vess-mobile.md'
@@ -76,6 +75,7 @@ nav:
         - 'Các thuật ngữ và từ viết tắt': 'vESS_mobile/Thuat-ngu-viet-tat.md'
         - 'Đăng nhập': 'vESS_mobile/Mobile-dang-nhap.md'
         - 'Phê duyệt trên mobile': 'vESS_mobile/Addon-phe-duyet.md'
+        - 'Ký số': 'vESS_mobile/Addon-ky-so.md'
         - 'Lịch sử phát triển sản phẩm': 'vESS_mobile/Mobile-Lich-su-phat-trien.md'
     - 'Release Notes': 'release-notes.md'
 theme:
