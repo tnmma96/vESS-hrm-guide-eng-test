@@ -18,7 +18,7 @@ nav:
         - 'Chấm công': 'hrm/attendance.md'
         - 'Tính lương': 'hrm/payroll.md'
         - 'Lịch sử phát triển sản phẩm': 'hrm/log-histories.md'
-    - 'Kế toán': 
+    - 'Kế toán - Dành cho kế toán doanh nghiệp':
         - 'Giới thiệu về phân hệ Kế toán': 'finance/fin-introduction.md'
         - 'Thiết lập và khai báo ban đầu': 'finance/fin-initialization.md'
         - 'Các thuật ngữ và từ viết tắt': 'finance/fin-abbreviations.md'
@@ -29,11 +29,21 @@ nav:
         - 'Bán hàng': 'finance/fin-ban-hang.md'
         - 'Kế toán': 'finance/fin-ke-toan-tong-hop.md'
         - 'Kho vận': 'finance/fin-kho.md'
-            # - 'Sản xuất': 'finance/fin-san-xuat.md'
         - 'Tài sản cố định': 'finance/fin-tscd.md'
         - 'Công cụ dụng cụ': 'finance/fin-ccdc.md'
         - 'Giá thành': 'finance/fin-giathanh.md'
         - 'Lịch sử phát triển sản phẩm': 'finance/fin-log-histories.md'
+    - 'Kế toán - Dành cho hộ, cá thể kinh doanh':
+        - 'Giới thiệu về phân hệ Kế toán': 'finance_TT88/fin-introduction-88.md'
+        - 'Thiết lập và khai báo ban đầu': 'finance_TT88/fin-initialization-88.md'
+        - 'Các thuật ngữ và từ viết tắt': 'finance_TT88/fin-abbreviations-88.md'
+        - 'Khai báo danh mục': 'finance_TT88/fin-danh-muc-new-88.md'
+        - 'Quản lý tiền - Tiền mặt': 'finance_TT88/fin-tien-TM-88.md'
+        - 'Quản lý tiền - Tiền gửi': 'finance_TT88/fin-tien-NH-88.md'
+        - 'Mua hàng': 'finance_TT88/fin-mua-hang-88.md'
+        - 'Bán hàng': 'finance_TT88/fin-ban-hang-88.md'
+        - 'Kế toán': 'finance_TT88/fin-ke-toan-tong-hop-88.md'
+        - 'Lịch sử phát triển sản phẩm': 'finance_TT88/fin-log-histories-88.md'
     - 'Tài liệu': 
         - 'Giới thiệu về ứng dụng Tài liệu': 'document/introduction.md'
         - 'Các thuật ngữ và từ viết tắt': 'document/abbreviations.md'
