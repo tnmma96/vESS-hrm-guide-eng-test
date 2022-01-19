@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Chỉ số đo lường KPI - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Ch\u1ec9 s\u1ed1 \u0111o l\u01b0\u1eddng KPI";
+    var mkdocs_page_input_path = "digitalworkplace\\Addon-KPI.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../..">Trang chủ</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Đăng ký, đăng nhập</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-login/">Đăng nhập, đăng xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-QRcode/">Đăng nhập bằng QR code</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-DangNhapG/">Đăng nhập bằng G+</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-xac-thuc-hai-buoc/">Xác thực 2 bước</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/payroll/">Tính lương</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán - Dành cho kế toán doanh nghiệp</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ccdc/">Công cụ dụng cụ</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-giathanh/">Giá thành</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán - Dành cho hộ, cá thể kinh doanh</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-introduction-88/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-initialization-88/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-abbreviations-88/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-danh-muc-new-88/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-tien-TM-88/">Quản lý tiền - Tiền mặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-tien-NH-88/">Quản lý tiền - Tiền gửi</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-mua-hang-88/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-ban-hang-88/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-hoa-don-dien-tu-88/">Hóa đơn điện tử</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-ke-toan-tong-hop-88/">Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-kho-88/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-bao-cao-88/">Báo cáo</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-log-histories-88/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Tài liệu</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/introduction/">Giới thiệu về ứng dụng Tài liệu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/document/">Tài liệu</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Ký số</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/introduction/">Giới thiệu về ứng dụng Ký số</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/esign/">Ký số</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-Social/">Mạng xã hội</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-project/">Dự án</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-khao-sat/">Khảo sát</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-ghi-chu/">Ghi chú</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-su-kien/">Sự kiện</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-bua-an/">Bữa ăn</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-PheDuyet-Web/">Phê duyệt trên web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-meeting/">Cuộc họp trực tuyến</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Chỉ số đo lường KPI</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#cau-hinh">Cấu hình</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#on-vi-o">Đơn vị đo</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#loai-iem-anh-gia">Loại điểm đánh giá</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#chu-ki">Chu kì</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#trang-thai-thuc-hien-cua-muc-tieu">Trạng thái thực hiện của mục tiêu</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#trang-thai-thuc-hien-cua-ket-qua-then-chot">Trạng thái thực hiện của kết quả then chốt</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#gan-the">Gắn thẻ</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#muc-tieu">Mục tiêu</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ket-qua-then-chot">Kết quả then chốt</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#anh-gia">Đánh giá</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#bao-cao">Báo cáo</a>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addon-OKR/">Chỉ số đo lường OKR</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">vESS Mobile</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Gioi-thieu-vess-mobile/">Giới thiệu về vESS mobile</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-dang-nhap/">Đăng nhập</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon-phe-duyet/">Phê duyệt trên mobile</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon-ky-so/">Ký số</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Digital workplace &raquo;</li>
+        
+      
+    
+    <li>Chỉ số đo lường KPI</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="quy-trinh-nghiep-vu">Quy trình nghiệp vụ</h1>
+<p>KPIs cho phép thiết lập các tiêu chí đánh giá hiệu suất làm việc thể hiện mức độ hiệu quả thực hiện công việc của một tổ chức, một cá nhân thực hiện mục tiêu đề ra trong một khoảng thời gian cụ thể</p>
+<p><strong>Quy trình</strong></p>
+<p><img alt="" src="../picture/PIC_DW_OKR_QuyTrinh.png" /></p>
+<p><strong>Các luồng quy trình</strong></p>
+<ul>
+<li>
+<p>Cấu hình. Chi tiết nghiệp vụ <u><a href="#cau-hinh">tại đây</a></u></p>
+</li>
+<li>
+<p>Mục tiêu. Chi tiết nghiệp vụ <u><a href="#muc-tieu">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Kết quả then chốt. Chi tiết nghiệp vụ <u><a href="#ket-qua-then-chot">tại đây</a></u></p>
+</li>
+<li>
+<p>Đánh giá. Chi tiết nghiệp vụ <u><a href="#anh-gia">tại đây</a></u></p>
+</li>
+<li>
+<p>Báo cáo. Chi tiết nghiệp vụ <u><a href="#bao-cao">tại đây</a></u></p>
+</li>
+</ul>
+<p><strong>Mô tả nghiệp vụ</strong></p>
+<ol>
+<li>Hệ thống KPI có tính liên kết và phân cấp từ công ty, sau đó chuyển xuống các bộ phận, các nhóm và cuối cùng là từng cá nhân.</li>
+<li>Quản trị hệ thống cần thiết lập <strong>Cấu hình</strong> trước khi tạo <strong>Mục tiêu</strong> bao gồm "Chu kì, Đơn vị đo, Loại điểm đánh giá, Giai đoạn của mục tiêu, Giai đoạn của kết quả then chốt"</li>
+<li>Người sử dụng có thể tạo và kiểm soát <strong>Mục tiêu</strong> của mình. <strong>Mục tiêu</strong> là điều hướng tới, điều mong muốn đạt được trong tương lai</li>
+<li>Sau khi chốt <strong>Mục tiêu</strong>, người sử dụng sẽ xác định <strong>Kết quả then chốt</strong> cần đạt được để hoàn thành "Mục tiêu" đó</li>
+<li>Quản lý/Trưởng phòng có thể kiểm soát được mức độ hoàn thiện <strong>Mục tiêu</strong> của cấp dưới, nhìn nhận được vấn đề nhanh chóng và chính xác</li>
+<li>Người sử dụng có thể thực hiện phản hồi ngang hàng hoặc phản hồi chéo về "Mục tiêu" của nhau</li>
+<li>Cấp quản lý có hệ thống chấm điểm, đánh giá - ghi nhận nỗ lực của các cấp dưới</li>
+</ol>
+<p><strong>Luồng chức năng chính</strong></p>
+<ul>
+<li>
+<p>Đơn vị đo. Chi tiết nghiệp vụ <u><a href="#don-vi-do">tại đây</a></u></p>
+</li>
+<li>
+<p>Loại điểm đánh giá. Chi tiết nghiệp vụ <u><a href="#loai-diem-danh-gia">tại đây</a></u></p>
+</li>
+<li>
+<p>Chu kỳ. Chi tiết nghiệp vụ <u><a href="#chu-ky">tại đây</a></u></p>
+</li>
+<li>
+<p>Trạng thái thực hiện của mục tiêu. Chi tiết nghiệp vụ <u><a href="#giai-doan-cua-muc-tieu">tại đây</a></u></p>
+</li>
+<li>
+<p>Trạng thái thực hiện của kết quả then chốt. Chi tiết nghiệp vụ <u><a href="#giai-doan-cua-ket-qua-then-chot">tại đây</a></u></p>
+</li>
+<li>
+<p>Gắn thẻ. Chi tiết nghiệp vụ <u><a href="#gan-the">tại đây</a></u></p>
+</li>
+<li>
+<p>Mục tiêu. Chi tiết nghiệp vụ <u><a href="#muc-tieu">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Kết quả then chốt. Chi tiết nghiệp vụ <u><a href="#ket-qua-then-chot">tại đây</a></u></p>
+</li>
+<li>
+<p>Đánh giá. Chi tiết nghiệp vụ <u><a href="#anh-gia">tại đây</a></u></p>
+</li>
+<li>
+<p>Báo cáo. Chi tiết nghiệp vụ <u><a href="#bao-cao">tại đây</a></u></p>
+</li>
+</ul>
+<p><strong>Video hướng dẫn</strong></p>
+<h2 id="cau-hinh"><strong>Cấu hình</strong></h2>
+<h3 id="on-vi-o"><strong>Đơn vị đo</strong></h3>
+<p><strong>Đơn vị đo</strong> thể hiện cách đo lường chỉ số KPIs, là cơ sở để thiết lập các mức chỉ tiêu</p>
+<p><strong>Đối tượng thực hiện</strong>: Người sử dụng là Quản trị hệ thống và vai trò Tổ chức lao động</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>
+<p>Vào chức năng <strong>Chỉ số đo lường KPI</strong>, chọn <strong>Cấu hình</strong> <strong>-&gt;</strong> <strong>Đơn vị đo</strong></p>
+<p><img alt="" src="../picture/PIC_DW_KPI-donvido.png" /></p>
+</li>
+<li>
+<p>Kích nút <strong>Tạo</strong></p>
+</li>
+<li>
+<p>Nhập thông tin tạo <strong>Đơn vị đo</strong></p>
+<p><img alt="" src="../picture/PIC_DW_KPI-taodonvido.png" /></p>
+<ul>
+<li><strong>Tên:</strong> nhập tên đơn vị đo mới cho "Cấu hình Đơn vị đo"</li>
+<li><strong>Mô tả:</strong> nhập mô tả cho "Cấu hình Đơn vị đo"</li>
+<li><strong>Đơn vị đo:</strong> nhập "Đơn vị đo"</li>
+</ul>
+</li>
+<li>
+<p>Kích <strong>Lưu:</strong> thông tin về <strong>Đơn vị đo</strong> được lưu lại   </p>
+</li>
+<li>Kích <strong>Huỷ bỏ</strong> để hủy thao tác thêm mới <strong>Đơn vị đo</strong></li>
+</ol>
+<h3 id="loai-iem-anh-gia"><strong>Loại điểm đánh giá</strong></h3>
+<p><strong>Loại điểm đánh giá</strong> là thang điểm đánh giá "Mục tiêu"</p>
+<p><strong>Đối tượng thực hiện</strong>: Người sử dụng là Quản trị hệ thống</p>
+<ol>
+<li>Vào chức năng Chỉ số đo lường KPI, chọn <strong>Cấu hình</strong> <strong>-&gt;</strong> <strong>Loại điểm đánh giá</strong></li>
+</ol>
+<p><img alt="" src="../picture/PIC_DW_KPI-loaidiemdanhgia.png" /></p>
+<ol>
+<li>Kích nút <strong>Tạo</strong>  </li>
+<li>
+<p>Nhập thông tin tạo <strong>Loại điểm đánh giá</strong>
+<img alt="" src="../picture/PIC_DW_KPI-taoloaidiemdanhgia.png" /></p>
+<ul>
+<li><strong>Tên:</strong> nhập tên cho "Loại điểm đánh giá"</li>
+<li><strong>Mô tả:</strong> nhập mô tả cho "Loại điểm đánh giá"</li>
+<li>
+<p><strong>Loại:</strong> chọn loại điểm đánh giá là "Chọn" hoặc "Đầu vào"</p>
+<ul>
+<li>Nếu người dùng chọn loại điểm đánh giá là <strong>Chọn</strong>, loại điểm đánh giá sẽ do người dùng cấu hình các giá trị đánh giá</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_KPI-chonloaidiemdanhgia.png" />
+* Nếu người dùng chọn loại điểm đánh giá là <strong>Đầu vào</strong>, thì loại điểm đánh giá sẽ là do người dùng tự nhập</p>
+<p><img alt="" src="../picture/PIC_DW_KPI-dauvaodiemdanhgia.png" />
+  4.  Kích <strong>Lưu:</strong> thông tin về "Loại điểm đánh giá được lưu lại"  <br />
+  5.  Kích <strong>Huỷ bỏ</strong> để huỷ thao tác thêm mới "Loại điểm đánh giá"</p>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="chu-ki"><strong>Chu kì</strong></h3>
+<p><strong>Chu kì</strong> là một khoảng thời gian của một "Mục tiêu", sẽ có các Mục tiêu lặp lại qua các chu kì. Trong suốt chu kì, người sử dụng sẽ liên tục đo lường và theo dõi kết quả "Mục tiêu" của mình, đồng thời có sự trao đổi thường xuyên với quản lý</p>
+<p><strong>Đối tượng thực hiện</strong>: Người sử dụng là Quản trị hệ thống và vai trò Tổ chức lao động</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>Vào chức năng <strong>Chỉ số đo lường KPI</strong>, chọn <strong>Cấu hình</strong> <strong>-&gt;</strong> <strong>Chu kì</strong></li>
+</ol>
+<p><img alt="" src="../picture/PIC_DW_KPI-chuki.png" /></p>
+<ol>
+<li>Kích nút <strong>Tạo</strong></li>
+<li>Nhập thông tin tạo "Chu kì"</li>
+</ol>
+<p><img alt="" src="../picture/PIC_DW_KPI-taochuki.png" /></p>
+<ul>
+<li><strong>Tên:</strong> nhập tên chu kì mới cho "Cấu hình chu kì"</li>
+<li><strong>Loại chu kì:</strong> nhập loại chu kì mới cho "Cấu hình Chu kì"</li>
+<li><strong>Mô tả:</strong> nhập mô tả cho "Cấu hình Chu kì"</li>
+<li><strong>Loại điểm đánh giá:</strong> chọn loại điểm đánh giá phù hợp với "Chu kì"</li>
+<li><strong>Ngày bắt đầu:</strong> bắt đầu "Chu kì" giao nhiệm vụ</li>
+<li><strong>Ngày kết thúc:</strong> kết thúc "Chu kì" giao nhiệm vụ</li>
+<li><strong>Ngày bắt đầu đánh giá:</strong> chọn ngày bắt đầu đánh giá "Chu kì"</li>
+<li><strong>Ngày kết thúc đánh giá:</strong> chọn ngày kết thúc đánh giá "Chu kì"</li>
+<li><strong>Chu kì trước:</strong> tích chọn hoặc không chọn phù hợp với "Chu kì" mong muốn</li>
+<li><strong>Chu kì mặc định:</strong> tích chọn hoặc không chọn phù hợp với "Chu kì" mong muốn</li>
+<li>
+<p><strong>Đánh giá thêm:</strong> Kích vào "Thêm một dòng"
+ <img alt="" src="../picture/PIC_DW_KPI-danhgiathemchuki.png" /></p>
+</li>
+<li>
+<p>Kích chọn vào thang điểm đánh giá mong muốn, sau đó nhấn "Chọn", hệ thống sẽ cập nhật dữ liệu đã đánh giá thêm vào <strong>Chu kì</strong> </p>
+</li>
+<li>Kích chọn "Tạo" để tạo thang điểm đánh giá thêm. Người dùng có thể đánh giá CBNV các nội dung khác ngoài <strong>Mục tiêu</strong> như "Tuân thủ địa điểm làm việc","Tuân thủ nội quy lao động", "Xếp hạng Ki",...</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_KPI-taodanhgiathemchuki.png" /></p>
+<ol>
+<li>Kích <strong>Lưu:</strong> thông tin về <strong>Chu kì</strong> được lưu lại</li>
+<li>Kích <strong>Huỷ bỏ</strong> để hủy thao tác thêm mới <strong>Chu kì</strong><pre><code>**Lưu ý:** Nếu đến cuối chu kì bạn chấm điểm phân loại có một số chu kì chưa đạt được, hãy đánh giá lại chúng và nếu cần - bổ sung lại vào chu kì tiếp theo
+</code></pre>
+</li>
+</ol>
+<h3 id="trang-thai-thuc-hien-cua-muc-tieu"><strong>Trạng thái thực hiện của mục tiêu</strong></h3>
+<p><strong>Trạng thái thực hiện của mục tiêu</strong> là trạng thái thực hiện của "Mục tiêu", để hiểu rõ hơn về quá trình hoạt động của "Mục tiêu", theo dõi tiến độ về "Mục tiêu" đó</p>
+<p><strong>Đối tượng thực hiện:</strong> Người sử dụng là Quản trị hệ thống</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>Vào chức năng <strong>Chỉ số đo lường KPI</strong>, chọn <strong>Cấu hình</strong> <strong>-&gt;</strong> <strong>Trạng thái thực hiện của mục tiêu</strong></li>
+</ol>
+<p><img alt="" src="../picture/PIC_DW_KPI-trangthaimuctieu.png" /></p>
+<ol>
+<li>Kích nút <strong>Tạo</strong></li>
+<li>Nhập thông tin tạo <strong>Trạng thái thực hiện của mục tiêu</strong></li>
+</ol>
+<p><img alt="" src="../picture/PIC_DW_KPI-taotrangthaithuchien.png" /></p>
+<ul>
+<li><strong>Tên trạng thái:</strong> nhập tên giai đoạn cho "Trạng thái thực hiện của mục tiêu"</li>
+<li><strong>Trạng thái:</strong> chọn giai đoạn phù hợp với "Trạng thái thực hiện của mục tiêu"</li>
+<li>
+<p><strong>Màu:</strong> chọn màu phù hợp với "Trạng thái thực hiện của mục tiêu"</p>
+</li>
+<li>
+<p>Kích <strong>Lưu:</strong> thông tin về <strong>Trạng thái thực hiện của mục tiêu</strong> được lưu lại     </p>
+</li>
+<li>Kích <strong>Huỷ bỏ:</strong> để hủy thao tác thêm mới <strong>Trạng thái thực hiện của mục tiêu</strong></li>
+</ul>
+<h3 id="trang-thai-thuc-hien-cua-ket-qua-then-chot"><strong>Trạng thái thực hiện của kết quả then chốt</strong></h3>
+<p><strong>Trạng thái thực hiện của kết quả then chốt</strong> là trạng thái thực hiện của "Kết quả then chốt", để hiểu rõ hơn về quá trình hoạt động cũng như theo dõi tiến độ của "Kết quả then chốt" đó</p>
+<p><strong>Đối tượng thực hiện</strong>: Người sử dụng là Quản trị hệ thống</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>Vào chức năng <strong>Chỉ số đo lường KPI</strong>, chọn <strong>Cấu hình</strong> <strong>-&gt;</strong> <strong>Trạng thái thực hiện của kết quả then chốt</strong></li>
+</ol>
+<p><img alt="" src="../picture/PIC_DW_KPI-trangthaiketquathenchot.png" /></p>
+<ol>
+<li>Kích nút <strong>Tạo</strong></li>
+<li>Nhập thông tin tạo "Trạng thái thực hiện của kết quả then chốt"</li>
+</ol>
+<p><img alt="" src="../picture/PIC_DW_KPI-taotrangthaiketquathenchot.png" /></p>
+<ul>
+<li><strong>Tên trạng thái:</strong> nhập tên giai đoạn cho cấu hình "Trạng thái thực hiện của kết quả then chốt"</li>
+<li><strong>Trạng thái:</strong> chọn giai đoạn phù hợp với cấu hình "Trạng thái thực hiện của kết quả then chốt"</li>
+<li><strong>Màu:</strong> chọn màu phù hợp với cấu hình "Trạng thái thực hiện của kết quả then chốtt"</li>
+<li>Kích <strong>Lưu:</strong> thông tin về <strong>Cấu hình/Trạng thái thực hiện của kết quả then chốt</strong> được lưu lại      </li>
+<li>Kích <strong>Huỷ bỏ:</strong> để huỷ thao tác thêm mới <strong>Cấu hình/Trạng thái thực hiện của kết quả then chốt</strong></li>
+</ul>
+<h3 id="gan-the"><strong>Gắn thẻ</strong></h3>
+<p><strong>Đối tượng thực hiện:</strong> Người sử dụng là Quản trị hệ thống</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>
+<p>Vào chức năng <strong>Chỉ số đo lường KPI</strong>, chọn <strong>Cấu hình</strong> <strong>-&gt;</strong> <strong>Gắn thẻ</strong></p>
+<p><img alt="" src="../picture/PIC_DW_KPI-ganthe.png" /></p>
+</li>
+<li>
+<p>Kích nút <strong>Tạo</strong></p>
+</li>
+<li>
+<p>Nhập thông tin tạo <strong>Gắn thẻ</strong></p>
+<p><img alt="" src="../picture/PIC_DW_KPI-taoganthe.png" /></p>
+<ul>
+<li><strong>Tên:</strong> nhập tên gắn thẻ cho "Cấu hình/gắn thẻ"</li>
+<li><strong>Màu:</strong> chọn màu phù hợp cho "Cấu hình/gắn thẻ"</li>
+</ul>
+</li>
+<li>
+<p>Kích <strong>Lưu:</strong> thông tin về "Gắn thẻ" được lưu lại</p>
+</li>
+<li>Kích <strong>Huỷ bỏ</strong> để hủy thao tác thêm mới <strong>Gắn thẻ</strong></li>
+</ol>
+<h2 id="muc-tieu"><strong>Mục tiêu</strong></h2>
+<p><strong>Mục tiêu</strong> CBQL và CBNV thiết lập và quản lý các "Mục tiêu" sẽ thực hiện trong kì giao nhiệm vụ</p>
+<p><strong>Đối tượng thực hiện:</strong> Quản lý, Nhân viên</p>
+<ol>
+<li>
+<p>Vào chức năng <strong>Chỉ số đo lường KPI</strong>, hệ thống hiển thị màn hình danh sách "Mục tiêu" ở dạng "list"</p>
+<p><img alt="" src="../picture/PIC_DW_KPI-muctieu.png" />
+2. Người sử dụng chọn xem danh sách <strong>Mục tiêu</strong> theo dạng "kanban"
+<img alt="" src="../picture/PIC_DW_KPI-muctieukanban.png" /></p>
+<p><strong>Lưu ý</strong>: Tại danh sách <strong>Mục tiêu</strong> dạng "kanban", người dùng có thể thêm mới nhanh một "Mục tiêu" bằng cách nhấn vào biểu tượng dấu <strong>+</strong> tại cột giai đoạn tương ứng hoặc thêm giai đoạn của "Mục tiêu" tại "Cấu hình/Giai đoạn của mục tiêu"</p>
+</li>
+</ol>
+<p><img alt="" src="../picture/PIC_DW_KPI-muctieukpi.png" /></p>
+<ol>
+<li>Kích nút <strong>Tạo mới</strong></li>
+<li>
+<p>Nhập thông tin tạo mới cho <strong>Mục tiêu</strong>    </p>
+<p><img alt="" src="../picture/PIC_DW_KPI-taomoimuctieu.png" /></p>
+<ul>
+<li><strong>Tên mục tiêu:</strong> nhập tên mục tiêu cho "Mục tiêu"</li>
+<li><strong>Tab <Thông tin chi tiết></strong><ul>
+<li><strong>Chỉ số đo lường KPI:</strong> nhập chỉ số đo lường KPI <em>(chỉ hiển thị với chức năng chỉ số đo lường KPI)</em></li>
+<li><strong>Phương pháp đo:</strong> nhập phương pháp đo của "Mục tiêu"</li>
+<li><strong>Đơn vị đo:</strong> chọn đơn vị (Được lấy từ Cấu hình/Đơn vị đo)</li>
+<li><strong>Tỉ trọng:</strong> nhập tỉ trọng của "Mục tiêu"</li>
+<li><strong>Tối thiểu:</strong> nhập giá trị tối thiểu của "Mục tiêu"</li>
+<li><strong>Mong đợi:</strong> nhập giá trị mong đợi của "Mục tiêu"</li>
+<li><strong>Thách thức:</strong> nhập giá trị thách thức của "Mục tiêu"</li>
+<li><strong>Chu kì:</strong> chọn chu kì (Được lấy từ Cấu hình/Chu kì)</li>
+<li><strong>Mục tiêu liên kết:</strong> chọn mục tiêu liên kết (Được lấy từ các Mục tiêu trước)</li>
+<li><strong>Loại mục tiêu:</strong> chọn loại mục tiêu cho "Mục tiêu"</li>
+<li><strong>Người giao việc:</strong> chọn người giao việc cho "Mục tiêu"</li>
+<li><strong>Người được giao:</strong> chọn người được giao cho "Mục tiêu"</li>
+<li><strong>Ngày bắt đầu:</strong> chọn ngày bắt đầu cho "Mục tiêu"</li>
+<li><strong>Ngày kết thúc:</strong> chọn ngày kết thúc cho "Mục tiêu"</li>
+<li><strong>Ngày kết thúc thực tế:</strong> chọn ngày kết thúc thực tế cho "Mục tiêu"</li>
+</ul>
+</li>
+<li>
+<p><strong>Tab <Kết quả then chốt>:</strong> </p>
+<ul>
+<li>Người dùng có thể tạo "Kết quả then chốt" trực tiếp tại chức năng "Kết quả then chốt"</li>
+<li>Người dùng tạo "Kết quả then chốt" từ giao diện thiết lập "Mục tiêu"</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_KPI-taothenchot.png" /></p>
+<ul>
+<li><strong>Tên kết quả then chốt</strong></li>
+<li>
+<p><strong>Tab <Cấu hình>:</strong></p>
+<ul>
+<li><strong>Ước lượng:</strong> nhập thời gian theo giá trị ngày của "Liên kết kết quả then chốt"</li>
+<li><strong>Người được giao:</strong> chọn người được giao cho "Liên kết kết quả then chốt"</li>
+<li><strong>Ngày bắt đầu:</strong> chọn ngày bắt đầu cho "Liên kết kết quả then chốt"</li>
+<li><strong>Ngày kết thúc:</strong> chọn ngày kết thúc cho "Liên kết kết quả then chốt"</li>
+<li><strong>Ngày kết thúc thực tế:</strong> chọn ngày kết thúc thực tế cho "Liên kết kết quả then chốt"</li>
+<li><strong>Tỉ trọng:</strong> nhập tỉ trọng của "Liên kết kết quả then chốt"</li>
+<li><strong>Kết quả công việc:</strong> nhập kết quả công việc của "Liên kết kết quả then chốt"
+        * <strong>Tab <Việc cần làm>:</strong> người dùng kích vào "Thêm dòng"</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_KPI-taovieccanlam.png" /></p>
+<ul>
+<li><strong>Tên:</strong> nhập tên của liên kết công việc cần làm</li>
+<li><strong>Ngày bắt đầu:</strong> chọn ngày bắt đầu</li>
+<li><strong>Ngày kết thúc:</strong> chọn ngày kết thúc</li>
+<li><strong>Nội dung:</strong> nhập nội dung</li>
+<li><strong>Tiến độ:</strong> nhập tiến độ </li>
+<li><strong>Ước lượng thời gian:</strong> nhập ước lượng thời gian thực hiện</li>
+<li><strong>Người được giao:</strong> chọn người được giao</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Kích <strong>Lưu:</strong> thông tin về "Mục tiêu" được lưu lại</p>
+</li>
+<li>
+<p>Người dùng thực hiện <strong>Theo dõi</strong> mục tiêu, <strong>Thêm người theo dõi</strong> hoặc <strong>Thêm kênh theo dõi</strong>. </p>
+</li>
+<li>
+<p>Người dùng tạo <strong>Ghi chú</strong> và <strong>Gửi tin</strong> đến người dùng cũng đang theo dõi thông tin của "Mục tiêu" đó</p>
+</li>
+<li>Kích <strong>Huỷ bỏ</strong> để huỷ thao tác thêm mới <strong>Mục tiêu</strong>    </li>
+</ol>
+<h2 id="ket-qua-then-chot"><strong>Kết quả then chốt</strong></h2>
+<p><strong>Kết quả then chốt</strong> là yếu tố đo lường được, giúp xác định và thúc đẩy "Mục tiêu" về phía trước, dùng để đánh giá xem ta đã đạt được "Mục tiêu" mà mình đề ra hay chưa</p>
+<p><strong>Đối tượng thực hiện:</strong> Quản trị hệ thống, Quản lý, Nhân viên, Người theo dõi, Vai trò của tổ chức lao động</p>
+<ol>
+<li>
+<p>Vào chức năng <strong>Chỉ số đo lường KPI</strong>, chọn <strong>Kết quả then chốt</strong>, hệ thống hiển thị màn hình danh sách "Kết quả then chốt" ở dạng "list"</p>
+<p><img alt="" src="../picture/PIC_DW_KPI-ketquathenchot.png" /></p>
+</li>
+<li>
+<p>Người sử dụng chọn xem danh sách <strong>Kết quả then chốt</strong> theo dạng "kanban"</p>
+<p><img alt="" src="../picture/PIC_DW_KPI-ketquathenchotkanban.png" /></p>
+<p><strong>Lưu ý</strong>: Tại danh sách <strong>Kết quả then chốt</strong> dạng "kanban", người dùng có thể thêm mới nhanh một "Kết quả then chốt" bằng cách nhấn vào biểu tượng dấu <strong>+</strong> tại cột giai đoạn tương ứng hoặc thêm giai đoạn của "Kết quả then chốt" tại "Cấu hình/Giai đoạn của kết quả then chốt"</p>
+</li>
+<li>
+<p>Kích nút <strong>Tạo</strong></p>
+</li>
+<li>
+<p>Nhập thông tin tạo mới cho <strong>Kết quả then chốt</strong>    </p>
+<p><img alt="" src="../picture/PIC_DW_KPI-taoketquathenchot.png" /></p>
+<ul>
+<li><strong>Tên kết quả then chốt:</strong> nhập tên "Kết quả then chốt"</li>
+<li>
+<p><strong>Tab <Cấu hình></strong></p>
+<ul>
+<li><strong>Mục tiêu:</strong> chọn mục tiêu (Được lấy từ Mục tiêu đã tạo)</li>
+<li><strong>Ước lượng:</strong> nhập thời gian ước lượng cho "Kết quả then chốt"</li>
+<li><strong>Người được giao:</strong> chọn người được giao của "Kết quả then chốt"</li>
+<li><strong>Ngày bắt đầu:</strong> chọn ngày bắt đầu của "Kết quả then chốt"</li>
+<li><strong>Ngày kết thúc:</strong> chọn ngày kết thúc của "Kết quả then chốt"</li>
+<li><strong>Ngày kết thúc thực tế:</strong> chọn ngày kết thúc thực tế của "Kết quả then chốt"</li>
+<li><strong>Tỉ trọng:</strong> nhập tỉ trọng cho "Kết quả then chốt"</li>
+<li><strong>Kết quả công việc:</strong> nhập kết quả công việc cho "Kết quả then chốt"</li>
+</ul>
+</li>
+<li>
+<p><strong>Tab <Việc cần làm>:</strong> người dùng kích vào "Thêm dòng"</p>
+<p><img alt="" src="../picture/PIC_DW_KPI-taovieccanlam.png" /></p>
+<ul>
+<li><strong>Tên:</strong> nhập tên của liên kết công việc cần làm<ul>
+<li><strong>Ngày bắt đầu:</strong> chọn ngày bắt đầu</li>
+<li><strong>Ngày kết thúc:</strong> chọn ngày kết thúc</li>
+<li><strong>Nội dung:</strong> nhập nội dung</li>
+<li><strong>Tiến độ:</strong> nhập tiến độ </li>
+<li><strong>Ước lượng thời gian:</strong> nhập ước lượng thời gian thực hiện</li>
+<li><strong>Người được giao:</strong> chọn người được giao</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Tab <Công việc liên kết>:</strong> người dùng kích vào "Thêm một dòng"</p>
+<p><img alt="" src="Picture/PIC_DW_KPI-taocongvieclienket.png" /></p>
+<ul>
+<li><strong>Tiêu đề nhiệm vụ:</strong> nhập tiêu đề nhiệm vụ của công việc liên kết</li>
+<li><strong>Dự án:</strong> chọn dự án</li>
+<li><strong>Đã phân công cho:</strong> chọn người phân công</li>
+<li><strong>Ngày bắt đầu:</strong> chọn ngày bắt đầu</li>
+<li><strong>Nỗ lực thực hiện:</strong> nhập thời gian thực hiện theo số giờ </li>
+<li><strong>Hạn chót:</strong> chọn ngày hạn chót</li>
+<li><strong>Độ ưu tiên:</strong> chọn độ ưu tiên</li>
+<li><strong>Từ khoá:</strong> chọn từ khoá</li>
+<li><strong>Ngày phân công:</strong> chọn ngày phân công</li>
+<li><strong>Cập nhật giai đoạn lần cuối:</strong> chọn cập nhật giai đoạn lần cuối</li>
+<li>
+<p><strong>Sử dụng ảnh bìa:</strong> tích hoặc không tích chọn "Sử dụng ảnh bìa"</p>
+</li>
+<li>
+<p><strong>Tab <Việc cần làm>:</strong> người dùng kích vào "Thêm một dòng" để thêm công việc cần làm cho nhiệm vụ công việc liên kết</p>
+</li>
+<li><strong>Tab <Mô tả>:</strong> người dùng nhập mô tả "Công việc liên kết"    </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Kích <strong>Lưu:</strong> thông tin về "Kết quả then chốt" được lưu lại</p>
+</li>
+<li>
+<p>Người dùng thực hiện <strong>Theo dõi</strong> mục tiêu, <strong>Thêm người theo dõi</strong> hoặc <strong>Thêm kênh theo dõi</strong>. </p>
+</li>
+<li>
+<p>Người dùng tạo <strong>Ghi chú</strong> và <strong>Gửi tin</strong> đến người dùng cũng đang theo dõi thông tin của mục tiêu đó</p>
+</li>
+<li>Kích <strong>Huỷ bỏ</strong> để huỷ thao tác thêm mới <strong>Kết quả then chốt</strong>    </li>
+</ol>
+<h2 id="anh-gia"><strong>Đánh giá</strong></h2>
+<p><strong>Đánh giá</strong> là chỉ số đánh giá thực hiện công việc, là công cụ đo lường, đánh giá hiệu quả công việc được thể hiện qua số liệu, tỷ lệ, chỉ tiêu định lượng, nhằm phản ánh hiệu quả hoạt động của các tổ chức hoặc bộ phân chức năng hay cá nhân</p>
+<p><strong>Đối tượng thực hiện:</strong> Người sử dụng hệ thống bao gồm: Quản trị hệ thống, Trưởng phòng, Phó phòng, Quản lý, Nhân viên, Người theo dõi, Vai trò của tổ chức lao động</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>
+<p>Vào chức năng <strong>Chỉ số đo lường KPI</strong>, chọn <strong>Đánh giá</strong></p>
+<p><img alt="" src="../picture/PIC_DW_KPI-danhgia.png" /></p>
+<p><strong>Lưu ý:</strong> Tại màn hình <strong>Đánh giá</strong> người sử dụng có thể thực hiện đánh giá kết quả "Mục tiêu" của nhân viên bất kỳ bằng cách nhấn vào button dấu <strong>+</strong> .
+<img alt="" src="Picture/PIC_DW_KPI-danhgiathem.png" /></p>
+</li>
+<li>
+<p>Người sử dụng thực hiện chọn nhân viên bất kỳ để xem "chi tiết mục tiêu" của nhân viên đó</p>
+<p><img alt="" src="../picture/PIC_DW_KPI-chitietmuctieu.png" /></p>
+<ul>
+<li>
+<p>Người sử dụng có thể thêm <strong>Kết quả then chốt</strong>, bằng cách nhấn vào <strong>Thêm dòng</strong></p>
+<p><img alt="" src="../picture/PIC_DW_KPI-taolienketketquathenchot.png" /></p>
+<ul>
+<li><strong>Tên kết quả then chốt:</strong> nhập tên "Kết quả then chốt"</li>
+<li>
+<p><strong>Tab <Cấu hình></strong></p>
+<ul>
+<li><strong>Ước lượng:</strong> nhập số ngày ước lượng</li>
+<li><strong>Người được giao:</strong> chọn người được giao</li>
+<li><strong>Ngày bắt đầu:</strong> chọn ngày bắt đầu</li>
+<li><strong>Ngày kết thúc:</strong> chọn ngày kết thúc</li>
+<li><strong>Ngày kết thúc thực tế:</strong> chọn ngày kết thúc thực tế</li>
+<li><strong>Tỉ trọng:</strong> nhập tỉ trọng</li>
+<li><strong>Kết quả công việc:</strong> nhập kết quả then chốt</li>
+<li>
+<p><strong>Tab <Việc cần làm></strong></p>
+<p><img alt="" src="../picture/PIC_DW_KPI-taovieccanlam.png" /></p>
+<ul>
+<li><strong>Tên:</strong> nhập tên "Việc cần làm"</li>
+<li><strong>Ngày bắt đầu:</strong> chọn ngày bắt đầu "Việc cần làm"</li>
+<li><strong>Ngày kết thúc:</strong> chọn ngày kết thúc "Việc cần làm"</li>
+<li><strong>Nội dung:</strong> nhập nội dung "Việc cần làm"</li>
+<li><strong>Tiến độ:</strong> nhập tiến độ "Việc cần làm"</li>
+<li><strong>Ước lượng thời gian:</strong> nhập ước lượng thời gian "Việc cần làm"</li>
+<li><strong>Người được giao:</strong> chọn người được giao "Việc cần làm"</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Lưu ý:</strong> Người sử dụng chỉ được đánh giá khi tỉ trọng của các "Mục tiêu" đạt 100 và trong thời gian đánh giá (Trong thời gian đánh giá được tạo ở "Cấu hình/Chu kì")</p>
+</li>
+<li>
+<p>Kích <strong>Lưu:</strong> thông tin <strong>Đánh giá</strong> được lưu lại</p>
+</li>
+</ol>
+<h2 id="bao-cao"><strong>Báo cáo</strong></h2>
+<p><strong>Đối tượng thực hiện:</strong> Người sử dụng là Quản trị hệ thống hoặc Quản lý</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<ol>
+<li>Vào chức năng <strong>Chỉ số đo lường KPI</strong>, chọn <strong>Báo cáo</strong></li>
+</ol>
+<p><img alt="" src="../picture/PIC_DW_KPI-baocaonvchitiet.png" /></p>
+<ul>
+<li><strong>Chu kì:</strong> chọn "Chu kì"</li>
+<li><strong>Phòng ban:</strong> chọn "Phòng ban"</li>
+<li>
+<p>Kích vào <strong>Xuất</strong> để xuất "Báo cáo giao nhiệm vụ chi tiết"</p>
+</li>
+<li>
+<p>Tại chức năng <strong>Chỉ số đo lường KPI</strong>, người sử dụng thực hiện chọn <strong>Báo cáo/Đánh giá công việc chi tiết</strong> theo "Chu kỳ" và "Phòng ban" để xuất báo cáo Đánh giá công việc chi tiết </p>
+<p><img alt="" src="../picture/PIC_DW_KPI-baocaodanhgia.png" /></p>
+<ul>
+<li><strong>Chu kì:</strong> chọn "Chu kì"</li>
+<li><strong>Phòng ban:</strong> chọn "Phòng ban"</li>
+<li>Kích vào <strong>Xuất</strong> để xuất "Báo cáo đánh giá nhiệm vụ chi tiết"</li>
+</ul>
+</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../Addon-OKR/" class="btn btn-neutral float-right" title="Chỉ số đo lường OKR">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../Addon-meeting/" class="btn btn-neutral" title="Cuộc họp trực tuyến"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Addon-meeting/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Addon-OKR/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/extra.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

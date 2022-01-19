@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Kho vận - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Kho v\u1eadn";
+    var mkdocs_page_input_path = "finance_TT88\\fin-kho-88.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../..">Trang chủ</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Đăng ký, đăng nhập</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-login/">Đăng nhập, đăng xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-QRcode/">Đăng nhập bằng QR code</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-DangNhapG/">Đăng nhập bằng G+</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-xac-thuc-hai-buoc/">Xác thực 2 bước</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/payroll/">Tính lương</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán - Dành cho kế toán doanh nghiệp</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ccdc/">Công cụ dụng cụ</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-giathanh/">Giá thành</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán - Dành cho hộ, cá thể kinh doanh</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-introduction-88/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-initialization-88/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-abbreviations-88/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-danh-muc-new-88/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-TM-88/">Quản lý tiền - Tiền mặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-NH-88/">Quản lý tiền - Tiền gửi</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-mua-hang-88/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-ban-hang-88/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-hoa-don-dien-tu-88/">Hóa đơn điện tử</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-ke-toan-tong-hop-88/">Kế toán</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Kho vận</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#lap-phieu-nhap-kho">Lập phiếu nhập kho</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#lap-phieu-nhap-kho_1">Lập phiếu nhập kho</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#lap-phieu-xuat-kho">Lập phiếu xuất kho</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_1">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#lap-phieu-xuat-kho_1">Lập phiếu xuất kho</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#kiem-ke-hang-ton-kho">Kiểm kê hàng tồn kho</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_2">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#kiem-ke-kho">Kiểm kê kho</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tinh-gia-xuat-kho">Tính giá xuất kho</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_3">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tinh-gia-xuat-kho_1">Tính giá xuất kho</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-bao-cao-88/">Báo cáo</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-log-histories-88/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Tài liệu</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/introduction/">Giới thiệu về ứng dụng Tài liệu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/document/">Tài liệu</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Ký số</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/introduction/">Giới thiệu về ứng dụng Ký số</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/esign/">Ký số</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Social/">Mạng xã hội</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-project/">Dự án</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-khao-sat/">Khảo sát</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-ghi-chu/">Ghi chú</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-su-kien/">Sự kiện</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-bua-an/">Bữa ăn</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-PheDuyet-Web/">Phê duyệt trên web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-meeting/">Cuộc họp trực tuyến</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-KPI/">Chỉ số đo lường KPI</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-OKR/">Chỉ số đo lường OKR</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">vESS Mobile</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Gioi-thieu-vess-mobile/">Giới thiệu về vESS mobile</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-dang-nhap/">Đăng nhập</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon-phe-duyet/">Phê duyệt trên mobile</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon-ky-so/">Ký số</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Kế toán - Dành cho hộ, cá thể kinh doanh &raquo;</li>
+        
+      
+    
+    <li>Kho vận</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="quy-trinh-nghiep-vu"><em>Quy trình nghiệp vụ</em></h1>
+<p>Kế toán kho chịu trách nhiệm chính  trong việc lập hóa đơn chứng từ và theo dõi chi tiết hàng hóa trong kho, bao gồm cả tình hình hàng nhập – xuất – tồn; đối chiếu các hóa đơn, chứng từ sổ sách với số liệu thực tế do Thủ kho trình lên, giúp hạn chế tối đa những rủi ro, thất thoát cho doanh nghiệp.</p>
+<p>Kế toán kho thực hiện quản lý tình hình nhập, xuất, tồn kho theo chủng loại, nhóm, chi tiết vật tư, hàng hóa, thành phẩm. Ngoài ra có  quản lý chi tiết đến từng kho, hỗ trợ tự động xuất kho theo cách thức xuất kho Nhập trước xuất trước (FIFO),  Nhập sau xuất trước (LIFO) , thực hiện hỗ trợ tự động tính giá xuất kho theo 4 phương pháp: Bình quân tức thời, Bình quân cuối kỳ, Đích danh, Nhập trước xuât trước  và lên các báo cáo kho: Tồn kho, Nhập xuất tồn kho</p>
+<p><img alt="fin_Kho_Quytrinh" src="../images/fin_Kho_Quytrinh.png" /></p>
+<p><strong>Các luồng quy trình</strong></p>
+<p>·     Lập phiếu nhập kho hàng hóa, thành phẩm. Chi tiết nghiệp vụ <strong><a href="#lap-phieu-nhap-kho">tại đây</a></strong></p>
+<p>·     Lập phiếu xuất kho hàng hóa, thành phẩm. Chi tiết nghiệp vụ <strong><a href="#lap-phieu-xuat-kho">tại đây</a></strong></p>
+<p>·     Kiểm kê kho . Chi tiết nghiệp vụ <strong><a href="#kiem-ke-hang-ton-kho">tại đây</a></strong></p>
+<p>·     Tính giá xuất kho. Chi tiết nghiệp vụ <strong><a href="#tinh-gia-xuat-kho">tại đây</a></strong></p>
+<h2 id="lap-phieu-nhap-kho"><em>Lập phiếu nhập kho</em></h2>
+<h3 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h3>
+<p>Đối với các đơn vị sản xuất sản phẩm hàng loạt hoặc theo đơn đặt hàng... sau khi sản phẩm hoàn thành thì sẽ chuyển về nhập kho. Khi đó, Kế toán sẽ thực hiện các bước sau:</p>
+<ul>
+<li>Căn cứ và phiếu báo số lượng thành phẩm hoàn thành nhập kho của bộ phận sản xuất, Kế toán kho lập Phiếu nhập kho thành phẩm.</li>
+<li>Kế toán trưởng và Giám đốc ký duyệt.</li>
+<li>Căn cứ vào phiếu nhập kho, Thủ kho kiểm tra, nhận hàng và tiến hành nhập kho, người bàn giao và Thủ kho ký vào phiếu nhập kho.</li>
+<li>Thủ kho ghi sổ kho, chuyển 1 liên phiếu nhập kho cho Kế toán ghi sổ kế toán kho.</li>
+</ul>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
+<h3 id="lap-phieu-nhap-kho_1">Lập phiếu nhập kho</h3>
+<p>Căn cứ vào đơn mua hàng, hóa đơn mua hàng, phiếu xuất kho bên bán, và thực tế hàng về, kế toán kho thực hiện Lập phiếu nhập kho (vật tư) tương ứng</p>
+<p>Đối tượng thực hiện: Kế toán kho</p>
+<p>Bước 1: Vào phân hệ <strong>Kho vận</strong>, Chọn nhóm <strong>Hoạt động</strong> , chọn chức năng <strong>Phiếu nhập kho</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</p>
+<p><img alt="fin_Kho_PhieuNhapKho_TabChung1" src="../images/fin_Kho_PhieuNhapKho_TabChung1.png" /></p>
+<p><img alt="fin_Kho_PhieuNhapKho_TabChung2" src="../images/fin_Kho_PhieuNhapKho_TabChung2.png" /></p>
+<p>Bước 2: Người dùng nhập các thông tin ở tab chung. Lưu ý: Trường <strong>Loại nhập</strong> khi lựa chọn thì phải có Địa điểm đích mặc định chính là kho cần nhập hàng hóa, thành phẩm và được tự động đẩy xuống trường <strong>Kho nhập</strong> (Ở tab chung và tab VTHH). Tùy các trường hợp nhập kho khác nhau mà chọn Loại nhập và có Kho nhập khác nhau. Cụ thể:</p>
+<ul>
+<li>Nhập kho mua hàng hóa, vật tư</li>
+<li>Nhập kho thành phẩm</li>
+<li>Nhập kho hàng bán bị trả lại</li>
+<li>Nhập kho từ chi nhánh chuyển đến</li>
+</ul>
+<p>Bước 3: </p>
+<ul>
+<li>Trường hợp nhập kho mua hàng hóa, vật tư theo đơn hàng. Người dùng có thể tích vào trường <strong>Chọn đơn mua hàng</strong> (Có thể chọn cùng lúc nhiều đơn mua hàng) hệ thống sẽ tự động đẩy thông tin xuống tab <strong>Vật tư hàng hóa (VTHH)</strong> như hình dưới:</li>
+</ul>
+<p><img alt="fin_Kho_PhieuNhapKho_TabChiTiet" src="../images/fin_Kho_PhieuNhapKho_TabChiTiet.png" /></p>
+<ul>
+<li>Trường hợp khác, người dùng tự nhập tay các thông tin ở Tab VTHH.</li>
+</ul>
+<p>Bước 4: Người dùng thao tác nhấn <strong>Lưu</strong>, nhấn <strong>Đánh dấu cần làm:</strong></p>
+<ul>
+<li>
+<p>Thực hiện nhập kho theo Nhu cầu thực tế.</p>
+</li>
+<li>
+<p>Nếu Số lượng nhập kho (Hoàn thành) đủ theo nhu cầu: Thực hiện nhấn <strong>Xác nhận</strong>.</p>
+</li>
+<li>
+<p>Nếu Số lượng nhập kho Chưa đủ theo Số lượng nhu cầu: Thực hiện nhập số lượng theo thực tế. Khi đó có 2 hướng thực hiện :</p>
+</li>
+<li>
+<p>Nếu chọn <strong>Tạo phần dở dang</strong>: Với Số lượng còn thiếu, hệ thống tạo sẵn 1 chứng từ Phiếu nhập kho, để Khi nhập kho với Số lượng còn lại, bộ phận Kho tiếp tục vào Phiếu nhập kho (đã tạo phần dở dang) để thực hiện Xác nhận Số lượng nhập kho còn lại.</p>
+</li>
+<li>Nếu chọn <strong>Không tạo phần dở dang</strong>: Khi đó hệ thống Tách Số lượng nhu cầu ban đầu Bằng đúng Số lượng thực nhận, còn Số lượng chênh chưa nhận được thì Số lượng hoàn thành = 0</li>
+</ul>
+<p>Như vậy <strong>Phiếu nhập kho</strong> đã <strong>Hoàn thành</strong> .</p>
+<p>Đồng thời sinh bút toán ở tab <strong>Hạch toán</strong>.</p>
+<p><img alt="fin_kho_PNK_tabhachtoan" src="../images/fin_kho_PNK_tabhachtoan.png" /></p>
+<h2 id="lap-phieu-xuat-kho"><em>Lập phiếu xuất kho</em></h2>
+<h3 id="mo-ta-nghiep-vu_1">Mô tả nghiệp vụ</h3>
+<p>Khi phát sinh nghiệp vụ xuất nguyên vật liệu dùng cho sản xuất, thông thường sẽ phát sinh các hoạt động sau:</p>
+<ul>
+<li>Căn cứ vào kế hoạch sản xuất hoặc đơn hàng của khách hàng trong kỳ, trưởng bộ phận sản xuất sẽ lập lệnh sản xuất cho các phân xưởng</li>
+<li>Căn cứ vào lệnh sản xuất kế toán kho hoặc người chịu trách nhiệm sẽ đề nghị xuất nguyên vật liệu dùng cho sản xuất</li>
+<li>Kế toán kho lập Phiếu xuất kho, sau đó chuyển Kế toán trưởng và Giám đốc ký duyệt</li>
+<li>Căn cứ vào Phiếu xuất kho, Thủ kho xuất kho hàng hoá</li>
+<li>Thủ kho ghi sổ kho, còn kế toán ghi sổ kế toán kho.</li>
+</ul>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
+<h3 id="lap-phieu-xuat-kho_1">Lập phiếu xuất kho</h3>
+<p>Đối tượng thực hiện: Kế toán kho</p>
+<p>Bước 1: Vào phân hệ <strong>Kho vận</strong>, Chọn nhóm <strong>Hoạt động</strong> , chọn chức năng <strong>Phiếu xuất kho</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</p>
+<p><img alt="fin_Kho_PhieuXuatKho_TabChung1" src="../images/fin_Kho_PhieuXuatKho_TabChung1.png" /></p>
+<p><img alt="fin_Kho_PhieuXuatKho_TabChung2" src="../images/fin_Kho_PhieuXuatKho_TabChung2.png" /></p>
+<p>Bước 2: Người dùng nhập các thông tin ở tab chung. Lưu ý: Lựa chọn <strong>Kiểu giao nhận</strong> có Địa điểm đi mặc định chính là kho cần xuất vật tư, hàng hóa và được tự động đẩy xuống trường <strong>Kho xuất</strong> (ở tab chung và tab VTHH). Tùy các trường hợp xuất kho mà lựa chọn các <strong>Loại nhập</strong> và <strong>Kho xuất</strong> khác nhau. Cụ thể:</p>
+<ul>
+<li>Xuất kho NVL dùng cho sản xuất</li>
+<li>Xuất kho hàng bán</li>
+<li>Xuất kho hàng mua trả lại</li>
+<li>Xuất kho cho các công ty/chi nhánh</li>
+</ul>
+<p>Bước 3: </p>
+<ul>
+<li>Trường hợp xuất kho theo đơn hàng bán, người dùng có thể tích vào trường <strong>Chọn đơn hàng bán</strong> (có thể cùng lúc chọn nhiều đơn hàng bán), hệ thống sẽ tự động đẩy thông tin xuống tab <strong>Vật tư hàng hóa (VTHH)</strong> như hình:</li>
+</ul>
+<p><img alt="fin_Kho_PhieuXuatKho_TabChiTiet" src="../images/fin_Kho_PhieuXuatKho_TabChiTiet.png" /></p>
+<ul>
+<li>Trường hợp khác, người dùng tự nhập tay các thông tin ở tab VTHH.</li>
+</ul>
+<p>Bước 4: Người dùng thao tác nhấn <strong>Lưu</strong>, <strong>Đánh dấu cần làm</strong>, <strong>Kiểm tra tính khả dụng</strong> (kiểm tra trong kho có đủ số lượng hàng hóa để xuất không):</p>
+<ul>
+<li>
+<p>Thực hiện xuất kho theo Nhu cầu thực tế.</p>
+</li>
+<li>
+<p>Nếu Số lượng xuất kho (Hoàn thành) đủ theo nhu cầu: Thực hiện nhấn <strong>Xác nhận</strong>.</p>
+</li>
+<li>
+<p>Nếu Số lượng xuất kho Chưa đủ theo Số lượng nhu cầu: Thực hiện xuất số lượng theo thực tế. Khi đó có 2 hướng thực hiện :</p>
+</li>
+<li>
+<p>Nếu chọn <strong>Tạo phần dở dang</strong>: Với Số lượng còn thiếu, hệ thống tạo sẵn 1 chứng từ Phiếu xuất kho, để Khi nhập kho với Số lượng còn lại, bộ phận Kho tiếp tục vào Phiếu xuất kho (đã tạo phần dở dang) để thực hiện Xác nhận Số lượng xuất kho còn lại.</p>
+</li>
+<li>Nếu chọn <strong>Không tạo phần dở dang</strong>: Khi đó hệ thống Tách Số lượng nhu cầu ban đầu Bằng đúng Số lượng thực xuất, còn Số lượng chênh chưa nhận được thì Số lượng hoàn thành = 0</li>
+</ul>
+<p>Như vậy <strong>Phiếu xuất kho</strong> đã <strong>Hoàn thành</strong> .</p>
+<p>Đồng thời sinh bút toán ở tab <strong>Hạch toán</strong> (tương tự <strong>Phiếu nhập kho</strong>)</p>
+<h2 id="kiem-ke-hang-ton-kho"><em>Kiểm kê hàng tồn kho</em></h2>
+<h3 id="mo-ta-nghiep-vu_2">Mô tả nghiệp vụ</h3>
+<p>Khi có yêu cầu kiểm kê kho từ kế toán trưởng hoặc Ban lãnh đạo công ty, bộ phận kế toán sẽ phát sinh một số hoạt động sau:</p>
+<ul>
+<li>Thành lập ban kiểm kê gồm: Kế toán kho, Thủ kho, Kế toán trưởng hoặc Giám đốc.</li>
+<li>Kiểm kê hàng hóa thực tế trong từng kho, đối chiếu số dư thực tế kiểm kê với sổ kế toán kho</li>
+<li>Nếu có chênh lệch thì tiến hành tìm nguyên nhân xử lý</li>
+<li>Trưởng ban kiểm kê sẽ đưa ra quyết định xử lý</li>
+<li>Căn cứ và quyết định xử lý, Kế toán kho thực hiện lập phiếu nhập kho, hoặc phiếu xuất kho. Đồng thời, hạch toán bút toán chênh lệch thừa, thiếu hàng hóa so với sổ kế toán.</li>
+<li>Trường hợp tìm được nguyên nhân và yêu cầu bồi thường thì hạch toán phải thu hoặc phải trả cho đối tượng phải bồi thường. Trường hợp chưa tìm được nguyên nhân thì hạch toán vào tài sản thừa chờ xử lý hoặc tài sản thiếu chờ xử lý </li>
+</ul>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
+<h3 id="kiem-ke-kho">Kiểm kê kho</h3>
+<p>Bước 1: Vào phân hệ <strong>Kho vận</strong>, Chọn nhóm <strong>Hoạt động</strong> , chọn chức năng <strong>Kiểm kê kho</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</p>
+<p><img alt="fin_Kho_KiemKeKho_TabChung" src="../images/fin_Kho_KiemKeKho_TabChung.png" /></p>
+<p>Bước 2: Sau khi người dùng nhập các thông tin vào tab chung, nhấn <strong>Bắt đầu kiểm kho</strong>. Người dùng nhập các thông tin ở tab Kiểm kho, điền số lượng đã kiểm đếm được ở cột <strong>Đã đếm</strong>.</p>
+<ul>
+<li>Nhập thông tin thành viên tham gia kiểm đếm ở tab thành viên tham gia.</li>
+</ul>
+<p><img alt="fin_Kho_KiemKeKho_TabChiTiet" src="../images/fin_Kho_KiemKeKho_TabChiTiet.png" /></p>
+<p>Bước 3: Nhấn <strong>Xác nhận kiểm kho</strong> , khi đó phiếu kiểm kê đã được <strong>Hoàn thành.</strong> Khi đó hệ thống tự động cập nhật kho theo số lượng kiểm đếm.</p>
+<h2 id="tinh-gia-xuat-kho"><em>Tính giá xuất kho</em></h2>
+<h3 id="mo-ta-nghiep-vu_3">Mô tả nghiệp vụ</h3>
+<p>Thực hiện tính và cập nhật giá xuất kho vào các phiếu xuất kho trong kỳ, căn cứ vào phương pháp tính giá xuất kho đã được xác định trên <strong>Kho vận\Cấu hình\Nhóm sản phẩm</strong></p>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
+<h3 id="tinh-gia-xuat-kho_1">Tính giá xuất kho</h3>
+<p>Đối tượng thực hiện: Kế toán kho</p>
+<p>Bước 1: Vào phân hệ <strong>Kho vận</strong>, Chọn nhóm <strong>Hoạt động</strong> , chọn chức năng <strong>Tính giá xuất kho</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</p>
+<p><img alt="" src="../images/fin_Kho_TinhGiaXuatKho.png" /></p>
+<p>Nhập thông tin để tính giá xuất kho: Vật tư hàng hóa cần tính giá, thời gian, kho nhập, kho xuất, kỳ tính giá</p>
+<p>Với phương pháp bình quân cuối kỳ: </p>
+<p>·     Tích chọn <strong>Tính theo kho</strong>, giá xuất của vật tư hàng hoá sẽ được tự động tính bình quân trên từng kho.</p>
+<p>·     Tích chọn <strong>Tính giá không theo kho</strong>, giá xuất của vật tư hàng hoá sẽ được tự động tính bình quân trên tất cả các kho.</p>
+<p>Nhấn <strong>Lưu</strong></p>
+<p>Với phương pháp bình quân tức thời:</p>
+<p>·     Tích chọn <strong>Tính theo kho</strong>, giá xuất của vật tư hàng hoá sẽ được tự động tính bình quân tức thời trên từng kho.</p>
+<p>·     Tích chọn <strong>Tính giá không theo kho</strong>, giá xuất của vật tư hàng hoá sẽ được tự động tính bình quân tức thời trên tất cả các kho.</p>
+<p>Nhấn <strong>Lưu</strong></p>
+<p>Với phương pháp tính giá đích danh:</p>
+<p>·     Tích chọn <strong>Tính theo kho</strong>, giá xuất của vật tư hàng hoá sẽ được tự động tính theo phương pháp đích danh trên từng kho.</p>
+<p>·     Tích chọn <strong>Tính giá không theo kho</strong>, giá xuất của vật tư hàng hoá sẽ được tự động tính theo phương pháp đích danh trên tất cả các kho.</p>
+<p>Nhấn <strong>Lưu</strong></p>
+<p>Với phương pháp tính giá nhập trước xuất trước:</p>
+<p>·     Tích chọn <strong>Tính theo kho</strong>, giá xuất của vật tư hàng hoá sẽ được tự động tính theo phương pháp nhập trước xuất trước trên từng kho.</p>
+<p>·     Tích chọn <strong>Tính giá không theo kho</strong>, giá xuất của vật tư hàng hoá sẽ được tự động tính theo phương phápnhập trước xuất trước trên tất cả các kho.</p>
+<p>Nhấn <strong>Lưu</strong></p>
+<p>Lưu ý: Trường hợp muốn tính giá xuất kho cho một hoặc một số vật tư hàng hoá, thực hiện như sau:</p>
+<ul>
+<li>Tích <strong>Chọn vật tư, hàng hóa</strong> khi thực hiện tính giá xuất kho.</li>
+<li>Nhấn vào biểu tượng : Chọn.. (như hình)</li>
+</ul>
+<p><img alt="fin_Kho_Tinhgia_bacham" src="../images/fin_Kho_Tinhgia_bacham.png" /></p>
+<ul>
+<li>Tích chọn các vật tư hàng hoá cần tính lại giá xuất kho, nhấn <strong>Đồng ý</strong></li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../fin-bao-cao-88/" class="btn btn-neutral float-right" title="Báo cáo">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../fin-ke-toan-tong-hop-88/" class="btn btn-neutral" title="Kế toán"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../fin-ke-toan-tong-hop-88/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../fin-bao-cao-88/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/extra.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
