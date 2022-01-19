@@ -8,15 +8,15 @@ Quản lý toàn bộ quy trình Mua hàng: Từ  Đơn hàng, Hóa đơn mua h�
 
 **Các luồng quy trình**
 
-·     Lập đơn mua hàng gửi Nhà cung cấp. Chi tiết nghiệp vụ **[tại đây](#Don-mua-hang)**
+·     Lập đơn mua hàng gửi Nhà cung cấp. Chi tiết nghiệp vụ **[tại đây](#on-mua-hang)**
 
-·     Nhập kho đơn mua hàng. Chi tiết nghiệp vụ **[tại đây](#Nhap-kho-don-mua-hang)**
+·     Nhập kho đơn mua hàng. Chi tiết nghiệp vụ **[tại đây](#nhap-kho-on-mua-hang)**
 
-·     Tạo hóa đơn mua hàng. Chi tiết nghiệp vụ [**tại đây**](#Hoa-don-mua-hang)
+·     Tạo hóa đơn mua hàng. Chi tiết nghiệp vụ [**tại đây**](#hoa-on-mua-hang)
 
-·     Ghi nhận thanh toán từ nhà cung cấp. Chi tiết nghiệp vụ [**tại đây**](#Thanh-toan-cho-nha-cung-cap)
+·     Ghi nhận thanh toán từ nhà cung cấp. Chi tiết nghiệp vụ [**tại đây**](#thanh-toan-cho-nha-cung-cap)
 
-·     Tạo hóa đơn giảm giá/trả hàng. Chi tiết nghiệp vụ [**tại đây**](#Hhoa-don-giam-gia/tra-lai-hang-mua)
+·     Tạo hóa đơn giảm giá/trả hàng. Chi tiết nghiệp vụ [**tại đây**](#hoa-on-giam-giatra-lai-hang-mua)
 
 ## ***Đơn mua hàng***
 
@@ -30,9 +30,9 @@ Khi đơn vị có nhu cầu mua hàng, lập yêu cầu mua hàng thì quy trì
 
 **Luồng chức năng chính**
 
-·     Lập đơn mua hàng gửi Nhà cung cấp. Chi tiết nghiệp vụ **[tại đây](#Lap-don-mua-hang-gui-Nha-cung-cap)**
+·     Lập đơn mua hàng gửi Nhà cung cấp. Chi tiết nghiệp vụ **[tại đây](#lap-on-mua-hang-gui-nha-cung-cap)**
 
-·     Xác nhận Đơn hàng từ Nhà cung cấp. Chi tiết nghiệp vụ [**tại đây**](#Xac-nhan-Đon-hang-tu-Nha-cung-cap)
+·     Xác nhận Đơn hàng từ Nhà cung cấp. Chi tiết nghiệp vụ [**tại đây**](#xac-nhan-on-hang-tu-nha-cung-cap)
 
 **Xem video hướng dẫn**
 
@@ -292,9 +292,9 @@ Khi phát hiện hàng mua về không đúng quy cách, chất lượng như đ
 - Sau khi thống nhất với Nhà cung cấp, Nhân viên kế toán thực hiện Luồng trả hàng Ngay tại Đơn mua hàng tương ứng
 - Thông tin Kho hàng và Hóa đơn trả hàng sẽ được tạo tại thời điểm thực hiện Trả hàng
 
-Cách 1: Người mua hàng lập hóa đơn giảm giá hàng đã mua để giao cho nhà cung cấp và ghi sổ kế toán.Chi tiết nghiệp vụ **[tại đây](#Tao-hoa-don-giam-gia hang)**
+Cách 1: Người mua hàng lập hóa đơn giảm giá hàng đã mua để giao cho nhà cung cấp và ghi sổ kế toán.Chi tiết nghiệp vụ **[tại đây](#tao-hoa-on-giam-gia-hang)**
 
-Cách 2: Người mua hàng chuyển đổi hóa đơn bán hàng thành khoản hoàn tiền/công nợ giảm. Chi tiết nghiệp vụ **[tại đây](#Chuyen-doi-thanh-khoan-hoan-tien/cong-no-giam)**
+Cách 2: Người mua hàng chuyển đổi hóa đơn bán hàng thành khoản hoàn tiền/công nợ giảm. Chi tiết nghiệp vụ **[tại đây](#chuyen-oi-thanh-khoan-hoan-tiencong-no-giam)**
 
 ### Hướng dẫn trên phần mềm
 

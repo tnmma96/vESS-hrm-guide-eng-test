@@ -14,9 +14,9 @@ Quy trình nghiệp vụ
 
 *[Liệt kê các luồng quy trình nghiệp vụ có trong Module, có link đến Phần Hướng dẫn chi tiết]*
 
-·     Lập chứng từ Báo có. Chi tiết nghiệp vụ [Báo có]()
+·     Lập chứng từ Báo có. Chi tiết nghiệp vụ **[Báo có](#bao-co)**
 
-·     Lập chứng từ Báo nợ. Chi tiết nghiệp vụ [Báo nợ]()
+·     Lập chứng từ Báo nợ. Chi tiết nghiệp vụ **[Báo nợ](#bao-no)**
 
 ## Báo có
 
@@ -63,7 +63,7 @@ Lưu ý:
   - Nhấn thêm cột dữ liệu ở Tab **Bút toán**
     - Chọn thông tin **Khoản mục chi phí**, **Công trình**, **Đơn hàng**, **Hợp đồng**... muốn theo dõi chi tiết
 
-## Phiếu chi
+## Báo nợ
 
 ### Thanh toán tiền điện nước, tiền internet, tiền thuê mặt bằng..
 

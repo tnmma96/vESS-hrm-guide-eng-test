@@ -13,11 +13,11 @@ Quy trình kế toán tổng hợp bao gồm:
 
 **Các luồng quy trình**
 
-·     Lập chứng từ nghiệp vụ khác. Chi tiết nghiệp vụ **[tại đây](#Chung-tu-nghiep-vu-khac)**
+·     Lập chứng từ nghiệp vụ khác. Chi tiết nghiệp vụ **[tại đây](#chung-tu-nghiep-vu-khac)**
 
-·     Danh sách bút toán. Chi tiết nghiệp vụ **[tại đây](#Danh-sach-but-toan)**
+·     Danh sách bút toán. Chi tiết nghiệp vụ **[tại đây](#danh-sach-but-toan)**
 
-·     Chi tiết bút toán. Chi tiết nghiệp vụ **[tại đây](#Chi-tiet-but-toan)**
+·     Chi tiết bút toán. Chi tiết nghiệp vụ **[tại đây](#chi-tiet-but-toan)**
 
 ## *Chứng từ nghiệp vụ khác*
 

@@ -2,11 +2,6 @@
 
 Việc thiết lập ban đầu được thực hiện ngay tại thời điểm cài đặt xong Phân hệ kế toán: Đây là điều kiện cần có và bắt buộc để bắt đầu thực hiện các nghiệp vụ trên phân hệ Kế toán
 
-![](images/fin_ThietLapBanDau.png)
-
-- Dựa theo quy mô, đặc điểm kinh doanh và yêu cầu quản lý, Doanh nghiệp thực hiện lựa chọn Thông tư kế toán phù hợp.
-- Lựa chọn Đồng tiền hạch toán áp dụng cho Doanh nghiệp; Kỳ kế toán; Phương pháp tính giá xuất kho và phương pháp thuế GTGT
-
 Sau khi khai báo thiết lập ban đầu được Hoàn thành: hệ thống tài khoản và các chế độ kế toán cũng như biểu mẫu kế toán liên quan sẽ được áp dụng theo Thông tư và các thiết lập đã được lựa chọn 
 
 ## **Khai báo ban đầu**
@@ -27,15 +22,23 @@ Hiển thị các danh mục cơ bản để người dùng có thể khai báo 
 
 Việc khai báo này có thể thực hiện tại bất kỳ thời điểm nào: trước khi tiến hành Nhập hay ngay tại Thời điểm đang nhập Chứng từ
 
-Để phục vụ cho việc cập nhập số dư ban đầu của dữ liệu kế toán, Người dùng nên khai báo trước một số một số Danh mục về Đối tượng, Nhân viên, Hàng hóa, Nhà cung cấp...
+Để phục vụ cho việc cập nhập số dư ban đầu của dữ liệu kế toán, Người dùng nên khai báo trước một số một số Danh mục về Đối tượng, Nhân viên, Hàng hóa, Nhà cung cấp... tại Module **Danh mục**
 
 ![](images/fin_ThietLap_DanhMuc.png)
 
 ### **Cấu hình kế toán**
 
+Lựa chọn Đồng tiền hạch toán áp dụng cho Doanh nghiệp; Kỳ kế toán;  phương pháp thuế GTGT
+
 Hiển thị lại Chế độ kế toán đã chọn và khai báo bổ sung thêm thông tin mặc định áp dụng cho phần hành kế toán liên quan đến thuế
 
-*[Bổ sung hình ảnh]*
+![*[Bổ sung hình ảnh]*](images/thiet_lap.png)
+
+![](images/thietlap_banhang.png)
+
+![](images/Thietlap_muahang.png)
+
+![](images/Thietlap_khovan.png)
 
 ### **Hệ thống tài khoản**
 

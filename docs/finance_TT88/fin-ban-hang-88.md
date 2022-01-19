@@ -17,17 +17,17 @@ Khi phát sinh nghiệp vụ bán hàng hóa, dịch vụ, thông thường sẽ
 
 **Các luồng quy trình**
 
-·     Lập đơn bán hàng gửi khách hàng. Chi tiết thao tác chức năng **[tại đây](#Lap-don-ban-hang)**
+·     Lập đơn bán hàng gửi khách hàng. Chi tiết thao tác chức năng **[tại đây](#lap-on-ban-hang)**
 
-·     Xuất kho đơn bán hàng. Chi tiết thao tác chức năng [**tại đây**](#Xuat-kho-don-ban-hang)
+·     Xuất kho đơn bán hàng. Chi tiết thao tác chức năng [**tại đây**](#xuat-kho-on-ban-hang)
 
-·     Tạo hóa đơn bán hàng. Chi tiết thao tác chức năng **[tại đây](#Hoa-don-ban-hang)**
+·     Tạo hóa đơn bán hàng. Chi tiết thao tác chức năng **[tại đây](#hoa-on-ban-hang)**
 
-·     Ghi nhận thanh toán từ khách hàng. Chi tiết thao tác chức năng **[tại đây](Ghi-nhan-thanh-toan-tu-khach-hang)**
+·     Ghi nhận thanh toán từ khách hàng. Chi tiết thao tác chức năng **[tại đây](ghi-nhan-thanh-toan-tu-khach-hang)**
 
-·     Xuất hóa đơn điện tử. Chi tiết thao tác chức năng **[tại đây](Xuat-hoa-don-dien-tu)**
+·     Xuất hóa đơn điện tử. Chi tiết thao tác chức năng **[tại đây](xuat-hoa-on-ien-tu)**
 
-·     Tạo hóa đơn giảm giá/Trả hàng.  Chi tiết thao tác chức năng **[tại đây](Hoa-don-giam-gia/tra-hang)**
+·     Tạo hóa đơn giảm giá/Trả hàng.  Chi tiết thao tác chức năng **[tại đây](hoa-on-giam-giatra-hang)**
 
 ## *Lập đơn bán hàng*
 
@@ -284,9 +284,9 @@ Khi phát sinh nghiệp vụ giảm giá hàng bán hoặc trả lại hàng đ�
 
 Nếu phát hiện hàng mua về không đúng quy cách, phẩm chất theo hợp đồng đã ký, khách hàng thoả thuận với doanh nghiệp trả lại hàng đã mua.
 
-Cách 1: Người bán hàng lập hóa đơn giảm giá hàng bán để giao cho khách hàng và ghi sổ kế toán.Chi tiết nghiệp vụ **[tại đây](#Tao-hoa-don-giam-gia)**
+Cách 1: Người bán hàng lập hóa đơn giảm giá hàng bán để giao cho khách hàng và ghi sổ kế toán.Chi tiết nghiệp vụ **[tại đây](#tao-hoa-on-giam-gia)**
 
-Cách 2: Người bán hàng chuyển đổi hóa đơn bán hàng thành khoản hoàn tiền/công nợ giảm. Chi tiết nghiệp vụ **[tại đây](#Chuyen-doi-thanh-khoan-hoan-tien/cong-no-giam)**
+Cách 2: Người bán hàng chuyển đổi hóa đơn bán hàng thành khoản hoàn tiền/công nợ giảm. Chi tiết nghiệp vụ **[tại đây](#chuyen-oi-thanh-khoan-hoan-tiencong-no-giam)**
 
 ### Hướng dẫn trên phần mềm
 

@@ -44,6 +44,8 @@ nav:
         - 'Bán hàng': 'finance_TT88/fin-ban-hang-88.md'
         - 'Hóa đơn điện tử': 'finance_TT88/fin-hoa-don-dien-tu-88.md'
         - 'Kế toán': 'finance_TT88/fin-ke-toan-tong-hop-88.md'
+        - 'Kho vận': 'finance_TT88/fin-kho-88.md'
+        - 'Báo cáo': 'finance_TT88/fin-bao-cao-88.md'
         - 'Lịch sử phát triển sản phẩm': 'finance_TT88/fin-log-histories-88.md'
     - 'Tài liệu': 
         - 'Giới thiệu về ứng dụng Tài liệu': 'document/introduction.md'

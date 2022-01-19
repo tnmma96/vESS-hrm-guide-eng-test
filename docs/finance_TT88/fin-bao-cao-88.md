@@ -16,20 +16,6 @@ Danh sách báo cáo gồm có:
 - Sổ chi tiết phát sinh tài khoản
 - Sổ nhật ký chung
 
-**Các luồng quy trình**
-
-·     Lập đơn bán hàng gửi khách hàng. Chi tiết thao tác chức năng **[tại đây](#Lap-don-ban-hang)**
-
-·     Xuất kho đơn bán hàng. Chi tiết thao tác chức năng [**tại đây**](#Xuat-kho-don-ban-hang)
-
-·     Tạo hóa đơn bán hàng. Chi tiết thao tác chức năng **[tại đây](#Hoa-don-ban-hang)**
-
-·     Ghi nhận thanh toán từ khách hàng. Chi tiết thao tác chức năng **[tại đây](Ghi-nhan-thanh-toan-tu-khach-hang)**
-
-·     Xuất hóa đơn điện tử. Chi tiết thao tác chức năng **[tại đây](Xuat-hoa-don-dien-tu)**
-
-·     Tạo hóa đơn giảm giá/Trả hàng.  Chi tiết thao tác chức năng **[tại đây](Hoa-don-giam-gia/tra-hang)**
-
 ## *Hướng dẫn xem báo cáo*
 
 **Bước 1:** Vào phân hệ **Báo cáo**

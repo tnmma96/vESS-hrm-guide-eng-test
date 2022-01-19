@@ -12,9 +12,9 @@ Quy trình nghiệp vụ
 
 **Các luồng quy trình**
 
-·     Lập chứng từ Phiếu thu. Chi tiết nghiệp vụ [Phiếu thu]()
+·     Lập chứng từ Phiếu thu. Chi tiết nghiệp vụ **[Phiếu thu](#phieu-thu)**
 
-·     Lập chứng từ Phiếu chi. Chi tiết nghiệp vụ [Phiếu chi]()
+·     Lập chứng từ Phiếu chi. Chi tiết nghiệp vụ **[Phiếu chi](#phieu-chi)**
 
 ## Phiếu thu
 
