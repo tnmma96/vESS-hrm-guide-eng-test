@@ -68,6 +68,8 @@ nav:
         - 'Bữa ăn': 'digitalworkplace/Addon-bua-an.md'
         - 'Phê duyệt trên web': 'digitalworkplace/Addon-PheDuyet-Web.md'
         - 'Cuộc họp trực tuyến': 'digitalworkplace/Addon-meeting.md'
+        - 'Chỉ số đo lường KPI': 'digitalworkplace/Addon-KPI.md'
+        - 'Chỉ số đo lường OKR': 'digitalworkplace/Addon-OKR.md'
         - 'Lịch sử phát triển sản phẩm': 'digitalworkplace/Lich-su-phat-trien.md'
     - 'vESS Mobile': 
         - 'Giới thiệu về vESS mobile': 'vESS_mobile/Gioi-thieu-vess-mobile.md'
