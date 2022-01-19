@@ -31,15 +31,15 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
 
 **Luồng chức năng chính**
 
-* Đơn vị đo. Chi tiết nghiệp vụ <u>[tại đây](#don-vi-do)</u>
+* Đơn vị đo. Chi tiết nghiệp vụ <u>[tại đây](#on-vi-do)</u>
 
-* Loại điểm đánh giá. Chi tiết nghiệp vụ <u>[tại đây](#loai-diem-danh-gia)</u>
+* Loại điểm đánh giá. Chi tiết nghiệp vụ <u>[tại đây](#loai-iem-anh-gia)</u>
 
 * Chu kỳ. Chi tiết nghiệp vụ <u>[tại đây](#chu-ky)</u>
 
-* Trạng thái thực hiện của mục tiêu. Chi tiết nghiệp vụ <u>[tại đây](#giai-doan-cua-muc-tieu)</u>
+* Trạng thái thực hiện của mục tiêu. Chi tiết nghiệp vụ <u>[tại đây](#trang-thai-thuc-hien-cua-muc-tieu)</u>
 
-* Trạng thái của kết quả then chốt. Chi tiết nghiệp vụ <u>[tại đây](#giai-doan-cua-ket-qua-then-chot)</u>
+* Trạng thái của kết quả then chốt. Chi tiết nghiệp vụ <u>[tại đây](#trang-thai-cua-ket-qua-then-chot)</u>
 
 * Gắn thẻ. Chi tiết nghiệp vụ <u>[tại đây](#gan-the)</u>
 
