@@ -37,15 +37,15 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
 
 **Luồng chức năng chính**
 
-* Đơn vị đo. Chi tiết nghiệp vụ <u>[tại đây](#on-vi-do)</u>
+* Đơn vị đo. Chi tiết nghiệp vụ <u>[tại đây](#on-vi-o)</u>
 
 * Loại điểm đánh giá. Chi tiết nghiệp vụ <u>[tại đây](#loai-iem-anh-gia)</u>
 
-* Chu kỳ. Chi tiết nghiệp vụ <u>[tại đây](#chu-ky)</u>
+* Chu kì. Chi tiết nghiệp vụ <u>[tại đây](#chu-ki)</u>
 
 * Trạng thái thực hiện của mục tiêu. Chi tiết nghiệp vụ <u>[tại đây](#trang-thai-thuc-hien-cua-muc-tieu)</u>
 
-* Trạng thái của kết quả then chốt. Chi tiết nghiệp vụ <u>[tại đây](#trang-thai-cua-ket-qua-then-chot)</u>
+* Trạng thái thực hiện của kết quả then chốt. Chi tiết nghiệp vụ <u>[tại đây](#trang-thai-thuc-hien-cua-ket-qua-then-chot)</u>
 
 * Gắn thẻ. Chi tiết nghiệp vụ <u>[tại đây](#gan-the)</u>
 
@@ -80,11 +80,11 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
 
     ![](picture/PIC_DW_OKR-taoDonvido.png)
     
-* **Tên:** nhập tên đơn vị đo mới cho "Cấu hình Đơn vị đo"
-    
-* **Mô tả:** nhập mô tả cho "Cấu hình Đơn vị đo"
-    
-* **Đơn vị đo:** nhập "Đơn vị đo"
+    * **Tên:** nhập tên đơn vị đo mới cho "Cấu hình Đơn vị đo"
+        
+    * **Mô tả:** nhập mô tả cho "Cấu hình Đơn vị đo"
+        
+    * **Đơn vị đo:** nhập "Đơn vị đo"
    
   4.  Kích **Lưu:** thông tin về **Đơn vị đo** được lưu lại   
   
@@ -107,19 +107,19 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
 
     ![](picture/PIC_DW_OKR-taoloaidiemdanhgia.png)
    
-* **Tên:** nhập tên cho "Loại điểm đánh giá"
-     
-* **Mô tả:** nhập mô tả cho "Loại điểm đánh giá"
-     
-* **Loại:** chọn loại điểm đánh giá là "Chọn" hoặc "Đầu vào"
-     
-* Nếu người dùng chọn loại điểm đánh giá là **Chọn**, loại điểm đánh giá sẽ do người dùng cấu hình các giá trị đánh giá
-        
-    ![](picture/PIC_DW_OKR-chon.png)
-     
-* Nếu người dùng chọn loại điểm đánh giá là **Đầu vào**, thì loại điểm đánh giá sẽ là do người dùng tự nhập
-        
-    ![](picture/PIC_DW_OKR-dauvao.png)
+    * **Tên:** nhập tên cho "Loại điểm đánh giá"
+         
+    * **Mô tả:** nhập mô tả cho "Loại điểm đánh giá"
+         
+    * **Loại:** chọn loại điểm đánh giá là "Chọn" hoặc "Đầu vào"
+         
+    * Nếu người dùng chọn loại điểm đánh giá là **Chọn**, loại điểm đánh giá sẽ do người dùng cấu hình các giá trị đánh giá
+            
+        ![](picture/PIC_DW_OKR-chon.png)
+         
+    * Nếu người dùng chọn loại điểm đánh giá là **Đầu vào**, thì loại điểm đánh giá sẽ là do người dùng tự nhập
+            
+        ![](picture/PIC_DW_OKR-dauvao.png)
 
 4.  Kích **Lưu:** thông tin về "Loại điểm đánh giá được lưu lại"  
 
@@ -144,35 +144,35 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
   
     ![](picture/PIC_DW_OKR-taochuki.png)
 
-* **Tên:** nhập tên chu kì mới cho "Cấu hình chu kì"
-
-* **Loại chu kì:** nhập loại chu kì mới cho "Cấu hình Chu kì"
-
-* **Mô tả:** nhập mô tả cho "Cấu hình Chu kì"
-
-* **Loại điểm đánh giá:** chọn loại điểm đánh giá phù hợp với "Chu kì"
-
-* **Ngày bắt đầu:** bắt đầu "Chu kì" giao nhiệm vụ
-
-* **Ngày kết thúc:** kết thúc "Chu kì" giao nhiệm vụ
-
-* **Ngày bắt đầu đánh giá:** chọn ngày bắt đầu đánh giá "Chu kì"
-
-* **Ngày kết thúc đánh giá:** chọn ngày kết thúc đánh giá "Chu kì"
-  
-* **Chu kì trước:** tích chọn hoặc không chọn phù hợp với "Chu kì" mong muốn
-  
-* **Chu kì mặc định:** tích chọn hoặc không chọn phù hợp với "Chu kì" mong muốn
-  
-* **Đánh giá thêm:** Kích vào "Thêm một dòng"
-  
-    ![](picture/PIC_DW_OKR-Danhgiathemchuki.png)
-  
-    * Kích chọn vào thang điểm đánh giá mong muốn, sau đó nhấn "Chọn", hệ thống sẽ cập nhật dữ liệu đã đánh giá thêm vào **Chu kì**
-  
-    * Kích chọn "Tạo" để tạo thang điểm đánh giá thêm. Người dùng có thể đánh giá CBNV các nội dung khác ngoài **Mục tiêu** như "Tuân thủ địa điểm làm việc","Tuân thủ nội quy lao động", "Xếp hạng Ki",...
-  
-    ![](picture/PIC_DW_OKR-taodanhgiathem.png)
+    * **Tên:** nhập tên chu kì mới cho "Cấu hình chu kì"
+    
+    * **Loại chu kì:** nhập loại chu kì mới cho "Cấu hình Chu kì"
+    
+    * **Mô tả:** nhập mô tả cho "Cấu hình Chu kì"
+    
+    * **Loại điểm đánh giá:** chọn loại điểm đánh giá phù hợp với "Chu kì"
+    
+    * **Ngày bắt đầu:** bắt đầu "Chu kì" giao nhiệm vụ
+    
+    * **Ngày kết thúc:** kết thúc "Chu kì" giao nhiệm vụ
+    
+    * **Ngày bắt đầu đánh giá:** chọn ngày bắt đầu đánh giá "Chu kì"
+    
+    * **Ngày kết thúc đánh giá:** chọn ngày kết thúc đánh giá "Chu kì"
+      
+    * **Chu kì trước:** tích chọn hoặc không chọn phù hợp với "Chu kì" mong muốn
+      
+    * **Chu kì mặc định:** tích chọn hoặc không chọn phù hợp với "Chu kì" mong muốn
+      
+    * **Đánh giá thêm:** Kích vào "Thêm một dòng"
+      
+        ![](picture/PIC_DW_OKR-Danhgiathemchuki.png)
+      
+        * Kích chọn vào thang điểm đánh giá mong muốn, sau đó nhấn "Chọn", hệ thống sẽ cập nhật dữ liệu đã đánh giá thêm vào **Chu kì**
+      
+        * Kích chọn "Tạo" để tạo thang điểm đánh giá thêm. Người dùng có thể đánh giá CBNV các nội dung khác ngoài **Mục tiêu** như "Tuân thủ địa điểm làm việc","Tuân thủ nội quy lao động", "Xếp hạng Ki",...
+      
+        ![](picture/PIC_DW_OKR-taodanhgiathem.png)
   
 3. Kích **Lưu:** thông tin về **Chu kì** được lưu lại
 
@@ -204,9 +204,9 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
    
    * **Màu:** chọn màu phù hợp với "Trạng thái thực hiện của mục tiêu"
     
-  3.  Kích **Lưu:** thông tin về **Trạng thái thực hiện của mục tiêu** được lưu lại   
+4.  Kích **Lưu:** thông tin về **Trạng thái thực hiện của mục tiêu** được lưu lại   
   
-  4.  Kích **Huỷ bỏ:** để hủy thao tác thêm mới **Trạng thái thực hiện của mục tiêu**
+5.  Kích **Huỷ bỏ:** để hủy thao tác thêm mới **Trạng thái thực hiện của mục tiêu**
   
 
 ### **Trạng thái thực hiện của kết quả then chốt**
@@ -286,81 +286,81 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
 
     ![](picture/PIC_DW_OKR-CTMT.png)
     
-* **Tên mục tiêu:** nhập tên mục tiêu cho "Mục tiêu"
-    
-* **Tab <Thông tin chi tiết>**
-    
-    * **Phương pháp đo:** nhập phương pháp đo của "Mục tiêu"
+    * **Tên mục tiêu:** nhập tên mục tiêu cho "Mục tiêu"
         
-    * **Đơn vị đo:** chọn đơn vị (Được lấy từ Cấu hình/Đơn vị đo)
+    * **Tab <Thông tin chi tiết>**
         
-    * **Tỉ trọng:** nhập tỉ trọng của "Mục tiêu"
-        
-    * **Tối thiểu:** nhập giá trị tối thiểu của "Mục tiêu"
-        
-    * **Mong đợi:** nhập giá trị mong đợi của "Mục tiêu"
-        
-    * **Thách thức:** nhập giá trị thách thức của "Mục tiêu"
-        
-    * **Chu kì:** chọn chu kì (Được lấy từ Cấu hình/Chu kì)
-        
-    * **Mục tiêu liên kết:** chọn mục tiêu liên kết (Được lấy từ các Mục tiêu trước)
-        
-    * **Loại mục tiêu:** chọn loại mục tiêu cho "Mục tiêu"
-        
-    * **Người giao việc:** chọn người giao việc cho "Mục tiêu"
-        
-    * **Người được giao:** chọn người được giao cho "Mục tiêu"
-        
-    * **Ngày bắt đầu:** chọn ngày bắt đầu cho "Mục tiêu"
-        
-    * **Ngày kết thúc:** chọn ngày kết thúc cho "Mục tiêu"
-        
-    * **Ngày kết thúc thực tế:** chọn ngày kết thúc thực tế cho "Mục tiêu"
-        
-* **Tab <Kết quả then chốt>:** 
-    
-    * Người dùng có thể tạo "Kết quả then chốt" trực tiếp tại chức năng "Kết quả then chốt"
-        
-    * Người dùng tạo "Kết quả then chốt" từ giao diện thiết lập "Mục tiêu"
-    
-    ![](picture/PIC_DW_OKR-Thenchot.png)
-         
-    * **Tên kết quả then chốt**
-    
-    * **Tab <Cấu hình>:**
-        
-        * **Ước lượng:** nhập thời gian theo giá trị ngày của "Liên kết kết quả then chốt"
-        
-        * **Người được giao:** chọn người được giao cho "Liên kết kết quả then chốt"
-        
-        * **Ngày bắt đầu:** chọn ngày bắt đầu cho "Liên kết kết quả then chốt"
-        
-        * **Ngày kết thúc:** chọn ngày kết thúc cho "Liên kết kết quả then chốt"
-        
-        * **Ngày kết thúc thực tế:** chọn ngày kết thúc thực tế cho "Liên kết kết quả then chốt"
-        
-        * **Tỉ trọng:** nhập tỉ trọng của "Liên kết kết quả then chốt"
-        
-        * **Kết quả công việc:** nhập kết quả công việc của "Liên kết kết quả then chốt"
-    
-    * **Tab <Việc cần làm>:** người dùng kích vào "Thêm dòng"
-        
-        ![](picture/PIC_DW_OKR-taocvcanlam.png)
+        * **Phương pháp đo:** nhập phương pháp đo của "Mục tiêu"
             
-        * **Tên:** nhập tên của liên kết công việc cần làm
+        * **Đơn vị đo:** chọn đơn vị (Được lấy từ Cấu hình/Đơn vị đo)
+            
+        * **Tỉ trọng:** nhập tỉ trọng của "Mục tiêu"
+            
+        * **Tối thiểu:** nhập giá trị tối thiểu của "Mục tiêu"
+            
+        * **Mong đợi:** nhập giá trị mong đợi của "Mục tiêu"
+            
+        * **Thách thức:** nhập giá trị thách thức của "Mục tiêu"
+            
+        * **Chu kì:** chọn chu kì (Được lấy từ Cấu hình/Chu kì)
+            
+        * **Mục tiêu liên kết:** chọn mục tiêu liên kết (Được lấy từ các Mục tiêu trước)
+            
+        * **Loại mục tiêu:** chọn loại mục tiêu cho "Mục tiêu"
+            
+        * **Người giao việc:** chọn người giao việc cho "Mục tiêu"
+            
+        * **Người được giao:** chọn người được giao cho "Mục tiêu"
+            
+        * **Ngày bắt đầu:** chọn ngày bắt đầu cho "Mục tiêu"
+            
+        * **Ngày kết thúc:** chọn ngày kết thúc cho "Mục tiêu"
+            
+        * **Ngày kết thúc thực tế:** chọn ngày kết thúc thực tế cho "Mục tiêu"
+            
+    * **Tab <Kết quả then chốt>:** 
         
-        * **Ngày bắt đầu:** chọn ngày bắt đầu
+        * Người dùng có thể tạo "Kết quả then chốt" trực tiếp tại chức năng "Kết quả then chốt"
+            
+        * Người dùng tạo "Kết quả then chốt" từ giao diện thiết lập "Mục tiêu"
         
-        * **Ngày kết thúc:** chọn ngày kết thúc
+        ![](picture/PIC_DW_OKR-Thenchot.png)
+             
+        * **Tên kết quả then chốt**
         
-        * **Nội dung:** nhập nội dung
+        * **Tab <Cấu hình>:**
+            
+            * **Ước lượng:** nhập thời gian theo giá trị ngày của "Liên kết kết quả then chốt"
+            
+            * **Người được giao:** chọn người được giao cho "Liên kết kết quả then chốt"
+            
+            * **Ngày bắt đầu:** chọn ngày bắt đầu cho "Liên kết kết quả then chốt"
+            
+            * **Ngày kết thúc:** chọn ngày kết thúc cho "Liên kết kết quả then chốt"
+            
+            * **Ngày kết thúc thực tế:** chọn ngày kết thúc thực tế cho "Liên kết kết quả then chốt"
+            
+            * **Tỉ trọng:** nhập tỉ trọng của "Liên kết kết quả then chốt"
+            
+            * **Kết quả công việc:** nhập kết quả công việc của "Liên kết kết quả then chốt"
         
-        * **Tiến độ:** nhập tiến độ 
-        
-        * **Ước lượng thời gian:** nhập ước lượng thời gian thực hiện
-        
-        * **Người được giao:** chọn người được giao
+        * **Tab <Việc cần làm>:** người dùng kích vào "Thêm dòng"
+            
+            ![](picture/PIC_DW_OKR-taocvcanlam.png)
+                
+            * **Tên:** nhập tên của liên kết công việc cần làm
+            
+            * **Ngày bắt đầu:** chọn ngày bắt đầu
+            
+            * **Ngày kết thúc:** chọn ngày kết thúc
+            
+            * **Nội dung:** nhập nội dung
+            
+            * **Tiến độ:** nhập tiến độ 
+            
+            * **Ước lượng thời gian:** nhập ước lượng thời gian thực hiện
+            
+            * **Người được giao:** chọn người được giao
 
 5. Kích **Lưu:** thông tin về "Mục tiêu" được lưu lại
       
@@ -391,74 +391,74 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
 4. Nhập thông tin tạo mới cho **Kết quả then chốt**    
 
     ![](picture/PIC_DW_OKR-taoKQTC.png)
-    
-* **Tên kết quả then chốt:** nhập tên "Kết quả then chốt"
-
-* **Tab <Cấu hình>**
-    
-    * **Mục tiêu:** chọn mục tiêu (Được lấy từ Mục tiêu đã tạo)
-    
-    * **Ước lượng:** nhập thời gian ước lượng cho "Kết quả then chốt"
-    
-    * **Người được giao:** chọn người được giao của "Kết quả then chốt"
-    
-    * **Ngày bắt đầu:** chọn ngày bắt đầu của "Kết quả then chốt"
-    
-    * **Ngày kết thúc:** chọn ngày kết thúc của "Kết quả then chốt"
-    
-    * **Ngày kết thúc thực tế:** chọn ngày kết thúc thực tế của "Kết quả then chốt"
-    
-    * **Tỉ trọng:** nhập tỉ trọng cho "Kết quả then chốt"
-    
-    * **Kết quả công việc:** nhập kết quả công việc cho "Kết quả then chốt"
-   
- * **Tab <Việc cần làm>:** người dùng kích vào "Thêm dòng"
- 
-   ![](picture/PIC_DW_OKR-taocvcanlam.png)
-   
-    * **Tên:** nhập tên của liên kết công việc cần làm
         
-    * **Ngày bắt đầu:** chọn ngày bắt đầu
+    * **Tên kết quả then chốt:** nhập tên "Kết quả then chốt"
+    
+    * **Tab <Cấu hình>**
         
-    * **Ngày kết thúc:** chọn ngày kết thúc
+        * **Mục tiêu:** chọn mục tiêu (Được lấy từ Mục tiêu đã tạo)
         
-    * **Nội dung:** nhập nội dung
+        * **Ước lượng:** nhập thời gian ước lượng cho "Kết quả then chốt"
         
-    * **Tiến độ:** nhập tiến độ 
+        * **Người được giao:** chọn người được giao của "Kết quả then chốt"
         
-    * **Ước lượng thời gian:** nhập ước lượng thời gian thực hiện
+        * **Ngày bắt đầu:** chọn ngày bắt đầu của "Kết quả then chốt"
         
-    * **Người được giao:** chọn người được giao
+        * **Ngày kết thúc:** chọn ngày kết thúc của "Kết quả then chốt"
         
-* **Tab <Công việc liên kết>:** người dùng kích vào "Thêm một dòng"
+        * **Ngày kết thúc thực tế:** chọn ngày kết thúc thực tế của "Kết quả then chốt"
         
-    ![](Picture/PIC_DW_OKR-taocongvieclienketkqtc.png)
+        * **Tỉ trọng:** nhập tỉ trọng cho "Kết quả then chốt"
+        
+        * **Kết quả công việc:** nhập kết quả công việc cho "Kết quả then chốt"
+       
+     * **Tab <Việc cần làm>:** người dùng kích vào "Thêm dòng"
+     
+       ![](picture/PIC_DW_OKR-taocvcanlam.png)
+       
+        * **Tên:** nhập tên của liên kết công việc cần làm
             
-    * **Tiêu đề nhiệm vụ:** nhập tiêu đề nhiệm vụ của công việc liên kết
-    
-    * **Dự án:** chọn dự án
-    
-    * **Đã phân công cho:** chọn người phân công
-    
-    * **Ngày bắt đầu:** chọn ngày bắt đầu
-    
-    * **Nỗ lực thực hiện:** nhập thời gian thực hiện theo số giờ 
-    
-    * **Hạn chót:** chọn ngày hạn chót
-    
-    * **Độ ưu tiên:** chọn độ ưu tiên
-    
-    * **Từ khoá:** chọn từ khoá
-    
-    * **Ngày phân công:** chọn ngày phân công
-    
-    * **Cập nhật giai đoạn lần cuối:** chọn cập nhật giai đoạn lần cuối
-    
-    * **Sử dụng ảnh bìa:** tích hoặc không tích chọn "Sử dụng ảnh bìa"
+        * **Ngày bắt đầu:** chọn ngày bắt đầu
+            
+        * **Ngày kết thúc:** chọn ngày kết thúc
+            
+        * **Nội dung:** nhập nội dung
+            
+        * **Tiến độ:** nhập tiến độ 
+            
+        * **Ước lượng thời gian:** nhập ước lượng thời gian thực hiện
+            
+        * **Người được giao:** chọn người được giao
+            
+    * **Tab <Công việc liên kết>:** người dùng kích vào "Thêm một dòng"
+            
+        ![](Picture/PIC_DW_OKR-taocongvieclienketkqtc.png)
+                
+        * **Tiêu đề nhiệm vụ:** nhập tiêu đề nhiệm vụ của công việc liên kết
         
-    * **Tab <Việc cần làm>:** người dùng kích vào "Thêm một dòng" để thêm công việc cần làm cho nhiệm vụ công việc liên kết
-    
-    * **Tab <Mô tả>:** người dùng nhập mô tả "Công việc liên kết"    
+        * **Dự án:** chọn dự án
+        
+        * **Đã phân công cho:** chọn người phân công
+        
+        * **Ngày bắt đầu:** chọn ngày bắt đầu
+        
+        * **Nỗ lực thực hiện:** nhập thời gian thực hiện theo số giờ 
+        
+        * **Hạn chót:** chọn ngày hạn chót
+        
+        * **Độ ưu tiên:** chọn độ ưu tiên
+        
+        * **Từ khoá:** chọn từ khoá
+        
+        * **Ngày phân công:** chọn ngày phân công
+        
+        * **Cập nhật giai đoạn lần cuối:** chọn cập nhật giai đoạn lần cuối
+        
+        * **Sử dụng ảnh bìa:** tích hoặc không tích chọn "Sử dụng ảnh bìa"
+            
+        * **Tab <Việc cần làm>:** người dùng kích vào "Thêm một dòng" để thêm công việc cần làm cho nhiệm vụ công việc liên kết
+        
+        * **Tab <Mô tả>:** người dùng nhập mô tả "Công việc liên kết"    
 
 5. Kích **Lưu:** thông tin về "Kết quả then chốt" được lưu lại
       
@@ -543,21 +543,21 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
 
     ![](picture/PIC_DW_OKR-baocaochitiet.png)
 
-* **Chu kì:** chọn "Chu kì"
-
-* **Phòng ban:** chọn "Phòng ban"
-
-* Kích vào **Xuất** để xuất "Báo cáo giao nhiệm vụ chi tiết"
+    * **Chu kì:** chọn "Chu kì"
+    
+    * **Phòng ban:** chọn "Phòng ban"
+    
+    * Kích vào **Xuất** để xuất "Báo cáo giao nhiệm vụ chi tiết"
  
 2. Tại chức năng **Chỉ số đo lường OKR**, người sử dụng thực hiện chọn **Báo cáo/Đánh giá công việc chi tiết** theo "Chu kỳ" và "Phòng ban" để xuất báo cáo Đánh giá công việc chi tiết 
 
     ![](picture/PIC_DW_OKR-danhgiachitiet.png)
  
-* **Chu kì:** chọn "Chu kì"
-
-* **Phòng ban:** chọn "Phòng ban"
-    
-* Kích vào **Xuất** để xuất "Báo cáo đánh giá nhiệm vụ chi tiết"
+    * **Chu kì:** chọn "Chu kì"
+        
+    * **Phòng ban:** chọn "Phòng ban"
+        
+    * Kích vào **Xuất** để xuất "Báo cáo đánh giá nhiệm vụ chi tiết"
     
     
     
