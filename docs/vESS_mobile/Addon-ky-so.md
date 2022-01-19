@@ -1,4 +1,4 @@
-# Quy trình nghiệp vụ 
+## Quy trình nghiệp vụ 
 
 Ứng dụng Ký số cung cấp dịch vụ ký điện tử với công nghệ chữ ký số giúp việc ký kết văn bản giấy tờ nhanh chóng, kịp thời mà vẫn đảm bảo các yếu tố xác thực, bảo mật. Lưu trữ trực tuyến giúp cho quá trình tìm kiếm, truy xuất các văn bản ký kết một cách nhanh chóng, dễ dàng hơn.
 
@@ -17,7 +17,7 @@
 **Các luồng quy trình**
 
 * Tìm kiếm và lọc văn bản trình ký. Chi tiết nghiệp vụ <u>[tại đây](#tim-kiem-va-loc-van-ban-trinh-ky)</u>.
-* Xử lý yêu cầu phê duyệt. Chi tiết nghiệp vụ <u>[tại đây](#xu-ly-yeu-cau-phe-duyet)</u>.
+* Xử lý yêu cầu ký duyệt. Chi tiết nghiệp vụ <u>[tại đây](#xu-ly-yeu-cau-ky-duyet)</u>.
 * Ban hành văn bản. Chi tiết nghiệp vụ <u>[tại đây](#ban-hanh-van-ban)</u>
 
 **Mô tả nghiệp vụ**
@@ -37,8 +37,8 @@ Quá trình trình ký văn bản sẽ thực hiện theo quy trình sau:
 
 * Tìm kiếm và lọc văn bản trình ký. Chi tiết nghiệp vụ <u>[tại đây](#tim-kiem-va-loc-van-ban-trinh-ky)</u>.
 * Ký duyệt văn bản. Chi tiết nghiệp vụ <u>[tại đây](#ky-duyet)</u>.
-* Từ chối ký duyệt. Chi tiết nghiệp vụ <u>[tại đây](#tu-choi)</u>.
-* Đổi người ký. Chi tiết nghiệp vụ <u>[tại đây](#doi-nguoi-ky)</u>.
+* Từ chối ký duyệt. Chi tiết nghiệp vụ <u>[tại đây](#tu-choi-ky-duyet)</u>.
+* Đổi người ký. Chi tiết nghiệp vụ <u>[tại đây](#oi-nguoi-ky)</u>.
 * Chuyển ký nháy. Chi tiết nghiệp vụ <u>[tại đây](#chuyen-ky-nhay)</u>.
 * Ban hành văn bản. Chi tiết nghiệp vụ <u>[tại đây](#ban-hanh-van-ban)</u>.
 * Tải xuống. Chi tiết nghiệp vụ <u>[tại đây](#tai-xuong)</u>.
