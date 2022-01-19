@@ -1,9 +1,3 @@
-
-
-
-
-
-
 # *Quy trình nghiệp vụ*
 
 Kế toán kho chịu trách nhiệm chính  trong việc lập hóa đơn chứng từ và theo dõi chi tiết hàng hóa trong kho, bao gồm cả tình hình hàng nhập – xuất – tồn; đối chiếu các hóa đơn, chứng từ sổ sách với số liệu thực tế do Thủ kho trình lên, giúp hạn chế tối đa những rủi ro, thất thoát cho doanh nghiệp.
@@ -26,12 +20,11 @@ Kế toán kho thực hiện quản lý tình hình nhập, xuất, tồn kho th
 
 ### Mô tả nghiệp vụ
 
-Đối với các đơn vị sản xuất sản phẩm hàng loạt hoặc theo đơn đặt hàng... sau khi sản phẩm hoàn thành thì sẽ chuyển về nhập kho. Khi đó, Kế toán sẽ thực hiện các bước sau:
+Đối với các đơn vị sản xuất sản phẩm hàng loạt hoặc theo đơn đặt hàng... sau khi sản phẩm hoàn thành thì sẽ chuyển về nhập kho. Khi đó, người dùng sẽ thực hiện các bước sau:
 
-- Căn cứ và phiếu báo số lượng thành phẩm hoàn thành nhập kho của bộ phận sản xuất, Kế toán kho lập Phiếu nhập kho thành phẩm.
-- Kế toán trưởng và Giám đốc ký duyệt.
-- Căn cứ vào phiếu nhập kho, Thủ kho kiểm tra, nhận hàng và tiến hành nhập kho, người bàn giao và Thủ kho ký vào phiếu nhập kho.
-- Thủ kho ghi sổ kho, chuyển 1 liên phiếu nhập kho cho Kế toán ghi sổ kế toán kho.
+- Căn cứ và phiếu báo số lượng thành phẩm hoàn thành nhập kho của bộ phận sản xuất, thực hiện lập Phiếu nhập kho thành phẩm.
+- Căn cứ vào phiếu nhập kho, Thực hiện kiểm tra, nhận hàng và tiến hành nhập kho
+- Người dùng ghi sổ kho.
 
 **Xem video hướng dẫn**
 
@@ -39,24 +32,28 @@ Kế toán kho thực hiện quản lý tình hình nhập, xuất, tồn kho th
 
 ### Lập phiếu nhập kho
 
-Căn cứ vào đơn mua hàng, hóa đơn mua hàng, phiếu xuất kho bên bán, và thực tế hàng về, kế toán kho thực hiện Lập phiếu nhập kho (vật tư) tương ứng
+Căn cứ vào đơn mua hàng, hóa đơn mua hàng, phiếu xuất kho bên bán, và thực tế hàng về, Người dùng thực hiện Lập phiếu nhập kho (vật tư) tương ứng
 
-Đối tượng thực hiện: Kế toán kho
+Đối tượng thực hiện: Người dùng hệ thống
 
-Bước 1: Vào phân hệ **Kho vận**, Chọn nhóm **Hoạt động** , chọn chức năng **Phiếu nhập kho** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+**Bước 1**: Vào phân hệ **Kho vận**, Chọn nhóm **Hoạt động** , chọn chức năng **Phiếu nhập kho** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
 ![fin_Kho_PhieuNhapKho_TabChung1](images/fin_Kho_PhieuNhapKho_TabChung1.png)
 
 ![fin_Kho_PhieuNhapKho_TabChung2](images/fin_Kho_PhieuNhapKho_TabChung2.png)
 
-Bước 2: Người dùng nhập các thông tin ở tab chung. Lưu ý: Trường **Loại nhập** khi lựa chọn thì phải có Địa điểm đích mặc định chính là kho cần nhập hàng hóa, thành phẩm và được tự động đẩy xuống trường **Kho nhập** (Ở tab chung và tab VTHH). Tùy các trường hợp nhập kho khác nhau mà chọn Loại nhập và có Kho nhập khác nhau. Cụ thể:
+**Bước 2**: Người dùng nhập các thông tin ở tab chung. 
+
+![](images/fin_pnk_tao.png)
+
+Lưu ý: Trường **Loại nhập** khi lựa chọn thì phải có Địa điểm đích mặc định chính là kho cần nhập hàng hóa, thành phẩm và được tự động đẩy xuống trường **Kho nhập** (Ở tab chung và tab VTHH). Tùy các trường hợp nhập kho khác nhau mà chọn Loại nhập và có Kho nhập khác nhau. Cụ thể:
 
 - Nhập kho mua hàng hóa, vật tư
-- Nhập kho thành phẩm
 - Nhập kho hàng bán bị trả lại
-- Nhập kho từ chi nhánh chuyển đến
 
-Bước 3: 
+**Bước 3**: Nhập thông tin vật tư, hàng hóa dùng nhập kho
+
+![](images/fin_pnk_chitiet.png)
 
 - Trường hợp nhập kho mua hàng hóa, vật tư theo đơn hàng. Người dùng có thể tích vào trường **Chọn đơn mua hàng** (Có thể chọn cùng lúc nhiều đơn mua hàng) hệ thống sẽ tự động đẩy thông tin xuống tab **Vật tư hàng hóa (VTHH)** như hình dưới:
 
@@ -64,7 +61,7 @@ Bước 3:
 
 - Trường hợp khác, người dùng tự nhập tay các thông tin ở Tab VTHH.
 
-Bước 4: Người dùng thao tác nhấn **Lưu**, nhấn **Đánh dấu cần làm:**
+**Bước 4**: Người dùng thao tác nhấn **Lưu**, nhấn **Đánh dấu cần làm:**
 
 - Thực hiện nhập kho theo Nhu cầu thực tế.
 
@@ -87,11 +84,9 @@ Bước 4: Người dùng thao tác nhấn **Lưu**, nhấn **Đánh dấu cần
 
 Khi phát sinh nghiệp vụ xuất nguyên vật liệu dùng cho sản xuất, thông thường sẽ phát sinh các hoạt động sau:
 
-- Căn cứ vào kế hoạch sản xuất hoặc đơn hàng của khách hàng trong kỳ, trưởng bộ phận sản xuất sẽ lập lệnh sản xuất cho các phân xưởng
-- Căn cứ vào lệnh sản xuất kế toán kho hoặc người chịu trách nhiệm sẽ đề nghị xuất nguyên vật liệu dùng cho sản xuất
-- Kế toán kho lập Phiếu xuất kho, sau đó chuyển Kế toán trưởng và Giám đốc ký duyệt
-- Căn cứ vào Phiếu xuất kho, Thủ kho xuất kho hàng hoá
-- Thủ kho ghi sổ kho, còn kế toán ghi sổ kế toán kho.
+- Người dùng lập Phiếu xuất kho
+- Căn cứ vào Phiếu xuất kho, Thực hiện xuất kho hàng hoá
+- Người dùng ghi sổ kho.
 
 **Xem video hướng dẫn**
 
@@ -99,22 +94,26 @@ Khi phát sinh nghiệp vụ xuất nguyên vật liệu dùng cho sản xuất,
 
 ### Lập phiếu xuất kho
 
-Đối tượng thực hiện: Kế toán kho
+Đối tượng thực hiện: Người dùng hệ thống
 
-Bước 1: Vào phân hệ **Kho vận**, Chọn nhóm **Hoạt động** , chọn chức năng **Phiếu xuất kho** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+**Bước 1**: Vào phân hệ **Kho vận**, Chọn nhóm **Hoạt động** , chọn chức năng **Phiếu xuất kho** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
 ![fin_Kho_PhieuXuatKho_TabChung1](images/fin_Kho_PhieuXuatKho_TabChung1.png)
 
 ![fin_Kho_PhieuXuatKho_TabChung2](images/fin_Kho_PhieuXuatKho_TabChung2.png)
 
-Bước 2: Người dùng nhập các thông tin ở tab chung. Lưu ý: Lựa chọn **Kiểu giao nhận** có Địa điểm đi mặc định chính là kho cần xuất vật tư, hàng hóa và được tự động đẩy xuống trường **Kho xuất** (ở tab chung và tab VTHH). Tùy các trường hợp xuất kho mà lựa chọn các **Loại nhập** và **Kho xuất** khác nhau. Cụ thể:
+**Bước 2**: Người dùng nhập các thông tin ở tab chung. 
 
-- Xuất kho NVL dùng cho sản xuất
+![](images/fin_pxk_tao.png)
+
+Lưu ý: Lựa chọn **Kiểu giao nhận** có Địa điểm đi mặc định chính là kho cần xuất vật tư, hàng hóa và được tự động đẩy xuống trường **Kho xuất** (ở tab chung và tab VTHH). Tùy các trường hợp xuất kho mà lựa chọn các **Loại nhập** và **Kho xuất** khác nhau. Cụ thể:
+
 - Xuất kho hàng bán
-- Xuất kho hàng mua trả lại
-- Xuất kho cho các công ty/chi nhánh
+- Xuất kho hàng trả lại hàng hóa cho NCC
 
-Bước 3: 
+**Bước 3**: Nhập thông tin hàng hóa chi tiết để xuất kho
+
+![](images/fin_pxk_chitiet.png)
 
 - Trường hợp xuất kho theo đơn hàng bán, người dùng có thể tích vào trường **Chọn đơn hàng bán** (có thể cùng lúc chọn nhiều đơn hàng bán), hệ thống sẽ tự động đẩy thông tin xuống tab **Vật tư hàng hóa (VTHH)** như hình:
 
@@ -122,7 +121,7 @@ Bước 3:
 
 - Trường hợp khác, người dùng tự nhập tay các thông tin ở tab VTHH.
 
-Bước 4: Người dùng thao tác nhấn **Lưu**, **Đánh dấu cần làm**, **Kiểm tra tính khả dụng** (kiểm tra trong kho có đủ số lượng hàng hóa để xuất không):
+**Bước 4**: Người dùng thao tác nhấn **Lưu**, **Đánh dấu cần làm**, **Kiểm tra tính khả dụng** (kiểm tra trong kho có đủ số lượng hàng hóa để xuất không):
 
 - Thực hiện xuất kho theo Nhu cầu thực tế.
 
@@ -143,12 +142,10 @@ Bước 4: Người dùng thao tác nhấn **Lưu**, **Đánh dấu cần làm**
 
 ### Mô tả nghiệp vụ
 
-Khi có yêu cầu kiểm kê kho từ kế toán trưởng hoặc Ban lãnh đạo công ty, bộ phận kế toán sẽ phát sinh một số hoạt động sau:
+Khi có yêu cầu kiểm kê kho,  người dùng sẽ thực hiện:
 
-- Thành lập ban kiểm kê gồm: Kế toán kho, Thủ kho, Kế toán trưởng hoặc Giám đốc.
 - Kiểm kê hàng hóa thực tế trong từng kho, đối chiếu số dư thực tế kiểm kê với sổ kế toán kho
 - Nếu có chênh lệch thì tiến hành tìm nguyên nhân xử lý
-- Trưởng ban kiểm kê sẽ đưa ra quyết định xử lý
 - Căn cứ và quyết định xử lý, Kế toán kho thực hiện lập phiếu nhập kho, hoặc phiếu xuất kho. Đồng thời, hạch toán bút toán chênh lệch thừa, thiếu hàng hóa so với sổ kế toán.
 - Trường hợp tìm được nguyên nhân và yêu cầu bồi thường thì hạch toán phải thu hoặc phải trả cho đối tượng phải bồi thường. Trường hợp chưa tìm được nguyên nhân thì hạch toán vào tài sản thừa chờ xử lý hoặc tài sản thiếu chờ xử lý 
 
@@ -158,17 +155,17 @@ Khi có yêu cầu kiểm kê kho từ kế toán trưởng hoặc Ban lãnh đ�
 
 ### Kiểm kê kho
 
-Bước 1: Vào phân hệ **Kho vận**, Chọn nhóm **Hoạt động** , chọn chức năng **Kiểm kê kho** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+**Bước 1**: Vào phân hệ **Kho vận**, Chọn nhóm **Hoạt động** , chọn chức năng **Kiểm kê kho** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
 ![fin_Kho_KiemKeKho_TabChung](images/fin_Kho_KiemKeKho_TabChung.png)
 
-Bước 2: Sau khi người dùng nhập các thông tin vào tab chung, nhấn **Bắt đầu kiểm kho**. Người dùng nhập các thông tin ở tab Kiểm kho, điền số lượng đã kiểm đếm được ở cột **Đã đếm**.
+**Bước 2**: Sau khi người dùng nhập các thông tin vào tab chung, nhấn **Bắt đầu kiểm kho**. Người dùng nhập các thông tin ở tab Kiểm kho, điền số lượng đã kiểm đếm được ở cột **Đã đếm**.
 
 - Nhập thông tin thành viên tham gia kiểm đếm ở tab thành viên tham gia.
 
 ![fin_Kho_KiemKeKho_TabChiTiet](images/fin_Kho_KiemKeKho_TabChiTiet.png)
 
-Bước 3: Nhấn **Xác nhận kiểm kho** , khi đó phiếu kiểm kê đã được **Hoàn thành.** Khi đó hệ thống tự động cập nhật kho theo số lượng kiểm đếm.
+**Bước 3**: Nhấn **Xác nhận kiểm kho** , khi đó phiếu kiểm kê đã được **Hoàn thành.** Khi đó hệ thống tự động cập nhật kho theo số lượng kiểm đếm.
 
 ## *Tính giá xuất kho*
 
@@ -182,13 +179,13 @@ Thực hiện tính và cập nhật giá xuất kho vào các phiếu xuất kh
 
 ### Tính giá xuất kho
 
-Đối tượng thực hiện: Kế toán kho
+Đối tượng thực hiện: Người dùng hệ thống
 
-Bước 1: Vào phân hệ **Kho vận**, Chọn nhóm **Hoạt động** , chọn chức năng **Tính giá xuất kho** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+**Bước 1**: Vào phân hệ **Kho vận**, Chọn nhóm **Hoạt động** , chọn chức năng **Tính giá xuất kho** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
 ![](images/fin_Kho_TinhGiaXuatKho.png)
 
-Nhập thông tin để tính giá xuất kho: Vật tư hàng hóa cần tính giá, thời gian, kho nhập, kho xuất, kỳ tính giá
+**Bước 2**: Nhập thông tin để tính giá xuất kho: Vật tư hàng hóa cần tính giá, thời gian, kho nhập, kho xuất, kỳ tính giá
 
 Với phương pháp bình quân cuối kỳ: 
 

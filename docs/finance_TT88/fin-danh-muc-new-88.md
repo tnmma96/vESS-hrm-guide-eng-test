@@ -352,13 +352,13 @@ Người dùng thực hiện chọn **kho**, nhập **số lượng thực tế*
 
 ![](images/fin_danhmuc_hh_cn_luu.png)
 
-### **Kho**
+### **Kho hàng** 
 
 **Mục đích**
 
 Quản lý danh sách các kho vật tư, hàng hoá, phục vụ cho công tác khai báo vật tư, hàng hoá trong doanh nghiệp.
 
-Chức năng Danh mục **Kho** được quản lý tập trung tại phần **Danh mục** của Phân hệ **Kho vận**
+Chức năng Danh mục **Kho hàng** được quản lý tập trung tại phần **Danh mục** của Phân hệ **Kho vận**
 
 **Các bước thực hiện**
 
@@ -374,7 +374,127 @@ Chức năng Danh mục **Kho** được quản lý tập trung tại phần **D
 
 **Lưu ý:**
 
-- Nhấn **Sửa**: Nếu muốn thay đổi thông tin Nhóm sản phẩm đã khai báo
+Nhấn **Sửa**: Nếu muốn thay đổi thông tin kho hàng đã khai báo
+
+Sau khi kho hàng được tạo thành công, hệ thống tự động tạo  vị trí kho và các kiểu nhập xuất hàng hóa tương ứng với kho đó
+
+### Kho
+
+**Mục đích**
+
+Quản lý danh sách các địa điểm kho vật tư, hàng hoá, phục vụ cho công tác khai báo vật tư, hàng hoá trong doanh nghiệp.
+
+Chức năng Danh mục **Kho** được quản lý tập trung tại phần **Danh mục** của Phân hệ **Kho vận**
+
+Kho có thể được tạo mặc định khi người dùng khai báo kho hàng mới tại **Danh mục/Kho hàng**
+
+**Các bước thực hiện**
+
+1. Vào phân hệ **Kho vận**; chọn chức năng **Cấu hình**: chọn **Kho** hoặc vào **Danh mục/hàng hóa vật tư/Kho**
+
+![](images/fin_danhmuc_kho.png)
+
+2. Để khai báo thêm **Kho**, người dùng nhấn nút **Tạo**Trên màn hình **Kho** và thực hiện Khai báo các thông tin: 
+
+   Tên địa điểm kho
+
+   Đơn vị của kho
+
+   Chọn loại địa điểm kho
+
+![](images/fin_danhmuc_kho_tao.png)
+
+3. Nhấn nút **Lưu**
+
+**Lưu ý:**
+
+Nhấn **Sửa**: Nếu muốn thay đổi thông tin kho hàng đã khai báo
+
+### Kiểu giao nhận
+
+**Mục đích**
+
+Quản lý danh sách các loại hình nhập/xuất hàng hóa,vật tư phục vụ cho việc quản lý, kiểm kê hàng trong kho.
+
+Chức năng Danh mục **Kiểu giao nhận** được quản lý tập trung tại phần **Danh mục** của Phân hệ **Kho vận**
+
+Kiểu giao nhận có thể được tạo mặc định khi người dùng khai báo kho hàng mới tại **Danh mục/Kho hàng** hoặc người dùng tự thêm mới
+
+**Các bước thực hiện**
+
+1. Vào phân hệ **Kho vận**; chọn chức năng **Cấu hình**: chọn **Kiểu giao nhận**  hoặc vào **Danh mục/hàng hóa vật tư/Loại hoạt động**
+
+![](images/fin_danhmuc_kieugiaonhan.png)
+
+2. Để khai báo thêm **Kiểu giao nhận**, người dùng nhấn nút **Tạo**Trên màn hình  và thực hiện Khai báo các thông tin: 
+
+   Kiểu hoạt động: Nhập tên kiểu nhập.xuất
+
+   Đơn vị:  Đơn vị của kiểu hoạt động sẽ dùng
+
+   Mã: Mã của loại nhập/xuất
+
+   Loại hoạt động: Chọn loại Nhập hoặc loại Xuất
+
+   Loại nhập/xuất: Chi tiết hình thức nhập hoặc xuất
+
+   Tài khoản nợ: Chọn tài khoản hạch toán
+
+   Tài khoản có: Chọn tài khoản hạch toán
+
+   Điểm đi mặc định: Kho sẽ xuất hàng đi
+
+   Điểm đích mặc định: Kho hàng sẽ nhập vào
+
+   
+
+![](images/fin_danhmuc_kieugiaonhan_tao.png)
+
+3. Nhấn nút **Lưu**
+
+**Lưu ý:**
+
+Nhấn **Sửa**: Nếu muốn thay đổi thông tin kho hàng đã khai báo
+
+### Quy tắc sắp xếp
+
+**Các bước thực hiện**
+
+1. Vào phân hệ **Kho vận**; chọn chức năng **Cấu hình**: chọn **Quy tắc sắp xếp**  
+
+2. Để khai báo thêm **Quy tắc sắp xếp**, người dùng nhấn nút **Tạo**Trên màn hình  và thực hiện Khai báo các thông tin:
+
+3. Nhấn nút **Lưu**
+
+### Quy tắc tái cung ứng
+
+**Các bước thực hiện**
+
+1. Vào phân hệ **Kho vận**; chọn chức năng **Cấu hình**: chọn **Quy tắc tái cung ứng**  
+
+2. Để khai báo thêm **Quy tắc tái cung ứng**, người dùng nhấn nút **Tạo**Trên màn hình  và thực hiện Khai báo các thông tin:
+
+3. Nhấn nút **Lưu**
+
+### Nhóm đơn vị
+
+**Các bước thực hiện**
+
+1. Vào phân hệ **Kho vận**; chọn chức năng **Cấu hình**: chọn **Nhóm đơn vị**  
+
+2. Để khai báo thêm **Nhóm đơn vị**, người dùng nhấn nút **Tạo**Trên màn hình  và thực hiện Khai báo các thông tin:
+
+3. Nhấn nút **Lưu**
+
+### Đơn vị
+
+**Các bước thực hiện**
+
+1. Vào phân hệ **Kho vận**; chọn chức năng **Cấu hình**: chọn **Đơn vị**  
+
+2. Để khai báo thêm **Đơn vị**, người dùng nhấn nút **Tạo**Trên màn hình  và thực hiện Khai báo các thông tin:
+
+3. Nhấn nút **Lưu**
 
 ## ***Kế toán***
 

@@ -232,6 +232,12 @@ Thông tin dữ liệu bút toán phát sinh:
 
 **Bước 4**: Nhân viên Kế toán thực hiện nhấn **Xác nhận** để hoàn thành xuất hóa đơn mua hàng
 
+Sau khi xác nhận hóa đơn, hệ thống sẽ sinh dữ liệu vào chức năng "Thanh toán cho nhà cung cấp", người dùng kiểm tra thông tin sẽ thanh toán bằng cách vào **Ngân quỹ/Tiền mặt/Thanh toán cho nhà cung cấp** hoặc **Ngân quỹ/Tiền gửi/Thanh toán cho nhà cung cấp** để kiểm tra lại số tiền sẽ được thanh toán
+
+![](images/fin_muahang_xacnhan.png)
+
+
+
 ## ***Thanh toán cho Nhà cung cấp***
 
 ### **Mô tả nghiệp vụ**

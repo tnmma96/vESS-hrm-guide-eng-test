@@ -238,6 +238,10 @@ Thông tin dữ liệu bút toán phát sinh:
 
 **Bước 4**: Nhân viên Kế toán thực hiện nhấn **Xác nhận** để hoàn thành xuất hóa đơn bán hàng
 
+Sau khi xác nhận hóa đơn, hệ thống sẽ sinh dữ liệu vào chức năng "Thu tiền từ khách hàng", người dùng kiểm tra thông tin sẽ thanh toán bằng cách vào **Ngân quỹ/Tiền mặt/Thu tiền từ khách hàng** hoặc **Ngân quỹ/Tiền gửi/Thu tiền từ khách hàng** để kiểm tra lại số tiền sẽ được thanh toán
+
+![](images/fin_banhang_xacnhan.png)
+
 ## *Ghi nhận thanh toán từ khách hàng*
 
 ### Mô tả nghiệp vụ
