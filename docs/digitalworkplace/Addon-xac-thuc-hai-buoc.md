@@ -151,7 +151,7 @@ Với ứng dụng Google Authenticator, có 2 cách để lấy mã Xác nhận
 
 **Bước 4**: Mở ứng dụng Google Authenticator nhấn **Bắt đầu**
 
-![](picture/PIC_DW_Addon_XacThuc2Buoc-15.jpg)
+![](picture/PIC_DW_Addon_XacThuc2Buoc-15.png)
 
 **Bước 5**: Tại đây có 2 lựa chọn cho người dùng để lấy mã, từng lựa chọn được hướng dẫn thực hiện lần lượt như sau:
 

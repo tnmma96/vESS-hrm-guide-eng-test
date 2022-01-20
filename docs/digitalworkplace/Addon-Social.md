@@ -428,7 +428,7 @@ Cho phép Quản trị hệ thống xem được chi tiết các bài viết, xe
 
 1. Vào phân hệ **Trang web**, chọn **Cấu hình/ Mạng xã hội/ Chủ đề**
 
-    ![](picture/PIC_DW_Social_tag_1.png)
+    ![](picture/PIC_DW_Social_Tag_1.png)
     
 2. Người dùng thực hiện xem thống kê số lượt xem, số bài đăng, số câu trả lời, số yêu thích theo từng chủ đề.
 
