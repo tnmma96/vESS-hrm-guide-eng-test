@@ -415,7 +415,7 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
        
     * **Tab: Việc cần làm** người dùng kích vào "Thêm dòng"
     
-       ![](picture/PIC_DW_OKR-taocvcanlam.png)
+        ![](picture/PIC_DW_OKR-taocvcanlam.png)
        
         * **Tên:** nhập tên của liên kết công việc cần làm
           
