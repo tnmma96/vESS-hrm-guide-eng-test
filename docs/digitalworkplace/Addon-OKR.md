@@ -199,9 +199,9 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
 
    ![](picture/PIC_DW_OKR-taotrangthaimuctieu.png)
    
-   * **Tên trạng thái:** nhập tên giai đoạn cho "Cấu hình Trạng thái thực hiện của mục tiêu"
+   * **Tên trạng thái:** nhập tên trạng thái cho "Cấu hình Trạng thái thực hiện của mục tiêu"
    
-   * **Trạng thái:** chọn giai đoạn phù hợp với "Cấu hình Trạng thái thực hiện của mục tiêu"
+   * **Trạng thái:** chọn trạng thái phù hợp với "Cấu hình Trạng thái thực hiện của mục tiêu"
    
    * **Màu:** chọn màu phù hợp với "Trạng thái thực hiện của mục tiêu"
    
@@ -289,7 +289,7 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
     
     * **Tên mục tiêu:** nhập tên mục tiêu cho "Mục tiêu"
       
-    * **Tab <Thông tin chi tiết>**
+    * **Tab: Thông tin chi tiết**
       
         * **Phương pháp đo:** nhập phương pháp đo của "Mục tiêu"
           
@@ -319,7 +319,7 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
           
         * **Ngày kết thúc thực tế:** chọn ngày kết thúc thực tế cho "Mục tiêu"
         
-    * **Tab <Kết quả then chốt>:** 
+    * **Tab: Kết quả then chốt** 
       
         * Người dùng có thể tạo "Kết quả then chốt" trực tiếp tại chức năng "Kết quả then chốt"
           
@@ -329,7 +329,7 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
              
         * **Tên kết quả then chốt**
         
-        * **Tab <Cấu hình>:**
+        * **Tab: Cấu hình**
           
             * **Ước lượng:** nhập thời gian theo giá trị ngày của "Liên kết kết quả then chốt"
             
@@ -345,7 +345,7 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
             
             * **Kết quả công việc:** nhập kết quả công việc của "Liên kết kết quả then chốt"
         
-        * **Tab <Việc cần làm>:** người dùng kích vào "Thêm dòng"
+        * **Tab: Việc cần làm** người dùng kích vào "Thêm dòng"
           
             ![](picture/PIC_DW_OKR-taocvcanlam.png)
                 
@@ -395,7 +395,7 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
         
     * **Tên kết quả then chốt:** nhập tên "Kết quả then chốt"
     
-    * **Tab <Cấu hình>**
+    * **Tab: Cấu hình**
       
         * **Mục tiêu:** chọn mục tiêu (Được lấy từ Mục tiêu đã tạo)
         
@@ -413,7 +413,7 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
         
         * **Kết quả công việc:** nhập kết quả công việc cho "Kết quả then chốt"
        
-     * **Tab <Việc cần làm>:** người dùng kích vào "Thêm dòng"
+    * **Tab: Việc cần làm** người dùng kích vào "Thêm dòng"
     
        ![](picture/PIC_DW_OKR-taocvcanlam.png)
        
@@ -431,7 +431,7 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
           
         * **Người được giao:** chọn người được giao
        
-    * **Tab <Công việc liên kết>:** người dùng kích vào "Thêm một dòng"
+    * **Tab: Công việc liên kết** người dùng kích vào "Thêm một dòng"
             
         ![](picture/PIC_DW_OKR-taocongvieclienketkqtc.png)
                 
@@ -457,9 +457,9 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
         
         * **Sử dụng ảnh bìa:** tích hoặc không tích chọn "Sử dụng ảnh bìa"
           
-        * **Tab <Việc cần làm>:** người dùng kích vào "Thêm một dòng" để thêm công việc cần làm cho nhiệm vụ công việc liên kết
+        * **Tab: Việc cần làm** người dùng kích vào "Thêm một dòng" để thêm công việc cần làm cho nhiệm vụ công việc liên kết
         
-        * **Tab <Mô tả>:** người dùng nhập mô tả "Công việc liên kết"    
+        * **Tab: Mô tả** người dùng nhập mô tả "Công việc liên kết"    
 
 5. Kích **Lưu:** thông tin về "Kết quả then chốt" được lưu lại
    
@@ -495,7 +495,7 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
         
     * **Tên kết quả then chốt:** nhập tên "Kết quả then chốt"
     
-    * **Tab <Cấu hình>**
+    * **Tab: Cấu hình**
       
         * **Ước lượng:** nhập số ngày ước lượng
         
@@ -511,7 +511,7 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
         
         * **Kết quả công việc:** nhập kết quả then chốt
         
-    * **Tab <Việc cần làm>**
+    * **Tab: Việc cần làm**
             
         ![](picture/PIC_DW_OKR-taovieccanlam.png)
         
