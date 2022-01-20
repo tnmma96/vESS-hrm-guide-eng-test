@@ -329,40 +329,40 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
              
         * **Tên kết quả then chốt**
         
-        * **Tab: Cấu hình**
+    * **Tab: Cấu hình**
           
-            * **Ước lượng:** nhập thời gian theo giá trị ngày của "Liên kết kết quả then chốt"
+        * **Ước lượng:** nhập thời gian theo giá trị ngày của "Liên kết kết quả then chốt"
             
-            * **Người được giao:** chọn người được giao cho "Liên kết kết quả then chốt"
+        * **Người được giao:** chọn người được giao cho "Liên kết kết quả then chốt"
             
-            * **Ngày bắt đầu:** chọn ngày bắt đầu cho "Liên kết kết quả then chốt"
+        * **Ngày bắt đầu:** chọn ngày bắt đầu cho "Liên kết kết quả then chốt"
             
-            * **Ngày kết thúc:** chọn ngày kết thúc cho "Liên kết kết quả then chốt"
+        * **Ngày kết thúc:** chọn ngày kết thúc cho "Liên kết kết quả then chốt"
             
-            * **Ngày kết thúc thực tế:** chọn ngày kết thúc thực tế cho "Liên kết kết quả then chốt"
+        * **Ngày kết thúc thực tế:** chọn ngày kết thúc thực tế cho "Liên kết kết quả then chốt"
             
-            * **Tỉ trọng:** nhập tỉ trọng của "Liên kết kết quả then chốt"
+        * **Tỉ trọng:** nhập tỉ trọng của "Liên kết kết quả then chốt"
             
-            * **Kết quả công việc:** nhập kết quả công việc của "Liên kết kết quả then chốt"
+        * **Kết quả công việc:** nhập kết quả công việc của "Liên kết kết quả then chốt"
         
-        * **Tab: Việc cần làm** người dùng kích vào "Thêm dòng"
-          
-            ![](picture/PIC_DW_OKR-taocvcanlam.png)
-                
-            * **Tên:** nhập tên của liên kết công việc cần làm
-            
-            * **Ngày bắt đầu:** chọn ngày bắt đầu
-            
-            * **Ngày kết thúc:** chọn ngày kết thúc
-            
-            * **Nội dung:** nhập nội dung
-            
-            * **Tiến độ:** nhập tiến độ 
-            
-            * **Ước lượng thời gian:** nhập ước lượng thời gian thực hiện
-            
-            * **Người được giao:** chọn người được giao
-
+    * **Tab: Việc cần làm** người dùng kích vào "Thêm dòng"
+      
+        ![](picture/PIC_DW_OKR-taocvcanlam.png)
+             
+        * **Tên:** nhập tên của liên kết công việc cần làm
+        
+        * **Ngày bắt đầu:** chọn ngày bắt đầu
+        
+        * **Ngày kết thúc:** chọn ngày kết thúc
+        
+        * **Nội dung:** nhập nội dung
+        
+        * **Tiến độ:** nhập tiến độ 
+        
+        * **Ước lượng thời gian:** nhập ước lượng thời gian thực hiện
+        
+        * **Người được giao:** chọn người được giao
+    
 5. Kích **Lưu:** thông tin về "Mục tiêu" được lưu lại
    
 6. Người dùng thực hiện **Theo dõi** mục tiêu, **Thêm người theo dõi** hoặc **Thêm kênh theo dõi**. 
