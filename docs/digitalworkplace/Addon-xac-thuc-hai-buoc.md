@@ -21,7 +21,7 @@ Việc bảo mật cho tài khoản càng quan trọng hơn khi hiện nay các 
 Bước bảo mật lần hai sẽ khiến các hacker sẽ không thể giả mạo người dùng truy cập trái phép. Chính vì vậy mà các bước xác nhận lần hai ngày càng trở nên quan trọng hơn, và ngày càng có nhiều hệ thống sử dụng bảo mật 2 lớp, nhất là cho người dùng làm việc ở xa, qua các hệ thống đám mây.
 
 # Quy trình nghiệp vụ
-    
+
 **Quy trình**
 
 ![](picture/PIC_DW_Addon_XacThuc2Buoc-0.png)
@@ -77,7 +77,7 @@ Bước bảo mật lần hai sẽ khiến các hacker sẽ không thể giả m
 **Bước 5**: Nhập lại mật khẩu để xác minh, nhấn chọn nút ***ĐĂNG NHẬP***
 
 ![](picture/PIC_DW_Addon_XacThuc2Buoc-6.jpg)
- 
+
 
 **Bước 6**: Bật phương thức lấy mã xác thực bất kì, sau khi bật cũng tương ứng với việc người dùng kích hoạt đăng nhập 2 bước thành công.
 

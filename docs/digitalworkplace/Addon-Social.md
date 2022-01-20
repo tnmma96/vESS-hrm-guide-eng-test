@@ -25,7 +25,7 @@ Cho phép người dùng quản lý các chủ đề, bài viết và tương t�
 Khi người sử dụng muốn quản lý hoạt động của mạng xã hội thì quy trình thực hiện như sau:
 
 1. Tại phân hệ **Trang web**, quản trị hệ thống thiết lập các tài nguyên dùng chung của phân hệ trang web bao gồm:
-    
+   
     * Thẻ dùng chung.
     
     * Rank (xếp hạng người dùng): Định nghĩa điều kiện để người dùng có thể chuyển hạng.
@@ -103,7 +103,7 @@ Người sử dụng tạo mới thẻ cho từng chủ đề và cũng có th�
   * Khai báo tên chủ đề: Khi tiến hành nhập tên chủ đề, sẽ xuất hiện guilde line gợi ý các chủ đề có sẵn, nếu như nhập tên chủ đề chưa có sẵn, hệ thống hiển thị Tạo, khi người dùng chọn "Tạo" sẽ tạo một chủ đề mới.
   
   * Người dùng nhấn **Lưu** để tạo thẻ.
-  
+
 **Thiết lập rank**
 
 Người sử dụng tạo mới rank (điều kiện xếp hạng thành viên).
@@ -121,7 +121,7 @@ Người sử dụng tạo mới rank (điều kiện xếp hạng thành viên)
      ![](picture/PIC_DW_Social_Rank_3.png)
      
   * Người dùng nhấn **Lưu** để tạo rank.
-  
+
 **Thiết lập huy hiệu**
 
 Người sử dụng tạo mới huy hiệu và trao huy hiệu cho thành viên
@@ -153,7 +153,7 @@ Người sử dụng tạo mới huy hiệu và trao huy hiệu cho thành viên
   * Khai báo các thông tin cần thiết khác. 
     
   * Người dùng nhấn **Lưu** để tạo huy hiệu hoặc nhấn **Trao huy hiệu này** để tạo và trao huy hiệu này cho thành viên khác.
-  
+
 4. Sau khi tạo thành công huy hiệu, người dùng có thể tặng huy hiệu đó cho các thành viên khác.
 
     ![](picture/PIC_DW_Social_HuyHieu_4.png)
@@ -163,7 +163,7 @@ Người sử dụng tạo mới huy hiệu và trao huy hiệu cho thành viên
   * Khai báo mô tả lý do muốn trao tặng.
   
   * Nhấn **Trao huy hiệu** để thực hiện trao huy hiệu cho thành viên đã chọn.
-  
+
 **Thiết lập lý do đóng bài đăng**
 
 1. Tại phân hệ **Trang web**, người sử dụng thực hiện thiết lập lý do đóng bài đăng bằng cách chọn Cấu hình/ Mạng xã hội/ Các lý do đóng.
@@ -231,17 +231,17 @@ Người sử dụng thực hiện tạo các bài viết cho mạng xã hội.
     ![](picture/PIC_DW_Social_Admin_BaiViet_1.png)
 
 2. Chọn tạo **Bài viết**
-    
+   
     ![](picture/PIC_DW_Social_Admin_BaiViet_2.png)
   
 3. Khai báo thông tin chung của **Bài viết**
-    
+   
     ![](picture/PIC_DW_Social_Admin_BaiViet_3.png)
     
     * Khai báo thông tin tiêu đề bài viết.
     
     * Chọn chủ đề  
-  
+    
     * Khai báo thẻ: có thể chọn thẻ đã có hoặc nhập tạo một thẻ mới.
     
     * Chọn trạng thái bài viết.
@@ -281,7 +281,7 @@ Cho phép người dùng xem danh sách các bài viết, tra cứu bài viết 
         ![](picture/PIC_DW_Social_BaiViet_2.png)
 
 2. Người dùng thực hiện tra cứu bài viết bằng cách:
-    
+   
     ![](picture/PIC_DW_Social_BaiViet_2.png)
     
     * Người dùng đang quan tâm tới chủ đề nào thì sẽ chọn chủ đề bài viết ở **Danh sách chủ đề** ở bên trái, sau khi chọn chủ đề thì vùng danh sách bài viết sẽ chỉ hiển thị những bài viết thuộc chủ đề mà người dùng chọn.
@@ -303,7 +303,7 @@ Cho phép người dùng tạo bài viết trên mạng xã hội. Người dùn
     ![](picture/PIC_DW_Social_BaiViet_2.png)
     
 2. Khai báo thông tin chung cho bài viết
-    
+   
     ![](picture/PIC_DW_Social_BaiViet_3.png)
     
     * Chọn chủ đề
@@ -311,7 +311,7 @@ Cho phép người dùng tạo bài viết trên mạng xã hội. Người dùn
     * Khai báo tiêu đề bài viết
     
     * Khai báo Mô tả: 
-        
+      
         * Để đăng bài là văn bản thường người dùng nhập chữ vào đây và có thể định dạng cho nội dung của bài viết như: chữ đậm, nghiêng, căn lề ...
         
         * Để đăng ảnh người dùng có thể kéo ảnh vào đây hoặc chọn biểu tượng ảnh sẽ mở ra màn hình chọn media. Tại đây người dùng chọn **Hình ảnh**, chọn nút **Tải lên một hình ảnh** và chọn ảnh từ máy tính cá nhân để đăng tải ảnh vào bài viết.
@@ -319,13 +319,13 @@ Cho phép người dùng tạo bài viết trên mạng xã hội. Người dùn
             ![](picture/PIC_DW_Social_BaiViet_5.png)
             
         * Để đăng video người dùng chọn biểu tượng ảnh sẽ mở ra màn hình chọn media, người dùng chọn **Video** và khai báo mã url của video muốn đăng.
-            
+          
             >Lưu ý: Người dùng không thể đăng trực tiếp video từ máy tính cá nhân vào bài viết mà ở đây chỉ cho phép nhúng video từ một website khác. 
             
             ![](picture/PIC_DW_Social_BaiViet_6.png)
             
         * Để đăng một tập tin tài liệu như file word, excel, pdf...lên bài viết, người dùng chọn biểu tượng ảnh sẽ mở ra màn hình chọn media. Tại đây người dùng chọn **Tài liệu**, chọn nút **Tải lên 1 tài liệu** và chọn file tài liệu từ máy tính cá nhân để đăng tải file vào bài viết. Sau khi đăng bài thành công, các thành viên khác có thể xem bài viết và tải file tài liệu.
-            
+          
             ![](picture/PIC_DW_Social_BaiViet_7.png)
         
         * Để đăng bài viết có liên kết tới bài viết khác hay trang web khác, người dùng sao chép link liên kết của bài viết cần chia sẻ và dán vào đây.
@@ -358,11 +358,11 @@ Cho phép người dùng tương tác với bài viết như: Xem chi tiết bà
     * Sau khi báo cáo vi phạm, admin của mạng xã hội sẽ nhìn thấy các bài viết, câu trả lời bị vi phạm và xem xét có đúng là vi phạm hay không. Nếu bài viết hoặc câu trả lời là vi phạm thì admin có thể thực hiện xóa bài viết khỏi mạng xã hội. Khi đó người dùng sẽ không nhìn thấy bài viết đó nữa.
     
         ![](picture/PIC_DW_Social_BaiViet_12.png)
-        
-3. Người dùng có thể nhập câu trả lời cho bài viết ở cuối bài viết trên danh sách hoặc khi vào xem chi tiết một bài viết.
     
+3. Người dùng có thể nhập câu trả lời cho bài viết ở cuối bài viết trên danh sách hoặc khi vào xem chi tiết một bài viết.
+   
     ![](picture/PIC_DW_Social_BaiViet_11.png)
- 
+
 4. Người dùng có thể phản hồi lại câu trả lời cho bất kỳ câu trả lời nào của bài viết trên mạng xã hội.
 
 5. Khi muốn theo dõi bài viết, người dùng chọn theo dõi. Sau khi theo dõi bài viết, thì khi có bất kỳ tương tác nào với bài viết người đùng đã theo dõi sẽ hiển thị thông báo cho người dùng biết.
@@ -370,10 +370,10 @@ Cho phép người dùng tương tác với bài viết như: Xem chi tiết bà
 6. Người dùng chọn yêu thích khi yêu thích bài viết bất kỳ.
 
 7. Với bài viết hoặc câu trả người dùng thấy hữu ích thì có thể cộng thêm 1 điểm cho bài viết/ câu trả lời bằng cách chọn vào mũi tên lên ở phía góc trái bài viết/ câu trả lời. Ngược lại với bài viết không chính xác hay không hữu ích người dùng có thể trừ 1 điểm bằng cách chọn mũi tên xuống ở góc trái bài viết/ câu trả lời.
- 
+
     >Lưu ý: Người dùng chỉ có thể cộng điểm hoặc trừ điểm đối với bài viết, câu trả lời của thành viên khác, không được phép cộng/ trừ điểm cho bài viết/ câu trả lời của chính mình.
-   
-   
+
+
 ### **Nhân viên**
 
 Chức năng này cho phép người dùng xem thông tin các cá nhân khác trên mạng xã hội. Ngoài ra, người dùng có thể trực tiếp mở màn hình chat với từng cá nhân bằng cách nhấn vào ảnh đại diện.
@@ -391,13 +391,13 @@ Chức năng này cho phép người dùng xem thông tin các cá nhân khác t
 4. Người dùng muốn xem bảng xếp hạng thành viên theo tháng này thì sẽ chọn **Tháng này**, khi đó hệ thống sẽ sắp xếp hiển thị người dùng theo số điểm đạt được trong tháng.
 
 5. Người dùng muốn xem bảng xếp hạng thành viên theo từ trước đến nay thì sẽ chọn **Đến nay**, khi đó hệ thống sẽ sắp xếp hiển thị người dùng theo số điểm đạt được.
-    
+   
 
 ### **Thẻ**
 
 Chức năng này cho phép người dùng theo dõi tất cả các thẻ đã sử dụng trong các bài đăng, trên hệ thống (không phân biệt người tạo thẻ). Ngoài ra, người dùng có thể đăng ký nhận tin hoặc truy cập trực tiếp các bài viết đã sử dụng thẻ từ menu này.
 
-    
+
 1. Người dùng truy cập trang web, chọn **Mạng xã hội/ Thẻ** để xem danh sách tất cả các thẻ sử dụng trong hệ thống.
 
     ![](picture/PIC_DW_Social_Tag_6.png)

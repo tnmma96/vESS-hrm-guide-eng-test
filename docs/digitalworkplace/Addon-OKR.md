@@ -81,15 +81,15 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
     ![](picture/PIC_DW_OKR-taoDonvido.png)
     
     * **Tên:** nhập tên đơn vị đo mới cho "Cấu hình Đơn vị đo"
-        
+      
     * **Mô tả:** nhập mô tả cho "Cấu hình Đơn vị đo"
-        
+      
     * **Đơn vị đo:** nhập "Đơn vị đo"
    
   4.  Kích **Lưu:** thông tin về **Đơn vị đo** được lưu lại   
   
   5.  Kích **Huỷ bỏ** để hủy thao tác thêm mới **Đơn vị đo**
-  
+
 
 ### **Loại điểm đánh giá** 
 
@@ -108,15 +108,15 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
     ![](picture/PIC_DW_OKR-taoloaidiemdanhgia.png)
    
     * **Tên:** nhập tên cho "Loại điểm đánh giá"
-         
+      
     * **Mô tả:** nhập mô tả cho "Loại điểm đánh giá"
-         
+      
     * **Loại:** chọn loại điểm đánh giá là "Chọn" hoặc "Đầu vào"
-         
+      
     * Nếu người dùng chọn loại điểm đánh giá là **Chọn**, loại điểm đánh giá sẽ do người dùng cấu hình các giá trị đánh giá
             
         ![](picture/PIC_DW_OKR-chon.png)
-         
+        
     * Nếu người dùng chọn loại điểm đánh giá là **Đầu vào**, thì loại điểm đánh giá sẽ là do người dùng tự nhập
             
         ![](picture/PIC_DW_OKR-dauvao.png)
@@ -169,19 +169,20 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
         ![](picture/PIC_DW_OKR-Danhgiathemchuki.png)
       
         * Kích chọn vào thang điểm đánh giá mong muốn, sau đó nhấn "Chọn", hệ thống sẽ cập nhật dữ liệu đã đánh giá thêm vào **Chu kì**
-      
+        
         * Kích chọn "Tạo" để tạo thang điểm đánh giá thêm. Người dùng có thể đánh giá CBNV các nội dung khác ngoài **Mục tiêu** như "Tuân thủ địa điểm làm việc","Tuân thủ nội quy lao động", "Xếp hạng Ki",...
-      
-        ![](picture/PIC_DW_OKR-taodanhgiathem.png)
+        
+        
+      ![](picture/PIC_DW_OKR-taodanhgiathem.png)
   
 3. Kích **Lưu:** thông tin về **Chu kì** được lưu lại
 
 4. Kích **Huỷ bỏ** để hủy thao tác thêm mới **Chu kì**
-    
+   
     **Lưu ý:** Nếu đến cuối chu kì bạn chấm điểm phân loại có một số chu kì chưa đạt được, hãy đánh giá lại chúng và nếu cần - bổ sung lại vào chu kì tiếp theo
 
 ### **Trạng thái thực hiện của mục tiêu** 
-  
+
 **Trạng thái thực hiện của mục tiêu** là trạng thái thực hiện của "Mục tiêu", để hiểu rõ hơn về quá trình hoạt động của "Mục tiêu", theo dõi tiến độ về "Mục tiêu" đó
 
 **Đối tượng thực hiện:** Người sử dụng là Quản trị hệ thống
@@ -191,7 +192,7 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
 1. Vào chức năng **Chỉ số đo lường OKR**, chọn **Cấu hình** **->** **Trạng thái thực hiện của mục tiêu**
 
    ![](picture/PIC_DW_OKR-trangthaimuctieu.png)
-    
+   
 2. Kích nút **Tạo**
 
 3. Nhập thông tin tạo **Trạng thái thực hiện của mục tiêu**
@@ -203,11 +204,11 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
    * **Trạng thái:** chọn giai đoạn phù hợp với "Cấu hình Trạng thái thực hiện của mục tiêu"
    
    * **Màu:** chọn màu phù hợp với "Trạng thái thực hiện của mục tiêu"
-    
+   
 4.  Kích **Lưu:** thông tin về **Trạng thái thực hiện của mục tiêu** được lưu lại   
   
 5.  Kích **Huỷ bỏ:** để hủy thao tác thêm mới **Trạng thái thực hiện của mục tiêu**
-  
+
 
 ### **Trạng thái thực hiện của kết quả then chốt**
 
@@ -236,7 +237,7 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
 4.  Kích **Lưu:** thông tin về **Cấu hình/Trạng thái thực hiện của kết quả then chốt** được lưu lại      
 
 5.  Kích **Huỷ bỏ:** để huỷ thao tác thêm mới **Cấu hình/Trạng thái thực hiện của kết quả then chốt**
-  
+
 
 ### **Gắn thẻ**
 
@@ -279,7 +280,7 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
     **Lưu ý**: Tại danh sách **Mục tiêu** dạng "kanban", người dùng có thể thêm mới nhanh một "Mục tiêu" bằng cách nhấn vào biểu tượng dấu **+** tại cột giai đoạn tương ứng hoặc thêm giai đoạn của "Mục tiêu" tại "Cấu hình/Giai đoạn của mục tiêu"
    
    ![](picture/PIC_DW_OKR_Muctieu.png)
-    
+   
 3. Kích nút **Tạo**
 
 4. Nhập thông tin tạo mới cho **Mục tiêu**    
@@ -287,41 +288,41 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
     ![](picture/PIC_DW_OKR-CTMT.png)
     
     * **Tên mục tiêu:** nhập tên mục tiêu cho "Mục tiêu"
-        
+      
     * **Tab <Thông tin chi tiết>**
-        
+      
         * **Phương pháp đo:** nhập phương pháp đo của "Mục tiêu"
-            
+          
         * **Đơn vị đo:** chọn đơn vị (Được lấy từ Cấu hình/Đơn vị đo)
-            
+          
         * **Tỉ trọng:** nhập tỉ trọng của "Mục tiêu"
-            
+          
         * **Tối thiểu:** nhập giá trị tối thiểu của "Mục tiêu"
-            
+          
         * **Mong đợi:** nhập giá trị mong đợi của "Mục tiêu"
-            
+          
         * **Thách thức:** nhập giá trị thách thức của "Mục tiêu"
-            
+          
         * **Chu kì:** chọn chu kì (Được lấy từ Cấu hình/Chu kì)
-            
+          
         * **Mục tiêu liên kết:** chọn mục tiêu liên kết (Được lấy từ các Mục tiêu trước)
-            
+          
         * **Loại mục tiêu:** chọn loại mục tiêu cho "Mục tiêu"
-            
+          
         * **Người giao việc:** chọn người giao việc cho "Mục tiêu"
-            
+          
         * **Người được giao:** chọn người được giao cho "Mục tiêu"
-            
+          
         * **Ngày bắt đầu:** chọn ngày bắt đầu cho "Mục tiêu"
-            
+          
         * **Ngày kết thúc:** chọn ngày kết thúc cho "Mục tiêu"
-            
+          
         * **Ngày kết thúc thực tế:** chọn ngày kết thúc thực tế cho "Mục tiêu"
-            
-    * **Tab <Kết quả then chốt>:** 
         
+    * **Tab <Kết quả then chốt>:** 
+      
         * Người dùng có thể tạo "Kết quả then chốt" trực tiếp tại chức năng "Kết quả then chốt"
-            
+          
         * Người dùng tạo "Kết quả then chốt" từ giao diện thiết lập "Mục tiêu"
         
         ![](picture/PIC_DW_OKR-Thenchot.png)
@@ -329,7 +330,7 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
         * **Tên kết quả then chốt**
         
         * **Tab <Cấu hình>:**
-            
+          
             * **Ước lượng:** nhập thời gian theo giá trị ngày của "Liên kết kết quả then chốt"
             
             * **Người được giao:** chọn người được giao cho "Liên kết kết quả then chốt"
@@ -345,7 +346,7 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
             * **Kết quả công việc:** nhập kết quả công việc của "Liên kết kết quả then chốt"
         
         * **Tab <Việc cần làm>:** người dùng kích vào "Thêm dòng"
-            
+          
             ![](picture/PIC_DW_OKR-taocvcanlam.png)
                 
             * **Tên:** nhập tên của liên kết công việc cần làm
@@ -363,9 +364,9 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
             * **Người được giao:** chọn người được giao
 
 5. Kích **Lưu:** thông tin về "Mục tiêu" được lưu lại
-      
+   
 6. Người dùng thực hiện **Theo dõi** mục tiêu, **Thêm người theo dõi** hoặc **Thêm kênh theo dõi**. 
-    
+   
 7. Người dùng tạo **Ghi chú** và **Gửi tin** đến người dùng cũng đang theo dõi thông tin của "Mục tiêu" đó
 
 8. Kích **Huỷ bỏ** để huỷ thao tác thêm mới **Mục tiêu**    
@@ -395,7 +396,7 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
     * **Tên kết quả then chốt:** nhập tên "Kết quả then chốt"
     
     * **Tab <Cấu hình>**
-        
+      
         * **Mục tiêu:** chọn mục tiêu (Được lấy từ Mục tiêu đã tạo)
         
         * **Ước lượng:** nhập thời gian ước lượng cho "Kết quả then chốt"
@@ -413,26 +414,26 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
         * **Kết quả công việc:** nhập kết quả công việc cho "Kết quả then chốt"
        
      * **Tab <Việc cần làm>:** người dùng kích vào "Thêm dòng"
-     
+    
        ![](picture/PIC_DW_OKR-taocvcanlam.png)
        
         * **Tên:** nhập tên của liên kết công việc cần làm
-            
+          
         * **Ngày bắt đầu:** chọn ngày bắt đầu
-            
+          
         * **Ngày kết thúc:** chọn ngày kết thúc
-            
+          
         * **Nội dung:** nhập nội dung
-            
+          
         * **Tiến độ:** nhập tiến độ 
-            
+          
         * **Ước lượng thời gian:** nhập ước lượng thời gian thực hiện
-            
+          
         * **Người được giao:** chọn người được giao
-            
+       
     * **Tab <Công việc liên kết>:** người dùng kích vào "Thêm một dòng"
             
-        ![](Picture/PIC_DW_OKR-taocongvieclienketkqtc.png)
+        ![](picture/PIC_DW_OKR-taocongvieclienketkqtc.png)
                 
         * **Tiêu đề nhiệm vụ:** nhập tiêu đề nhiệm vụ của công việc liên kết
         
@@ -455,15 +456,15 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
         * **Cập nhật giai đoạn lần cuối:** chọn cập nhật giai đoạn lần cuối
         
         * **Sử dụng ảnh bìa:** tích hoặc không tích chọn "Sử dụng ảnh bìa"
-            
+          
         * **Tab <Việc cần làm>:** người dùng kích vào "Thêm một dòng" để thêm công việc cần làm cho nhiệm vụ công việc liên kết
         
         * **Tab <Mô tả>:** người dùng nhập mô tả "Công việc liên kết"    
 
 5. Kích **Lưu:** thông tin về "Kết quả then chốt" được lưu lại
-      
+   
 6. Người dùng thực hiện **Theo dõi** mục tiêu, **Thêm người theo dõi** hoặc **Thêm kênh theo dõi**. 
-    
+   
 7. Người dùng tạo **Ghi chú** và **Gửi tin** đến người dùng cũng đang theo dõi thông tin của mục tiêu đó
 
 8. Kích **Huỷ bỏ** để huỷ thao tác thêm mới **Kết quả then chốt**    
@@ -482,20 +483,20 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
 
     **Lưu ý:** Tại màn hình **Đánh giá** người sử dụng có thể thực hiện đánh giá kết quả "Mục tiêu" của nhân viên bất kỳ bằng cách nhấn vào button dấu **+** .
     
-    ![](Picture/PIC_DW_OKR-Danhgiathem.png)
+    ![](picture/PIC_DW_OKR-Danhgiathem.png)
     
 2. Người sử dụng thực hiện chọn nhân viên bất kỳ để xem "chi tiết mục tiêu" của nhân viên đó
 
     ![](picture/PIC_DW_OKR-chitietmuctieu.png)
 
 * Người sử dụng có thể thêm **Kết quả then chốt**, bằng cách nhấn vào **Thêm dòng**
- 
+
     ![](picture/PIC_DW_OKR-lkkqtc.png)
         
     * **Tên kết quả then chốt:** nhập tên "Kết quả then chốt"
     
     * **Tab <Cấu hình>**
-        
+      
         * **Ước lượng:** nhập số ngày ước lượng
         
         * **Người được giao:** chọn người được giao
@@ -528,6 +529,7 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
         
         * **Người được giao:** chọn người được giao "Việc cần làm"
                 
+    
     **Lưu ý:** Người sử dụng chỉ được đánh giá khi tỉ trọng của các "Mục tiêu" đạt 100 và trong thời gian đánh giá (Trong thời gian đánh giá được tạo ở "Cấu hình/Chu kì")
 
 3.  Kích **Lưu:** thông tin **Đánh giá** được lưu lại
@@ -548,15 +550,15 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
     * **Phòng ban:** chọn "Phòng ban"
     
     * Kích vào **Xuất** để xuất "Báo cáo giao nhiệm vụ chi tiết"
- 
+
 2. Tại chức năng **Chỉ số đo lường OKR**, người sử dụng thực hiện chọn **Báo cáo/Đánh giá công việc chi tiết** theo "Chu kỳ" và "Phòng ban" để xuất báo cáo Đánh giá công việc chi tiết 
 
     ![](picture/PIC_DW_OKR-danhgiachitiet.png)
- 
+
     * **Chu kì:** chọn "Chu kì"
-        
+      
     * **Phòng ban:** chọn "Phòng ban"
-        
+      
     * Kích vào **Xuất** để xuất "Báo cáo đánh giá nhiệm vụ chi tiết"
     
     

@@ -109,13 +109,13 @@ Sau khi quản trị viên đăng tải sự kiện công khai, người dùng c
 1. Người dùng nhấn **Đến trang web** để xem thông tin sự kiện trên trang web. Tại **Website/Các sự kiện**, quản trị hệ thống chuyển sự kiện thành trạng thái công khai, cho phép người dùng khác có thể đăng ký tham dự sự kiện trên web bằng cách:
 
     * Người sử dụng hệ thống truy cập trang web, chọn **Các sự kiện**
-    ![](picture/PIC_DW_Sukien-DSSuKien.png)
+    ![](picture/PIC_DW_SuKien-DSSuKien.png)
 
     * Chọn sự kiện sẽ tham gia
-    ![](picture/PIC_DW_Sukien-ChiTietSuKien.png)
+    ![](picture/PIC_DW_SuKien-ChiTietSuKien.png)
     
     * Nhập đầy đủ thông tin của người tham dự, nhấn **Đăng ký** tham gia sự kiện
-    ![](picture/PIC_DW_Sukien-DangKySuKien.png)
+    ![](picture/PIC_DW_SuKien-DangKySuKien.png)
     
     * Nhấn **Tiếp tục** để đăng ký thành công
     
@@ -135,7 +135,7 @@ Sau khi quản trị viên đăng tải sự kiện công khai, người dùng c
    
     * Nhấn **Đơn bán hàng** để tạo đơn hàng cho người tham dự 
     ![](picture/PIC_DW_SuKien-DonBanHangTao.png) 
-    
+   
         * Khai báo các thông tin cần thiết
        
         * Nhấn **Gửi qua Email** để gửi email báo giá đến người tham dự
@@ -153,10 +153,10 @@ Người sử dụng thực hiện báo cáo danh sách **Các sự kiện** và
 **Đối tượng thực hiện:** Người sử dụng hệ thống
 
 1. Để thực hiện báo cáo thống kê danh sách các sự kiện, người dùng vào chức năng **Các sự kiện**, chọn **Báo cáo/Các sự kiện** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
-![](picture/PIC_DW_Sukien-BCCacSuKien.png)
+![](picture/PIC_DW_SuKien-BCCacSuKien.png)
 
 2. Thực hiện vào chức năng **Các sự kiện**, chọn **Báo cáo/Người tham dự** để thống kế theo dõi danh sách người tham dự sự kiện (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
-![](picture/PIC_DW_Sukien-BCNguoiThamDu.png)
+![](picture/PIC_DW_SuKien-BCNguoiThamDu.png)
 
 3. Người dùng thực hiện thay đổi dữ liệu cần thống kê theo nhu cầu (nếu có)
 
@@ -185,7 +185,7 @@ Người sử dụng thực hiện **Thiết lập** thêm các thông tin cho s
 
 2. Khai báo thông tin chi tiết của Thiết lập 
     * Chọn thông tin *Lên lịch & Theo dõi*
-   
+    
         * Chọn thông tin *Lên lịch & Theo dõi*, khi tạo sự kiện người sử dụng sẽ quản lý thêm các thông tin *Vết* và *Nhà tài trợ*
         
         * Lưu ý người dùng sẽ khai báo thêm các thông tin:
@@ -193,7 +193,7 @@ Người sử dụng thực hiện **Thiết lập** thêm các thông tin cho s
             * Chọn thông tin *Phát sóng trực tiếp*
             
             * Chọn thông tin *Trò chơi hóa sự kiện*
-   
+      
     *  Chọn thông tin *Câu hỏi* 
        
         * Chọn thông tin *Câu hỏi*, khi tạo sự kiện người sử dụng khai báo thêm thông tin *Câu hỏi*
