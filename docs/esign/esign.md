@@ -194,7 +194,7 @@ Cho phép người dùng ban hành thủ công văn bản đã ký duyệt: cấ
 
 ![img](images/clip_image090.jpg)
 
-3. Kích nút  ![](../banhanh.PNG)  mở màn hình nhập các thông tin ban hành với từng tệp trình ký
+3. Kích nút  ![](images/banhanh.PNG)  mở màn hình nhập các thông tin ban hành với từng tệp trình ký
 4. Nhập thông tin ban hành: 
 
 
