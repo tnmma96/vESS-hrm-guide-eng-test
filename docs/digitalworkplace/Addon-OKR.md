@@ -392,11 +392,11 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
 4. Nhập thông tin tạo mới cho **Kết quả then chốt**    
 
     ![](picture/PIC_DW_OKR-taoKQTC.png)
-        
-    * **Tên kết quả then chốt:** nhập tên "Kết quả then chốt"
     
-    * **Tab: Cấu hình**
+    * **Tên kết quả then chốt:** nhập tên "Kết quả then chốt"
       
+    * **Tab: Cấu hình**
+    
         * **Mục tiêu:** chọn mục tiêu (Được lấy từ Mục tiêu đã tạo)
         
         * **Ước lượng:** nhập thời gian ước lượng cho "Kết quả then chốt"
@@ -414,23 +414,23 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
         * **Kết quả công việc:** nhập kết quả công việc cho "Kết quả then chốt"
        
     * **Tab: Việc cần làm** người dùng kích vào "Thêm dòng"
-    
+      
         ![](picture/PIC_DW_OKR-taocvcanlam.png)
-       
+             
         * **Tên:** nhập tên của liên kết công việc cần làm
-          
+        
         * **Ngày bắt đầu:** chọn ngày bắt đầu
-          
+        
         * **Ngày kết thúc:** chọn ngày kết thúc
-          
+        
         * **Nội dung:** nhập nội dung
-          
+        
         * **Tiến độ:** nhập tiến độ 
-          
+        
         * **Ước lượng thời gian:** nhập ước lượng thời gian thực hiện
-          
+        
         * **Người được giao:** chọn người được giao
-       
+    
     * **Tab: Công việc liên kết** người dùng kích vào "Thêm một dòng"
             
         ![](picture/PIC_DW_OKR-taocongvieclienketkqtc.png)
@@ -456,10 +456,10 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
         * **Cập nhật giai đoạn lần cuối:** chọn cập nhật giai đoạn lần cuối
         
         * **Sử dụng ảnh bìa:** tích hoặc không tích chọn "Sử dụng ảnh bìa"
-          
-        * **Tab: Việc cần làm** người dùng kích vào "Thêm một dòng" để thêm công việc cần làm cho nhiệm vụ công việc liên kết
         
-        * **Tab: Mô tả** người dùng nhập mô tả "Công việc liên kết"    
+    * **Tab: Việc cần làm** người dùng kích vào "Thêm một dòng" để thêm công việc cần làm cho nhiệm vụ công việc liên kết
+      
+    * **Tab: Mô tả** người dùng nhập mô tả "Công việc liên kết"    
 
 5. Kích **Lưu:** thông tin về "Kết quả then chốt" được lưu lại
    
@@ -468,6 +468,7 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
 7. Người dùng tạo **Ghi chú** và **Gửi tin** đến người dùng cũng đang theo dõi thông tin của mục tiêu đó
 
 8. Kích **Huỷ bỏ** để huỷ thao tác thêm mới **Kết quả then chốt**    
+   
 
 ## **Đánh giá**
 
