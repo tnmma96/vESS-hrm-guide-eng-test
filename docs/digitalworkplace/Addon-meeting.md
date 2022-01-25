@@ -155,9 +155,26 @@ Quản trị hệ thống sẽ thực hiện đăng ký thông tin, cấu hình 
     
     ![](picture/PIC_DW_Meeting-URLCallBack.png)
 
-13. Nhấn **Lưu**, hoặc nhấn **Làm mới token**
+13. Người dùng quay lại web:
 
-14. Nhấn **Xác thực** để chuyển đến màn hình xác thực. Chọn đúng email đã đăng ký trên trang web để cài đặt thành công
+    * Tại menu bên trái, chọn **Library**
+    
+    ![](picture/PIC_DW_Meeting-GGMeetMenuLibrary.jpg)
+    
+    * Màn hình **API Library** hiển thị, người dùng tìm kiếm với từ khóa **"calendar API"** và chọn **"Google Calendar API"**
+    
+    ![](picture/PIC_DW_Meeting-GGMeetSearch.jpg)
+    
+    * Nhấn **Enable** chức năng 
+    
+    ![](picture/PIC_DW_Meeting-GGMeetEnableCalendar.jpg)
+
+
+14. Sau khi kích hoạt chức năng **Calendar API** trên web, người dùng truy cập lại hệ thống vESS (để tiếp tục thực hiện tiếp bước 12). Nhấn **Lưu**, hoặc nhấn **Làm mới token**
+
+15. Nhấn **Xác thực** để chuyển đến màn hình xác thực. Chọn đúng email đã đăng ký trên trang web để cài đặt thành công
+
+    ![](picture/PIC_DW_Meeting-GGMeetXacThuc.jpg)
 
 ### **Tạo cuộc họp**
 
