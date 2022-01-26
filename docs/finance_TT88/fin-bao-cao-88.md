@@ -18,6 +18,18 @@ Danh sách báo cáo gồm có:
 
 ## *Hướng dẫn xem báo cáo*
 
+**Xem video hướng dẫn tại đây**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Báo cáo" 
+    src="https://www.youtube.com/embed/PhyGFBxo43E"
+></iframe>
+
 **Bước 1:** Vào phân hệ **Báo cáo**
 
 ![](images/fin_bao_cao.png)

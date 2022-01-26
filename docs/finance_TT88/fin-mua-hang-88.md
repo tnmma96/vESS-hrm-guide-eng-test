@@ -36,7 +36,15 @@ Khi đơn vị có nhu cầu mua hàng, lập yêu cầu mua hàng thì quy trì
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Lập đơn mua hàng" 
+    src="https://www.youtube.com/embed/PQZuqDdgwxo"
+></iframe>
 
 ### Hướng dẫn trên phần mềm
 
@@ -109,6 +117,20 @@ Sau khi thực hiện Xác nhận đơn hàng, chương trình tự động sinh
 
 ![](images/fin_muahang_donmh_nhap.png)
 
+
+
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Nhập kho đơn mua hàng" 
+    src="https://www.youtube.com/embed/3fjLKbsF_-M"
+></iframe>
+
 ### **Hướng dẫn trên phần mềm**
 
 **Bước 1**: Chọn **Nhân hàng** hoặc nhấn nút **Nhận sản phẩm**, hệ thống chuyển sang chức năng phiếu nhập kho. 
@@ -156,6 +178,18 @@ Cách 2: Lập hóa đơn mua hàng không từ đơn mua hàng. Chi tiết nghi
 
 ·     Sau khi hàng hóa được nhận từ Nhà cung cấp, Kế toán mua hàng căn cứ vào hóa đơn chứng từ của Nhà cung cấp để thực hiện Tạo hóa đơn mua hàng
 
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Lập hóa đơn mua hàng từ đơn mua hàng" 
+    src="https://www.youtube.com/embed/USlVH_htOJM"
+></iframe>
+
 **Đối tượng thực hiện :** Nhân viên kế toán
 
 **Bước 1:**Vào phân hệ **Mua hàng**, Chọn **Đơn mua hàng** đã hoàn thành Nhận hàng từ Nhà cung cấp và Nhấn **Tạo hóa đơn** 
@@ -187,6 +221,18 @@ Cách 2: Lập hóa đơn mua hàng không từ đơn mua hàng. Chi tiết nghi
 ![](images/fin_muahang_hoadon_button.png)
 
 #### Lập hóa đơn mua hàng không từ đơn mua hàng
+
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Hóa đơn mua hàng" 
+    src="https://www.youtube.com/embed/J849TChjEqk"
+></iframe>
 
 Đối tượng thực hiện: Người bán hàng
 
@@ -248,6 +294,18 @@ Sau khi xác nhận hóa đơn, hệ thống sẽ sinh dữ liệu vào chức n
 
 **Đối tượng thực hiện :** Nhân viên kế toán
 
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Ghi nhận thanh toán từ hóa đơn mua hàng" 
+    src="https://www.youtube.com/embed/IwOX-1i2rPQ"
+></iframe>
+
 ### Hướng dẫn trên phần mềm
 
 **Bước 1:** Vào phân hệ **Mua hàng**, Chọn **Hóa đơn mua hàng** đã hoàn thành **Vào sổ** 
@@ -301,6 +359,18 @@ Khi phát hiện hàng mua về không đúng quy cách, chất lượng như đ
 Cách 1: Người mua hàng lập hóa đơn giảm giá hàng đã mua để giao cho nhà cung cấp và ghi sổ kế toán.Chi tiết nghiệp vụ **[tại đây](#tao-hoa-on-giam-gia-hang)**
 
 Cách 2: Người mua hàng chuyển đổi hóa đơn bán hàng thành khoản hoàn tiền/công nợ giảm. Chi tiết nghiệp vụ **[tại đây](#chuyen-oi-thanh-khoan-hoan-tiencong-no-giam)**
+
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Hóa đơn giảm giá" 
+    src="https://www.youtube.com/embed/oAUNf6wCvxI"
+></iframe>
 
 ### Hướng dẫn trên phần mềm
 

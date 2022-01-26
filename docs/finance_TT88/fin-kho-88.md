@@ -28,7 +28,15 @@ Kế toán kho thực hiện quản lý tình hình nhập, xuất, tồn kho th
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Lập phiếu nhập kho" 
+    src="https://www.youtube.com/embed/Pt3bzpzbYIM"
+></iframe>
 
 ### Lập phiếu nhập kho
 
@@ -90,7 +98,15 @@ Khi phát sinh nghiệp vụ xuất nguyên vật liệu dùng cho sản xuất,
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Lâp phiếu xuất kho" 
+    src="https://www.youtube.com/embed/G471NXpxOFM"
+></iframe>
 
 ### Lập phiếu xuất kho
 
@@ -151,7 +167,15 @@ Khi có yêu cầu kiểm kê kho,  người dùng sẽ thực hiện:
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Kiểm kê hàng tồn kho" 
+    src="https://www.youtube.com/embed/bifgnNRvgVk"
+></iframe>
 
 ### Kiểm kê kho
 
@@ -175,7 +199,15 @@ Thực hiện tính và cập nhật giá xuất kho vào các phiếu xuất kh
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Tính giá xuất kho" 
+    src="https://www.youtube.com/embed/waajBhBycv8"
+></iframe>
 
 ### Tính giá xuất kho
 

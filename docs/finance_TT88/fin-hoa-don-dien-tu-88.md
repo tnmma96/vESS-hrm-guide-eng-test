@@ -18,6 +18,18 @@ Sử dụng hóa đơn điện tử là một trong những phương tiện rấ
 
 - Khai báo mẫu hóa đơn trên hệ thống SME
 
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Hóa đơn điện tử" 
+    src="https://www.youtube.com/embed/q9Ok_vohBxQ"
+></iframe>
+
 ### **Khai báo mẫu hóa đơn trên hệ thống SME**
 
 **Bước 1**: Vào **Danh mục/Mẫu số hóa đơn**. Nhấn **Chi tiết** để vào danh mục

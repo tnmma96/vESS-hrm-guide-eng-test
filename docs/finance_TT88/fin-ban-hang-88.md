@@ -39,7 +39,15 @@ Khi có nhu cầu mua sản phẩm, khách hàng sẽ liên hệ với hộ kinh
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Lập đơn bán hàng" 
+    src="https://www.youtube.com/embed/R__U1GqGegg"
+></iframe>
 
 ### Hướng dẫn trên phần mềm
 
@@ -115,6 +123,18 @@ Sau khi thực hiện Xác nhận đơn hàng, chương trình tự động sinh
 
 ![](images/fin_banhang_donhang_phieuxuat.png)
 
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Xuất kho đơn bán hàng" 
+    src="https://www.youtube.com/embed/B6OEshsPSmU"
+></iframe>
+
 ### **Hướng dẫn trên phần mềm**
 
 **Bước 1**: Chọn **Phiếu xuất kho**, hệ thống chuyển sang chức năng phiếu xuất kho. 
@@ -158,6 +178,18 @@ Cách 2: Lập hóa đơn bán hàng không từ đơn bán hàng. Chi tiết ng
 
 #### Lập hóa đơn bán hàng từ đơn bán hàng
 
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Lập hóa đơn bán hàng từ đơn bán hàng" 
+    src="https://www.youtube.com/embed/p-VOJ1ilMms"
+></iframe>
+
 Đối tượng thực hiện: Người bán hàng
 
 **Bước 1**: Vào phân hệ **Bán hàng**, Chọn **Đơn bán hàng** đã hoàn thành Giaohàng cho khách hàng và Nhấn **Tạo hóa đơn**
@@ -199,6 +231,18 @@ Chọn **Tạo & xem hóa đơn** hoặc **Tạo hóa đơn** để thực hiệ
 #### Lập hóa đơn bán hàng không từ đơn bán hàng
 
 Đối tượng thực hiện: Người bán hàng
+
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Lập hóa đơn bán hàng không từ đơn bán hàng" 
+    src="https://www.youtube.com/embed/Sa1cBRDhPsc"
+></iframe>
 
 **Bước 1**: Vào phân hệ **Bán hàng**, Chọn **Hóa đơn** , chọn **Hóa đơn bán hàng** 
 
@@ -248,6 +292,18 @@ Sau khi xác nhận hóa đơn, hệ thống sẽ sinh dữ liệu vào chức n
 
 Người dùng thực hiện ghi nhận và theo dõi việc thanh toán của hóa đơn sau khi xác nhận xuất hóa đơn thành công
 
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Ghi nhận thanh toán" 
+    src="https://www.youtube.com/embed/wYLdUMfWHVQ"
+></iframe>
+
 ### Hướng dẫn trên phần mềm
 
 Đối tượng thực hiện: Người bán hàng
@@ -295,6 +351,18 @@ Cách 2: Người bán hàng chuyển đổi hóa đơn bán hàng thành khoả
 ### Hướng dẫn trên phần mềm
 
 Đối tượng thực hiện: Nhân viên kế toán
+
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Tạo hóa đơn giảm giá" 
+    src="https://www.youtube.com/embed/tQqF296qgGQ"
+></iframe>
 
 #### Tạo hóa đơn giảm giá
 

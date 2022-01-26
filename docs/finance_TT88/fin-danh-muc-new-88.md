@@ -39,6 +39,18 @@ Chức năng này cho phép người dùng khai báo các Khách hàng của Cô
 
 Chức năng Danh mục **Khách hàng** được quản lý tập trung tại phần **Danh mục** của Phân hệ **Kế toán**
 
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Khách hàng" 
+    src="https://www.youtube.com/embed/8Vc3XBoIIdU"
+></iframe>
+
 **Hướng dẫn trên phần mềm**
 
 **Bước 1**: Vào Danh mục/Đối tượng/Khách hàng. Nhấn **Chi tiết** để vào danh mục
@@ -110,6 +122,18 @@ Khi nhấn vào các Đầu mục theo dõi, hệ thống tự động Truy vế
 
 Quản lý danh sách các nhà cung cấp, phục vụ cho việc lập và hạch toán các chứng từ kế toán liên quan đến hoạt động mua hàng hoá, dịch vụ.
 
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Nhà cung cấp" 
+    src="https://www.youtube.com/embed/wp4FJTTlTus"
+></iframe>
+
 **Hướng dẫn trên phần mềm**
 
 - **Bước 1**: Vào Danh mục/Đối tượng/Nhà cung cấp. Nhấn **Chi tiết** để vào danh mục
@@ -178,6 +202,18 @@ Quản lý danh sách các nhà cung cấp, phục vụ cho việc lập và h�
 ### Nhân viên
 
 Danh mục nhân viên quản lý thông tin về các nhóm đối tượng khác nhau, phục vụ cho việc quản lý danh sách nhân viên của doanh nghiệp
+
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Nhân viên" 
+    src="https://www.youtube.com/embed/1xq8AI3ppo4"
+></iframe>
 
 **Hướng dẫn trên phần mềm**
 
@@ -283,6 +319,18 @@ Thông tin **Nhóm VTHH** được hiển thị để người dùng khai báo
 ### **Vật tư hàng hóa**
 
 Danh mục vật tư, hàng hoá cho phép quản lý toàn bộ vật tư, hàng hoá, thành phẩm, dịch vụ của doanh nghiệp, phục vụ cho việc lập và hạch toán các chứng từ liên quan đến hoạt động mua, bán hàng hoá, nhập xuất kho vật tư, hàng hoá, CCDC
+
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Vật tư hàng hóa" 
+    src="https://www.youtube.com/embed/iP95ifOOT7s"
+></iframe>
 
 **Hướng dẫn trên phần mềm**
 
