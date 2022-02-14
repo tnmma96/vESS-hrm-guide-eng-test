@@ -93,7 +93,7 @@
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
                     </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../fin-danh-muc-new/">Khai báo danh mục</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-danh-muc/">Khai báo danh mục</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
                     </li>
@@ -103,13 +103,75 @@
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-ban-hang/">Bán hàng</a>
                     </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../fin-ke-toan-tong-hop/">Kế toán</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-hoa-don-dien-tu/">Hóa đơn</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-ke-toan-tong-hop/">Tổng hợp</a>
                     </li>
                     <li class="toctree-l1 current"><a class="reference internal current" href="./">Kho vận</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#quy-trinh-nghiep-vu_1">Quy trình nghiệp vụ</a>
+    <li class="toctree-l2"><a class="reference internal" href="#lap-lenh-san-xuat">Lập lệnh sản xuất</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#cac-luong-quy-trinh">Các luồng quy trình</a>
+    <li class="toctree-l3"><a class="reference internal" href="#lap-lenh-san-xuat_1">Lập lệnh sản xuất</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#lap-phieu-nhap-kho">Lập phiếu nhập kho</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_1">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#lap-phieu-nhap-kho_1">Lập phiếu nhập kho</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#lap-phieu-xuat-kho">Lập phiếu xuất kho</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_2">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#lap-phieu-xuat-kho_1">Lập phiếu xuất kho</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#lap-phieu-chuyen-kho">Lập phiếu chuyển kho</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_3">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#lap-phieu-chuyen-kho_1">Lập phiếu chuyển kho</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#lap-rap-thao-do">Lắp ráp, tháo dỡ</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_4">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#lap-rap-thao-do_1">Lắp ráp, tháo dỡ</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#phan-bo-phu-phi">Phân bổ phụ phí</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_5">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#phan-bo-phu-phi_1">Phân bổ phụ phí</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#kiem-ke-hang-ton-kho">Kiểm kê hàng tồn kho</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_6">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#kiem-ke-kho">Kiểm kê kho</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tinh-gia-xuat-kho">Tính giá xuất kho</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_7">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tinh-gia-xuat-kho_1">Tính giá xuất kho</a>
+    </li>
+        </ul>
     </li>
     </ul>
                     </li>
@@ -265,119 +327,59 @@
             <div class="section">
               
                 <h1 id="quy-trinh-nghiep-vu"><em>Quy trình nghiệp vụ</em></h1>
-<h2 id="quy-trinh-nghiep-vu_1"><strong>Quy trình nghiệp vụ</strong></h2>
-<p>Kế toán kho chịu trách nhiệm chính  trong việc lập hóa đơn chứng từ và theo dõi chi tiết hàng hóa trong kho, bao gồm cả tình hình hàng nhập – xuất – tồn; đối chiếu các hóa đơn, chứng từ sổ sách với số liệu thực tế do Thủ kho trình lên, giúp hạn chế tối đa những rủi ro, thất thoát cho doanh nghiệp.</p>
+<p><strong>Quy trình nghiệp vụ</strong></p>
 <p>Kế toán kho thực hiện quản lý tình hình nhập, xuất, tồn kho theo chủng loại, nhóm, chi tiết vật tư, hàng hóa, thành phẩm. Ngoài ra có  quản lý chi tiết đến từng kho, hỗ trợ tự động xuất kho theo cách thức xuất kho Nhập trước xuất trước (FIFO),  Nhập sau xuất trước (LIFO) , thực hiện hỗ trợ tự động tính giá xuất kho theo 4 phương pháp: Bình quân tức thời, Bình quân cuối kỳ, Đích danh, Nhập trước xuât trước  và lên các báo cáo kho: Tồn kho, Nhập xuất tồn kho</p>
-<p><img alt="fin_Kho_Quytrinh" src="../images/fin_Kho_Quytrinh.png" /></p>
-<h2 id="cac-luong-quy-trinh"><strong>Các luồng quy trình</strong></h2>
-<p>·     Lập Lệnh sản xuất. Chi tiết nghiệp vụ <strong><a href="#Lập lệnh sản xuất">tại đây</a></strong></p>
-<p>·     Lập phiếu nhập kho hàng hóa, thành phẩm. Chi tiết nghiệp vụ <strong><a href="#Lập phiếu nhập kho">tại đây</a></strong></p>
-<p>·     Lập phiếu xuất kho hàng hóa, thành phẩm. Chi tiết nghiệp vụ <strong><a href="#Lập phiếu xuất kho">tại đây</a></strong></p>
-<p>·     Lập phiếu điều chuyển kho hàng hóa, thành phẩm. Chi tiết nghiệp vụ <strong><a href="#Lập phiếu chuyển kho">tại đây</a></strong></p>
-<p>·     Lắp ráp/Tháo dỡ. Chi tiết nghiệp vụ <strong><a href="#Lắp ráp, tháo dỡ">tại đây</a></strong></p>
-<p>·     Kiểm kê kho . Chi tiết nghiệp vụ <strong><a href="#Kiểm kê hàng tồn kho">tại đây</a></strong></p>
-<p>·     Tính giá xuất kho. Chi tiết nghiệp vụ <strong><a href="#Tính giá xuất kho">tại đây</a></strong></p>
-<h1 id="lap-lenh-san-xuat"><em>Lập lệnh sản xuất</em></h1>
-<h2 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h2>
+<p><img alt="" src="../images/fin_Kho_Quytrinh.png" /></p>
+<p><strong>Các luồng quy trình</strong></p>
+<p>·     Lập Lệnh sản xuất. Chi tiết nghiệp vụ <strong>tại đây</strong></p>
+<p>·     Lập phiếu nhập kho hàng hóa, thành phẩm. Chi tiết nghiệp vụ <strong>tại đây</strong></p>
+<p>·     Lập phiếu xuất kho hàng hóa, thành phẩm. Chi tiết nghiệp vụ <strong>tại đây</strong></p>
+<p>·     Lập phiếu điều chuyển kho hàng hóa, thành phẩm. Chi tiết nghiệp vụ <strong>tại đây</strong></p>
+<p>·     Lắp ráp/Tháo dỡ. Chi tiết nghiệp vụ <strong>tại đây</strong></p>
+<p>·     Kiểm kê kho . Chi tiết nghiệp vụ <strong>tại đây</strong></p>
+<p>·     Tính giá xuất kho. Chi tiết nghiệp vụ <strong>tại đây</strong></p>
+<h2 id="lap-lenh-san-xuat"><em>Lập lệnh sản xuất</em></h2>
+<h3 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h3>
 <p>Căn cứ vào đơn đặt hàng bán đã duyệt, bộ phận kế hoạch hoặc kế toán thực hiện Lập lệnh sản xuất theo số lượng thành phẩm đã được duyệt tại đơn đặt hàng bán</p>
 <p>Đồng thời xác định vật tư chính, phụ cần để sản xuất ra số lượng thành phẩm theo lệnh sản xuất</p>
 <p><strong>Xem video hướng dẫn</strong></p>
 <p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
-<h2 id="lap-lenh-san-xuat_1">Lập lệnh sản xuất</h2>
+<h3 id="lap-lenh-san-xuat_1">Lập lệnh sản xuất</h3>
 <p>Đối tượng thực hiện: Kế toán kho, nhân viên bộ phận kế hoạch</p>
 <p>Bước 1: Vào phân hệ <strong>Kho vận</strong>, Chọn nhóm <strong>Hoạt động</strong> , chọn chức năng <strong>Lệnh sản xuất</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</p>
-<p>Bước 2: Người dùng nhập các thông tin trên tab chung</p>
-<p><img alt="fin_Kho_LenhSanXuat_TabChung" src="../images/fin_Kho_LenhSanXuat_TabChung.png" /></p>
-<ul>
-<li><strong>Định mức vật tư</strong>: </li>
-<li>Trường hợp Thành phẩm cần sản xuất chưa có Định mức NVL thì cần tạo định mức trước: Vào phân hệ <strong>Kho Vận</strong> chọn chức năng <strong>Định mức nguyên vật liệu (BOM)</strong>, điền các thông tin về Thành phẩm cần sản xuất, NVL cần thiết để tạo ra số lượng Thành phẩm nhất định.</li>
-</ul>
-<p><img alt="fin_Kho_DinhMucVatTu" src="../images/fin_Kho_DinhMucVatTu.png" /></p>
-<ul>
-<li>Trường hợp Thành phẩm cần sản xuất đã có Định mức NVL: Khi nhập Số lượng và Định mức NVL thì hệ thống sẽ tự động đẩy dữ liệu xuống tab <strong>Nguyên vật liệu</strong> như hình:</li>
-</ul>
-<p><img alt="fin_Kho_LenhSanXuat_TabNguyenLieu" src="../images/fin_Kho_LenhSanXuat_TabNguyenLieu.png" /></p>
-<p>Bước 3: Người dùng thực hiện lần lượt các thao tác nhấn <strong>Xác nhận</strong>, <strong>Kiểm tra tính khả dụng</strong> (kiểm tra trong kho còn đủ NVL để sản xuất không), <strong>Đánh dấu hoàn tất</strong>. Như vậy Lệnh sản xuất đã được <strong>Hoàn thành</strong>.</p>
-<ul>
-<li>
-<p><strong>Lưu ý:</strong> Sau khi Lệnh sản xuất hoàn thành hệ thống tự động sinh Phiếu nhập kho (thành phẩm) và Phiếu xuất kho (NVL).</p>
-</li>
-<li>
-<p>Cấu hình <strong>Kiểu hoạt động</strong> dùng cho sản xuất:</p>
-</li>
-<li>
-<p><strong>Loại hoạt động</strong>: Sản xuất</p>
-</li>
-<li><strong>Địa điểm đích mặc định, Địa điểm đi mặc định</strong>: Kho của công ty</li>
-</ul>
-<p><img alt="fin_LSX_KHD_1" src="../images/fin_LSX_KHD_1.png" /></p>
-<ul>
-<li>Cấu hình <strong>Loại hoạt động xuất</strong>:</li>
-<li>Trường <strong>movement type</strong>: Chọn Xuất sản xuất</li>
-<li><strong>Địa điểm đi mặc định</strong>: Kho công ty</li>
-<li><strong>Địa điểm đích mặc định</strong>: Kho ảo sản xuất</li>
-</ul>
-<p><img alt="fin_LSX_HDX" src="../images/fin_LSX_HDX.png" /></p>
-<ul>
-<li>Cấu hình <strong>Loại hoạt động nhập</strong>:</li>
-<li>Trường <strong>movement type</strong>: Chọn Nhập thành phẩm sản xuất</li>
-<li><strong>Điểm đi mặc định</strong>: Kho ảo sản xuất</li>
-<li><strong>ĐIểm đích mặc định</strong>: Kho công ty</li>
-</ul>
-<p><img alt="fin_LSX_HDN" src="../images/fin_LSX_HDN.png" /></p>
-<h1 id="lap-phieu-nhap-kho"><em>Lập phiếu nhập kho</em></h1>
-<h2 id="mo-ta-nghiep-vu_1">Mô tả nghiệp vụ</h2>
+<p>[...Mô tả chi tiết các bước thao tác, trường hợp nhập/xuất, cần lưu ý chỗ cấu hình hạch toán...]</p>
+<p><img alt="" src="../images/fin_Kho_LenhSanXuat_TabChung.png" /></p>
+<p><img alt="" src="../images/fin_Kho_LenhSanXuat_TabNguyenLieu.png" /></p>
+<h2 id="lap-phieu-nhap-kho"><em>Lập phiếu nhập kho</em></h2>
+<h3 id="mo-ta-nghiep-vu_1">Mô tả nghiệp vụ</h3>
 <p>Đối với các đơn vị sản xuất sản phẩm hàng loạt hoặc theo đơn đặt hàng... sau khi sản phẩm hoàn thành thì sẽ chuyển về nhập kho. Khi đó, Kế toán sẽ thực hiện các bước sau:</p>
 <ul>
 <li>Căn cứ và phiếu báo số lượng thành phẩm hoàn thành nhập kho của bộ phận sản xuất, Kế toán kho lập Phiếu nhập kho thành phẩm.</li>
 <li>Kế toán trưởng và Giám đốc ký duyệt.</li>
 <li>Căn cứ vào phiếu nhập kho, Thủ kho kiểm tra, nhận hàng và tiến hành nhập kho, người bàn giao và Thủ kho ký vào phiếu nhập kho.</li>
-<li>Thủ kho ghi sổ kho, chuyển 1 liên phiếu nhập kho cho Kế toán ghi sổ kế toán kho.</li>
+<li>Thủ kho ghi sổ kho, chuyển 1 liên phiếu nhập kho cho Kếế toán ghi sổ kế toán kho.</li>
 </ul>
 <p><strong>Xem video hướng dẫn</strong></p>
-<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
-<h2 id="lap-phieu-nhap-kho_1">Lập phiếu nhập kho</h2>
+<p><iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Lập phiếu nhập kho" 
+    src="https://www.youtube.com/embed/Pt3bzpzbYIM"
+></iframe>
+</p>
+<h3 id="lap-phieu-nhap-kho_1">Lập phiếu nhập kho</h3>
 <p>Căn cứ vào đơn mua hàng, hóa đơn mua hàng, phiếu xuất kho bên bán, và thực tế hàng về, kế toán kho thực hiện Lập phiếu nhập kho (vật tư) tương ứng</p>
 <p>Đối tượng thực hiện: Kế toán kho</p>
 <p>Bước 1: Vào phân hệ <strong>Kho vận</strong>, Chọn nhóm <strong>Hoạt động</strong> , chọn chức năng <strong>Phiếu nhập kho</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</p>
-<p><img alt="fin_Kho_PhieuNhapKho_TabChung1" src="../images/fin_Kho_PhieuNhapKho_TabChung1.png" /></p>
-<p><img alt="fin_Kho_PhieuNhapKho_TabChung2" src="../images/fin_Kho_PhieuNhapKho_TabChung2.png" /></p>
-<p>Bước 2: Người dùng nhập các thông tin ở tab chung. Lưu ý: Trường <strong>Loại nhập</strong> khi lựa chọn thì phải có Địa điểm đích mặc định chính là kho cần nhập hàng hóa, thành phẩm và được tự động đẩy xuống trường <strong>Kho nhập</strong> (Ở tab chung và tab VTHH). Tùy các trường hợp nhập kho khác nhau mà chọn Loại nhập và có Kho nhập khác nhau. Cụ thể:</p>
-<ul>
-<li>Nhập kho mua hàng hóa, vật tư</li>
-<li>Nhập kho thành phẩm</li>
-<li>Nhập kho hàng bán bị trả lại</li>
-<li>Nhập kho từ chi nhánh chuyển đến</li>
-</ul>
-<p>Bước 3: </p>
-<ul>
-<li>Trường hợp nhập kho mua hàng hóa, vật tư theo đơn hàng. Người dùng có thể tích vào trường <strong>Chọn đơn mua hàng</strong> (Có thể chọn cùng lúc nhiều đơn mua hàng) hệ thống sẽ tự động đẩy thông tin xuống tab <strong>Vật tư hàng hóa (VTHH)</strong> như hình dưới:</li>
-</ul>
-<p><img alt="fin_Kho_PhieuNhapKho_TabChiTiet" src="../images/fin_Kho_PhieuNhapKho_TabChiTiet.png" /></p>
-<ul>
-<li>Trường hợp khác, người dùng tự nhập tay các thông tin ở Tab VTHH.</li>
-</ul>
-<p>Bước 4: Người dùng thao tác nhấn <strong>Lưu</strong>, nhấn <strong>Đánh dấu cần làm:</strong></p>
-<ul>
-<li>
-<p>Thực hiện nhập kho theo Nhu cầu thực tế.</p>
-</li>
-<li>
-<p>Nếu Số lượng nhập kho (Hoàn thành) đủ theo nhu cầu: Thực hiện nhấn <strong>Xác nhận</strong>.</p>
-</li>
-<li>
-<p>Nếu Số lượng nhập kho Chưa đủ theo Số lượng nhu cầu: Thực hiện nhập số lượng theo thực tế. Khi đó có 2 hướng thực hiện :</p>
-</li>
-<li>
-<p>Nếu chọn <strong>Tạo phần dở dang</strong>: Với Số lượng còn thiếu, hệ thống tạo sẵn 1 chứng từ Phiếu nhập kho, để Khi nhập kho với Số lượng còn lại, bộ phận Kho tiếp tục vào Phiếu nhập kho (đã tạo phần dở dang) để thực hiện Xác nhận Số lượng nhập kho còn lại.</p>
-</li>
-<li>Nếu chọn <strong>Không tạo phần dở dang</strong>: Khi đó hệ thống Tách Số lượng nhu cầu ban đầu Bằng đúng Số lượng thực nhận, còn Số lượng chênh chưa nhận được thì Số lượng hoàn thành = 0</li>
-</ul>
-<p>Như vậy <strong>Phiếu nhập kho</strong> đã <strong>Hoàn thành</strong> .</p>
-<p>Đồng thời sinh bút toán ở tab <strong>Hạch toán</strong>.</p>
-<p><img alt="fin_kho_PNK_tabhachtoan" src="../images/fin_kho_PNK_tabhachtoan.png" /></p>
-<h1 id="lap-phieu-xuat-kho"><em>Lập phiếu xuất kho</em></h1>
-<h2 id="mo-ta-nghiep-vu_2">Mô tả nghiệp vụ</h2>
+<p>[...Mô tả chi tiết các bước thao tác, trường hợp nhập/xuất, cần lưu ý chỗ cấu hình hạch toán...]</p>
+<p><img alt="" src="../images/fin_Kho_PhieuNhapKho_TabChung1.png" /></p>
+<p><img alt="" src="../images/fin_Kho_PhieuNhapKho_TabChung2.png" /></p>
+<p><img alt="" src="../images/fin_Kho_PhieuNhapKho_TabChiTiet.png" /></p>
+<h2 id="lap-phieu-xuat-kho"><em>Lập phiếu xuất kho</em></h2>
+<h3 id="mo-ta-nghiep-vu_2">Mô tả nghiệp vụ</h3>
 <p>Khi phát sinh nghiệp vụ xuất nguyên vật liệu dùng cho sản xuất, thông thường sẽ phát sinh các hoạt động sau:</p>
 <ul>
 <li>Căn cứ vào kế hoạch sản xuất hoặc đơn hàng của khách hàng trong kỳ, trưởng bộ phận sản xuất sẽ lập lệnh sản xuất cho các phân xưởng</li>
@@ -387,80 +389,25 @@
 <li>Thủ kho ghi sổ kho, còn kế toán ghi sổ kế toán kho.</li>
 </ul>
 <p><strong>Xem video hướng dẫn</strong></p>
-<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
-<h2 id="lap-phieu-xuat-kho_1">Lập phiếu xuất kho</h2>
+<p><iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Lâp phiếu xuất kho" 
+    src="https://www.youtube.com/embed/G471NXpxOFM"
+></iframe>
+</p>
+<h3 id="lap-phieu-xuat-kho_1">Lập phiếu xuất kho</h3>
 <p>Đối tượng thực hiện: Kế toán kho</p>
 <p>Bước 1: Vào phân hệ <strong>Kho vận</strong>, Chọn nhóm <strong>Hoạt động</strong> , chọn chức năng <strong>Phiếu xuất kho</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</p>
-<p><img alt="fin_Kho_PhieuXuatKho_TabChung1" src="../images/fin_Kho_PhieuXuatKho_TabChung1.png" /></p>
-<p><img alt="fin_Kho_PhieuXuatKho_TabChung2" src="../images/fin_Kho_PhieuXuatKho_TabChung2.png" /></p>
-<p>Bước 2: Người dùng nhập các thông tin ở tab chung. Lưu ý: Lựa chọn <strong>Kiểu giao nhận</strong> có Địa điểm đi mặc định chính là kho cần xuất vật tư, hàng hóa và được tự động đẩy xuống trường <strong>Kho xuất</strong> (ở tab chung và tab VTHH). Tùy các trường hợp xuất kho mà lựa chọn các <strong>Loại nhập</strong> và <strong>Kho xuất</strong> khác nhau. Cụ thể:</p>
-<ul>
-<li>Xuất kho NVL dùng cho sản xuất</li>
-<li>Xuất kho hàng bán</li>
-<li>Xuất kho hàng mua trả lại</li>
-<li>Xuất kho cho các công ty/chi nhánh</li>
-</ul>
-<p>Bước 3: </p>
-<ul>
-<li>Trường hợp xuất kho theo đơn hàng bán, người dùng có thể tích vào trường <strong>Chọn đơn hàng bán</strong> (có thể cùng lúc chọn nhiều đơn hàng bán), hệ thống sẽ tự động đẩy thông tin xuống tab <strong>Vật tư hàng hóa (VTHH)</strong> như hình:</li>
-</ul>
-<p><img alt="fin_Kho_PhieuXuatKho_TabChiTiet" src="../images/fin_Kho_PhieuXuatKho_TabChiTiet.png" /></p>
-<ul>
-<li>Trường hợp khác, người dùng tự nhập tay các thông tin ở tab VTHH.</li>
-</ul>
-<p>Bước 4: Người dùng thao tác nhấn <strong>Lưu</strong>, <strong>Đánh dấu cần làm</strong>, <strong>Kiểm tra tính khả dụng</strong> (kiểm tra trong kho có đủ số lượng hàng hóa để xuất không):</p>
-<ul>
-<li>
-<p>Thực hiện xuất kho theo Nhu cầu thực tế.</p>
-</li>
-<li>
-<p>Nếu Số lượng xuất kho (Hoàn thành) đủ theo nhu cầu: Thực hiện nhấn <strong>Xác nhận</strong>.</p>
-</li>
-<li>
-<p>Nếu Số lượng xuất kho Chưa đủ theo Số lượng nhu cầu: Thực hiện xuất số lượng theo thực tế. Khi đó có 2 hướng thực hiện :</p>
-</li>
-<li>
-<p>Nếu chọn <strong>Tạo phần dở dang</strong>: Với Số lượng còn thiếu, hệ thống tạo sẵn 1 chứng từ Phiếu xuất kho, để Khi nhập kho với Số lượng còn lại, bộ phận Kho tiếp tục vào Phiếu xuất kho (đã tạo phần dở dang) để thực hiện Xác nhận Số lượng xuất kho còn lại.</p>
-</li>
-<li>Nếu chọn <strong>Không tạo phần dở dang</strong>: Khi đó hệ thống Tách Số lượng nhu cầu ban đầu Bằng đúng Số lượng thực xuất, còn Số lượng chênh chưa nhận được thì Số lượng hoàn thành = 0</li>
-</ul>
-<p>Như vậy <strong>Phiếu xuất kho</strong> đã <strong>Hoàn thành</strong> .</p>
-<p>Đồng thời sinh bút toán ở tab <strong>Hạch toán</strong> (tương tự <strong>Phiếu nhập kho</strong>)</p>
-<h2 id="xuat-kho-cho-cong-tychi-nhanh"><strong>Xuất kho cho công ty/chi nhánh</strong></h2>
-<h3 id="mo-ta-nghiep-vu_3"><strong>Mô tả nghiệp vụ</strong></h3>
-<p>Khi có yêu cầu xuất hàng cho các công ty/chi nhánh, thông thường sẽ phát sinh các hoạt động sau:</p>
-<p>Căn cứ vào lệnh điều động nội bộ của công ty về việc chuyển hàng cho các công ty/chi nhánh bộ phận chịu trách nhiệm sẽ lập đề nghị xuất kho hàng hóa:</p>
-<ul>
-<li>Kế toán kho lập Phiếu xuất kho, sau đó chuyển Kế toán trưởng và Giám đốc ký duyệt</li>
-<li>Căn cứ vào Phiếu xuất kho, Thủ kho xuất kho hàng hoá</li>
-<li>Thủ kho ghi sổ kho, còn kế toán ghi sổ kế toán kho.</li>
-<li>Bộ phận đề xuất nhận hàng, sau đó vận chuyển tới các công ty/chi nhánh</li>
-</ul>
-<p><strong>Lập phiếu xuất kho cho công ty/chi nhánh</strong></p>
-<p>Tương tự như <strong>Lập phiếu xuất kho</strong> đã trình bày ở trên, tuy nhiên cần chú ý:</p>
-<ul>
-<li>Cấu hình <strong>Kiểu giao nhận (Loại xuất)</strong> :</li>
-<li><strong>Loại nhập xuất:</strong> Chọn loại Xuất công ty/chi nhánh (sinh phiếu nội bộ) và có mã là T-</li>
-<li><strong>Điểm đi mặc định:</strong> Kho của công ty</li>
-</ul>
-<p><img alt="fin_Kho_kieugiaonhan_1" src="../images/fin_Kho_kieugiaonhan_1.png" /></p>
-<ul>
-<li>
-<p>Người dùng nhập thông tin ở tab chung cần lưu ý:</p>
-</li>
-<li>
-<p>Người dùng lựa chọn <strong>Loại xuất (Kiểu hoạt động)</strong> - Xuất cho công ty/chi nhánh, hệ thống sẽ tự động cập nhập <strong>Kho xuất</strong> theo <strong>Loại xuất</strong> đã chọn.</p>
-</li>
-<li>Ngoài ra, người dùng lựa chọn <strong>Chi nhánh nhận</strong> và <strong>Kiểu hoạt động (Loại nhập)</strong> - Nhập cho công ty/chi nhánh thuộc chi nhánh đó, hệ thống sẽ tự động cập nhật <strong>Kho nhập</strong> theo <strong>Loại nhập</strong> đã chọn.</li>
-</ul>
-<p>Sau khi hoàn thành <strong>Phiếu xuất kho</strong>, hệ thống sẽ tự động sinh <strong>Phiếu nhập kho</strong> (trạng thái Nháp). Và phiếu nhập kho sẽ có cấu hình <strong>Kiểu giao nhận (Loại nhập)</strong> như sau:</p>
-<ul>
-<li><strong>Loại nhập xuất</strong>: Chọn Nhập từ công ty/chi nhánh và có mã T+</li>
-<li><strong>Điểm đích mặc định:</strong> Kho của công ty</li>
-</ul>
-<p><img alt="" src="../images/fin_kho_KGN_nhaptucty.png" /></p>
-<h1 id="lap-phieu-chuyen-kho"><em>Lập phiếu chuyển kho</em></h1>
-<h2 id="mo-ta-nghiep-vu_4">Mô tả nghiệp vụ</h2>
+<p>[...Mô tả chi tiết các bước thao tác, trường hợp nhập/xuất, cần lưu ý chỗ cấu hình hạch toán...]</p>
+<p><img alt="" src="../images/fin_Kho_PhieuXuatKho_TabChung1.png" /></p>
+<p><img alt="" src="../images/fin_Kho_PhieuXuatKho_TabChung2.png" /></p>
+<p><img alt="" src="../images/fin_Kho_PhieuXuatKho_TabChiTiet.png" /></p>
+<h2 id="lap-phieu-chuyen-kho"><em>Lập phiếu chuyển kho</em></h2>
+<h3 id="mo-ta-nghiep-vu_3">Mô tả nghiệp vụ</h3>
 <p>Khi phát sinh nhu cầu vận chuyển hàng hóa giữa các kho nội bộ trong doanh nghiệp, thông thường sẽ phát sinh các hoạt động sau:</p>
 <ul>
 <li>Căn cứ vào tình hình tồn kho của các mặt hàng trong kho, Giám đốc sẽ có lệnh điều chuyển hàng giữa các kho trong doanh nghiệp</li>
@@ -471,24 +418,15 @@
 </ul>
 <p><strong>Xem video hướng dẫn</strong></p>
 <p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
-<h2 id="lap-phieu-chuyen-kho_1">Lập phiếu chuyển kho</h2>
+<h3 id="lap-phieu-chuyen-kho_1">Lập phiếu chuyển kho</h3>
 <p>Đối tượng thực hiện: Kế toán kho</p>
 <p>Bước 1: Vào phân hệ <strong>Kho vận</strong>, Chọn nhóm <strong>Hoạt động</strong> , chọn chức năng <strong>Phiếu chuyển kho</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</p>
-<p><img alt="fin_Kho_PhieuChuyenKho_TabChung1" src="../images/fin_Kho_PhieuChuyenKho_TabChung1.png" /></p>
-<p><img alt="fin_Kho_PhieuChuyenKho_TabChung2" src="../images/fin_Kho_PhieuChuyenKho_TabChung2.png" /></p>
-<p>Bước 2: Người dùng nhập vào tab chung. Trong đó: </p>
-<ul>
-<li>Trường <strong>Loại chuyển</strong>: Chọn cấu hình <strong>Điều chuyển nội bộ</strong>:</li>
-<li>Loại hoạt động: Chọn Giao dịch nội bộ</li>
-<li>Địa điểm đi mặc định, địa điểm đích mặc định: lựa chọn phụ thuộc vào việc điều chuyển nội bộ giữa các kho nào (từ kho nào đến kho nào)</li>
-</ul>
-<p><img alt="fin_KHO_DC_KHD" src="../images/fin_KHO_DC_KHD.png" /></p>
-<p>Bước 3: Nhập các thông tin về Sản phẩm , số lượng cần điều chuyển ở tab <strong>VTHH</strong>.</p>
-<p><img alt="fin_Kho_PhieuChuyenKho_TabChiTiet" src="../images/fin_Kho_PhieuChuyenKho_TabChiTiet.png" /></p>
-<p>Bước 4: Nhấn <strong>Lưu</strong>, <strong>Đánh dấu cần làm</strong>, <strong>Kiểm tra tính khả dụng</strong> (Kiểm tra ở kho xuất có đủ lượng hàng để xuất không), nhấn <strong>Xác nhận</strong>, như vậy <strong>Phiếu điều chuyển</strong> đã hoàn thành.</p>
-<p>Đồng thời, sinh hạch toán ở tab <strong>Hạch toán.</strong></p>
-<h1 id="lap-rap-thao-do"><em>Lắp ráp, tháo dỡ</em></h1>
-<h2 id="mo-ta-nghiep-vu-thao-do">Mô tả nghiệp vụ tháo dỡ</h2>
+<p>[...Mô tả chi tiết các bước thao tác, trường hợp nhập/xuất, cần lưu ý chỗ cấu hình hạch toán...]</p>
+<p><img alt="" src="../images/fin_Kho_PhieuChuyenKho_TabChung1.png" /></p>
+<p><img alt="" src="../images/fin_Kho_PhieuChuyenKho_TabChung2.png" /></p>
+<p><img alt="" src="../images/fin_Kho_PhieuChuyenKho_TabChiTiet.png" /></p>
+<h2 id="lap-rap-thao-do"><em>Lắp ráp, tháo dỡ</em></h2>
+<h3 id="mo-ta-nghiep-vu_4">Mô tả nghiệp vụ</h3>
 <p>Khi có yêu cầu xuất kho vật tư hàng hóa để tháo dỡ thành thành phẩm, thông thường sẽ phát sinh các hoạt động sau:</p>
 <ul>
 <li>Tùy thuộc vào nhu cầu hàng hóa để bán hàng, trưởng bộ phận bán hàng hoặc bộ phận kho lập lệnh tháo dỡ hàng hóa</li>
@@ -501,82 +439,22 @@
 <li>Căn cứ vào phiếu nhập kho, thủ kho kiểm, nhận thành phẩm và ký vào phiếu nhập kho.</li>
 <li>Thủ kho ghi sổ kho, còn kế toán ghi sổ kế toán kho.</li>
 </ul>
-<h2 id="mo-ta-nghiep-vu-lap-rap">Mô tả nghiệp vụ lắp ráp</h2>
-<p>Khi có yêu cầu xuất kho vật tư hàng hóa để lắp ráp thành thành phẩm, thông thường sẽ phát sinh các hoạt động sau:</p>
-<ul>
-<li>Căn cứ vào đơn hàng của khách hàng, trưởng bộ phận bán hàng hoặc bộ phận kho lập lệnh lắp ráp</li>
-<li>Căn cứ vào lệnh lắp ráp kế toán kho hoặc người chịu trách nhiệm sẽ viết phiếu xuất kho linh kiện mang đi lắp ráp</li>
-<li>Kế toán trưởng và Giám đốc ký duyệt</li>
-<li>Căn cứ vào Phiếu xuất kho, Thủ kho xuất kho hàng hoá</li>
-<li>Thủ kho ghi sổ kho, còn kế toán ghi sổ kế toán kho.</li>
-<li>Bộ phận đề xuất nhận hàng để mang đi lắp ráp</li>
-<li>Sau khi lắp ráp thành phẩm xong, bộ phận lắp ráp đề nghị nhập kho thành phẩm</li>
-<li>Kế toán kho lập Phiếu nhập kho, sau đó chuyển Kế toán trưởng và Giám đốc ký duyệt</li>
-<li>Căn cứ vào phiếu nhập kho, thủ kho kiểm, nhận thành phẩm và ký vào phiếu nhập kho.</li>
-<li>Thủ kho ghi sổ kho, còn kế toán ghi sổ kế toán kho.</li>
-</ul>
 <p><strong>Xem video hướng dẫn</strong></p>
 <p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
-<h2 id="lap-lenh-lap-rap-thao-do">Lập lệnh Lắp ráp, tháo dỡ</h2>
+<h3 id="lap-rap-thao-do_1">Lắp ráp, tháo dỡ</h3>
 <p>Bước 1: Vào phân hệ <strong>Kho vận</strong>, Chọn nhóm <strong>Hoạt động</strong> , chọn chức năng <strong>Lệnh lắp ráp, tháo dỡ</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</p>
-<p><img alt="fin_Kho_lenhLapRapThaoDo" src="../images/fin_Kho_lenhLapRapThaoDo.png" /></p>
-<p>Bước 2: Nhập các thông tin vào tab chung, trong đó:</p>
-<ul>
-<li><strong>Loại</strong>: Chọn Tháo dỡ hoặc Lắp ráp.</li>
-<li>Tháo dỡ: Sau khi chọn <strong>Sản phẩm</strong> cần tháo dỡ, <strong>Số lượng</strong> cần tháo dỡ, ngoài <strong>Định mức vật tư</strong>, người dùng có thể chọn <strong>Lệnh sản xuất</strong> (để tháo dỡ sản phẩm dựa vào Lệnh sản xuất).</li>
-<li>Lắp ráp: Sau khi chọn <strong>Sản phẩm</strong> cần tháo dỡ, <strong>Số lượng</strong> cần tháo dỡ, hệ thống căn cứ vào sản phẩm cần tháo dỡ sẽ đưa ra <strong>Định mức vật tư</strong> tương ứng.</li>
-<li><strong>Kiểu hoạt động, Loại hoạt động xuất, Loại hoạt động nhập</strong>: tương tự như Lệnh sản xuất (như hình)</li>
-</ul>
-<p>Bước 3: Nhấn <strong>Lưu.</strong></p>
-<ul>
-<li>
-<p>Nhấn <strong>Tháo dỡ</strong> (trường hợp Lệnh tháo dỡ), lúc này Lệnh tháo dỡ được <strong>Hoàn thành</strong>. Khi đó hệ thống sẽ tự động sinh:</p>
-</li>
-<li>
-<p>Phiếu xuất kho: Phiếu xuất kho thành phẩm cần mang đi tháo dỡ.</p>
-</li>
-<li>
-<p>Phiếu nhập kho: Phiếu nhập kho các NVL sau khi đã tháo dỡ từ thành phẩm.</p>
-</li>
-<li>
-<p>Nhấn <strong>Lắp ráp</strong> (Trường hợp Lệnh lắp ráp), lúc này Lệnh lắp ráp được <strong>Hoàn thành.</strong> Khi đó hệ thống sẽ tự động sinh:</p>
-</li>
-<li>
-<p>Phiếu xuất kho: Phiếu xuất kho NVL cần mang đi lắp ráp.</p>
-</li>
-<li>Phiếu nhập kho: Phiếu nhập kho thành phẩm sau khi đã lắp ráp.</li>
-</ul>
-<h1 id="phan-bo-phu-phi"><em>Phân bổ phụ phí</em></h1>
-<h2 id="mo-ta-nghiep-vu_5">Mô tả nghiệp vụ</h2>
+<p>[...Mô tả chi tiết các bước thao tác, trường hợp nhập/xuất, cần lưu ý chỗ cấu hình hạch toán...]</p>
+<p><img alt="" src="../images/fin_Kho_lenhLapRapThaoDo.png" /></p>
+<h2 id="phan-bo-phu-phi"><em>Phân bổ phụ phí</em></h2>
+<h3 id="mo-ta-nghiep-vu_5">Mô tả nghiệp vụ</h3>
 <p>Cho phép nhân viên kế toán, thủ kho thực hiện phân bổ phụ phí vào giá vốn hàng nhập kho</p>
 <p><strong>Xem video hướng dẫn</strong></p>
 <p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
-<h2 id="phan-bo-phu-phi_1">Phân bổ phụ phí</h2>
+<h3 id="phan-bo-phu-phi_1">Phân bổ phụ phí</h3>
 <p>Bước 1: Vào phân hệ <strong>Kho vận</strong>, Chọn nhóm <strong>Hoạt động</strong> , chọn chức năng <strong>Phân bổ phụ phí</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</p>
-<p><img alt="fin_Kho_Phanbo_tabchung" src="../images/fin_Kho_Phanbo_tabchung.png" /></p>
-<p>Bước 2: Người dùng nhập các thông tin ở tab chung, cụ thể:</p>
-<ul>
-<li>
-<p>Áp dụng cho: Hệ thống đang để mặc định là <strong>Điều chuyển hàng</strong>, mục đích người dùng cần phân bổ phụ phí theo Phiếu nhập kho hay Lệnh sản xuất thì lựa chọn.</p>
-</li>
-<li>
-<p>Điều chuyển hàng : Người dùng lựa chọn phiếu nhập kho cần phân bổ chi phí. Hệ thống sẽ tự động đẩy thông tin chi tiết sản phẩm xuống tab chi tiết nhập kho.</p>
-</li>
-<li>
-<p>Công nợ nhà cung cấp: </p>
-</li>
-<li>
-<p>Chọn hóa đơn phụ phí: Hệ thống sẽ tự động đẩy thông tin phụ phí xuống tab chi tiết phụ phí. Trường hợp không phân bổ phụ phí cho tất cả các sản phẩm có trong phiếu nhập kho, người dùng có thể tích chọn ở cột Có phân bổ.</p>
-</li>
-<li>Người dùng có thể nhập trực tiếp thông tin phụ phí ở tab chi tiết phụ phí mà không cần chọn <strong>Công nợ nhà cung cấp.</strong></li>
-</ul>
-<p><img alt="fin_Kho_Phanbo_tabnhapkho" src="../images/fin_Kho_Phanbo_tabnhapkho.png" /></p>
-<p>Bước 3: Người dùng tích vào <strong>Tính toán</strong> (ở góc cuối bên phải tab chi tiết phụ phí), kết quả sẽ được hiển thị ở tab chi tiết phân bổ.</p>
-<p><img alt="fin_Kho_Phanbo_TabPhuphi" src="../images/fin_Kho_Phanbo_TabPhuphi.png" /></p>
-<p><img alt="fin_Kho_Phanbo_tabphanbo" src="../images/fin_Kho_Phanbo_tabphanbo.png" /></p>
-<p>Bước 4: Người dùng nhấn <strong>Xác nhận</strong>, khi đó bản ghi sẽ được <strong>Ghi vào sổ.</strong></p>
-<h1 id="kiem-ke-hang-ton-kho"><em>Kiểm kê hàng tồn kho</em></h1>
-<h2 id="mo-ta-nghiep-vu_6">Mô tả nghiệp vụ</h2>
+<p>[...Mô tả chi tiết các bước thao tác, trường hợp nhập/xuất, cần lưu ý chỗ cấu hình hạch toán...]</p>
+<h2 id="kiem-ke-hang-ton-kho"><em>Kiểm kê hàng tồn kho</em></h2>
+<h3 id="mo-ta-nghiep-vu_6">Mô tả nghiệp vụ</h3>
 <p>Khi có yêu cầu kiểm kê kho từ kế toán trưởng hoặc Ban lãnh đạo công ty, bộ phận kế toán sẽ phát sinh một số hoạt động sau:</p>
 <ul>
 <li>Thành lập ban kiểm kê gồm: Kế toán kho, Thủ kho, Kế toán trưởng hoặc Giám đốc.</li>
@@ -587,49 +465,51 @@
 <li>Trường hợp tìm được nguyên nhân và yêu cầu bồi thường thì hạch toán phải thu hoặc phải trả cho đối tượng phải bồi thường. Trường hợp chưa tìm được nguyên nhân thì hạch toán vào tài sản thừa chờ xử lý hoặc tài sản thiếu chờ xử lý </li>
 </ul>
 <p><strong>Xem video hướng dẫn</strong></p>
-<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
-<h2 id="kiem-ke-kho">Kiểm kê kho</h2>
+<p><iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Kiểm kê hàng tồn kho" 
+    src="https://www.youtube.com/embed/bifgnNRvgVk"
+></iframe>
+</p>
+<h3 id="kiem-ke-kho">Kiểm kê kho</h3>
 <p>Bước 1: Vào phân hệ <strong>Kho vận</strong>, Chọn nhóm <strong>Hoạt động</strong> , chọn chức năng <strong>Kiểm kê kho</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</p>
-<p><img alt="fin_Kho_KiemKeKho_TabChung" src="../images/fin_Kho_KiemKeKho_TabChung.png" /></p>
-<p>Bước 2: Sau khi người dùng nhập các thông tin vào tab chung, nhấn <strong>Bắt đầu kiểm kho</strong>. Người dùng nhập các thông tin ở tab Kiểm kho, điền số lượng đã kiểm đếm được ở cột <strong>Đã đếm</strong>.</p>
-<ul>
-<li>Nhập thông tin thành viên tham gia kiểm đếm ở tab thành viên tham gia.</li>
-</ul>
-<p><img alt="fin_Kho_KiemKeKho_TabChiTiet" src="../images/fin_Kho_KiemKeKho_TabChiTiet.png" /></p>
-<p>Bước 3: Nhấn <strong>Xác nhận kiểm kho</strong> , khi đó phiếu kiểm kê đã được <strong>Hoàn thành.</strong> Khi đó hệ thống tự động cập nhật kho theo số lượng kiểm đếm.</p>
-<h1 id="tinh-gia-xuat-kho"><em>Tính giá xuất kho</em></h1>
-<h2 id="mo-ta-nghiep-vu_7">Mô tả nghiệp vụ</h2>
+<p>[...Mô tả chi tiết các bước thao tác, trường hợp nhập/xuất, cần lưu ý chỗ cấu hình hạch toán...]</p>
+<p><img alt="" src="../images/fin_Kho_KiemKeKho_TabChung.png" /></p>
+<p><img alt="" src="../images/fin_Kho_KiemKeKho_TabChiTiet.png" /></p>
+<h2 id="tinh-gia-xuat-kho"><em>Tính giá xuất kho</em></h2>
+<h3 id="mo-ta-nghiep-vu_7">Mô tả nghiệp vụ</h3>
 <p>Thực hiện tính và cập nhật giá xuất kho vào các phiếu xuất kho trong kỳ, căn cứ vào phương pháp tính giá xuất kho đã được xác định trên <strong>Kho vận\Cấu hình\Nhóm sản phẩm</strong></p>
 <p><strong>Xem video hướng dẫn</strong></p>
-<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
-<h2 id="tinh-gia-xuat-kho_1">Tính giá xuất kho</h2>
+<p><iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Tính giá xuất kho" 
+    src="https://www.youtube.com/embed/waajBhBycv8"
+></iframe>
+</p>
+<h3 id="tinh-gia-xuat-kho_1">Tính giá xuất kho</h3>
 <p>Đối tượng thực hiện: Kế toán kho</p>
 <p>Bước 1: Vào phân hệ <strong>Kho vận</strong>, Chọn nhóm <strong>Hoạt động</strong> , chọn chức năng <strong>Tính giá xuất kho</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</p>
+<p>[...Mô tả chi tiết các bước thao tác, trường hợp nhập/xuất, cần lưu ý chỗ cấu hình hạch toán...]</p>
 <p><img alt="" src="../images/fin_Kho_TinhGiaXuatKho.png" /></p>
 <p>Nhập thông tin để tính giá xuất kho: Vật tư hàng hóa cần tính giá, thời gian, kho nhập, kho xuất, kỳ tính giá</p>
 <p>Với phương pháp bình quân cuối kỳ: </p>
 <p>·     Tích chọn <strong>Tính theo kho</strong>, giá xuất của vật tư hàng hoá sẽ được tự động tính bình quân trên từng kho.</p>
 <p>·     Tích chọn <strong>Tính giá không theo kho</strong>, giá xuất của vật tư hàng hoá sẽ được tự động tính bình quân trên tất cả các kho.</p>
 <p>Nhấn <strong>Lưu</strong></p>
-<p>Với phương pháp bình quân tức thời:</p>
-<p>·     Tích chọn <strong>Tính theo kho</strong>, giá xuất của vật tư hàng hoá sẽ được tự động tính bình quân tức thời trên từng kho.</p>
-<p>·     Tích chọn <strong>Tính giá không theo kho</strong>, giá xuất của vật tư hàng hoá sẽ được tự động tính bình quân tức thời trên tất cả các kho.</p>
-<p>Nhấn <strong>Lưu</strong></p>
-<p>Với phương pháp tính giá đích danh:</p>
-<p>·     Tích chọn <strong>Tính theo kho</strong>, giá xuất của vật tư hàng hoá sẽ được tự động tính theo phương pháp đích danh trên từng kho.</p>
-<p>·     Tích chọn <strong>Tính giá không theo kho</strong>, giá xuất của vật tư hàng hoá sẽ được tự động tính theo phương pháp đích danh trên tất cả các kho.</p>
-<p>Nhấn <strong>Lưu</strong></p>
-<p>Với phương pháp tính giá nhập trước xuất trước:</p>
-<p>·     Tích chọn <strong>Tính theo kho</strong>, giá xuất của vật tư hàng hoá sẽ được tự động tính theo phương pháp nhập trước xuất trước trên từng kho.</p>
-<p>·     Tích chọn <strong>Tính giá không theo kho</strong>, giá xuất của vật tư hàng hoá sẽ được tự động tính theo phương phápnhập trước xuất trước trên tất cả các kho.</p>
-<p>Nhấn <strong>Lưu</strong></p>
+<p>Với phương pháp bình quân tức thời:...</p>
+<p>...</p>
 <p>Lưu ý: Trường hợp muốn tính giá xuất kho cho một hoặc một số vật tư hàng hoá, thực hiện như sau:</p>
 <ul>
 <li>Tích <strong>Chọn vật tư, hàng hóa</strong> khi thực hiện tính giá xuất kho.</li>
-<li>Nhấn vào biểu tượng : Chọn.. (như hình)</li>
-</ul>
-<p><img alt="fin_Kho_Tinhgia_bacham" src="../images/fin_Kho_Tinhgia_bacham.png" /></p>
-<ul>
+<li>Nhấn vào biểu tượng <img alt="img" src="../images/Bieu_tuong_ba_cham.png" />.</li>
 <li>Tích chọn các vật tư hàng hoá cần tính lại giá xuất kho, nhấn <strong>Đồng ý</strong></li>
 </ul>
               
@@ -642,7 +522,7 @@
         <a href="../fin-tscd/" class="btn btn-neutral float-right" title="Tài sản cố định">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../fin-ke-toan-tong-hop/" class="btn btn-neutral" title="Kế toán"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../fin-ke-toan-tong-hop/" class="btn btn-neutral" title="Tổng hợp"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   

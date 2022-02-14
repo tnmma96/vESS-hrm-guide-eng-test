@@ -9,7 +9,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Kế toán - Hướng dẫn sử dụng hệ thống vESS</title>
+  <title>Tổng hợp - Hướng dẫn sử dụng hệ thống vESS</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../../css/theme.css" />
@@ -19,7 +19,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "K\u1ebf to\u00e1n";
+    var mkdocs_page_name = "T\u1ed5ng h\u1ee3p";
     var mkdocs_page_input_path = "finance\\fin-ke-toan-tong-hop.md";
     var mkdocs_page_url = null;
   </script>
@@ -93,7 +93,7 @@
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
                     </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../fin-danh-muc-new/">Khai báo danh mục</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-danh-muc/">Khai báo danh mục</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
                     </li>
@@ -103,7 +103,9 @@
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-ban-hang/">Bán hàng</a>
                     </li>
-                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Kế toán</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-hoa-don-dien-tu/">Hóa đơn</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Tổng hợp</a>
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#chung-tu-nghiep-vu-khac">Chứng từ nghiệp vụ khác</a>
         <ul>
@@ -181,11 +183,25 @@
     </li>
         </ul>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#khoa-so">Khóa sổ</a>
+    <li class="toctree-l2"><a class="reference internal" href="#chung-tu-ghi-so">Chứng từ ghi sổ</a>
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_6">Mô tả nghiệp vụ</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#huong-dan-tren-phan-mem_7">Hướng dẫn trên phần mềm</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#lap-chung-tu-ghi-so-on-le">Lập chứng từ ghi sổ đơn lẻ</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#lap-chung-tu-ghi-so-hang-loat">Lập chứng từ ghi sổ hàng loạt</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#khoa-so">Khóa sổ</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_7">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#huong-dan-tren-phan-mem_8">Hướng dẫn trên phần mềm</a>
     </li>
         </ul>
     </li>
@@ -332,7 +348,7 @@
         
       
     
-    <li>Kế toán</li>
+    <li>Tổng hợp</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -369,7 +385,16 @@
 <p><strong>Nghiệp vụ</strong></p>
 <p>Chức năng cho phép kế toán hạch toán bút toán thủ công đối với những nghiệp vụ khác nằm ngoài luồng nghiệp vụ tự động của hệ thống</p>
 <p><strong>Xem video hướng dẫn</strong></p>
-<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
+<p><iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Chứng từ nghiệp vụ khác" 
+    src="https://www.youtube.com/embed/C2rWmB91Cv4"
+></iframe>
+</p>
 <h3 id="huong-dan-tren-phan-mem"><strong>Hướng dẫn trên phần mềm</strong></h3>
 <p>Đối tượng thực hiện: Kế toán tổng hợp</p>
 <p>Bước 1: Vào phân hệ <strong>Kế toán</strong>, Chọn <strong>Tổng hợp</strong>, chọn <strong>Danh sách bút toán</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</p>
@@ -532,12 +557,59 @@ Bước 5: Tại tab <strong>Số dư ngoại tệ</strong>: Hiển thị danh s
 <p>Bước 2: Chọn <strong>Tạo kết chuyển hàng loạt</strong>, hệ thống tự động hiển thị diễn giải và các bút toán kết chuyển theo thiết lập tài khoản kết chuyển</p>
 <p><img alt="" src="../images/fin_TongHop_KC_TaoKCHangLoat.png" /></p>
 <p>Bước 3: Nhấn <strong>Đồng ý</strong>,  Hệ thống sinh và hạch toán bản ghi kết chuyển (đến ngày thực hiện) theo bút toán kết chuyển đã chọn</p>
-<h2 id="khoa-so"><em>Khóa sổ</em></h2>
+<h2 id="chung-tu-ghi-so"><em>Chứng từ ghi sổ</em></h2>
 <h3 id="mo-ta-nghiep-vu_6">Mô tả nghiệp vụ</h3>
-<p>Chức năng khóa sổ giúp khóa sổ kỳ kế toán sau khi chốt số liệu để không làm thay đổi số liệu đã chốt. Đồng thời, có thể bỏ khóa sổ kỳ kế toán để điều chỉnh lại dữ liệu khi cần.</p>
+<p>Chức năng Chứng từ ghi sổ cho phép thực hiện tạo và cập nhật số CTGS các bút toán của kế toán có đăng ký nhận số CTGS</p>
+<p>Nghiệp vụ <strong>Chứng từ ghi sổ</strong> được thực hiện trên phần mềm gồm 2 luồng chức năng chính:</p>
+<ul>
+<li>Lập chứng từ ghi sổ đơn lẻ</li>
+<li>Lập chứng từ ghi sổ đồng loạt</li>
+</ul>
 <p><strong>Xem video hướng dẫn</strong></p>
 <p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
 <h3 id="huong-dan-tren-phan-mem_7">Hướng dẫn trên phần mềm</h3>
+<h4 id="lap-chung-tu-ghi-so-on-le">Lập chứng từ ghi sổ đơn lẻ</h4>
+<p>Đối tượng thực hiện: Kế toán tổng hợp</p>
+<p>Bước 1: Vào phân hệ <strong>Kế toán</strong>, Chọn nhóm <strong>Tổng hợp</strong> , chọn chức năng <strong>Chứng từ ghi sổ</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</p>
+<p><img alt="" src="C:\Users\huongbtt3\Downloads\ESS-System-Guide-main\docs\finance\images\fin_KTTH_CTGS_1.png" /></p>
+<p>Bước 2: Nhấn <strong>Tạo mới</strong>, nhập đủ các thông tin:</p>
+<p><img alt="" src="C:\Users\huongbtt3\Downloads\ESS-System-Guide-main\docs\finance\images\fin_KTTH_CTGS_2.png" /></p>
+<ul>
+<li>Khai báo Nội dung, Ngày chứng từ, sau đó <strong>Chọn chứng từ</strong>.</li>
+</ul>
+<p><img alt="" src="C:\Users\huongbtt3\Downloads\ESS-System-Guide-main\docs\finance\images\fin_KTTH_CTGS_3.png" /></p>
+<ul>
+<li>Thực hiện chọn <strong>Loại chứng từ</strong> cần đánh Chứng từ ghi sổ (Thông tin Loại chứng từ được khai báo tại <strong>Danh mục Loại chứng từ</strong>, với Khai báo về Thông tin điều kiện lọc của Tài khoản theo từng Loại chứng từ)</li>
+<li>Trên Danh sách bút toán đã được Lọc theo Loại chứng từ: Người dùng có thể tích chọn Toàn bộ chứng từ, hoặc Tích chọn các Chứng từ riêng lẻ</li>
+</ul>
+<p><img alt="" src="C:\Users\huongbtt3\Downloads\ESS-System-Guide-main\docs\finance\images\fin_KTTH_CTGS_4.png" /></p>
+<ul>
+<li>Nhấn nút Đồng ý: Thông tin Chứng từ được chọn sẽ được đẩy xuống thông tin Chi tiết</li>
+</ul>
+<p><img alt="" src="C:\Users\huongbtt3\Downloads\ESS-System-Guide-main\docs\finance\images\fin_KTHT_CTGS_5.png" /></p>
+<p>Bước 3: Nhấn <strong>Lưu</strong>: Khi đó hệ thống thực hiện Lưu các thông tin đã nhậ của Chứng từ, với Trạng thái của chứng từ là <strong>Nháp</strong></p>
+<p>Bước 4: Nhấn <strong>Xác nhận</strong>: Khi đó toàn bộ các Chứng từ đã được chọn(Thông tin bút toán) sẽ được cập nhật thông tin Số Chứng từ ghi sổ chính là 'Số chứng từ' của bản ghi đã tạo</p>
+<h4 id="lap-chung-tu-ghi-so-hang-loat">Lập chứng từ ghi sổ hàng loạt</h4>
+<p>Mục đích: Thực hiện Lập đồng thời cho các Loại chứng từ có phát sinh bút toán chưa được Đánh CTGS và phát sinh trong Kỳ thực hiện đánh CTGS.</p>
+<p>Đối tượng thực hiện: Kế toán tổng hợp</p>
+<p>Bước 1: Vào phân hệ <strong>Kế toán</strong>, Chọn nhóm <strong>Tổng hợp</strong> , chọn chức năng <strong>Chứng từ ghi sổ</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</p>
+<p><img alt="" src="C:\Users\huongbtt3\Downloads\ESS-System-Guide-main\docs\finance\images\fin_KTTH_CTGS_1.png" /></p>
+<p>Bước 2: Nhấn nút <strong>'Tạo CTGS hàng loạt'</strong></p>
+<ul>
+<li>Trên Danh sách Loại chứng từ cần đánh số CTGS: Chọn Khoảng thời gian để tìm kiếm các Bút toán phát sinh và tích chọn Loại chứng từ cần đánh số CTGS</li>
+</ul>
+<p><img alt="" src="C:\Users\huongbtt3\Downloads\ESS-System-Guide-main\docs\finance\images\fin_KTHT_CTGS_6.png" /></p>
+<ul>
+<li>Nhấn nút <strong>Đồng ý</strong>: hệ thống tự động tạo ra các Chứng từ ghi sổ: Ứng với mỗi chứng từ được tạo ra sẽ chứa Danh sách các Chứng từ tương ứng với từng Loại chứng từ đã chọn</li>
+</ul>
+<p><img alt="" src="C:\Users\huongbtt3\Downloads\ESS-System-Guide-main\docs\finance\images\fin_KTTH_CTGS_7.png" /></p>
+<p><img alt="" src="C:\Users\huongbtt3\Downloads\ESS-System-Guide-main\docs\finance\images\fin_KTTH_CTGS_8.png" /></p>
+<h2 id="khoa-so"><em>Khóa sổ</em></h2>
+<h3 id="mo-ta-nghiep-vu_7">Mô tả nghiệp vụ</h3>
+<p>Chức năng khóa sổ giúp khóa sổ kỳ kế toán sau khi chốt số liệu để không làm thay đổi số liệu đã chốt. Đồng thời, có thể bỏ khóa sổ kỳ kế toán để điều chỉnh lại dữ liệu khi cần.</p>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
+<h3 id="huong-dan-tren-phan-mem_8">Hướng dẫn trên phần mềm</h3>
 <p>[Mô tả cụ thể các thao tác thực hiện]</p>
               
             </div>
@@ -549,7 +621,7 @@ Bước 5: Tại tab <strong>Số dư ngoại tệ</strong>: Hiển thị danh s
         <a href="../fin-kho/" class="btn btn-neutral float-right" title="Kho vận">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../fin-ban-hang/" class="btn btn-neutral" title="Bán hàng"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../fin-hoa-don-dien-tu/" class="btn btn-neutral" title="Hóa đơn"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -575,7 +647,7 @@ Bước 5: Tại tab <strong>Số dư ngoại tệ</strong>: Hiển thị danh s
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../fin-ban-hang/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../fin-hoa-don-dien-tu/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
       <span><a href="../fin-kho/" style="color: #fcfcfc">Next &raquo;</a></span>
