@@ -29,7 +29,15 @@ Chức năng cho phép người dùng hạch toán bút toán thủ công đối
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Chứng từ nghiệp vụ khác" 
+    src="https://www.youtube.com/embed/C2rWmB91Cv4"
+></iframe>
 
 ### **Hướng dẫn trên phần mềm**
 

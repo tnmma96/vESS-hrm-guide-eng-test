@@ -18,6 +18,18 @@ Quy trình nghiệp vụ
 
 ## Thu tiền mặt
 
+### *Xem video hướng dẫn*
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Thu tiền mặt" 
+    src="https://www.youtube.com/embed/3nqQMly5KGY"
+></iframe>
+
 ### Nhập số dư đầu kỳ
 
 #### Mô tả nghiệp vụ
@@ -66,22 +78,28 @@ Lưu ý:
 Khi khách hàng mang tiền mặt đến trả nợ hoặc nhân viên đi thu tiền tại khách hàng bằng tiền mặt và mang tiền về nộp lại, sẽ phát sinh một số hoạt động sau:
 
 - Sau khi nhận được tiền trả nợ của khách hàng, nhân viên sẽ yêu cầu Kế toán lập Phiếu thu.
-
 - Kế toán chuyển phiếu thu cho Giám đốc ký sau đó chuyển lại cho Thủ quỹ.
-
 - Thủ quỹ căn cứ vào Phiếu thu để thu tiền, sau đó ký vào phiếu thu và yêu cầu người nộp ký vào, đồng thời ghi sổ quỹ.
-
 - Thủ quỹ lưu 1 liên, trả lại 1 liên cho Kế toán và chuyển 1 liên cho khách hàng.
-
 - Kế toán căn cứ vào Phiếu thu đã đủ chữ ký để ghi sổ kế toán tiền mặt và lưu trữ phiếu thu.
+
+#### *Xem video hướng dẫn*
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Thu tiền từ khách hàng bằng tiền mặt" 
+    src="https://www.youtube.com/embed/6WTwBVg52ag"
+></iframe>
 
 #### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Ngân quỹ**, Chọn **Tiền mặt**, Chọn **Thu tiền từ khách hàng** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
 ![TT88_PT01](images/TT88_PT01.PNG)
-
-Note: Tại chức năng **Thu tiền từ khách hàng** hiển thị danh sách Hóa đơn bán hàng có trạng thái Đã vào sổ , Tình trạng thanh toán là chưa trả hoặc trả một phần
 
 2. Tích chọn chứng từ khách hàng thanh toán tiền nợ
 3. Nhấn **Ghi nhận thanh toán**
@@ -101,6 +119,18 @@ Note: Tại chức năng **Thu tiền từ khách hàng** hiển thị danh sác
 4. Nhấn **Xác nhận**
 
 ## Chi tiền mặt
+
+### *Xem video hướng dẫn*
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Chi tiền mặt" 
+    src="https://www.youtube.com/embed/8uhV4xRhBq8"
+></iframe>
 
 ### Thanh toán tiền điện nước, tiền internet, tiền thuê mặt bằng..
 
@@ -220,13 +250,23 @@ Khi nhà cung cấp đến nhận tiền mặt trực tiếp hoặc nhân viên 
 - Thủ quỹ lưu 1 liên, trả lại 1 liên cho Kế toán và chuyển 1 liên cho nhà cung cấp.
 - Kế toán căn cứ vào Phiếu chi đã đủ chữ ký để ghi sổ kế toán tiền mặt và lưu trữ Phiếu chi.
 
+#### *Xem video hướng dẫn*
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Thanh toán cho nhà cung cấp bằng tiền mặt" 
+    src="https://www.youtube.com/embed/CGYLfRXPUlM"
+></iframe>
+
 #### Hướng dẫn trên phần mềm
 
 1. Tại phân hệ **Ngân quỹ**, Chọn **Tiền mặt**, Chọn **Thanh toán cho nhà cung cấp** (Hoặc thực hiện tìm kiếm trức tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
 ![TT88_PC01](images/TT88_PC01.PNG)
-
-Ghi chú: Tại chức năng **Thanh toán cho nhà cung cấp** hiển thị danh sách Hóa đơn mua hàng có trạng thái Đã vào sổ, Tình trạng thanh toán là chưa trả hoặc trả một phần
 
 2. Tích chọn chứng từ khách hàng thanh toán tiền nợ
 3. Nhấn **Ghi nhận thanh toán**
@@ -253,6 +293,18 @@ Ghi chú: Tại chức năng **Thanh toán cho nhà cung cấp** hiển thị da
 - Đếm thực tế số tiền mặt tồn quỹ theo từng loại tiền về mặt số lượng và mệnh giá.
 - Đối chiếu số dư thực tế kiểm kê với sổ kế toán tiền mặt tại quỹ, nếu có sự chênh lệch thì thực hiện tìm nguyên nhân bằng cách đối chiếu sổ quỹ với sổ kế toán tiền mặt tìm ra những giao dịch thu, chi tiền mặt không khớp giữa 2 sổ.
 - Sau khi tìm nguyên nhân thì Giám đốc hoặc Kế toán sẽ ra quyết định xử lý.
+
+### *Xem video hướng dẫn*
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Kiểm kê tiền mặt" 
+    src="https://www.youtube.com/embed/pBUkkO050ho"
+></iframe>
 
 ### Hướng dẫn trên phần mềm
 

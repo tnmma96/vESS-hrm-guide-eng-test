@@ -152,6 +152,18 @@ Nhấn **Lưu** để lưu lại thông tin hợp đồng
 
 Khi có nhu cầu mua sản phẩm, khách hàng sẽ liên hệ với nhân viên kinh doanh để đặt hàng. Khi đó nhân viên kinh doanh sẽ tiếp nhận yêu cầu của khách hàng, thực hiện tạo đơn bán hàng. Tại đơn bán hàng, nhân viên có thể theo dõi hàng xuất kho và tình trạng xuất hóa đơn cho khách hàng
 
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Lập đơn bán hàng" 
+    src="https://www.youtube.com/embed/R__U1GqGegg"
+></iframe>
+
 ### Hướng dẫn trên phần mềm
 
 #### Lập đơn bán hàng
@@ -206,6 +218,18 @@ Sau khi kế toán phê duyệt và cấp hóa đơn, nhân viên kinh doanh s�
 
 #### Lập hóa đơn bán hàng từ đơn bán hàng
 
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Lập hóa đơn bán hàng từ đơn bán hàng" 
+    src="https://www.youtube.com/embed/p-VOJ1ilMms"
+></iframe>
+
 Đối tượng thực hiện: Nhân viên kế toán
 
 Bước 1: Vào phân hệ **Bán hàng**, Chọn **Đơn bán hàng** đã hoàn thành Giaohàng cho khách hàng và Nhấn **Tạo hóa đơn**
@@ -244,6 +268,18 @@ Bước 5: Nhân viên Kế toán thực hiện nhấn **Xác nhận**
 
 Đối tượng thực hiện: Nhân viên kế toán
 
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Lập hóa đơn bán hàng không từ đơn bán hàng" 
+    src="https://www.youtube.com/embed/Sa1cBRDhPsc"
+></iframe>
+
 Bước 1: Vào phân hệ **Bán hàng**, Chọn **Hóa đơn** , chọn **Hóa đơn bán hàng** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
 ![](images/fin_BanHang_HoaDon_TabChung.png)
@@ -270,6 +306,18 @@ Bước 4: Nhân viên Kế toán thực hiện nhấn **Xác nhận** để ho�
 
 #### Ghi nhận thanh toán
 
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Ghi nhận thanh toán" 
+    src="https://www.youtube.com/embed/wYLdUMfWHVQ"
+></iframe>
+
 Kế toán thực hiện ghi nhận và theo dõi việc thanh toán của hóa đơn sau khi xác nhận xuất hóa đơn thành công
 
 Đối tượng thực hiện: Nhân viên kế toán
@@ -295,6 +343,18 @@ Cách 1: Kế toán bán hàng lập hóa đơn giảm giá hàng bán để gia
 Cách 2: Kế toán bán hàng chuyển đổi hóa đơn bán hàng thành khoản hoàn tiền/công nợ giảm
 
 Đối tượng thực hiện: Nhân viên kế toán
+
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Tạo hóa đơn giảm giá" 
+    src="https://www.youtube.com/embed/tQqF296qgGQ"
+></iframe>
 
 ##### Tạo hóa đơn giảm giá
 

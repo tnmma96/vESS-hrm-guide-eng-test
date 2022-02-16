@@ -1,7 +1,5 @@
 # **Quy trình nghiệp vụ**
 
-*[Mô tả thông tin chung theo của toàn bộ Module Giá thành]*
-
 Module Giá thành hỗ trợ trong việc quản lý và tự động tập hợp chi phí sản xuất trực tiếp theo từng đối tượng tập hợp chi phí  (sản phẩm/dịch vụ, phân xưởng, đơn hàng, công trình, hợp đồng); Phân bổ chi phí chung, xác định chi phí dở dang cuối kỳ và lên giá thành chi tiết theo từng sản phẩm/dịch vụ, đơn hàng, công trình, hợp đồng.
 
 Phân hệ Giá thành hỗ trợ doanh nghiệp tính giá thành sản phẩm theo các phương pháp sau:
@@ -12,10 +10,6 @@ Phân hệ Giá thành hỗ trợ doanh nghiệp tính giá thành sản phẩm 
 - Giá thành đơn hàng
 - Giá thành hợp đồng
 
-**Quy trình**
-
-![fin_giathanh_quitrinhchung](images/fin_giathanh_quitrinhchung.png)
-
 ## Tính giá thành theo PP giản đơn
 
 ### Quy trình nghiệp vụ
@@ -24,7 +18,7 @@ Phân hệ Giá thành hỗ trợ doanh nghiệp tính giá thành sản phẩm 
 
 **Quy trình nghiệp vụ**
 
-![fin_giathanh_GD_Luongquitrinh](images/fin_giathanh_GD_Luongquitrinh.png)
+![fin_giathanh_quytrinhHS GĐ](images/fin_giathanh_quytrinhHS GĐ.png)
 
 **Các luồng quy trình**
 
@@ -357,7 +351,7 @@ Lưu ý:
 
 **Quy trình nghiệp vụ**
 
-![fin_GiaThanh_QuyTrinhNghiepVu](images/fin_GiaThanh_QuyTrinhNghiepVu.png)
+![fin_giathanh_quytrinhHS GĐ](images/fin_giathanh_quytrinhHS GĐ.png)
 
 **Các luồng quy trình**
 
@@ -778,7 +772,7 @@ cầu đường… với nhiều hạng mục công trình con. Đối tượng 
 
 **Quy trình nghiệp vụ**
 
-![fin_giathanh_CT_Quitrinh](images/fin_giathanh_CT_Quitrinh.png)
+![fin_Giathanh_Quytrinh Congtrinh](images/fin_Giathanh_Quytrinh Congtrinh.png)
 
 **Các luồng quy trình**
 
@@ -934,7 +928,7 @@ Tính giá thành công trình  đối với các doanh nghiệp áp dụng ch�
 - Người dùng chọn **Tiêu thức phân bổ** (Nguyên vật liệu trực tiếp, Nhân công trực tiếp, Chi phí trực tiếp, Doanh thu), chọn **Tỷ lệ phân bổ** hệ thống sẽ tự động tính số tiền phân bổ hoặc ngược lại.
 - Nhấn **Tính toán phân bổ** hệ thống sẽ tự động tính toán và đẩy các dữ liệu, kết quả tính toán sang **Tab phân bổ**:
 
-![fin_giathanh_CT_PBCP_tabphanbo_TT133](images/fin_giathanh_CT_PBCP_tabphanbo_TT133.png)
+![fin_giathanh_CT_PBCP_tabphanbo_TT133](images/gia_thanh/fin_giathanh_CT_PBCP_tabphanbo_TT133.png)
 
 - Nhấn **Lưu**, nhấn **Xác nhận**, khi đó bản ghi đã **Hoàn thành**.
 
@@ -1080,7 +1074,7 @@ Tính giá thành công trình  đối với các doanh nghiệp áp dụng ch�
 
 **Quy trình nghiệp vụ**
 
-![fin_GiaThanh_QuyTrinhNghiepVu](images/fin_GiaThanh_QuyTrinhNghiepVu.png)
+![fin_Giathanh_Donhang_Quytrinh](images/fin_Giathanh_Donhang_Quytrinh.png)
 
 **Các luồng quy trình**
 
@@ -1262,7 +1256,7 @@ Bước 5.3: Bấm **Xác nhận** để thực hiện nghiệm thu với bút t
 
 **Quy trình nghiệp vụ**
 
-![fin_GiathanhHopdong_Quytrinh_1](images/fin_GiathanhHopdong_Quytrinh_1.png)
+![fin_Giathanh_Hopdong_quytrinh](images/fin_Giathanh_Hopdong_quytrinh.png)
 
 **Các luồng quy trình**
 

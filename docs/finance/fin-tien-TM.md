@@ -42,7 +42,15 @@ Quy trình nghiệp vụ
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Thu tiền mặt" 
+    src="https://www.youtube.com/embed/3nqQMly5KGY"
+></iframe>
 
 #### Hướng dẫn trên phần mềm
 
@@ -84,7 +92,15 @@ Trường hợp khách hàng ứng trước tiền mua hàng bằng tiền mặt
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Thu tiền từ khách hàng bằng tiền mặt" 
+    src="https://www.youtube.com/embed/6WTwBVg52ag"
+></iframe>
 
 #### Hướng dẫn trên phần mềm
 
@@ -263,12 +279,21 @@ Khi phát sinh các nghiệp vụ thu tiền mặt do đi vay hoặc thu hồi k
 Khi tiền mặt tại quỹ lớn hơn mức quy định của công ty, Kế toán thanh toán  sẽ mang tiền mặt nộp vào tài khoản tại ngân hàng:
 
 - Kế toán thanh toán tiền mặt lập Phiếu chi, sau đó chuyển cho Kế toán trưởng và Giám đốc ký duyệt. 
-
 - Thủ quỹ căn cứ vào Phiếu chi đã được duyệt thực hiện xuất quỹ tiền mặt và ghi sổ quỹ.
-
 - Kế toán thanh toán ngân hàng nhận tiền từ Thủ quỹ để ra ngân hàng nộp tiền vào tài khoản. 
-
 - Kế toán tiền mặt sẽ căn cứ vào Phiếu chi có chữ ký của Thủ quỹ và người nhận tiền để ghi sổ kế toán tiền mặt.
+
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Chi tiền mặt" 
+    src="https://www.youtube.com/embed/8uhV4xRhBq8"
+></iframe>
 
 #### Hướng dẫn trên phần mềm
 
@@ -331,14 +356,22 @@ Trường hợp ứng trước tiền mua hàng cho nhà cung cấp bằng tiề
 Khi nhà cung cấp đến nhận tiền mặt trực tiếp hoặc nhân viên mua hàng mang tiền mặt đến trả nợ cho nhà cung cấp sẽ phát sinh một số hoạt động sau:
 
 - Sau khi nhận được yêu cầu trả nợ của nhà cung cấp hoặc yêu cầu của Kế toán trưởng chi trả nợ cho nhà cung cấp, nhân viên làm đề nghị thanh toán và chuyển Kế toán tiền mặt sẽ lập Phiếu chi.
-
 - Kế toán chuyển Phiếu chi cho Kế toán trưởng và Giám đốc ký duyệt sau đó chuyển lại cho Thủ quỹ.
-
 - Thủ quỹ căn cứ vào Phiếu chi để chi tiền, sau đó ký vào phiếu chi và yêu cầu người nhận tiền ký vào, đồng thời ghi sổ quỹ.
-
 - Thủ quỹ lưu 1 liên, trả lại 1 liên cho Kế toán tiền mặt và chuyển 1 liên cho nhà cung cấp.
-
 - Kế toán tiền mặt căn cứ vào Phiếu chi đã đủ chữ ký để ghi sổ kế toán tiền mặt và lưu trữ Phiếu chi.
+
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Thanh toán cho nhà cung cấp bằng tiền mặt" 
+    src="https://www.youtube.com/embed/CGYLfRXPUlM"
+></iframe>
 
 #### Hướng dẫn trên phần mềm
 
@@ -621,12 +654,21 @@ Nghiệp vụ “Nộp bảo hiểm bằng tiền mặt” chỉ thực hiện �
 Định kỳ theo quy định hoặc khi có phát sinh yêu cầu kiểm kê quỹ từ Ban lãnh đạo công ty, sẽ phát sinh một số hoạt động sau:
 
 - Thành lập hội đồng kiểm kê gồm: Kế toán thanh toán, Thủ quỹ, Kế toán trưởng hoặc Giám đốc.
-
 - Đếm thực tế số tiền mặt tồn quỹ theo từng loại tiền về mặt số lượng và mệnh giá.
-
 - Đối chiếu số dư thực tế kiểm kê với sổ kế toán tiền mặt tại quỹ, nếu có sự chênh lệch thì thực hiện tìm nguyên nhân bằng cách đối chiếu sổ quỹ với sổ kế toán tiền mặt tìm ra những giao dịch thu, chi tiền mặt không khớp giữa 2 sổ.
-
 - Sau khi tìm nguyên nhân thì Giám đốc hoặc Kế toán trưởng sẽ ra quyết định xử lý.
+
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Kiểm kê tiền mặt" 
+    src="https://www.youtube.com/embed/pBUkkO050ho"
+></iframe>
 
 ### Hướng dẫn trên phần mềm
 

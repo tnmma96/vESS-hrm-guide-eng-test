@@ -18,7 +18,26 @@ Quy trình nghiệp vụ
 
 ·     Lập chứng từ Chi tiền gửi. Chi tiết nghiệp vụ **[Chi tiền gửi](#chi-tien-gui)**
 
+*Xem video hướng dẫn*
+
+
+
+
+
 ## Thu tiền gửi
+
+### *Xem video hướng dẫn*
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Thu tiền gửi" 
+    src="https://www.youtube.com/embed/XkxqxxZPms8"
+></iframe>
+
 
 ### Nhập số dư đầu kỳ
 
@@ -70,22 +89,29 @@ Lưu ý:
 Khi khách hàng mang tiền mặt đến trả nợ hoặc nhân viên đi thu tiền tại khách hàng bằng tiền ngân hàng và mang tiền về nộp lại, sẽ phát sinh một số hoạt động sau:
 
 - Sau khi nhận được tiền trả nợ của khách hàng, nhân viên sẽ yêu cầu Kế toán lập Phiếu thu.
-
 - Kế toán chuyển phiếu thu cho Giám đốc ký sau đó chuyển lại cho Thủ quỹ.
-
 - Thủ quỹ căn cứ vào Phiếu thu để thu tiền, sau đó ký vào phiếu thu và yêu cầu người nộp ký vào, đồng thời ghi sổ quỹ.
-
 - Thủ quỹ lưu 1 liên, trả lại 1 liên cho Kế toán và chuyển 1 liên cho khách hàng.
-
 - Kế toán căn cứ vào Phiếu thu đã đủ chữ ký để ghi sổ kế toán tiền gửi và lưu trữ phiếu thu.
+
+#### *Xem video hướng dẫn*
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Thu tiền khách hàng bằng tiền gửi" 
+    src="https://www.youtube.com/embed/N58oFjuNbcM"
+></iframe>
+
 
 #### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Ngân quỹ**, Chọn **Tiền gửi**, Chọn **Thu tiền từ khách hàng** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
 ![TT88_PT01](images/TT88_PT01.PNG)
-
-Note: Tại chức năng **Thu tiền từ khách hàng** hiển thị danh sách Hóa đơn bán hàng có trạng thái Đã vào sổ , Tình trạng thanh toán là chưa trả hoặc trả một phần
 
 2. Tích chọn chứng từ khách hàng thanh toán tiền nợ
 3. Nhấn **Ghi nhận thanh toán**
@@ -103,6 +129,18 @@ Note: Tại chức năng **Thu tiền từ khách hàng** hiển thị danh sác
 4. Nhấn **Xác nhận**
 
 ## Chi tiền gửi
+
+### *Xem video hướng dẫn*
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Chi tiền gửi" 
+    src="https://www.youtube.com/embed/DhfKqIjUMzI"
+></iframe>
 
 ### Thanh toán tiền điện nước, tiền internet, tiền thuê mặt bằng..
 
@@ -218,13 +256,24 @@ Khi nhà cung cấp đến nhận tiền mặt trực tiếp hoặc nhân viên 
 - Thủ quỹ lưu 1 liên, trả lại 1 liên cho Kế toán và chuyển 1 liên cho nhà cung cấp.
 - Kế toán căn cứ vào Phiếu chi đã đủ chữ ký để ghi sổ kế toán tiền mặt và lưu trữ Phiếu chi.
 
+### *Xem video hướng dẫn*
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Thanh toán cho nhà cung cấp bằng tiền gửi" 
+    src="https://www.youtube.com/embed/IKuUk5UwFwc"
+></iframe>
+
+
 ### Hướng dẫn trên phần mềm
 
 1. Tại phân hệ **Ngân quỹ**, Chọn **Tiền gửi**, Chọn **Thanh toán cho nhà cung cấp** (Hoặc thực hiện tìm kiếm trức tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
 ![TT88_PC01](images/TT88_PC01.PNG)
-
-Ghi chú: Tại chức năng **Thanh toán cho nhà cung cấp** hiển thị danh sách Hóa đơn mua hàng có trạng thái Đã vào sổ, Tình trạng thanh toán là chưa trả hoặc trả một phần
 
 2. Tích chọn chứng từ khách hàng thanh toán tiền nợ
 3. Nhấn **Ghi nhận thanh toán**
@@ -234,7 +283,6 @@ Ghi chú: Tại chức năng **Thanh toán cho nhà cung cấp** hiển thị da
 4. Tại mục Sổ nhật ký: Chọn **Tiền ngân hàng**
 5. Trường hợp số tiền khách hàng thanh toán nhỏ hơn số nợ thực tế trên chứng từ, cần nhập lại số tiền khách hàng trả nợ vào cột **Số trả**. 
 6. Nhấn **Tạo Thanh toán** để tạo Phiếu chi tiền ngân hàng
-
 7. Kiểm tra và khai báo bổ sung các thông tin của **Chi tiền gửi**
 8. Nhấn **Lưu**
 9. Nhấn **Xác nhận**

@@ -43,7 +43,15 @@ Chức năng cho phép kế toán hạch toán bút toán thủ công đối v�
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Chứng từ nghiệp vụ khác" 
+    src="https://www.youtube.com/embed/C2rWmB91Cv4"
+></iframe>
 
 ### **Hướng dẫn trên phần mềm**
 
@@ -339,6 +347,76 @@ Bước 2: Chọn **Tạo kết chuyển hàng loạt**, hệ thống tự độ
 ![](images/fin_TongHop_KC_TaoKCHangLoat.png)
 
 Bước 3: Nhấn **Đồng ý**,  Hệ thống sinh và hạch toán bản ghi kết chuyển (đến ngày thực hiện) theo bút toán kết chuyển đã chọn
+
+## *Chứng từ ghi sổ*
+
+### Mô tả nghiệp vụ
+
+Chức năng Chứng từ ghi sổ cho phép thực hiện tạo và cập nhật số CTGS các bút toán của kế toán có đăng ký nhận số CTGS
+
+Nghiệp vụ **Chứng từ ghi sổ** được thực hiện trên phần mềm gồm 2 luồng chức năng chính:
+
+- Lập chứng từ ghi sổ đơn lẻ
+- Lập chứng từ ghi sổ đồng loạt
+
+**Xem video hướng dẫn**
+
+*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+
+### Hướng dẫn trên phần mềm
+
+#### Lập chứng từ ghi sổ đơn lẻ
+
+Đối tượng thực hiện: Kế toán tổng hợp
+
+Bước 1: Vào phân hệ **Kế toán**, Chọn nhóm **Tổng hợp** , chọn chức năng **Chứng từ ghi sổ** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+
+![](C:\Users\huongbtt3\Downloads\ESS-System-Guide-main\docs\finance\images\fin_KTTH_CTGS_1.png)
+
+Bước 2: Nhấn **Tạo mới**, nhập đủ các thông tin:
+
+![](C:\Users\huongbtt3\Downloads\ESS-System-Guide-main\docs\finance\images\fin_KTTH_CTGS_2.png)
+
+- Khai báo Nội dung, Ngày chứng từ, sau đó **Chọn chứng từ**.
+
+![](C:\Users\huongbtt3\Downloads\ESS-System-Guide-main\docs\finance\images\fin_KTTH_CTGS_3.png)
+
+- Thực hiện chọn **Loại chứng từ** cần đánh Chứng từ ghi sổ (Thông tin Loại chứng từ được khai báo tại **Danh mục Loại chứng từ**, với Khai báo về Thông tin điều kiện lọc của Tài khoản theo từng Loại chứng từ)
+- Trên Danh sách bút toán đã được Lọc theo Loại chứng từ: Người dùng có thể tích chọn Toàn bộ chứng từ, hoặc Tích chọn các Chứng từ riêng lẻ
+
+![](C:\Users\huongbtt3\Downloads\ESS-System-Guide-main\docs\finance\images\fin_KTTH_CTGS_4.png)
+
+- Nhấn nút Đồng ý: Thông tin Chứng từ được chọn sẽ được đẩy xuống thông tin Chi tiết
+
+![](C:\Users\huongbtt3\Downloads\ESS-System-Guide-main\docs\finance\images\fin_KTHT_CTGS_5.png)
+
+
+
+Bước 3: Nhấn **Lưu**: Khi đó hệ thống thực hiện Lưu các thông tin đã nhậ của Chứng từ, với Trạng thái của chứng từ là **Nháp**
+
+Bước 4: Nhấn **Xác nhận**: Khi đó toàn bộ các Chứng từ đã được chọn(Thông tin bút toán) sẽ được cập nhật thông tin Số Chứng từ ghi sổ chính là 'Số chứng từ' của bản ghi đã tạo
+
+#### Lập chứng từ ghi sổ hàng loạt
+
+Mục đích: Thực hiện Lập đồng thời cho các Loại chứng từ có phát sinh bút toán chưa được Đánh CTGS và phát sinh trong Kỳ thực hiện đánh CTGS.
+
+Đối tượng thực hiện: Kế toán tổng hợp
+
+Bước 1: Vào phân hệ **Kế toán**, Chọn nhóm **Tổng hợp** , chọn chức năng **Chứng từ ghi sổ** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+
+![](C:\Users\huongbtt3\Downloads\ESS-System-Guide-main\docs\finance\images\fin_KTTH_CTGS_1.png)
+
+Bước 2: Nhấn nút **'Tạo CTGS hàng loạt'**
+
+- Trên Danh sách Loại chứng từ cần đánh số CTGS: Chọn Khoảng thời gian để tìm kiếm các Bút toán phát sinh và tích chọn Loại chứng từ cần đánh số CTGS
+
+![](C:\Users\huongbtt3\Downloads\ESS-System-Guide-main\docs\finance\images\fin_KTHT_CTGS_6.png)
+
+- Nhấn nút **Đồng ý**: hệ thống tự động tạo ra các Chứng từ ghi sổ: Ứng với mỗi chứng từ được tạo ra sẽ chứa Danh sách các Chứng từ tương ứng với từng Loại chứng từ đã chọn
+
+  ![](C:\Users\huongbtt3\Downloads\ESS-System-Guide-main\docs\finance\images\fin_KTTH_CTGS_7.png)
+
+  ![](C:\Users\huongbtt3\Downloads\ESS-System-Guide-main\docs\finance\images\fin_KTTH_CTGS_8.png)
 
 ## *Khóa sổ*
 

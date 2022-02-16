@@ -36,7 +36,15 @@ Căn cứ vào hợp đồng bán hàng, đơn đặt hàng hoặc thỏa thuậ
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Thu tiền gửi" 
+    src="https://www.youtube.com/embed/XkxqxxZPms8"
+></iframe>
 
 #### Hướng dẫn trên phần mềm
 
@@ -123,7 +131,15 @@ Khi khách hàng chuyển khoản hoặc mang tiền nộp vào tài khoản ng�
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Thu tiền khách hàng bằng tiền gửi" 
+    src="https://www.youtube.com/embed/N58oFjuNbcM"
+></iframe>
 
 #### Hướng dẫn trên phần mềm
 
@@ -340,6 +356,18 @@ Trường hợp công ty ứng trước tiền mua hàng cho nhà cung cấp, kh
 
 ​       => Nếu trường hợp trả bằng Séc thì nhân viên đề nghị chi tiền sẽ nhận Séc để chuyển cho nhà cung cấp.
 
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Chi tiền gửi" 
+    src="https://www.youtube.com/embed/DhfKqIjUMzI"
+></iframe>
+
 #### Hướng dẫn trên phần mềm
 
 1. Vào phân hệ **Kế toán**, Chọn **Tiền Ngân hàng**, Chọn **Báo Nợ** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
@@ -370,6 +398,18 @@ Khi công ty chuyển khoản trả nợ cho nhà cung cấp, quy trình thực 
 - Ngân hàng căn cứ vào Ủy nhiệm chi của công ty sẽ chuyển tiền vào tài khoản của nhà cung cấp, đồng thời lập giấy báo Nợ.
 
 - Căn cứ vào giấy báo Nợ của ngân hàng, Kế toán thanh toán sẽ hạch toán, đồng thời ghi sổ tiền gửi ngân hàng.
+
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Thanh toán cho nhà cung cấp bằng tiền gửi" 
+    src="https://www.youtube.com/embed/IKuUk5UwFwc"
+></iframe>
 
 #### Hướng dẫn trên phần mềm
 
