@@ -46,14 +46,6 @@ Hiển thị thông tin Hệ thống tài khoản theo Thông tư đã lựa ch�
 
 ![](images/fin_ThietLap_TaiKhoan.png)
 
-### **Nhập số dư ban đầu**
-
-Người dùng nhập các thông tin số dư ban đầu cho các tài khoản 
-
-Số dư ban đầu được lưu trữ độc lập giữa hai hệ thống **Sổ quản trị** và **Sổ tài chính**.
-
-![](images/fin_ThietLap_SoDuBanDau.png)
-
 ### Khai báo tồn hàng đầu kỳ
 
 Sau khi tạo mới được hàng hóa vật tư, người dùng có thể khai báo số lượng mặt hàng tồn đầu kỳ hiện có ngoài thực tế
@@ -76,6 +68,6 @@ Người dùng thực hiện chọn **kho**, nhập **số lượng thực tế*
 
 ## Liên kết nhanh
 
-Hiển thị danh sách các danh mục,chức năng của hệ thống mà người dùng thường xuyên sử dụng để hỗ trợ người dùng mở danh mục, chức năng nhanh hơn mà không cần mở phân hệ chức năng nghiệp vụ.
+Hiển thị danh sách các danh mục,chức năng của hệ thống mà người dùng thường xuyên sử dụng để hỗ trợ người dùng mở danh mục, chức năng nhanh hơn mà không cần vào từng phân hệ và chọn chức năng nghiệp vụ.
 
 ![](images/LKN_01.png)

@@ -382,3 +382,77 @@ Bước 1: Vào phân hệ **Bán hàng**, chọn **Hóa đơn**, chọn **Hóa 
 
 Hệ thống chuyển đổi từ hóa đơn bán hàng thành hóa đơn giảm giá/trả hàng, các thông tin được giữ nguyên
 
+## *Hóa đơn bán hàng - Giảm thuế 20%*
+
+### Mô tả nghiệp vụ
+
+Sau khi giao hàng thành công, người dùng thực hiện kiểm tra dữ liệu và lập hóa đơn bán hàng cho những mặt hàng được quy định giảm thuế 20% theo Nghị quyết số 43/2022/QH15 và gửi hóa đơn cho khách hàng. 
+
+**Giảm thuế 20%** Chỉ áp dụng với Công ty có **Thiết lập** tại nhóm **Kế toán** với **Phương pháp tính thuế GTGT** = **Trực tiếp trên doanh thu**
+
+### Hướng dẫn trên phần mềm
+
+#### Lập hóa đơn bán hàng có Giảm thuế 20%
+
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Hóa đơn giảm thuế" 
+    src="https://www.youtube.com/embed/jO_NiFQ5r_s"
+></iframe>
+
+
+
+Đối tượng thực hiện: Người bán hàng
+
+**Bước 1**: Vào Màn hình qua 2 cách :
+
+- **Cách 1**: Lập hóa đơn từ Đơn bán hàng bằng cách: Vào phân hệ **Bán hàng**, Chọn **Đơn bán hàng** đã hoàn thành Giao hàng cho khách hàng và Nhấn **Tạo hóa đơn**
+
+![](images/fin_banhang_donhang_taohoadon.png)
+
+Trên màn hình **Tạo Hóa đơn**, kế toán thực hiện chọn loại hóa đơn thanh toán dựa trên số tiền khách hành thanh toán
+
+![](images/fin_banhang_donhang_taohoadon_popup.png)
+
+- Hóa đơn thông thường: Hệ thống tạo 1 hóa đơn với số lượng, số tiền tương ứng với đơn bán hàng
+
+- Tiền đặt cọc (Theo phần trăm): Hệ thống tạo 1 hóa đơn với số tiền thanh toán theo tỷ lệ phần trăm với số tiền bên đơn bán hàng
+
+- Tiền đặt cọc (Số tiền cố định): Hệ thống tạo 1 hóa đơn với số tiền thanh toán bằng số tiền đã nhập sẵn trên giao diện
+
+  Chọn **Tạo & xem hóa đơn** hoặc **Tạo hóa đơn** để thực hiện sinh hóa đơn theo yêu cầu
+
+- **Cách 2**: Lập Hóa đơn bán hàng không từ Đơn bán hàng (Lập trực tiếp) bằng cách: Vào phân hệ **Bán hàng**, Chọn **Hóa đơn** , chọn **Hóa đơn bán hàng** 
+
+![](images/fin_banhang_hoadon.png)
+
+Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống
+
+![](images/fin_banhang_hoadon_timkiemnhanh.png)
+
+![](images/fin_banhang_hoadon_viewdanhsach.png)
+
+* Nhấn nút **tạo** ![](images/fin_banhang_taomoi-16460126327341.png) để thêm hóa đơn. 
+
+**Bước 2**: Trên thông tin **Hóa đơn bán hàng** vừa được tạo , Nhân viên thực hiện nhập các dữ liệu về:
+
+- Hóa đơn: **Ngày hóa đơn, Mẫu số hóa đơn,  Số hóa đơn** và **Tích chọn 'Giảm 20% thuế GTGT theo NQ 43** (Khi tích chọn giá trị này chương trình sẽ tự động tính phần giảm của Thuế GTGT )
+
+  ![](images/fin_banhang_taohoadon_giamthue-16460126327342.png)
+
+  
+
+- Chọn và nhập thông tin về Mặt hàng và Chiết khấu tương ứng của Đơn hàng (Nếu có), thông tin Thuế GTGT được giảm sẽ tính trực tiếp trên từng dòng mặt hàng
+
+  ![](images/fin_banhang_taohoadon_giamthue_tabChitiet-16460126327343.png)
+
+
+
+**Bước 3**: Nhân viên thực hiện nhấn **Xác nhận**
+

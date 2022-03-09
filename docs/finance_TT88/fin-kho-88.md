@@ -1,8 +1,8 @@
 # *Quy trình nghiệp vụ*
 
-Kế toán kho chịu trách nhiệm chính  trong việc lập hóa đơn chứng từ và theo dõi chi tiết hàng hóa trong kho, bao gồm cả tình hình hàng nhập – xuất – tồn; đối chiếu các hóa đơn, chứng từ sổ sách với số liệu thực tế do Thủ kho trình lên, giúp hạn chế tối đa những rủi ro, thất thoát cho doanh nghiệp.
+Kế toán kho chịu trách nhiệm chính  trong việc lập hóa đơn chứng từ và theo dõi chi tiết hàng hóa trong kho, bao gồm cả tình hình hàng nhập – xuất – tồn; đối chiếu các hóa đơn, chứng từ sổ sách với số liệu thực tế khi kiểm kê, giúp hạn chế tối đa những rủi ro, thất thoát cho doanh nghiệp.
 
-Kế toán kho thực hiện quản lý tình hình nhập, xuất, tồn kho theo chủng loại, nhóm, chi tiết vật tư, hàng hóa, thành phẩm. Ngoài ra có  quản lý chi tiết đến từng kho, hỗ trợ tự động xuất kho theo cách thức xuất kho Nhập trước xuất trước (FIFO),  Nhập sau xuất trước (LIFO) , thực hiện hỗ trợ tự động tính giá xuất kho theo 4 phương pháp: Bình quân tức thời, Bình quân cuối kỳ, Đích danh, Nhập trước xuât trước  và lên các báo cáo kho: Tồn kho, Nhập xuất tồn kho
+Kế toán kho thực hiện quản lý tình hình nhập, xuất, tồn kho theo chủng loại, nhóm, chi tiết vật tư, hàng hóa, thành phẩm. Ngoài ra còn quản lý chi tiết đến từng kho, hỗ trợ tự động xuất kho theo cách thức xuất kho Nhập trước xuất trước (FIFO),  Nhập sau xuất trước (LIFO) , thực hiện hỗ trợ tự động tính giá xuất kho theo 4 phương pháp: Bình quân tức thời, Bình quân cuối kỳ, Đích danh, Nhập trước xuât trước  và lên các báo cáo kho: Tồn kho, Nhập xuất tồn kho.
 
 ![fin_Kho_Quytrinh](images/fin_Kho_Quytrinh.png)
 
@@ -20,11 +20,7 @@ Kế toán kho thực hiện quản lý tình hình nhập, xuất, tồn kho th
 
 ### Mô tả nghiệp vụ
 
-Đối với các đơn vị sản xuất sản phẩm hàng loạt hoặc theo đơn đặt hàng... sau khi sản phẩm hoàn thành thì sẽ chuyển về nhập kho. Khi đó, người dùng sẽ thực hiện các bước sau:
-
-- Căn cứ và phiếu báo số lượng thành phẩm hoàn thành nhập kho của bộ phận sản xuất, thực hiện lập Phiếu nhập kho thành phẩm.
-- Căn cứ vào phiếu nhập kho, Thực hiện kiểm tra, nhận hàng và tiến hành nhập kho
-- Người dùng ghi sổ kho.
+Khi phát sinh các nghiệp vụ cần nhập mua mới từ nhà cung ứng, Nhập thành phẩm sản xuất, Nhập hàng bán bị trả lại hoặc Nhập kho nội bộ: người dùng thực hiện tại chức năng Lập phiếu nhập kho
 
 **Xem video hướng dẫn**
 
@@ -90,7 +86,7 @@ Lưu ý: Trường **Loại nhập** khi lựa chọn thì phải có Địa đi
 
 ### Mô tả nghiệp vụ
 
-Khi phát sinh nghiệp vụ xuất nguyên vật liệu dùng cho sản xuất, thông thường sẽ phát sinh các hoạt động sau:
+Khi phát sinh nghiệp vụ xuất nguyên vật liệu dùng cho sản xuất, bán hàng thông thường sẽ phát sinh các hoạt động sau:
 
 - Người dùng lập Phiếu xuất kho
 - Căn cứ vào Phiếu xuất kho, Thực hiện xuất kho hàng hoá
@@ -163,7 +159,6 @@ Khi có yêu cầu kiểm kê kho,  người dùng sẽ thực hiện:
 - Kiểm kê hàng hóa thực tế trong từng kho, đối chiếu số dư thực tế kiểm kê với sổ kế toán kho
 - Nếu có chênh lệch thì tiến hành tìm nguyên nhân xử lý
 - Căn cứ và quyết định xử lý, Kế toán kho thực hiện lập phiếu nhập kho, hoặc phiếu xuất kho. Đồng thời, hạch toán bút toán chênh lệch thừa, thiếu hàng hóa so với sổ kế toán.
-- Trường hợp tìm được nguyên nhân và yêu cầu bồi thường thì hạch toán phải thu hoặc phải trả cho đối tượng phải bồi thường. Trường hợp chưa tìm được nguyên nhân thì hạch toán vào tài sản thừa chờ xử lý hoặc tài sản thiếu chờ xử lý 
 
 **Xem video hướng dẫn**
 
@@ -254,7 +249,7 @@ Nhấn **Lưu**
 Lưu ý: Trường hợp muốn tính giá xuất kho cho một hoặc một số vật tư hàng hoá, thực hiện như sau:
 
 - Tích **Chọn vật tư, hàng hóa** khi thực hiện tính giá xuất kho.
-- Nhấn vào biểu tượng : Chọn.. (như hình)
+- Nhấn vào biểu tượng : **Chọn**.. (như hình)
 
 ![fin_Kho_Tinhgia_bacham](images/fin_Kho_Tinhgia_bacham.png)
 

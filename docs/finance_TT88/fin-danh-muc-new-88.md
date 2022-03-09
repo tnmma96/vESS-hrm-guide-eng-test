@@ -1,6 +1,6 @@
 # **Khai báo danh mục**
 
-Thực hiện hướng dẫn về các Danh mục cần khai báo trên ứng dựng Kế toán. Việc khai báo các Danh mục có thể được thực hiện tại bất kỳ thời điểm nào tùy thuộc người sử dụng: có thể trước thời điểm nhập chứng từ hay thực hiện được ngay tại thời điểm nhập chứng từ.
+Thực hiện hướng dẫn cách thức thực hiện về các Danh mục cần khai báo trên phần mềm Kế toán. Việc khai báo các Danh mục có thể được thực hiện tại bất kỳ thời điểm nào tùy thuộc người sử dụng: có thể trước thời điểm nhập chứng từ hay thực hiện được ngay tại thời điểm nhập chứng từ.
 
 ## ***Đối tượng***
 
@@ -14,7 +14,7 @@ Chức năng Danh mục **Nhóm đối tượng** được quản lý tập trun
 
 **Các bước thực hiện**
 
-1. Vào **Danh mục**: chọn **Nhóm đối tượng** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Nhóm đối tượng** và nhấn nút **Chi tiết**
 
 ![](images/fin_DM_NhomDoiTuong_1.png)
 
@@ -22,14 +22,14 @@ Thông tin **Danh mục Nhóm đối tượng** được hiển thị để ngư
 
 ![](images/fin_DM_NhomDoiTuong_2.png)
 
-2. Để khai báo thêm Nhóm người dùng, người dùng nhấn nút **Tạo**Trên màn hình **Nhóm người dùng** và thực hiện Khai báo các thông tin: 
+**Bước 2:** Để khai báo thêm Nhóm người dùng, người dùng nhấn nút **Tạo**Trên màn hình **Nhóm người dùng** và thực hiện Khai báo các thông tin: 
 
 ![](images/fin_DM_NhomDoiTuong_Tao.png)
 
 - Mã nhóm: Không trùng với Mã đã khai báo 
 - Tên nhóm: Thông tin để quản lý
 
-3. Nhấn nút **Lưu**
+**Bước 3:** Nhấn nút **Lưu**
 
 ### **Khách hàng**
 
@@ -61,7 +61,7 @@ Chức năng Danh mục **Khách hàng** được quản lý tập trung tại p
 
 ![](images/fin_danhmuc_kh.png)
 
-Bước 3: Nhập đủ thông tin cần thiết:
+**Bước 3:** Nhập đủ thông tin cần thiết:
 
 ![](images/fin_danhmuc_kh_them.png)
 
@@ -82,8 +82,8 @@ Bước 3: Nhập đủ thông tin cần thiết:
 - Có thể bổ sung thêm địa chỉ liên lạc của khách hàng bằng cách vào nhóm **Các liên lạc & địa chỉ**, thêm mới địa chỉ
 
   ![](images/fin_danhmuc_kh_diachi.png)
-
-Một cửa sổ mới hiện ra, nhập đủ thông tin địa chỉ và chọn **Lưu**
+  
+  Một cửa sổ mới hiện ra, nhập đủ thông tin địa chỉ và chọn **Lưu**
 
 ![](images/fin_danhmuc_nv_diachi_popup.png)
 
@@ -136,68 +136,68 @@ Quản lý danh sách các nhà cung cấp, phục vụ cho việc lập và h�
 
 **Hướng dẫn trên phần mềm**
 
-- **Bước 1**: Vào Danh mục/Đối tượng/Nhà cung cấp. Nhấn **Chi tiết** để vào danh mục
+**Bước 1**: Vào Danh mục/Đối tượng/Nhà cung cấp. Nhấn **Chi tiết** để vào danh mục
 
-  ![](images/fin_danhmuc_danhsach.png)
+![](images/fin_danhmuc_danhsach.png)
 
-  **Bước 2**: Nhấn nút **tạo ** ![](images/fin_banhang_taomoi.png)để thực hiên thêm mới nhà cung cấp
+**Bước 2**: Nhấn nút **tạo ** ![](images/fin_banhang_taomoi.png)để thực hiên thêm mới nhà cung cấp
 
-  ![](images/fin_danhmuc_ncc.png)
+![](images/fin_danhmuc_ncc.png)
 
-  Bước 3: Nhập đủ thông tin cần thiết:
+**Bước 3**: Nhập đủ thông tin cần thiết:
 
-  ![](images/fin_danhmuc_ncc_them.png)
+![](images/fin_danhmuc_ncc_them.png)
 
-  - Nếu nhà cung cấp là một cá nhân thực hiện chọn **Cá nhân** nếu khách hàng là một công ty, thực hiện chọn **Công ty**
+- Nếu nhà cung cấp là một cá nhân thực hiện chọn **Cá nhân** nếu khách hàng là một công ty, thực hiện chọn **Công ty**
 
-  - Nhập tên nhà cung cấp hoặc tên công ty
+- Nhập tên nhà cung cấp hoặc tên công ty
 
-  - Chọn công ty nếu nhà cung cấp  thuộc một công ty bên ngoài
+- Chọn công ty nếu nhà cung cấp  thuộc một công ty bên ngoài
 
-  - Chọn kiểu đối tượng bổ sung nếu nhà cung cấp đó vừa là khách hàng hoặc vừa là nhà cung cấp
+- Chọn kiểu đối tượng bổ sung nếu nhà cung cấp đó vừa là khách hàng hoặc vừa là nhà cung cấp
 
-  - Nhập địa chỉ, mã số thuế. Nếu chọn **Công ty** thì địa chỉ và mã số thuế  mặc định bằng  địa chỉ, mã số thuế của công ty đã chọn
+- Nhập địa chỉ, mã số thuế. Nếu chọn **Công ty** thì địa chỉ và mã số thuế  mặc định bằng  địa chỉ, mã số thuế của công ty đã chọn
 
-  - Nhập thông tin chức vụ, số điện thoại, số di động , email, website, xưng hô
+- Nhập thông tin chức vụ, số điện thoại, số di động , email, website, xưng hô
 
-  - Thay đổi ảnh đại diện của nhà cung cấp bằng cách nhấn nút <img src="images/fin_danhmuc_nv_anh.png" style="zoom:50%;" /> và lựa chọn ảnh đại diện mong muốn
+- Thay đổi ảnh đại diện của nhà cung cấp bằng cách nhấn nút <img src="images/fin_danhmuc_nv_anh.png" style="zoom:50%;" /> và lựa chọn ảnh đại diện mong muốn
 
-  - Có thể bổ sung thêm địa chỉ liên lạc của nhà cung cấp bằng cách vào nhóm **Các liên lạc & địa chỉ**, thêm mới địa chỉ
+- Có thể bổ sung thêm địa chỉ liên lạc của nhà cung cấp bằng cách vào nhóm **Các liên lạc & địa chỉ**, thêm mới địa chỉ
 
-    ![](images/fin_danhmuc_ncc_diachi.png)
-
+  ![](images/fin_danhmuc_ncc_diachi.png)
+  
   Một cửa sổ mới hiện ra, nhập đủ thông tin địa chỉ và chọn **Lưu**
 
-  ![](images/fin_danhmuc_nv_diachi_popup.png)
+![](images/fin_danhmuc_nv_diachi_popup.png)
 
-  - Nội dung khai báo tại **Lên hóa đơn**: 
-    - Thông tin **Ngân hàng và Số tài khoản**: Doanh nghiệp có giao dịch Mua hàng/Bán hàng với Khách hàng và thực hiện Thanh toán: thông tin Số tài khoản đã khai báo sẽ được hiển thị để Kế toán thực hiện chọn và Thanh toán
+- Nội dung khai báo tại **Lên hóa đơn**: 
+  - Thông tin **Ngân hàng và Số tài khoản**: Doanh nghiệp có giao dịch Mua hàng/Bán hàng với Khách hàng và thực hiện Thanh toán: thông tin Số tài khoản đã khai báo sẽ được hiển thị để Kế toán thực hiện chọn và Thanh toán
 
-  ![](images/image-20210929152111997-16418719624631.png)
+![](images/image-20210929152111997-16418719624631.png)
 
-  **Bước 3**: Nhấn nút **Lưu** ![](images/fin_luu.png)để lưu lại thông tin nhân viên đã nhập
+**Bước 3**: Nhấn nút **Lưu** ![](images/fin_luu.png)để lưu lại thông tin nhân viên đã nhập
 
-  Sau khi lưu thành công, trên mỗi một khách hàng, người dùng có thể theo dõi được một số thông tin đi kèm như:
+Sau khi lưu thành công, trên mỗi một khách hàng, người dùng có thể theo dõi được một số thông tin đi kèm như:
 
-  Số đơn bán hàng, đơn mua hàng được tạo
+Số đơn bán hàng, đơn mua hàng được tạo
 
-  Thông tin giao hàng
+Thông tin giao hàng
 
-  Số hóa đơn đã xuất
+Số hóa đơn đã xuất
 
-  Công nợ nhà cung cấp
+Công nợ nhà cung cấp
 
-  Tài  liệu đính kèm
+Tài  liệu đính kèm
 
-  Khi nhấn vào các Đầu mục theo dõi, hệ thống tự động Truy vết các Giao dịch gắn đã thực hiện với Nhà cung cấp
+Khi nhấn vào các Đầu mục theo dõi, hệ thống tự động Truy vết các Giao dịch gắn đã thực hiện với Nhà cung cấp
 
-  ![](images/fin_danhmuc_ncc_list.png)
+![](images/fin_danhmuc_ncc_list.png)
 
-  **Lưu ý**:
+**Lưu ý**:
 
-  - Để sửa lại thông tin nhà cung cấp đã khai báo, sử dụng chức năng **Sửa** trên thanh công cụ.
+- Để sửa lại thông tin nhà cung cấp đã khai báo, sử dụng chức năng **Sửa** trên thanh công cụ.
 
-  - Nhà cung cấp đã được sử dụng tại các chứng từ kế toán khác sẽ không được xóa
+- Nhà cung cấp đã được sử dụng tại các chứng từ kế toán khác sẽ không được xóa
 
 ### Nhân viên
 
@@ -225,7 +225,7 @@ Danh mục nhân viên quản lý thông tin về các nhóm đối tượng kh�
 
 ![](images/fin_danhmuc_nv.png)
 
-Bước 3: Nhập đủ thông tin cần thiết:
+**Bước 3:** Nhập đủ thông tin cần thiết:
 
 ![](images/fin_danhmuc_nv_themmoi.png)
 
@@ -244,8 +244,8 @@ Bước 3: Nhập đủ thông tin cần thiết:
 - Có thể bổ sung thêm địa chỉ liên lạc của nhân viên bằng cách vào nhóm **Các liên lạc & địa chỉ**, thêm mới địa chỉ
 
   ![](images/fin_danhmuc_nv_diachi.png)
-
-Một cửa sổ mới hiện ra, nhập đủ thông tin địa chỉ và chọn **Lưu**
+  
+  Một cửa sổ mới hiện ra, nhập đủ thông tin địa chỉ và chọn **Lưu**
 
 ![](images/fin_danhmuc_nv_diachi_popup.png)
 
@@ -297,7 +297,7 @@ Chức năng Danh mục **Nhóm Vật tư hàng hóa** được quản lý tập
 
 **Các bước thực hiện**
 
-1. Vào Danh mục: chọn **Nhóm VTHH** và nhấn nút **Chi tiết**
+**Bước 1:** Vào Danh mục: chọn **Nhóm VTHH** và nhấn nút **Chi tiết**
 
 ![image-20210929171103894](images/image-20210929171103894.png)
 
@@ -305,11 +305,11 @@ Thông tin **Nhóm VTHH** được hiển thị để người dùng khai báo
 
 ![image-20210929171330249](images/image-20210929171330249.png)
 
-2. Để khai báo thêm Nhóm người dùng, người dùng nhấn nút **Tạo**Trên màn hình **Nhóm VTHH** và thực hiện Khai báo các thông tin: 
+**Bước 2:** Để khai báo thêm Nhóm người dùng, người dùng nhấn nút **Tạo**Trên màn hình **Nhóm VTHH** và thực hiện Khai báo các thông tin: 
 
 ![image-20210929171342546](images/image-20210929171342546.png)
 
-3. Nhấn nút **Lưu**
+**Bước 3:** Nhấn nút **Lưu**
 
 **Lưu ý:**
 
@@ -318,7 +318,7 @@ Thông tin **Nhóm VTHH** được hiển thị để người dùng khai báo
 
 ### **Vật tư hàng hóa**
 
-Danh mục vật tư, hàng hoá cho phép quản lý toàn bộ vật tư, hàng hoá, thành phẩm, dịch vụ của doanh nghiệp, phục vụ cho việc lập và hạch toán các chứng từ liên quan đến hoạt động mua, bán hàng hoá, nhập xuất kho vật tư, hàng hoá, CCDC
+Danh mục vật tư, hàng hoá cho phép quản lý toàn bộ vật tư, hàng hoá, thành phẩm, dịch vụ của doanh nghiệp, phục vụ cho việc lập và hạch toán các chứng từ liên quan đến hoạt động mua, bán hàng hoá, nhập xuất kho vật tư, hàng hoá, công cụ dụng cụ
 
 **Xem video hướng dẫn**
 
@@ -410,21 +410,23 @@ Chức năng Danh mục **Kho hàng** được quản lý tập trung tại ph�
 
 **Các bước thực hiện**
 
-1. Vào phân hệ **Kho vận**; chọn chức năng **Cấu hình**: chọn **Kho hàng** 
+**Bước 1:** Vào phân hệ **Kho vận**; chọn chức năng **Cấu hình**: chọn **Kho hàng** 
 
 ![image-20210929172039593](images/image-20210929172039593.png)
 
-2. Để khai báo thêm **Kho hàng**, người dùng nhấn nút **Tạo**Trên màn hình **Kho hàng** và thực hiện Khai báo các thông tin: 
+**Bước 2:** Để khai báo thêm **Kho hàng**, người dùng nhấn nút **Tạo**Trên màn hình **Kho hàng** và thực hiện Khai báo các thông tin: 
 
 ![](images/fin_DM_KhoHang_Tao.png)
 
-3. Nhấn nút **Lưu**
+**Bước 3:** Nhấn nút **Lưu**
 
 **Lưu ý:**
 
-Nhấn **Sửa**: Nếu muốn thay đổi thông tin kho hàng đã khai báo
+- Nhấn **Sửa**: Nếu muốn thay đổi thông tin kho hàng đã khai báo
 
-Sau khi kho hàng được tạo thành công, hệ thống tự động tạo  vị trí kho và các kiểu nhập xuất hàng hóa tương ứng với kho đó
+
+- Sau khi kho hàng được tạo thành công, hệ thống tự động tạo  vị trí kho và các kiểu nhập xuất hàng hóa tương ứng với kho đó
+
 
 ### Kho
 
@@ -438,21 +440,21 @@ Kho có thể được tạo mặc định khi người dùng khai báo kho hàn
 
 **Các bước thực hiện**
 
-1. Vào phân hệ **Kho vận**; chọn chức năng **Cấu hình**: chọn **Kho** hoặc vào **Danh mục/hàng hóa vật tư/Kho**
+**Bước 1:** Vào phân hệ **Kho vận**; chọn chức năng **Cấu hình**: chọn **Kho** hoặc vào **Danh mục/hàng hóa vật tư/Kho**
 
 ![](images/fin_danhmuc_kho.png)
 
-2. Để khai báo thêm **Kho**, người dùng nhấn nút **Tạo**Trên màn hình **Kho** và thực hiện Khai báo các thông tin: 
+**Bước 2:** Để khai báo thêm **Kho**, người dùng nhấn nút **Tạo**Trên màn hình **Kho** và thực hiện Khai báo các thông tin: 
 
-   Tên địa điểm kho
+Tên địa điểm kho
 
-   Đơn vị của kho
+Đơn vị của kho
 
-   Chọn loại địa điểm kho
+Chọn loại địa điểm kho
 
 ![](images/fin_danhmuc_kho_tao.png)
 
-3. Nhấn nút **Lưu**
+**Bước 3:** Nhấn nút **Lưu**
 
 **Lưu ý:**
 
@@ -470,79 +472,40 @@ Kiểu giao nhận có thể được tạo mặc định khi người dùng kha
 
 **Các bước thực hiện**
 
-1. Vào phân hệ **Kho vận**; chọn chức năng **Cấu hình**: chọn **Kiểu giao nhận**  hoặc vào **Danh mục/hàng hóa vật tư/Loại hoạt động**
+**Bước 1:** Vào phân hệ **Kho vận**; chọn chức năng **Cấu hình**: chọn **Kiểu giao nhận**  hoặc vào **Danh mục/hàng hóa vật tư/Loại hoạt động**
 
 ![](images/fin_danhmuc_kieugiaonhan.png)
 
-2. Để khai báo thêm **Kiểu giao nhận**, người dùng nhấn nút **Tạo**Trên màn hình  và thực hiện Khai báo các thông tin: 
+**Bước 2:** Để khai báo thêm **Kiểu giao nhận**, người dùng nhấn nút **Tạo**Trên màn hình  và thực hiện Khai báo các thông tin: 
 
-   Kiểu hoạt động: Nhập tên kiểu nhập.xuất
+- Kiểu hoạt động: Nhập tên kiểu nhập.xuất
 
-   Đơn vị:  Đơn vị của kiểu hoạt động sẽ dùng
 
-   Mã: Mã của loại nhập/xuất
+- Đơn vị:  Đơn vị của kiểu hoạt động sẽ dùng
 
-   Loại hoạt động: Chọn loại Nhập hoặc loại Xuất
+- Mã: Mã của loại nhập/xuất
 
-   Loại nhập/xuất: Chi tiết hình thức nhập hoặc xuất
+- Loại hoạt động: Chọn loại Nhập hoặc loại Xuất
 
-   Tài khoản nợ: Chọn tài khoản hạch toán
+- Loại nhập/xuất: Chi tiết hình thức nhập hoặc xuất
 
-   Tài khoản có: Chọn tài khoản hạch toán
+- Tài khoản nợ: Chọn tài khoản hạch toán
 
-   Điểm đi mặc định: Kho sẽ xuất hàng đi
+- Tài khoản có: Chọn tài khoản hạch toán
 
-   Điểm đích mặc định: Kho hàng sẽ nhập vào
+- Điểm đi mặc định: Kho sẽ xuất hàng đi
 
-   
+- Điểm đích mặc định: Kho hàng sẽ nhập vào
+
 
 ![](images/fin_danhmuc_kieugiaonhan_tao.png)
 
-3. Nhấn nút **Lưu**
+**Bước 3:** Nhấn nút **Lưu**
 
 **Lưu ý:**
 
-Nhấn **Sửa**: Nếu muốn thay đổi thông tin kho hàng đã khai báo
+- Nhấn **Sửa**: Nếu muốn thay đổi thông tin kho hàng đã khai báo
 
-### Quy tắc sắp xếp
-
-**Các bước thực hiện**
-
-1. Vào phân hệ **Kho vận**; chọn chức năng **Cấu hình**: chọn **Quy tắc sắp xếp**  
-
-2. Để khai báo thêm **Quy tắc sắp xếp**, người dùng nhấn nút **Tạo**Trên màn hình  và thực hiện Khai báo các thông tin:
-
-3. Nhấn nút **Lưu**
-
-### Quy tắc tái cung ứng
-
-**Các bước thực hiện**
-
-1. Vào phân hệ **Kho vận**; chọn chức năng **Cấu hình**: chọn **Quy tắc tái cung ứng**  
-
-2. Để khai báo thêm **Quy tắc tái cung ứng**, người dùng nhấn nút **Tạo**Trên màn hình  và thực hiện Khai báo các thông tin:
-
-3. Nhấn nút **Lưu**
-
-### Nhóm đơn vị
-
-**Các bước thực hiện**
-
-1. Vào phân hệ **Kho vận**; chọn chức năng **Cấu hình**: chọn **Nhóm đơn vị**  
-
-2. Để khai báo thêm **Nhóm đơn vị**, người dùng nhấn nút **Tạo**Trên màn hình  và thực hiện Khai báo các thông tin:
-
-3. Nhấn nút **Lưu**
-
-### Đơn vị
-
-**Các bước thực hiện**
-
-1. Vào phân hệ **Kho vận**; chọn chức năng **Cấu hình**: chọn **Đơn vị**  
-
-2. Để khai báo thêm **Đơn vị**, người dùng nhấn nút **Tạo**Trên màn hình  và thực hiện Khai báo các thông tin:
-
-3. Nhấn nút **Lưu**
 
 ## ***Kế toán***
 
@@ -558,7 +521,7 @@ Chức năng Danh mục **Hệ thống tài khoản** được quản lý tập 
 
 **Các bước thực hiện**
 
-1. Vào Danh mục: chọn **Hệ thống tài khoản** và nhấn nút **Chi tiết**
+**Bước 1:** Vào Danh mục: chọn **Hệ thống tài khoản** và nhấn nút **Chi tiết**
 
 ![](images/fin_DM_HeThongTK_1.png)
 
@@ -566,7 +529,7 @@ Thông tin **Hệ thống tài khoản** được hiển thị để người d�
 
 ![](images/fin_DM_HeThongTK_2.png)
 
-2. Để khai báo thêm Nhóm người dùng, người dùng nhấn nút **Tạo** trên màn hình **Hệ thống tài khoản** và thực hiện Khai báo các thông tin: 
+**Bước 2:** Để khai báo thêm Nhóm người dùng, người dùng nhấn nút **Tạo** trên màn hình **Hệ thống tài khoản** và thực hiện Khai báo các thông tin: 
 
 ![](images/fin_DM_HeThongTK_Tao.png)
 
@@ -575,7 +538,7 @@ Thông tin **Hệ thống tài khoản** được hiển thị để người d�
 
 ![](images/fin_DM_HeThongTK_Tao_ThietLap.png)
 
-3. Nhấn nút **Lưu**
+**Bước 3:** Nhấn nút **Lưu**
 
 **Lưu ý:**
 
@@ -594,7 +557,7 @@ Chức năng Danh mục **Tiền tệ** được quản lý tập trung tại ph
 
 **Các bước thực hiện**
 
-1. Vào Danh mục: chọn **Tiền tệ** và nhấn nút **Chi tiết**
+**Bước 1:** Vào Danh mục: chọn **Tiền tệ** và nhấn nút **Chi tiết**
 
 ![](images/fin_DM_TienTe_1.png)
 
@@ -602,11 +565,11 @@ Thông tin **Tiền tệ** được hiển thị để người dùng khai báo
 
 ![](images/fin_DM_TienTe_2.png)
 
-2. Để đưa vào hoạt động Loại tiền tệ đã có, người dùng chọn thông tin Tiền tệ đó và nhấn nút **Sửa** trên màn hình **Tiền tệ** và thực hiện Cập nhật các thông tin: 
+**Bước 2:** Để đưa vào hoạt động Loại tiền tệ đã có, người dùng chọn thông tin Tiền tệ đó và nhấn nút **Sửa** trên màn hình **Tiền tệ** và thực hiện Cập nhật các thông tin: 
 
 ![](images/fin_DM_TienTe_Sua.png)
 
-3. Nhấn nút **Lưu**
+**Bước 3:** Nhấn nút **Lưu**
 
 **Lưu ý:**
 
@@ -644,7 +607,7 @@ Chức năng Danh mục **Ngân hàng** được quản lý tập trung tại ph
 
 **Các bước thực hiện**
 
-1. Vào  **Danh mục**: chọn **Ngân hàng** và nhấn nút **Chi tiết**
+**Bước 1:** Vào  **Danh mục**: chọn **Ngân hàng** và nhấn nút **Chi tiết**
 
 ![image-20210929162554689](images/image-20210929162554689.png)
 
@@ -652,7 +615,7 @@ Thông tin **Ngân hàng** được hiển thị để người dùng khai báo
 
 ![image-20210929162720168](images/image-20210929162720168.png)
 
-2. Để khai báo thêm Nhóm người dùng, người dùng nhấn nút **Tạo** trên màn hình **Ngân hàng** và thực hiện Khai báo các thông tin: 
+**Bước 2:** Để khai báo thêm Nhóm người dùng, người dùng nhấn nút **Tạo** trên màn hình **Ngân hàng** và thực hiện Khai báo các thông tin: 
 
 ![image-20210929162815502](images/image-20210929162815502.png)
 
@@ -661,7 +624,7 @@ Thông tin **Ngân hàng** được hiển thị để người dùng khai báo
 - Địa chỉ Ngân hàng
 - Đánh dấu Sổ quỹ hay Sổ tiền mặt
 
-3. Nhấn nút **Lưu**
+**Bước 3:** Nhấn nút **Lưu**
 
 **Lưu ý:**
 
@@ -678,7 +641,7 @@ Chức năng Danh mục **Tài khoản ngân hàng** được quản lý tập t
 
 **Các bước thực hiện**
 
-1. Vào Danh mục: chọn **Tài khoản ngân hàng** và nhấn nút **Chi tiết**
+**Bước 1:** Vào Danh mục: chọn **Tài khoản ngân hàng** và nhấn nút **Chi tiết**
 
 ![](images/fin_DM_TKNganHang_1.png)
 
@@ -686,27 +649,19 @@ Thông tin **Tài khoản ngân hàng** được hiển thị để người dù
 
 ![](images/fin_DM_TKNganHang_2.png)
 
-2. Để khai báo thêm Nhóm người dùng, người dùng nhấn nút **Tạo**Trên màn hình **Tài khoản ngân hàng** và thực hiện Khai báo các thông tin: 
+**Bước 2:** Để khai báo thêm Nhóm người dùng, người dùng nhấn nút **Tạo**Trên màn hình **Tài khoản ngân hàng** và thực hiện Khai báo các thông tin: 
 
 ![image-20210929164345424](images/image-20210929164345424.png)
 
 - Số tài khoản và Ngân hàng của Tài khoản
 - Thông tin Loại tài khoản ngân hàng
 
-3. Nhấn nút **Lưu**
+**Bước 3:** Nhấn nút **Lưu**
 
 **Lưu ý:**
 
 - Nhấn **Sửa**: Nếu muốn thay đổi thông tin Tài khoản Ngân hàng đã khai báo
 - Với các Tài khoản ngân hàng không có nhu cầu theo dõi tiếp, sử dụng chức năng **Sửa** và Bỏ chọn **'Có hiệu lực'**
-
-## ***Thuế***
-
-*[Các chức năng liên quan đến quản lý về Thuế]*
-
-### **Nhóm thuế**
-
-### **Thuế**
 
 ## ***Chi phí***
 
@@ -720,7 +675,7 @@ Chức năng Danh mục **Đối tượng tập hợp chi phí** được quản
 
 **Các bước thực hiện**
 
-1. Vào Danh mục: chọn **Đối tượng tập hợp chi phí** và nhấn nút **Chi tiết**
+**Bước 1:** Vào Danh mục: chọn **Đối tượng tập hợp chi phí** và nhấn nút **Chi tiết**
 
 ![image-20210929174139156](images/image-20210929174139156.png)
 
@@ -728,11 +683,11 @@ Thông tin **Đối tượng tập hợp chi phí** được hiển thị để 
 
 ![image-20210929174221110](images/image-20210929174221110.png)
 
-2. Để khai báo thêm Đối tượng tập hợp chi phí, người dùng nhấn nút **Tạo** trên màn hình **Đối tượng tập hợp chi phí** và thực hiện Khai báo các thông tin: 
+**Bước 2:** Để khai báo thêm Đối tượng tập hợp chi phí, người dùng nhấn nút **Tạo** trên màn hình **Đối tượng tập hợp chi phí** và thực hiện Khai báo các thông tin: 
 
 ![image-20210929174808304](images/image-20210929174808304.png)
 
-3. Nhấn nút **Lưu**
+**Bước 3:** Nhấn nút **Lưu**
 
 **Lưu ý:**
 
@@ -749,7 +704,7 @@ Chức năng Danh mục **Khoản mục chi phí** được quản lý tập tru
 
 **Các bước thực hiện**
 
-1. Vào Danh mục: chọn **Khoản mục chi phí** và nhấn nút **Chi tiết**
+**Bước 1:** Vào Danh mục: chọn **Khoản mục chi phí** và nhấn nút **Chi tiết**
 
 ![](images/fin_DM_KhoanMucCP_1.png)
 
@@ -757,11 +712,11 @@ Thông tin **Khoản mục chi phí** được hiển thị để người dùng
 
 ![](images/fin_DM_KhoanMucCP_2.png)
 
-2. Để khai báo thêm Khoản mục chi phí, người dùng nhấn nút **Tạo** trên màn hình **Khoản mục chi phí** và thực hiện Khai báo các thông tin: 
+**Bước 2:** Để khai báo thêm Khoản mục chi phí, người dùng nhấn nút **Tạo** trên màn hình **Khoản mục chi phí** và thực hiện Khai báo các thông tin: 
 
 ![image-20210929175458017](images/image-20210929175458017.png)
 
-3. Nhấn nút **Lưu**
+**Bước 3:** Nhấn nút **Lưu**
 
 **Lưu ý:**
 
@@ -782,7 +737,7 @@ Chức năng Danh mục **Sổ kế toán** được quản lý tập trung tạ
 
 **Các bước thực hiện**
 
-1. Vào **Danh mục**: chọn **Sổ kế toán** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Sổ kế toán** và nhấn nút **Chi tiết**
 
 ![](images/fin_DM_SoKeToan_1.png)
 
@@ -790,7 +745,7 @@ Thông tin **Danh mục Sổ kế toán** được hiển thị để người d
 
 ![](images/fin_DM_SoKeToan_2.png)
 
-2. Để khai báo thêm Sổ, người dùng nhấn nút **Tạo**Trên màn hình **Sổ kế toán** và thực hiện Khai báo các thông tin: 
+**Bước 2:** Để khai báo thêm Sổ, người dùng nhấn nút **Tạo**Trên màn hình **Sổ kế toán** và thực hiện Khai báo các thông tin: 
 
 ![](images/fin_DM_SoKeToan_Tao.png)
 
@@ -798,27 +753,4 @@ Thông tin **Danh mục Sổ kế toán** được hiển thị để người d
 - Chi nhánh: Khai báo áp dụng nhiều Sổ cho chi nhánh cụ thể, hoặc để trống để áp dụng khai báo cho toàn Công ty
 - Tên sổ: Thông tin để quản lý
 
-3. Nhấn nút **Lưu**
-
-### **Nhóm chứng từ**
-
-**Mục đích**
-
-Chức năng này cho phép người dùng khai báo Nhóm chứng từ sử dụng trên hệ thống
-
-**Các bước thực hiện**
-
-1. Vào **Danh mục\Nhóm chứng từ**, nhấn ***Chi tiết***
-
-![](images/fin_DM_NhomCT_1.png)
-
-2. Khai báo các thông tin chi tiết của Nhóm chứng từ 
-
-![](images/fin_DM_NhomCT_2.png)
-
-- Mã nhóm: Không trùng với Mã đã khai báo 
-- Tên nhóm: Thông tin để quản lý
-- Model: quyết định việc lấy dữ liệu bút toán tại các phần hành
-- Domain filter: Điều kiện để lọc dữ liệu, áp dụng cho phần Đánh CTGS
-
-3. Nhấn nút **Lưu**
+**Bước 3:** Nhấn nút **Lưu**

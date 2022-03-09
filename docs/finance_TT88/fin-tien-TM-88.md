@@ -1,12 +1,8 @@
 # Quy trình nghiệp vụ
 
-Kế toán được sử dụng để  :
+Phân hệ **Ngân quỹ** quản lý tình hình thu/chi tiền mặt và tiền gửi ngân hàng của doanh nghiệp, giúp kế toán hạn chế ghi nhận sai và chi âm tiền. Hỗ trợ kiểm soát những hóa đơn bán hàng/ hóa đơn mua hàng chưa thanh toán hoặc đã thanh toán một phần
 
-- Quản lý tình hình thu, chi, tồn tiền mặt
-- Hỗ trợ phiếu in theo mẫu TT88
-- Lên các báo cáo sổ quỹ tiền mặt, báo cáo kế toán
-
-Quy trình nghiệp vụ
+**Quy trình**
 
 ![TM_2218](images/TM_2218.PNG)
 
@@ -15,6 +11,8 @@ Quy trình nghiệp vụ
 ·     Lập chứng từ Thu tiền mặt. Chi tiết nghiệp vụ **[Thu tiền mặt](#thu-tien-mat)**
 
 ·     Lập chứng từ Chi tiền mặt. Chi tiết nghiệp vụ **[Chi tiền mặt](#chi-tien-mat)**
+
+·     Kiểm kê tiền mặt. Chi tiết nghiệp vụ **[Kiểm kê tiền mặt](#kiem-ke-tien-mat)**
 
 ## Thu tiền mặt
 
@@ -29,59 +27,45 @@ Quy trình nghiệp vụ
     title="Module Ngân quỹ - Thu tiền mặt" 
     src="https://www.youtube.com/embed/3nqQMly5KGY"
 ></iframe>
-
-### Nhập số dư đầu kỳ
+### Thu tiền mặt
 
 #### Mô tả nghiệp vụ
 
-Cho phép nhập số dư ban đầu cho các tài khoản không có nhu cầu theo dõi chi tiết theo đối tượng (khách hàng, nhà cung cấp, nhân viên), vật tư hàng hoá
+Khi phát sinh các nghiệp vụ thu tiền mặt từ những nguồn thu ngoài các luồng nghiệp vụ đang có như Thu tiền nhượng bán TSCĐ, Thu tiền thanh lý TSCĐ hoặc từ một nguồn thu tiền mặt khác, người dùng sử dụng tính năng Thu tiền mặt để nhập dữ liệu
 
 #### Hướng dẫn trên phần mềm
 
-1. Vào phân hệ **Ngân quỹ**, Chọn **Tiền mặt**, Chọn **Thu tiền mặt ** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
+**Bước 1:** Vào phân hệ **Ngân quỹ**, Chọn **Tiền mặt**, Chọn **Thu tiền mặt ** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
 ![PT_2201](images/PT_2201.png)
 
-2. Khai báo các thông tin của **Thu tiền mặt**
+**Bước 2:** Khai báo các thông tin của phiếu **Thu tiền mặt**
 
-- Tại mục **Lý do thu**(Tab chung) : Chọn **Số dư đầu kỳ**
-- Tại mục **Sổ nhật ký** (Tab chung): Chọn **Tiền mặt**
-- Tại mục **Tổng tiền nguyên tệ** (Tab chung): Nhập số tiền dư đầu kỳ
+- Tại mục **Lý do thu**(Tab chung) : Chọn lý do tương ứng với Nghiệp vụ đang phát sinh
+- Tại mục **Tổng tiền nguyên tệ** (Tab chung): Nhập số tiền
+- Chọn và nhập các thông tin về: Đối tượng, Người nộp tiền, Nhân viên thu ngân, Chứng từ kèm theo và Nội dung giao dịch (Nếu có)
 
-![TM_2202](images/TM_2202.png)
+![](images/fin_tienmat_phieuthu_tao.png)
 
-3. Nhấn **Lưu**
+**Bước 3:** Nhấn **Lưu**
 
-   ![TM_2203](images/TM_2203.png)
+Sau khi Lưu lại thông tin: Hệ thống tự động hiển thị thông tin bút toán với số tiền tương ứng đã nhập
 
-4. Nhấn **Xác nhận**
+Để sửa lại dữ liệu: Người dùng nhấn nút **Sửa**
 
-   ![TM_2204](images/TM_2204.png)
+![](images/fin_tienmat_phieuthu_luu.png)
 
-Lưu ý:
+**Bước 4:** Nhấn **Xác nhận**: Sau khi dữ liệu đã nhập đúng và đủ. Hệ thống đưa các bút toán vào sổ và chuyển trạng thái chứng từ thành **Đã vào sổ**
 
--  Muốn chuyển trạng thái từ Hoàn thành về Nháp thì Nhấn **Hủy xác nhận**
+Để sửa lại thông tin đã nhập Người dùng phải nhấn nút **Hủy xác nhận** 
 
-  ![TM_2205](images/TM_2205.png)
-
-- Trường hợp có nhu cầu theo dõi số dư đầu kỳ chi tiết theo Khoản mục chi phí, Công trình, Đơn hàng, Hợp đồng...
-
-  - Nhấn thêm cột dữ liệu ở Tab **Bút toán**
-    - Chọn thông tin **Khoản mục chi phí**, **Công trình**, **Đơn hàng**, **Hợp đồng**... muốn theo dõi chi tiết
-
-  ![TM_2207](images/TM_2207.png)
+![](images/fin_tienmat_phieuthu_xacnhan.png)
 
 ### Thu tiền từ khách hàng
 
 #### Mô tả nghiệp vụ
 
-Khi khách hàng mang tiền mặt đến trả nợ hoặc nhân viên đi thu tiền tại khách hàng bằng tiền mặt và mang tiền về nộp lại, sẽ phát sinh một số hoạt động sau:
-
-- Sau khi nhận được tiền trả nợ của khách hàng, nhân viên sẽ yêu cầu Kế toán lập Phiếu thu.
-- Kế toán chuyển phiếu thu cho Giám đốc ký sau đó chuyển lại cho Thủ quỹ.
-- Thủ quỹ căn cứ vào Phiếu thu để thu tiền, sau đó ký vào phiếu thu và yêu cầu người nộp ký vào, đồng thời ghi sổ quỹ.
-- Thủ quỹ lưu 1 liên, trả lại 1 liên cho Kế toán và chuyển 1 liên cho khách hàng.
-- Kế toán căn cứ vào Phiếu thu đã đủ chữ ký để ghi sổ kế toán tiền mặt và lưu trữ phiếu thu.
+Với những giao dịch khách hàng thanh toán bằng tiền mặt cho các đơn hàng, người dùng thực hiện nghiệp vụ thu tiền từ khách hàng và nhập vào hệ thống để ghi nhận thông tin.
 
 #### *Xem video hướng dẫn*
 
@@ -97,26 +81,42 @@ Khi khách hàng mang tiền mặt đến trả nợ hoặc nhân viên đi thu 
 
 #### Hướng dẫn trên phần mềm
 
-1. Vào phân hệ **Ngân quỹ**, Chọn **Tiền mặt**, Chọn **Thu tiền từ khách hàng** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+**Bước 1:** Vào phân hệ **Ngân quỹ**, Chọn **Tiền mặt**, Chọn **Thu tiền từ khách hàng** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
-![TT88_PT01](images/TT88_PT01.PNG)
+![](images/TT88_PT01.PNG.png)
 
-2. Tích chọn chứng từ khách hàng thanh toán tiền nợ
-3. Nhấn **Ghi nhận thanh toán**
+- Tích chọn chứng từ khách hàng thanh toán tiền nợ
+- Nhấn **Ghi nhận thanh toán**
 
-![TT88_PT02](images/TT88_PT02.PNG)
+![](images/TT88_PT02.PNG.png)
 
-4. Tại mục Sổ nhật ký: Chọn **Tiền mặt**
+**Bước 2:** Nhập các thông tin trên màn hình Ghi nhận thanh toán
 
-5. Trường hợp số tiền khách hàng thanh toán nhỏ hơn số nợ thực tế trên chứng từ, cần nhập lại số tiền khách hàng trả nợ vào cột **Số trả**. 
+- Tại mục Sổ nhật ký: Chọn **Tiền mặt**
 
-6. Nhấn **Tạo Thanh toán** để tạo Phiếu thu tiền mặt
+- Với thông tin Số tiền:
 
-![TT88_PT03](images/TT88_PT03.png)
+  Nếu Khách hàng trả toàn bộ số tiền theo Hóa đơn: Giữ nguyên thông tin **Số trả**
 
-2. Kiểm tra và khai báo bổ sung các thông tin của **Thu tiền mặt**
-3. Nhấn **Lưu**
-4. Nhấn **Xác nhận**
+  ![](images/TT88_PT03.PNG.png)
+
+  Nếu Khách hàng chưa trả đủ số tiền theo Hóa đơn: Thực hiện Sửa thông tin Số trả theo giá trị tiền thực tế. Với Số tiền còn lại có 2 lựa chọn
+
+  - **Giữ vẫn mở**: Khi đó hệ thống Ghi nhận theo đúng giá trị đã trả trong đợt đầu, và đánh dấu chưa thanh toán đủ
+  - **Đánh dấu đã trả đủ**: Hệ thống ghi nhận theo giá trị **Số trả** và đánh dấu đã thanh toán đủ cho Hóa đơn
+
+  ![](images/TT88_PT05_ThuTien1Phan.png)
+
+**Bước 3**: Nhấn **Tạo Thanh toán** để tạo Phiếu thu tiền mặt
+
+- Thông tin Phiếu thu tiền mặt được tạo với các thông tin đã chọn trên phần Ghi nhận thanh toán
+- Hệ thống tự động hạch toán và lên bút toán 
+
+![](images/TT88_PT04_HoanThanh.png)
+
+- Hệ thống Ghi nhận Thanh toán 1 phần cho các Hóa đơn chưa thanh toán đủ
+
+![](images/TT88_PT05_ThuTien1Phan_conLai.png)
 
 ## Chi tiền mặt
 
@@ -140,11 +140,11 @@ Kế toán thực hiện tạo Phiếu chi tiền mặt cho các dịch vụ ph�
 
 #### Hướng dẫn trên phần mềm
 
-1. Vào phân hệ **Ngân quỹ**, Chọn **Tiền mặt**, Chọn **Chi tiền mặt** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
+**Bước 1:** Vào phân hệ **Ngân quỹ**, Chọn **Tiền mặt**, Chọn **Chi tiền mặt** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
 ![TM_2208](images/TM_2208.png)
 
-2. Khai báo các thông tin của **Chi tiền mặt**
+**Bước 2:** Khai báo các thông tin của **Chi tiền mặt**
 
 - Tại mục **Đối tượng**: Chọn Khách hàng/Nhà cung cấp.
 - Tại mục **Tài khoản ngân hàng đối tượng** : Chọn tài khoản nhận tiền (Nếu có)
@@ -154,15 +154,15 @@ Kế toán thực hiện tạo Phiếu chi tiền mặt cho các dịch vụ ph�
 
 ![TM_2209](images/TM_2209.png)
 
-3. Nhấn **Lưu**
+**Bước 3:** Nhấn **Lưu**
 
 ![TM_2210](images/TM_2210.png)
 
-4. Nhấn **Xác nhận**
+**Bước 4:** Sau khi kiểm tra thông tin đã đầy đủ và chính xác , Nhấn **Xác nhận**: Khi đó thông tin bút toán được Hạch toán vào sổ
 
 ![TM_2211](images/TM_2211.png)
 
-Lưu ý:
+**Lưu ý:**
 
 -  Muốn chuyển trạng thái từ Hoàn thành về Nháp thì Nhấn **Hủy xác nhận**
 
@@ -180,24 +180,20 @@ Căn cứ vào bảng lương của nhân viên, Kế toán thực hiện tạo 
 
 #### Hướng dẫn trên phần mềm
 
-1. Vào phân hệ **Ngân quỹ**, Chọn **Tiền mặt**, Chọn **Chi tiền mặt** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
+**Bước 1:** Vào phân hệ **Ngân quỹ**, Chọn **Tiền mặt**, Chọn **Chi tiền mặt** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
 ![TM_2208](images/TM_2208.png)
 
-2. Khai báo các thông tin của **Chi tiền mặt**
+**Bước 2:** Khai báo các thông tin của **Chi tiền mặt**
 
 - Tại mục **Lý do chi**: Chọn **Chi thanh toán lương cho nhân viên bằng tiền mặt**.
 - Tại **Tổng tiền nguyên tệ**: Nhập số tiền cần thanh toán
 
 ![TM_2213](images/TM_2213.png)
 
-3. Nhấn **Lưu**
+**Bước 3:** Nhấn **Lưu**/ Xác nhận: Sau khi đã hoàn thành thông tin
 
 ![TM_2214](images/TM_2214.png)
-
-3. Nhấn **Xác nhận**
-
-Lưu ý: Muốn chuyển trạng thái từ Hoàn thành về Nháp thì Nhấn **Hủy xác nhận**
 
 ### Thanh toán các chi phí: BHXH, BHYT, BH thất nghiệp
 
@@ -217,22 +213,22 @@ Khi công ty phát sinh các nghiệp vụ nộp bảo hiểm cho nhân viên, t
 
 #### Hướng dẫn trên phần mềm
 
-1. Vào phân hệ **Ngân quỹ**, Chọn **Tiền mặt**, Chọn **Chi tiền mặt** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
+**Bước 1:** Vào phân hệ **Ngân quỹ**, Chọn **Tiền mặt**, Chọn **Chi tiền mặt** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
 ![TM_2208](images/TM_2208.png)
 
-2. Khai báo các thông tin của **Chi tiền mặt**
+**Bước 2:** Khai báo các thông tin của **Chi tiền mặt**
 
 - Tại mục **Lý do chi**: Chọn **Chi trả bảo hiểm xã hội** hoặc **Chi trả bảo hiểm y tế** hoặc **Chi trả bảo hiểm thất nghiệp**
 - Tại **Tổng tiền nguyên tệ**: Nhập số tiền cần thanh toán
 
 ![TM_2215](images/TM_2215.png)
 
-3. Nhấn **Lưu**
+**Bước 3:** Nhấn **Lưu**
 
 ![TM_2216](images/TM_2216.png)
 
-4. Nhấn **Xác nhận**
+**Bước 4:** Nhấn **Xác nhận**: Ghi nhận thông tin các bút toán được Hạch toán vào Sổ
 
 ![TM_2217](images/TM_2217.png)
 
@@ -242,13 +238,7 @@ Lưu ý: Muốn chuyển trạng thái từ Hoàn thành về Nháp thi
 
 #### Mô tả nghiệp vụ
 
-Khi nhà cung cấp đến nhận tiền mặt trực tiếp hoặc nhân viên mua hàng mang tiền mặt đến trả nợ cho nhà cung cấp sẽ phát sinh một số hoạt động sau:
-
-- Sau khi nhận được yêu cầu trả nợ của nhà cung cấp hoặc yêu cầu của Giám đốc chi trả nợ cho nhà cung cấp, nhân viên làm đề nghị thanh toán và chuyển Kế toán sẽ lập Phiếu chi.
-- Kế toán chuyển Phiếu chi cho Giám đốc ký duyệt sau đó chuyển lại cho Thủ quỹ.
-- Thủ quỹ căn cứ vào Phiếu chi để chi tiền, sau đó ký vào phiếu chi và yêu cầu người nhận tiền ký vào, đồng thời ghi sổ quỹ.
-- Thủ quỹ lưu 1 liên, trả lại 1 liên cho Kế toán và chuyển 1 liên cho nhà cung cấp.
-- Kế toán căn cứ vào Phiếu chi đã đủ chữ ký để ghi sổ kế toán tiền mặt và lưu trữ Phiếu chi.
+Với những giao dịch chi trả đơn hàng cho nhà cung cấp bằng tiền mặt, người dùng thực hiện nghiệp vụ Chi trả tiền cho nhà cung cấp và nhập vào hệ thống để ghi nhận thông tin
 
 #### *Xem video hướng dẫn*
 
@@ -264,24 +254,25 @@ Khi nhà cung cấp đến nhận tiền mặt trực tiếp hoặc nhân viên 
 
 #### Hướng dẫn trên phần mềm
 
-1. Tại phân hệ **Ngân quỹ**, Chọn **Tiền mặt**, Chọn **Thanh toán cho nhà cung cấp** (Hoặc thực hiện tìm kiếm trức tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+**Bước 1:** Tại phân hệ **Ngân quỹ**, Chọn **Tiền mặt**, Chọn **Thanh toán cho nhà cung cấp** (Hoặc thực hiện tìm kiếm trức tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
 ![TT88_PC01](images/TT88_PC01.PNG)
 
-2. Tích chọn chứng từ khách hàng thanh toán tiền nợ
-3. Nhấn **Ghi nhận thanh toán**
+**Bước 2:** Tích chọn chứng từ khách hàng thanh toán tiền nợ: Nhấn **Ghi nhận thanh toán**
 
 ![TT88_PC02](images/TT88_PC02.PNG)
 
-4. Tại mục Sổ nhật ký: Chọn **Tiền mặt**
-5. Trường hợp số tiền khách hàng thanh toán nhỏ hơn số nợ thực tế trên chứng từ, cần nhập lại số tiền khách hàng trả nợ vào cột **Số trả**. 
-6. Nhấn **Tạo Thanh toán** để tạo Phiếu chi tiền mặt
+**Bước 3:** Trên thông tin Ghi nhận thanh toán Chọn/Nhập một số thông tin:
+
+- Tại mục Sổ nhật ký: Chọn **Tiền mặt**
+
+- Thực hiện chi trả số tiền đủ theo Hóa đơn hoặc chỉ chi trả một phần: Người dùng điều chỉnh thông tin tiền tại cột **'Số trả'**
 
 ![TT88_PC03](images/TT88_PC03.PNG)
 
-7. Kiểm tra và khai báo bổ sung các thông tin của **Phiếu chi**
-8. Nhấn **Lưu**
-9. Nhấn **Xác nhận**
+**Bước 4:** Nhấn **Tạo Thanh toán** để tạo Phiếu chi tiền mặt: Hệ thống tự động Tạo phiếu chi và ghi nhận thông tin thanh toán: Đã trả đủ hoặc Đã trả 1 phần
+
+![](images/TT88_PC05_DanhSach.png)
 
 ## Kiểm kê tiền mặt
 
@@ -308,11 +299,11 @@ Khi nhà cung cấp đến nhận tiền mặt trực tiếp hoặc nhân viên 
 
 ### Hướng dẫn trên phần mềm
 
-1. Vào phân hệ **Ngân quỹ**, Chọn **Tiền mặt**, Chọn **Kiểm kê tiền mặt** (Hoặc thực hiện Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
+**Bước 1:** Vào phân hệ **Ngân quỹ**, Chọn **Tiền mặt**, Chọn **Kiểm kê tiền mặt** (Hoặc thực hiện Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
 ![TT88_KKQ01](images/TT88_KKQ01.PNG)
 
-2. Khai báo các thông tin **Kiểm kê tiền mặt**
+**Bước 2:** Khai báo các thông tin **Kiểm kê tiền mặt**
 
 - Tại mục **Đơn vị** : Chọn Chi nhánh kiểm kê
 - Tại mục **Kiểm kê đến ngày**: Chọn Ngày kiểm kê
@@ -327,13 +318,8 @@ Khi nhà cung cấp đến nhận tiền mặt trực tiếp hoặc nhân viên 
 
 ![TT88_KKQ03](images/TT88_KKQ03.PNG)
 
-3. Nhấn **Xử lý chênh lệch**
+**Bước 3:** Nhấn **Xử lý chênh lệch**
 
 - Căn cứ vào thực tế kiểm kê thừa hay thiếu, hệ thống tự động sinh ra Phiếu thu/Phiếu chi tương ứng. Cụ thể:
   - Trường hợp Số kiểm kê thực tế < Số dư trên sổ kế toán, hệ thống sẽ tự động sinh ra **Phiếu chi** để xử lý giá trị thừa.
   - Trường hợp Số kiểm kê thực tế > Số dư trên sổ kế toán, hệ thống sẽ tự động sinh ra **Phiếu thu** để xử lý giá trị thiếu.
-
-4. Kiểm tra và khai báo bổ sung các thông tin của **Chi tiền mặt**
-5. Nhấn **Lưu**
-6. Nhấn **Xác nhận**
-

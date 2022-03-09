@@ -2,14 +2,12 @@
 
 Là nơi tập hợp tất cả dữ liệu tài chính từ mọi bộ phận. Phần mềm Kế toán sẽ xử lý tổng thể việc quản trị kế toán (sổ cái, các khoản phải thu, phải trả), mua hàng, bán hàng, kho vận và thanh toán.Cung cấp bức tranh toàn cảnh về tài chính doanh nghiệp. Hỗ trợ lập tài chính một cách hiệu quả
 
-Phần mềm kế toán đáp ứng các Chế độ kế toán theo:
-
-- Thông tư 88/2021/TT-BTC, hướng dẫn Chế độ kế toán cho hộ , cá nhân kinh doanh
+Phần mềm kế toán đáp ứng được Chế độ kế toán cho hộ, cá nhân kinh doanh theo Thông tư 88/2021/TT-BTC
 
 Phần mềm Kế toán giúp hộ kinh doanh: 
 
-- Làm việc hiểu quả với các nghiệp phát sinh đều được định nghĩa bằng các tài khoản và quy tắc hạch toán thống nhất; Dữ liệu của kế toán được cập nhật và xử lý tự động, tích hợp nhiều phân hệ khác nhau trên cùng một hệ thống như: Mua hàng, Bán hàng, Kho..
-- Dữ liệu chính xác với việc kiểm soát đơn hàng, kho hàng, hóa đơn nhà cung cấp. Quản lý luồng tiền vào ra trên hệ thống. Đồng thời, dự báo cụ thể về lịch trình thanh toán, các luồng chi phí phát sinh trong ngắn hạn, dài hạn. 
+- Làm việc hiệu quả với các nghiệp vụ phát sinh đều được định nghĩa sẵn với từng thông tin tài khoản và quy tắc hạch toán thống nhất; Dữ liệu của kế toán được cập nhật và xử lý tự động, tích hợp nhiều phân hệ khác nhau trên cùng một hệ thống như: Mua hàng, Bán hàng, Kho..
+- Dữ liệu chính xác với việc kiểm soát chi tiết từng đơn hàng, kho hàng, hóa đơn nhà cung cấp. Quản lý luồng tiền vào ra trên hệ thống. Đồng thời, dự báo cụ thể về lịch trình thanh toán, các luồng chi phí phát sinh trong ngắn hạn, dài hạn. 
 - Tập hợp các dữ liệu đầy đủ và linh hoạt dựa trên các báo cáo tài chính. Truy suất dữ liệu đa chiều, nhanh chóng và chính xác. Đồng thời truy vết được các bút toán cấu thành một cách tức thì.
 
 ![image-20210930081951024](images/image-20210930081951024.png)
@@ -38,7 +36,7 @@ Hiển thị các danh mục cơ bản để người dùng có thể khai báo 
 
 Việc khai báo này có thể thực hiện tại bất kỳ thời điểm nào: trước khi tiến hành Nhập hay ngay tại Thời điểm đang nhập Chứng từ
 
-Để phục vụ cho việc cập nhập số dư ban đầu của dữ liệu kế toán, Người dùng nên khai báo trước một số một số Danh mục về Đối tượng, Nhân viên, Hàng hóa, Nhà cung cấp... tại Module **Danh mục**
+Để phục vụ cho việc cập nhập số dư ban đầu của dữ liệu kế toán, Người dùng nên khai báo trước một số một số Danh mục về Đối tượng, Nhân viên, Hàng hóa, Nhà cung cấp... tại **Danh mục**
 
 ![](images/fin_ThietLap_DanhMuc.png)
 
@@ -62,14 +60,6 @@ Hiển thị thông tin Hệ thống tài khoản theo Thông tư đã lựa ch�
 
 ![](images/fin_ThietLap_TaiKhoan.png)
 
-#### **Nhập số dư ban đầu**
-
-Người dùng nhập các thông tin số dư ban đầu cho các tài khoản 
-
-Số dư ban đầu được lưu trữ độc lập giữa hai hệ thống **Sổ quản trị** và **Sổ tài chính**.
-
-![](images/fin_ThietLap_SoDuBanDau.png)
-
 #### Khai báo tồn hàng đầu kỳ
 
 Sau khi tạo mới được hàng hóa vật tư, người dùng có thể khai báo số lượng mặt hàng tồn đầu kỳ hiện có ngoài thực tế
@@ -92,11 +82,9 @@ Người dùng thực hiện chọn **kho**, nhập **số lượng thực tế*
 
 ## Liên kết nhanh
 
-Hiển thị danh sách các danh mục,chức năng của hệ thống mà người dùng thường xuyên sử dụng để hỗ trợ người dùng mở danh mục, chức năng nhanh hơn mà không cần mở phân hệ chức năng nghiệp vụ.
+Hiển thị danh sách các danh mục,chức năng của hệ thống mà người dùng thường xuyên sử dụng để hỗ trợ người dùng mở danh mục, chức năng nhanh hơn mà không cần vào từng Phân hệ để mở chức năng nghiệp vụ.
 
 ![](images/LKN_01.png)
-
-
 
 
 
