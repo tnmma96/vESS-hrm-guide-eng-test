@@ -216,6 +216,8 @@
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-kho-88/">Kho vận</a>
                     </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-thue-88/">Thuế</a>
+                    </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-bao-cao-88/">Báo cáo</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../fin-log-histories-88/">Lịch sử phát triển sản phẩm</a>
@@ -335,27 +337,17 @@
             <div class="section">
               
                 <h1 id="quy-trinh-nghiep-vu"><em>Quy trình nghiệp vụ</em></h1>
-<p>Quy trình bán hàng là một loạt các bước cần thực hiện để thúc đẩy hoạt động bán hàng tại các hộ kinh doanh nhỏ lẻ.Việc xây dựng quy trình bán hàng trên hệ thống sẽ giúp các hộ kinh doanh xác định được các cơ hội bán hàng và tỷ lệ thành công của các cơ hội đó từ đó xác định được các chiến lược kinh doanh phù hợp để đạt được doanh thu lớn nhất. Quy trình sẽ bao gồm các chức năng: Từ tạo đơn bán hàng đến hóa đơn bán hàng, ghi nhận thanh toán cho khách hàng</p>
-<p>Khi phát sinh nghiệp vụ bán hàng hóa, dịch vụ, thông thường sẽ phát sinh các hoạt động sau:</p>
-<ul>
-<li>
-<p>Người bán hàng có thể thực hiện tiếp thị, chào bán sản phẩm cho các khách hàng có nhu cầu</p>
-</li>
-<li>
-<p>Sau khi khách hàng gọi điện hoặc gửi mail yêu cầu giao hàng cho khách hàng thì hộ kinh doanh thực hiện lập đơn bán hàng cho khách</p>
-</li>
-<li>Thực hiện xuất kho hàng hoá và ghi Sổ kho</li>
-<li>Hộ kinh doanh bàn giao hàng hóa cho khách hàng, lập và  gửi hóa đơn GTGT cho khách hàng</li>
-<li>Hộ kinh doanh sẽ ghi nhận thanh toán từ khách hàng. Nếu khách hàng thanh toán bằng tiền mặt  thì người bán hàng sẽ nhận tiền và mang về nhập quỹ, nếu thanh toán bằng tiền gửi thì khách hàng sẽ chuyển khoản vào tài khoản của công ty. </li>
-</ul>
+<p>Phân hệ <strong>Bán hàng</strong> quản lý toàn bộ quy trình bán hàng từ bước lên đơn hàng, xuất hóa đơn và ghi nhận thanh toán từ khách hàng. Phân hệ <strong>Bán hàng</strong> liên kết với phân hệ <strong>Kho</strong> để kiểm tra số lượng tồn khả dụng của sản phẩm, đồng thời tự động sinh phiếu nhập xuất và ghi nhận giá vốn hàng hóa sau khi xuất hóa đơn bán hàng.</p>
+<p><strong>Quy trình</strong></p>
 <p><img alt="" src="../images/fin_banhang_quytrinh.png" /></p>
 <p><strong>Các luồng quy trình</strong></p>
 <p>·     Lập đơn bán hàng gửi khách hàng. Chi tiết thao tác chức năng <strong><a href="#lap-on-ban-hang">tại đây</a></strong></p>
 <p>·     Xuất kho đơn bán hàng. Chi tiết thao tác chức năng <a href="#xuat-kho-on-ban-hang"><strong>tại đây</strong></a></p>
 <p>·     Tạo hóa đơn bán hàng. Chi tiết thao tác chức năng <strong><a href="#hoa-on-ban-hang">tại đây</a></strong></p>
+<p>·     Tạo hóa đơn bán hàng - Giảm thuế 20%. Chi tiết thao tác chức năng <strong><a href="#hoa-on-ban-hang-giam-thue-20">tại đây</a></strong></p>
 <p>·     Ghi nhận thanh toán từ khách hàng. Chi tiết thao tác chức năng <strong><a href="ghi-nhan-thanh-toan-tu-khach-hang">tại đây</a></strong></p>
 <p>·     Xuất hóa đơn điện tử. Chi tiết thao tác chức năng <strong><a href="xuat-hoa-on-ien-tu">tại đây</a></strong></p>
-<p>·     Tạo hóa đơn giảm giá/Trả hàng.  Chi tiết thao tác chức năng <strong><a href="hoa-on-giam-giatra-hang">tại đây</a></strong></p>
+<p>·     Tạo hóa đơn giảm giá/Trả hàng. Chi tiết thao tác chức năng <strong><a href="hoa-on-giam-giatra-hang">tại đây</a></strong></p>
 <h2 id="lap-on-ban-hang"><em>Lập đơn bán hàng</em></h2>
 <h3 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h3>
 <p><strong>Nghiệp vụ</strong></p>
@@ -379,22 +371,24 @@
 <p>Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống</p>
 <p><img alt="" src="../images/fin_banhang_vaochucnang_nhanh.png" /></p>
 <p><img alt="" src="../images/fin_banhang_danhsach.png" /></p>
-<p><strong>Bước 2:</strong> Nhấn nút <strong>Tạo</strong> <img alt="" src="../images/fin_banhang_taomoi.png" />trên chức năng để thực hiện thêm một đơn hàng mới. Khai báo các thông tin chi tiết trên đơn bán hàng. Lưu ý: Các ô màu hồng là những thông tin cần bắt buộc nhập</p>
+<p><strong>Bước 2:</strong> Nhấn nút <strong>Tạo</strong> <img alt="" src="../images/fin_banhang_taomoi.png" />trên chức năng để thực hiện thêm một đơn hàng mới. Khai báo các thông tin chi tiết trên đơn bán hàng. </p>
+<p><strong>Lưu ý</strong>: Các ô màu hồng là những thông tin cần bắt buộc nhập</p>
 <p><img alt="" src="../images/fin_banhang_tabchung.png" /></p>
-<p>·     Chọn thông tin <strong><em>khách hàng</em></strong>. Nếu chưa có khách hàng thì có thể nhập bổ sung thêm bằng cách nhập tên khách hàng và chọn tạo mới <img alt="" src="../images/fin_banhang_khachhang.png" /></p>
+<p>·     Chọn thông tin <strong><em>khách hàng</em></strong>. Nếu chưa có khách hàng thì có thể nhập bổ sung thêm bằng cách nhập tên khách hàng và chọn tạo mới </p>
+<p><img alt="" src="../images/fin_banhang_khachhang.png" /></p>
 <p>hoặc vào đường dẫn <strong>Danh mục/Khách hàng</strong> và thực hiện thêm mới</p>
 <p><img alt="" src="../images/fin_banhang_danhmuc_khachhang.png" /></p>
 <p>·     Chọn <strong><em>bảng giá</em></strong>,  là tiền tệ giao dịch trong Đơn hàng</p>
 <p>·     Khai báo thêm thông tin về <strong><em>Ngày đặt hàng, hiệu lực đến, điều khoản thanh toán</em></strong> (Xác định thời gian để thanh toán), <strong><em>nội dung</em></strong> chi tiết đơn hàng</p>
-<p>Mục Điều khoản thanh toán: Nếu có thỏa thuận về điều kiện thanh toán với khách hàng, thực hiện chọn thông tin Điều khoản đã được khai báo trên Danh mục <strong>Điều khoản thanh toán</strong> . Trường hợp đã thiết lập điều khoản thanh toán cho từng khách hàng tại danh mục <strong>Khách hàng</strong> thì chương trình sẽ tự động hiển thị sẵn thông tin này theo nhà cung cấp được chọn</p>
-<p>·     Khai báo thêm thông tin về Sản phẩm/dịch vụ tại chi tiết đơn hàng bằng cách nhấn chọn thêm sản phẩm   <img alt="" src="../images/fin_banhang_themsanpham.png" /></p>
+<p>Mục <strong>Điều khoản thanh toán</strong>: Nếu có thỏa thuận về điều kiện thanh toán với khách hàng, thực hiện chọn thông tin Điều khoản đã được khai báo trên Danh mục <strong>Điều khoản thanh toán</strong> . Trường hợp đã thiết lập điều khoản thanh toán cho từng khách hàng tại danh mục <strong>Khách hàng</strong> thì chương trình sẽ tự động hiển thị sẵn thông tin này theo nhà cung cấp được chọn</p>
+<p>·     Khai báo thêm thông tin về Sản phẩm/dịch vụ tại chi tiết đơn hàng bằng cách nhấn chọn <strong>Thêm sản phẩm</strong>   <img alt="" src="../images/fin_banhang_themsanpham.png" /></p>
 <p>​           Chọn các sản phẩm bán hàng cho khách hàng</p>
 <p>​           Nhập thông tin Số lượng, Đơn giá,  mức Thuế đối với từng Sản phẩm</p>
 <p><img alt="" src="../images/fin_banhang_chitiet.png" /></p>
 <p>​           Khi thực hiện Thêm ghi chú --&gt; Thông tin nội dung sẽ được in trên file gửi khách hàng</p>
 <p><strong>Bước 3</strong>: Nhấn <strong>Lưu</strong></p>
 <h4 id="thuc-hien-gui-on-hang-cho-khach-hang"><strong>Thực hiện gửi đơn hàng cho khách hàng</strong></h4>
-<p><strong>Bước 1</strong>: Sau khi đã có đơn hàng để gửi khách hàng, Thực hiện <strong>In</strong> đơn hàng bằng cách chọn chức năng In</p>
+<p><strong>Bước 1</strong>: Sau khi đã có đơn hàng để gửi khách hàng, Thực hiện <strong>In đơn hàng</strong> bằng cách chọn chức năng <strong>In</strong></p>
 <p><img alt="" src="../images/fin_banhang_donhang_in.png" /></p>
 <p><strong>Bước 2:</strong> Thực hiện <strong>Gửi qua Email</strong> đến khách hàng sau khi hoàn thành  báo giá, có thể tùy chỉnh thông tin mẫu gửi báo giá theo yêu cầu</p>
 <p><img alt="" src="../images/fin_BanHang_donhang_GuiEmail.png" /></p>
@@ -405,7 +399,7 @@
 <p><img alt="" src="../images/fin_banhang_donhang_xoa.png" /></p>
 <h2 id="xuat-kho-on-ban-hang"><em>Xuất kho đơn bán hàng</em></h2>
 <h3 id="mo-ta-nghiep-vu_1">Mô tả nghiệp vụ</h3>
-<p>Sau khi thực hiện Xác nhận đơn hàng, chương trình tự động sinh ra một yêu cầu giao hàng. Người dùng có thể theo dõi tình trạng giao hàng của sản phẩm trên phiếu xuất kho đã sinh ra và xác nhận số lượng sản phẩm bàn giao theo đơn hàng </p>
+<p>Sau khi thực hiện <strong>Xác nhận đơn hàng</strong>, chương trình tự động sinh ra một yêu cầu giao hàng. Người dùng có thể theo dõi tình trạng giao hàng của sản phẩm trên phiếu xuất kho đã sinh ra và xác nhận số lượng sản phẩm bàn giao theo đơn hàng </p>
 <p><img alt="" src="../images/fin_banhang_donhang_phieuxuat.png" /></p>
 <p><strong>Xem video hướng dẫn</strong></p>
 <p><iframe
@@ -423,7 +417,7 @@
 <p><img alt="" src="../images/fin_banhang_donhang_pxk.png" /></p>
 <p><strong>Bước 2</strong>: Thực hiện nhập số lượng hàng đã hoàn thành giao cho khách hàng </p>
 <ul>
-<li>Nếu Số lượng xuất kho đủ theo Số lượng của Đơn bánhàng: Thực hiện nhấn <strong>Xác nhận</strong> để xác nhận toàn bộ Đơn hàng</li>
+<li>Nếu Số lượng xuất kho đủ theo Số lượng của Đơn bán hàng: Thực hiện nhấn <strong>Xác nhận</strong> để xác nhận toàn bộ Đơn hàng</li>
 </ul>
 <p><img alt="" src="../images/fin_banhang_donhang_pxk_xacnhan.png" /></p>
 <ul>
@@ -442,8 +436,8 @@
 <p>Sau khi giao hàng thành công, người dùng thực hiện kiểm tra dữ liệu và lập hóa đơn bán hàng và gửi hóa đơn cho khách hàng</p>
 <h3 id="huong-dan-tren-phan-mem_2">Hướng dẫn trên phần mềm</h3>
 <p>Người dùng có thể lập hóa đơn bán hàng theo hai cách khác nhau</p>
-<p>Cách 1:Lập hóa đơn bán hàng từ đơn bán hàng. Chi tiết nghiệp vụ <strong><a href="#Lap-hoa-don-ban-hang-tu-don-ban-hang">tại đây</a></strong></p>
-<p>Cách 2: Lập hóa đơn bán hàng không từ đơn bán hàng. Chi tiết nghiệp vụ <strong><a href="#Lap-hoa-don-ban-hang-khong-tu-don-ban-hang">tại đây</a></strong></p>
+<p><strong>Cách 1</strong>:Lập hóa đơn bán hàng từ đơn bán hàng. Chi tiết nghiệp vụ <strong><a href="#Lap-hoa-don-ban-hang-tu-don-ban-hang">tại đây</a></strong></p>
+<p><strong>Cách 2</strong>: Lập hóa đơn bán hàng không từ đơn bán hàng. Chi tiết nghiệp vụ <strong><a href="#Lap-hoa-don-ban-hang-khong-tu-don-ban-hang">tại đây</a></strong></p>
 <h4 id="lap-hoa-on-ban-hang-tu-on-ban-hang">Lập hóa đơn bán hàng từ đơn bán hàng</h4>
 <p><strong>Xem video hướng dẫn</strong></p>
 <p><iframe
@@ -457,7 +451,7 @@
 ></iframe>
 </p>
 <p>Đối tượng thực hiện: Người bán hàng</p>
-<p><strong>Bước 1</strong>: Vào phân hệ <strong>Bán hàng</strong>, Chọn <strong>Đơn bán hàng</strong> đã hoàn thành Giaohàng cho khách hàng và Nhấn <strong>Tạo hóa đơn</strong></p>
+<p><strong>Bước 1</strong>: Vào phân hệ <strong>Bán hàng</strong>, Chọn <strong>Đơn bán hàng</strong> đã hoàn thành Giao hàng cho khách hàng và Nhấn <strong>Tạo hóa đơn</strong></p>
 <p><img alt="" src="../images/fin_banhang_donhang_taohoadon.png" /></p>
 <p><strong>Bước 2</strong>: Trên màn hình <strong>Tạo Hóa đơn</strong>, kế toán thực hiện chọn loại hóa đơn thanh toán dựa trên số tiền khách hành thanh toán</p>
 <p><img alt="" src="../images/fin_banhang_donhang_taohoadon_popup.png" /></p>
@@ -476,10 +470,7 @@
 <li>Chọn và nhập thông tin về Thuế và Chiết khấu tương ứng của Đơn hàng (Nếu có)</li>
 </ul>
 <p><img alt="" src="../images/fin_banhang_donhang_hoadon_tabchitiet.png" /></p>
-<p><strong>Bước 4</strong>:  Nếu hóa đơn có nhu cầu liên kết với chứng từ khác để theo dõi, vào mục Tham chiếu, thêm chứng từ tham chiếu và thực hiện tìm kiếm chứng từ</p>
-<p><img alt="" src="../images/fin_banhang_hoadon_thamchieu.png" /></p>
-<p><img alt="" src="../images/fin_banhang_hoadon_thamchieu_popup.png" /></p>
-<p><strong>Bước 5</strong>: Nhân viên thực hiện nhấn <strong>Xác nhận</strong></p>
+<p><strong>Bước 4</strong>: Nhân viên thực hiện nhấn <strong>Xác nhận</strong></p>
 <p><strong>Lưu ý:</strong> Để nhìn lại tình trạng hóa đơn của đơn bán hàng, người dùng có thể vào chức năng đơn bán hàng, nhấn chọn <strong>Hóa đơn</strong> tại góc phải màn hình </p>
 <p><img alt="" src="../images/fin_banhang_donhang_hoadon_button.png" /></p>
 <h4 id="lap-hoa-on-ban-hang-khong-tu-on-ban-hang">Lập hóa đơn bán hàng không từ đơn bán hàng</h4>

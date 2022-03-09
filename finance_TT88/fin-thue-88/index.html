@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Thuế - Hướng dẫn sử dụng hệ thống vESS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Thu\u1ebf";
+    var mkdocs_page_input_path = "finance_TT88\\fin-thue-88.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../..">Trang chủ</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Đăng ký, đăng nhập</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-login/">Đăng nhập, đăng xuất</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-QRcode/">Đăng nhập bằng QR code</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-DangNhapG/">Đăng nhập bằng G+</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-xac-thuc-hai-buoc/">Xác thực 2 bước</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Nhân sự</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Nhân viên</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/payroll/">Tính lương</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán - Dành cho kế toán doanh nghiệp</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-hoa-don-dien-tu/">Hóa đơn</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Tổng hợp</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ccdc/">Công cụ dụng cụ</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-giathanh/">Giá thành</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Kế toán - Dành cho hộ, cá thể kinh doanh</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-introduction-88/">Giới thiệu về phân hệ Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-initialization-88/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-abbreviations-88/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-danh-muc-new-88/">Khai báo danh mục</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-TM-88/">Quản lý tiền - Tiền mặt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-tien-NH-88/">Quản lý tiền - Tiền gửi</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-mua-hang-88/">Mua hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-ban-hang-88/">Bán hàng</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-hoa-don-dien-tu-88/">Hóa đơn điện tử</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-ke-toan-tong-hop-88/">Kế toán</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-kho-88/">Kho vận</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Thuế</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#thiet-lap-co-quan-thue-ai-ly-thue">Thiết lập cơ quan thuế, đại lý thuế</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#xem-video-huong-dan">Xem video hướng dẫn</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#huong-dan-tren-phan-mem">Hướng dẫn trên phần mềm</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#to-khai-ca-nhan-kinh-doanh-01cnkd-tt402021">Tờ khai cá nhân kinh doanh (01/CNKD) (TT40/2021)</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_1">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#xem-video-huong-dan_1">Xem video hướng dẫn</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#huong-dan-tren-phan-mem_1">Hướng dẫn trên phần mềm</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#to-khai-thue">Tờ khai thuế</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#phu-luc-01-11bk-cnkd">Phụ lục 01-11BK-CNKD</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#phu-luc-01-2bk-hkd">Phụ lục 01-2/BK-HĐKD</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#to-khai-bo-sung">Tờ khai bổ sung</a>
+        <ul>
+    <li class="toctree-l5"><a class="reference internal" href="#phu-luc-to-khai-bo-sung-01-khbs">Phụ lục tờ khai bổ sung 01-KHBS</a>
+    </li>
+    <li class="toctree-l5"><a class="reference internal" href="#phu-luc-to-khai-bo-sung-01-1khbs">Phụ lục tờ khai bổ sung 01-1/KHBS</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-bao-cao-88/">Báo cáo</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fin-log-histories-88/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Tài liệu</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/introduction/">Giới thiệu về ứng dụng Tài liệu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../document/document/">Tài liệu</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Ký số</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/introduction/">Giới thiệu về ứng dụng Ký số</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../esign/esign/">Ký số</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Digital workplace</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Website/">Trang web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Social/">Mạng xã hội</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-project/">Dự án</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-khao-sat/">Khảo sát</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-ghi-chu/">Ghi chú</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-timesheet/">Timesheet</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-su-kien/">Sự kiện</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-bua-an/">Bữa ăn</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-PheDuyet-Web/">Phê duyệt trên web</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-meeting/">Cuộc họp trực tuyến</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-KPI/">Chỉ số đo lường KPI</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-OKR/">Chỉ số đo lường OKR</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">vESS Mobile</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Gioi-thieu-vess-mobile/">Giới thiệu về vESS mobile</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-initialization/">Thiết lập và khai báo ban đầu</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-dang-nhap/">Đăng nhập</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon-phe-duyet/">Phê duyệt trên mobile</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon-ky-so/">Ký số</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Kế toán - Dành cho hộ, cá thể kinh doanh &raquo;</li>
+        
+      
+    
+    <li>Thuế</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="quy-trinh-nghiep-vu">Quy trình nghiệp vụ</h1>
+<p>Mục Thuế cho phép người dùng thực hiện kê khai thuế CNKD theo mẫu của Tổng cục thuế</p>
+<p>Người dùng được sử dụng để  :</p>
+<ul>
+<li>Thiết lập cơ quan thuế, đại lý thuế</li>
+<li>Lập tờ khai thuế</li>
+</ul>
+<p>Quy trình nghiệp vụ</p>
+<p><img alt="fin_thue88_QT" src="../images/fin_thue88_QT.PNG" /></p>
+<p><strong>Các luồng quy trình</strong></p>
+<p>·     Thiết lập cơ quan thuế, đại lý thuế. Chi tiết nghiệp vụ <strong><a href="#thiet-lap-co-quan-thueai-ly-thue">Thiết lập cơ quan thuế, đại lý thuế</a></strong></p>
+<p>·     Lập tờ khai thuế. Chi tiết nghiệp vụ <strong><a href="#to-khai-ca-nhan-kinh-doanh-01CNKD">Tờ khai cá nhân kinh doanh (01/CNKD) (TT40/2021)</a></strong></p>
+<h2 id="thiet-lap-co-quan-thue-ai-ly-thue">Thiết lập cơ quan thuế, đại lý thuế</h2>
+<h3 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h3>
+<p>Giúp thiết lập các thông tin như thông tin đại lý thuế để in lên báo cáo thuế trong trường hợp đơn vị thuê đại lý thuế kê khai thuế; thông tin đơn vị cung cấp dịch vụ kế toán để in lên báo cáo tài chính trong trường hợp đơn vị thuê đơn vị cung cấp dịch vụ kế toán lập báo cáo tài chính; thông tin cơ quan thuế phục vụ cho việc in báo cáo thuế từ phần mềm và nộp cho cơ quan thuế qua phần mềm HTKK.</p>
+<h3 id="xem-video-huong-dan">Xem video hướng dẫn</h3>
+<h3 id="huong-dan-tren-phan-mem">Hướng dẫn trên phần mềm</h3>
+<p>Bước 1: Vào phân hệ <strong>Thuế</strong>, Chọn <strong>Danh mục</strong>, Chọn <strong>Thiết lập cơ quan thuế, đại lý thuế</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn <strong>Tạo</strong></p>
+<p><img alt="fin_thue88_01" src="../images/fin_thue88_01.PNG" /></p>
+<p>Bước 2: Khai báo các thông tin của <strong>Thiết lập cơ quan thuế, đại lý thuế</strong></p>
+<ul>
+<li>Tại <strong>Cơ quan thuế</strong>: Khai báo thông tin quan thuế cấp cục và cơ quan thuế quản lý.</li>
+</ul>
+<p><img alt="fin_thue88_02" src="../images/fin_thue88_02.PNG" /></p>
+<ul>
+<li>Trường hợp thuê đại lý thuế kê khai thuế. Tại tab <strong>Đại lý thuế:</strong></li>
+<li>Khai báo thông tin của đại lý thuế.</li>
+</ul>
+<p><img alt="fin_thue88_03" src="../images/fin_thue88_03.PNG" /></p>
+<p>Bước 3: Nhấn <strong>Lưu</strong></p>
+<p><img alt="fin_thue88_04" src="../images/fin_thue88_04.PNG" /></p>
+<h2 id="to-khai-ca-nhan-kinh-doanh-01cnkd-tt402021">Tờ khai cá nhân kinh doanh (01/CNKD) (TT40/2021)</h2>
+<h3 id="mo-ta-nghiep-vu_1">Mô tả nghiệp vụ</h3>
+<p>Tờ khai cá nhân kinh doanh là văn bản theo mẫu do Bộ tài chính quy định được người nộp thuế sử dụng để kê khai các thông tin nhằm xác định số thuế phải nộp.Tờ khai thuế đối với cá nhân kinh doanh được sử dụng theo <strong>Mẫu 01/CNKD</strong> ban hành kèm theo<a href="https://download.vn/thong-tu-40-2021-tt-btc-50840"> Thông tư 40/2021/TT-BTC</a> của Bộ Tài chính hướng dẫn về thuế GTGT, thuế TNCN và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh.</p>
+<h3 id="xem-video-huong-dan_1">Xem video hướng dẫn</h3>
+<h3 id="huong-dan-tren-phan-mem_1">Hướng dẫn trên phần mềm</h3>
+<h4 id="to-khai-thue">Tờ khai thuế</h4>
+<p>Bước 1: Vào phân hệ <strong>Thuế</strong>, Chọn <strong>Tờ khai cá nhân kinh doanh (01/CNKD) (TT40/2021)</strong>, Nhấn <strong>Tạo</strong></p>
+<p><img alt="fin_thue88_05" src="../images/fin_thue88_05.PNG" /></p>
+<p>Bước 2: Tại <strong>Chọn kỳ tính thuế</strong> thực hiện nhập dữ liệu đầu vào của tờ khai thuế</p>
+<p><img alt="fin_thue88_06" src="../images/fin_thue88_06.PNG" /></p>
+<p>Đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế theo phương pháp khoán thì chọn loại kê khai là <em>Tờ khai năm</em> và chọn năm kê khai</p>
+<p>Đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế theo phương pháp kê khai hoặc tổ chức, cá nhân khai thuế thay, nộp thuế thay khai thuế theo tháng hoặc quý thì chọn loại <em>Tờ khai tháng</em> hoặc <em>Tờ khai quý</em></p>
+<p>Đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế theo từng lần phát sinh thì chọn loại kê khai là <em>Tờ khai lần phát sinh</em></p>
+<p>Bước 3: Nhấn <strong>Đồng ý</strong> để tạo tờ khai</p>
+<p><img alt="fin_thue88_07" src="../images/fin_thue88_07.png" /></p>
+<p>Bước 4: Tại Tab tờ khai Nhấn <strong>Sửa</strong> để thực hiện nhập thông tin tờ khai</p>
+<p><img alt="" src="../images/fin_thue88_sua.png" /></p>
+<p>Thực hiện nhập các thông tin còn thiếu</p>
+<p><img alt="" src="../images/fin_thue88_nhap.png" /></p>
+<p><img alt="" src="../images/fin_thue88_nhap1.png" /></p>
+<p><img alt="" src="../images/fin_thue88_nhap2.png" /></p>
+<ol>
+<li>
+<p>Tích chọn phương pháp kê khai đúng với hình thức của hộ kinh doanh</p>
+</li>
+<li>
+<p>Chỉ tiêu [01] Kỳ tính thuế: Hệ thống tự động hiển thị thông tin theo loại tờ khai người dùng chọn</p>
+</li>
+<li>Chỉ tiêu [02] Lần đầu: Nếu khai thuế lần đầu thì hệ thống tự động đánh dấu “x” vào ô vuông.</li>
+<li>Chỉ tiêu [03] Bổ sung lần thứ: Nếu khai sau lần đầu thì được xác định là khai bổ sung và đánh số lần khai bổ sung vào ô vuông.</li>
+<li>Chỉ tiêu [04] Người nộp thuế: Mặc định tên của cá nhân đại diện nhóm kinh doanh trên Giấy chứng nhận đăng ký kinh doanh.</li>
+<li>Chỉ tiêu [05] Tên cửa hàng/thương hiệu: Tên cửa hàng cần nộp thuế</li>
+<li>Chỉ tiêu [06]  Tài khoản ngân hàng: Số tài khoản ngân hàng</li>
+<li>Chỉ tiêu [07] Mã số thuế: Ghi rõ ràng, đầy đủ mã số thuế của cá nhân kinh doanh theo Giấy chứng nhận đăng ký thuế hoặc Thông báo mã số thuế hoặc Thẻ mã số thuế do cơ quan thuế cấp.</li>
+<li>Chỉ tiêu [08] Ngành nghề kinh doanh: Chọn ngành nghề kinh doanh đã đăng ký với cơ quan thuế</li>
+<li>Chỉ tiêu [08a] Thay đổi thông tin:  Chọn lựa nếu như thông tin có sự thay đổi so với đăng ký</li>
+<li>Chỉ tiêu [09] Diện tích kinh doanh: Tổng diện tích (m2) cá nhân sử dụng cho mục đích sản xuất kinh doanh.</li>
+<li>Chỉ tiêu [09a] Đi thuê: Nếu địa điểm sử dụng cho sản xuất kinh doanh là đi thuê thì cá nhân kinh doanh đánh dấu “x” vào ô vuông.</li>
+<li>Chỉ tiêu [10] Số lượng lao động sử dụng thường xuyên: Ghi số lượng lao động cá nhân kinh doanh sử dụng thường xuyên tại cơ sở.</li>
+<li>Chỉ tiêu [11] Thời gian hoạt động trong ngày: Cá nhân ghi thời gian “từ giờ” là thời gian bắt đầu kinh doanh và “đến giờ” là giờ kết thúc kinh doanh trong ngày.</li>
+<li>Chỉ tiêu [12] Địa chỉ kinh doanh: Chọn đầy đủ địa chỉ trụ sở kinh doanh của cá nhân theo Giấy chứng nhận đăng ký kinh doanh  tại [12a],[12b],[12c],[12d],[12e]</li>
+<li>Chỉ tiêu [12] Địa chỉ cư trú: Chọn đầy đủ địa chỉ nơi cư trú của hộ cá thể tại 13a],[13b],[13c],[13d]</li>
+<li>Chỉ tiêu [14], [15], [16] Điện thoại, fax, email: Ghi rõ ràng, đầy đủ số điện thoại, số fax, địa chỉ email của cá nhân (nếu chỉ tiêu nào không có thì bỏ trống).</li>
+<li>Chỉ tiêu [17] Văn bản uỷ quyền: Trường hợp cá nhân uỷ quyền khai thuế cho tổ chức, cá nhân khác thì phải ghi rõ ràng, đầy đủ số văn bản, ngày văn bản và tên của tổ chức, cá nhân được uỷ quyền trên Văn bản uỷ quyền.</li>
+<li>Chỉ tiêu [19] Tên đại lý thuế: Trường hợp cá nhân uỷ quyền khai thuế cho Đại lý thuế thì phải ghi rõ ràng, đầy đủ tên của Đại lý thuế theo Quyết định thành lập hoặc Giấy chứng nhận đăng ký kinh doanh của Đại lý thuế.</li>
+<li>Chỉ tiêu [20] Mã số thuế đại lý: mã số thuế của Đại lý thuế theo Giấy chứng nhận đăng ký thuế hoặc Thông báo mã số thuế hoặc thẻ mã số thuế do cơ quan thuế cấp.</li>
+<li>Chỉ tiêu [21] Hợp đồng đại lý thuế: Số, ngày của Hợp đồng đại lý thuế đang thực hiện giữa cá nhân với Đại lý thuế.</li>
+<li>Chỉ tiêu [22] Tên tổ chức khai thay: Ghi rõ ràng, đầy đủ tên của tổ chức khai thay theo Quyết định thành lập hoặc Giấy chứng nhận đăng ký kinh doanh trong trường hợp cá nhân kinh doanh theo hình thức hợp tác kinh doanh ủy quyền cho tổ chức khai, nộp thuế thay cho cá nhân.</li>
+<li>Chỉ tiêu [23] Mã số thuế: Ghi rõ ràng, đầy đủ mã số thuế của tổ chức khai thay theo Giấy chứng nhận đăng ký thuế hoặc Thông báo mã số thuế do cơ quan thuế cấp.</li>
+<li>Chỉ tiêu [24] Địa chỉ: Ghi rõ ràng, đầy đủ địa chỉ trụ sở của tổ chức khai thay theo Giấy chứng nhận đăng ký kinh doanh.</li>
+<li>Chỉ tiêu [25], [26], [27] Điện thoại, fax, email: Ghi rõ ràng, đầy đủ số điện thoại, số fax, địa chỉ email của tổ chức khai thay.</li>
+</ol>
+<p><strong>Mục A. KÊ KHAI THUẾ GIÁ TRỊ GIA TĂNG (GTGT), THUẾ THU NHẬP CÁ NHÂN (TNCN)</strong></p>
+<p><img alt="" src="../images/fin_thue88_nhap3.png" /></p>
+<ol>
+<li>Chỉ tiêu [28a]: Ghi doanh thu <a href="https://kiemtoancalico.com/thue-gia-tri-gia-tang/phuong-phap-tinh-thue-gtgt">tính thuế GTGT</a> trung bình dự kiến 1 tháng của nhóm ngành nghề phân phối, cung cấp hàng hoá trong năm.</li>
+<li>Chỉ tiêu [29a]: Ghi doanh thu <a href="https://kiemtoancalico.com/thue-gia-tri-gia-tang/phuong-phap-tinh-thue-gtgt">tính thuế GTGT</a> trung bình dự kiến 1 tháng của nhóm ngành nghề dịch vụ, xây dựng không bao thầu nguyên vật liệu trong năm.</li>
+<li>Chỉ tiêu [30a]: Ghi doanh thu tính thuế GTGT trung bình dự kiến 1 tháng của nhóm ngành nghề sản xuất, vận tải, dịch vụ có gắn với hàng hoá, xây dựng có bao thầu nguyên vật liệu trong năm.</li>
+<li>Chỉ tiêu [31a]: Ghi doanh thu tính thuế GTGT trung bình dự kiến 1 tháng của nhóm ngành nghề hoạt động sản xuất khác trong năm.</li>
+</ol>
+<p>Trường hợp tổ chức khai thay cho cá nhân hợp tác kinh doanh: ghi doanh thu tính thuế GTGT trung bình dư kiến 1 tháng là tổng doanh thu tính thuế GTGT của các cá nhân hợp tác kinh doanh khai trên Phụ lục 01-1/BK-CNKD đến mức chịu thuế tương ứng với nhóm ngành các cá nhân kinh doanh.</p>
+<ol>
+<li>
+<p>Chỉ tiêu [32a]: Ghi tổng cộng doanh thu tính thuế GTGT: [34a] = [30a] + [31a] + [32a] + [33a].</p>
+</li>
+<li>
+<p>Chỉ tiêu [28b], [29b], [30b], [31b]: Ghi số thuế GTGT phát sinh tương ứng theo thuế suất thuế GTGT của từng nhóm ngành nghề. Số thuế phát sinh = Doanh thu x thuế suất.</p>
+<p>Trường hợp tổ chức khai thay cho cá nhân hợp tác kinh doanh: Số thuế phát sinh = Doanh thu x thuế suất tương ứng.</p>
+</li>
+<li>
+<p>Chỉ tiêu [32b]: Ghi tổng cộng số thuế GTGT phát sinh: [32b] = [28b] + [29b] + [30b] + [31b]</p>
+<p>Trường hợp tổ chức khai thay cho cá nhân hợp tác kinh doanh thì chỉ tiêu [32b] = chỉ tiêu [10] Phụ lục 01-1/BK-CNKD .</p>
+</li>
+<li>
+<p>Chỉ tiêu [28c]: Ghi doanh thu <a href="https://kiemtoancalico.com/thue-thu-nhap-ca-nhan/cach-tinh-thue-tncn">tính thuế TNCN</a> trung bình dự kiến 1 tháng của nhóm ngành nghề phân phối, cung cấp hàng hoá trong năm.</p>
+</li>
+<li>
+<p>Chỉ tiêu [29c]: Ghi doanh thu <a href="https://kiemtoancalico.com/thue-thu-nhap-ca-nhan/cach-tinh-thue-tncn">tính thuế TNCN</a> trung bình dự kiến 1 tháng của nhóm ngành nghề dịch vụ, xây dựng không bao thầu nguyên vật liệu trong năm.</p>
+</li>
+<li>
+<p>Chỉ tiêu [30c]: Ghi doanh thu tính thuế TNCN trung bình dự kiến 1 tháng của nhóm ngành nghề sản xuất, vận tải, dịch vụ có gắn với hàng hoá, xây dựng có bao thầu nguyên vật liệu trong năm.</p>
+</li>
+<li>
+<p>Chỉ tiêu [31c]: Ghi doanh thu tính thuế TNCN trung bình dự kiến 1 tháng của nhóm ngành nghề hoạt động sản xuất khác trong năm.
+    Trường hợp tổ chức khai thay cho cá nhân hợp tác kinh doanh: ghi doanh thu tính thuế TNCN trung bình dư kiến 1 tháng là tổng doanh thu tính thuế TNCN của các cá nhân hợp tác kinh doanh khai trên Phụ lục 01-1/BK-CNKD đến mức chịu thuế tương ứng với nhóm ngành các cá nhân kinh doanh<em>.</em></p>
+</li>
+<li>
+<p>Chỉ tiêu [32c]: Ghi tổng cộng doanh thu tính thuế TNCN: [32c]= [28c] + [29c] + [30c] + [31c]</p>
+<p>Trường hợp tổ chức khai thay cho cá nhân hợp tác kinh doanh: chỉ tiêu [32c] = chỉ tiêu [11] Phụ lục 01-1/BK-CNKD.</p>
+</li>
+<li>
+<p>Chỉ tiêu [28d], [29d], [30d], [31d]: Ghi số thuế TNCN phát sinh tương ứng theo thuế suất thuế TNCN của từng nhóm ngành nghề.</p>
+</li>
+</ol>
+<p>Số thuế phát sinh = Doanh thu x thuế suất.</p>
+<ol>
+<li>Chỉ tiêu [32d]: [32d] = [28d] + [29d] + [30d] + [31d]
+    Trường hợp tổ chức khai thay cho cá nhân hợp tác kinh doanh: chỉ tiêu [32d] = chỉ tiêu [11] Phụ lục 01-1/BK-CNKD.</li>
+</ol>
+<p><strong>Mục B. KÊ KHAI THUẾ TIÊU THỤ ĐẶC BIỆT (TTĐB)</strong></p>
+<p><img alt="" src="../images/fin_thue88_nhap4.png" /></p>
+<ol>
+<li>Chỉ tiêu cột (1): STT: Ứng dụng hỗ trợ tự tăng.</li>
+<li>Chỉ tiêu cột (2): Hàng hoá, dịch vụ chịu thuế tiêu thụ đặc biệt: Hàng hoá, dịch vụ chịu <a href="https://kiemtoancalico.com/thue-va-phi-khac/thue-tieu-thu-dac-biet">thuế tiêu thụ đặc biệt</a>. Chọn từ trong combobox</li>
+<li>Chỉ tiêu cột (3): Mã chỉ tiêu: Mặc định Mã chỉ tiêu theo hàng hóa đã chọn.</li>
+<li>Chỉ tiêu cột (4): Đơn vị tính: Mặc định đơn vị tính theo hàng hóa đã chọn.</li>
+<li>Chỉ tiêu cột (5): Doanh thu tính thuế TTĐB: Ghi doanh thu tính thuế TTĐB trung bình dự kiến 1 tháng trong năm tương ứng với từng loại hàng hoá</li>
+<li>Chỉ tiêu cột (6): Thuế suất: Ghi thuế suất thuế TTĐB tương ứng với từng loại hàng hoá, dịch vụ chịu thuế TTĐB</li>
+<li>Chỉ tiêu cột (7): Số thuế phải nộp: Ghi số thuế TTĐB phải nộp tương ứng với từng loại hàng hoá, dịch vụ.</li>
+</ol>
+<p>Cột (7)= cột (5) x cột (6).</p>
+<p><strong>Mục C. KÊ KHAI THUẾ/PHÍ BẢO VỆ MÔI TRƯỜNG HOẶC THUẾ TÀI NGUYÊN</strong></p>
+<p><img alt="" src="../images/fin_thue88_nhap5.png" /></p>
+<p>Với loại <strong>Khai thuế tài nguyên</strong>:</p>
+<ol>
+<li>
+<p>Chỉ tiêu cột (1): STT: Ứng dụng hỗ trợ tự tăng.</p>
+</li>
+<li>
+<p>Chỉ tiêu cột (2): Tài nguyên, hàng hóa, sản phẩm: Chọn tên loại chỉ tiêu chọn trong combobox</p>
+</li>
+<li>Chỉ tiêu cột (3): Mã chỉ tiêu: Mã chỉ tiêu</li>
+<li>Chỉ tiêu cột (4): Đơn vị tính. Mặc định đơn vị tính theo mã chỉ tiêu đã chọn</li>
+<li>Chỉ tiêu cột (5): Sản lượng/ Số lượng: Ghi sản lượng khai thác tài nguyên, khoáng sản trung bình dự kiến 1 tháng trong năm.</li>
+<li>Chỉ tiêu cột (6): Giá tính thuế tài nguyên/ mức thuế hoặc phí BVMT: Ghi giá tính thuế tài nguyên, khoáng sản tương ứng (cách xác định giá tính thuế tài nguyên, khoáng sản theo quy định của <a href="https://kiemtoancalico.com/luat-quan-ly-thue">Luật thuế</a> tài nguyên và các văn bản hướng dẫn).</li>
+<li>Chỉ tiêu cột (7): Thuế suất(%): Ghi thuế suất thuế tài nguyên tương ứng với từng loại tài nguyên, khoáng sản chịu thuế Tài nguyên.</li>
+<li>Chỉ tiêu cột (8): Số thuế: Ghi số thuế Tài nguyên phải nộp tương ứng với từng loại tài nguyên, khoáng sản.</li>
+</ol>
+<p>Cột (8)= cột (5) x cột (6) x cột (7)</p>
+<p>Với loại <strong>Khai thuế bảo vệ môi trường</strong>:</p>
+<ol>
+<li>
+<p>Chỉ tiêu cột (1): STT: Ứng dụng hỗ trợ tự tăng.</p>
+</li>
+<li>
+<p>Chỉ tiêu cột (2): Tài nguyên, hàng hóa, sản phẩm: Chọn tên loại chỉ tiêu chọn trong combobox</p>
+</li>
+<li>
+<p>Chỉ tiêu cột (3): Mã chỉ tiêu: Mã chỉ tiêu</p>
+</li>
+<li>
+<p>Chỉ tiêu cột (4): Đơn vị tính. Mặc định đơn vị tính theo mã chỉ tiêu đã chọn</p>
+</li>
+<li>
+<p>Chỉ tiêu cột (5): Sản lượng/ Số lượng: Ghi đơn vị tính theo số lượng, trọng lượng, khối lượng của hàng hóa chịu thuế bảo vệ môi trường</p>
+</li>
+<li>
+<p>Chỉ tiêu cột (6): Giá tính thuế tài nguyên/ mức thuế hoặc phí BVMT: Ghi mức thuế BVMT tương ứng với hàng hóa chịu thuế BVMT.</p>
+</li>
+<li>
+<p>Chỉ tiêu cột (7): Thuế suất(%)</p>
+</li>
+<li>
+<p>Chỉ tiêu cột (8): Số thuế: Ghi số thuế BVMT phải nộp tương ứng với từng loại hàng hóa chịu thuế BVMT</p>
+</li>
+</ol>
+<p>Cột (8)= cột (5) x cột (6) x cột (7)</p>
+<p>Với loại <strong>Khai phí bảo vệ môi trường</strong>:</p>
+<ol>
+<li>
+<p>Chỉ tiêu cột (1): STT: Ứng dụng hỗ trợ tự tăng.</p>
+</li>
+<li>
+<p>Chỉ tiêu cột (2): Tài nguyên, hàng hóa, sản phẩm: Chọn tên loại chỉ tiêu chọn trong combobox</p>
+</li>
+<li>
+<p>Chỉ tiêu cột (3): Mã chỉ tiêu: Mã chỉ tiêu</p>
+</li>
+<li>
+<p>Chỉ tiêu cột (4): Đơn vị tính. Mặc định đơn vị tính theo mã chỉ tiêu đã chọn</p>
+</li>
+<li>
+<p>Chỉ tiêu cột (5): Sản lượng/ Số lượng: Ghi sản lượng khai thác tài nguyên, khoáng sản trung bình dự kiến 1 tháng trong năm</p>
+</li>
+<li>
+<p>Chỉ tiêu cột (6): Giá tính thuế tài nguyên/ mức thuế hoặc phí BVMT: Căn cứ vào mức phí tương ứng của từng loại tài nguyên, khoáng sản khai thác trong kỳ theo quy định tại Quyết định của HĐND tỉnh, TP trực thuộc TW và Luật thuế tài nguyên và các văn bản hướng dẫn.</p>
+</li>
+<li>
+<p>Chỉ tiêu cột (7): Thuế suất(%)</p>
+</li>
+<li>
+<p>Chỉ tiêu cột (8): Số thuế: Ghi tổng cộng số phí BVMT phải nộp của các loại tài nguyên khoáng sản theo từng loại tài nguyên tương ứng.</p>
+</li>
+</ol>
+<p>Cột (8)= cột (5) x cột (6) x cột (7)</p>
+<p><strong>Mục Nhân viên đại lý thuế</strong></p>
+<ol>
+<li>Nhập họ tên, người ký, chứng chỉ hành nghề số, ngày ký</li>
+</ol>
+<p><img alt="" src="../images/fin_thue88_button.png" /></p>
+<p>Bước 5: Sau khi nhập dữ liệu thành công, nhấn <strong>Xác nhận</strong> để hoàn thành tờ khai thuế</p>
+<p>Nếu muốn nhập lại dữ liệu, nhấn <strong>Nhập lại</strong> để xóa hết thông tin đang có và thực hiện nhập lại từ đầu</p>
+<p><img alt="" src="../images/fin_thue88_buttonxml.png" /></p>
+<p>Bước 6: Khi xác nhận thành công, nhấn <strong>Xuất xml</strong> để xuất file xml và đẩy lên HTKK</p>
+<p>Nếu phát hiện sai xót sau khi hoàn thành thì nhấn nút <strong>Đưa về nháp</strong> để hủy hoàn thành và thực hiện sửa lại</p>
+<h4 id="phu-luc-01-11bk-cnkd">Phụ lục 01-11BK-CNKD</h4>
+<p><strong>Phụ lục Bảng kê cá nhân kinh doanh</strong> được sử dụng trong trường hợp tổ chức khai thay cho cá nhân hợp tác kinh doanh </p>
+<p>Để thêm mới phụ lục, người sử dụng có thể chọn loại <strong>Tổ chức, cá nhân khai thuế thay, nộp thuế thay</strong> tại mục <strong>Tờ khai</strong> hoặc chọn chức năng <strong>Thêm phụ lục</strong> và chọn phụ lục 01-11BK-CNKD</p>
+<p><img alt="" src="../images/fin_thue88_themPL1.png" /></p>
+<p>Sau khi thêm được phụ lục, nhấn vào tab phụ lục 01-11BK-CNKD và thực hiện nhập thông tin bằng hai cách:</p>
+<p><img alt="" src="../images/fin_thue88_PL1.png" /></p>
+<p>Cách 1:  Nhấn <strong>Thêm một dòng</strong> để thực hiện nhập tay các thông tin cần kê khai</p>
+<p>Cách 2: Nhấn nút <strong>Lấy lại dữ liệu</strong> để hệ thống tự động tổng hợp dữ liệu doanh thu bán hàng đang có theo thời gian tính thuế</p>
+<ol>
+<li>
+<p>Các chỉ tiêu  [01], [01.a],[01.b],[01.c],[02],[03],[04],[05] sẽ mặc định thông tin giống với màn hình tờ khai</p>
+</li>
+<li>
+<p>Chỉ tiêu [06]: STT: Ứng dụng hỗ trợ tự tăng.</p>
+</li>
+<li>
+<p>Chỉ tiêu [07]: Họ và tên hộ kinh doanh, cá nhân kinh doanh: Nhập tên hộ kinh doanh hoặc cá nhân kinh doanh cần kê khai thuế</p>
+</li>
+<li>
+<p>Chỉ tiêu [08]: Mã số thuế hộ kinh doanh, cá nhân kinh doanh: Nhập mã số thuế của hộ kinh doanh</p>
+</li>
+<li>
+<p>Chỉ tiêu [09a]: Nhóm ngành nghề: Chọn nhóm ngành nghề</p>
+</li>
+<li>
+<p>Chỉ tiêu [09]: Doanh thu: Nhập doanh thu bán hàng theo từng ngành nghề và từng kỳ</p>
+</li>
+<li>
+<p>Chỉ tiêu [10]: Số thuế GTGT: = Doanh thu x thuế suất tương ứng.</p>
+</li>
+<li>
+<p>Chỉ tiêu [11]: Số thuế TNCN: = Doanh thu x thuế suất tương ứng.</p>
+</li>
+<li>
+<p>Chỉ tiêu [12]: Tổng số thuế GTGT, TNCN: = [10] + [11]</p>
+</li>
+</ol>
+<p>Nhấn <strong>Lưu</strong> sau khi đã kê khai xong</p>
+<p><img alt="" src="../images/fin_thue88_Luu.png" /></p>
+<h4 id="phu-luc-01-2bk-hkd">Phụ lục 01-2/BK-HĐKD</h4>
+<p><strong>Phụ lục Bảng kê hoạt động kinh doanh</strong> trong kỳ của hộ kinh doanh, cá nhân kinh doanh (áp dụng đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế theo phương pháp kê khai) theo <strong>mẫu số 01-2/BK-HĐKD</strong> ban hành kèm theo Thông tư 40/2021/TT-BTC. </p>
+<p>Trong bảng kê này phải báo cáo về <strong>nhập – xuất – tồn</strong> vật liệu, dụng cụ, sản phẩm, hàng hóa/nhóm hàng hóa trong kỳ; <strong>các khoản chi phí phát sinh</strong> liên quan đến doanh thu kinh doanh trong kỳ để làm căn cứ cho cơ quan thuế quản lý doanh thu kinh doanh trong kỳ theo rủi ro.</p>
+<p>Trường hợp hộ kinh doanh, cá nhân kinh doanh nộp thuế theo phương pháp kê khai trong lĩnh vực, ngành nghề <strong>nếu có căn cứ xác định được doanh thu theo xác nhận của cơ quan chức năng</strong> thì không phải thực hiện chế độ kế toán và <strong>không phải nộp</strong> Phụ lục Bảng kê mẫu số 01-2/BK-HĐKD</p>
+<p>Để thêm mới phụ lục thì người sử dụng có thể chọn loại <strong>HKD, CNKD nộp thuế theo phương pháp kê khai</strong> hoặc chọn chức năng <strong>Thêm phụ lục</strong> và chọn phụ lục 01-2/BK-HĐKD</p>
+<p><img alt="" src="../images/fin_thue88_themPL2.png" /></p>
+<p>Sau khi thêm được phụ lục, nhấn vào tab phụ lục 01-2/BK-HĐKD và thực hiện nhập thông tin bằng hai cách:</p>
+<p><img alt="" src="../images/fin_thue88_PL2_1.png" /></p>
+<p>Cách 1:  Nhấn <strong>Thêm một dòng</strong> để thực hiện nhập tay các thông tin cần kê khai</p>
+<p>Cách 2: Nhấn nút <strong>Lấy lại dữ liệu</strong> để hệ thống tự động tổng hợp dữ liệu doanh thu bán hàng đang có theo thời gian tính thuế</p>
+<ol>
+<li>
+<p>Các chỉ tiêu  [01], [01.a],[01.b],[01.c],[02],[03],[04],[05] sẽ mặc định thông tin giống với màn hình tờ khai</p>
+</li>
+<li>
+<p>Chỉ tiêu [06]: Vật liệu, dụng cụ, sản phẩm, hàng hóa/ Nhóm hàng hóa: Nhập tên hàng hóa cần kê khai</p>
+</li>
+<li>
+<p>Chỉ tiêu [07]: Đơn vị tính của vật liệu, dụng cụ, sản phẩm, hàng hoá: Nhập đơn vị tính của hàng hóa cần kê khai</p>
+</li>
+<li>
+<p>Chỉ tiêu [08]: Số dư đầu kỳ- Số lượng: Nhập số lượng tồn đầu kỳ theo từng mặt hàng</p>
+</li>
+<li>
+<p>Chỉ tiêu [09]: Số dư đầu kỳ- Thành tiền: Nhập thành tiền tồn đầu kỳ theo từng mặt hàng</p>
+</li>
+<li>
+<p>Chỉ tiêu [10]: Nhập trong kỳ - Số lượng: Nhập số lượng nhập theo từng mặt hàng trong kỳ kê khai</p>
+</li>
+<li>
+<p>Chỉ tiêu [11]: Nhập trong kỳ - Thành tiền: Nhập thành tiền nhập theo từng mặt hàng trong kỳ kê khai</p>
+</li>
+<li>
+<p>Chỉ tiêu [12]: Xuất trong kỳ - Số lượng: Nhập số lượng xuất theo từng mặt hàng trong kỳ kê khai</p>
+</li>
+<li>
+<p>Chỉ tiêu [13]: Xuất trong kỳ - Thành tiền: Nhập thành tiền xuất theo từng mặt hàng trong kỳ kê khai</p>
+</li>
+<li>Chỉ tiêu [14]: Tồn cuối kỳ - Số lượng: = [08]+[10]-[12]</li>
+<li>Chỉ tiêu [15]: Tồn cuối kỳ - Thành tiền: =[09]+[11]-[13]</li>
+</ol>
+<p><img alt="" src="../images/fin_thue88_PL2_2.png" /></p>
+<ol>
+<li>Chỉ tiêu [24]: Chi phí nhân công: Nhập số tiền phát sinh trong kỳ</li>
+<li>Chỉ tiêu [25]: Chi phí điện: Nhập số tiền phát sinh trong kỳ</li>
+<li>Chỉ tiêu [26]: Chi phí nước: Nhập số tiền phát sinh trong kỳ</li>
+<li>Chỉ tiêu [27]: Chi phí viễn thông: Nhập số tiền phát sinh trong kỳ</li>
+<li>Chỉ tiêu [28]: Chi phí thuê kho bãi, mặt bằng kinh doanh: Nhập số tiền phát sinh trong kỳ</li>
+<li>Chỉ tiêu [29]: Chi phí quản lý (chi phí văn phòng phẩm, công cụ, dụng cụ,...): Nhập số tiền phát sinh trong kỳ</li>
+<li>Chỉ tiêu [30]: Chi phí khác (hội nghị, công tác phí, thanh lý, nhượng bán tài sản cố định, thuê ngoài khác, ...): Nhập số tiền phát sinh trong kỳ</li>
+<li>Chỉ tiêu [31]: Tổng cộng: =[24]+[25]+[26]+[27]+[28]+[29]+[30]</li>
+</ol>
+<p>Nhấn <strong>Lưu</strong> sau khi đã kê khai xong</p>
+<p><img alt="" src="../images/fin_thue88_Luu.png" /></p>
+<h4 id="to-khai-bo-sung">Tờ khai bổ sung</h4>
+<p>Sau khi đã hoàn thành kê khai thuế theo kỳ, nếu như phát hiện có sai xót hoặc thiếu, thừa thông tin kê khai, người sử dụng có thể thực hiện tạo tờ khai bổ sung. Để tạo được tờ khai bổ sung, người dùng cần hoàn thành tờ khai lần đầu</p>
+<p>Bước 1: Vào phân hệ <strong>Thuế</strong>, Chọn <strong>Tờ khai cá nhân kinh doanh (01/CNKD) (TT40/2021)</strong>, Nhấn <strong>Tạo</strong></p>
+<p><img alt="" src="../images/fin_thue88_Tao.png" /></p>
+<p>Bước 2: Tại <strong>Chọn kỳ tính thuế</strong> thực hiện nhập lại dữ liệu đầu vào của tờ khai thuế. Hệ thống sẽ tự mặc định hiển thị thông tin bổ sung theo số lần được bổ sung</p>
+<p><img alt="" src="../images/fin_thue88_popup_bs.png" /></p>
+<p>Nhấn <strong>Đồng ý</strong> để tạo tờ khai</p>
+<p>Bước 3: Tại Tab tờ khai Nhấn <strong>Sửa</strong> để thực hiện nhập thông tin tờ khai</p>
+<p><img alt="" src="../images/fin_thue88_bs_sua.png" /></p>
+<p>Các thông tin trên màn hình tờ khai, phụ lục sẽ mặc định giống với thông tin tờ khai lần đầu. Người dùng thực hiện nhập thêm các thông tin bổ sung hoặc sửa lại thông tin đang sai xót, cách thức nhập các chỉ tiêu giống với nhập tờ khai, phụ lục</p>
+<p><em>Lưu ý:</em> Với tờ khai bổ sung, chỉ tiêu [02] sẽ không được tích chọn, chỉ tiêu [03] hiển thị số lần bổ sung</p>
+<p>Sau khi sửa đổi thành công, người dùng cần tổng hợp lại các nội dung cần sửa. Nhấn nút <strong>Tổng hợp KHBS</strong> để thực hiện tổng hợp toàn bộ nội dung đã thay đổi vào 2 tab <strong>01-KHBS</strong> và <strong>01-1/KHBS</strong></p>
+<h5 id="phu-luc-to-khai-bo-sung-01-khbs">Phụ lục tờ khai bổ sung 01-KHBS</h5>
+<p>Phụ lục 01-KHBS sẽ tổng hợp các thông tin chỉ tiêu bị thay đổi theo từng tiểu mục, hiển thị số tiền thay đổi theo tiểu mục.</p>
+<p><img alt="" src="../images/fin_thue88_bs_pl1_1.png" /></p>
+<p>Các chỉ tiêu  [01], [02],[03],[04,[05],[06],[07],[08] sẽ mặc định thông tin giống với màn hình tờ khai</p>
+<p><img alt="" src="../images/fin_thue88_bs_pl1_2.png" /></p>
+<p>Mục 1. Số thuế phải nộp trên tờ khai điều chỉnh tăng/giảm:</p>
+<p>Chỉ tiêu cột (1): STT: Ứng dụng hỗ trợ tự tăng.</p>
+<p>Chỉ tiêu cột (2): Tên tiểu mục. Hiển thị tên tiểu mục theo các thông tin thay đổi tại màn hình tờ khai</p>
+<p>Chỉ tiêu cột (3): Tăng/giảm số thuế phải nộp(tăng ghi (+), giảm ghi (-)): Hiển thị số tiền thay đổi theo từng tiểu mục</p>
+<p>Chỉ tiêu [10]: Tổng cộng: Tổng cộng số tiền đã thay đổi</p>
+<p><img alt="" src="../images/fin_thue88_bs_pl1_3.png" /></p>
+<p><img alt="" src="../images/fin_thue88_bs_pl1_4.png" /></p>
+<p>Nhập thông tin số ngày chậm nộp, thời gian chậm nộp, và số tiền chậm nộp tăng/giảm. Hệ thống tự động tổng hợp các cột còn lại</p>
+<h5 id="phu-luc-to-khai-bo-sung-01-1khbs">Phụ lục tờ khai bổ sung 01-1/KHBS</h5>
+<p>Phụ lục 01-1/KHBS sẽ liệt kê chi tiết toàn bộ các chỉ tiêu đã được thay đổi và số tiền bị thay đổi</p>
+<p><img alt="" src="../images/fin_thue88_bs_pl2.png" /></p>
+<p>Các chỉ tiêu  [01], [02],[03],[04,[05],[06] sẽ mặc định thông tin giống với màn hình tờ khai</p>
+<p><img alt="" src="../images/fin_thue88_bs_pl2_1.png" /></p>
+<p>Mục A. Thông tin khai bổ sung:</p>
+<p>Chỉ tiêu cột (1): STT: Ứng dụng hỗ trợ tự tăng.</p>
+<p>Chỉ tiêu cột (2): Tên chỉ tiêu điều chỉnh/ Tên hàng hóa, dịch vụ: Tên chỉ tiêu đã thay đổi</p>
+<p>Chỉ tiêu cột (3): Mã số chỉ tiêu: Mã chỉ tiêu bị thay đổi</p>
+<p>Chỉ tiêu cột (4): Số đã kê khai: Số tiền kê khai ban đầu</p>
+<p>Chỉ tiêu cột (5): Số điều chỉnh: Số tiền đã điều chỉnh</p>
+<p>Chỉ tiêu cột (6):  Chênh lệch/ thay đổi giữa số điều chỉnh với số đã kê khai = (5)-(4)</p>
+<p>Chỉ tiêu cột (7): Điều chỉnh tăng/ giảm nghĩa vụ thuế</p>
+<p>Chỉ tiêu cột (8): Lý do</p>
+<p>Chỉ tiêu [10]: Tổng cộng số tiền điều chỉnh</p>
+<p><img alt="" src="../images/fin_thue88_bs_pl2_2.png" /></p>
+<p>Nhập thông tin tài liệu kèm theo</p>
+<p>Sau khi sửa đổi và  tổng hợp xong, người dùng nhấn <strong>Lưu</strong> để lưu lại thông tin, nhấn <strong>Xác nhận</strong> để hoàn thành kê khai thuế</p>
+<p><img alt="" src="../images/fin_thue88_bs_pl2_luu.png" /></p>
+<p>Nhấn <strong>Xuất XML</strong> để thực hiện xuất file xml theo yêu cầu</p>
+<p><img alt="" src="../images/fin_thue88_xml.png" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../fin-bao-cao-88/" class="btn btn-neutral float-right" title="Báo cáo">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../fin-kho-88/" class="btn btn-neutral" title="Kho vận"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../fin-kho-88/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../fin-bao-cao-88/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/extra.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
