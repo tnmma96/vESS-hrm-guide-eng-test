@@ -336,6 +336,14 @@ Danh mục vật tư, hàng hoá cho phép quản lý toàn bộ vật tư, hàn
 
 #### Khai báo vật tư, hàng hóa thông thường
 
+Để khai báo được hàng hóa, vật tư, người dùng có thể thực hiện bằng hai cách:
+
+**Cách 1: Tạo mới trực tiếp trên giao diện**
+
+**Cách 2: Import dữ liệu**
+
+##### Tạo mới hàng hóa trực tiếp trên giao diện
+
 **Bước 1**: Vào Danh mục/Hàng hóa vật tư/Vật tư hàng hóa. Nhấn **Chi tiết** để vào danh mục
 
 ![](images/fin_danhmuc_hh.png)
@@ -370,6 +378,56 @@ Danh mục vật tư, hàng hoá cho phép quản lý toàn bộ vật tư, hàn
 
 **Bước 4:** Nhấn **Lưu** để lưu lại thông tin
 
+##### Import vật tư, hàng hóa
+
+Vào danh mục hàng hóa vật tư, thực hiện Import vật tư hàng hóa cần sử dụng
+
+**Cách 1:** Tại màn hình danh sách vật tư hàng hóa, chuyển cách xem dạng danh sách bằng cách chọn nút **Xem bằng danh sách**
+
+![](images/fin_danhmuc_import_xemds.png)
+
+Tại màn hình danh sách, thực hiện tích chọn 1 bản ghi, nhấn biểu tượng Thiết lập hình bánh xe, chọn **Export** để xuất file mẫu bằng excel
+
+![](images/fin_danhmuc_export.png)
+
+Trên màn hình export , người dùng có thể chọn mẫu **Vật tư, hàng hóa**
+
+![](images/fin_danhmuc_export_VTHH.jpeg)
+
+![](images/fin_danhmuc_export_mau.jpeg)
+
+Hoặc người dùng có thể tự tạo một mẫu riêng cho  mình bằng cách chọn các cột cần import/export tại danh sách cột bên trái,khi chọn xong thì nhập tên mẫu cần export
+
+![](images/fin_danhmuc_timkiem.png)
+
+Chọn dấu Cộng để thêm cột cần export sang bên phải
+
+![](images/fin_danhmuc_timkiem_ncc.png)
+
+Sau khi có đầy đủ danh sách các trường thông tin cần xuất thì thực hiện lưu mẫu bằng cách chọn chức năng mẫu mới, nhập tên mẫu cần lưu và nhấn nút lưu
+
+![](images/fin_danhmuc_chonmau.png)
+
+![](images/fin_danhmuc_luu.png)
+
+Nhấn **Xuất** để thực hiện xuất file excel.
+
+Trên file excel vừa xuất, người dùng thực hiện nhập các thông tin vật tư hàng hóa đầu kỳ tương ứng với các cột
+
+![](images/fin_danhmuc_import_file2.png)
+
+***Cách 2:** Nhấn biểu tượng hình ngôi sao, chọn **Thêm bản ghi**
+
+![](images/fin_danhmuc_import.png)
+
+Sau khi mở màn hình import thông tin, thực hiện xuất file mẫu bằng cách chọn **Mẫu nhập liệu VTHH** để thực hiện xuất file mẫu excel
+
+![](images/fin_danhmuc_import_tem1.png)
+
+Trên file excel vừa xuất, người dùng thực hiện nhập thông tin hàng hóa đầu kỳ. Với file được xuất hướng dẫn cụ thể có trong phần commnent tại hàng đầu tiên của mỗi cột
+
+![](images/fin_danhmuc_import_file.png)
+
 #### Khai báo các mặt hàng dịch vụ
 
 Áp dụng với những hàng hoá không có nhu cầu quản lý số lượng tồn trên kho, nhưng vẫn phát sinh hoạt động mua, bán (VD: chi phí mua hàng, chi phí vận chuyển, chi phí hải quan...)
@@ -382,23 +440,40 @@ Khi đó, kế toán sẽ thực hiện khai báo tương tự như với VTHH t
 
 #### Khai báo tồn hàng đầu kỳ
 
-Sau khi tạo mới được hàng hóa vật tư, người dùng có thể khai báo số lượng mặt hàng tồn đầu kỳ hiện có ngoài thực tế
+Trước khi thực hiện sử dụng hệ thống, người dùng có thể khai báo số dư tồn đầu kỳ để quản lý thông tin hàng nhập xuất tồn kho
 
-**Bước 1:** Vào danh mục hàng hóa vật tư, thực hiện tìm kiếm hàng hóa cần khai báo đầu kỳ
+**Bước 1:** Vào danh mục đơn vị tính, xem đã có đơn vị tính từ file khách hàng gửi chưa, nếu chưa có thì thêm Đơn vị tính tương ứng
 
-![](images/fin_danhmuc_hh_timkiem.png)
+Lưu ý:  Hỏi KH có quản lý đơn vị tính quy đổi, thì khi cập nhật danh mục Đơn vị tính có cập nhật số lượng quy đổi theo đơn vị tính chính
 
-**Bước 2:** Xem chi tiết hàng hóa
+**Bước 2:** Vào danh mục hàng hóa vật tư, thực hiện nhập hàng hóa đầu kỳ, với số lượng hàng hóa lớn thì sử dụng chức năng Import Danh mục vật tư hàng hóa 
 
-![](images/fin_danhmuc_hh_capnhat.png)
+Các bước làm cụ thể tại chức năng  [**Khai báo vật tư, hàng hóa thông thường**](#Khai-bao-vat-tu-hang-hoa-thong-thuong)
 
-Nhấn nút **cập nhật số lượng**, cửa sổ "Cập nhật số lượng" được hiển thị. Nhấn nút **tạo** mới
+**Bước 3:** Import 1 Đơn mua hàng, với n dòng chi tiết đơn mua hàng tương ứng với n bản ghi danh mục vật tư hàng hóa tồn kho
 
-![](images/fin_danhmuc_hh_cn_tao.png)
+Lưu ý: Hỏi khách hàng số tồn kho này là số đến ngày nào, giả sử là số tồn kho đến 31/12/2021, thì tất cả các ngày tại file import Đơn mua hàng để hết ngày 31/12/2021
 
-Người dùng thực hiện chọn **kho**, nhập **số lượng thực tế** cho khớp với số liệu còn tồn ngoài thực tế, nhấn Lưu
+Các bước thực hiện import đơn mua hàng được mô tả chi tiết tại chức năng [**Lập đơn mua hàng gửi nhà cung cấp**](#Cach-2-Lap-on mua-hang-tu-viec-Import-du-lieu)
 
-![](images/fin_danhmuc_hh_cn_luu.png)
+**Bước 4:** Sau khi import Đơn mua hàng thành công ở bước 3, vào Đơn mua hàng, kích Xác nhận đơn mua hàng, hệ thống sẽ sinh phiếu nhập kho tương ứng
+
+Các bước làm cụ thể được mô tả tại chức năng [**Xác nhận Đơn hàng từ Nhà cung cấp**](#xac-nhan-on-hang-tu-nha-cung-cap) 
+
+**Bước 5:** Tại Đơn mua hàng vừa xác nhận ở bước 4, kích Nhận sản phẩm, hệ thống sẽ hiển thị phiếu nhập kho tương ứng,
+Tại màn hình Phiếu nhập kho, kích Sửa, sửa các ngày có trên tab Thông tin chung của phiếu nhập kho về 31/12/2021 (theo như ví dụ trên để nhập số tồn đầu kỳ), sau đó kích Xác nhận để hoàn thành nhập thông tin
+
+Các bước làm cụ thể được mô tả tại chức năng **[Nhập kho đơn mua hàng](#nhap-kho-on-mua-hang)**
+
+**Bước 6:** Kiểm tra báo cáo tồn kho bằng hai cách:
+
+Cách 1: Vào ứng dụng **Báo cáo**, chọn báo cáo **Sổ chi tiết vật liệu, dụng cụ, sản phẩm, hàng hóa(S2-HKD)**
+
+![](images/fin_bc_tonkho_1.png)
+
+Cách 2: Vào ứng dụng **Kho vận**, chọn **Báo cáo**, chọn **Báo cáo tồn kho**
+
+![](images/fin_bc_tonkho_2.png)
 
 ### **Kho hàng** 
 

@@ -52,6 +52,8 @@ Khi đơn vị có nhu cầu mua hàng, lập yêu cầu mua hàng thì quy trì
 
 **Đối tượng thực hiện :** Nhân viên bộ phận mua hàng 
 
+##### **Cách 1: Nhập trực tiếp trên giao diện**
+
 **Bước 1:** Vào phân hệ **Mua hàng**, Chọn **Đơn mua hàng** 
 
 ![](images/fin_muahang_donmh.png)
@@ -87,9 +89,49 @@ Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm ki
 
 **Bước 3**: Nhấn **Lưu**
 
+##### **Cách 2: Lập đơn mua hàng từ việc Import dữ liệu**
+
+**Bước 1:** Vào phân hệ **Mua hàng**, Chọn **Đơn mua hàng** 
+
+![](images/fin_muahang_donmh.png)
+
+Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống
+
+![](images/fin_muahang_donmh_timkiem.png)
+
+**Bước 2:** Trên danh sách đơn hàng, nhấn biểu tượng hình ngôi sao, chọn **Thêm bản ghi**
+
+![](images/fin_muahang_import.png)
+
+Sau khi mở màn hình import thông tin, thực hiện xuất file mẫu bằng cách chọn **Mẫu nhập khẩu đơn mua hàng** để thực hiện xuất file mẫu excel
+
+![](images/fin_muahang_import_tem.png)
+
+Trên file excel vừa xuất, người dùng thực hiện nhập thông tin đơn hàng tương ứng tại các cột, hướng dẫn cụ thể có trong phần commnent tại hàng đầu tiên của mỗi cột
+
+![](images/fin_muahang_import_tem2.png)
+
+Sau khi nhập thông tin vào file, thực hiện nhập dữ liệu bằng cách nhấn chọn **Nạp tập tin**
+
+![](images/fin_muahang_naptaptin.png)
+
+Chọn file vừa nhập thông tin, đợi hệ thống tải file, sau đó nhấn nút **Kiểm thử** để kiểm tra thông tin trong file có chính xác không.
+
+Nếu như có lỗi thì sẽ hiển thị thông báo lỗi cụ thể tại cột nào, dòng nào. 
+
+Lưu ý: Những thông báo màu hồng là thông tin cần sửa lại, thông báo màu cam có thể bỏ qua
+
+Nếu như cần sửa chữa thông tin trong file nhập liệu thì người dùng chọn lại **Nạp tập tin** và chọn file vừa sửa
+
+Nếu đã chính xác thì sẽ hiển thị thông báo màu xanh : "Mọi thứ dường như hợp lệ". Người dùng nhấn **Nhập** để bắt đầu import dữ liệu vào hệ thống
+
+![](images/fin_muahang_kiemthu.png)
+
+Khi import thành công, hệ thống  sẽ tự động quay về màn hình danh sách và hiển thị thông báo số lượng bản ghi đã được import, các bản ghi được import thành công ở trạng thái báo giá
+
 #### Thực hiện gửi đơn hàng cho nhà cung cấp
 
-**Bước 1**: Sau khi đã có đơn hàng để gửi khách hàng, Thực hiện **In** đơn hàng bằng cách chọn chức năng In
+**Bước 1**: Sau khi đã có đơn hàng báo giá để gửi khách hàng, Thực hiện **In** đơn hàng bằng cách chọn chức năng In
 
 ![](images/fin_muahang_donmh_in.png)
 
@@ -136,6 +178,8 @@ Sau khi thực hiện Xác nhận đơn hàng, chương trình tự động sinh
 **Bước 1**: Chọn **Nhân hàng** hoặc nhấn nút **Nhận sản phẩm**, hệ thống chuyển sang chức năng phiếu nhập kho. 
 
 ![](images/fin_muahng_donmh_nhapkho.png)
+
+Nếu người dùng muốn sửa ngày chứng từ và ngày hạch toán, nhấn nút **Sửa**, thay đổi lại thông tin và nhấn **Lưu**
 
 **Bước 2**: Thực hiện nhập số lượng hàng đã hoàn thành nhận từ nhà cung cấp
 
