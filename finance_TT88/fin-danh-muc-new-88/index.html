@@ -692,12 +692,66 @@
 <p>Các bước làm cụ thể tại chức năng  <a href="#khai-bao-vat-tu-hang-hoa-thong-thuong"><strong>Khai báo vật tư, hàng hóa thông thường</strong></a></p>
 <p><strong>Bước 3:</strong> Import 1 Đơn mua hàng, với n dòng chi tiết đơn mua hàng tương ứng với n bản ghi danh mục vật tư hàng hóa tồn kho</p>
 <p>Lưu ý: Hỏi khách hàng số tồn kho này là số đến ngày nào, giả sử là số tồn kho đến 31/12/2021, thì tất cả các ngày tại file import Đơn mua hàng để hết ngày 31/12/2021</p>
-<p>Các bước thực hiện import đơn mua hàng được mô tả chi tiết tại chức năng <a href="../../finance_TT88/fin-mua-hang-88/#lap-on-mua-hang-tu-viec-import-du-lieu"><strong>Lập đơn mua hàng gửi nhà cung cấp</strong></a></p>
+<p>Các bước thực hiện import đơn mua hàng được mô tả chi tiết tại chức năng <a href="../../finance_TT88/fin-mua-hang-88/#lap-on-mua-hang-tu-viec-import-du-lieu"><strong>Lập đơn mua hàng gửi nhà cung cấp</strong></a> hoặc làm theo hướng dẫn dưới đây:</p>
+<p>Vào phân hệ <strong>Mua hàng</strong>, Chọn <strong>Đơn mua hàng</strong> </p>
+<p><img alt="" src="../images/fin_muahang_donmh.png" /></p>
+<p>Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống</p>
+<p><img alt="" src="../images/fin_muahang_donmh_timkiem.png" /></p>
+<p>Trên danh sách đơn hàng, nhấn biểu tượng hình ngôi sao, chọn <strong>Thêm bản ghi</strong></p>
+<p><img alt="" src="../images/fin_muahang_import.png" /></p>
+<p>Sau khi mở màn hình import thông tin, thực hiện xuất file mẫu bằng cách chọn <strong>Mẫu nhập khẩu đơn mua hàng</strong> để thực hiện xuất file mẫu excel</p>
+<p><img alt="" src="../images/fin_muahang_import_tem.png" /></p>
+<p>Trên file excel vừa xuất, người dùng thực hiện nhập thông tin đơn hàng tương ứng tại các cột, hướng dẫn cụ thể có trong phần commnent tại hàng đầu tiên của mỗi cột</p>
+<p><img alt="" src="../images/fin_muahang_import_tem2.png" /></p>
+<p>Sau khi nhập thông tin vào file, thực hiện nhập dữ liệu bằng cách nhấn chọn <strong>Nạp tập tin</strong></p>
+<p><img alt="" src="../images/fin_muahang_naptaptin.png" /></p>
+<p>Chọn file vừa nhập thông tin, đợi hệ thống tải file, sau đó nhấn nút <strong>Kiểm thử</strong> để kiểm tra thông tin trong file có chính xác không.</p>
+<p>Nếu như có lỗi thì sẽ hiển thị thông báo lỗi cụ thể tại cột nào, dòng nào. </p>
+<p>Lưu ý: Những thông báo màu hồng là thông tin cần sửa lại, thông báo màu cam có thể bỏ qua</p>
+<p>Nếu như cần sửa chữa thông tin trong file nhập liệu thì người dùng chọn lại <strong>Nạp tập tin</strong> và chọn file vừa sửa</p>
+<p>Nếu đã chính xác thì sẽ hiển thị thông báo màu xanh : "Mọi thứ dường như hợp lệ". Người dùng nhấn <strong>Nhập</strong> để bắt đầu import dữ liệu vào hệ thống</p>
+<p><img alt="" src="../images/fin_muahang_kiemthu.png" /></p>
+<p>Khi import thành công, hệ thống  sẽ tự động quay về màn hình danh sách và hiển thị thông báo số lượng bản ghi đã được import, các bản ghi được import thành công ở trạng thái báo giá</p>
 <p><strong>Bước 4:</strong> Sau khi import Đơn mua hàng thành công ở bước 3, vào Đơn mua hàng, kích Xác nhận đơn mua hàng, hệ thống sẽ sinh phiếu nhập kho tương ứng</p>
-<p>Các bước làm cụ thể được mô tả tại chức năng <a href="../../finance_TT88/fin-mua-hang-88/#xac-nhan-on-hang-tu-nha-cung-cap"><strong>Xác nhận Đơn hàng từ Nhà cung cấp</strong></a> </p>
-<p><strong>Bước 5:</strong> Tại Đơn mua hàng vừa xác nhận ở bước 4, kích Nhận sản phẩm, hệ thống sẽ hiển thị phiếu nhập kho tương ứng,
-Tại màn hình Phiếu nhập kho, kích Sửa, sửa các ngày có trên tab Thông tin chung của phiếu nhập kho về 31/12/2021 (theo như ví dụ trên để nhập số tồn đầu kỳ), sau đó kích Xác nhận để hoàn thành nhập thông tin</p>
-<p>Các bước làm cụ thể được mô tả tại chức năng <strong><a href="../../finance_TT88/fin-mua-hang-88/#nhap-kho-on-mua-hang">Nhập kho đơn mua hàng</a></strong></p>
+<p>Các bước làm cụ thể được mô tả tại chức năng <a href="../../finance_TT88/fin-mua-hang-88/#xac-nhan-on-hang-tu-nha-cung-cap"><strong>Xác nhận Đơn hàng từ Nhà cung cấp</strong></a> hoặc làm theo hướng dẫn dưới đây:</p>
+<p>Tại đơn hàng đã tạo, sau khi đã thỏa thuận được báo giá với nhà cung cấp và nhà cung cấp trả hàng theo đúng yêu cầu, người mua hàng nhấn nút <strong>Xác nhận</strong> để hoàn thành đơn hàng</p>
+<p>Nếu không còn nhu cầu mua hàng, người bán nhấn <strong>Hủy</strong> hoặc thực hiện xóa đơn hàng đã tạo</p>
+<p>Sau khi có đơn hàng, sản phẩm sẽ được nhận từ nhà cung cấp và nhập vào kho</p>
+<p><img alt="" src="../images/fin_muahang_donmh_xoa.png" /></p>
+<p><strong>Bước 5:</strong> Tại Đơn mua hàng vừa xác nhận ở bước 4, kích Nhận sản phẩm, hệ thống sẽ hiển thị phiếu nhập kho tương ứng,</p>
+<p>Các bước làm cụ thể được mô tả tại chức năng <strong><a href="../../finance_TT88/fin-mua-hang-88/#nhap-kho-on-mua-hang">Nhập kho đơn mua hàng</a></strong> hoặc làm theo hướng dẫn dưới đây:</p>
+<p>Sau khi thực hiện Xác nhận đơn hàng, chương trình tự động sinh ra một phiếu nhập kho. Người dùng có thể theo dõi tình trạng nhận hàng của sản phẩm trên phiếu nhập kho đã sinh ra và xác nhận số lượng sản phẩm bàn giao theo đơn hàng </p>
+<p><img alt="" src="../images/fin_muahang_donmh_nhap.png" /></p>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Nhập kho đơn mua hàng" 
+    src="https://www.youtube.com/embed/3fjLKbsF_-M"
+></iframe>
+</p>
+<p>Chọn <strong>Nhận hàng</strong> hoặc nhấn nút <strong>Nhận sản phẩm</strong>, hệ thống chuyển sang chức năng phiếu nhập kho. </p>
+<p><img alt="" src="../images/fin_muahng_donmh_nhapkho.png" /></p>
+<p>Nếu người dùng muốn sửa ngày chứng từ và ngày hạch toán, nhấn nút <strong>Sửa</strong>, sửa các ngày có trên tab Thông tin chung của phiếu nhập kho về 31/12/2021 (theo như ví dụ trên để nhập số tồn đầu kỳ)  và nhấn <strong>Lưu</strong></p>
+<p>Thực hiện nhập số lượng hàng đã hoàn thành nhận từ nhà cung cấp</p>
+<ul>
+<li>Nếu Số lượng nhận về kho đủ theo Số lượng của Đơn mua hàng: Thực hiện nhấn <strong>Xác nhận</strong> để xác nhận toàn bộ Đơn hàng</li>
+</ul>
+<p><img alt="" src="../images/fin_muahang_donmh_xacnhannhap.png" /></p>
+<ul>
+<li>Nếu Số lượng nhập kho Chưa đủ theo Số lượng của Đơn mua hàng: Thực hiện nhập số lượng theo thực tế bằng cách nhấn <strong>Sửa</strong>, vào nhóm <strong>Vật tư, hàng hóa chi tiết</strong>, nhập số lương <strong>hoàn thành</strong>, sau đó nhấn <strong>Lưu</strong></li>
+</ul>
+<p><img alt="" src="../images/fin_muahang_donmh_slnhap.png" /></p>
+<p>Nhấn <strong>Xác nhận</strong> để hoàn thành nhập hàng về kho</p>
+<p>Khi đó có 2 hướng thực hiện :</p>
+<ul>
+<li>Nếu chọn <strong>Tạo phần dở dang</strong>: Với Số lượng còn thiếu, hệ thống tạo sẵn 1 chứng từ Phiếu nhập kho, để Khi nhập kho với Số lượng còn lại, bộ phận Kho tiếp tục vào Phiếu nhập kho (đã tạo phần dở dang) để thực hiện Xác nhận Số lượng nhập kho còn lại.</li>
+<li>Nếu chọn <strong>Không tạo phần dở dang</strong>: Khi đó hệ thống Tách Số lượng nhu cầu ban đầu Bằng đúng Số lượng thực nhập, còn Số lượng chênh chưa nhận được thì Số lượng hoàn thành = 0</li>
+</ul>
+<p>Như vậy <strong>Phiếu nhập kho</strong> đã <strong>Hoàn thành</strong> .</p>
 <p><strong>Bước 6:</strong> Kiểm tra báo cáo tồn kho bằng hai cách:</p>
 <p>Cách 1: Vào ứng dụng <strong>Báo cáo</strong>, chọn báo cáo <strong>Sổ chi tiết vật liệu, dụng cụ, sản phẩm, hàng hóa(S2-HKD)</strong></p>
 <p><img alt="" src="../images/fin_bc_tonkho_1.png" /></p>
