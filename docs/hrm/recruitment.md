@@ -337,27 +337,61 @@ Người phụ trách tuyển dụng căn cứ kết quả thẩm định hoặc
 
 #### Ký hợp đồng và tạo thông tin nhân viên 
 
-Khi ứng viên hoàn thành ký hợp đồng lao động với công ty, người phụ trách tuyển dụng sẽ tạo thông tin nhân viên sang hệ thống nhân sự từ thông tin hồ sơ xin việc. 
+Khi ứng viên hoàn thành ký hợp đồng lao động với công ty, người phụ trách tuyển dụng sẽ gửi đường dẫn để ứng viên nhập các thông tin cá nhân cần thiết cho hồ sơ nhân viên. Sau khi ký hợp đồng và trở thành nhân viên chính thức, các thông tin cá nhân này sẽ được đồng bộ sang module **Nhân viên**, đẩy trực tiếp vào hồ sơ nhân viên.
+
+**Đối tượng thực hiện**: Người phụ trách tuyển dụng tạo đường dẫn, Ứng viên điền thông tin.
+
+**Các bước thực hiện:**
+
+1. Vào màn hình **Ứng viên** ->**Tất cả ứng viên**
+
+   Tìm kiếm ứng viên cần chuyển trạng thái tuyển dụng và tạo nhân viên
+
+   Kích vào bản ghi ứng viên
+
+4. Tại màn hình **Thông tin ứng viên**, trên thanh trạng thái -> Chọn trạng thái tương ứng trong quá trình tuyển dụng.
+
+   ![](images/Ungvien_hoso4.PNG)
+
+5. Kích nút **Tạo đường dẫn**: Chuyển màn hình tạo đường dẫn, đường dẫn này có hiệu lực trong vòng 48h kể từ khi tạo, nếu quá thời gian, ứng viên có nhu cầu sửa đổi thông tin có thể phản hồi lại với người tuyển dụng để được gia hạn.
+
+   Ứng viên sau khi truy cập sẽ có biểu mẫu thông tin cá nhân cần điền, hoàn thành xong biểu mẫu và gửi lại cho người tuyển dụng.
+
+   ![image-20220331083256877](images/image-20220331083256877.png)
+   
+   Người tuyển dụng có thể biết ứng viên đã nộp thông tin hay chưa bằng cách kích vào nút **Xem thông tin** trong hồ sơ ứng viên. 
+   
+   ![image-20220331083304818](images/image-20220331083304818.png)
+   
+   Để gia hạn đường dẫn tới biểu mẫu thông tin cá nhân, người tuyển dụng thực hiện kích vào **Xem thông tin > Gia hạn đường dẫn**. Đường dẫn sau khi được gia hạn sẽ có hiệu lực trong 48h tiếp theo.
+   
+   ![image-20220331083310834](images/image-20220331083310834.png)
+   
+   
+   
+5. Kích nút **Tạo nhân viên**: Chuyển màn hình tạo hồ sơ nhân viên.
+
+   Người phụ trách tuyển dụng nhập các thông tin cần thiết còn thiếu mà ứng viên chưa điền, kiểm tra thông tin đã chính xác chưa và lưu lại. Nhân viên được tạo sang hệ thống nhân sự. 
+
+   ![](images/hoso_taonhanvien.PNG)
+
+#### Kho ứng viên tiềm năng
+
+Ứng viên chưa qua phỏng vấn nhưng có tiềm năng cho tuyển dụng sau này, người tuyển dụng có thể chuyển ứng viên vào kho tiềm năng để chăm sóc sau này.
 
 **Đối tượng thực hiện**: Người phụ trách tuyển dụng
 
 **Các bước thực hiện:**
 
-1. Vào màn hình **Ứng viên** ->**Hồ sơ xin việc**
+1. Vào màn hình **Ứng viên** ->**Tất cả ứng viên**
 
-2. Tìm kiếm ứng viên cần chuyển trạng thái tuyển dụng và tạo nhân viên
+2. Tìm kiếm ứng viên 
 
-3. Kích vào bản ghi ứng viên
+3. Kích vào bản ghi ứng viên cần thêm vào kho ứng viên tiềm năng, chọn **Sửa**
 
-4. Tại màn hình **Thông tin ứng viên**, trên thanh trạng thái -> Chọn trạng thái tương ứng cho hoàn tất quá trình tuyển dụng. 
+   ![image-20220331083347417](images/image-20220331083347417.png)
 
-   ![](images/Ungvien_hoso4.PNG)
-
-5. Kích nút **Tạo nhân viên**: Chuyển màn hình tạo hồ sơ nhân viên.
-
-   Người phụ trách tuyển dụng nhập các thông tin cần thiết khi tạo nhân viên và lưu lại. Nhân viên được tạo sang hệ thống nhân sự. 
-
-   ![](images/hoso_taonhanvien.PNG)
+4. Chọn kho tiềm năng tương ứng, chọn **Lưu** để thực hiện lưu lại. Sau khi lưu ứng viên sẽ được chuyển vào kho tiềm năng mà người tuyển dụng đã chọn.
 
 #### Từ chối tuyển dụng
 
@@ -415,4 +449,87 @@ Sau mỗi đợt tuyển dụng hoặc khi phát sinh nhu cầu, người phụ 
 3. Kích vào từng thành phần trong báo cáo tổng hợp để xem danh sách ứng viên chi tiết tương ứng
 
    
+
+### Quản lý kho ứng viên tiềm năng
+
+**Đối tượng thực hiện**: Người phụ trách tuyển dụng
+
+**Các bước thực hiện:**
+
+1. Vào **Tuyển dụng > Kho tiềm năng**
+
+2. Chuyển đến màn hình quản lý các kho tiềm năng, chọn **Tạo**
+
+   ![image-20220331083405727](images/image-20220331083405727.png)
+
+3. Tại màn hình tạo mới, thực hiện nhập các thông tin bắt buộc về kho tiềm năng.
+
+   ![image-20220331083414163](images/image-20220331083414163.png)
+
+- Tên kho tiềm năng: Bắt buộc nhập
+- Chọn vị trí: Vị trí công việc mà kho này sẽ chứa, bắt buộc nhập
+- Các nhân viên: Chọn các nhân viên tuyển dụng có quyền tác động đến kho, chỉ nhân viên được chọn mới có quyền **Xem, sửa, xoá**, nhân viên không có quyền thì chỉ có thể **xem**. Nếu cho phép toàn bộ các nhân viên tuyển dụng có quyền ngang nhau thì kích chọn **Chọn tất cả nhân viên có quyền tuyển dụng**
+
+#### Xem danh sách ứng viên trong Kho tiềm năng
+
+**Đối tượng thực hiện**: Người phụ trách tuyển dụng
+
+**Các bước thực hiện:**
+
+1. Vào **Tuyển dụng > Kho tiềm năng**
+
+Để xem ứng viên của kho thì thực hiện kích vào nút **Xem thêm** ở từng thẻ, chọn **Danh sách ứng viên**
+
+![image-20220331083422997](images/image-20220331083422997.png)
+
+Chuyển đến màn hình danh sách ứng viên của kho
+
+![image-20220331083430492](images/image-20220331083430492.png)
+
+#### Chuyển ứng viên sang kho tiềm năng khác
+
+**Đối tượng thực hiện**: Người phụ trách tuyển dụng
+
+**Các bước thực hiện:**
+
+1. Vào **Tuyển dụng > Kho tiềm năng**, chọn nút **Xem thêm** ở từng thẻ, chọn **Danh sách ứng viên**
+
+2. Khi muốn chuyển ứng viên giữa các kho thực hiện kích chọn vào nút **Chuyển**
+
+![image-20220331083438408](images/image-20220331083438408.png)
+
+Sau đó chọn kho mà bạn muốn chuyển, bằng cách chọn vào các ô tương ứng. sau đó chọn **Đồng ý**. Hoàn tất bước này thì ứng viên đó đã được nhân bản CV sang 1 kho khác.
+
+![image-20220331083445203](images/image-20220331083445203.png)
+
+#### Chỉnh sửa thông tin kho tiềm năng
+
+**Đối tượng thực hiện**: Người phụ trách tuyển dụng
+
+**Các bước thực hiện:**
+
+1. Vào **Tuyển dụng > Kho tiềm năng**, chọn nút **Xem thêm** ở từng thẻ, chọn **Chỉnh sửa kho**
+
+
+
+Chuyển đến màn hình tương ứng để người tuyển dụng có thể chỉnh sửa thông tin, sau khi hoàn tất thì kích **Lưu**
+
+![image-20220331083453674](images/image-20220331083453674.png)
+
+#### Chia sẻ kho tiềm năng
+
+**Đối tượng thực hiện**: Người phụ trách tuyển dụng
+
+**Các bước thực hiện:**
+
+1. Vào **Tuyển dụng > Kho tiềm năng**, chọn nút **Chia sẻ**
+
+![image-20220331083501769](images/image-20220331083501769.png)
+
+Việc chia sẻ này, có thể giúp các công ty nhận CV nhanh và dễ dàng hơn qua các ngày hội việc làm, cuộc thi tìm kiếm tài năng nhân sự mới,... thông qua việc quét QR trên điện thoại, hoặc truy cập đường dẫn để nộp CV
+
+![image-20220331083509673](images/image-20220331083509673.png)
+
+- **Tên nguồn**: Các kênh xã hội mà người dùng muốn chia sẻ như Facebook, trang web công ty, LinkedIn,...
+- **Người tuyển dụng**: người tuyển dụng có quyền thao tác với kho này, thông tin này có thể sửa hoặc cập nhật như ở mục **Chỉnh sửa kho tiềm năng**.
 
