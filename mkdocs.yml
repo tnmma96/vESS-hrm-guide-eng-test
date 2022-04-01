@@ -18,7 +18,7 @@ nav:
         - 'Chấm công': 'hrm/attendance.md'
         - 'Tính lương': 'hrm/payroll.md'
         - 'Lịch sử phát triển sản phẩm': 'hrm/log-histories.md'
-    - 'Kế toán - Dành cho kế toán doanh nghiệp':
+    - 'Kế toán - Dành cho doanh nghiệp':
         - 'Giới thiệu về phân hệ Kế toán': 'finance/fin-introduction.md'
         - 'Thiết lập và khai báo ban đầu': 'finance/fin-initialization.md'
         - 'Các thuật ngữ và từ viết tắt': 'finance/fin-abbreviations.md'
@@ -34,7 +34,7 @@ nav:
         - 'Công cụ dụng cụ': 'finance/fin-ccdc.md'
         - 'Giá thành': 'finance/fin-giathanh.md'
         - 'Lịch sử phát triển sản phẩm': 'finance/fin-log-histories.md'
-    - 'Kế toán - Dành cho hộ, cá thể kinh doanh':
+    - 'Kế toán - Dành cho hộ, cá thể':
         - 'Giới thiệu về phân hệ Kế toán': 'finance_TT88/fin-introduction-88.md'
         - 'Thiết lập và khai báo ban đầu': 'finance_TT88/fin-initialization-88.md'
         - 'Các thuật ngữ và từ viết tắt': 'finance_TT88/fin-abbreviations-88.md'
