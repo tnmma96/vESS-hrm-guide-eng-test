@@ -52,7 +52,13 @@ Khi đơn vị có nhu cầu mua hàng, lập yêu cầu mua hàng thì quy trì
 
 **Đối tượng thực hiện :** Nhân viên bộ phận mua hàng 
 
-##### **Cách 1: Nhập trực tiếp trên giao diện**
+Có hai cách để thực hiện lập đơn mua hàng
+
+*<u>Cách 1:</u>* Nhập thêm mới trực tiếp trên giao diện
+
+*<u>Cách 2:</u>* Lập đơn mua hàng từ việc import dữ liệu
+
+##### **Nhập trực tiếp trên giao diện**
 
 **Bước 1:** Vào phân hệ **Mua hàng**, Chọn **Đơn mua hàng** 
 
@@ -89,7 +95,7 @@ Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm ki
 
 **Bước 3**: Nhấn **Lưu**
 
-##### **Cách 2: Lập đơn mua hàng từ việc Import dữ liệu**
+##### **Lập đơn mua hàng từ việc Import dữ liệu**
 
 **Bước 1:** Vào phân hệ **Mua hàng**, Chọn **Đơn mua hàng** 
 

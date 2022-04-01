@@ -84,7 +84,7 @@ nav:
         - 'Ký số': 'vESS_mobile/Addon-ky-so.md'
         - 'Lịch sử phát triển sản phẩm': 'vESS_mobile/Mobile-Lich-su-phat-trien.md'
     - 'vContract - Hợp đồng điện tử': 
-        - 'THIẾT LẬP LUỒNG KÝ HỢP ĐỒNG': 'vContract/thiet-lap-luong-ky.md'                                                
+        - 'Thiết lập luồng ký hợp đồng': 'vContract/thiet-lap-luong-ky.md'                                                
     - 'Release Notes': 'release-notes.md'
 theme:
     name: readthedocs

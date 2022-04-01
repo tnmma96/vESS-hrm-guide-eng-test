@@ -1,7 +1,9 @@
-### Cấu hình trước khi sử dụng dịch vụ
+# Thiết lập luồng ký hợp đồng
+
+## Cấu hình trước khi sử dụng dịch vụ
 Admin của chủ thể ký kết thực hiện cấu hình các thông tin dưới đây trước khi sử dụng
 
-#### Thiết lập loại hợp đồng 
+### Thiết lập loại hợp đồng 
 
 - **Loại Hợp Đồng**: dùng để phân nhóm các hợp đồng của đơn vị, hỗ trợ cho tìm kiếm và cấu hình các chức năng khác trong hệ thống.
 
@@ -15,7 +17,7 @@ Admin của chủ thể ký kết thực hiện cấu hình các thông tin dư�
 
 ![](picture\PIC_SME_Vcontract_ThemMoiLoaiHopDong.png)
 
-#### Thiết lập mẫu hợp đồng
+### Thiết lập mẫu hợp đồng
 
 - **Mẫu Hợp Đồng**: cho phép nhân viên đơn vị thiết lập nhanh hợp đồng, ko cần soạn thảo sẵn tại máy tính.
 
@@ -31,7 +33,7 @@ Admin của chủ thể ký kết thực hiện cấu hình các thông tin dư�
   4. Chọn một mẫu có sẵn của hệ thống > Điền thông tin Mẫu hợp đồng của đơn vị cần sử dụng > Nhấn **Thêm mẫu**
 
 ![](picture\PIC_SME_Vcontract_ThietLapMauHopDong.png)
-#### **Thiết lập phương thức ký**
+### **Thiết lập phương thức ký**
 
 - **Phương thức ký**: Là hình thức ký số mà đơn vị sử dụng để ký hợp đồng.
 
@@ -51,7 +53,7 @@ Admin của chủ thể ký kết thực hiện cấu hình các thông tin dư�
 Ngoài ra, người dùng có thể thiết lập nhanh Phương thức ký trên trực tiếp trang ký 1 hợp đồng (tương đương bước 4)
 
 ![](picture\PIC_SME_Vcontract_ThietLapPhuongThucKy.png)
-#### **Thiết lập nhóm quyền - Tạo người dùng của đơn vị**
+### **Thiết lập nhóm quyền - Tạo người dùng của đơn vị**
 
 - **Nhóm quyền – Người dùng**: cấp tài khoản người dùng và quyền thao tác cho các nhân viên của đơn vị sử dụng dịch vụ. Với nhiều người dùng, đơn vị có thể cấu hình động người phê duyệt / ký duyệt / ký nháy các hợp đồng của mình.
 
@@ -70,7 +72,7 @@ Ngoài ra, người dùng có thể thiết lập nhanh Phương thức ký trê
 
 ![](picture\PIC_SME_Vcontract_ThemNguoiDung.png)
 
-#### **Tạo khách hàng/đối tác ký kết**
+### **Tạo khách hàng/đối tác ký kết**
 
 - **Khách hàng / Đối tác**: được hiểu là bên tham gia ký kết hợp đồng với đơn vị sử dụng dịch vụ Hợp đồng điện tử. Khi đơn vị sử dụng dịch vụ khởi tạo ký 1 hợp đồng, đơn vị đồng thời tạo tài khoản cho các bên tham gia này (nếu tài khoản chưa tồn tại)
 
@@ -89,7 +91,7 @@ Ngoài ra, người dùng có thể thêm nhanh khách hàng trên trang lập h
 ![](picture\PIC_SME_Vcontract_ThemMoiKhachHang1.png)
 
 ![](picture\PIC_SME_Vcontract_ThemMoiKhachHang2.png)
-### **Chuẩn bị công cụ kết nối usbtoken**
+## **Chuẩn bị công cụ kết nối usbtoken**
 Để thực hiện thiết lập Phương thức ký hoặc Ký số hợp đồng bằng usb token, người dùng thao tác cần đáp ứng:
 
 - Có chứng thư số hợp lệ, còn thời hạn sử dụng.
@@ -133,9 +135,9 @@ Ngoài ra, người dùng có thể thêm nhanh khách hàng trên trang lập h
 
 Sau khi đã cài đặt, bật plugin theo các bước nêu trên, người dùng thực hiện chức năng thiết lập Phương thức ký và Ký số hợp đồng như bình thường.
 
-###  **Thao tác trên hợp đồng**
+##  **Thao tác trên hợp đồng**
 
-#### **Tạo hợp đồng**
+### **Tạo hợp đồng**
 
 **Các bước thực hiện tạo hợp đồng**:
 
@@ -170,7 +172,7 @@ Sau khi đã cài đặt, bật plugin theo các bước nêu trên, người d�
 
 8. Nhấn nút **Lập hợp đồng** > Hệ thống kiểm tra và lập hợp đồng ở trạng thái **Nháp**
 
-#### **Thực hiện luồng ký hợp đồng**
+### **Thực hiện luồng ký hợp đồng**
 
 Sau khi đã soạn thảo hoàn tất 1 hợp đồng, người lập chuyển hợp đồng đến các bên ký kết bằng chức năng Thực hiện luồng ký, các bước thực hiện như sau:
 
@@ -184,7 +186,7 @@ Sau khi đã soạn thảo hoàn tất 1 hợp đồng, người lập chuyển 
 
 ![](picture\PIC_SME_Vcontract_LuongKyHopDong.png)
 
-#### **Ký hợp đồng**
+### **Ký hợp đồng**
 
 - **Mục đích**: Sử dụng cho người dùng có yêu cầu cần ký hợp đồng.
 
@@ -203,7 +205,7 @@ Sau khi đã soạn thảo hoàn tất 1 hợp đồng, người lập chuyển 
 
 ![](picture\PIC_SME_Vcontract_KyHopDong2.png)
 
-##### **Ký bằng USB Token**
+#### **Ký bằng USB Token**
 
 - **Cách 1: Sử dụng ảnh chứng thư số đã đăng ký:** 
 
@@ -216,7 +218,7 @@ Sau khi đã soạn thảo hoàn tất 1 hợp đồng, người lập chuyển 
   - Tại màn hình **Ký số hợp đồng**  > Chọn phương thức ký **USB TOKEN** > Chọn chứng thư số > Nhấn **Tiếp theo** > Tab  **Tải ảnh mới lên** nhấn chuột vào ô chữ nhật để tải ảnh mới cho phương thức ký đã chọn > Nhấn **Tiếp theo** > Click để chọn vị trí hiển thị ảnh ký trên hợp đồng > Nhấn **Ký** để thực hiện ký thành công
   - Hệ thống thông báo **Ký hợp đồng thành công** để hoàn thành thao tác ký.
 
-##### **Ký bằng SIMCA**
+#### **Ký bằng SIMCA**
 
 - **Cách 1: Sử dụng ảnh chứng thư số đã đăng ký:** 
 
@@ -229,7 +231,7 @@ Tại màn hình **Ký số hợp đồng** > Chọn phương thức ký **SIMCA
   - Tại màn hình **Ký số hợp đồng** > Chọn phương thức ký **SIMCA** > Chọn chứng thư số > Nhấn **Tiếp theo** > Tab **Tải ảnh mới lên** nhấn chuột vào ô chữ nhật để tải ảnh mới cho phương thức ký đã chọn > Nhấn **Tiếp theo** > Click để chọn vị trí hiển thị ảnh ký trên hợp đồng > Nhấn **Ký** để thực hiện ký thành công
   - Hệ thống thông báo **Ký hợp đồng thành công** để hoàn thành thao tác ký.
 
-##### **Ký bằng phương thức OTP**
+#### **Ký bằng phương thức OTP**
 
   **Lưu ý :** Chỉ áp dụng với người ký là **Khách hàng cá nhân**
 
