@@ -181,7 +181,15 @@ Hệ thống sẽ tự động hạch toán lương và lên báo cáo theo dõi
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Tổng hợp - Bảng lương" 
+    src="https://www.youtube.com/embed/04x64Ixqa6k"
+></iframe>
 
 
 ### **Hướng dẫn trên phần mềm**

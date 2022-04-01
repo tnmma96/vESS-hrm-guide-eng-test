@@ -14,6 +14,8 @@ Phân hệ **Ngân quỹ** quản lý tình hình thu/chi tiền mặt và tiề
 
 ·     Kiểm kê tiền mặt. Chi tiết nghiệp vụ **[Kiểm kê tiền mặt](#kiem-ke-tien-mat)**
 
+·     Thanh toán lương cho nhân viên. Chi tiết nghiệp vụ **[Thanh toán lương cho nhân viên](#thanh-toan-luong-cho-nhan-vien)**
+
 ## Thu tiền mặt
 
 ### *Xem video hướng dẫn*
@@ -172,44 +174,11 @@ Kế toán thực hiện tạo Phiếu chi tiền mặt cho các dịch vụ ph�
   - Nhấn thêm cột dữ liệu ở Tab **Bút toán**
   - Chọn thông tin **Khoản mục chi phí**, **Công trình**, **Đơn hàng**, **Hợp đồng**... muốn theo dõi chi tiết
 
-### Thanh toán tiền lương cho nhân viên
-
-#### Mô tả nghiệp vụ
-
-Căn cứ vào bảng lương của nhân viên, Kế toán thực hiện tạo phiếu chi trả lương cho nhân viên tiền mặt hàng tháng.
-
-#### Hướng dẫn trên phần mềm
-
-**Bước 1:** Vào phân hệ **Ngân quỹ**, Chọn **Tiền mặt**, Chọn **Chi tiền mặt** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
-
-![TM_2208](images/TM_2208.png)
-
-**Bước 2:** Khai báo các thông tin của **Chi tiền mặt**
-
-- Tại mục **Lý do chi**: Chọn **Chi thanh toán lương cho nhân viên bằng tiền mặt**.
-- Tại **Tổng tiền nguyên tệ**: Nhập số tiền cần thanh toán
-
-![TM_2213](images/TM_2213.png)
-
-**Bước 3:** Nhấn **Lưu**/ Xác nhận: Sau khi đã hoàn thành thông tin
-
-![TM_2214](images/TM_2214.png)
-
 ### Thanh toán các chi phí: BHXH, BHYT, BH thất nghiệp
 
 #### Mô tả nghiệp vụ
 
-Khi công ty phát sinh các nghiệp vụ nộp bảo hiểm cho nhân viên, thường phát sinh các hoạt động sau:
-
-- Căn cứ vào Bảng lương của nhân viên, nhân viên chịu trách nhiệp nộp bảo hiểm sẽ lập yêu cầu chi tiền mặt để nộp bảo hiểm.
-
-- Kế toán thanh toán lập Phiếu chi, sau đó chuyển cho Kế toán trưởng và Giám đốc ký duyệt.
-
-- Thủ quỹ căn cứ vào Phiếu chi đã được duyệt thực hiện xuất quỹ tiền mặt
-
-- Kế toán thanh toán căn cứ vào Phiếu chi có chữ ký của thủ quỹ và người nhận tiền để ghi sổ kế toán tiền mặt
-
-- Sau khi nộp bảo hiểm xong, nhân viên đi nộp thuế sẽ giao lại cho kế toán thanh toán giấy xác nhận nộp bảo hiểm của cơ quan bảo hiểm.
+Thực hiện chi trả các khoản liên quan đến Bảo hiểm xã hội, bảo hiểm y tế hoặc Chi trả thất nghiệp cho nhân viên
 
 #### Hướng dẫn trên phần mềm
 
@@ -323,3 +292,71 @@ Với những giao dịch chi trả đơn hàng cho nhà cung cấp bằng tiề
 - Căn cứ vào thực tế kiểm kê thừa hay thiếu, hệ thống tự động sinh ra Phiếu thu/Phiếu chi tương ứng. Cụ thể:
   - Trường hợp Số kiểm kê thực tế < Số dư trên sổ kế toán, hệ thống sẽ tự động sinh ra **Phiếu chi** để xử lý giá trị thừa.
   - Trường hợp Số kiểm kê thực tế > Số dư trên sổ kế toán, hệ thống sẽ tự động sinh ra **Phiếu thu** để xử lý giá trị thiếu.
+
+## *Thanh toán lương cho nhân viên*
+
+### Mô tả nghiệp vụ
+
+**Nghiệp vụ**
+
+Hàng tháng, sau khi Doanh nghiệp chốt thông tin lương sẽ thực hiện thanh toán tiền lương cho Nhân viên theo Bảng lương đã chốt.
+
+Việc thanh toán được thực hiện thanh toán theo **Tiền mặt** hoặc **Tiền gửi**
+
+**Xem video hướng dẫn**
+
+*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+
+
+### **Hướng dẫn trên phần mềm**
+
+Đối tượng thực hiện: Người dùng phần mềm
+
+**Bước 1**: Vào phân hệ **Ngân quỹ**, 
+
+- Chọn **Tiền mặt**, chọn **Thanh toán lương cho nhân viên**: Nếu muốn chi trả lương bằng **Tiền mặt**
+
+  ![](images/fin_nganquy_tienmat_Ttluong.png)
+
+- Chọn **Tiền gửi**, chọn **Thanh toán lương cho nhân viên**: Nếu muốn chi trả lương bằng **Tiền gửi ngân hàng** 
+
+  ![](images/fin_nganquy_tiengui_Ttluong.png)
+
+**Bước 2**: Hệ thống hiển thị thông tin màn hình chức năng:
+
+![](images/fin_nganquy_tiengui_tao.png)
+
+Các trường dữ liệu trên chức năng:
+
+- Thông tin Nhân viên: Đã được hiển thị mặc định danh sách các nhân viên đã được khai báo tại **Danh mục Nhân viên**
+- Bảng lương: Thỏa mãn là Bảng lương đã được Xác nhận hoàn thành
+- Thông tin Sổ nhật ký: Xác định Sổ nhật ký dùng để chi trả và lên các bút toán chi tiền lương cho nhân viên
+- Thông tin Tổng số tiền phải trả: Là thông tin Số tiền của Bảng lương còn phải trả. Nếu là lần chi trả ban đầu thông tin 'Tổng tiền phải trả' chính là thông tin Tiền của Bảng lương. Với lần trả tiếp theo: Số tiền phải trả là giá trị còn lại của Bảng lương sau khi đã thanh toán lương lần đầu
+
+![](images/fin_nganquy_tiengui_tao_khaibao.png)
+
+**Bước 3**: Thực hiện chọn và Nhập thông tin dữ liệu
+
+- Chọn Bảng lương
+- Nhập thông tin Số tiền tương ứng cần thanh toán cho Nhân viên. Trường hợp không thanh toán giữ nguyên thông tin Số tiền thanh toán = 0
+
+***Lưu ý:*** Hệ thống sẽ báo lỗi khi 'Tổng tiền trả lần này' vượt quá 'Tổng tiền phải trả' và Báo lỗi khi Số tiền còn lại trong Sổ nhật ký không đủ để thanh toán khoản tiền phải chi trả
+
+![](images/fin_nganquy_tiengui_tao_nhapthongtin.png)
+
+**Bước 4**: Người dùng Nhấn nút **Xác nhận** để ghi nhận thanh toán lương theo dữ liệu đã nhập.
+
+![](images/fin_nganquy_tiengui_tao_nhapthongtin_XacNhan.png)
+
+Hệ thống tự động tạo ra các phiếu chi lương với các bút toán tương ứng với từng đối tượng
+
+![](images/fin_nganquy_tiengui_tao_danhsachbuttoan.png)
+
+Thông tin chi tiết của Phiếu chi thanh toán lương
+
+![](images/fin_nganquy_tiengui_tao_danhsachbuttoan_chiTiet.png)
+
+***Lưu ý:*** Với các Bảng lương đã được thanh toán Chi trả, hệ thống thể hiện thông tin Số lượng Phiếu chi tương ứng đã được thanh toán của Bảng lương
+
+![](images/fin_nganquy_tiengui_bangluong.png)
+
