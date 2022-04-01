@@ -107,3 +107,7 @@ Sau khi cấu hình xong, test lại đường dẫn relative path như hình d�
     * Nội dung 2.2
         * Nội dung 2.2.1
    ```
+3. Đặt headings
+   ```
+    - Trong 1 file .md heading bắt đầu từ h1, và chỉ duy nhất có 1 h1 trong file
+   ```
