@@ -136,7 +136,13 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#huong-dan-tren-phan-mem">Hướng dẫn trên phần mềm</a>
         <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#them-moi-on-hang">Thêm mới đơn hàng</a>
+    <li class="toctree-l4"><a class="reference internal" href="#lap-on-ban-hang-gui-khach-hang">Lập đơn bán hàng gửi khách hàng</a>
+        <ul>
+    <li class="toctree-l5"><a class="reference internal" href="#lap-on-ban-hang-tren-giao-dien">Lập đơn bán hàng trên giao diện</a>
+    </li>
+    <li class="toctree-l5"><a class="reference internal" href="#lap-on-ban-hang-tu-viec-import-du-lieu">Lập đơn bán hàng từ việc import dữ liệu</a>
+    </li>
+        </ul>
     </li>
     <li class="toctree-l4"><a class="reference internal" href="#thuc-hien-gui-on-hang-cho-khach-hang">Thực hiện gửi đơn hàng cho khách hàng</a>
     </li>
@@ -351,7 +357,11 @@
 </p>
 <h3 id="huong-dan-tren-phan-mem">Hướng dẫn trên phần mềm</h3>
 <p><strong>Đối tượng thực hiện:</strong> Người bán hàng</p>
-<h4 id="them-moi-on-hang">Thêm mới đơn hàng</h4>
+<h4 id="lap-on-ban-hang-gui-khach-hang">Lập đơn bán hàng gửi khách hàng</h4>
+<p>Có hai cách thực hiện tạo đơn bán hàng</p>
+<p><em><u>Cách 1:</u></em> Lập đơn bán hàng trực tiếp trên giao diện. Hướng dẫn cụ thể <strong><a href="#lap-on-ban-hang-tren-giao-dien">tại đây</a></strong></p>
+<p><em><u>Cách 2:</u></em> Lập đơn bán hàng từ việc import dữ liệu. Hướng dẫn cụ thể <strong><a href="#lap-on-ban-hang-tu-viec-import-du-lieu">tại đây</a></strong></p>
+<h5 id="lap-on-ban-hang-tren-giao-dien">Lập đơn bán hàng trên giao diện</h5>
 <p><strong>Bước 1:</strong> Vào phân hệ <strong>Bán hàng</strong>, Chọn <strong>Đơn bán hàng</strong>, chọn <strong>Báo giá</strong> </p>
 <p><img alt="" src="../images/fin_banhang_vaochucnang.png" /></p>
 <p>Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống</p>
@@ -373,6 +383,40 @@
 <p><img alt="" src="../images/fin_banhang_chitiet.png" /></p>
 <p>​           Khi thực hiện Thêm ghi chú --&gt; Thông tin nội dung sẽ được in trên file gửi khách hàng</p>
 <p><strong>Bước 3</strong>: Nhấn <strong>Lưu</strong></p>
+<h5 id="lap-on-ban-hang-tu-viec-import-du-lieu">Lập đơn bán hàng từ việc import dữ liệu</h5>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Bán hàng</strong>, Chọn <strong>Đơn bán hàng</strong>  hoặc <strong>Đơn đặt hàng</strong> trên quy trình</p>
+<p><img alt="" src="../images/fin_banhang_donbh.png" /></p>
+<p>Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống</p>
+<p><img alt="" src="../images/fin_banhang_donbh_timkiem.png" /></p>
+<p><strong>Bước 2:</strong> Trên danh sách đơn hàng, nhấn biểu tượng hình ngôi sao, chọn <strong>Thêm bản ghi</strong></p>
+<p><img alt="" src="../images/fin_banhang_import.png" /></p>
+<p>Sau khi mở màn hình import thông tin, thực hiện xuất file mẫu bằng cách chọn <strong>Mẫu nhập khẩu đơn bán hàng</strong> để thực hiện xuất file mẫu excel</p>
+<p><img alt="" src="../images/fin_banhang_import_tem.png" /></p>
+<p>Trên file excel vừa xuất, người dùng thực hiện nhập thông tin đơn hàng tương ứng tại các cột, hướng dẫn cụ thể có trong phần commnent tại hàng đầu tiên của mỗi cột</p>
+<p><img alt="" src="../images/fin_banhang_import_tem2.png" /></p>
+<p>Đơn vị: Bắt buộc nhập, nhập tên đơn vị
+Ngày đặt hàng: Nhập ngày theo định dạng ngày-tháng-năm<br />
+Hiệu lực đến: Nhập ngày theo định dạng ngày-tháng-năm <br />
+Khách hàng: Bắt buộc nhập, Nhập tên khách hàng<br />
+Bảng giá: Bắt buộc chọn 
+Nội dung: Nhập nội dung đơn hàng
+Nhân viên bán hàng: Nhập tên nhân viên bán hàng 
+Kho: Nhập tên kho của đơn vị
+Chi tiết đơn hàng/Sản phẩm: Bắt buộc nhập, nhập tên hàng hóa cần bán  <br />
+Chi tiết đơn hàng/Đơn vị tính: Nhập tên đơn vị tính 
+Chi tiết đơn hàng/Số lượng: Bắt buộc nhập, Nhập số lượng  <br />
+Chi tiết đơn hàng/Đơn giá: Bắt buộc nhập,   nhập đơn giá
+Chi tiết đơn hàng/Thuế: Nhập tên loại thuế</p>
+<p>Sau khi nhập thông tin vào file, thực hiện nhập dữ liệu bằng cách nhấn chọn <strong>Nạp tập tin</strong></p>
+<p><img alt="" src="../images/fin_banhang_naptaptin.png" /></p>
+<p>Chọn file vừa nhập thông tin, đợi hệ thống tải file, sau đó nhấn nút <strong>Kiểm thử</strong> để kiểm tra thông tin trong file có chính xác không.</p>
+<p>Nếu như có lỗi thì sẽ hiển thị thông báo lỗi cụ thể tại cột nào, dòng nào. </p>
+<p>Lưu ý: Những thông báo màu hồng là thông tin cần sửa lại, thông báo màu vàng có thể bỏ qua</p>
+<p>Nếu như cần sửa chữa thông tin trong file nhập liệu thì người dùng chọn lại <strong>Nạp tập tin</strong> và chọn file vừa sửa</p>
+<p>Nếu đã chính xác thì sẽ hiển thị thông báo màu xanh : "Mọi thứ dường như hợp lệ". Người dùng nhấn <strong>Nhập</strong> để bắt đầu import dữ liệu vào hệ thống</p>
+<p>Nếu không muốn import thì nhấn <strong>Hủy</strong>  </p>
+<p><img alt="" src="../images/fin_banhang_kiemthu.png" /></p>
+<p>Khi import thành công, hệ thống  sẽ tự động quay về màn hình danh sách và hiển thị thông báo số lượng bản ghi đã được import, các bản ghi được import thành công ở trạng thái báo giá</p>
 <h4 id="thuc-hien-gui-on-hang-cho-khach-hang"><strong>Thực hiện gửi đơn hàng cho khách hàng</strong></h4>
 <p><strong>Bước 1</strong>: Sau khi đã có đơn hàng để gửi khách hàng, Thực hiện <strong>In đơn hàng</strong> bằng cách chọn chức năng <strong>In</strong></p>
 <p><img alt="" src="../images/fin_banhang_donhang_in.png" /></p>

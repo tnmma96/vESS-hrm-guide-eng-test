@@ -136,38 +136,6 @@
                   </li>
                   <li class="toctree-l1 current"><a class="reference internal current" href="./">Kho vận</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#lap-phieu-nhap-kho">Lập phiếu nhập kho</a>
-        <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#lap-phieu-nhap-kho_1">Lập phiếu nhập kho</a>
-    </li>
-        </ul>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#lap-phieu-xuat-kho">Lập phiếu xuất kho</a>
-        <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_1">Mô tả nghiệp vụ</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#lap-phieu-xuat-kho_1">Lập phiếu xuất kho</a>
-    </li>
-        </ul>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#kiem-ke-hang-ton-kho">Kiểm kê hàng tồn kho</a>
-        <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_2">Mô tả nghiệp vụ</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#kiem-ke-kho">Kiểm kê kho</a>
-    </li>
-        </ul>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#tinh-gia-xuat-kho">Tính giá xuất kho</a>
-        <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_3">Mô tả nghiệp vụ</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#tinh-gia-xuat-kho_1">Tính giá xuất kho</a>
-    </li>
-        </ul>
-    </li>
     </ul>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../fin-thue-88/">Thuế</a>
@@ -291,8 +259,74 @@
 <p>·     Lập phiếu xuất kho hàng hóa, thành phẩm. Chi tiết nghiệp vụ <strong><a href="#lap-phieu-xuat-kho">tại đây</a></strong></p>
 <p>·     Kiểm kê kho . Chi tiết nghiệp vụ <strong><a href="#kiem-ke-hang-ton-kho">tại đây</a></strong></p>
 <p>·     Tính giá xuất kho. Chi tiết nghiệp vụ <strong><a href="#tinh-gia-xuat-kho">tại đây</a></strong></p>
+<h1 id="lap-lenh-san-xuat"><em>Lập lệnh sản xuất</em></h1>
+<h2 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h2>
+<p>Căn cứ vào đơn đặt hàng bán, người sử dụng thực hiện lập lệnh sản xuất theo số lượng thành phẩm đã được duyệt tại đơn đặt hàng bán</p>
+<p>Đồng thời xác định nguyên liệu cần để sản xuất ra số lượng thành phẩm theo lệnh sản xuất</p>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
+<h2 id="lap-lenh-san-xuat_1">Lập lệnh sản xuất</h2>
+<p>Đối tượng thực hiện: Người sử dụng phần mềm</p>
+<p>Bước 1: Vào phân hệ <strong>Kho vận</strong>, Chọn nhóm <strong>Hoạt động</strong> , chọn chức năng <strong>Lệnh sản xuất</strong> </p>
+<p><img alt="" src="../images/fin_LSX_menu.png" /></p>
+<p>Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống</p>
+<p><img alt="" src="../images/fin_LSX_timkiem.png" /></p>
+<p>Bước 2: Người dùng nhập các thông tin trên tab chung</p>
+<p><img alt="fin_Kho_LenhSanXuat_TabChung" src="../images/fin_Kho_LenhSanXuat_TabChung-16491507337251.png" /></p>
+<ul>
+<li><strong>Sản phẩm</strong>: Lấy thông tin hàng hóa có chọn lựa sản xuất</li>
+</ul>
+<p><img alt="" src="../images/fin_kho_thanhpham.png" /></p>
+<ul>
+<li><strong>Định mức vật tư</strong>: Thực hiện chọn định mức vật tư</li>
+</ul>
+<p>Trường hợp Thành phẩm cần sản xuất chưa có Định mức NVL thì cần tạo định mức trước: Vào phân hệ <strong>Kho Vận</strong> chọn chức năng <strong>Định mức nguyên vật liệu (BOM)</strong>, điền các thông tin về Thành phẩm cần sản xuất, NVL cần thiết để tạo ra số lượng Thành phẩm nhất định.</p>
+<p><img alt="fin_Kho_DinhMucVatTu" src="../images/fin_Kho_DinhMucVatTu-16491507337263.png" /></p>
+<p>​   Trường hợp Thành phẩm cần sản xuất đã có Định mức NVL: Khi nhập Số lượng và Định mức NVL thì hệ thống sẽ tự động đẩy dữ liệu xuống tab <strong>Nguyên vật liệu</strong> như hình:</p>
+<p><img alt="fin_Kho_LenhSanXuat_TabNguyenLieu" src="../images/fin_Kho_LenhSanXuat_TabNguyenLieu-16491507337262.png" /></p>
+<ul>
+<li>Kiểu hoạt động: Chọn kiểu hoạt động sản xuất</li>
+</ul>
+<p>Bước 3: Người dùng thực hiện lần lượt các thao tác nhấn <strong>Xác nhận</strong> để hoàn thành phiếu</p>
+<p><img alt="" src="../images/fin_kho_LSX_Xacnhan.png" /></p>
+<p>Nhấn <strong>Kiểm tra tính khả dụng</strong> (kiểm tra trong kho còn đủ NVL để sản xuất không), <strong>Đánh dấu hoàn tất</strong>. </p>
+<p>Như vậy Lệnh sản xuất đã được <strong>Hoàn thành</strong>.</p>
+<p><img alt="" src="../images/fin_kho_LSX_danhdau.png" /></p>
+<p><strong>Lưu ý:</strong> </p>
+<ul>
+<li>Sau khi Lệnh sản xuất hoàn thành hệ thống tự động sinh Phiếu nhập kho (thành phẩm) và Phiếu xuất kho (NVL).</li>
+</ul>
+<p><img alt="" src="../images/fin_kho_LSX_dieuchuyen.png" /></p>
+<ul>
+<li>
+<p>Cấu hình <strong>Kiểu hoạt động</strong> dùng cho sản xuất:</p>
+</li>
+<li>
+<p><strong>Loại hoạt động</strong>: Sản xuất</p>
+</li>
+<li><strong>Địa điểm đích mặc định, Địa điểm đi mặc định</strong>: Kho của đơn vị</li>
+</ul>
+<p><img alt="fin_LSX_KHD_1" src="../images/fin_LSX_KHD_1.png" /></p>
+<ul>
+<li>
+<p>Cấu hình <strong>Loại hoạt động xuất</strong>:</p>
+</li>
+<li>
+<p>Trường <strong>Loại nhập xuất</strong>: Chọn Xuất sản xuất</p>
+</li>
+<li><strong>Địa điểm đi mặc định</strong>: Kho ccủa đơn vị</li>
+<li><strong>Địa điểm đích mặc định</strong>: Kho ảo sản xuất</li>
+</ul>
+<p><img alt="fin_LSX_HDX" src="../images/fin_LSX_HDX.png" /></p>
+<ul>
+<li>Cấu hình <strong>Loại hoạt động nhập</strong>:</li>
+<li>Trường <strong>Loại xuất/nhập</strong>: Chọn Nhập thành phẩm sản xuất</li>
+<li><strong>Điểm đi mặc định</strong>: Kho ảo sản xuất</li>
+<li><strong>ĐIểm đích mặc định</strong>: Kho của đơn vị</li>
+</ul>
+<p><img alt="fin_LSX_HDN" src="../images/fin_LSX_HDN.png" /></p>
 <h2 id="lap-phieu-nhap-kho"><em>Lập phiếu nhập kho</em></h2>
-<h3 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h3>
+<h3 id="mo-ta-nghiep-vu_1">Mô tả nghiệp vụ</h3>
 <p>Khi phát sinh các nghiệp vụ cần nhập mua mới từ nhà cung ứng, Nhập thành phẩm sản xuất, Nhập hàng bán bị trả lại hoặc Nhập kho nội bộ: người dùng thực hiện tại chức năng Lập phiếu nhập kho</p>
 <p><strong>Xem video hướng dẫn</strong></p>
 <p><iframe
@@ -347,7 +381,7 @@
 <p>Đồng thời sinh bút toán ở tab <strong>Hạch toán</strong>.</p>
 <p><img alt="fin_kho_PNK_tabhachtoan" src="../images/fin_kho_PNK_tabhachtoan.png" /></p>
 <h2 id="lap-phieu-xuat-kho"><em>Lập phiếu xuất kho</em></h2>
-<h3 id="mo-ta-nghiep-vu_1">Mô tả nghiệp vụ</h3>
+<h3 id="mo-ta-nghiep-vu_2">Mô tả nghiệp vụ</h3>
 <p>Khi phát sinh nghiệp vụ xuất nguyên vật liệu dùng cho sản xuất, bán hàng thông thường sẽ phát sinh các hoạt động sau:</p>
 <ul>
 <li>Người dùng lập Phiếu xuất kho</li>
@@ -405,7 +439,7 @@
 <p>Như vậy <strong>Phiếu xuất kho</strong> đã <strong>Hoàn thành</strong> .</p>
 <p>Đồng thời sinh bút toán ở tab <strong>Hạch toán</strong> (tương tự <strong>Phiếu nhập kho</strong>)</p>
 <h2 id="kiem-ke-hang-ton-kho"><em>Kiểm kê hàng tồn kho</em></h2>
-<h3 id="mo-ta-nghiep-vu_2">Mô tả nghiệp vụ</h3>
+<h3 id="mo-ta-nghiep-vu_3">Mô tả nghiệp vụ</h3>
 <p>Khi có yêu cầu kiểm kê kho,  người dùng sẽ thực hiện:</p>
 <ul>
 <li>Kiểm kê hàng hóa thực tế trong từng kho, đối chiếu số dư thực tế kiểm kê với sổ kế toán kho</li>
@@ -433,7 +467,7 @@
 <p><img alt="fin_Kho_KiemKeKho_TabChiTiet" src="../images/fin_Kho_KiemKeKho_TabChiTiet.png" /></p>
 <p><strong>Bước 3</strong>: Nhấn <strong>Xác nhận kiểm kho</strong> , khi đó phiếu kiểm kê đã được <strong>Hoàn thành.</strong> Khi đó hệ thống tự động cập nhật kho theo số lượng kiểm đếm.</p>
 <h2 id="tinh-gia-xuat-kho"><em>Tính giá xuất kho</em></h2>
-<h3 id="mo-ta-nghiep-vu_3">Mô tả nghiệp vụ</h3>
+<h3 id="mo-ta-nghiep-vu_4">Mô tả nghiệp vụ</h3>
 <p>Thực hiện tính và cập nhật giá xuất kho vào các phiếu xuất kho trong kỳ, căn cứ vào phương pháp tính giá xuất kho đã được xác định trên <strong>Kho vận\Cấu hình\Nhóm sản phẩm</strong></p>
 <p><strong>Xem video hướng dẫn</strong></p>
 <p><iframe
