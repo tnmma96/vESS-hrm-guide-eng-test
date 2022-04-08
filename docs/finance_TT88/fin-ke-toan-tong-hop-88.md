@@ -21,6 +21,10 @@ Quy trình kế toán tổng hợp bao gồm:
 
 ·     Bảng lương. Chi tiết nghiệp vụ **[tại đây](#bang-luong)**
 
+·     Khai báo số dư ban đầu. Chi tiết nghiệp vụ **[tại đây](#khai-bao-so-du-ban-dau)**
+
+·     Nhập tồn kho vật tư, hàng hóa. Chi tiết nghiệp vụ **[tại đây](#nhap-ton-kho-vat-tu-hang-hoa)**
+
 ## *Chứng từ nghiệp vụ khác*
 
 ### Mô tả nghiệp vụ
@@ -254,3 +258,266 @@ Thông tin đã nhập trên file Biểu mẫu được đẩy xuống tại Tab
 **Bước 7**: Người dùng Nhấn nút **Xác nhận** để ghi nhận hạch toán dữ liệu Bảng lương
 
 ![](images/fin_TongHop_bangluong_XacNhan_TT88.png)
+
+## *Khai báo số dư ban đầu*
+
+### Mô tả nghiệp vụ
+
+**Nghiệp vụ**
+
+Hướng dẫn việc khai báo thông tin Số dư đầu kỳ của Tài khoản và Số dư đầu kỳ theo từng Đối tượng.
+
+Việc khai báo Số dư ban đầu thực hiện cho:
+
+- Số dư tiền mặt
+- Số dư tài khoản ngân hàng
+- Công nợ khách hàng
+- Công nợ nhà cung cấp
+- Công nợ nhân viên
+- Số dư tài khoản đầu kỳ khác
+
+**Xem video hướng dẫn**
+
+*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+
+### **Hướng dẫn trên phần mềm**
+
+#### Số dư đầu kỳ của Tài khoản Tiền mặt/Tiền ngân hàng
+
+Hướng dẫn việc khai báo Số dư đầu kỳ của: Tiền mặt, Tài khoản ngân hàng và của Tài khoản khác
+
+Đối tượng thực hiện: Người dùng phần mềm
+
+**Bước 1**: Vào phân hệ **Tổng hợp**: Chọn tính năng tương ứng cần khai báo Số dư đầu kỳ cho Tài khoản
+
+- **Số dư tiền mặt**: Khai báo Số dư đầu kỳ của Tài khoản Tiền mặt, theo Sổ kế toán
+
+- **Số dư tài khoản ngân hàng**: Khai báo Số dư đầu kỳ của Tài khoản ngân hàng, theo Sổ kế toán
+
+- **Số dư tài khoản đầu kỳ khác**: Khai báo Số dư đầu kỳ của các Tài khoản khác (nếu cần) 
+
+  ![](images/fin_tonghop_SDDK.png)
+
+Thông tin màn hình của:
+
+- **Số dư tiền mặt**
+
+  ![](images/fin_tonghop_SDDK_TM.png)
+
+- **Số dư tài khoản ngân hàng**
+
+  ![](images/fin_tonghop_SDDK_NH.png)
+
+- **Số dư tài khoản đầu kỳ khác**
+
+  ![](images/fin_tonghop_SDDK_TKKhac.png)
+
+**Bước 2**: Nhấn nút ![](images/fin_banhang_taomoi.png) để khai báo thông tin
+
+![](images/fin_tonghop_SDDK_TM_Tao.png)
+
+Các trường dữ liệu trên chức năng:
+
+- Ngày hạch toán: Mặc định thông tin Ngày thực hiện tạo, có thể thay đổi được
+- Nút **Lấy dữ liệu**: Khi nhấn nút **Lấy dữ liệu** hệ thống sẽ mặc định view các Sổ nhật ký tiền mặt/tiền ngân hàng (đã được khai báo tại Danh mục Sổ nhật ký) lên **tab Số dư đầu kỳ**
+- Thông tin Sổ nhật ký: Để người dùng tự động chọn thông tin để Thêm dòng dữ liệu
+
+**Bước 3**: Thực hiện chọn và Nhập thông tin dữ liệu
+
+- Chọn Sổ nhật ký: Hệ thống tự động hiển thị thông tin Tài khoản gắn với Sổ nhật ký cùng thông tin Tiền tệ. 
+- Nhập thông tin Số tiền: Thực hiện nhập Số dư đầu kỳ của Tài khoản. 
+
+***Lưu ý:*** Chỉ thực hiện nhập Số tiền của Bên **Nợ** để ghi nhận Số dư đầu kỳ của Tài khoản Tiền mặt hoặc Tài khoản Ngân hàng. **KHÔNG** nhập đồng thời cả 2 bên giá trị Nợ/Có
+
+![](images/fin_tonghop_SDDK_TM_Nhap.png)
+
+- **Với Số dư tài khoản:**
+
+![](images/fin_tonghop_SDDK_TG_Nhap.png)
+
+***Lưu ý:*** Nếu Người dùng không thấy hiển thị thông tin **Số tài khoản ngân hàng** cần kiểm tra lại việc khai báo của Sổ nhập ký Tiền ngân hàng tại **Danh mục Sổ nhật ký** và thực hiện bổ sung thông tin tại 'Tài khoản Ngân hàng'
+
+![](images/fin_tonghop_SDDK_TG_STK.png)
+
+**Bước 4**: Người dùng Nhấn nút **Xác nhận** để ghi nhận thông tin Số dư đầu kỳ theo dữ liệu đã nhập.
+
+![](images/fin_tonghop_SDDK_TM_XacNhan.png)
+
+Thông tin Dữ liệu đã nhập được vào Sổ và dữ liệu lên bút toán
+
+![](images/fin_tonghop_SDDK_TG_XacNhan_VaoSo.png)
+
+Muốn xem thông tin Bút toán: Người dùng nhấn nút **'Bút toán'**
+
+![](images/fin_tonghop_SDDK_TM_ButToan.png)
+
+#### Số dư đầu kỳ của Tài khoản khác
+
+Hướng dẫn việc khai báo Số dư đầu kỳ của Tài khoản khác
+
+Đối tượng thực hiện: Người dùng phần mềm
+
+**Bước 1**: Vào phân hệ **Tổng hợp**: Chọn tính năng **Số dư tài khoản đầu kỳ khác**: Nhấn chọn thông tin **'Số dư tài khoản đầu kỳ khác'** trên Sơ đồ
+
+![](images/fin_tonghop_SDDK.png)
+
+Thông tin màn hình của:**Số dư tài khoản đầu kỳ khác**
+
+![](images/fin_tonghop_SDDK_TKKhac.png)
+
+**Bước 2**: Nhấn nút ![](images/fin_banhang_taomoi.png) để khai báo thông tin
+
+![](images/fin_tonghop_SDDK_TKKhac_Tao.png)
+
+Các trường dữ liệu trên chức năng:
+
+- Ngày hạch toán: Mặc định thông tin Ngày thực hiện tạo, có thể thay đổi được
+- Nút **Lấy dữ liệu**: Khi nhấn nút **Lấy dữ liệu** hệ thống sẽ mặc định hiển thị các Tài khoản con được khai báo trên hệ thống tại danh mục **Hệ thống tài khoản**
+
+**Bước 3**: Thực hiện chọn và Nhập thông tin dữ liệu
+
+- Chọn Sổ nhật ký: Hệ thống view các Sổ nhật ký được khai báo tại danh mục **Sổ nhật ký với Loại = Khác**. 
+- Thực hiện Nhấn nút Thêm một dòng để bổ sung các tài khoản cần khai báo
+- Nhập thông tin Số tiền: Căn cứ vào tính chất của Tài khoản để nhập Số dư bên Nợ **hoặc** Số dư bên Có. 
+
+***Lưu ý:*** 
+
+- Với mỗi Tài khoản **chỉ** được phép nhập **Số dư bên Nợ hoặc Bên Có**, không nhập đồng thời cả 2 giá trị
+
+![](images/fin_tonghop_SDDK_TKKhac_DuLieu.png)
+
+**Bước 4**: Người dùng Nhấn nút **Xác nhận** để ghi nhận thông tin Số dư đầu kỳ theo dữ liệu đã nhập.
+
+![](images/fin_tonghop_SDDK_TKKhac_XacNhan.png)
+
+Thông tin Dữ liệu đã nhập được vào Sổ và dữ liệu lên bút toán
+
+![](images/fin_tonghop_SDDK_TKKhac_XacNhan_VaoSo.png)
+
+## *Nhập tồn kho vật tư, hàng hóa*
+
+### Mô tả nghiệp vụ
+
+Mục Tồn kho vật tư, hàng hóa cho phép người dùng quản lý tồn kho đầu kỳ của vật tư, hàng hóa trong doanh nghiệp theo từng kho
+
+Người dùng thực hiện nhập :
+
+- Nhập tồn kho vật tư, hàng hóa theo kho
+- Nhập tồn kho vật tư hàng hóa từ file excel
+
+**Quy trình nghiệp vụ**
+
+![fin_SDDK_QT](images/fin_SDDK_QT.png)
+
+### Xem video hướng dẫn
+
+### Hướng dẫn trên phần mềm
+
+***Lưu ý:\*** *Trước khi nhập tồn kho đầu kỳ cần khai báo:* **Danh mục kho** và **Danh mục vật tư, hàng hóa** sử dụng tại đơn vị
+
+#### Cách 1: Nhập trực tiếp từ phần mềm
+
+**Bước 1**: Vào phân hệ **Tổng hợp**, Chọn **Tổng hợp**, Chọn **Số dư đầu kỳ**, Nhấn **Tồn kho vật tư, hàng hóa**, Nhấn **Tạo**, Thực hiện khai báo thông tin Tab chung:
+
+![fin_SDDK_Tabchung](images/fin_SDDK_Tabchung.png)
+
+- Tại **Đơn vị** : Chọn Chi nhánh của doanh nghiệp
+- Tại **Ngày hạch toán**: Chọn ngày ghi nhận dư tồn vật tư hàng hóa đầu kỳ
+
+**Bước 2**: Khai báo vật tư, hàng hóa tồn kho
+
+Tại Tab **Số dư đầu kỳ**, Nhấn **Thêm một dòng**
+
+![fin_SDDK_Line](images/fin_SDDK_Line.png)
+
+- Tại **Vật tư hàng hóa**: Chọn vật tư hàng hóa còn tồn
+- Tại **Đơn vị tính**: Chọn đơn vị tính vật tư hàng hóa
+- Tại **Kho**: Chọn Kho có hàng tồn
+- Tại **Số lượng tồn**: Nhập số lượng còn tồn của vật tư, hàng hóa
+- Tại **Giá trị tồn**: Nhập giá trị tiền của vật tư,hàng hóa còn tồn
+- Tại **Số lô**: Nhập số lô nhập của vật tư hàng hóa, nếu để trống hệ thống tự sinh
+- Tại **Hạn sử dụng**: Nhập hạn sử dụng của vật tư, hàng hóa còn tồn
+
+**Lưu ý:**
+
+- Giá trị tồn là Tổng giá trị tồn của vật tư, hàng hóa, đơn giá của từng vật tư hàng hóa phần mềm sẽ tự hiểu = **Giá trị tồn/số lượng** 
+- Chức năng **Lấy dữ liệu** ở tab **Thông tin chung** để giúp người dùng tạo nhanh các dòng thông tin vật tư hàng hóa tại tab **Số dư đầu kỳ**. (Sử dụng trong trường hợp tất cả vật tư, hàng hóa trong danh mục đều có tồn đầu kỳ)
+
+**Bước 3**: Nhấn **Lưu**
+
+![fin_SDDK_Save](images/fin_SDDK_Save.png)
+
+**Bước 4**: Sau khi khai báo tồn kho vật tư, hàng hóa, cần nhấn **Xác nhận** để sinh **Phiếu nhập kho** và ghi nhận giá trị tồn kho vào số dư đầu kỳ của tài khoản kho tương ứng
+
+![fin_SDDK_Xacnhan](images/fin_SDDK_Xacnhan.png)
+
+Thông tin Phiếu nhập kho gắn với Phần khai báo Tồn kho vật tư, hàng hóa
+
+![](images/fin_SDDK_PNK01.png)
+
+Chứng từ **Phiếu nhập kho** gắn với Phần khai báo Tồn kho vật tư, hàng hóa
+
+![](images/fin_SDDK_PNK02.png)
+
+**Lưu ý:**
+
+- Sau khi **Xác nhận**, nhấn **Phiếu nhập kho** để kiểm tra chứng từ nhập kho và bút toán ghi nhận tổng giá trị tồn kho theo từng vật tư,hàng hóa của từng kho
+
+- Để chỉnh sửa lại thông tin tồn đầu kỳ vật tư, hàng hóa thực hiện nhấn **Đưa về dự thảo**,nhấn **Sửa** để thực hiện sửa thông tin tồn đầu kỳ vật tư, hàng hóa, nhấn **Cập nhật** để lưu lại dữ liệu vào chứng từ **Phiếu nhập kho**.
+
+#### Cách 2: Nhập từ excel
+
+**Bước 1**: Vào phân hệ **Tổng hợp**, Chọn **Tổng hợp**, Chọn **Số dư đầu kỳ**, Nhấn **Tồn kho vật tư, hàng hóa**, Nhấn **Tạo**, Thực hiện khai báo thông tin Tab chung:
+
+![fin_SDDK_Tabchung](images/fin_SDDK_Tabchung.png)
+
+- Tại **Đơn vị** : Chọn Chi nhánh của doanh nghiệp
+- Tại **Ngày hạch toán**: Chọn ngày ghi nhận dư tồn vật tư hàng hóa đầu kỳ
+
+**Bước 2**: Nhấn **Nhập dữ liệu**
+
+![fin_SDDK_Nhapdulieu](images/fin_SDDK_Nhapdulieu.png)
+
+Nhấn **Tải về mẫu dữ liệu** để thực hiện tải file mẫu excel để nhập thông tin
+
+![fin_SDDK_Taifile](images/fin_SDDK_Taifile.png)
+
+Thực hiện nhập thông tin tại file excell, nhấn Lưu file excel sau khi nhập thông tin vật tư hàng hóa tồn đầu kỳ tại file.
+
+![fin_sddk_fileexel](images/fin_sddk_fileexel002.png)
+
+- Tại **Mã hàng hóa**: Nhập mã nội bộ của vật tư,hàng hóa có tồn đầu kỳ
+- Tại **Mã kho**: Nhập địa điểm kho theo cú pháp Địa điểm cha/Tên địa điểm
+- Tại **Đơn vị tính**: Nhập Đơn vị tính của vật tư, hàng hóa
+- Tại **Số lượng tồn**: Nhập số lượng còn tồn của vật tư, hàng hóa
+- Tại **Giá trị tồn**: Nhập giá trị tiền của vật tư,hàng hóa còn tồn
+- Tại **Số lô**: Nhập số lô nhập của vật tư hàng hóa, nếu để trống hệ thống tự sinh
+- Tại **Hạn sử dụng**: Nhập hạn sử dụng của vật tư, hàng hóa còn tồn theo định dạng dd-mm-yyyy
+
+**Lưu ý**: Không sử dụng công thức tính toán khi nhập thông tin. 
+
+**Bước 3**: Nhấn Tệp dữ liệu ,chọn file excel vừa nhập vật tư, hàng hóa tồn đầu kỳ
+
+![fin_sddk_fileexel003](images/fin_sddk_fileexel003.png)
+
+**Bước 4**: Nhấn Nhập dữ liệu để thực hiện nhập thông tin vật tư, hàng hóa tồn đầu kỳ từ file excel
+
+![fin_sddk_fileexel003](images/fin_sddk_fileexel004.png)
+
+**Bước 5**: Sau khi khai báo tồn kho vật tư, hàng hóa từ file excel nhấn **Xác nhận** để sinh **Phiếu nhập kho** và ghi nhận giá trị tồn kho vào số dư đầu kỳ của tài khoản kho tương ứng
+
+![fin_SDDK_Xacnhan](images/fin_SDDK_Xacnhan.png)
+
+Thông tin Phiếu nhập kho gắn với Phần khai báo Tồn kho vật tư, hàng hóa
+
+![](images/fin_SDDK_PNK01.png)
+
+Chứng từ **Phiếu nhập kho** gắn với Phần khai báo Tồn kho vật tư, hàng hóa
+
+![](images/fin_SDDK_PNK02.png)
+
+**Lưu ý:**
+
+- Sau khi **Xác nhận**, nhấn **Phiếu nhập kho** để kiểm tra chứng từ nhập kho và bút toán ghi nhận tổng giá trị tồn kho theo từng vật tư,hàng hóa của từng kho
+
+- Để chỉnh sửa lại thông tin tồn đầu kỳ vật tư, hàng hóa thực hiện nhấn **Đưa về dự thảo**,nhấn **Sửa** để thực hiện sửa thông tin tồn đầu kỳ vật tư, hàng hóa, nhấn **Cập nhật** để lưu lại dữ liệu vào chứng từ **Phiếu nhập kho**.

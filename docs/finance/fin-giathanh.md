@@ -18,7 +18,7 @@ Phân hệ Giá thành hỗ trợ doanh nghiệp tính giá thành sản phẩm 
 
 **Quy trình nghiệp vụ**
 
-![fin_giathanh_quytrinhHS GĐ](images/fin_giathanh_quytrinhHS GĐ.png)
+![fin_giathanh_quytrinhHSGD](images/fin_giathanh_quytrinhHSGD.png)
 
 **Các luồng quy trình**
 
@@ -351,7 +351,7 @@ Lưu ý:
 
 **Quy trình nghiệp vụ**
 
-![fin_giathanh_quytrinhHS GĐ](images/fin_giathanh_quytrinhHS GĐ.png)
+![fin_giathanh_quytrinhHSGD](images/fin_giathanh_quytrinhHSGD.png)
 
 **Các luồng quy trình**
 
@@ -772,7 +772,7 @@ cầu đường… với nhiều hạng mục công trình con. Đối tượng 
 
 **Quy trình nghiệp vụ**
 
-![fin_Giathanh_Quytrinh Congtrinh](images/fin_Giathanh_Quytrinh Congtrinh.png)
+![fin_Giathanh_QuytrinhCongtrinh](images/fin_Giathanh_QuytrinhCongtrinh.png)
 
 **Các luồng quy trình**
 
@@ -928,7 +928,7 @@ Tính giá thành công trình  đối với các doanh nghiệp áp dụng ch�
 - Người dùng chọn **Tiêu thức phân bổ** (Nguyên vật liệu trực tiếp, Nhân công trực tiếp, Chi phí trực tiếp, Doanh thu), chọn **Tỷ lệ phân bổ** hệ thống sẽ tự động tính số tiền phân bổ hoặc ngược lại.
 - Nhấn **Tính toán phân bổ** hệ thống sẽ tự động tính toán và đẩy các dữ liệu, kết quả tính toán sang **Tab phân bổ**:
 
-![fin_giathanh_CT_PBCP_tabphanbo_TT133](images/gia_thanh/fin_giathanh_CT_PBCP_tabphanbo_TT133.png)
+![fin_giathanh_CT_PBCP_tabphanbo_TT133](images/fin_giathanh_CT_PBCP_tabphanbo_TT133.png)
 
 - Nhấn **Lưu**, nhấn **Xác nhận**, khi đó bản ghi đã **Hoàn thành**.
 

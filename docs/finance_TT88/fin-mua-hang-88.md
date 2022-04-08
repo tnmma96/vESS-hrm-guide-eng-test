@@ -54,9 +54,9 @@ Khi đơn vị có nhu cầu mua hàng, lập yêu cầu mua hàng thì quy trì
 
 Có hai cách để thực hiện lập đơn mua hàng
 
-*<u>Cách 1:</u>* Nhập thêm mới trực tiếp trên giao diện
+*<u>Cách 1:</u>* Nhập thêm mới trực tiếp trên giao diện. Hướng dẫn cụ thể **[tại đây](#nhap-truc-tiep-tren-giao-dien)**
 
-*<u>Cách 2:</u>* Lập đơn mua hàng từ việc import dữ liệu
+*<u>Cách 2:</u>* Lập đơn mua hàng từ việc import dữ liệu. Hướng dẫn cụ thể **[tại đây](#lap-on-mua-hang-tu-viec-import-du-lieu)**
 
 ##### **Nhập trực tiếp trên giao diện**
 
@@ -117,6 +117,21 @@ Trên file excel vừa xuất, người dùng thực hiện nhập thông tin đ
 
 ![](images/fin_muahang_import_tem2.png)
 
+Đơn vị: Bắt buộc nhập, nhập tên đơn vị
+Ngày đơn hàng: Nhập ngày theo định dạng ngày-tháng-năm	
+Ngày giao hàng: Nhập ngày theo định dạng ngày-tháng-năm		
+Hạn đặt hàng: Nhập ngày theo định dạng ngày-tháng-năm	
+Nhà cung cấp: Bắt buộc nhập, Nhập tên khách hàng	
+Nội dung: Nhập nội dung đơn hàng
+Tiền tệ: Nhập tên tiền tệ
+Tỷ giá: Nhập tỷ giá
+Nhân viên mua hàng: Nhập tên nhân viên mua hàng	
+Chi tiết đơn hàng/Sản phẩm: Bắt buộc nhập, nhập tên hàng hóa cần bán	
+Chi tiết đơn hàng/Đơn vị tính: Nhập tên đơn vị tính	
+Chi tiết đơn hàng/Số lượng: Bắt buộc nhập, Nhập số lượng	
+Chi tiết đơn hàng/Đơn giá: Bắt buộc nhập, 	nhập đơn giá
+Chi tiết đơn hàng/Thuế: Nhập tên loại thuế
+
 Sau khi nhập thông tin vào file, thực hiện nhập dữ liệu bằng cách nhấn chọn **Nạp tập tin**
 
 ![](images/fin_muahang_naptaptin.png)
@@ -130,6 +145,8 @@ Lưu ý: Những thông báo màu hồng là thông tin cần sửa lại, thôn
 Nếu như cần sửa chữa thông tin trong file nhập liệu thì người dùng chọn lại **Nạp tập tin** và chọn file vừa sửa
 
 Nếu đã chính xác thì sẽ hiển thị thông báo màu xanh : "Mọi thứ dường như hợp lệ". Người dùng nhấn **Nhập** để bắt đầu import dữ liệu vào hệ thống
+
+Nếu không muốn import thì nhấn **Hủy**	
 
 ![](images/fin_muahang_kiemthu.png)
 

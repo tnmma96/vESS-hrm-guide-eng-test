@@ -386,25 +386,25 @@ Vào danh mục hàng hóa vật tư, thực hiện Import vật tư hàng hóa 
 
 ![](images/fin_danhmuc_import_xemds.png)
 
-Tại màn hình danh sách, thực hiện tích chọn 1 bản ghi, nhấn biểu tượng Thiết lập hình bánh xe, chọn **Export** để xuất file mẫu bằng excel
+Tại màn hình danh sách, thực hiện tích chọn 1 bản ghi, nhấn biểu tượng Thiết lập hình bánh xe, chọn **Xuất** để xuất file mẫu bằng excel
 
 ![](images/fin_danhmuc_export.png)
 
-Trên màn hình export , người dùng có thể chọn mẫu **Vật tư, hàng hóa**
+Trên màn hình Xuất dữ liệu , người dùng có thể chọn mẫu **Vật tư, hàng hóa**
 
 ![](images/fin_danhmuc_export_VTHH.jpeg)
 
 ![](images/fin_danhmuc_export_mau.jpeg)
 
-Hoặc người dùng có thể tự tạo một mẫu riêng cho  mình bằng cách chọn các cột cần import/export tại danh sách cột bên trái,khi chọn xong thì nhập tên mẫu cần export
+Hoặc người dùng có thể tự tạo một mẫu riêng cho  mình bằng cách trên giao diện các cột bên trái, nhập thông tin tại *Tìm kiếm* và nhấn *Enter*
 
 ![](images/fin_danhmuc_timkiem.png)
 
-Chọn dấu Cộng để thêm cột cần export sang bên phải
+Chọn dấu *Cộng* để thêm cột cần xuất dữ liệu sang bên phải
 
 ![](images/fin_danhmuc_timkiem_ncc.png)
 
-Sau khi có đầy đủ danh sách các trường thông tin cần xuất thì thực hiện lưu mẫu bằng cách chọn chức năng mẫu mới, nhập tên mẫu cần lưu và nhấn nút lưu
+Sau khi có đầy đủ danh sách các trường thông tin cần xuất thì thực hiện lưu mẫu bằng cách chọn chức năng mẫu mới, nhập tên mẫu cần lưu và nhấn nút *Lưu*
 
 ![](images/fin_danhmuc_chonmau.png)
 
@@ -412,11 +412,66 @@ Sau khi có đầy đủ danh sách các trường thông tin cần xuất thì 
 
 Nhấn **Xuất** để thực hiện xuất file excel.
 
-Trên file excel vừa xuất, người dùng thực hiện nhập các thông tin vật tư hàng hóa đầu kỳ tương ứng với các cột
+Trên file excel vừa xuất, người dùng thực hiện nhập các thông tin vật tư hàng hóa đầu kỳ tương ứng với các cột bắt đầu từ dòng thứ 2, sau khi nhập thông tin cần import thì thực hiện lưu lại file có định dạng .xls. Đây chính là file dữ liệu dùng để import
 
 ![](images/fin_danhmuc_import_file2.png)
 
-***Cách 2:** Nhấn biểu tượng hình ngôi sao, chọn **Thêm bản ghi**
+- Mã nội bộ: Bắt buộc nhập, nhập mã hàng hóa
+
+- Tên: Bắt buộc nhập, nhập tên hàng hóa
+
+- Đơn vị tính: Bắt buộc nhập, nhập tên đơn vị tính
+
+- Đơn vị tính mua hàng: Bắt buộc nhập, nhập tên đơn vị tính
+
+- Loại: Bắt buộc chọn, chọn một trong các giá trị sau:
+  	Hàng hóa
+  	Dịch vụ
+  	Nguyên vật liệu
+  	Thành phẩm
+  	Công cụ dụng cụ - Tài sản
+
+- Nhóm sản phẩm: Bắt buộc nhập, nhập tên nhóm sản phẩm hoặc có thể lựa chọn nhóm sản phẩm đang có s
+
+  ​	Tất cả / Chi phí
+
+  ​	Tất cả / Dịch vụ
+
+  ​	Tất cả / Hàng hóa
+
+  ​	Tất cả / Nguyên vật liệu
+
+- Giá vốn: Không bắt buộc nhập, nhập giá vốn hàng hóa
+
+- Giá bán: Không bắt buộc nhập, nhập giá bán hàng hóa
+
+- Ngành nghề kinh doanh: Bắt buộc nhập, nhập mã ngành nghề kinh doanh
+
+- Thuế bán hàng: Không bắt buộc nhập, nhập tên loại thuế
+
+- Mô tả: Không bắt buộc nhập, nhập mô tả chung
+
+Sau khi có file import, người dùng nhấn biểu tượng hình ngôi sao, chọn **Thêm bản ghi**
+
+![](images/fin_danhmuc_import.png)
+
+Nhấn nút **Nạp tập tin** để chọn file cần import, chọn file cần import
+
+![](images/fin_VTHH_nap_tap_tin.png)
+
+Sau khi file dữ liệu được tải lên, nhấn **Kiểm thử** để kiểm tra dữ liệu đã được nhập đúng chưa
+
+![](images/fin_VTHH_Kiemthu.png)
+
+Nếu ra thông báo màu đỏ: Dữ liệu đang bị lỗi, cần thực hiện sửa lại cho đến khi chính xác. Sau khi sửa dữ liệu thì cần nhấn **Nạp tập tin** để chọn lại file dữ liệu vừa sửa
+
+Nếu ra thông báo màu vàng: Cảnh báo có thông tin sai xót nhưng vẫn có thể bỏ qua được
+
+Nếu ra thông báo màu xanh: Dữ liệu đã hợp lệ và nhấn **Nhập** để import dữ liệu. Sau khi nhấn nhập, hệ thống sẽ thực hiện import, quay về màn hình danh sách vật tư hàng hóa  và hiển thị số lượng bản ghi import thành công
+
+
+
+**Cách 2:** Nhấn biểu tượng hình ngôi sao, chọn **Thêm bản ghi**
 
 ![](images/fin_danhmuc_import.png)
 
@@ -427,6 +482,107 @@ Sau khi mở màn hình import thông tin, thực hiện xuất file mẫu bằn
 Trên file excel vừa xuất, người dùng thực hiện nhập thông tin hàng hóa đầu kỳ. Với file được xuất hướng dẫn cụ thể có trong phần commnent tại hàng đầu tiên của mỗi cột
 
 ![](images/fin_danhmuc_import_file.png)
+
+- Mã nội bộ: Bắt buộc nhập, nhập mã hàng hóa
+
+- Tên: Bắt buộc nhập, nhập tên hàng hóa
+
+- Đơn vị tính: Bắt buộc nhập, nhập tên đơn vị tính
+
+- Đơn vị tính mua hàng: Bắt buộc nhập, nhập tên đơn vị tính
+
+- Loại: Bắt buộc chọn, chọn một trong các giá trị sau:
+  	Hàng hóa
+  	Dịch vụ
+  	Nguyên vật liệu
+  	Thành phẩm
+  	Công cụ dụng cụ - Tài sản
+
+- Nhóm sản phẩm: Bắt buộc nhập, nhập tên nhóm sản phẩm hoặc có thể lựa chọn nhóm sản phẩm đang có s
+
+  ​	Tất cả / Chi phí
+
+  ​	Tất cả / Dịch vụ
+
+  ​	Tất cả / Hàng hóa
+
+  ​	Tất cả / Nguyên vật liệu
+
+- Giá vốn: Không bắt buộc nhập, nhập giá vốn hàng hóa
+
+- Giá bán: Không bắt buộc nhập, nhập giá bán hàng hóa
+
+- Ngành nghề kinh doanh: Bắt buộc nhập, nhập mã ngành nghề kinh doanh
+
+- Thuế bán hàng: Không bắt buộc nhập, nhập tên loại thuế
+
+- Mô tả: Không bắt buộc nhập, nhập mô tả chung
+
+- Theo vết: Bắt buộc nhập, chọn một trong các giá trị sau:
+       Theo lô
+  	 Theo số se-ri duy nhất
+  	 Không theo dõi
+
+  ​     Mặc định khi import là Theo lô
+
+- Tuyến cung ứng: Bắt buộc nhập, chọn một trong các giá trị sau:
+      Sản xuất
+      Mua
+      Sản xuất,mua
+
+Sau khi có file import, người dùng nhấn nút **Nạp tập tin** để chọn file cần import, chọn file cần import
+
+![](images/fin_VTHH_nap_tap_tin.png)
+
+Sau khi file dữ liệu được tải lên, nhấn **Kiểm thử** để kiểm tra dữ liệu đã được nhập đúng chưa
+
+![](images/fin_VTHH_Kiemthu.png)
+
+Nếu ra thông báo màu đỏ: Dữ liệu đang bị lỗi, cần thực hiện sửa lại cho đến khi chính xác. Sau khi sửa dữ liệu thì cần nhấn **Nạp tập tin** để chọn lại file dữ liệu vừa sửa
+
+Nếu ra thông báo màu vàng: Cảnh báo có thông tin sai xót nhưng vẫn có thể bỏ qua được
+
+Nếu ra thông báo màu xanh: Dữ liệu đã hợp lệ và nhấn **Nhập** để import dữ liệu. Sau khi nhấn nhập, hệ thống sẽ thực hiện import, quay về màn hình danh sách vật tư hàng hóa  và hiển thị số lượng bản ghi import thành công
+
+##### Export vật tư, hàng hóa
+
+Để xuất thông tin hàng hóa, vật tư đang có trên hệ thống, người dùng có thể chọn chức năng **Xuất** để thực hiện lấy thông tin danh sách hàng hóa đang có
+
+Tại màn hình danh sách vật tư hàng hóa, chuyển cách xem dạng danh sách bằng cách chọn nút **Xem bằng danh sách**
+
+![](images/fin_danhmuc_import_xemds.png)
+
+Tại màn hình danh sách, thực hiện tích chọn 1 bản ghi, nhấn biểu tượng Thiết lập hình bánh xe, chọn **Xuất** để xuất file mẫu bằng excel
+
+![](images/fin_danhmuc_export.png)
+
+Trên màn hình Xuất dữ liệu , người dùng có thể chọn mẫu **Vật tư, hàng hóa**
+
+![](images/fin_danhmuc_export_VTHH.jpeg)
+
+![](images/fin_danhmuc_export_mau.jpeg)
+
+Hoặc người dùng có thể tự tạo một mẫu riêng cho  mình bằng cách trên giao diện các cột bên trái, nhập thông tin tại *Tìm kiếm* và nhấn *Enter*
+
+![](images/fin_danhmuc_timkiem.png)
+
+Chọn dấu *Cộng* để thêm cột cần xuất dữ liệu sang bên phải
+
+![](images/fin_danhmuc_timkiem_ncc.png)
+
+Sau khi có đầy đủ danh sách các trường thông tin cần xuất thì thực hiện lưu mẫu bằng cách chọn chức năng mẫu mới, nhập tên mẫu cần lưu và nhấn nút *Lưu*
+
+![](images/fin_danhmuc_chonmau.png)
+
+![](images/fin_danhmuc_luu.png)
+
+Nhấn **Xuất** để thực hiện xuất file excel.
+
+Trên file excel vừa xuất, người dùng sẽ xem được thông tin vật tư hàng hóa tương ứng với các cột đã chọn 
+
+![](images/fin_danhmuc_import_file2.png)
+
+
 
 #### Khai báo các mặt hàng dịch vụ
 

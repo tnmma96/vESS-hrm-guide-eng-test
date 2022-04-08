@@ -16,6 +16,89 @@ Kế toán kho thực hiện quản lý tình hình nhập, xuất, tồn kho th
 
 ·     Tính giá xuất kho. Chi tiết nghiệp vụ **[tại đây](#tinh-gia-xuat-kho)**
 
+# *Lập lệnh sản xuất*
+
+## Mô tả nghiệp vụ
+
+Căn cứ vào đơn đặt hàng bán, người sử dụng thực hiện lập lệnh sản xuất theo số lượng thành phẩm đã được duyệt tại đơn đặt hàng bán
+
+Đồng thời xác định nguyên liệu cần để sản xuất ra số lượng thành phẩm theo lệnh sản xuất
+
+**Xem video hướng dẫn**
+
+*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+
+## Lập lệnh sản xuất
+
+Đối tượng thực hiện: Người sử dụng phần mềm
+
+Bước 1: Vào phân hệ **Kho vận**, Chọn nhóm **Hoạt động** , chọn chức năng **Lệnh sản xuất** 
+
+![](images/fin_LSX_menu.png)
+
+Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống
+
+![](images/fin_LSX_timkiem.png)
+
+Bước 2: Người dùng nhập các thông tin trên tab chung
+
+![fin_Kho_LenhSanXuat_TabChung](images/fin_Kho_LenhSanXuat_TabChung-16491507337251.png)
+
+- **Sản phẩm**: Lấy thông tin hàng hóa có chọn lựa sản xuất
+
+  ![](images/fin_kho_thanhpham.png)
+
+- **Định mức vật tư**: Thực hiện chọn định mức vật tư
+
+  Trường hợp Thành phẩm cần sản xuất chưa có Định mức NVL thì cần tạo định mức trước: Vào phân hệ **Kho Vận** chọn chức năng **Định mức nguyên vật liệu (BOM)**, điền các thông tin về Thành phẩm cần sản xuất, NVL cần thiết để tạo ra số lượng Thành phẩm nhất định.
+
+![fin_Kho_DinhMucVatTu](images/fin_Kho_DinhMucVatTu-16491507337263.png)
+
+​	Trường hợp Thành phẩm cần sản xuất đã có Định mức NVL: Khi nhập Số lượng và Định mức NVL thì hệ thống sẽ tự động đẩy dữ liệu xuống tab **Nguyên vật liệu** như hình:
+
+
+![fin_Kho_LenhSanXuat_TabNguyenLieu](images/fin_Kho_LenhSanXuat_TabNguyenLieu-16491507337262.png)
+
+- Kiểu hoạt động: Chọn kiểu hoạt động sản xuất
+
+Bước 3: Người dùng thực hiện lần lượt các thao tác nhấn **Xác nhận** để hoàn thành phiếu
+
+![](images/fin_kho_LSX_Xacnhan.png)
+
+ Nhấn **Kiểm tra tính khả dụng** (kiểm tra trong kho còn đủ NVL để sản xuất không), **Đánh dấu hoàn tất**. 
+
+Như vậy Lệnh sản xuất đã được **Hoàn thành**.
+
+![](images/fin_kho_LSX_danhdau.png)
+
+**Lưu ý:** 
+
+- Sau khi Lệnh sản xuất hoàn thành hệ thống tự động sinh Phiếu nhập kho (thành phẩm) và Phiếu xuất kho (NVL).
+
+  ![](images/fin_kho_LSX_dieuchuyen.png)
+
+- Cấu hình **Kiểu hoạt động** dùng cho sản xuất:
+
+  - **Loại hoạt động**: Sản xuất
+  - **Địa điểm đích mặc định, Địa điểm đi mặc định**: Kho của đơn vị
+
+  ![fin_LSX_KHD_1](images/fin_LSX_KHD_1.png)
+
+- Cấu hình **Loại hoạt động xuất**:
+
+  - Trường **Loại nhập xuất**: Chọn Xuất sản xuất
+  - **Địa điểm đi mặc định**: Kho ccủa đơn vị
+  - **Địa điểm đích mặc định**: Kho ảo sản xuất
+
+![fin_LSX_HDX](images/fin_LSX_HDX.png)
+
+- Cấu hình **Loại hoạt động nhập**:
+  - Trường **Loại xuất/nhập**: Chọn Nhập thành phẩm sản xuất
+  - **Điểm đi mặc định**: Kho ảo sản xuất
+  - **ĐIểm đích mặc định**: Kho của đơn vị
+
+![fin_LSX_HDN](images/fin_LSX_HDN.png)
+
 ## *Lập phiếu nhập kho*
 
 ### Mô tả nghiệp vụ
