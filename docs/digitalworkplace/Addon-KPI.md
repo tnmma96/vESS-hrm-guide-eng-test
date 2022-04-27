@@ -3,11 +3,13 @@ KPIs cho phép thiết lập các tiêu chí đánh giá hiệu suất làm vi�
 
 **Quy trình**
 
-![](picture/PIC_DW_OKR_QuyTrinh.png)
+![](picture/PIC_DW_KPI_QuyTrinh.png)
 
 **Các luồng quy trình**
 
 * Cấu hình. Chi tiết nghiệp vụ <u>[tại đây](#cau-hinh)</u>
+
+* Quản lý nhân viên. Chi tiết nghiệp vụ <u>[tại đây](#muc-tieu)</u>..
 
 * Mục tiêu. Chi tiết nghiệp vụ <u>[tại đây](#muc-tieu)</u>.
 
@@ -54,6 +56,14 @@ KPIs cho phép thiết lập các tiêu chí đánh giá hiệu suất làm vi�
 
 * Đánh giá. Chi tiết nghiệp vụ <u>[tại đây](#anh-gia)</u>
 
+* Quản lý trực tiếp mục tiêu. Chi tiết nghiệp vụ <u>[tại đây](#quan-ly-truc-tiep-muc-tieu)</u>
+
+* Quản lý trực tiếp đánh giá. Chi tiết nghiệp vụ <u>[tại đây](#quan-ly-truc-tiep-danh-gia)</u>
+
+* Đơn vị- mục tiêu. Chi tiết nghiệp vụ <u>[tại đây](#don-vi-muc-tieu)</u>
+
+* Đơn vị- đánh giá. Chi tiết nghiệp vụ <u>[tại đây](#don-vi-danh-gia)</u>
+
 * Báo cáo. Chi tiết nghiệp vụ <u>[tại đây](#bao-cao)</u>
 
 **Video hướng dẫn**
@@ -78,7 +88,7 @@ KPIs cho phép thiết lập các tiêu chí đánh giá hiệu suất làm vi�
 3. Nhập thông tin tạo **Đơn vị đo**
 
      ![](picture/PIC_DW_KPI-taodonvido.png)
-        
+     
     * **Tên:** nhập tên đơn vị đo mới cho "Cấu hình Đơn vị đo"
     
     * **Mô tả:** nhập mô tả cho "Cấu hình Đơn vị đo"
@@ -538,6 +548,29 @@ KPIs cho phép thiết lập các tiêu chí đánh giá hiệu suất làm vi�
 
   3.  Kích **Lưu:** thông tin **Đánh giá** được lưu lại
 
+## **Đánh giá KI**
+ **Đánh giá KI**: Là chỉ số đánh giá thực hiện công việc, đánh giá điểm trung bình cho nhân sự nhằm phản ánh hiệu quả hoạt động của cá nhân
+
+**Đối tượng thực hiện**: Người sử dụng hệ thống bao gồm:Quản trị hệ thống, Trưởng phòng, Phó phòng, Quản lý.
+
+**Các bước thực hiện**
+
+1.Vào chức năng **Chỉ số đo lường KPI**, kích vào icon **+** chọn **Đánh giá KI**
+
+![](picture/PIC_DW_KPI_DanhSachDanhgiaKI.png)
+
+* **Chu kỳ**: Kích chọn "Chu kỳ"
+* **Xuất mẫu**: Chọn nút xuất mẫu, chỉnh sửa file hợp lệ
+* **Upload file**:Upload file vừa chỉnh sửa xuất file
+
+**Lưu ý**: 
+
+* Khi chọn chu kỳ mặc định sẽ hiển thị dữ liệu ở các cột đã đánh giá: Cá nhân đánh giá, Quản lý đánh giá, Đánh giá KI
+* Khi xuất mẫu, chỉnh sửa tại các cột Cá nhân đánh giá, Quản lý đánh giá, xếp loại đánh giá của nhân viên bất kì => save file => import lại hệ thống
+=> hệ thống k nhận hiển thị điểm đánh giá thêm mới nhập
+* Nếu Nhập mới/ hoặc thay đổi điểm Đánh giá KI ( bằng điểm số hoặc điểm chữ) của nhân viên bất kì => save file => import lại hệ thống
+thì hệ thống sẽ hiển thị điểm đánh giá thêm mới nhập. 
+
 
 ## **Báo cáo**
 
@@ -565,7 +598,156 @@ KPIs cho phép thiết lập các tiêu chí đánh giá hiệu suất làm vi�
       
     * Kích vào **Xuất** để xuất "Báo cáo đánh giá nhiệm vụ chi tiết"
     
+ ## **Công thức đánh giá**
+
+ **Công thức đánh giá**: Là xếp hạng loại đánh giá theo điều kiện thực hiện công việc, đánh giá loại cho nhân sự nhằm phản ánh hiệu quả hoạt động của cá nhân
+     
+
+**Đối tượng thực hiện**: Người sử dụng hệ thống bao gồm:Quản trị hệ thống, Trưởng phòng, Phó phòng, Quản lý.
     
+
+**Các bước thực hiện:**
+
+  1.Vào chức năng Chỉ số đo lường KPI, click icon **+** chọn công thức đánh giá, hệ thống hiển thị màn hình danh sách **Công thức đánh giá** ở dạng list
+
+![](picture/PIC_DW_KPI_DanhSachCongThucDanhGia.png)
+
+  2.Kích vào nút tạo  
+
+![](picture/PIC_DW_KPI-TaoCTDG_PhanTuDanhGia.png)
+
+![](picture/PIC_DW_KPI_TaoCongThucDanhGia_DauVao.png)
+
+* **Tên**: Nhập giá trị tên cho công thức đánh giá
+
+* **Chu kỳ**: Chọn chu kì (Được lấy từ Cấu hình/Chu kì)
+
+* **Tab Phần tử đánh giá**: Hiển thị mặc định bảng dữ liệu gồm các cột: Tên, Mã, Công thức. 
+
+    * Với dòng **Quản lý đánh giá** hệ thống chỉ cho phép người dùng xem 
+    * Với dòng **Xếp hạng** hệ thống cho phép sửa mã đầu vào
+
+* **Tab Đầu vào**: Việc cần làm người dùng kích vào "Thêm một dòng"
+
+   * **Thêm một dòng**: Kích vào thêm một dòng, hệ thống hiển thị màn hình danh sách **Thêm:Nhập công thức** ở dạng list
+   
+    ![](picture/PIC_DW_KPI-TaoCTDG_DauVao_ThemMotDong.png)
+   
+     ![](picture/PIC_DW_KPI_TaoCongThucDanhGia_DauVao_NhapThemCT.png)
+   
+     * **Tạo**: Chọn nút tạo hiển thị màn **Thêm:Nhập công thức**
+   
+        * **Mô tả**: Nhập dữ liệu mô tả
+        
+        * **Kiểu dữ liệu**: Cho phép chọn một trong hai giá trị chữ/số
+        
+        * **Mã**: Nhập mã tương ứng với kiểu dữ liệu đã chọn 
+   
+    * **Nhập xuất dữ liệu**:  
+   
+    ![](picture/PIC_DW_KPI_TaoCongThucDanhGia_DauVao_NhapXuatDuLieu.png)
+   
+   * **Chu kỳ**: Chọn chu kỳ (Được lấy từ trường chu kỳ khi tạo mới )
+   * **Xuất mẫu**: Chọn nút xuất mẫu, chỉnh sửa file hợp lệ
+   * **Nhập dữ liệu**: Thực hiện tải file lên   
+   * **Xem dữ liệu**: Sau khi tải file thành công ấn nút xem dữ liệu-->Hệ thống hiển thị bảng danh sách như file tải lên ra màn hình.
+ * **Lưu ý**: 
+    * Tạo mã thành công **Tab đầu vào** --> Mã được áp dụng vào công thức ở **Tab phần tử đánh giá** --> Kiểm tra hiển thị cột **Xếp loại đánh giá** ở màn **Quản lý nhân viên/Quản lý trực tiếp-Đánh giá**
     
+ ## **Quản lý nhân viên**
+
+ **Quản lý nhân viên**: Là quản lý trực tiếp đánh giá, mục tiêu và đơn vị đánh giá, mục tiêu theo điều kiện thực hiện mục tiêu, đánh giá loại cho nhân sự nhằm phản ánh hiệu quả hoạt động của cá nhân
+
+ **Đối tượng thực hiện**: Người sử dụng hệ thống bao gồm:Quản trị hệ thống, Trưởng phòng, Phó phòng, Quản lý.
+
+ **Các bước thực hiện:**
+
+  1.1.Vào chức năng Chỉ số đo lường KPI, Kích chọn **Quản lý nhân viên** chọn quản lý trực tiếp - mục tiêu hệ thống hiển thị màn hình danh sách dạng bảng **Quản lý trực tiếp - mục tiêu** 
+
+![](picture/PIC_DW_KPI-QuanLyTrucTiepMucTieu.png)
+
+  * Chu kỳ: Chọn chu kỳ(Được lấy từ trường chu kỳ khi tạo mới )
+  
+  * Mã nhân viên: Được cấu hình trong chức năng nhân viên 
+  
+  * Họ tên: Nhập họ tên nhân viên khi thêm mới trong chức năng nhân viên 
+  
+  * Số lượng mục tiêu: Lấy số lượng mục tiêu từ màn mục tiêu 
+  
+  * Tổng tỷ trọng(%): Lấy  tỷ trọng từ màn mục tiêu 
+  
+  * Trạng thái: Lấy dữ liệu từ màn trạng thái thực hiện của mục tiêu 
+
+  * **Lưu ý**: 
+  
+    * **Họ tên**: Khi ấn vào tên nhân viên hiển thị màn hình Quản lý trực tiếp mục tiêu/View objective user.
     
+
+ 1.2.Vào chức năng Chỉ số đo lường KPI, Kích chọn Quản lý nhân viên chọn quản lý trực tiếp - đánh giá hệ thống hiển thị màn hình danh sách dạng bảng **Quản lý trực tiếp - đánh giá**
+![](picture/PIC_DW_KPI-QuanLyTrucTiepDanhGia.png)
+
+  * Chu kỳ: Chọn chu kỳ(Được lấy từ trường chu kỳ khi tạo mới )
+  
+  * Mã nhân viên: Lấy dữ liệu trong chức năng nhân viên 
+  
+  * Họ tên:Lấy dữ liệu họ tên nhân viên khi thêm mới trong chức năng nhân viên 
+  
+  * Cá nhân đánh giá: Lấy dữ liệu từ cột cá nhân đánh giá tại màn đánh giá 
+  
+  * Quản lý đánh giá: Lấy dữ liệu từ cột quản lý đánh giá tại màn đánh giá
+  
+  * Xếp loại đánh giá: Lấy dữ liệu từ tab đầu vào tại màn xếp loại đánh giá
+  
+  * Đánh giá thêm: Lấy dữ liệu từ màn chu kỳ tại tab đánh giá thêm 
+  
+  * Đánh giá KI: Lấy dữ liệu từ màn đánh gia KI 
+  
+  * Lưu ý: 
+  
+    * Khi chưa có điểm quản lý đánh giá thì công thức chưa xếp hạng được.
     
+    * **Họ tên**: Khi ấn vào tên nhân viên hiển thị màn chu kỳ 
+
+  1.3.Vào chức năng Chỉ số đo lường KPI, Kích chọn Quản lý nhân viên chọn đơn vị- mục tiêu hệ thống hiển thị màn hình danh sách dạng bảng **Đơn vị-Mục tiêu**
+![](picture/PIC_DW_KPI-DonViMucTieu.png)
+
+  * Chu kỳ: Chọn chu kỳ(Được lấy từ trường chu kỳ khi tạo mới )
+  
+  * Mã nhân viên: Lấy dữ liệu trong chức năng nhân viên 
+  
+  * Họ tên:Lấy dữ liệu họ tên nhân viên khi thêm mới trong chức năng nhân viên 
+  
+  * Số lượng mục tiêu: Lấy số lượng mục tiêu từ màn mục tiêu
+  
+  * Tổng tỷ trọng: Lấy  tỷ trọng từ màn mục tiêu 
+  
+  * Trạng thái: Lấy dữ liệu từ màn trạng thái thực hiện của mục tiêu 
+  
+  * Lưu ý: 
+   
+   * **Họ tên**: Khi ấn vào tên nhân viên hiển thị màn hình Đơn vị - mục tiêu/View objective user
+
+ 1.4.Vào chức năng Chỉ số đo lường KPI, Kích chọn Quản lý nhân viên chọn Đơn vị - đánh giá hệ thống hiển thị màn hình danh sách dạng bảng **Đơn vị - đánh giá**
+![](picture/PIC_DW_KPI-DonViDanhGia.png)
+
+  * Chu kỳ: Chọn chu kỳ(Được lấy từ trường chu kỳ khi tạo mới )
+  
+  * Mã nhân viên: Lấy dữ liệu trong chức năng nhân viên 
+  
+  * Họ tên:Lấy dữ liệu họ tên nhân viên khi thêm mới trong chức năng nhân viên 
+  
+  * Cá nhân đánh giá: Lấy dữ liệu từ cột cá nhân đánh giá tại màn đánh giá 
+  
+  * Quản lý đánh giá: Lấy dữ liệu từ cột quản lý đánh giá tại màn đánh giá
+  
+  * Xếp loại đánh giá: Lấy dữ liệu từ tab đầu vào tại màn xếp loại đánh giá
+  
+  * Đánh giá thêm: Lấy dữ liệu từ màn chu kỳ tại tab đánh giá thêm 
+  
+  * Đánh giá KI: Lấy dữ liệu từ màn đánh giá KI
+  
+  * Lưu ý: 
+  
+    * Khi chưa có điểm quản lý đánh giá thì công thức chưa xếp hạng được.
+    
+    * **Họ tên**: Khi ấn vào tên nhân viên hiển thị màn chu kỳ
