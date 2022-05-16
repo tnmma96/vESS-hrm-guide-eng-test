@@ -10,7 +10,9 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
 
 * Cấu hình. Chi tiết nghiệp vụ <u>[tại đây](#cau-hinh)</u>
 
-* Mục tiêu. Chi tiết nghiệp vụ <u>[tại đây](#muc-tieu)</u>.
+* Mục tiêu. Chi tiết nghiệp vụ <u>[tại đây](#muc-tieu)</u>.  
+
+* Quản lý nhân viên. Chi tiết nghiệp vụ <u>[tại đây](#muc-tieu)</u>..
 
 * Kết quả then chốt. Chi tiết nghiệp vụ <u>[tại đây](#ket-qua-then-chot)</u>
 
@@ -39,7 +41,7 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
 
 * Đơn vị đo. Chi tiết nghiệp vụ <u>[tại đây](#on-vi-o)</u>
 
-* Loại điểm đánh giá. Chi tiết nghiệp vụ <u>[tại đây](#loai-iem-anh-gia)</u>
+* Loại điểm đánh giá. Chi tiết nghiệp vụ <u>[tại đây](#loai-diem-anh-gia)</u>
 
 * Chu kì. Chi tiết nghiệp vụ <u>[tại đây](#chu-ki)</u>
 
@@ -54,6 +56,14 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
 * Kết quả then chốt. Chi tiết nghiệp vụ <u>[tại đây](#ket-qua-then-chot)</u>
 
 * Đánh giá. Chi tiết nghiệp vụ <u>[tại đây](#anh-gia)</u>
+
+* Quản lý trực tiếp mục tiêu. Chi tiết nghiệp vụ <u>[tại đây](#quan-ly-truc-tiep-muc-tieu)</u>
+
+* Quản lý trực tiếp đánh giá. Chi tiết nghiệp vụ <u>[tại đây](#quan-ly-truc-tiep-danh-gia)</u>
+
+* Đơn vị- mục tiêu. Chi tiết nghiệp vụ <u>[tại đây](#don-vi-muc-tieu)</u>
+
+* Đơn vị- đánh giá. Chi tiết nghiệp vụ <u>[tại đây](#don-vi-danh-gia)</u>
 
 * Báo cáo. Chi tiết nghiệp vụ <u>[tại đây](#bao-cao)</u>
 
@@ -327,22 +337,23 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
         
         ![](picture/PIC_DW_OKR-Thenchot.png)
              
+        
         * **Tên kết quả then chốt**
         
     * **Tab: Cấu hình**
           
         * **Ước lượng:** nhập thời gian theo giá trị ngày của "Liên kết kết quả then chốt"
-            
+          
         * **Người được giao:** chọn người được giao cho "Liên kết kết quả then chốt"
-            
+          
         * **Ngày bắt đầu:** chọn ngày bắt đầu cho "Liên kết kết quả then chốt"
-            
+          
         * **Ngày kết thúc:** chọn ngày kết thúc cho "Liên kết kết quả then chốt"
-            
+          
         * **Ngày kết thúc thực tế:** chọn ngày kết thúc thực tế cho "Liên kết kết quả then chốt"
-            
+          
         * **Tỉ trọng:** nhập tỉ trọng của "Liên kết kết quả then chốt"
-            
+          
         * **Kết quả công việc:** nhập kết quả công việc của "Liên kết kết quả then chốt"
         
     * **Tab: Việc cần làm** người dùng kích vào "Thêm dòng"
@@ -562,7 +573,158 @@ OKRs cho phép thiết lập các tiêu chí đánh giá kết quả thực hi�
       
     * Kích vào **Xuất** để xuất "Báo cáo đánh giá nhiệm vụ chi tiết"
     
+  ## **Công thức đánh giá**
+
+ **Công thức đánh giá**: Là xếp hạng loại đánh giá theo điều kiện thực hiện công việc, đánh giá loại cho nhân sự nhằm phản ánh hiệu quả hoạt động của cá nhân
+     
+
+**Đối tượng thực hiện**: Người sử dụng hệ thống bao gồm:Quản trị hệ thống, Trưởng phòng, Phó phòng, Quản lý.
     
+
+**Các bước thực hiện:**
+
+  1.Vào chức năng Chỉ số đo lường OKR, Kích chọn **Cấu hình** chọn công thức đánh giá, hệ thống hiển thị màn hình danh sách **Công thức đánh giá** ở dạng list
+
+![](picture/PIC_DW_OKR_DanhSachCongThucDanhGia.png)
+
+  2.Kích vào nút tạo  
+
+![](picture/PIC_DW_OKR-TaoCTDG_PhanTuDanhGia.png)
+
+![](picture/PIC_DW_OKR_TaoCongThucDanhGia_DauVao.png)
+
+* **Tên**: Nhập giá trị tên cho công thức đánh giá
+
+* **Chu kỳ**: Chọn chu kì (Được lấy từ Cấu hình/Chu kì)
+
+* **Tab Phần tử đánh giá**: Hiển thị mặc định bảng dữ liệu gồm các cột: Tên, Mã, Công thức. 
+
+    * Với dòng **Quản lý đánh giá** hệ thống chỉ cho phép người dùng xem 
+    * Với dòng **Xếp hạng** hệ thống cho phép sửa mã đầu vào
+
+* **Tab Đầu vào**: Việc cần làm người dùng kích vào "Thêm một dòng"
+
+   * **Thêm một dòng**:Kích vào thêm một dòng, hệ thống hiển thị màn hình danh sách **Thêm:Nhập công thức** ở dạng list
+   
+    ![](picture/PIC_DW_OKR-TaoCTDG_DauVao_ThemMotDong.png)
+   
+    ![](picture/PIC_DW_OKR_TaoCongThucDanhGia_DauVao_NhapThemCT.png)
+   
+     * **Tạo**: Chọn nút tạo hiển thị màn **Thêm:Nhập công thức**
+   
+        * **Mô tả**: Nhập dữ liệu mô tả
+        
+        * **Kiểu dữ liệu**: Cho phép chọn một trong hai giá trị chữ/số
+        
+        * **Mã**: Nhập mã tương ứng với kiểu dữ liệu đã chọn 
+   
+    * **Nhập xuất dữ liệu**:  
+   
+    ![](picture/PIC_DW_OKR_TaoCongThucDanhGia_DauVao_NhapXuatDuLieu.png)
+   
+   * **Chu kỳ**: Chọn chu kỳ (Được lấy từ trường chu kỳ khi tạo mới )
+   * **Xuất mẫu**: Chọn nút xuất mẫu, chỉnh sửa file hợp lệ
+   * **Nhập dữ liệu**: Thực hiện tải file lên   
+   * **Xem dữ liệu**: Sau khi tải file thành công ấn nút xem dữ liệu-->Hệ thống hiển thị bảng danh sách như file tải lên ra màn hình.
+ * **Lưu ý**: 
     
+    * Tạo mã thành công **Tab đầu vào** --> Mã được áp dụng vào công thức ở **Tab phần tử đánh giá** --> Kiểm tra hiển thị cột **Xếp loại đánh giá** ở màn **Quản lý nhân viên/Quản lý trực tiếp-Đánh giá**
+
+  ## **Quản lý nhân viên**
+
+ **Quản lý nhân viên**: Là quản lý trực tiếp đánh giá, mục tiêu và đơn vị đánh giá, mục tiêu theo điều kiện thực hiện mục tiêu, đánh giá loại cho nhân sự nhằm phản ánh hiệu quả hoạt động của cá nhân
+     
+
+ **Đối tượng thực hiện**: Người sử dụng hệ thống bao gồm:Quản trị hệ thống, Trưởng phòng, Phó phòng, Quản lý.
     
+
+ **Các bước thực hiện:**
+
+  1.1.Vào chức năng Chỉ số đo lường OKR, Kích chọn **Quản lý nhân viên** chọn quản lý trực tiếp - mục tiêu hệ thống hiển thị màn hình danh sách dạng bảng **Quản lý trực tiếp - mục tiêu** 
+  ![](picture/PIC_DW_OKR_QuanLyTrucTiepMucTieu.png)
+
+  * Chu kỳ: Chọn chu kỳ(Được lấy từ trường chu kỳ khi tạo mới )
+  
+  * Mã nhân viên: Được cấu hình trong chức năng nhân viên 
+  
+  * Họ tên: Nhập họ tên nhân viên khi thêm mới trong chức năng nhân viên 
+  
+  * Số lượng mục tiêu: Lấy số lượng mục tiêu từ màn mục tiêu 
+  
+  * Tổng tỷ trọng(%): Lấy  tỷ trọng từ màn mục tiêu 
+  
+  * Trạng thái: Lấy dữ liệu từ màn trạng thái thực hiện của mục tiêu 
+
+  * **Lưu ý**: 
+  
+    * **Họ tên**: Khi ấn vào tên nhân viên hiển thị màn hình Quản lý trực tiếp mục tiêu/View objective user.
+    
+
+ 1.2.Vào chức năng Chỉ số đo lường OKR, Kích chọn Quản lý nhân viên chọn quản lý trực tiếp - đánh giá hệ thống hiển thị màn hình danh sách dạng bảng **Quản lý trực tiếp - đánh giá**
+
+![](picture/PIC_DW_QuanLyTrucTiepDanhGia.png)
+    
+
+  * Chu kỳ: Chọn chu kỳ(Được lấy từ trường chu kỳ khi tạo mới )
+  
+  * Mã nhân viên: Lấy dữ liệu trong chức năng nhân viên 
+  
+  * Họ tên:Lấy dữ liệu họ tên nhân viên khi thêm mới trong chức năng nhân viên 
+  
+  * Cá nhân đánh giá: Lấy dữ liệu từ cột cá nhân đánh giá tại màn đánh giá 
+  
+  * Quản lý đánh giá: Lấy dữ liệu từ cột quản lý đánh giá tại màn đánh giá
+  
+  * Xếp loại đánh giá: Lấy dữ liệu từ tab đầu vào tại màn xếp loại đánh giá
+  
+  * Đánh giá thêm: Lấy dữ liệu từ màn chu kỳ tại tab đánh giá thêm 
+  
+  * Lưu ý: 
+  
+    * Khi chưa có điểm quản lý đánh giá thì công thức chưa xếp hạng được.
+    
+    * **Họ tên**: Khi ấn vào tên nhân viên hiển thị màn chu kỳ 
+
+  1.3.Vào chức năng Chỉ số đo lường OKR, Kích chọn Quản lý nhân viên chọn đơn vị- mục tiêu hệ thống hiển thị màn hình danh sách dạng bảng **Đơn vị-Mục tiêu**
+![](picture/PIC_DW_OKR-DonViMucTieu.png) 
+
+  * Chu kỳ: Chọn chu kỳ(Được lấy từ trường chu kỳ khi tạo mới )
+  
+  * Mã nhân viên: Lấy dữ liệu trong chức năng nhân viên 
+  
+  * Họ tên:Lấy dữ liệu họ tên nhân viên khi thêm mới trong chức năng nhân viên 
+  
+  * Số lượng mục tiêu: Lấy số lượng mục tiêu từ màn mục tiêu
+  
+  * Tổng tỷ trọng: Lấy  tỷ trọng từ màn mục tiêu 
+  
+  * Trạng thái: Lấy dữ liệu từ màn trạng thái thực hiện của mục tiêu 
+  
+  * Lưu ý: 
+   
+   * **Họ tên**: Khi ấn vào tên nhân viên hiển thị màn hình Đơn vị - mục tiêu/View objective user
+
+ 1.4.Vào chức năng Chỉ số đo lường OKR, Kích chọn Quản lý nhân viên chọn Đơn vị - đánh giá hệ thống hiển thị màn hình danh sách dạng bảng **Đơn vị - đánh giá** 
+
+![](picture/PIC_DW_OKR-DonViDanhGia.png)
+
+  * Chu kỳ: Chọn chu kỳ(Được lấy từ trường chu kỳ khi tạo mới )
+  
+  * Mã nhân viên: Lấy dữ liệu trong chức năng nhân viên 
+  
+  * Họ tên:Lấy dữ liệu họ tên nhân viên khi thêm mới trong chức năng nhân viên 
+  
+  * Cá nhân đánh giá: Lấy dữ liệu từ cột cá nhân đánh giá tại màn đánh giá 
+  
+  * Quản lý đánh giá: Lấy dữ liệu từ cột quản lý đánh giá tại màn đánh giá
+  
+  * Xếp loại đánh giá: Lấy dữ liệu từ tab đầu vào tại màn xếp loại đánh giá
+  
+  * Đánh giá thêm: Lấy dữ liệu từ màn chu kỳ tại tab đánh giá thêm 
+  
+  * Lưu ý: 
+  
+    * Khi chưa có điểm quản lý đánh giá thì công thức chưa xếp hạng được.
+    
+    * **Họ tên**: Khi ấn vào tên nhân viên hiển thị màn chu kỳ 
     

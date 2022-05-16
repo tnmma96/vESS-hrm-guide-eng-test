@@ -82,6 +82,8 @@ nav:
         - 'Đăng nhập': 'vESS_mobile/Mobile-dang-nhap.md'
         - 'Phê duyệt trên mobile': 'vESS_mobile/Addon-phe-duyet.md'
         - 'Ký số': 'vESS_mobile/Addon-ky-so.md'
+        - 'Bữa ăn': 'vESS_mobile/Addon_BuaAn.md'
+        - 'Dự án': 'vESS_mobile/Addon_DuAnMobile.md'
         - 'Lịch sử phát triển sản phẩm': 'vESS_mobile/Mobile-Lich-su-phat-trien.md'
     - 'vContract - Hợp đồng điện tử': 
         - 'Thiết lập luồng ký hợp đồng': 'vContract/thiet-lap-luong-ky.md'                                                
