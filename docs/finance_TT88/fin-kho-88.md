@@ -16,9 +16,9 @@ Kế toán kho thực hiện quản lý tình hình nhập, xuất, tồn kho th
 
 ·     Tính giá xuất kho. Chi tiết nghiệp vụ **[tại đây](#tinh-gia-xuat-kho)**
 
-# *Lập lệnh sản xuất*
+## *Lập lệnh sản xuất*
 
-## Mô tả nghiệp vụ
+### Mô tả nghiệp vụ
 
 Căn cứ vào đơn đặt hàng bán, người sử dụng thực hiện lập lệnh sản xuất theo số lượng thành phẩm đã được duyệt tại đơn đặt hàng bán
 
@@ -28,7 +28,7 @@ Căn cứ vào đơn đặt hàng bán, người sử dụng thực hiện lập
 
 *[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
 
-## Lập lệnh sản xuất
+### Lập lệnh sản xuất
 
 Đối tượng thực hiện: Người sử dụng phần mềm
 
@@ -99,6 +99,53 @@ Như vậy Lệnh sản xuất đã được **Hoàn thành**.
 
 ![fin_LSX_HDN](images/fin_LSX_HDN.png)
 
+### Chuyển về nháp hoặc Hủy Lệnh sản xuất
+
+Trường hợp Người dùng phát hiện thông tin Lệnh sản xuất bị lập sai (Sai thông tin Sản phẩm, sai thông tin số lượng...) trong khi Lệnh sản xuất đã được Hoàn thành (Tức đã lên tạo ra Phiếu xuất kho và Phiếu nhập kho tương ứng): Khi đó người dùng sử dụng tính năng **Chuyển về nháp** để đưa thông tin Lệnh sản xuất về trạng thái Dự thảo trước khi thực hiện Hủy phiếu
+
+Đối tượng thực hiện: Người dùng hệ thống
+
+**Điều kiện bắt buộc để 'Chuyển về nháp' Lệnh sản xuất thành công:**
+
+- Lệnh sản xuất chưa có phát sinh Luồng Phế liệu
+- Sản phẩm thuộc Phiếu nhập kho được tạo ra từ Lệnh sản xuất: Chưa thuộc bất cứ một Lệnh xuất kho nào
+
+**Bước 1**: Vào phân hệ **Kho vận**, Chọn nhóm **Hoạt động** , chọn chức năng **Lệnh sản xuất** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+
+![](images/fin_LenhSanXuat_ChuyenNhap_01.png)
+
+**Bước 2**: Người dùng nhấn nút **'Chuyển về nháp'**
+
+![](images/fin_LenhSanXuat_ChuyenNhap_02.png)
+
+Khi đó hệ thống hiển thị thông báo xác nhận Chuyển Lệnh sản xuất về nháp
+
+![](images/fin_PhieuNhapKho_Nhap_confirm.png)
+
+- **Trường hợp: Đã tồn tại Phiếu xuất kho** có Sản phẩm là sản phẩm nằm trong Danh sách các mặt hàng đang có của Phiếu nhập kho được tạo ra từ Lệnh sản xuất, khi nhấn 'Đồng ý' trên thông báo xác nhận hệ thống sẽ đưa ra thông báo lỗi
+  - Để Tiếp tục luồng Chuyển về nháp Lệnh sản xuất: Người dùng vào thông tin Phiếu xuất kho theo thông báo lỗi tại màn hình 'Phiếu xuất kho': Thực hiện đưa Phiếu xuất về Dự thảo/Hủy (Theo hướng dẫn tại mục **Chuyển về nháp hoặc Hủy Phiếu xuất kho**)
+
+![](images/fin_LenhSanXuat_ChuyenNhap_confirm_px.png)
+
+- **Trường hợp: Lệnh sản xuất Đã tồn tại Phiếu xuất kho của phế liệu**: khi nhấn 'Đồng ý' trên thông báo xác nhận hệ thống sẽ đưa ra thông báo lỗi
+
+![](images/fin_LenhSanXuat_ChuyenNhap_confirm_phelieu.png)
+
+- Khi đó Để Tiếp tục luồng Chuyển về nháp của Lệnh sản xuất: Người dùng vào tìm kiếm Phiếu xuất kho theo thông báo lỗi tại **màn hình 'Phiếu xuất kho':** Thực hiện Chuyển về nháp/Hủy Phiếu xuất kho này (Phần thực hiện Chuyển về nháp của Phiếu xuất kho xem mô tả tại mục **Chuyển về nháp hoặc Hủy Phiếu xuất kho**)
+
+![](images/fin_LenhSanXuat_ChuyenNhap_confirm_phelieu_2.png)
+
+- **Trường hợp:** Không tồn tại Phiếu xuất các sản phẩm thuộc Phiếu nhập và Không tồn tại Lệnh sản xuất của Luồng Phế liệu, sau khi Nhấn nút 'Đồng ý' hệ thống thực hiện **Chuyển về nháp Lệnh sản xuất thành công. Khi đó:**
+  - Hệ thống Hủy bỏ Phiếu nhập kho của Lệnh sản xuất: Tức không ghi nhận bút toán và Tồn kho Hàng hóa
+  - Hủy bỏ Phiếu xuất kho các Nguyên vật liệu: Tức không ghi nhận bút toán của Phiếu xuất và Trả lại Hàng tồn cho Nguyên vật liệu
+  - Chuyển Lệnh sản xuất về trạng thái **Nháp**
+
+![](images/fin_LenhSanXuat_ChuyenNhap_confirm_Done.png)
+
+**Bước 3:** Nhấn nút **Hủy** để hoàn thành việc Hủy chứng từ Lệnh sản xuất
+
+![](images/fin_LenhSanXuat_Huy.png)
+
 ## *Lập phiếu nhập kho*
 
 ### Mô tả nghiệp vụ
@@ -164,6 +211,65 @@ Lưu ý: Trường **Loại nhập** khi lựa chọn thì phải có Địa đi
  Đồng thời sinh bút toán ở tab **Hạch toán**.
 
 ![fin_kho_PNK_tabhachtoan](images/fin_kho_PNK_tabhachtoan.png)
+
+### Chuyển về nháp hoặc Hủy Phiếu nhập kho
+
+Trường hợp Người dùng phát hiện thông tin Phiếu nhập kho bị sai  (Dữ liệu sai này có thể xuất phát từ Đơn mua hàng, hoặc Từ chính Phiếu nhập kho) trong khi Phiếu Nhập kho đã được Hoàn thành (Tức đã lên Sổ và hàng đã xác nhận về kho): Khi đó người dùng sử dụng tính năng **Chuyển về nháp** để đưa thông tin Phiếu nhập kho về trạng thái Dự thảo trước khi thực hiện Hủy phiếu
+
+Đối tượng thực hiện: Người dùng hệ thống
+
+**Điều kiện bắt buộc để 'Chuyển về nháp' Phiếu nhập kho thành công:**
+
+- Sản phẩm thuộc Phiếu nhập kho chưa được Xuất kho: **Tức chưa thuộc trong 1 Phiếu xuất kho nào**
+- Chứng từ mua hàng được tạo ra cùng với Đơn mua của Phiếu nhập kho: Chưa được 'Vào sổ', **tức đang thuộc trạng thái 'Dự thảo'**
+
+*<u>**Lưu ý:**</u>* Sau khi Chuyển về nháp/Hủy một Phiếu nhập kho: Với sản phẩm đã có 1 hoặc nhiều giao dịch Nhập/xuất trước đó thì Người dùng nên có thao tác chạy lại chức năng **'Tính lại giá xuất kho'** để phần thông tin 'Giá vốn' cho các phiếu xuất sau đó lên đúng và khớp giá trị
+
+**Bước 1**: Vào phân hệ **Kho vận**, Chọn nhóm **Hoạt động** , chọn chức năng **Phiếu nhập kho** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống; Hoặc mở thông tin **Phiếu nhập kho** từ phần Đơn mua hàng của Phiếu nhập)
+
+![](images/fin_PhieuNhapKho_Nhap_01.png)
+
+**Bước 2**: Người dùng nhấn nút **'Chuyển về nháp'**
+
+![](images/fin_PhieuNhapKho_Nhap_02.png)
+
+Khi đó hệ thống hiển thị thông báo xác nhận Chuyển Phiếu nhập kho về nháp
+
+![](images/fin_PhieuNhapKho_Nhap_confirm.png)
+
+- **Trường hợp**: **Chứng từ mua hàng** được tạo ra từ Đơn mua của Phiếu nhập kho đã **Vào sổ** khi nhấn 'Đồng ý' hệ thống sẽ báo lỗi
+  - Để Tiếp tục luồng Chuyển về nháp Phiếu nhập kho: Người dùng vào thông tin Chứng từ mua hàng theo thông báo lỗi tại màn hình 'Chứng từ mua hàng': Thực hiện 'Đưa về dự thảo' thông tin Chứng từ mua
+
+![](images/fin_PhieuNhapKho_Nhap_confirm_ctu.png)
+
+
+
+- **Trường hợp: Đã tồn tại Phiếu xuất kho** nằm trong Danh sách các mặt hàng đang có của Phiếu nhập kho, khi nhấn 'Đồng ý' trên thông báo xác nhận hệ thống sẽ đưa ra thông báo lỗi
+
+![](images/fin_PhieuNhapKho_Nhap_confirm_px.png)
+
+- Để Tiếp tục luồng Chuyển về nháp Phiếu nhập kho: Người dùng vào tìm kiếm Phiếu xuất kho theo thông báo lỗi tại **màn hình 'Phiếu xuất kho':** Thực hiện Chuyển về nháp Phiếu xuất kho này (Phần thực hiện Chuyển về nháp của Phiếu xuất kho xem mô tả tại mục **Chuyển về nháp hoặc Hủy Phiếu xuất kho**)
+
+- **Trường hợp:** Không tồn tại Chứng từ mua hàng chưa Vào sổ hoặc Phiếu xuất kho có gắn sản phẩm của Phiếu nhập kho, sau khi Nhấn nút 'Đồng ý' hệ thống thực hiện **Chuyển về nháp phiếu xuất kho thành công. Khi đó:**
+  - Hệ thống Hủy bỏ các bút toán của Phiếu nhập kho
+  - Không ghi nhận tồn kho số lượng của Sản phẩm của phiếu
+  - Chuyển Phiếu nhập kho về trạng thái Nháp
+
+![](images/fin_PhieuNhapKho_Nhap_confirm_done.png)
+
+**Bước 3:** Nhấn nút **Hủy** để hoàn thành việc Hủy chứng từ Phiếu nhập kho
+
+![](images/fin_PhieuNhapKho_Nhap_confirm_Huy.png)
+
+**<u>*Lưu ý:*</u>** Nếu sau bước Chuyển về nháp Phiếu nhập kho, người dùng muốn Hủy cả Đơn mua hàng: Tại màn hình Đơn mua hàng nhấn nút Hủy và Xác nhận
+
+**Kết quả:** Hệ thống thực hiện **<u>Hủy Đơn mua hàng</u>**, **<u>Hủy Phiếu nhập kho</u>** và <u>**Hủy cả Chứng từ mua hàng**</u> (nếu có và đang ở trạng thái Dự thảo)
+
+![](images/fin_PhieuNhapKho_Nhap_confirm_HuyDonMua.png)
+
+
+
+![](images/fin_PhieuNhapKho_Nhap_confirm_HuyDonMua_ctu.png)
 
 ## *Lập phiếu xuất kho*
 
@@ -231,7 +337,52 @@ Lưu ý: Lựa chọn **Kiểu giao nhận** có Địa điểm đi mặc địn
 
  Đồng thời sinh bút toán ở tab **Hạch toán** (tương tự **Phiếu nhập kho**)
 
+### Chuyển về nháp hoặc Hủy Phiếu xuất kho
 
+Trường hợp Người dùng phát hiện thông tin Phiếu xuất kho bị sai  (Dữ liệu sai này có thể xuất phát từ Đơn bán hàng, hoặc Từ chính Phiếu xuất kho) trong khi **Phiếu xuất kho đã được Hoàn thành** (Tức đã lên Sổ và hàng đã xác nhận xuất ra khỏi): Khi đó người dùng sử dụng tính năng **Chuyển về nháp** để đưa thông tin Phiếu xuất kho về trạng thái Dự thảo trước khi thực hiện Hủy phiếu
+
+Đối tượng thực hiện: Người dùng hệ thống
+
+**Điều kiện bắt buộc để 'Chuyển về nháp' Phiếu xuất kho thành công:**
+
+- Chứng từ bán hàng được tạo ra cùng với Đơn bán của Phiếu xuất kho: Chưa được 'Vào sổ', **tức đang thuộc trạng thái 'Dự thảo'**
+
+*<u>**Lưu ý:**</u>* Sau khi Chuyển về nháp/Hủy một Phiếu xuất kho: Với sản phẩm đã có 1 hoặc nhiều giao dịch Nhập/xuất trước đó thì Người dùng nên có thao tác chạy lại chức năng **'Tính lại giá xuất kho'** để phần thông tin 'Giá vốn' cho các phiếu xuất sau đó lên đúng và khớp giá trị
+
+**Bước 1**: Vào phân hệ **Kho vận**, Chọn nhóm **Hoạt động** , chọn chức năng **Phiếu xuất kho** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống; Hoặc mở thông tin **Phiếu xuất kho** từ phần Đơn bán hàng của Phiếu xuất)
+
+![](images/fin_PhieuXuatKho_chuyenNhap_01.png)
+
+**Bước 2**: Người dùng nhấn nút **'Chuyển về nháp'**
+
+![](images/fin_PhieuXuatKho_chuyenNhap_02.png)
+
+Khi đó hệ thống hiển thị thông báo xác nhận Chuyển Phiếu nhập kho về nháp
+
+![](images/fin_PhieuNhapKho_Nhap_confirm.png)
+
+- **Trường hợp**: **Chứng từ bán hàng** được tạo ra từ Đơn bán của Phiếu Xuất kho đã **Vào sổ** khi nhấn 'Đồng ý' hệ thống sẽ báo lỗi
+  - Để Tiếp tục luồng Chuyển về nháp Phiếu xuất kho: Người dùng vào thông tin Chứng từ bán hàng theo thông báo lỗi tại màn hình 'Chứng từ bán hàng': Thực hiện 'Đưa về dự thảo' thông tin Chứng từ bán
+
+![](images/fin_PhieuXuatKho_chuyenNhap_confirm_banhang.png)
+
+- Trường hợp: Không tồn tại Chứng từ bán hàng chưa Vào sổ , sau khi Nhấn nút 'Đồng ý' hệ thống thực hiện Chuyển về nháp phiếu xuất kho thành công. Khi đó:
+
+- - Hệ thống Hủy bỏ các bút toán của Phiếu nhập kho
+  - Hoàn trả lại Số lượng tồn kho của Sản phẩm
+  - Chuyển Phiếu xuất kho về trạng thái
+
+![](images/fin_PhieuXuatKho_chuyenNhap_confirm_done.png)
+
+**Bước 3:** Nhấn nút **Hủy** để hoàn thành việc Hủy chứng từ Phiếu xuất kho
+
+![](images/fin_PhieuXuatKho_chuyenNhap_Huy.png)
+
+**<u>*Lưu ý:*</u>** Nếu sau bước Chuyển về nháp Phiếu xuất kho, người dùng muốn Hủy cả Đơn bán hàng: Tại màn hình Đơn bán hàng nhấn nút Hủy và Xác nhận
+
+**Kết quả:** Hệ thống thực hiện **<u>Hủy Đơn bán hàng</u>**, **<u>Hủy Phiếu xuất kho</u>** và <u>**Hủy cả Chứng từ bán hàng**</u> (nếu có và đang ở trạng thái Dự thảo)
+
+![](images/fin_PhieuXuatKho_chuyenNhap_HuyDonHang.png)
 
 ## *Kiểm kê hàng tồn kho*
 
