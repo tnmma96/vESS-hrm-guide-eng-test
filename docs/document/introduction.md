@@ -12,3 +12,5 @@
 - Bình luận, trao đổi về tài liệu 
 
   ![image-20211013004923254](images/image-20211013004923254.png)
+
+Ứng dụng còn có phiên bản trên điện thoại thông minh với tên gọi **Quản lý tài liệu** giúp dễ dàng theo dõi các tài liệu cá nhân, tài liệu được chia sẻ một cách tiện lợi hơn.

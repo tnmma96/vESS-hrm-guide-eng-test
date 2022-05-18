@@ -54,6 +54,7 @@ nav:
         - 'Các thuật ngữ và từ viết tắt': 'document/abbreviations.md'
         - 'Thiết lập và khai báo ban đầu': 'document/initialization.md'
         - 'Tài liệu': 'document/document.md'   
+	- 'Quản lý tài liệu trên điện thoại': 'document/Addon-Tailieu-mobile.md'
     - 'Ký số': 
         - 'Giới thiệu về ứng dụng Ký số': 'esign/introduction.md'
         - 'Thiết lập và khai báo ban đầu': 'esign/initialization.md'
