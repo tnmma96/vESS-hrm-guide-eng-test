@@ -163,7 +163,7 @@ Chức năng này được sử dụng để quản lý danh sách nhiệm vụ 
 * Nhấn mục **Nhiệm vụ con** hoặc **Trao đổi** để xem các tin khác của nhiệm vụ 
 
 * Nhấn biểu tượng ![](picture/PIC_DW_DuAn-IconLichSu.jpg) để xem lịch sử thay đổi của nhiệm vụ 
-    
+  
 
 ### **Quản lý nhiệm vụ trong dự án**
 
@@ -242,17 +242,17 @@ Chức năng này được sử dụng để quản lý danh sách nhiệm vụ 
 * Nhấn mục **Nhiệm vụ con** hoặc **Trao đổi** để xem các tin khác của nhiệm vụ 
 
 * Nhấn biểu tượng ![](picture/PIC_DW_DuAn-IconLichSu.jpg) để xem lịch sử thay đổi của nhiệm vụ 
+  
     
+  
     
+  
     
+  
     
+  
     
-    
-    
-    
-    
-    
-    
+  
     
 
 
