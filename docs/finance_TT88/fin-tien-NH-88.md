@@ -311,27 +311,47 @@ Việc thanh toán được thực hiện thanh toán theo **Tiền mặt** ho�
 
 Các trường dữ liệu trên chức năng:
 
-- Thông tin Nhân viên: Đã được hiển thị mặc định danh sách các nhân viên đã được khai báo tại **Danh mục Nhân viên**
-- Bảng lương: Thỏa mãn là Bảng lương đã được Xác nhận hoàn thành
-- Thông tin Sổ nhật ký: Xác định Sổ nhật ký dùng để chi trả và lên các bút toán chi tiền lương cho nhân viên
-- Thông tin Tổng số tiền phải trả: Là thông tin Số tiền của Bảng lương còn phải trả. Nếu là lần chi trả ban đầu thông tin 'Tổng tiền phải trả' chính là thông tin Tiền của Bảng lương. Với lần trả tiếp theo: Số tiền phải trả là giá trị còn lại của Bảng lương sau khi đã thanh toán lương lần đầu
-
-![](images/fin_nganquy_tiengui_tao_khaibao.png)
+- Bảng lương: Thỏa mãn là Bảng lương đã được Xác nhận hoàn thành. Trường hợp Bảng lương không có thông tin, Người dùng vào chức năng **Tổng hợp/Bảng lương/Bảng lương** để khai báo
+- Thông tin Sổ nhật ký: Xác định Sổ nhật ký dùng để chi trả và lên các bút toán chi tiền lương cho nhân viên.
 
 **Bước 3**: Thực hiện chọn và Nhập thông tin dữ liệu
 
-- Chọn Bảng lương
-- Nhập thông tin Số tiền tương ứng cần thanh toán cho Nhân viên. Trường hợp không thanh toán giữ nguyên thông tin Số tiền thanh toán = 0
+- Chọn Bảng lương:
 
-***Lưu ý:*** Hệ thống sẽ báo lỗi khi 'Tổng tiền trả lần này' vượt quá 'Tổng tiền phải trả' và Báo lỗi khi Số tiền còn lại trong Sổ nhật ký không đủ để thanh toán khoản tiền phải chi trả
+**Trường hợp:** Bảng lương được khai báo Không hạch toán theo đối tượng (Tức thông tin **Hạch toán theo đối tượng** ***<u>không được tích chọn</u>***): Trên giao diện chỉ hiển thị thông tin Tổng tiền để người dùng nhập và Thanh toán theo tổng, không lên bút toán theo từng đối tượng
+
+![](images/fin_nganquy_tiengui_tao_khaibao.png)
+
+**Trường hợp**:  Bảng lương được khai báo Hạch toán theo đối tượng (Tức thông tin **Hạch toán theo đối tượng** ***<u>được tích chọn</u>***): Trên giao diện hiển thị mặc định thông tin Nhân viên cùng Số tiền lương nhận được đã được khai báo bên Bảng lương
+
+![](images/fin_nganquy_tiengui_tao_khaibao_TheoDoituon.png)
+
+- Thông tin **Tổng số tiền phải trả**: Là thông tin Số tiền của Bảng lương còn phải trả. Nếu là lần chi trả ban đầu thông tin 'Tổng tiền phải trả' chính là thông tin Tiền của Bảng lương. Với lần trả tiếp theo: Số tiền phải trả là giá trị còn lại của Bảng lương sau khi đã thanh toán lương lần đầu
+- Thông tin **Tổng tiền trả lần này**: Ghi nhận Số tiền sẽ thanh toán cho lần chi trả lương đang thực hiện
+  - Với Bảng lương thanh toán không theo đối tượng thì Tổng tiền trả lần này = Số tiền được nhập thanh toán tại trường **'Số tiền'**
+  - Với Bảng lương thanh toán theo Đối tượng thì Tổng tiền trả lần này = **Tổng giá trị tại cột 'Số tiền thanh toán'** của nhân viên (Thông tin cột **'Số tiền thanh toán'** ứng với từng nhân viên có thể **Sửa đổi**)
+
+![](images/fin_nganquy_tiengui_tao_nhapthongtin_tong.png)
 
 ![](images/fin_nganquy_tiengui_tao_nhapthongtin.png)
 
+<u>***Lưu ý:***</u> Hệ thống sẽ báo lỗi khi 'Tổng tiền trả lần này' vượt quá 'Tổng tiền phải trả' và Báo lỗi khi Số tiền còn lại trong Sổ nhật ký không đủ để thanh toán khoản tiền phải chi trả
+
 **Bước 4**: Người dùng Nhấn nút **Xác nhận** để ghi nhận thanh toán lương theo dữ liệu đã nhập.
+
+**Trường hợp: Thanh toán theo Số tổng**
 
 ![](images/fin_nganquy_tiengui_tao_nhapthongtin_XacNhan.png)
 
-Hệ thống tự động tạo ra các phiếu chi lương với các bút toán tương ứng với từng đối tượng
+==> Sau khi Xác nhận thanh toán Hệ thống tạo 1 Phiếu chi lương tương ứng theo hình thức chi trả lương bằng **Tiền mặt hay Tiền gửi ngân hàng**
+
+![](images/fin_nganquy_tiengui_tao_nhapthongtin_tong_xacnhan.png)
+
+**Trường hợp thanh toán theo Đối tượng**
+
+![](images/fin_nganquy_tiengui_tao_nhapthongtin_doituong_xacnhan.png)
+
+==> Hệ thống tự động tạo ra các phiếu chi lương với các bút toán tương ứng với từng đối tượng
 
 ![](images/fin_nganquy_tiengui_tao_danhsachbuttoan.png)
 

@@ -48,15 +48,7 @@ Khi có nhu cầu mua sản phẩm, khách hàng sẽ liên hệ với hộ kinh
 
 **Đối tượng thực hiện:** Người bán hàng
 
-#### Lập đơn bán hàng gửi khách hàng
-
-Có hai cách thực hiện tạo đơn bán hàng
-
-*<u>Cách 1:</u>* Lập đơn bán hàng trực tiếp trên giao diện. Hướng dẫn cụ thể **[tại đây](#lap-on-ban-hang-tren-giao-dien)**
-
-*<u>Cách 2:</u>* Lập đơn bán hàng từ việc import dữ liệu. Hướng dẫn cụ thể **[tại đây](#lap-on-ban-hang-tu-viec-import-du-lieu)**
-
-##### Lập đơn bán hàng trên giao diện	
+#### Thêm mới đơn hàng
 
 **Bước 1:** Vào phân hệ **Bán hàng**, Chọn **Đơn bán hàng**, chọn **Báo giá** 
 
@@ -99,62 +91,6 @@ Mục **Điều khoản thanh toán**: Nếu có thỏa thuận về điều ki�
 ​			Khi thực hiện Thêm ghi chú --> Thông tin nội dung sẽ được in trên file gửi khách hàng
 
 **Bước 3**: Nhấn **Lưu**
-
-##### Lập đơn bán hàng từ việc import dữ liệu
-
-**Bước 1:** Vào phân hệ **Bán hàng**, Chọn **Đơn bán hàng**  hoặc **Đơn đặt hàng** trên quy trình
-
-![](images/fin_banhang_donbh.png)
-
-Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống
-
-![](images/fin_banhang_donbh_timkiem.png)
-
-**Bước 2:** Trên danh sách đơn hàng, nhấn biểu tượng hình ngôi sao, chọn **Thêm bản ghi**
-
-![](images/fin_banhang_import.png)
-
-Sau khi mở màn hình import thông tin, thực hiện xuất file mẫu bằng cách chọn **Mẫu nhập khẩu đơn bán hàng** để thực hiện xuất file mẫu excel
-
-![](images/fin_banhang_import_tem.png)
-
-Trên file excel vừa xuất, người dùng thực hiện nhập thông tin đơn hàng tương ứng tại các cột, hướng dẫn cụ thể có trong phần commnent tại hàng đầu tiên của mỗi cột
-
-![](images/fin_banhang_import_tem2.png)
-
-Đơn vị: Bắt buộc nhập, nhập tên đơn vị
-Ngày đặt hàng: Nhập ngày theo định dạng ngày-tháng-năm	
-Hiệu lực đến: Nhập ngày theo định dạng ngày-tháng-năm	
-Khách hàng: Bắt buộc nhập, Nhập tên khách hàng	
-Bảng giá: Bắt buộc chọn	
-Nội dung: Nhập nội dung đơn hàng
-Nhân viên bán hàng: Nhập tên nhân viên bán hàng	
-Kho: Nhập tên kho của đơn vị
-Chi tiết đơn hàng/Sản phẩm: Bắt buộc nhập, nhập tên hàng hóa cần bán	
-Chi tiết đơn hàng/Đơn vị tính: Nhập tên đơn vị tính	
-Chi tiết đơn hàng/Số lượng: Bắt buộc nhập, Nhập số lượng	
-Chi tiết đơn hàng/Đơn giá: Bắt buộc nhập, 	nhập đơn giá
-Chi tiết đơn hàng/Thuế: Nhập tên loại thuế
-
-Sau khi nhập thông tin vào file, thực hiện nhập dữ liệu bằng cách nhấn chọn **Nạp tập tin**
-
-![](images/fin_banhang_naptaptin.png)
-
-Chọn file vừa nhập thông tin, đợi hệ thống tải file, sau đó nhấn nút **Kiểm thử** để kiểm tra thông tin trong file có chính xác không.
-
-Nếu như có lỗi thì sẽ hiển thị thông báo lỗi cụ thể tại cột nào, dòng nào. 
-
-Lưu ý: Những thông báo màu hồng là thông tin cần sửa lại, thông báo màu vàng có thể bỏ qua
-
-Nếu như cần sửa chữa thông tin trong file nhập liệu thì người dùng chọn lại **Nạp tập tin** và chọn file vừa sửa
-
-Nếu đã chính xác thì sẽ hiển thị thông báo màu xanh : "Mọi thứ dường như hợp lệ". Người dùng nhấn **Nhập** để bắt đầu import dữ liệu vào hệ thống
-
-Nếu không muốn import thì nhấn **Hủy**	
-
-![](images/fin_banhang_kiemthu.png)
-
-Khi import thành công, hệ thống  sẽ tự động quay về màn hình danh sách và hiển thị thông báo số lượng bản ghi đã được import, các bản ghi được import thành công ở trạng thái báo giá
 
 #### **Thực hiện gửi đơn hàng cho khách hàng**
 
@@ -431,7 +367,7 @@ Người dùng thực hiện ghi nhận và theo dõi việc thanh toán của h
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Ghi nhận thanh toán" 
-    src="https://www.youtube.com/embed/wYLdUMfWHVQ"
+    src="https://www.youtube.com/embed/TrXM22x4pnc?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
 
 ### Hướng dẫn trên phần mềm

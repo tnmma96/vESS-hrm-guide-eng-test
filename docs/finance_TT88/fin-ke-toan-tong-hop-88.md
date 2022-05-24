@@ -212,7 +212,10 @@ Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm ki
 
 **Bước 2**: Nhấn nút **Tạo** ![](images/fin_banhang_taomoi.png)trên chức năng để thực hiện thêm mới bảng lương của tháng, thực hiện khai báo các thông tin cần thiết:
 
-- Chọn Kỳ lương cho Bảng lương
+- Chọn Kỳ lương cho Bảng lương: Hệ thống sẽ mặc định thông tin Kỳ lương của tháng hiện tại
+- Hạch toán theo đối tượng: 
+  - Nếu tích chọn: Tại chức năng **'Thanh toán lương cho nhân viên'**: Sẽ thực hiện thanh toán chi tiết theo từng Nhân viên đã được khai báo tại Bảng lương
+  - Nếu không tích chọn: Tại chức năng **'Thanh toán lương cho nhân viên'**: Hệ thống sẽ thực hiện thanh toán theo Số tiền tổng, không theo từng đối tượng Nhân viên
 
 ![](images/fin_TongHop_bangluong_Tao_TT88.png)
 
@@ -220,7 +223,7 @@ Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm ki
 
 ![](images/fin_TongHop_bangluong_NhapDuLieu_TT88.png)
 
-**Bước 4**: Để tải biểu mẫu của Bảng lương, Người dùng Nhấn nút **Xuất biểu mẫu**![](images/fin_TongHop_bangluong_XuatBieuMau_buttonXuatBieuMau_TT88.png) : Hệ thống sẽ tải file Biểu mẫu Import bảng lương và người dùng thực hiện Nhập thông tin theo dữ liệu trên Biểu mẫu
+**Bước 4**: Để tải biểu mẫu của Bảng lương, Người dùng Nhấn nút **Tải về mẫu dữ liệu** Hệ thống sẽ tải file Biểu mẫu Import bảng lương và người dùng thực hiện Nhập thông tin theo dữ liệu trên Biểu mẫu
 
 ![](images/fin_TongHop_bangluong_XuatBieuMau_TT88.png)
 
