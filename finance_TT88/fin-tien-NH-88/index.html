@@ -219,10 +219,8 @@
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../../document/document/">Tài liệu</a>
                   </li>
-              </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../../document/Addon-Tailieu-mobile/">Quản lý tài liệu trên điện thoại</a>
-                </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../document/Addon-Tailieu-mobile/">Quản lý tài liệu trên điện thoại</a>
+                  </li>
               </ul>
               <p class="caption"><span class="caption-text">Ký số</span></p>
               <ul>
@@ -284,7 +282,7 @@
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon_BuaAn/">Bữa ăn</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon_DuAnMobile/">Dự án</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon_DuAn/">Dự án</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon_Lich/">Lịch</a>
                   </li>
@@ -537,22 +535,34 @@
 <p><img alt="" src="../images/fin_nganquy_tiengui_tao.png" /></p>
 <p>Các trường dữ liệu trên chức năng:</p>
 <ul>
-<li>Thông tin Nhân viên: Đã được hiển thị mặc định danh sách các nhân viên đã được khai báo tại <strong>Danh mục Nhân viên</strong></li>
-<li>Bảng lương: Thỏa mãn là Bảng lương đã được Xác nhận hoàn thành</li>
-<li>Thông tin Sổ nhật ký: Xác định Sổ nhật ký dùng để chi trả và lên các bút toán chi tiền lương cho nhân viên</li>
-<li>Thông tin Tổng số tiền phải trả: Là thông tin Số tiền của Bảng lương còn phải trả. Nếu là lần chi trả ban đầu thông tin 'Tổng tiền phải trả' chính là thông tin Tiền của Bảng lương. Với lần trả tiếp theo: Số tiền phải trả là giá trị còn lại của Bảng lương sau khi đã thanh toán lương lần đầu</li>
+<li>Bảng lương: Thỏa mãn là Bảng lương đã được Xác nhận hoàn thành. Trường hợp Bảng lương không có thông tin, Người dùng vào chức năng <strong>Tổng hợp/Bảng lương/Bảng lương</strong> để khai báo</li>
+<li>Thông tin Sổ nhật ký: Xác định Sổ nhật ký dùng để chi trả và lên các bút toán chi tiền lương cho nhân viên.</li>
 </ul>
-<p><img alt="" src="../images/fin_nganquy_tiengui_tao_khaibao.png" /></p>
 <p><strong>Bước 3</strong>: Thực hiện chọn và Nhập thông tin dữ liệu</p>
 <ul>
-<li>Chọn Bảng lương</li>
-<li>Nhập thông tin Số tiền tương ứng cần thanh toán cho Nhân viên. Trường hợp không thanh toán giữ nguyên thông tin Số tiền thanh toán = 0</li>
+<li>Chọn Bảng lương:</li>
 </ul>
-<p><strong><em>Lưu ý:</em></strong> Hệ thống sẽ báo lỗi khi 'Tổng tiền trả lần này' vượt quá 'Tổng tiền phải trả' và Báo lỗi khi Số tiền còn lại trong Sổ nhật ký không đủ để thanh toán khoản tiền phải chi trả</p>
+<p><strong>Trường hợp:</strong> Bảng lương được khai báo Không hạch toán theo đối tượng (Tức thông tin <strong>Hạch toán theo đối tượng</strong> <strong><em><u>không được tích chọn</u></em></strong>): Trên giao diện chỉ hiển thị thông tin Tổng tiền để người dùng nhập và Thanh toán theo tổng, không lên bút toán theo từng đối tượng</p>
+<p><img alt="" src="../images/fin_nganquy_tiengui_tao_khaibao.png" /></p>
+<p><strong>Trường hợp</strong>:  Bảng lương được khai báo Hạch toán theo đối tượng (Tức thông tin <strong>Hạch toán theo đối tượng</strong> <strong><em><u>được tích chọn</u></em></strong>): Trên giao diện hiển thị mặc định thông tin Nhân viên cùng Số tiền lương nhận được đã được khai báo bên Bảng lương</p>
+<p><img alt="" src="../images/fin_nganquy_tiengui_tao_khaibao_TheoDoituon.png" /></p>
+<ul>
+<li>Thông tin <strong>Tổng số tiền phải trả</strong>: Là thông tin Số tiền của Bảng lương còn phải trả. Nếu là lần chi trả ban đầu thông tin 'Tổng tiền phải trả' chính là thông tin Tiền của Bảng lương. Với lần trả tiếp theo: Số tiền phải trả là giá trị còn lại của Bảng lương sau khi đã thanh toán lương lần đầu</li>
+<li>Thông tin <strong>Tổng tiền trả lần này</strong>: Ghi nhận Số tiền sẽ thanh toán cho lần chi trả lương đang thực hiện</li>
+<li>Với Bảng lương thanh toán không theo đối tượng thì Tổng tiền trả lần này = Số tiền được nhập thanh toán tại trường <strong>'Số tiền'</strong></li>
+<li>Với Bảng lương thanh toán theo Đối tượng thì Tổng tiền trả lần này = <strong>Tổng giá trị tại cột 'Số tiền thanh toán'</strong> của nhân viên (Thông tin cột <strong>'Số tiền thanh toán'</strong> ứng với từng nhân viên có thể <strong>Sửa đổi</strong>)</li>
+</ul>
+<p><img alt="" src="../images/fin_nganquy_tiengui_tao_nhapthongtin_tong.png" /></p>
 <p><img alt="" src="../images/fin_nganquy_tiengui_tao_nhapthongtin.png" /></p>
+<p><u><strong><em>Lưu ý:</em></strong></u> Hệ thống sẽ báo lỗi khi 'Tổng tiền trả lần này' vượt quá 'Tổng tiền phải trả' và Báo lỗi khi Số tiền còn lại trong Sổ nhật ký không đủ để thanh toán khoản tiền phải chi trả</p>
 <p><strong>Bước 4</strong>: Người dùng Nhấn nút <strong>Xác nhận</strong> để ghi nhận thanh toán lương theo dữ liệu đã nhập.</p>
+<p><strong>Trường hợp: Thanh toán theo Số tổng</strong></p>
 <p><img alt="" src="../images/fin_nganquy_tiengui_tao_nhapthongtin_XacNhan.png" /></p>
-<p>Hệ thống tự động tạo ra các phiếu chi lương với các bút toán tương ứng với từng đối tượng</p>
+<p>==&gt; Sau khi Xác nhận thanh toán Hệ thống tạo 1 Phiếu chi lương tương ứng theo hình thức chi trả lương bằng <strong>Tiền mặt hay Tiền gửi ngân hàng</strong></p>
+<p><img alt="" src="../images/fin_nganquy_tiengui_tao_nhapthongtin_tong_xacnhan.png" /></p>
+<p><strong>Trường hợp thanh toán theo Đối tượng</strong></p>
+<p><img alt="" src="../images/fin_nganquy_tiengui_tao_nhapthongtin_doituong_xacnhan.png" /></p>
+<p>==&gt; Hệ thống tự động tạo ra các phiếu chi lương với các bút toán tương ứng với từng đối tượng</p>
 <p><img alt="" src="../images/fin_nganquy_tiengui_tao_danhsachbuttoan.png" /></p>
 <p>Thông tin chi tiết của Phiếu chi thanh toán lương</p>
 <p><img alt="" src="../images/fin_nganquy_tiengui_tao_danhsachbuttoan_chiTiet.png" /></p>
