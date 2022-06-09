@@ -309,6 +309,7 @@
 <p>Kế toán kho thực hiện quản lý tình hình nhập, xuất, tồn kho theo chủng loại, nhóm, chi tiết vật tư, hàng hóa, thành phẩm. Ngoài ra còn quản lý chi tiết đến từng kho, hỗ trợ tự động xuất kho theo cách thức xuất kho Nhập trước xuất trước (FIFO),  Nhập sau xuất trước (LIFO) , thực hiện hỗ trợ tự động tính giá xuất kho theo 4 phương pháp: Bình quân tức thời, Bình quân cuối kỳ, Đích danh, Nhập trước xuât trước  và lên các báo cáo kho: Tồn kho, Nhập xuất tồn kho.</p>
 <p><img alt="fin_Kho_Quytrinh" src="../images/fin_Kho_Quytrinh.png" /></p>
 <p><strong>Các luồng quy trình</strong></p>
+<p>·     Lập lệnh sản xuất từ nguyên liệu ra thành phẩm. Chi tiết nghiệp vụ <strong><a href="#lap-lenh-san-xuat">tại đây</a></strong></p>
 <p>·     Lập phiếu nhập kho hàng hóa, thành phẩm. Chi tiết nghiệp vụ <strong><a href="#lap-phieu-nhap-kho">tại đây</a></strong></p>
 <p>·     Lập phiếu xuất kho hàng hóa, thành phẩm. Chi tiết nghiệp vụ <strong><a href="#lap-phieu-xuat-kho">tại đây</a></strong></p>
 <p>·     Kiểm kê kho . Chi tiết nghiệp vụ <strong><a href="#kiem-ke-hang-ton-kho">tại đây</a></strong></p>
@@ -318,7 +319,16 @@
 <p>Căn cứ vào đơn đặt hàng bán, người sử dụng thực hiện lập lệnh sản xuất theo số lượng thành phẩm đã được duyệt tại đơn đặt hàng bán</p>
 <p>Đồng thời xác định nguyên liệu cần để sản xuất ra số lượng thành phẩm theo lệnh sản xuất</p>
 <p><strong>Xem video hướng dẫn</strong></p>
-<p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
+<p><iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Lệnh sản xuất" 
+    src="https://www.youtube.com/embed/SFO9JQs7cTk?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
+></iframe>
+</p>
 <h3 id="lap-lenh-san-xuat_1">Lập lệnh sản xuất</h3>
 <p>Đối tượng thực hiện: Người sử dụng phần mềm</p>
 <p>Bước 1: Vào phân hệ <strong>Kho vận</strong>, Chọn nhóm <strong>Hoạt động</strong> , chọn chức năng <strong>Lệnh sản xuất</strong> </p>
@@ -328,7 +338,12 @@
 <p>Bước 2: Người dùng nhập các thông tin trên tab chung</p>
 <p><img alt="fin_Kho_LenhSanXuat_TabChung" src="../images/fin_Kho_LenhSanXuat_TabChung-16491507337251.png" /></p>
 <ul>
-<li><strong>Sản phẩm</strong>: Lấy thông tin hàng hóa có chọn lựa sản xuất</li>
+<li>
+<p><strong>Kiểu hoạt động</strong>: Chọn kiểu hoạt động sản xuất</p>
+</li>
+<li>
+<p><strong>Sản phẩm</strong>: Lấy thông tin hàng hóa có chọn lựa sản xuất</p>
+</li>
 </ul>
 <p><img alt="" src="../images/fin_kho_thanhpham.png" /></p>
 <ul>
@@ -338,9 +353,6 @@
 <p><img alt="fin_Kho_DinhMucVatTu" src="../images/fin_Kho_DinhMucVatTu-16491507337263.png" /></p>
 <p>​   Trường hợp Thành phẩm cần sản xuất đã có Định mức NVL: Khi nhập Số lượng và Định mức NVL thì hệ thống sẽ tự động đẩy dữ liệu xuống tab <strong>Nguyên vật liệu</strong> như hình:</p>
 <p><img alt="fin_Kho_LenhSanXuat_TabNguyenLieu" src="../images/fin_Kho_LenhSanXuat_TabNguyenLieu-16491507337262.png" /></p>
-<ul>
-<li>Kiểu hoạt động: Chọn kiểu hoạt động sản xuất</li>
-</ul>
 <p>Bước 3: Người dùng thực hiện lần lượt các thao tác nhấn <strong>Xác nhận</strong> để hoàn thành phiếu</p>
 <p><img alt="" src="../images/fin_kho_LSX_Xacnhan.png" /></p>
 <p>Nhấn <strong>Kiểm tra tính khả dụng</strong> (kiểm tra trong kho còn đủ NVL để sản xuất không), <strong>Đánh dấu hoàn tất</strong>. </p>
@@ -613,7 +625,7 @@
 <ul>
 <li>Kiểm kê hàng hóa thực tế trong từng kho, đối chiếu số dư thực tế kiểm kê với sổ kế toán kho</li>
 <li>Nếu có chênh lệch thì tiến hành tìm nguyên nhân xử lý</li>
-<li>Căn cứ và quyết định xử lý, Kế toán kho thực hiện lập phiếu nhập kho, hoặc phiếu xuất kho. Đồng thời, hạch toán bút toán chênh lệch thừa, thiếu hàng hóa so với sổ kế toán.</li>
+<li>Căn cứ và quyết định xử lý, người dùng thực hiện lập phiếu nhập kho, hoặc phiếu xuất kho. Đồng thời, hạch toán bút toán chênh lệch thừa, thiếu hàng hóa so với sổ kế toán.</li>
 </ul>
 <p><strong>Xem video hướng dẫn</strong></p>
 <p><iframe
@@ -679,6 +691,7 @@
 <ul>
 <li>Tích chọn các vật tư hàng hoá cần tính lại giá xuất kho, nhấn <strong>Đồng ý</strong></li>
 </ul>
+<p>Sau khi lưu thành công, hệ thống tự động tính lại đơn giá xuất kho cho các mặt hàng đã chọn. Đơn giá này sẽ được dùng cho các phiếu nhập,xuất sau thời điểm tính giá</p>
               
             </div>
           </div><footer>
