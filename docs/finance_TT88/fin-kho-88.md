@@ -8,6 +8,8 @@ Kế toán kho thực hiện quản lý tình hình nhập, xuất, tồn kho th
 
 **Các luồng quy trình**
 
+·     Lập lệnh sản xuất từ nguyên liệu ra thành phẩm. Chi tiết nghiệp vụ **[tại đây](#lap-lenh-san-xuat)**
+
 ·     Lập phiếu nhập kho hàng hóa, thành phẩm. Chi tiết nghiệp vụ **[tại đây](#lap-phieu-nhap-kho)**
 
 ·     Lập phiếu xuất kho hàng hóa, thành phẩm. Chi tiết nghiệp vụ **[tại đây](#lap-phieu-xuat-kho)**
@@ -26,7 +28,15 @@ Căn cứ vào đơn đặt hàng bán, người sử dụng thực hiện lập
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Lệnh sản xuất" 
+    src="https://www.youtube.com/embed/SFO9JQs7cTk?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
+></iframe>
 
 ### Lập lệnh sản xuất
 
@@ -44,6 +54,8 @@ Bước 2: Người dùng nhập các thông tin trên tab chung
 
 ![fin_Kho_LenhSanXuat_TabChung](images/fin_Kho_LenhSanXuat_TabChung-16491507337251.png)
 
+- **Kiểu hoạt động**: Chọn kiểu hoạt động sản xuất
+
 - **Sản phẩm**: Lấy thông tin hàng hóa có chọn lựa sản xuất
 
   ![](images/fin_kho_thanhpham.png)
@@ -58,8 +70,6 @@ Bước 2: Người dùng nhập các thông tin trên tab chung
 
 
 ![fin_Kho_LenhSanXuat_TabNguyenLieu](images/fin_Kho_LenhSanXuat_TabNguyenLieu-16491507337262.png)
-
-- Kiểu hoạt động: Chọn kiểu hoạt động sản xuất
 
 Bước 3: Người dùng thực hiện lần lượt các thao tác nhấn **Xác nhận** để hoàn thành phiếu
 
@@ -392,7 +402,7 @@ Khi có yêu cầu kiểm kê kho,  người dùng sẽ thực hiện:
 
 - Kiểm kê hàng hóa thực tế trong từng kho, đối chiếu số dư thực tế kiểm kê với sổ kế toán kho
 - Nếu có chênh lệch thì tiến hành tìm nguyên nhân xử lý
-- Căn cứ và quyết định xử lý, Kế toán kho thực hiện lập phiếu nhập kho, hoặc phiếu xuất kho. Đồng thời, hạch toán bút toán chênh lệch thừa, thiếu hàng hóa so với sổ kế toán.
+- Căn cứ và quyết định xử lý, người dùng thực hiện lập phiếu nhập kho, hoặc phiếu xuất kho. Đồng thời, hạch toán bút toán chênh lệch thừa, thiếu hàng hóa so với sổ kế toán.
 
 **Xem video hướng dẫn**
 
@@ -488,3 +498,5 @@ Lưu ý: Trường hợp muốn tính giá xuất kho cho một hoặc một s�
 ![fin_Kho_Tinhgia_bacham](images/fin_Kho_Tinhgia_bacham.png)
 
 - Tích chọn các vật tư hàng hoá cần tính lại giá xuất kho, nhấn **Đồng ý**
+
+Sau khi lưu thành công, hệ thống tự động tính lại đơn giá xuất kho cho các mặt hàng đã chọn. Đơn giá này sẽ được dùng cho các phiếu nhập,xuất sau thời điểm tính giá

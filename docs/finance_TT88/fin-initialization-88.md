@@ -16,6 +16,16 @@ Khai báo dữ liệu về Công ty với đầy đủ thông tin về Tên, Đ�
 
 ![](images/fin_ThietLap_CongTy.png)
 
+Việc khai báo thông tin Công ty được tiến hành khi User được kích hoạt. Trong quá trình sử dụng: Người dùng có thể cập nhật/quản lý thông tin Công ty bằng 2 cách vào chức năng
+
+**Cách 1:** Từ Thông tin User (Góc phải màn hình): Nhấn chuột ==> Chọn Thông tin Công ty
+
+![](images/fin_DM_CongTy_C1.png)
+
+**Cách 2**: Vào **Danh mục**: Chọn **Công ty** và Nhấn Chi tiết
+
+![](images/fin_DM_CongTy_C2.png)
+
 ### **Khai báo danh mục**
 
 Hiển thị các danh mục cơ bản để người dùng có thể khai báo thông tin trước khi bắt đầu thực hiện nghiệp vụ kế toán
@@ -24,11 +34,15 @@ Việc khai báo này có thể thực hiện tại bất kỳ thời điểm n�
 
 Để phục vụ cho việc cập nhập số dư ban đầu của dữ liệu kế toán, Người dùng nên khai báo trước một số một số Danh mục về Đối tượng, Nhân viên, Hàng hóa, Nhà cung cấp... tại Module **Danh mục**
 
-![](images/fin_ThietLap_DanhMuc.png)
+(Việc sử dụng khai báo/quản lý các Danh mục xem thêm thông tin hướng dẫn tại phần **Danh mục**)
+
+![](images/fin_ThietLap_DanhMuc_Moi.png)
 
 ### **Cấu hình kế toán**
 
-Lựa chọn Đồng tiền hạch toán áp dụng cho Doanh nghiệp; Kỳ kế toán;  phương pháp thuế GTGT
+Lựa chọn Đồng tiền hạch toán áp dụng cho Doanh nghiệp; Kỳ kế toán;  phương pháp thuế GTGT; Các thông tin này đều được thiết lập mặc định
+
+![](images/fin_ThietLap_Cauhinh_Moi.png)
 
 Hiển thị lại Chế độ kế toán đã chọn và khai báo bổ sung thêm thông tin mặc định áp dụng cho phần hành kế toán liên quan đến thuế
 
@@ -44,27 +58,19 @@ Hiển thị lại Chế độ kế toán đã chọn và khai báo bổ sung th
 
 Hiển thị thông tin Hệ thống tài khoản theo Thông tư đã lựa chọn, có thể Chỉnh sửa, thay đổi để phù hợp với chế độ kế toán tại Doanh nghiệp
 
-![](images/fin_ThietLap_TaiKhoan.png)
+(Hướng dẫn chi tiết phần Quản lý/Khai báo thông tin Tài khoản xem tại hướng dẫn sử dụng của **Danh mục/Hệ thống tài khoản**)
 
-### Khai báo tồn hàng đầu kỳ
+![](images/fin_ThietLap_TaiKhoan_Moi.png)
 
-Sau khi tạo mới được hàng hóa vật tư, người dùng có thể khai báo số lượng mặt hàng tồn đầu kỳ hiện có ngoài thực tế
+### Khai báo số dư ban đầu
 
-**Bước 1:** Vào danh mục hàng hóa vật tư, thực hiện tìm kiếm hàng hóa cần khai báo đầu kỳ
+Để bắt đầu sử dụng các phần hành trong hệ thống: Ngoài các danh mục cần khai báo bổ sung; Người dùng thực hiện khai báo thông tin Số dư đầu kỳ cho các tài khoản tiền mặt; tiền ngân hàng; công nợ của các đối tượng (nếu có) và Tồn đầu kỳ của vật tư hàng hóa
 
-![](images/fin_danhmuc_hh_timkiem.png)
+(Hướng dẫn chi tiết phần Quản lý/Khai báo thông tin Số dư đầu kỳ xem tại hướng dẫn sử dụng của **Tổng hợp/Khai báo số dư ban đầu**)
 
-**Bước 2:** Xem chi tiết hàng hóa
+![](images/fin_ThietLap_SoDuBanDau_Moi.png)
 
-![](images/fin_danhmuc_hh_capnhat.png)
 
-Nhấn nút **cập nhật số lượng**, cửa sổ "Cập nhật số lượng" được hiển thị. Nhấn nút **tạo** mới
-
-![](images/fin_danhmuc_hh_cn_tao.png)
-
-Người dùng thực hiện chọn **kho**, nhập **số lượng thực tế** cho khớp với số liệu còn tồn ngoài thực tế, nhấn Lưu
-
-![](images/fin_danhmuc_hh_cn_luu.png)
 
 ## Liên kết nhanh
 

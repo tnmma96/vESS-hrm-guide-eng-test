@@ -370,6 +370,7 @@ Người dùng thực hiện ghi nhận và theo dõi việc thanh toán của h
     src="https://www.youtube.com/embed/TrXM22x4pnc?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
 
+
 ### Hướng dẫn trên phần mềm
 
 Đối tượng thực hiện: Người bán hàng

@@ -1,22 +1,16 @@
 # Quy trình nghiệp vụ
 
-Kế toán được sử dụng để  :
+Phân hệ **Ngân quỹ** quản lý tình hình thu/chi tiền gửi ngân hàng của doanh nghiệp, giúp kế toán hạn chế ghi nhận sai và chi âm tiền. Hỗ trợ kiểm soát những hóa đơn bán hàng/ hóa đơn mua hàng chưa thanh toán hoặc đã thanh toán một phần
 
-- Quản lý tình hình thu, chi, tồn tiền gửi ngân hàng
-- Hỗ trợ phiếu in theo mẫu TT88
-- Lên các báo cáo sổ quỹ tiền ngân hàng, báo cáo kế toán
+**Quy trình**
 
-Quy trình nghiệp vụ
-
-![NH_2217](images/NH_2217.PNG)
+![fin_NGANQUY_TG_QT](images/fin_NGANQUY_TG_QT.png)
 
 **Các luồng quy trình**
 
-·     Lập chứng từ Thu tiền gửi. Chi tiết nghiệp vụ **[Thu tiền gửi](#thu-tien-gui)**
+·     Lập chứng từ Thu tiền mặt. Chi tiết nghiệp vụ **[Thu tiền gửi](#thu-tien-gui)**
 
-·     Lập chứng từ Chi tiền gửi. Chi tiết nghiệp vụ **[Chi tiền gửi](#chi-tien-gui)**
-
-·     Thanh toán cho nhà cung cấp. Chi tiết nghiệp vụ **[Thanh toán cho nhà cung cấp](#thanh-toan-cho-nha-cung-cap)**
+·     Lập chứng từ Chi tiền mặt. Chi tiết nghiệp vụ **[Chi tiền gửi](#chi-tien-gửi)**
 
 ·     Thanh toán lương cho nhân viên. Chi tiết nghiệp vụ **[Thanh toán lương cho nhân viên](#thanh-toan-luong-cho-nhan-vien)**
 
@@ -31,7 +25,7 @@ Quy trình nghiệp vụ
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Module Ngân quỹ - Thu tiền gửi" 
-    src="https://www.youtube.com/embed/XkxqxxZPms8"
+    src="https://www.youtube.com/embed/9NjvG1j-Qio?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
 
 
@@ -39,61 +33,50 @@ Quy trình nghiệp vụ
 
 #### Mô tả nghiệp vụ
 
-Cho phép nhập số tiền thu được từ khách hàng sau quá trình mua bán hàng hóa
+Khi phát sinh các nghiệp vụ thu tiền gửi từ những nguồn thu ngoài các luồng nghiệp vụ đang có như Thu tiền khách hàng bằng tiền gửi, Thu lãi tiền gửi về ngân hàng,....và các nghiệp vụ thu tiền gửi khác người dùng sử dụng tính năng Thu tiền gửi để nhập dữ liệu
 
 #### Hướng dẫn trên phần mềm
 
-**Bước 1:** Vào phân hệ **Ngân quỹ**, Chọn **Tiền gửi**,Chọn **Thu tiền gửi**
+**Bước 1:** Vào phân hệ **Ngân quỹ**, Chọn **Tiền gửi**, Chọn **Thu tiền gửi** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
-![](images/fin_Tiengui88_thutiengui.png)
+![fin_NGANQUY_TG_TAO](images/fin_NGANQUY_TG_TAO.png)
 
-Nhấn **Tạo** để thêm mới phiếu thu
+**Bước 2:** Khai báo các thông tin Tab chung của phiếu **Thu tiền gửi**
 
-![NH_2201](images/NH_2201.png)
+- Tại mục **Sổ nhật ký** : Chọn Tiền ngân hàng
+- Chọn và nhập các thông tin về: Đối tượng, Người nộp tiền, Nhân viên thu, Chứng từ kèm theo và Nội dung giao dịch (Nếu có)
 
-**Bước 2:** Khai báo các thông tin của **Thu tiền gửi**
+![fin_NGANQUY_TG_Phieuthu_Tabchung](images/fin_NGANQUY_TG_Phieuthu_Tabchung.png)
 
-![](images/fin_Tiengui88_thutiengui_tao.png)
+**Bước 3:** Tại Tab **Chi tiết** của phiếu **Thu tiền gửi** nhấn **Thêm một dòng**
 
-- Tại mục **Lý do thu** (Tab chung) : Chọn Lý do thu phù hợp với mục đích thu tiền
+- **Lý do**: Chọn Lý do thu tiền gửi
+- **Số tiền**: Nhập số tiền thu được theo từng lý do thu
+- Chọn và nhập các thông tin về Khoản mục phí, Công trình, Ngày đến hạn, Hợp đồng mua, Hợp đồng bán, Nội dung chi tiết (Nếu có)
 
-  ![](images/fin_Tiengui88_thutiengui_lydothu.png)
+![fin_NGANQUY_TG_Phieuthu_Tabchitiet](images/fin_NGANQUY_TG_Phieuthu_Tabchitiet.png)
 
-- Tại mục **Sổ nhật ký** (Tab chung): Chọn **Tiền ngân hàng**
+**Bước 4:** Nhấn **Lưu**
 
-- Tại mục **Tổng tiền nguyên tệ** (Tab chung): Nhập số tiền dư đầu kỳ
+![fin_NGANQUY_TG_Phieuthu_Luu](images/fin_NGANQUY_TG_Phieuthu_Luu.png)
 
-**Bước 3:** Nhấn **Lưu**
+Sau khi Lưu lại thông tin: Hệ thống tự động hiển thị thông tin bút toán với số tiền tương ứng đã nhập bên Tab **Hạch toán**
 
-![NH_2203](images/NH_2203.png)
+![fin_NGANQUY_TG_Phieuthu_TabHachtoan](images/fin_NGANQUY_TG_Phieuthu_TabHachtoan.png)
 
-Nhấn **Xác nhận**
+Để sửa lại dữ liệu: Người dùng nhấn nút **Sửa**
 
-![NH_2204](images/NH_2204.png)
+**Bước 4:** Nhấn **Xác nhận**: Sau khi dữ liệu đã nhập đúng và đủ. Hệ thống đưa các bút toán vào sổ và chuyển trạng thái chứng từ thành **Đã vào sổ**
 
+Để sửa lại thông tin đã nhập Người dùng phải nhấn nút **Đưa về dự thảo** 
 
-
-**Lưu ý:**
-
--  Muốn chuyển trạng thái từ Hoàn thành về Nháp thì Nhấn **Hủy xác nhận**
-
-![NH_2205](images/NH_2205.png)
-
-- Trường hợp có nhu cầu theo dõi chi phí chi tiết theo Khoản mục chi phí, Công trình, Đơn hàng, Hợp đồng...
-
-  ![](images/fin_Tiengui88_chitiengui_themcot.png)
-
-  - Nhấn thêm cột dữ liệu ở Tab **Bút toán**
-
-  ![](images/fin_Tiengui88_chitiengui_themcot_chon.png)
-
-  - Chọn thông tin **Khoản mục chi phí**, **Công trình**, **Đơn hàng**, **Hợp đồng**... muốn theo dõi chi tiết
+![fin_NGANQUY_TG_Phieuthu_Davaoso](images/fin_NGANQUY_TG_Phieuthu_Davaoso.png)
 
 ### Thu tiền từ khách hàng
 
 #### Mô tả nghiệp vụ
 
-Khi khách hàng mang tiền mặt đến trả nợ hoặc cá nhân thu tiền khách hàng bằng tiền ngân hàng , cá nhân kinh doanh thực hiện  lập Phiếu thu để lưu trữ,  đồng thời ghi sổ quỹ.
+Với những giao dịch khách hàng thanh toán bằng tiền mặt cho các đơn hàng, người dùng thực hiện nghiệp vụ thu tiền từ khách hàng và nhập vào hệ thống để ghi nhận thông tin.
 
 #### *Xem video hướng dẫn*
 
@@ -103,8 +86,8 @@ Khi khách hàng mang tiền mặt đến trả nợ hoặc cá nhân thu tiền
     frameborder="0"
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
-    title="Module Ngân quỹ - Thu tiền khách hàng bằng tiền gửi" 
-    src="https://www.youtube.com/embed/N58oFjuNbcM"
+    title="Module Ngân quỹ - Thu tiền từ khách hàng bằng tiền mặt" 
+    src="https://www.youtube.com/embed/4XInLxXfr6s?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
 
 
@@ -112,29 +95,48 @@ Khi khách hàng mang tiền mặt đến trả nợ hoặc cá nhân thu tiền
 
 **Bước 1:** Vào phân hệ **Ngân quỹ**, Chọn **Tiền gửi**, Chọn **Thu tiền từ khách hàng** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
-![](images/fin_Tiengui88_thutienKH.png)
+![fin_NGANQUY_TG_ThutientuKH_Danhsach](images/fin_NGANQUY_TG_ThutientuKH_Danhsach.png)
 
-![TT88_PT01](images/TT88_PT01.PNG)
+- Tích chọn chứng từ khách hàng thanh toán tiền nợ
+- Nhấn **Ghi nhận thanh toán**
 
-Tích chọn chứng từ khách hàng thanh toán tiền nợ, nhấn **Ghi nhận thanh toán**
+![fin_NGANQUY_TG_ThutientuKH_GhinhanTT01](images/fin_NGANQUY_TG_ThutientuKH_GhinhanTT01.png)
 
-![TT88_PT02](images/TT88_PT02.PNG)
+**Bước 2:** Nhập các thông tin trên màn hình Ghi nhận thanh toán
 
-Bước 2: Tại mục Sổ nhật ký: Chọn **Tiền ngân hàng**
+- Tại mục Sổ nhật ký: Chọn **Tiền gửi**
 
-Trường hợp số tiền khách hàng thanh toán nhỏ hơn số nợ thực tế trên chứng từ, cần nhập lại số tiền khách hàng trả nợ vào cột **Số trả**. 
+- Với thông tin Số tiền:
 
-![](images/fin_Tiengui88_ghinhanthanhtoan.png)
+  Nếu Khách hàng trả toàn bộ số tiền theo Hóa đơn: Giữ nguyên thông tin **Số trả**
 
+  ![fin_NGANQUY_TG_ThutientuKH_GhinhanTT02](images/fin_NGANQUY_TG_ThutientuKH_GhinhanTT02.png)
 
+  Nếu Khách hàng chưa trả đủ số tiền theo Hóa đơn: Thực hiện Sửa thông tin Số trả theo giá trị tiền thực tế. Với Số tiền còn lại có 2 lựa chọn
 
-Nhấn **Tạo Thanh toán** để tạo Phiếu thu tiền gửi. Một phiếu thu được tự động tạo ra và hạch toán
+  - **Giữ vẫn mở**: Khi đó hệ thống Ghi nhận theo đúng giá trị đã trả trong đợt đầu, và đánh dấu chưa thanh toán đủ
+  - **Đánh dấu đã trả đủ**: Hệ thống ghi nhận theo giá trị **Số trả** và đánh dấu đã thanh toán đủ cho Hóa đơn
 
-Để kiểm tra phiếu thu, thực hiện vào chức năng **Ngân quỹ/Tiền gửi/Thu tiền gửi**, Kiểm tra và khai báo bổ sung các thông tin của **Thu tiền gửi** vừa được tạo
+  ![fin_NGANQUY_TG_ThutientuKH_GhinhanTT03](images/fin_NGANQUY_TG_ThutientuKH_GhinhanTT03.png)
+  
+  **Lưu ý**: Khi Đánh dấu đã trả đủ thực hiện nhập tài khoản để ghi nhận số tiền còn lại của hóa đơn tại trường **Vào sổ giá trị chệnh lệch vào**
+  
+  ![fin_NGANQUY_TG_ThutientuKH_GhinhanTT04](images/fin_NGANQUY_TG_ThutientuKH_GhinhanTT04.png)
 
-![](images/fin_Tiengui88_thutienkhachhang_thutiengui.png)
+**Bước 3**: Nhấn **Tạo Thanh toán** để tạo Phiếu thu tiền gửi
 
-## Chi tiền gửi
+![fin_NGANQUY_TG_ThutientuKH_GhinhanTT05](images/fin_NGANQUY_TG_ThutientuKH_GhinhanTT05.png)
+
+- Thông tin Phiếu thu tiền gửi được tạo với các thông tin đã chọn trên phần Ghi nhận thanh toán
+- Hệ thống tự động hạch toán và lên bút toán 
+
+![fin_NGANQUY_TG_ThutientuKH_SinhBC](images/fin_NGANQUY_TG_ThutientuKH_SinhBC.png)
+
+- Hệ thống Ghi nhận Thanh toán 1 phần cho các Hóa đơn chưa thanh toán đủ
+
+![fin_NganQuy_TM_ThutienKH_TinhtrangTT](images/fin_NganQuy_TM_ThutienKH_TinhtrangTT.png)
+
+## Chi tiền mặt
 
 ### *Xem video hướng dẫn*
 
@@ -144,102 +146,171 @@ Nhấn **Tạo Thanh toán** để tạo Phiếu thu tiền gửi. Một ph
     frameborder="0"
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
-    title="Module Ngân quỹ - Chi tiền gửi" 
-    src="https://www.youtube.com/embed/DhfKqIjUMzI"
+    title="Module Ngân quỹ - Chi tiền mặt" 
+    src="https://www.youtube.com/embed/MV97BC-bLUE?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
+
 
 ### Thanh toán tiền điện nước, tiền internet, tiền thuê mặt bằng..
 
 #### Mô tả nghiệp vụ
 
-Hộ kinh doanh thực hiện tạo Phiếu chi tiền ngân hàng cho các dịch vụ phát sinh hàng tháng như : Điện, nước,internet. mặt bằng,......
+Kế toán thực hiện tạo Phiếu chi tiền mặt cho các dịch vụ phát sinh hàng tháng như : Điện, nước,internet. mặt bằng,......
 
 #### Hướng dẫn trên phần mềm
 
-**Bước 1:** Vào phân hệ **Ngân quỹ**, Chọn **Tiền gửi**, Chọn **Chi tiền gửi** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+**Bước 1:** Vào phân hệ **Ngân quỹ**, Chọn **Tiền gửi**, Chọn **Chi tiền gửi** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
 
-![](images/fin_Tiengui88_chitiengui.png)
+![fin_NGANQUY_TG_Phieuchi_Tạo](images/fin_NGANQUY_TG_Phieuchi_Tạo.png)
 
-Nhấn **Tạo** để thêm mới phiếu chi tiền
+**Bước 2:** Khai báo các thông tin tab chung của **Chi tiền gửi**
 
-![NH_2206](images/NH_2206.png)
+- Tại mục **Sổ nhật ký**: Tiền Ngân hàng
 
-**Bước 2:** Khai báo các thông tin của **Chi tiền gửi**
+- Tại mục **Đối tượng**: Chọn Khách hàng/Nhà cung cấp.
+- Tại mục **Tài khoản ngân hàng đối tượng** : Chọn tài khoản nhận tiền (Nếu có)
+- Tại mục **Người nhận**: Nhập người nhận tiền (Nếu có)
 
-- Tại mục **Lý do chi**: Thực hiện chọn Lý do chi như **Chi tiền điện bằng ngân hàng**, **Chi tiền mua văn phòng phẩm**,.... (nhấn **Tìm kiếm thêm** để tìm thêm Lý do chi tiền)
+![fin_NGANQUY_TG_Phieuchi_Tabchung](images/fin_NGANQUY_TG_Phieuchi_Tabchung.png)
 
-- Tại **Tổng tiền nguyên tệ**: Nhập số tiền cần thanh toán
+**Bước 2:** Tại tab **Chi tiết** nhấn **Thêm một dòng** và khai báo
 
-![NH_2207](images/NH_2207.png)
+- **Lý do**: Chọn Lý do chi tiền (VD: Chi tiền mua văn phòng phẩm, Chi phí điện bằng tiền gửi ngân hàng, Chi tiền mặt khác........)
+- **Số tiền**: Nhập số tiền chi cho từng lý do chi
+- Nhập Nội dung chi tiết, Công trình, Hợp đồng mua, Hợp đồng bán (Nếu có)
 
-**Bước 3:** Nhấn **Lưu** để ghi lại thông tin đã nhập
+![fin_NGANQUY_TG_Phieuchi_Tabchitiet](images/fin_NGANQUY_TG_Phieuchi_Tabchitiet.png)
 
-![NH_2208](images/NH_2208.png)
+**Bước 3:** Nhấn **Lưu**
 
-Nhấn **Xác nhận** để hoàn thành phiếu và thực hiện ghi bút toán lên sổ
+![fin_NGANQUY_TG_Phieuchi_Luu](images/fin_NGANQUY_TG_Phieuchi_Luu.png)
 
-![](images/fin_Tiengui88_chitiengui_xacnhan1.png)
+**Bước 4:** Sau khi kiểm tra thông tin đã đầy đủ và chính xác , Nhấn **Xác nhận**: Khi đó thông tin bút toán được Hạch toán vào sổ
 
-![NH_2209](images/NH_2209.png)
+![fin_NGANQUY_TG_Phieuchi_Xacnhan](images/fin_NGANQUY_TG_Phieuchi_Xacnhan.png)
 
-Lưu ý:
+**Lưu ý:**
 
--  Muốn chuyển trạng thái từ Hoàn thành về Nháp thì Nhấn **Hủy xác nhận**
+-  Muốn chuyển trạng thái từ Hoàn thành về Nháp thì Nhấn **Đưa về dự thảo**
 
-![](images/fin_Tiengui88_chitiengui_huyxacnhan.png)
-
-- Trường hợp có nhu cầu theo dõi chi phí chi tiết theo Khoản mục chi phí, Công trình, Đơn hàng, Hợp đồng...
-
-  ![](images/fin_Tiengui88_chitiengui_themcot.png)
-
-  - Nhấn thêm cột dữ liệu ở Tab **Bút toán**
-
-  ![](images/fin_Tiengui88_chitiengui_themcot_chon.png)
-
-  - Chọn thông tin **Khoản mục chi phí**, **Công trình**, **Đơn hàng**, **Hợp đồng**... muốn theo dõi chi tiết
+![fin_NGANQUY_TG_Phieuchi_Duaveduthao](images/fin_NGANQUY_TG_Phieuchi_Duaveduthao.png)
 
 ### Thanh toán các chi phí: BHXH, BHYT, BH thất nghiệp
 
 #### Mô tả nghiệp vụ
 
-Căn cứ vào Bảng lương của nhân viên, chủ hộ kinh doanh sẽ lập yêu cầu chi tiền để kê khai nộp bảo hiểm
+Thực hiện chi trả các khoản liên quan đến Bảo hiểm xã hội, bảo hiểm y tế hoặc Chi trả thất nghiệp cho nhân viên
+
+#### *Xem video hướng dẫn*
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Nộp bảo hiểm bằng tiền gửi" 
+    src="https://www.youtube.com/embed/JfcE9taSKjE?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
+></iframe>
 
 #### Hướng dẫn trên phần mềm
 
-**Bước 1:** Vào phân hệ **Ngân quỹ**, Chọn **Tiền gửi**, Chọn **Chi tiền gửi** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống) 
+**Bước 1:** Vào phân hệ **Ngân quỹ**, Chọn **Tiền gửi**, Chọn **Nộp bảo hiểm** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
-![](images/fin_Tiengui88_chitiengui.png)
+Khai báo Tab chung
 
-Nhấn **Tạo** để thêm mới bản ghi
+- **Ngày nộp bảo hiểm**: Nhập ngày nộp bảo hiểm
+- **Sổ nhật ký**: Chọn Tiền ngân hàng
 
-![NH_2206](images/NH_2206.png)
+![fin_nganquy_TM_NopBH_TABCHUNG](images/fin_NGANQUY_TG_Phieuchi_NopBH_Tabchung.png)
 
-**Bước 2:** Khai báo các thông tin của **Chi tiền gửi**
+Khai báo Tab chi tiết
 
-- Tại mục **Lý do chi**: Chọn **Chi trả bảo hiểm xã hội** hoặc **Chi trả bảo hiểm y tế** hoặc **Chi trả bảo hiểm thất nghiệp**
-- Tại **Tổng tiền nguyên tệ**: Nhập số tiền cần thanh toán
+- **Số trả lần này**: Nhập số tiền sẽ chi trả bảo hiểm. 
 
-![NH_2213](images/NH_2213.png)
+![fin_nganquy_TM_NopBH_Tabchitiet](images/fin_NGANQUY_TG_Phieuchi_NopBH_Tabchitiet.png)
 
-**Bước 3:** Nhấn **Lưu**
+**Lưu ý**: Dữ liệu Tab chi tiết lấy tổng tiền dư Có - Dư nợ > 0 tính đến Ngày nộp bảo hiểm của tài khoản Phải trả bảo hiểm được tích chọn trong Danh mục Hệ thống tài khoản
 
-![NH_2214](images/NH_2214.png)
+Nhấn **Lưu**
 
-Nhấn **Xác nhận** để hoàn thành phiếu và thực hiện ghi bút toán lên sổ
+![fin_NGANQUY_TG_Phieuchi_NopBH_Luu](images/fin_NGANQUY_TG_Phieuchi_NopBH_Luu.png)
 
-![NH_2215](images/NH_2215.png)
+Nhấn **Ghi nhận thanh toán**
 
-Lưu ý: Muốn chuyển trạng thái từ Hoàn thành về Nháp thì Nhấn **Hủy xác nhận**
+![fin_NGANQUY_TG_Phieuchi_NopBH_GhinhanTT](images/fin_NGANQUY_TG_Phieuchi_NopBH_GhinhanTT.png)
 
-![](images/fin_Tiengui88_chitiengui_huyxacnhan.png)
+**Bước 2**: Sau khi Ghi nhận thanh toán hệ thống sinh bản ghi sang phiếu chi tiền gửi
 
-## Thanh toán cho nhà cung cấp
+- **Lý do**: Chi phí bảo hiểm xã hội trích theo lương
+- **Trạng thái**: Dự thảo
 
-### Mô tả nghiệp vụ
+![fin_NGANQUY_TG_Phieuchi_NopBH_SinhPC](images/fin_NGANQUY_TG_Phieuchi_NopBH_SinhPC.png)
 
-Sau khi hoàn thành hóa đơn mua hàng từ nhà cung cấp, một phiếu chi ghi nhận thanh toán sẽ được tự động tạo ra. Chủ hộ kinh doanh thực hiện ghi nhận thanh toán cho nhà cung cấp,  yêu cầu người nhận tiền ký vào và đồng thời ghi sổ quỹ
+Nhấn **Xác nhận** để ghi nhận vào sổ chứng từ nộp bảo hiểm
 
-### *Xem video hướng dẫn*
+![fin_NGANQUY_TG_Phieuchi_NopBH_SinhPC01](images/fin_NGANQUY_TG_Phieuchi_NopBH_SinhPC01.png)
+
+Lưu ý: Muốn chuyển trạng thái từ Hoàn thành về Nháp thì Nhấn **Đưa về dự thảo**
+
+### Thanh toán Nộp thuế
+
+#### Mô tả nghiệp vụ
+
+#### *Xem video hướng dẫn*
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Nộp thuế bằng tiền gửi" 
+    src="https://www.youtube.com/embed/kqLPhKmvMKU?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
+></iframe>
+
+#### Hướng dẫn trên phần mềm
+
+**Bước 1**: Vào phân hệ **Ngân quỹ**, Chọn **Tiền gửi**, Chọn **Nộp thuế** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+
+Khai báo tab chung
+
+- **Sổ nhật ký**: Chọn Tiền mặt
+- **Ngày nộp thuế**: Nhập ngày nộp thuế
+
+![fin_NGANQUY_TG_Nopthue_Tabchung](images/fin_NGANQUY_TG_Nopthue_Tabchung.png)
+
+Khai báo tab chi tiết
+
+- Số trả lần này: Nhập số tiền trả cho lần thanh toán
+
+![fin_NGANQUY_TG_Nopthue_Tabchitiet](images/fin_NGANQUY_TG_Nopthue_Tabchitiet.png)
+
+**Lưu ý**: Dữ liệu Tab chi tiết lấy tổng tiền dư Có - Dư nợ > 0 tính đến Ngày nộp bảo hiểm của tài khoản Phải trả thuế được tích chọn trong Danh mục Hệ thống tài khoản
+
+Nhấn **Lưu**
+
+![fin_NGANQUY_TG_Nopthue_Luu](images/fin_NGANQUY_TG_Nopthue_Luu.png)
+
+**Bước 2**: Nhấn **Ghi nhận thanh toán**
+
+![fin_NGANQUY_TG_Nopthue_GhinhanTT](images/fin_NGANQUY_TG_Nopthue_GhinhanTT.png)
+
+Sinh bản ghi Phiếu chi tiền mặt với trạng thái **Dự thảo**
+
+![fin_NGANQUY_TG_Nopthue_SinhPC](images/fin_NGANQUY_TG_Nopthue_SinhPC.png)
+
+Nhấn **Xác nhận** để ghi sổ bút toán nộp thuế
+
+![fin_NGANQUY_TG_Nopthue_SinhPC01](images/fin_NGANQUY_TG_Nopthue_SinhPC01.png)
+
+### Thanh toán cho nhà cung cấp
+
+#### Mô tả nghiệp vụ
+
+Với những giao dịch chi trả đơn hàng cho nhà cung cấp bằng tiền gửi, người dùng thực hiện nghiệp vụ Chi trả tiền cho nhà cung cấp và nhập vào hệ thống để ghi nhận thông tin
+
+#### *Xem video hướng dẫn*
 
 <iframe
     width="920"
@@ -248,33 +319,38 @@ Sau khi hoàn thành hóa đơn mua hàng từ nhà cung cấp, một phiếu ch
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Module Ngân quỹ - Thanh toán cho nhà cung cấp bằng tiền gửi" 
-    src="https://www.youtube.com/embed/IKuUk5UwFwc"
+    src="https://www.youtube.com/embed/1Rstba7zriI?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
 
-
-### Hướng dẫn trên phần mềm
+#### Hướng dẫn trên phần mềm
 
 **Bước 1:** Tại phân hệ **Ngân quỹ**, Chọn **Tiền gửi**, Chọn **Thanh toán cho nhà cung cấp** (Hoặc thực hiện tìm kiếm trức tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
-![](images/fin_Tiengui88_TTNCC.png)
+![fin_NGANQUY_TG_ThanhtoanNCC_Danhsach](images/fin_NGANQUY_TG_ThanhtoanNCC_Danhsach.png)
 
-![TT88_PC01](images/TT88_PC01.PNG)
+**Bước 2:** Tích chọn chứng từ khách hàng thanh toán tiền nợ: Nhấn **Ghi nhận thanh toán**
 
-**Bước 2:** Tích chọn chứng từ khách hàng thanh toán tiền nợ, nhấn **Ghi nhận thanh toán**
+![fin_NGANQUY_TG_ThanhtoanNCC_GhinhanTT](images/fin_NGANQUY_TG_ThanhtoanNCC_GhinhanTT.png)
 
-![TT88_PC02](images/TT88_PC02.PNG)
+**Bước 3:** Trên thông tin Ghi nhận thanh toán Chọn/Nhập một số thông tin:
 
-Tại mục Sổ nhật ký: Chọn **Tiền ngân hàng**
+- Tại mục Sổ nhật ký: Chọn **Tiền gửi**
 
-Trường hợp số tiền khách hàng thanh toán nhỏ hơn số nợ thực tế trên chứng từ, cần nhập lại số tiền khách hàng trả nợ vào cột **Số trả**. 
+- Thực hiện chi trả số tiền đủ theo Hóa đơn hoặc chỉ chi trả một phần: Người dùng điều chỉnh thông tin tiền tại cột **'Số trả'**
 
-![](images/fin_Tiengui88_TTNCC_TaoTT.png)
+![fin_NGANQUY_TG_ThanhtoanNCC_GhinhanTT01](images/fin_NGANQUY_TG_ThanhtoanNCC_GhinhanTT01.png)
 
-Nhấn **Tạo Thanh toán** để tạo Phiếu chi tiền ngân hàng. Một phiếu chi được tự động tạo ra và hạch toán luôn
+**Bước 4:** Nhấn **Tạo Thanh toán** 
 
-Để kiểm tra phiếu chi, thực hiện vào chức năng **Ngân quỹ/Tiền gửi/Chi tiền gửi**, Kiểm tra và khai báo bổ sung các thông tin của **Chi tiền gửi** vừa được tạo
+![fin_NGANQUY_TG_ThanhtoanNCC_GhinhanTT02](images/fin_NGANQUY_TG_ThanhtoanNCC_GhinhanTT02.png)
 
-![](images/fin_Tiengui88_TTNCC_CTG.png)
+Hệ thống tạo phiếu chi tiền mặt với trạng thái **Đã vào sổ**
+
+![fin_NGANQUY_TG_ThanhtoanNCC_SinhPT](images/fin_NGANQUY_TG_ThanhtoanNCC_SinhPT.png)
+
+- Nếu hóa đơn chưa được chi đủ thì cập nhật **Tình trạng thanh toán** là Đã trả 1 phần
+
+- Nếu hóa đơn đã chi đủ hoặc được đánh dấu chi đủ thì cập nhật **Tình trạng thanh toán** là Đã thanh toán
 
 ## *Thanh toán lương cho nhân viên*
 
@@ -286,9 +362,18 @@ Hàng tháng, sau khi Doanh nghiệp chốt thông tin lương sẽ thực hiệ
 
 Việc thanh toán được thực hiện thanh toán theo **Tiền mặt** hoặc **Tiền gửi**
 
-**Xem video hướng dẫn**
+### **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module Ngân quỹ - Thanh toán lương cho nhân viên" 
+    src="https://www.youtube.com/embed/ztlQnKkVOgg?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
+></iframe>
+
 
 
 ### **Hướng dẫn trên phần mềm**

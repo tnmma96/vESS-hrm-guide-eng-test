@@ -23,12 +23,6 @@ Quy trình nghiệp vụ
 
 Giúp thiết lập các thông tin như thông tin đại lý thuế để in lên báo cáo thuế trong trường hợp đơn vị thuê đại lý thuế kê khai thuế; thông tin đơn vị cung cấp dịch vụ kế toán để in lên báo cáo tài chính trong trường hợp đơn vị thuê đơn vị cung cấp dịch vụ kế toán lập báo cáo tài chính; thông tin cơ quan thuế phục vụ cho việc in báo cáo thuế từ phần mềm và nộp cho cơ quan thuế qua phần mềm HTKK.
 
-### Xem video hướng dẫn
-
-
-
-
-
 ### Hướng dẫn trên phần mềm
 
 Bước 1: Vào phân hệ **Thuế**, Chọn **Danh mục**, Chọn **Thiết lập cơ quan thuế, đại lý thuế** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn **Tạo**
@@ -56,8 +50,17 @@ Bước 3: Nhấn **Lưu**
 
 Tờ khai cá nhân kinh doanh là văn bản theo mẫu do Bộ tài chính quy định được người nộp thuế sử dụng để kê khai các thông tin nhằm xác định số thuế phải nộp.Tờ khai thuế đối với cá nhân kinh doanh được sử dụng theo **Mẫu 01/CNKD** ban hành kèm theo[ Thông tư 40/2021/TT-BTC](https://download.vn/thong-tu-40-2021-tt-btc-50840) của Bộ Tài chính hướng dẫn về thuế GTGT, thuế TNCN và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh.
 
-### Xem video hướng dẫn
+**Xem video hướng dẫn**
 
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture"
+    allowfullscreen
+    title="Tờ khai thuế" 
+    src="https://www.youtube.com/embed/G0wvz3WLY2s?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
+></iframe>
 
 
 ### Hướng dẫn trên phần mềm
@@ -340,6 +343,24 @@ Cách 2: Nhấn nút **Lấy lại dữ liệu** để hệ thống tự động
 17. Chỉ tiêu [29]: Chi phí quản lý (chi phí văn phòng phẩm, công cụ, dụng cụ,...): Nhập số tiền phát sinh trong kỳ
 18. Chỉ tiêu [30]: Chi phí khác (hội nghị, công tác phí, thanh lý, nhượng bán tài sản cố định, thuê ngoài khác, ...): Nhập số tiền phát sinh trong kỳ
 19. Chỉ tiêu [31]: Tổng cộng: =[24]+[25]+[26]+[27]+[28]+[29]+[30]
+
+Nhấn **Lưu** sau khi đã kê khai xong
+
+![](images/fin_thue88_Luu.png)
+
+#### Phụ lục PL 43/2022/QH15
+
+Phụ lục theo *Nghị quyết số* *43/2022/QH15* quy định giảm thuế giá trị gia tăng đối với các nhóm hàng hóa, dịch vụ đang áp dụng mức thuế suất 10%
+
+Để thêm mới phụ lục thì người sử dụng có thể chọn chức năng **Thêm phụ lục** và chọn phụ lục 43/2022/QH15
+
+![](images/fin_thue_themphuluc.png)
+
+Sau khi thêm được phụ lục, nhấn vào tab phụ lục 43/2022/QH15 và thực hiện nhập thông tin bằng cách nhấn **Thêm một dòng** để thực hiện nhập tay các thông tin cần kê khai
+
+![](images/fin_thue_PL43.png)
+
+Nhập các thông tin mặt hàng giảm thuế: Nhóm ngành nghề, tên hàng hóa, giá trị hàng hóa dịch vụ chưa có thuế, hệ thống sẽ hiển thị thuế suất theo quy định, thuế suất sau giảm và tính thuế GTGT được phép giảm
 
 Nhấn **Lưu** sau khi đã kê khai xong
 

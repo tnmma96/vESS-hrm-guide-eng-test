@@ -4,6 +4,8 @@ Sau khi nhập chứng từ phát sinh, người dùng có thể xem đư�
 
 Danh sách báo cáo gồm có:
 
+Báo cáo theo thông tư 88:
+
 - Sổ chi tiết doanh thu bán hàng hóa, dịch vụ  (S1-HKD)
 - Sổ chi tiết vật liệu, dụng cụ, sản phẩm, hàng hóa (S2-HKD)
 - Sổ chi phí sản xuất kinh doanh (S3-HKD)
@@ -11,10 +13,23 @@ Danh sách báo cáo gồm có:
 - Sổ theo dõi tình hình TT tiền lương và các khoản phải nộp theo lương của NLĐ  (S5-HKD)
 - Sổ tiền mặt  (S6-HKD)
 - Sổ tiền gửi  (S7-HKD)
+- Bảng thanh toán tiền lương và các khoản thu nhập của người lao động
+
+Báo cáo quản trị:
+
+- Tổng hợp tồn kho 
 - Sổ nhật ký mua hàng
-- Sổ chi tiết theo tài khoản
-- Sổ chi tiết phát sinh tài khoản
+- Sổ theo dõi nợ phải thu - Tổng hợp
+- Sổ theo dõi nợ phải thu - Chi tiết
+- Tổng hợp bán hàng theo mặt hàng
 - Sổ nhật ký chung
+- Sổ chi tiết theo tài khoản
+- Sổ theo dõi nợ phải trả - Tổng hợp
+- Sổ theo dõi nợ phải trả - Chi tiết
+- Sổ chi tiết phát sinh tài khoản
+- Tổng hợp tồn kho theo nhiều đơn vị tính
+- Báo cáo kết quả hoạt động kinh doanh
+- Phụ lục giảm thuế GTGT theo nghị quyết số 43
 
 ## *Hướng dẫn xem báo cáo*
 
@@ -76,7 +91,7 @@ Sổ chi tiết doanh thu bán hàng và cung cấp dịch vụ là mẫu sổ �
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+*[Xem video hướng dẫn cách xem báo cáo]*
 
 ### Hướng dẫn trên phần mềm
 
@@ -98,7 +113,13 @@ Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo th�
 
 ![](images/fin_baocao_s1.png)
 
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
 
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống
 
 ## *Sổ chi tiết vật liệu, dụng cụ, sản phẩm, hàng hóa (S2-HKD)*
 
@@ -110,7 +131,7 @@ Sổ chi tiết vật liệu, dụng cụ, sản phẩm, hàng hóa (S2-HKD) dù
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+*[Xem video hướng dẫn cách xem báo cáo]*
 
 ### Hướng dẫn trên phần mềm
 
@@ -132,6 +153,14 @@ Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo th�
 
 ![](images/fin_baocao_s2.png)
 
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
+
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống
+
 ## *Sổ chi phí sản xuất kinh doanh (S3-HKD)*
 
 ### Mô tả nghiệp vụ
@@ -142,7 +171,7 @@ Sổ chi phí sản xuất kinh doanh mở theo từng đối tượng tập h�
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+*[Xem video hướng dẫn cách xem báo cáo]*
 
 ### Hướng dẫn trên phần mềm
 
@@ -164,6 +193,14 @@ Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo th�
 
 ![](images/fin_baocao_s3.png)
 
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
+
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống
+
 ## *Sổ theo dõi tình hình thực hiện nghĩa vụ thuế với NSNN  (S4-HKD)*
 
 ### Mô tả nghiệp vụ
@@ -174,7 +211,7 @@ Sổ theo dõi tình hình thực hiện nghĩa vụ thuế với NSNN là mẫu
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+*[Xem video hướng dẫn cách xem báo cáo]*
 
 ### Hướng dẫn trên phần mềm
 
@@ -196,6 +233,14 @@ Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo th�
 
 ![](images/fin_baocao_s4.png)
 
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
+
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống
+
 ## *Sổ theo dõi tình hình TT tiền lương và các khoản phải nộp theo lương của NLĐ  (S5-HKD)*
 
 ### Mô tả nghiệp vụ
@@ -206,7 +251,7 @@ Sổ theo dõi tình hình TT tiền lương và các khoản phải nộp theo 
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+*[Xem video hướng dẫn cách xem báo cáo]*
 
 ### Hướng dẫn trên phần mềm
 
@@ -228,6 +273,14 @@ Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo th�
 
 ![](images/fin_baocao_s5.png)
 
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
+
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống
+
 ## *Sổ tiền mặt  (S6-HKD)*
 
 ### Mô tả nghiệp vụ
@@ -238,7 +291,7 @@ Sổ tiền mặt là mẫu sổ được sử dụng khá thường xuyên đ�
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+*[Xem video hướng dẫn cách xem báo cáo]*
 
 ### Hướng dẫn trên phần mềm
 
@@ -260,6 +313,14 @@ Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo th�
 
 ![](images/fin_baocao_s6.png)
 
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
+
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống
+
 ## *Sổ tiền gửi  (S7-HKD)*
 
 ### Mô tả nghiệp vụ
@@ -270,7 +331,7 @@ Sổ tiền gửi là mẫu sổ dùng để theo dõi chi tiết tiền Việt 
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+*[Xem video hướng dẫn cách xem báo cáo]*
 
 ### Hướng dẫn trên phần mềm
 
@@ -292,6 +353,96 @@ Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo th�
 
 ![](images/fin_baocao_s7.png)
 
+
+
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
+
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống
+
+## *Bảng thanh toán tiền lương và các khoản thu nhập của người lao động*
+
+### Mô tả nghiệp vụ
+
+**Nghiệp vụ**
+
+Bảng thanh toán tiền lương và các khoản thu nhập của người lao động là báo cáo hiển thị số tiền cần trả, phải trả tiền lương, phụ cấp, các khoản thanh toán cho bảo hiểm
+
+**Xem video hướng dẫn**
+
+*[Xem video hướng dẫn cách xem báo cáo]*
+
+### Hướng dẫn trên phần mềm
+
+**Bước 1:** Vào phân hệ **Báo cáo**
+
+![](images/fin_bao_cao.png)
+
+Hoặc chọn biểu tượng ![](images/fin_bacham.png) rồi chọn **Báo cáo**
+
+![](images/fin_baocao_1.png)
+
+**Bước 2**: Chọn báo cáo Bảng thanh toán tiền lương và các khoản thu nhập của người lao động
+
+![](images/fin_baocao_danhsach.png)
+
+**Bước 3**: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị, ....
+
+Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn
+
+![](images/fin_baocao_bangluong88.png)
+
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
+
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống
+
+## *Tổng hợp tồn kho*
+
+### Mô tả nghiệp vụ
+
+**Nghiệp vụ**
+
+Tổng hợp tồn kho là báo cáo kiểm soát số lượng hàng hóa vật tư còn tồn tại từng kho đơn vị đang có theo tháng
+
+**Xem video hướng dẫn**
+
+*[Xem video hướng dẫn cách xem báo cáo]*
+
+### Hướng dẫn trên phần mềm
+
+**Bước 1:** Vào phân hệ **Báo cáo**
+
+![](images/fin_bao_cao.png)
+
+Hoặc chọn biểu tượng ![](images/fin_bacham.png) rồi chọn **Báo cáo**
+
+![](images/fin_baocao_1.png)
+
+**Bước 2**: Chọn báo cáo Tổng hợp tồn kho TT88
+
+![](images/fin_baocao_danhsach.png)
+
+**Bước 3**: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị, kho....
+
+Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn
+
+![](images/fin_baocao_tonghoptonkho.png)
+
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
+
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống
+
 ## *Sổ nhật ký mua hàng*
 
 ### Mô tả nghiệp vụ
@@ -302,7 +453,7 @@ Sổ nhật ký mua hàng là một loại sổ Nhật ký đặc biệt dùng �
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+*[Xem video hướng dẫn cách xem báo cáo]*
 
 ### Hướng dẫn trên phần mềm
 
@@ -324,6 +475,174 @@ Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo th�
 
 ![](images/fin_baocao_s8.png)
 
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
+
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống
+
+## *Sổ theo dõi nợ phải thu - Tổng hợp*
+
+### Mô tả nghiệp vụ
+
+**Nghiệp vụ**
+
+Sổ theo dõi nợ phải thu là loại sổ kế toán được mở để theo dõi công nợ phải thu của khách hàng, hay nói cách khác là theo dõi các đối tượng chi tiết của tài khoản 131 - Phải thu của khách hàng
+
+**Xem video hướng dẫn**
+
+*[Xem video hướng dẫn cách xem báo cáo]*
+
+### Hướng dẫn trên phần mềm
+
+**Bước 1:** Vào phân hệ **Báo cáo**
+
+![](images/fin_bao_cao.png)
+
+Hoặc chọn biểu tượng ![](images/fin_bacham.png) rồi chọn **Báo cáo**
+
+![](images/fin_baocao_1.png)
+
+**Bước 2**: Chọn báo cáo Sổ theo dõi nợ phải thu - tổng hợp
+
+![](images/fin_baocao_danhsach.png)
+
+**Bước 3**: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị,tài khoản, tiền tệ ....
+
+Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn
+
+![](images/fin_baocao_sotheodoicongnophaithutonghop.png)
+
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
+
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống
+
+## *Sổ theo dõi nợ phải thu - Chi tiết*
+
+### Mô tả nghiệp vụ
+
+**Nghiệp vụ**
+
+Sổ theo dõi nợ phải thu là loại sổ kế toán được mở để theo dõi công nợ phải thu của khách hàng, hay nói cách khác là theo dõi các đối tượng chi tiết của tài khoản 131 - Phải thu của khách hàng
+
+**Xem video hướng dẫn**
+
+*[Xem video hướng dẫn cách xem báo cáo]*
+
+### Hướng dẫn trên phần mềm
+
+**Bước 1:** Vào phân hệ **Báo cáo**
+
+![](images/fin_bao_cao.png)
+
+Hoặc chọn biểu tượng ![](images/fin_bacham.png) rồi chọn **Báo cáo**
+
+![](images/fin_baocao_1.png)
+
+**Bước 2**: Chọn báo cáo Sổ theo dõi nợ phải thu - chi tiết
+
+![](images/fin_baocao_danhsach.png)
+
+**Bước 3**: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị,tài khoản, tiền tệ ....
+
+Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn
+
+![](images/fin_baocao_sotheodoicongnophaithuchitiet.png)
+
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
+
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống
+
+## *Tổng hợp bán hàng theo mặt hàng*
+
+### Mô tả nghiệp vụ
+
+**Nghiệp vụ**
+
+Báo cáo tổng hợp bán hàng theo mặt hàng có ý nghĩa giúp người quản lý biết được số lượng sản phẩm đã bán được trong khoảng thời gian tìm kiếm
+
+**Xem video hướng dẫn**
+
+*[Xem video hướng dẫn cách xem báo cáo]*
+
+### Hướng dẫn trên phần mềm
+
+**Bước 1:** Vào phân hệ **Báo cáo**
+
+![](images/fin_bao_cao.png)
+
+Hoặc chọn biểu tượng ![](images/fin_bacham.png) rồi chọn **Báo cáo**
+
+![](images/fin_baocao_1.png)
+
+**Bước 2**: Chọn báo cáo Tổng hợp bán hàng theo mặt hàng
+
+![](images/fin_baocao_danhsach.png)
+
+**Bước 3**: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị, ....
+
+Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn
+
+![](images/fin_baocao_tonghopbanhangtheomathang.png)
+
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
+
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống
+
+## *Sổ nhật ký chung*
+
+### Mô tả nghiệp vụ
+
+**Nghiệp vụ**
+
+Sổ nhật ký chung dùng để ghi chép các nghiệp vụ kinh tế, tài chính phát sinh theo trình tự thời gian đồng thời phản ánh quan hệ đối ứng tài khoản
+
+**Xem video hướng dẫn**
+
+*[Xem video hướng dẫn cách xem báo cáo]*
+
+### Hướng dẫn trên phần mềm
+
+**Bước 1:** Vào phân hệ **Báo cáo**
+
+![](images/fin_bao_cao.png)
+
+Hoặc chọn biểu tượng ![](images/fin_bacham.png) rồi chọn **Báo cáo**
+
+![](images/fin_baocao_1.png)
+
+**Bước 2**: Chọn báo cáo Sổ nhật ký chung
+
+![](images/fin_baocao_danhsach.png)
+
+**Bước 3**: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị, ....
+
+Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn
+
+![](images/fin_baocao_s11.png)
+
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
+
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống
+
 ## *Sổ chi tiết theo tài khoản*
 
 ### Mô tả nghiệp vụ
@@ -334,7 +653,7 @@ Sổ chi tiết theo tài khoản dùng cho một số tài khoản thuộc lo�
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+*[Xem video hướng dẫn cách xem báo cáo]*
 
 ### Hướng dẫn trên phần mềm
 
@@ -356,6 +675,94 @@ Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo th�
 
 ![](images/fin_baocao_s9.png)
 
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
+
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống
+
+## *Sổ theo dõi nợ phải trả - Tổng hợp*
+
+### Mô tả nghiệp vụ
+
+**Nghiệp vụ**
+
+Sổ theo dõi nợ phải trả là loại sổ kế toán được mở để theo dõi công nợ phải trả cho người bán, hay nói cách khác là sổ theo dõi các đối tượng chi tiết của tài khoản 331 (Phải trả người bán).
+
+**Xem video hướng dẫn**
+
+*[Xem video hướng dẫn cách xem báo cáo]*
+
+### Hướng dẫn trên phần mềm
+
+**Bước 1:** Vào phân hệ **Báo cáo**
+
+![](images/fin_bao_cao.png)
+
+Hoặc chọn biểu tượng ![](images/fin_bacham.png) rồi chọn **Báo cáo**
+
+![](images/fin_baocao_1.png)
+
+**Bước 2**: Chọn báo cáo Sổ theo dõi nợ phải trả - tổng hợp
+
+![](images/fin_baocao_danhsach.png)
+
+**Bước 3**: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị,tài khoản, tiền tệ ....
+
+Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn
+
+![](images/fin_baocao_sotheodoicongnophaitratonghop.png)
+
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
+
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống
+
+## *Sổ theo dõi nợ phải trả - Chi tiết*
+
+### Mô tả nghiệp vụ
+
+**Nghiệp vụ**
+
+Sổ theo dõi nợ phải trả là loại sổ kế toán được mở để theo dõi công nợ phải trả cho người bán, hay nói cách khác là sổ theo dõi các đối tượng chi tiết của tài khoản 331 (Phải trả người bán).
+
+**Xem video hướng dẫn**
+
+*[Xem video hướng dẫn cách xem báo cáo]*
+
+### Hướng dẫn trên phần mềm
+
+**Bước 1:** Vào phân hệ **Báo cáo**
+
+![](images/fin_bao_cao.png)
+
+Hoặc chọn biểu tượng ![](images/fin_bacham.png) rồi chọn **Báo cáo**
+
+![](images/fin_baocao_1.png)
+
+**Bước 2**: Chọn báo cáo Sổ theo dõi nợ phải trả - Chi tiết
+
+![](images/fin_baocao_danhsach.png)
+
+**Bước 3**: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị,tài khoản, tiền tệ ....
+
+Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn
+
+![](images/fin_baocao_sotheodoicongnophaitrachitiet.png)
+
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
+
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống
+
 ## *Sổ chi tiết phát sinh tài khoản*
 
 ### Mô tả nghiệp vụ
@@ -366,7 +773,7 @@ Sổ chi tiết phát sinh tài khoản dùng cho một số tài khoản thuộ
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+*[Xem video hướng dẫn cách xem báo cáo]*
 
 ### Hướng dẫn trên phần mềm
 
@@ -388,17 +795,25 @@ Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo th�
 
 ![](images/fin_baocao_s10.png)
 
-## *Sổ nhật ký chung*
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
+
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống
+
+## *Tổng hợp tồn kho theo nhiều đơn vị tính*
 
 ### Mô tả nghiệp vụ
 
 **Nghiệp vụ**
 
-Sổ nhật ký chung dùng để ghi chép các nghiệp vụ kinh tế, tài chính phát sinh theo trình tự thời gian đồng thời phản ánh quan hệ đối ứng tài khoản
+Tổng hợp tồn kho theo nhiều đơn vị tính dùng kiểm soát số lượng hàng hóa vật tư còn tồn tại từng kho,chuyển đổi  theo đơn vị tính chính của vật tư hàng hóa
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+*[Xem video hướng dẫn cách xem báo cáo]*
 
 ### Hướng dẫn trên phần mềm
 
@@ -410,12 +825,114 @@ Hoặc chọn biểu tượng ![](images/fin_bacham.png) rồi chọn **Báo cá
 
 ![](images/fin_baocao_1.png)
 
-**Bước 2**: Chọn báo cáo Sổ nhật ký chung
+**Bước 2**: Chọn báo cáo Tổng hợp tồn kho theo nhiều đơn vị tính
 
 ![](images/fin_baocao_danhsach.png)
+
+![](images/fin_bao_cao_2.png)
 
 **Bước 3**: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị, ....
 
 Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn
 
-![](images/fin_baocao_s11.png)
+![](images/fin_baocao_tonghoptonkhodvt1.png)
+
+![](images/fin_baocao_tonghoptonkhodvt2.png)
+
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
+
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống
+
+## *Báo cáo kết quả hoạt động kinh doanh*
+
+### Mô tả nghiệp vụ
+
+**Nghiệp vụ**
+
+Báo cáo kết quả hoạt động kinh doanh là một báo cáo tài chính được lập định kỳ nhằm mục đích tổng hợp số liệu kế toán, phản ánh kết quả hoạt động sản xuất kinh doanh của mỗi hộ kinh doanh thông qua các chỉ tiêu về Doanh thu, Chi phí, Lợi nhuận
+
+**Xem video hướng dẫn**
+
+*[Xem video hướng dẫn cách xem báo cáo]*
+
+### Hướng dẫn trên phần mềm
+
+**Bước 1:** Vào phân hệ **Báo cáo**
+
+![](images/fin_bao_cao.png)
+
+Hoặc chọn biểu tượng ![](images/fin_bacham.png) rồi chọn **Báo cáo**
+
+![](images/fin_baocao_1.png)
+
+**Bước 2**: Chọn báo cáo Báo cáo kết quả hoạt động kinh doanh
+
+![](images/fin_baocao_danhsach.png)
+
+![](images/fin_bao_cao_2.png)
+
+**Bước 3**: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị, ....
+
+Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn
+
+![](images/fin_baocao_ketquahoatdongkinhdoanh1.png)
+
+![](images/fin_baocao_ketquahoatdongkinhdoanh2.png)
+
+
+
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
+
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống
+
+## *Phụ lục giảm thuế GTGT theo nghị quyết số 43*
+
+### Mô tả nghiệp vụ
+
+**Nghiệp vụ**
+
+Phụ lục giảm thuế là phụ lục danh cho các cơ sở kinh doanh có nhóm hàng hoá, dịch vụ đang áp dụng mức thuế suất 10% được giảm xuống 8%
+
+**Xem video hướng dẫn**
+
+*[Xem video hướng dẫn cách xem báo cáo]*
+
+### Hướng dẫn trên phần mềm
+
+**Bước 1:** Vào phân hệ **Báo cáo**
+
+![](images/fin_bao_cao.png)
+
+Hoặc chọn biểu tượng ![](images/fin_bacham.png) rồi chọn **Báo cáo**
+
+![](images/fin_baocao_1.png)
+
+**Bước 2**: Chọn báo cáo Phụ lục giảm thuế GTGT theo nghị quyết số 43
+
+![](images/fin_baocao_danhsach.png)
+
+![](images/fin_bao_cao_2.png)
+
+**Bước 3**: Nhập thông tin tham số đầu vào tại góc phải  để xem báo cáo: Thời gian xuất báo cáo, đơn vị, ....
+
+Sau khi chọn tham số, hệ thống tự động xuất ra báo cáo theo thông số đã chọn
+
+![](images/fin_baocao_phulucgiamthue.png)
+
+
+
+Nhấn **Tải lại**: Xuất lại báo cáo theo tham số báo cáo đang hiển thị
+
+Nhấn **Gửi email**: Mở màn hình gửi email có đính kèm theo báo cáo dạng PDF
+
+Nhấn **Xuất excel**: Tải báo cáo xuống dưới dạng excel
+
+Nhấn **Lưu BC**: Mở màn hình nhập thông tin để lưu lại báo cáo vào thư mục tài liệu chung của hệ thống

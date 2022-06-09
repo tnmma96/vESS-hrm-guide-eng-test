@@ -520,8 +520,8 @@ Trên file excel vừa xuất, người dùng thực hiện nhập thông tin h�
 
 - Theo vết: Bắt buộc nhập, chọn một trong các giá trị sau:
        Theo lô
-  	 Theo số se-ri duy nhất
-  	 Không theo dõi
+    	 Theo số se-ri duy nhất
+    	 Không theo dõi
 
   ​     Mặc định khi import là Theo lô
 
@@ -892,6 +892,44 @@ Thông tin **Tiền tệ** được hiển thị để người dùng khai báo
 
 - Với các Tiền tệ không có nhu cầu theo dõi tiếp, sử dụng chức năng **Sửa** và Bỏ chọn **'Có hiệu lực'**
 
+### **Định khoản tự động**
+
+**Mục đích**
+
+Quản lý toàn bộ thông tin Định khoản tự động của hệ thống.
+
+Hệ thống đã thiết lập sẵn các Định khoản tự động cho các Loại chứng từ: Thu tiền gửi; Chi tiền gửi; Thu tiền mặt; Chi tiền mặt; Chi khác; Thu khác
+
+Chức năng Danh mục **Định khoản tự động** được quản lý tập trung tại phần **Danh mục** của nhóm **Kế toán**
+
+**Các bước thực hiện**
+
+**Bước 1:** Vào Danh mục: chọn **Định khoản tự động** và nhấn nút **Chi tiết**
+
+![](images/fin_DM_DKTD_VaoCN.png)
+
+Thông tin **Định khoản tự động** được hiển thị để người dùng khai báo và quản lý
+
+![](images/fin_DM_DKTD_ViewCN.png)
+
+**Bước 2:** Khai báo/Cập nhật thông tin Định khoản
+
+- Để khai báo: Người dùng nhấn nút ![](images/fin_banhang_taomoi.png): Hệ thống tạo 1 dòng dữ liệu trên Danh sách để người dùng nhập thông tin
+
+![](images/fin_DM_DKTD_Tao.png)
+
+- Để Sửa dữ liệu: Người dùng Nhấn chuột vào bản ghi cần sửa: Thông tin bản ghi ở trạng thái chỉnh sửa được
+
+![](images/fin_DM_DKTD_Sua.png)
+
+
+
+**Bước 3:** Nhấn nút **Lưu**: Để ghi nhận thông tin đã Tạo/Cập nhật
+
+<u>**Lưu ý:**</u>
+
+- Với các Định khoản tự động tạo ra của Hệ thống: **Người dùng hạn chế Chỉnh sửa thông tin**, để tránh gây lỗi khi lên các bút toán của các Phần hành khác nhau
+
 ### Mẫu số hóa đơn
 
 **Bước 1**: Vào Danh mục/Kế toán/Mẫu số hóa đơn. Nhấn **Chi tiết** để vào danh mục
@@ -910,7 +948,59 @@ Thông tin **Tiền tệ** được hiển thị để người dùng khai báo
 - Chọn loại hóa đơn cần sử dụng
 - Nhập mẫu số hóa đơn, ký hiệu hóa đơn theo yêu cầu
 
-**Bước 4:** Nhấn **Lưu** để lưu lại thông tin
+**Bước 4:** Nhấn nút **Lưu**: Để ghi nhận thông tin đã Tạo/Cập nhật
+
+### Loại hóa đơn
+
+Quản lý toàn bộ thông tin Loại hóa đơn hiện đang được áp dụng cho Kế toán.
+
+Hệ thống tự động tạo sẵn các Loại hóa đơn đang tồn tại. Người dùng có thể quản lý và chỉnh sửa/bổ sung thông tin
+
+**Bước 1:** Vào **Danh mục**: chọn **Loại hóa đơn** và nhấn nút **Chi tiết**
+
+![](images/fin_DM_LHD_ViewCN.png)
+
+Thông tin **Loại tài khoản** được hiển thị để người dùng khai báo và quản lý
+
+![](images/fin_DM_LHD_ViewCN.png)
+
+**Bước 2**: Tại màn hình danh sách, Nhấn nút **tạo ** ![](images/fin_banhang_taomoi.png)để thực hiên thêm mới Loại hóa đơn
+
+**Bước 3**: Khai báo các thông tin
+
+![](images/fin_DM_LHD_Tao.png)
+
+- Nhập Mã
+- Nhập Tên
+- Thông tư: Hiển thị thông tư quản lý và phát hành hóa đơn theo Nghị định
+
+**Bước 4:** Nhấn nút **Lưu**: Để ghi nhận thông tin đã Tạo/Cập nhật
+
+### Năm tài chính
+
+Quản lý toàn bộ thông tin Năm đang được thực hiện khai báo và nhập liệu sổ sách của Doanh nghiệp.
+
+**Bước 1:** Vào **Danh mục**: chọn **Năm tài chính** và nhấn nút **Chi tiết**
+
+![](images/fin_DM_NTC_ViewCN.png)
+
+Thông tin **Năm tài chính** được hiển thị để người dùng khai báo và quản lý
+
+![](images/fin_DM_NTC_VaoCN.png)
+
+**Bước 2**: Tại màn hình danh sách, Nhấn nút **tạo ** ![](images/fin_banhang_taomoi.png)để thực hiên thêm mới Năm tài chính
+
+![](images/fin_DM_NTC_Tao.png)
+
+**Bước 3**: Khai báo các thông tin
+
+![](images/fin_DM_NTC_KhaiBao.png)
+
+- Nhập Tên năm tài chính
+- Nhập Năm
+- Thông tin Từ ngày - Đến ngày của Năm áp dụng
+
+**Bước 4:** Nhấn nút **Lưu**: Để ghi nhận thông tin đã Tạo/Cập nhật
 
 ## ***Ngân hàng***
 
@@ -1040,9 +1130,57 @@ Thông tin **Khoản mục chi phí** được hiển thị để người dùng
 - Nhấn **Sửa**: Nếu muốn thay đổi thông tin Khoản mục chi phí phí đã khai báo
 - Với các Khoản mục chi phí không có nhu cầu theo dõi tiếp, sử dụng chức năng **Sửa** và Bỏ chọn **'Có hiệu lực'**
 
+### Nhóm công trình
+
+Quản lý toàn bộ thông tin Nhóm công trình của Doanh nghiệp.
+
+**Bước 1:** Vào **Danh mục**: chọn **Nhóm công trình** và nhấn nút **Chi tiết**
+
+![](images/fin_DM_NCTrinh_ViewCN.png)
+
+Thông tin **Nhóm công trình** được hiển thị để người dùng khai báo và quản lý
+
+![](images/fin_DM_NCTrinh_VaoCN.png)
+
+**Bước 2**: Tại màn hình danh sách, Nhấn nút **tạo ** ![](images/fin_banhang_taomoi.png)để thực hiên thêm mới Nhóm công trình
+
+![](images/fin_DM_NCTrinh_TaoMoi.png)
+
+**Bước 3**: Khai báo các thông tin
+
+<img src="images/fin_DM_NCTrinh_Tao.png" style="zoom:80%;" />
+
+- Nhập Mã công trình
+- Nhập Tên công trình
+
+**Bước 4:** Nhấn nút **Lưu**: Để ghi nhận thông tin đã Tạo/Cập nhật
+
+### Công trình
+
+Quản lý toàn bộ thông tin Công trình của Doanh nghiệp.
+
+**Bước 1:** Vào **Danh mục**: chọn **Công trình** và nhấn nút **Chi tiết**
+
+![fin_danhmuc_H_Congtrinh](images/fin_danhmuc_H_Congtrinh.png)
+
+**Bước 2**: Tại màn hình danh sách, Nhấn nút **Tạo** để thực hiên thêm mới công trình
+
+![fin_danhmuc_H_Congtrinh_Khaibao](images/fin_danhmuc_H_Congtrinh_Khaibao.png)
+
+Khai báo các thông tin
+
+- Nhập Mã công trình
+- Nhập Tên công trình
+- Từ ngày...Đến ngày
+- Các thông tin khác Loại công trình, Điều khoản thanh toán, Nhà đầu tư, Địa chỉ,.....
+
+**Bước 4:** Nhấn nút **Lưu**: Để ghi nhận thông tin đã Tạo/Cập nhật
+
+![fin_danhmuc_H_Congtrinh_Luu](images/fin_danhmuc_H_Congtrinh_Luu.png)
+
 ## ***Chứng từ, sổ sách***
 
-### **Sổ kế toán**
+### **Sổ nhật ký**
 
 **Mục đích**
 
@@ -1050,24 +1188,460 @@ Thông tin **Khoản mục chi phí** được hiển thị để người dùng
 
 Tại mỗi chức năng liên quan đến Nghiệp vụ vào sổ hệ thống sẽ có thông tin để Người dùng chọn. Khi dữ liệu đã được gắn vào từng Sổ kế toán riêng biệt, Kế toán doanh nghiệp có thể quản trị được dữ liệu theo từng Sổ.
 
-Chức năng Danh mục **Sổ kế toán** được quản lý tập trung tại phần **Danh mục**
+Chức năng Danh mục **Sổ nhật ký** được quản lý tập trung tại phần **Danh mục**
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào **Danh mục**: chọn **Sổ kế toán** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Sổ nhật ký** và nhấn nút **Chi tiết**
 
 ![](images/fin_DM_SoKeToan_1.png)
 
 Thông tin **Danh mục Sổ kế toán** được hiển thị để người dùng khai báo
 
-![](images/fin_DM_SoKeToan_2.png)
+![](images/fin_danhmuc_H_SNK_Danhsach.png)
 
-**Bước 2:** Để khai báo thêm Sổ, người dùng nhấn nút **Tạo**Trên màn hình **Sổ kế toán** và thực hiện Khai báo các thông tin: 
+**Bước 2:** Để khai báo thêm Sổ, người dùng nhấn nút **Tạo**Trên màn hình **Sổ nhật ký** và thực hiện Khai báo các thông tin: 
 
-![](images/fin_DM_SoKeToan_Tao.png)
+![](images/fin_danhmuc_H_SNK_Taomoi.png)
 
-- Mã sổ: Không trùng với Mã đã khai báo 
-- Chi nhánh: Khai báo áp dụng nhiều Sổ cho chi nhánh cụ thể, hoặc để trống để áp dụng khai báo cho toàn Công ty
-- Tên sổ: Thông tin để quản lý
+- **Tên sổ nhật ký**: Nhập Tên sổ nhật ký
+- **Loại**: Chọn Loại sổ nhật ký như Tiền mặt, Ngân hàng, Mua hàng,.....
+- **Đơn vị**: Khai báo sổ nhật ký áp dụng cho đơn vị 
+- **Mã viết tắt**: Nhập mã viết tắt của Sổ nhật ký
 
-**Bước 3:** Nhấn nút **Lưu**
+**Bước 3**: Nhấn **Lưu**
+
+## Khác
+
+### Nhóm bán hàng
+
+**Mục đích**
+
+Được tạo ra trong trường hợp Doanh nghiệp cần quản lý doanh số theo nhóm bán hàng
+
+Chức năng Danh mục **Nhóm bán hàng** được quản lý tập trung tại phần **Danh mục**
+
+**Các bước thực hiện**
+
+**Bước 1:** Vào **Danh mục**: chọn **Nhóm bán hàng** và nhấn nút **Chi tiết**
+
+![fin-danhmuc_H_NhomBH](images/fin-danhmuc_H_NhomBH.png)
+
+**Bước 2**: Nhấn **Tạo**
+
+![fin_danhmuc_H_nhomBH_Tao](images/fin_danhmuc_H_nhomBH_Tao.png)
+
+**Bước 3**: Khai báo thông tin
+
+- Tại mục **Đội ngũ bán hàng**(Tab chung): Nhập tên nhóm bán hàng
+- Khai báo **Trưởng nhóm** và **Mục tiêu hóa đơn** (Tab chung)
+
+- Tab Các thành viên trong đội nhấn **Thêm** để thực hiện thêm các thành viên trong nhóm bán hàng
+
+![fin_danhmuc_H_nhomBH_Khaibao](images/fin_danhmuc_H_nhomBH_Khaibao.png)
+
+**Bước 4**: Nhấn **Lưu**
+
+![fin_danhmuc_H_nhomBH_Luu](images/fin_danhmuc_H_nhomBH_Luu.png)
+
+### Điều khoản thanh toán
+
+**Mục đích**
+
+Quản lý quy định cụ thể như thời hạn thanh toán,....cho từng hợp đồng, hóa đơn
+
+Chức năng Danh mục **Điều khoản thanh toán** được quản lý tập trung tại phần **Danh mục**
+
+**Các bước thực hiện**
+
+**Bước 1:** Vào **Danh mục**: chọn **Điều khoản thanh toán** và nhấn nút **Chi tiết**
+
+![fin-danhmuc_H_NhomBH](images/fin_danhmuc_H_DieukhoanTT.png)
+
+Hệ thống hiển thị Danh sách điều khoản mặc định
+
+![fin_danhmuc_H_DieukhoanTT_Danhsach](images/fin_danhmuc_H_DieukhoanTT_Danhsach.png)
+
+**Bước 2**: Nhấn **Tạo** và khai báo điều khoản thanh toán
+
+Tab chung:
+
+- **Điều khoản thanh toán**: Đặt tên điều khoản thanh toán
+- **Đơn vị**: Chọn Đơn vị áp dụng cho điều khoản thanh toán
+
+![fin_danhmuc_H_nhomBH_Tao](images/fin_danhmuc_H_DieukhoanTT_Tabchung.png)
+
+Tab các điều khoản: Nhấn **Thêm một dòng** Hoặc nhấn vào dòng đang mặc định sẵn để nhập thông tin điều khoản
+
+- **Loại**: Chọn Loại điều khoản (Số dư, Phần trăm, Giá trị cố định)
+- Khai báo các thông tin Tính số ngày đến hạn trả cho điều khoản thanh toán
+
+![fin_danhmuc_H_DieukhoanTT_TabCacdieukhoan](images/fin_danhmuc_H_DieukhoanTT_TabCacdieukhoan.png)
+
+Nhấn **Lưu & Đóng**
+
+![fin_danhmuc_H_DieukhoanTT_TabCacdieukhoan01](images/fin_danhmuc_H_DieukhoanTT_TabCacdieukhoan01.png)
+
+**Bước 3**: Nhấn **Lưu**
+
+![fin_danhmuc_H_DieukhoanTT_Luu](images/fin_danhmuc_H_DieukhoanTT_Luu.png)
+
+### Mẫu báo giá
+
+**Mục đích**
+
+Doanh nghiệp tạo mẫu báo giá cho từng sản phẩm để báo giá cho khách hàng
+
+Chức năng Danh mục **Mẫu báo giá** được quản lý tập trung tại phần **Danh mục**
+
+**Các bước thực hiện**
+
+**Bước 1:** Vào **Danh mục**: chọn **Nhóm bán hàng** và nhấn nút **Chi tiết**
+
+![fin-danhmuc_H_NhomBH](images/fin_danhmuc_H_Maubaogia.png)
+
+**Bước 2**: Nhấn **Tạo**
+
+![fin_danhmuc_H_nhomBH_Tao](images/fin_danhmuc_H_Maubaogia_Tabchung.png)
+
+Khai báo thông tin
+
+- Tại mục **Mẫu báo giá**(Tab chung): Nhập tên Mẫu báo giá
+- Tại mục **Báo giá sẽ hết hạn sau**: Nhập số ngày hết hạn kể từ ngày báo giá
+- Tại tab **Dòng** và tab **Sản phầm tùy chọn**: Tạo sản phẩm, số lượng, đơn vị tính cho mẫu báo giá
+
+![fin_danhmuc_H_Maubaogia_TabDong](images/fin_danhmuc_H_Maubaogia_TabDong.png)
+
+![fin_danhmuc_H_Maubaogia_TabSPtuychon](images/fin_danhmuc_H_Maubaogia_TabSPtuychon.png)
+
+**Bước 4**: Nhấn **Lưu** để lưu lại dữ liệu đã khai báo mẫu báo giá
+
+## *Thuế*
+
+### Thuế
+
+**Mục đích**
+
+Hỗ trợ doanh nghiệp tính thuế theo chính sách của nhà nước. Hệ thống mặc định sinh sẵn các Thuế hiện hành theo quy định của Luật Thuế.                    
+
+Chức năng Danh mục **Thuế** được quản lý tập trung tại phần **Danh mục**
+
+**Các bước thực hiện**
+
+**Bước 1:** Vào **Danh mục**: chọn **Thuế** và nhấn nút **Chi tiết**
+
+![fin_danhmuc_H_Thue](images/fin_danhmuc_H_Thue.png)
+
+Hiển thị danh sách **Thuế** mặc định của hệ thống
+
+![fin_Danhmuc_H_Thue_Danhsach](images/fin_Danhmuc_H_Thue_Danhsach.png)
+
+**Bước 2**: Nhấn **Tạo** để thêm mới **Thuế** và khai báo
+
+- **Tên thuế**: Nhập Tên thuế
+- **Tính thuế**: Nhập phương thức tính thuế
+- **Loại thuế**: Chọn Loại thuế (Bán hàng, Mua hàng, Không dùng)
+- **Tổng tiền**: Số phần trăm tính thuế
+
+![fin_danhmuc_H_Thue_Tao](images/fin_danhmuc_H_Thue_Tao.png)
+
+
+
+**Bước 3:** Nhấn **Lưu**
+
+**Lưu ý**: Không cho sửa bản ghi mặc định của hệ thống tự động sinh ra.
+
+### Nhóm Thuế
+
+**Mục đích**
+
+Giúp Doanh nghiệp phân loại theo đối tượng chịu thuế như: Thuế GTGT, Thuế thu nhập cá nhân, Thuế tiêu dùng, Thuế tài sản.......                     
+
+Chức năng Danh mục **Nhóm Thuế** được quản lý tập trung tại phần **Danh mục**
+
+**Các bước thực hiện**
+
+**Bước 1:** Vào **Danh mục**: chọn **Nhóm thuế** và nhấn nút **Chi tiết**
+
+![fin_danhmuc_H_NhomThue](images/fin_danhmuc_H_NhomThue.png)
+
+Hiển thị danh sách nhóm thuế
+
+![fin_danhmuc_H_NhomThueDS](images/fin_danhmuc_H_NhomThueDS.png)
+
+**Bước 2**: Nếu có nhóm thuế phát sinh, nhấn **Tạo** để khai báo:
+
+![fin_danhmuc_H_nhomthue_Tao](images/fin_danhmuc_H_nhomthue_Tao.png)
+
+- Tại mục **Mã**: Nhập mã của nhóm thuế
+- Tại mục **Tên**: Nhập tên của nhóm thuế
+- Tại mục **Nhóm thuế**: Chọn nhóm thuế tương ứng
+
+**Bước 3**: Nhấn **Lưu**
+
+![fin_danhmuc_H_nhomthue_Luu](images/fin_danhmuc_H_nhomthue_Luu.png)
+
+### Ngành nghề kinh doanh
+
+**Mục đích**
+
+Hiển thị hệ thống Ngành nghề kinh doanh theo quy định của chính phủ giúp doanh nghiệp quản lý được các ngành nghề đăng ký kinh doanh với cục thuế                     
+
+Chức năng Danh mục **Ngành nghề kinh doanh** được quản lý tập trung tại phần **Danh mục**
+
+**Các bước thực hiện**
+
+**Bước 1:** Vào **Danh mục**: chọn **Ngành nghề kinh doanh** và nhấn nút **Chi tiết**
+
+![fin_danhmuc_nganhngheKD](images/fin_danhmuc_nganhngheKD.png)
+
+Hiển thị danh sách ngành nghề kinh doanh
+
+![fin_danhmuc_nganhngheKD_Danhsach](images/fin_danhmuc_nganhngheKD_Danhsach.png)
+
+**Bước 2**: Nếu có ngành nghề kinh doanh phát sinh, nhấn **Tạo** để khai báo:
+
+![fin_danhmuc_H_NganhngheKD_Khaibao](images/fin_danhmuc_H_NganhngheKD_Khaibao.png)
+
+- Tại mục **Mã**: Nhập mã của ngành nghề
+- Tại mục **Tên**: Nhập tên của ngành nghề
+- Khai báo các trường Thuế GTGT, Thuế TNDN, Tỷ lệ % tính thuế GTGT và Thuế suất TNCN (Nếu có)
+
+**Bước 3**: Nhấn **Lưu**
+
+![fin_danhmuc_H_NganhngheKD_Luu](images/fin_danhmuc_H_NganhngheKD_Luu.png)
+
+### Cơ quan thuế
+
+**Mục đích**
+
+Hiển thị hệ thống đầy đủ các cơ quan thuế hiện hành để giúp doanh nghiệp quản lý, khai báo các loại thuế doanh nghiệp nhanh chóng.                   
+
+Chức năng Danh mục **Cơ quan thuế** được quản lý tập trung tại phần **Danh mục**
+
+**Các bước thực hiện**
+
+**Bước 1:** Vào **Danh mục**: chọn **Cơ quan thuế** và nhấn nút **Chi tiết**
+
+![fin_Danhmuc_H_Coquanthue](images/fin_Danhmuc_H_Coquanthue.png)
+
+Hiển thị danh sách cơ quan thuế
+
+![fin_Danhmuc_H_Coquanthue_Danhsach](images/fin_Danhmuc_H_Coquanthue_Danhsach.png)
+
+**Bước 2**: Nếu có cơ quan thuế phát sinh, nhấn **Tạo** để khai báo:
+
+![fin_Danhmuc_H_Coquanthue_Tao](images/fin_Danhmuc_H_Coquanthue_Tao.png)
+
+- Tại mục **Mã**: Nhập mã của cơ quan thuế
+- Tại mục **Tên**: Nhập tên của cơ quan thuế
+- Tại mục **Cấp**: Tích chọn cấp của cơ quan thuế
+
+**Bước 3**: Nhấn **Lưu**
+
+![fin_Danhmuc_H_Coquanthue_Luu](images/fin_Danhmuc_H_Coquanthue_Luu.png)
+
+### Thiết lập cơ quan thuế, đại lý thuế
+
+**Mục đích**
+
+Nhân viên vào cấu hình cơ quan thuế, đại lý thuế đang quản lý doanh nghiệp          
+
+Chức năng Danh mục **Cơ quan thuế** được quản lý tập trung tại phần **Danh mục**
+
+**Các bước thực hiện**
+
+**Bước 1:** Vào **Danh mục**: chọn **Thiết lập cơ quan thuế, đại lý thuế** và nhấn nút **Chi tiết**
+
+![fin_danhmuc_H_Thietlap](images/fin_danhmuc_H_Thietlap.png)
+
+**Bước 2**: Nhấn **Tạo** để khai báo:
+
+![fin_danhmuc_H_thietlapThue_Khaibao](images/fin_danhmuc_H_thietlapThue_Khaibao.png)
+
+- Tại mục **Cơ quan thuế**: Khai báo cơ quan thuế cấp cục và cơ quan thuế quản lý
+- Tại mục **Đại lý thuế**: Nhập thông tin Mã số thuế, Tên đại lý, Địa chỉ, Điện thoại,....
+
+**Bước 3**: Nhấn **Lưu**
+
+![fin_danhmuc_H_thietlapthue_Luu](images/fin_danhmuc_H_thietlapthue_Luu.png)
+
+### Mã mục, mã tiểu mục nộp thuế
+
+**Mục đích**
+
+Hiển thị hệ thống hiển thị đầy đủ các mã mục cần nộp thuế theo quy định ban hành            
+
+Chức năng Danh mục **Mã mục, mã tiểu mục nộp thuế** được quản lý tập trung tại phần **Danh mục**
+
+**Các bước thực hiện**
+
+**Bước 1:** Vào **Danh mục**: chọn **Mã mục, mã tiểu mục nộp thuế** và nhấn nút **Chi tiết**
+
+![fin_danhmuc_H_mamucnopthue](images/fin_danhmuc_H_mamucnopthue.png)
+
+Hiển thị danh sách mã mục, mã tiểu mục nộp thuế
+
+![fin_danhmuc_H_mamucnopthue_Danhsach](images/fin_danhmuc_H_mamucnopthue_Danhsach.png)
+
+**Bước 2**: Nếu có mã mục, mã tiểu mục nộp thuế phát sinh, nhấn **Tạo** để khai báo:
+
+![fin_danhmuc_H_mamucnopthue_Khaibao](images/fin_danhmuc_H_mamucnopthue_Khaibao.png)
+
+- Tại mục **Mã**: Nhập mã của mã mục, mã tiểu mục nộp thuế
+- Tại mục **Tên**: Nhập tên của mã mục, mã tiểu mục nộp thuế
+- Và khai báo các trường thông tin liên quan (Thuộc, Ghi chú, Nhóm, Mục, Tiểu mục)
+
+**Bước 3**: Nhấn **Lưu**
+
+![fin_danhmuc_H_mamucnopthue_Luu](images/fin_danhmuc_H_mamucnopthue_Luu.png)
+
+### Biểu thuế tiêu thụ đặc biệt
+
+**Mục đích**
+
+Hệ thống hiển thị mặc định danh sách Biểu thuế tiêu thụ đặc biệt hỗ trợ người dùng quản lý thuế tiêu thụ đặc biệt theo  hàng hóa, dịch vụ
+
+Chức năng Danh mục **Biểu thuế tiêu thụ đặc biệt** được quản lý tập trung tại phần **Danh mục**
+
+**Các bước thực hiện**
+
+**Bước 1:** Vào **Danh mục**: chọn **Biểu thuế tiêu thụ đặc biệt** và nhấn nút **Chi tiết**
+
+![fin_Danhmuc_BieuthueTTDB](images/fin_Danhmuc_BieuthueTTDB.png)
+
+Hiển thị danh sách Biểu thuế tiêu thụ đặc biệt
+
+![fin_Danhmuc_H_BieuthueTTDB_Danhsach](images/fin_Danhmuc_H_BieuthueTTDB_Danhsach.png)
+
+**Bước 2**: Nếu có mã mục, mã tiểu mục nộp thuế phát sinh, nhấn **Tạo** để khai báo:
+
+![fin_Danhmuc_H_BieuthueTTDB_khaibao](images/fin_Danhmuc_H_BieuthueTTDB_khaibao.png)
+
+- Tại mục **Tên phụ lục**: Nhập mã của mã mục, mã tiểu mục nộp thuế
+- Tại mục **Mã**: Nhập tên của mã mục, mã tiểu mục nộp thuế
+- Khai báo Thuộc, Loại, Thuế suất (%),.....
+
+**Bước 3**: Nhấn **Lưu**
+
+![fin_Danhmuc_H_BieuthueTTDB_Luu](images/fin_Danhmuc_H_BieuthueTTDB_Luu.png)
+
+### Hệ thống ngành kinh tế Việt Nam
+
+**Mục đích**
+
+Hệ thống hiển thị mặc định danh sách Hệ thống ngành kinh tế Việt Nam hỗ trợ người dùng quản lý thuế theo từng ngành nghề
+
+Chức năng Danh mục **Hệ thống ngành kinh tế Việt Nam** được quản lý tập trung tại phần **Danh mục**
+
+**Các bước thực hiện**
+
+**Bước 1:** Vào **Danh mục**: chọn **Hệ thống ngành kinh tế Việt Nam** và nhấn nút **Chi tiết**
+
+![fin_danhmuc_H_Hethongnganhnghe](images/fin_danhmuc_H_Hethongnganhnghe.png)
+
+Hiển thị danh sách Hệ thống ngành kinh tế Việt Nam
+
+![fin_danhmuc_H_Hethongnganhnghe_Danhsach](images/fin_danhmuc_H_Hethongnganhnghe_Danhsach.png)
+
+**Bước 2**: Nếu có ngành nghề kinh tế phát sinh, nhấn **Tạo** để khai báo:
+
+![fin_danhmuc_H_Hethongnganhnghe_Khaibao](images/fin_danhmuc_H_Hethongnganhnghe_Khaibao.png)
+
+- Tại mục **Tên** Nhập Tên ngành nghề
+- Tại mục **Mã**: Nhập mã ngành nghề
+
+**Bước 3**: Nhấn **Lưu**
+
+![fin_danhmuc_H_Hethongnganhnghe_Luu](images/fin_danhmuc_H_Hethongnganhnghe_Luu.png)
+
+### Biểu thuế tài nguyên
+
+**Mục đích**
+
+Hệ thống hiển thị mặc định danh sách Biểu thuế tài nguyên mà doanh nghiệp phải nộp cho nhà nước khi khai thác tài nguyên thiên nhiên
+
+Chức năng Danh mục **Biểu thuế tài nguyên** được quản lý tập trung tại phần **Danh mục**
+
+**Các bước thực hiện**
+
+**Bước 1:** Vào **Danh mục**: chọn **Biểu thuế tài nguyên** và nhấn nút **Chi tiết**
+
+![fin_danhmuc_H_BieuthueTN](images/fin_danhmuc_H_BieuthueTN.png)
+
+Hiển thị danh sách Biểu thuế tài nguyên
+
+![fin_danhmuc_H_BieuthueTN_Danhsach](images/fin_danhmuc_H_BieuthueTN_Danhsach.png)
+
+**Bước 2**: Nếu có Biểu thuế tài nguyên phát sinh, nhấn **Tạo** để khai báo:
+
+![fin_danhmuc_H_BieuthueTN_Khaibao](images/fin_danhmuc_H_BieuthueTN_Khaibao.png)
+
+- Tại mục **Tên** Nhập tên Biểu thuế tài nguyên
+- Tại mục **Mã**: Nhập mã Biểu thuế tài nguyên
+- Khai báo Giá tính thuế tài nguyên của tỉnh, Giá tối thiểu, Giá tối đa tính thuế tài nguyên,....
+
+**Bước 3**: Nhấn **Lưu**
+
+![fin_danhmuc_H_BieuthueTN_Luu](images/fin_danhmuc_H_BieuthueTN_Luu.png)
+
+### Phí bảo vệ môi trường
+
+**Mục đích**
+
+Hệ thống hiển thị mặc định danh sách Phí bảo vệ môi trường mà doanh nghiệp phải nộp cho nhà nước
+
+Chức năng Danh mục **Phí bảo vệ môi trường** được quản lý tập trung tại phần **Danh mục**
+
+**Các bước thực hiện**
+
+**Bước 1:** Vào **Danh mục**: chọn **Phí bảo vệ môi trường** và nhấn nút **Chi tiết**
+
+![fin_danhmuc_H_PhiBVMT](images/fin_danhmuc_H_PhiBVMT.png)
+
+Hiển thị danh sách các loại Phí bảo vệ môi trường
+
+![fin_danhmuc_H_PhiBVMT_Danhsach](images/fin_danhmuc_H_PhiBVMT_Danhsach.png)
+
+**Bước 2**: Nếu có Phí bảo vệ môi trường phát sinh, nhấn **Tạo** để khai báo:
+
+![fin_danhmuc_H_PhiBVMT_Khaibao](images/fin_danhmuc_H_PhiBVMT_Khaibao.png)
+
+- Tại mục **Tên** Nhập tên Phí bảo vệ môi trường
+- Tại mục **Mã**: Nhập mã Phí bảo vệ môi trường
+- Khai báo Đơn vị tính, Tiểu mục, Thuộc 
+
+**Bước 3**: Nhấn **Lưu**
+
+![fin_danhmuc_H_PhiBVMT_Luu](images/fin_danhmuc_H_PhiBVMT_Luu.png)
+
+### Thuế bảo vệ môi trường
+
+**Mục đích**
+
+Hệ thống hiển thị mặc định danh sách Thuế bảo vệ môi trường mà doanh nghiệp phải nộp cho nhà nước
+
+Chức năng Danh mục **Thuế bảo vệ môi trường** được quản lý tập trung tại phần **Danh mục**
+
+**Các bước thực hiện**
+
+**Bước 1:** Vào **Danh mục**: chọn **Thuế bảo vệ môi trường** và nhấn nút **Chi tiết**
+
+![fin_danhmuc_H_ThueBVMT](images/fin_danhmuc_H_ThueBVMT.png)
+
+Hiển thị danh sách các loại Thuế bảo vệ môi trường
+
+![fin_danhmuc_H_ThueBVMT_Danhsach](images/fin_danhmuc_H_ThueBVMT_Danhsach.png)
+
+**Bước 2**: Nếu có Thuế bảo vệ môi trường phát sinh, nhấn **Tạo** để khai báo:
+
+![fin_danhmuc_H_ThueBVMT_Khaibao](images/fin_danhmuc_H_ThueBVMT_Khaibao.png)
+
+- Tại mục **Tên** Nhập tên Thuế bảo vệ môi trường
+- Tại mục **Mã**: Nhập mã Thuế bảo vệ môi trường
+- Khai báo Đơn vị tính, Đơn giá, Thuộc 
+
+**Bước 3**: Nhấn **Lưu**
+
+![fin_danhmuc_H_ThueBVMT_Luu](images/fin_danhmuc_H_ThueBVMT_Luu.png)
+
