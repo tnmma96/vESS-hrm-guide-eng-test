@@ -10,7 +10,7 @@ Phân hệ Chấm công - Đăng ký công đáp ứng được các yêu cầu 
 - Quản lý ngày nghỉ phép, làm thêm giờ của nhân viên linh hoạt.
 - Công cụ báo cáo, thống đơn giản và trực quan
 - Tự động đồng bộ, chấm công cho nhân viên trên hệ thống dựa theo đơn đăng ký nghỉ, đăng ký làm thêm giờ.
-- Hỗ trợ tổng hợp công dựa trên dữ liệu lịch sử vào/ ra.
+- Hỗ trợ tổng hợp công dựa trên dữ liệu lịch sử vào/ ra, import công từ file excel,...
 
 ## Mô tả nghiệp vụ
 
@@ -197,7 +197,37 @@ Tiền điều kiện: Quản trị viên hệ thống đã thiết lập loại
 
 ## Đăng ký chấm công
 
-Đăng ký chấm công ở đây bao gồm cả đăng ký ngày nghỉ và đăng ký OT (Đăng ký công cho loại ngày làm đã được thiết lập).
+**Đối tượng thực hiện:** Nhân viên trong công ty
+
+### Nhân viên chấm công thủ công
+
+**Tiền điều kiện:** Nhân viên đã có tài khoản để đăng nhập vào hệ thống
+
+Trong trường hợp công ty [thiết lập hình thức chấm công](#Thiết lập hình thức chấm công) là "Chấm công dựa vào lịch sử vào - ra", nhân viên của công ty bắt buộc phải chấm công thủ công để được ghi nhận công. Nhân viên của công ty có thể thực hiện chấm công trên ứng dụng vESS hoặc chấm công trên web.
+
+*Cách 1: Chấm công trên web*
+
+Nhân viên vào menu Chấm công >> Hệ thống hiển thị trang giao diện để chấm công. 
+
+![image-20220620111217045](images/image-20220620111217045.png)
+
+Nhân viên bấm để chấm công vào > Hệ thống hiển thị màn hình thông báo chấm công thành công 
+
+![image-20220620111303978](images/image-20220620111303978.png)
+
+Trước giờ nhân viên ra về, nhân viên vào màn hình Chấm công, thực hiện tương tự để chấm công ra.
+
+*Cách 2: Chấm công trên ứng dụng vESS*
+
+Nhân viên đăng nhập trên ứng dụng vESS, chọn menu Chấm công >> Thực hiện bấm Chấm công vào/ra tương tự trên web
+
+![image-20220620112050661](images/image-20220620112050661.png) ![image-20220620112138863](images/image-20220620112138863.png) 
+
+Người dùng có thể bấm vào "Tổng hợp công" để xem dữ liệu chấm công trong tháng của mình.
+
+![image-20220620112256093](images/image-20220620112256093.png)
+
+### Nhân viên đăng ký công nghỉ, công làm thêm
 
 ***Hệ thống chỉ cho phép đăng ký công cho tháng hiện tại hoặc thời điểm trong tương lai.***
 
@@ -280,19 +310,91 @@ Người sử dụng đăng nhập vào ứng dụng mobile trên điện thoạ
 
 ## Tổng hợp công
 
-***Đối tượng thực hiện: Người quản trị phân hệ Chấm công***
+***Đối tượng thực hiện: Người quản trị phân hệ Chấm công (Cán bộ chấm công)*** 
 
-Hằng ngày, hệ thống sẽ tự động đồng bộ và chấm công cho nhân viên dựa trên các đơn đăng ký nghỉ, đơn đăng ký OT đã được duyệt của nhân viên. Thông tin chấm công sẽ hiển thị lên bảng công cho tất cả nhân viên. 
+### Chấm công tự động
 
-Người dùng xem bảng tổng hợp công trên hệ thống bằng cách vào menu **Chấm công** >> Chọn **Tổng hợp công** >> Hệ thống hiển thị dữ liệu chấm công của tất cả nhân viên tại tháng hiện tại. 
+Hằng ngày, hệ thống sẽ tự động đồng bộ và chấm công cho nhân viên dựa dựa theo hình thức chấm công đã được thiết lập ở bước [này](#Thiết lập hình thức chấm công) và các dữ liệu lịch sử vào/ra, lịch sử đăng ký công nghỉ, công làm thêm của nhân viên đã được duyệt. Thông tin chấm công sẽ hiển thị lên bảng công cho tất cả nhân viên. 
 
-![image-20211001171634735](images/image-20211001171634735.png)
+Người dùng xem bảng tổng hợp công trên hệ thống bằng cách vào menu **Chấm công** >> Chọn **Tổng hợp công** >> Hệ thống hiển thị dữ liệu chấm công của tất cả nhân viên tại tháng hiện tại như hình sau:
+
+![image-20220620114651541](images/image-20220620114651541.png)
 
 ***Lưu ý:*** 
 
 - *Để chấm công được cho nhân viên, thì bắt buộc cán bộ nhân sự phải thiết lập quá trình làm việc cho nhân viên tại bước Quản lý hồ sơ nhân viên.*
+
 - *Hệ thống tự động chấm công hàng đêm, nên nhân viên bắt đầu làm việc ngày n thì ngày n + 1 có dữ liệu chấm công.*
+
 - *Trong trường hợp ngày n, cán bộ chấm công muốn chốt công luôn; để lấy được cả dữ liệu chấm công ngày hiện tại, người dùng thực hiện đồng bộ công bằng cách bấm **Đồng bộ** >> Chọn thời gian cần đồng bộ >> Hệ thống hiển thị cảnh báo sẽ xoá toàn bộ dữ liệu trên bảng công trong khoảng thời gian được chọn và tự động đồng bộ lại >> Người dùng xác nhận **Đồng ý** >> Hệ thống thực hiện đồng bộ và hiển thị lại bảng công.*
+
 - *Cán bộ chấm công có thể thực hiện xuất dữ liệu bảng công bằng cách bấm **Xuất báo cáo***
+
 - *Trường hợp cán bộ chấm công muốn kiểm tra dữ liệu vào ra của nhân viên, người dùng vào menu Chấm công >> Người quản lý >> Chấm công để xem dữ liệu vào/ ra theo điểm danh trên web, hoặc Chấm công >> Camera AI >> Lịch sử Check In để xem dữ liệu vào/ra theo camera*
 
+  ### Chấm công & điều chỉnh công thủ công
+
+  Trên bảng tổng hợp công, cán bộ chấm công có thể sửa, hoặc thêm mới công cho nhân viên bằng cách click đúp vào ô công của nhân viên, màn hình hiện ra như sau
+
+  ![image-20220620114903383](images/image-20220620114903383.png)
+
+Cán bộ chấm công thực hiện nhập/ sửa công vào ô **Thời gian làm** theo quy tắc: <Ký hiệu công 1>: <Số giờ công>; <Ký hiệu công 2>: <Số giờ công> và bấm **Lưu & Đóng**
+
+Trong trường hợp muốn xoá công của nhân viên, cán bộ chấm công click vào ô công của nhân viên, chọn biểu tượng "x" để xoá công.
+
+### Import công từ file excel
+
+**Mục đích sử dụng**: Công ty không sử dụng quy trình chấm công theo quy trình hướng dẫn ở trên, nhưng muốn Import dữ liệu chấm công quản lý từ file excel lên hệ thống, phục vụ làm dữ liệu đầu vào để tính lương.
+
+**Các bước thực hiện:** 
+
+Bước 1: Tải file mẫu import
+
+Trên màn hình tổng hợp công, người dùng bấm vào nút **Nhập dữ liệu** để mở ra hộp thoại import công >> Bấm **Xuất biểu mẫu** để tải file mẫu dữ liệu chấm công
+
+![image-20220620134510207](images/image-20220620134510207.png)
+
+Bước 2: Nhập dữ liệu vào file excel
+
+Người dùng thực hiện nhập liệu công vào file excel theo mẫu vừa tải xuống ở bước 1, ví dụ minh hoạ ở ảnh sau
+
+Lưu ý: Bắt buộc nhập Tháng, Năm, Mã nhân viên và dữ liệu chấm công.
+
+![image-20220620135504543](images/image-20220620135504543.png)
+
+Bước 3: Nhập file lên hệ thống
+
+Trên màn hình ở bước 1, người dùng bấm **Tải lên tập tin của bạn**, chọn file excel cần nhập, bấm **Nhập tệp** để xác nhận >> Hệ thống kiểm tra dữ liệu trên file excel
+
++ Nếu có lỗi: Hệ thống hiển thị màn hình thông báo lỗi như minh hoạ
+
+  ![image-20220620135847264](images/image-20220620135847264.png)
+
++ Nếu không có lỗi: Hệ thống thực hiện import, và tự tải lại trang màn hình tổng hợp công sau khi đã ghi nhận dữ liệu trên file excel
+
+- Người dùng bắt buộc nhập mã nhân viên (dạng text), nhập dữ liệu chấm công; tên nhân viên không bắt buộc nhập. 
+
+**Một số cảnh báo lỗi nhập tệp thường gặp và cách xử lý**
+
+- "Nhân viên không hợp lệ"
+
+  - Nguyên nhân: Mã nhân viên không tồn tại, hoặc không thuộc quyền quản lý của người dùng đang thao tác hoặc nhân viên chưa có quá trình làm việc tại ngày chấm công.
+  - Xử lý: Kiểm tra lại mã nhân viên tại dòng cảnh báo, điều chỉnh phù hợp. 
+
+- "Thời gian làm việc không hợp lệ"
+
+  - Nguyên nhân: Dữ liệu chấm công sai quy tắc hoặc sai ký hiệu công, hoặc tổng số giờ làm trong ngày vượt quá giờ công chuẩn theo cấu hình lịch làm việc cho nhân viên
+
+  - Xử lý: Kiểm tra lại dữ liệu chấm công theo dòng và cột, đảm bảo đúng ký hiệu công, đúng quy tắc. Tiếp đến kiểm tra thêm tổng số giờ công làm việc (Bao gồm loại công Nghỉ có lương & Nghỉ không lương & Chấm công) và số giờ làm việc chuẩn trên lịch làm việc của nhân việc.
+
+    Xem lịch làm việc của nhân viên: Vào menu **Nhân viên**, bấm xem chi tiết 1 nhân viên, tab **Thông tin công việc**, trường **Giờ làm việc**
+
+    ![image-20220620144844948](images/image-20220620144844948.png)
+
+![image-20220620144916389](images/image-20220620144916389.png)
+
+Ví dụ ngày thứ 2, theo lịch làm việc, tổng số giờ làm chuẩn là 8h. Nếu người dùng nhập dữ liệu chấm công ngày thứ 2 cho nhân viên có tổng công nghỉ có lương + nghỉ không lương + chấm công vượt quá 8h thì hệ thống cảnh báo. Người dùng thực hiện điều chỉnh dữ liệu chấm công hoặc điều chỉnh giờ làm việc phù hợp. 
+
+- "Tháng ... không có ngày ..."
+  - Nguyên nhân: Nhập thừa dữ liệu chấm công. Ví dụ tháng 6 chỉ có 30 ngày nhưng lại nhập cả dữ liệu chấm công của ngày 31.
+  - Xử lý: Xoá bỏ dữ liệu chấm công không hợp lệ, và import lại file.
