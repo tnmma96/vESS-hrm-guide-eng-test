@@ -97,10 +97,24 @@
     <li class="toctree-l2"><a class="reference internal" href="#thiet-lap-ke-hoach-nghi-phep-cho-nhan-vien">Thiết lập kế hoạch nghỉ phép cho nhân viên</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#ang-ky-cham-cong">Đăng ký chấm công</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#nhan-vien-cham-cong-thu-cong">Nhân viên chấm công thủ công</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#nhan-vien-ang-ky-cong-nghi-cong-lam-them">Nhân viên đăng ký công nghỉ, công làm thêm</a>
+    </li>
+        </ul>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#phe-duyet-tu-choi-ang-ky-cong">Phê duyệt/ Từ chối đăng ký công</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#tong-hop-cong">Tổng hợp công</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#cham-cong-tu-ong">Chấm công tự động</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#cham-cong-ieu-chinh-cong-thu-cong">Chấm công &amp; điều chỉnh công thủ công</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#import-cong-tu-file-excel">Import công từ file excel</a>
+    </li>
+        </ul>
     </li>
     </ul>
                   </li>
@@ -295,7 +309,7 @@
 <li>Quản lý ngày nghỉ phép, làm thêm giờ của nhân viên linh hoạt.</li>
 <li>Công cụ báo cáo, thống đơn giản và trực quan</li>
 <li>Tự động đồng bộ, chấm công cho nhân viên trên hệ thống dựa theo đơn đăng ký nghỉ, đăng ký làm thêm giờ.</li>
-<li>Hỗ trợ tổng hợp công dựa trên dữ liệu lịch sử vào/ ra.</li>
+<li>Hỗ trợ tổng hợp công dựa trên dữ liệu lịch sử vào/ ra, import công từ file excel,...</li>
 </ul>
 <h2 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h2>
 <p>Phân hệ Chấm công - Đăng ký công cho phép người dùng thực hiện đăng ký chấm công - tổng hợp bảng công theo quy trình như sau</p>
@@ -459,7 +473,22 @@
 </ul>
 <p><img alt="image-20211001104849106" src="../images/image-20211001104849106.png" /></p>
 <h2 id="ang-ky-cham-cong">Đăng ký chấm công</h2>
-<p>Đăng ký chấm công ở đây bao gồm cả đăng ký ngày nghỉ và đăng ký OT (Đăng ký công cho loại ngày làm đã được thiết lập).</p>
+<p><strong>Đối tượng thực hiện:</strong> Nhân viên trong công ty</p>
+<h3 id="nhan-vien-cham-cong-thu-cong">Nhân viên chấm công thủ công</h3>
+<p><strong>Tiền điều kiện:</strong> Nhân viên đã có tài khoản để đăng nhập vào hệ thống</p>
+<p>Trong trường hợp công ty <a href="#Thiết lập hình thức chấm công">thiết lập hình thức chấm công</a> là "Chấm công dựa vào lịch sử vào - ra", nhân viên của công ty bắt buộc phải chấm công thủ công để được ghi nhận công. Nhân viên của công ty có thể thực hiện chấm công trên ứng dụng vESS hoặc chấm công trên web.</p>
+<p><em>Cách 1: Chấm công trên web</em></p>
+<p>Nhân viên vào menu Chấm công &gt;&gt; Hệ thống hiển thị trang giao diện để chấm công. </p>
+<p><img alt="image-20220620111217045" src="../images/image-20220620111217045.png" /></p>
+<p>Nhân viên bấm để chấm công vào &gt; Hệ thống hiển thị màn hình thông báo chấm công thành công </p>
+<p><img alt="image-20220620111303978" src="../images/image-20220620111303978.png" /></p>
+<p>Trước giờ nhân viên ra về, nhân viên vào màn hình Chấm công, thực hiện tương tự để chấm công ra.</p>
+<p><em>Cách 2: Chấm công trên ứng dụng vESS</em></p>
+<p>Nhân viên đăng nhập trên ứng dụng vESS, chọn menu Chấm công &gt;&gt; Thực hiện bấm Chấm công vào/ra tương tự trên web</p>
+<p><img alt="image-20220620112050661" src="../images/image-20220620112050661.png" /> <img alt="image-20220620112138863" src="../images/image-20220620112138863.png" /> </p>
+<p>Người dùng có thể bấm vào "Tổng hợp công" để xem dữ liệu chấm công trong tháng của mình.</p>
+<p><img alt="image-20220620112256093" src="../images/image-20220620112256093.png" /></p>
+<h3 id="nhan-vien-ang-ky-cong-nghi-cong-lam-them">Nhân viên đăng ký công nghỉ, công làm thêm</h3>
 <p><strong><em>Hệ thống chỉ cho phép đăng ký công cho tháng hiện tại hoặc thời điểm trong tương lai.</em></strong></p>
 <p>Luồng thực hiện đăng ký chấm công được chia thành 2 trường hợp:</p>
 <p><strong><em>Trường hợp 1</em></strong>: <em>Nhân viên</em> chủ động đăng ký chấm công trên app mobile (trên điện thoại), hoặc trên ứng dụng web (trên máy tính)</p>
@@ -529,17 +558,87 @@
 <p>Người sử dụng đăng nhập vào ứng dụng mobile trên điện thoại, chọn menu <strong>Yêu cầu chấm công</strong> &gt;&gt; Chọn <strong>Phê duyệt yêu cầu chấm công</strong> &gt;&gt; Chọn yêu cầu chấm công cần duyệt để thực hiện <strong>Duyệt/ Từ chối</strong>. Người sử dụng có thể thao tác nhanh bằng cách bấm vào dấu <img alt="image-20211011163041070" src="../images/image-20211011163041070.png" /> tại đơn đăng ký cần duyệt, chọn <strong>Duyệt/ Từ chối</strong>  phù hợp</p>
 <p><img alt="image-20211011163211631" src="../images/image-20211011163211631.png" /> <img alt="image-20211011163231180" src="../images/image-20211011163231180.png" /> </p>
 <h2 id="tong-hop-cong">Tổng hợp công</h2>
-<p><strong><em>Đối tượng thực hiện: Người quản trị phân hệ Chấm công</em></strong></p>
-<p>Hằng ngày, hệ thống sẽ tự động đồng bộ và chấm công cho nhân viên dựa trên các đơn đăng ký nghỉ, đơn đăng ký OT đã được duyệt của nhân viên. Thông tin chấm công sẽ hiển thị lên bảng công cho tất cả nhân viên. </p>
-<p>Người dùng xem bảng tổng hợp công trên hệ thống bằng cách vào menu <strong>Chấm công</strong> &gt;&gt; Chọn <strong>Tổng hợp công</strong> &gt;&gt; Hệ thống hiển thị dữ liệu chấm công của tất cả nhân viên tại tháng hiện tại. </p>
-<p><img alt="image-20211001171634735" src="../images/image-20211001171634735.png" /></p>
+<p><strong><em>Đối tượng thực hiện: Người quản trị phân hệ Chấm công (Cán bộ chấm công)</em></strong> </p>
+<h3 id="cham-cong-tu-ong">Chấm công tự động</h3>
+<p>Hằng ngày, hệ thống sẽ tự động đồng bộ và chấm công cho nhân viên dựa dựa theo hình thức chấm công đã được thiết lập ở bước <a href="#Thiết lập hình thức chấm công">này</a> và các dữ liệu lịch sử vào/ra, lịch sử đăng ký công nghỉ, công làm thêm của nhân viên đã được duyệt. Thông tin chấm công sẽ hiển thị lên bảng công cho tất cả nhân viên. </p>
+<p>Người dùng xem bảng tổng hợp công trên hệ thống bằng cách vào menu <strong>Chấm công</strong> &gt;&gt; Chọn <strong>Tổng hợp công</strong> &gt;&gt; Hệ thống hiển thị dữ liệu chấm công của tất cả nhân viên tại tháng hiện tại như hình sau:</p>
+<p><img alt="image-20220620114651541" src="../images/image-20220620114651541.png" /></p>
 <p><strong><em>Lưu ý:</em></strong> </p>
 <ul>
-<li><em>Để chấm công được cho nhân viên, thì bắt buộc cán bộ nhân sự phải thiết lập quá trình làm việc cho nhân viên tại bước Quản lý hồ sơ nhân viên.</em></li>
-<li><em>Hệ thống tự động chấm công hàng đêm, nên nhân viên bắt đầu làm việc ngày n thì ngày n + 1 có dữ liệu chấm công.</em></li>
-<li><em>Trong trường hợp ngày n, cán bộ chấm công muốn chốt công luôn; để lấy được cả dữ liệu chấm công ngày hiện tại, người dùng thực hiện đồng bộ công bằng cách bấm </em><em>Đồng bộ</em><em> &gt;&gt; Chọn thời gian cần đồng bộ &gt;&gt; Hệ thống hiển thị cảnh báo sẽ xoá toàn bộ dữ liệu trên bảng công trong khoảng thời gian được chọn và tự động đồng bộ lại &gt;&gt; Người dùng xác nhận </em><em>Đồng ý</em><em> &gt;&gt; Hệ thống thực hiện đồng bộ và hiển thị lại bảng công.</em></li>
-<li><em>Cán bộ chấm công có thể thực hiện xuất dữ liệu bảng công bằng cách bấm </em><em>Xuất báo cáo</em>**</li>
-<li><em>Trường hợp cán bộ chấm công muốn kiểm tra dữ liệu vào ra của nhân viên, người dùng vào menu Chấm công &gt;&gt; Người quản lý &gt;&gt; Chấm công để xem dữ liệu vào/ ra theo điểm danh trên web, hoặc Chấm công &gt;&gt; Camera AI &gt;&gt; Lịch sử Check In để xem dữ liệu vào/ra theo camera</em></li>
+<li>
+<p><em>Để chấm công được cho nhân viên, thì bắt buộc cán bộ nhân sự phải thiết lập quá trình làm việc cho nhân viên tại bước Quản lý hồ sơ nhân viên.</em></p>
+</li>
+<li>
+<p><em>Hệ thống tự động chấm công hàng đêm, nên nhân viên bắt đầu làm việc ngày n thì ngày n + 1 có dữ liệu chấm công.</em></p>
+</li>
+<li>
+<p><em>Trong trường hợp ngày n, cán bộ chấm công muốn chốt công luôn; để lấy được cả dữ liệu chấm công ngày hiện tại, người dùng thực hiện đồng bộ công bằng cách bấm </em><em>Đồng bộ</em><em> &gt;&gt; Chọn thời gian cần đồng bộ &gt;&gt; Hệ thống hiển thị cảnh báo sẽ xoá toàn bộ dữ liệu trên bảng công trong khoảng thời gian được chọn và tự động đồng bộ lại &gt;&gt; Người dùng xác nhận </em><em>Đồng ý</em><em> &gt;&gt; Hệ thống thực hiện đồng bộ và hiển thị lại bảng công.</em></p>
+</li>
+<li>
+<p><em>Cán bộ chấm công có thể thực hiện xuất dữ liệu bảng công bằng cách bấm </em><em>Xuất báo cáo</em>**</p>
+</li>
+<li>
+<p><em>Trường hợp cán bộ chấm công muốn kiểm tra dữ liệu vào ra của nhân viên, người dùng vào menu Chấm công &gt;&gt; Người quản lý &gt;&gt; Chấm công để xem dữ liệu vào/ ra theo điểm danh trên web, hoặc Chấm công &gt;&gt; Camera AI &gt;&gt; Lịch sử Check In để xem dữ liệu vào/ra theo camera</em></p>
+</li>
+</ul>
+<h3 id="cham-cong-ieu-chinh-cong-thu-cong">Chấm công &amp; điều chỉnh công thủ công</h3>
+<p>Trên bảng tổng hợp công, cán bộ chấm công có thể sửa, hoặc thêm mới công cho nhân viên bằng cách click đúp vào ô công của nhân viên, màn hình hiện ra như sau</p>
+<p><img alt="image-20220620114903383" src="../images/image-20220620114903383.png" /></p>
+<p>Cán bộ chấm công thực hiện nhập/ sửa công vào ô <strong>Thời gian làm</strong> theo quy tắc: <Ký hiệu công 1>: <Số giờ công>; <Ký hiệu công 2>: <Số giờ công> và bấm <strong>Lưu &amp; Đóng</strong></p>
+<p>Trong trường hợp muốn xoá công của nhân viên, cán bộ chấm công click vào ô công của nhân viên, chọn biểu tượng "x" để xoá công.</p>
+<h3 id="import-cong-tu-file-excel">Import công từ file excel</h3>
+<p><strong>Mục đích sử dụng</strong>: Công ty không sử dụng quy trình chấm công theo quy trình hướng dẫn ở trên, nhưng muốn Import dữ liệu chấm công quản lý từ file excel lên hệ thống, phục vụ làm dữ liệu đầu vào để tính lương.</p>
+<p><strong>Các bước thực hiện:</strong> </p>
+<p>Bước 1: Tải file mẫu import</p>
+<p>Trên màn hình tổng hợp công, người dùng bấm vào nút <strong>Nhập dữ liệu</strong> để mở ra hộp thoại import công &gt;&gt; Bấm <strong>Xuất biểu mẫu</strong> để tải file mẫu dữ liệu chấm công</p>
+<p><img alt="image-20220620134510207" src="../images/image-20220620134510207.png" /></p>
+<p>Bước 2: Nhập dữ liệu vào file excel</p>
+<p>Người dùng thực hiện nhập liệu công vào file excel theo mẫu vừa tải xuống ở bước 1, ví dụ minh hoạ ở ảnh sau</p>
+<p>Lưu ý: Bắt buộc nhập Tháng, Năm, Mã nhân viên và dữ liệu chấm công.</p>
+<p><img alt="image-20220620135504543" src="../images/image-20220620135504543.png" /></p>
+<p>Bước 3: Nhập file lên hệ thống</p>
+<p>Trên màn hình ở bước 1, người dùng bấm <strong>Tải lên tập tin của bạn</strong>, chọn file excel cần nhập, bấm <strong>Nhập tệp</strong> để xác nhận &gt;&gt; Hệ thống kiểm tra dữ liệu trên file excel</p>
+<ul>
+<li>Nếu có lỗi: Hệ thống hiển thị màn hình thông báo lỗi như minh hoạ</li>
+</ul>
+<p><img alt="image-20220620135847264" src="../images/image-20220620135847264.png" /></p>
+<ul>
+<li>
+<p>Nếu không có lỗi: Hệ thống thực hiện import, và tự tải lại trang màn hình tổng hợp công sau khi đã ghi nhận dữ liệu trên file excel</p>
+</li>
+<li>
+<p>Người dùng bắt buộc nhập mã nhân viên (dạng text), nhập dữ liệu chấm công; tên nhân viên không bắt buộc nhập. </p>
+</li>
+</ul>
+<p><strong>Một số cảnh báo lỗi nhập tệp thường gặp và cách xử lý</strong></p>
+<ul>
+<li>
+<p>"Nhân viên không hợp lệ"</p>
+</li>
+<li>
+<p>Nguyên nhân: Mã nhân viên không tồn tại, hoặc không thuộc quyền quản lý của người dùng đang thao tác hoặc nhân viên chưa có quá trình làm việc tại ngày chấm công.</p>
+</li>
+<li>
+<p>Xử lý: Kiểm tra lại mã nhân viên tại dòng cảnh báo, điều chỉnh phù hợp. </p>
+</li>
+<li>
+<p>"Thời gian làm việc không hợp lệ"</p>
+</li>
+<li>
+<p>Nguyên nhân: Dữ liệu chấm công sai quy tắc hoặc sai ký hiệu công, hoặc tổng số giờ làm trong ngày vượt quá giờ công chuẩn theo cấu hình lịch làm việc cho nhân viên</p>
+</li>
+<li>
+<p>Xử lý: Kiểm tra lại dữ liệu chấm công theo dòng và cột, đảm bảo đúng ký hiệu công, đúng quy tắc. Tiếp đến kiểm tra thêm tổng số giờ công làm việc (Bao gồm loại công Nghỉ có lương &amp; Nghỉ không lương &amp; Chấm công) và số giờ làm việc chuẩn trên lịch làm việc của nhân việc.</p>
+<p>Xem lịch làm việc của nhân viên: Vào menu <strong>Nhân viên</strong>, bấm xem chi tiết 1 nhân viên, tab <strong>Thông tin công việc</strong>, trường <strong>Giờ làm việc</strong></p>
+<p><img alt="image-20220620144844948" src="../images/image-20220620144844948.png" /></p>
+</li>
+</ul>
+<p><img alt="image-20220620144916389" src="../images/image-20220620144916389.png" /></p>
+<p>Ví dụ ngày thứ 2, theo lịch làm việc, tổng số giờ làm chuẩn là 8h. Nếu người dùng nhập dữ liệu chấm công ngày thứ 2 cho nhân viên có tổng công nghỉ có lương + nghỉ không lương + chấm công vượt quá 8h thì hệ thống cảnh báo. Người dùng thực hiện điều chỉnh dữ liệu chấm công hoặc điều chỉnh giờ làm việc phù hợp. </p>
+<ul>
+<li>"Tháng ... không có ngày ..."</li>
+<li>Nguyên nhân: Nhập thừa dữ liệu chấm công. Ví dụ tháng 6 chỉ có 30 ngày nhưng lại nhập cả dữ liệu chấm công của ngày 31.</li>
+<li>Xử lý: Xoá bỏ dữ liệu chấm công không hợp lệ, và import lại file.</li>
 </ul>
               
             </div>
