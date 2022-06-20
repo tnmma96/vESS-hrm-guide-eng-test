@@ -8,9 +8,9 @@ Phân hệ **Ngân quỹ** quản lý tình hình thu/chi tiền gửi ngân hà
 
 **Các luồng quy trình**
 
-·     Lập chứng từ Thu tiền mặt. Chi tiết nghiệp vụ **[Thu tiền gửi](#thu-tien-gui)**
+·     Lập chứng từ Thu tiền gửi. Chi tiết nghiệp vụ **[Thu tiền gửi](#thu-tien-gui)**
 
-·     Lập chứng từ Chi tiền mặt. Chi tiết nghiệp vụ **[Chi tiền gửi](#chi-tien-gửi)**
+·     Lập chứng từ Chi tiền gửi. Chi tiết nghiệp vụ **[Chi tiền gửi](#chi-tien-gửi)**
 
 ·     Thanh toán lương cho nhân viên. Chi tiết nghiệp vụ **[Thanh toán lương cho nhân viên](#thanh-toan-luong-cho-nhan-vien)**
 
@@ -76,10 +76,10 @@ Sau khi Lưu lại thông tin: Hệ thống tự động hiển thị thông tin
 
 #### Mô tả nghiệp vụ
 
-Với những giao dịch khách hàng thanh toán bằng tiền mặt cho các đơn hàng, người dùng thực hiện nghiệp vụ thu tiền từ khách hàng và nhập vào hệ thống để ghi nhận thông tin.
+Với những giao dịch khách hàng thanh toán bằng tiền gửi cho các đơn hàng, người dùng thực hiện nghiệp vụ thu tiền từ khách hàng và nhập vào hệ thống để ghi nhận thông tin.
 
 #### *Xem video hướng dẫn*
-
+r
 <iframe
     width="920"
     height="450"
@@ -136,7 +136,7 @@ Với những giao dịch khách hàng thanh toán bằng tiền mặt cho các 
 
 ![fin_NganQuy_TM_ThutienKH_TinhtrangTT](images/fin_NganQuy_TM_ThutienKH_TinhtrangTT.png)
 
-## Chi tiền mặt
+## Chi tiền gửi
 
 ### *Xem video hướng dẫn*
 
@@ -155,7 +155,7 @@ Với những giao dịch khách hàng thanh toán bằng tiền mặt cho các 
 
 #### Mô tả nghiệp vụ
 
-Kế toán thực hiện tạo Phiếu chi tiền mặt cho các dịch vụ phát sinh hàng tháng như : Điện, nước,internet. mặt bằng,......
+Kế toán thực hiện tạo Phiếu chi tiền gửi cho các dịch vụ phát sinh hàng tháng như : Điện, nước,internet. mặt bằng,......
 
 #### Hướng dẫn trên phần mềm
 
@@ -175,7 +175,7 @@ Kế toán thực hiện tạo Phiếu chi tiền mặt cho các dịch vụ ph�
 
 **Bước 2:** Tại tab **Chi tiết** nhấn **Thêm một dòng** và khai báo
 
-- **Lý do**: Chọn Lý do chi tiền (VD: Chi tiền mua văn phòng phẩm, Chi phí điện bằng tiền gửi ngân hàng, Chi tiền mặt khác........)
+- **Lý do**: Chọn Lý do chi tiền (VD: Chi tiền mua văn phòng phẩm, Chi phí điện bằng tiền gửi ngân hàng, Chi tiền gửi khác........)
 - **Số tiền**: Nhập số tiền chi cho từng lý do chi
 - Nhập Nội dung chi tiết, Công trình, Hợp đồng mua, Hợp đồng bán (Nếu có)
 
@@ -275,7 +275,7 @@ Lưu ý: Muốn chuyển trạng thái từ Hoàn thành về Nháp thi
 
 Khai báo tab chung
 
-- **Sổ nhật ký**: Chọn Tiền mặt
+- **Sổ nhật ký**: Chọn Tiền gửi
 - **Ngày nộp thuế**: Nhập ngày nộp thuế
 
 ![fin_NGANQUY_TG_Nopthue_Tabchung](images/fin_NGANQUY_TG_Nopthue_Tabchung.png)
@@ -296,7 +296,7 @@ Nhấn **Lưu**
 
 ![fin_NGANQUY_TG_Nopthue_GhinhanTT](images/fin_NGANQUY_TG_Nopthue_GhinhanTT.png)
 
-Sinh bản ghi Phiếu chi tiền mặt với trạng thái **Dự thảo**
+Sinh bản ghi Phiếu chi tiền gửi với trạng thái **Dự thảo**
 
 ![fin_NGANQUY_TG_Nopthue_SinhPC](images/fin_NGANQUY_TG_Nopthue_SinhPC.png)
 
@@ -344,7 +344,7 @@ Với những giao dịch chi trả đơn hàng cho nhà cung cấp bằng tiề
 
 ![fin_NGANQUY_TG_ThanhtoanNCC_GhinhanTT02](images/fin_NGANQUY_TG_ThanhtoanNCC_GhinhanTT02.png)
 
-Hệ thống tạo phiếu chi tiền mặt với trạng thái **Đã vào sổ**
+Hệ thống tạo phiếu chi tiền gửi với trạng thái **Đã vào sổ**
 
 ![fin_NGANQUY_TG_ThanhtoanNCC_SinhPT](images/fin_NGANQUY_TG_ThanhtoanNCC_SinhPT.png)
 
