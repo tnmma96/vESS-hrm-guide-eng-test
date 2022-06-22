@@ -43,7 +43,7 @@ Khi đơn vị có nhu cầu mua hàng, lập yêu cầu mua hàng thì quy trì
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Lập đơn mua hàng" 
-    src="https://www.youtube.com/embed/PQZuqDdgwxo"
+    src="https://www.youtube.com/embed/Wm-AUbA7n-w?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
 
 ### Hướng dẫn trên phần mềm
@@ -146,8 +146,6 @@ Nếu như cần sửa chữa thông tin trong file nhập liệu thì người 
 
 Nếu đã chính xác thì sẽ hiển thị thông báo màu xanh : "Mọi thứ dường như hợp lệ". Người dùng nhấn **Nhập** để bắt đầu import dữ liệu vào hệ thống
 
-Nếu không muốn import thì nhấn **Hủy**	
-
 ![](images/fin_muahang_kiemthu.png)
 
 Khi import thành công, hệ thống  sẽ tự động quay về màn hình danh sách và hiển thị thông báo số lượng bản ghi đã được import, các bản ghi được import thành công ở trạng thái báo giá
@@ -193,7 +191,7 @@ Sau khi thực hiện Xác nhận đơn hàng, chương trình tự động sinh
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Nhập kho đơn mua hàng" 
-    src="https://www.youtube.com/embed/3fjLKbsF_-M"
+    src="https://www.youtube.com/embed/GWLQKRX8Ils?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
 
 ### **Hướng dẫn trên phần mềm**
@@ -254,7 +252,7 @@ Cách 2: Lập hóa đơn mua hàng không từ đơn mua hàng. Chi tiết nghi
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Lập hóa đơn mua hàng từ đơn mua hàng" 
-    src="https://www.youtube.com/embed/USlVH_htOJM"
+    src="https://www.youtube.com/embed/IfSiV4kECUQ?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
 
 **Đối tượng thực hiện :** Nhân viên kế toán
@@ -298,7 +296,7 @@ Cách 2: Lập hóa đơn mua hàng không từ đơn mua hàng. Chi tiết nghi
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Hóa đơn mua hàng" 
-    src="https://www.youtube.com/embed/J849TChjEqk"
+    src="https://www.youtube.com/embed/7Q0RmFLX3Mg?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
 
 Đối tượng thực hiện: Người bán hàng
@@ -370,7 +368,7 @@ Sau khi xác nhận hóa đơn, hệ thống sẽ sinh dữ liệu vào chức n
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Ghi nhận thanh toán từ hóa đơn mua hàng" 
-    src="https://www.youtube.com/embed/IwOX-1i2rPQ"
+    src="https://www.youtube.com/embed/u_LaWfSuX_A?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
 
 ### Hướng dẫn trên phần mềm
@@ -436,7 +434,7 @@ Cách 2: Người mua hàng chuyển đổi hóa đơn bán hàng thành khoản
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Hóa đơn giảm giá" 
-    src="https://www.youtube.com/embed/oAUNf6wCvxI"
+    src="https://www.youtube.com/embed/uZBBGd-lGkg?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
 
 ### Hướng dẫn trên phần mềm

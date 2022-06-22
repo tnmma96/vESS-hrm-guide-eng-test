@@ -171,8 +171,9 @@ Khi phát sinh các nghiệp vụ cần nhập mua mới từ nhà cung ứng, N
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Lập phiếu nhập kho" 
-    src="https://www.youtube.com/embed/Pt3bzpzbYIM"
+    src="https://www.youtube.com/embed/MsZUeEfFLQM?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
+
 
 ### Lập phiếu nhập kho
 
@@ -300,8 +301,9 @@ Khi phát sinh nghiệp vụ xuất nguyên vật liệu dùng cho sản xuất,
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Lâp phiếu xuất kho" 
-    src="https://www.youtube.com/embed/G471NXpxOFM"
+    src="https://www.youtube.com/embed/RAzLS_MKRoU?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
+
 
 ### Lập phiếu xuất kho
 
@@ -413,8 +415,9 @@ Khi có yêu cầu kiểm kê kho,  người dùng sẽ thực hiện:
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Kiểm kê hàng tồn kho" 
-    src="https://www.youtube.com/embed/bifgnNRvgVk"
+    src="https://www.youtube.com/embed/y3y2qEZ6SZo?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
+
 
 ### Kiểm kê kho
 
@@ -445,8 +448,9 @@ Thực hiện tính và cập nhật giá xuất kho vào các phiếu xuất kh
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Tính giá xuất kho" 
-    src="https://www.youtube.com/embed/waajBhBycv8"
+    src="https://www.youtube.com/embed/mZ0PZ8_DAuM?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
+
 
 ### Tính giá xuất kho
 

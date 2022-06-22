@@ -48,7 +48,7 @@ Chức năng Danh mục **Khách hàng** được quản lý tập trung tại p
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Khách hàng" 
-    src="https://www.youtube.com/embed/8Vc3XBoIIdU"
+    src="https://www.youtube.com/embed/c9O0psmAlsE?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
 
 **Hướng dẫn trên phần mềm**
@@ -131,8 +131,9 @@ Quản lý danh sách các nhà cung cấp, phục vụ cho việc lập và h�
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Nhà cung cấp" 
-    src="https://www.youtube.com/embed/wp4FJTTlTus"
+    src="https://www.youtube.com/embed/Pghorhk13oY?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
+
 
 **Hướng dẫn trên phần mềm**
 
@@ -212,8 +213,9 @@ Danh mục nhân viên quản lý thông tin về các nhóm đối tượng kh�
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Nhân viên" 
-    src="https://www.youtube.com/embed/1xq8AI3ppo4"
+    src="https://www.youtube.com/embed/KmJrST9T980?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
+
 
 **Hướng dẫn trên phần mềm**
 
@@ -329,8 +331,9 @@ Danh mục vật tư, hàng hoá cho phép quản lý toàn bộ vật tư, hàn
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Vật tư hàng hóa" 
-    src="https://www.youtube.com/embed/iP95ifOOT7s"
+    src="https://www.youtube.com/embed/qJsUQff6ekU?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
+
 
 **Hướng dẫn trên phần mềm**
 

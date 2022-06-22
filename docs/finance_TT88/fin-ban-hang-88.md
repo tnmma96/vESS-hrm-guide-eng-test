@@ -41,8 +41,9 @@ Khi có nhu cầu mua sản phẩm, khách hàng sẽ liên hệ với hộ kinh
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Lập đơn bán hàng" 
-    src="https://www.youtube.com/embed/R__U1GqGegg"
+    src="https://www.youtube.com/embed/4lI_lo2RDvU?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
+
 
 ### Hướng dẫn trên phần mềm
 
@@ -131,8 +132,9 @@ Sau khi thực hiện **Xác nhận đơn hàng**, chương trình tự động 
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Xuất kho đơn bán hàng" 
-    src="https://www.youtube.com/embed/B6OEshsPSmU"
+    src="https://www.youtube.com/embed/MiV1NLnGVbM?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
+
 
 ### **Hướng dẫn trên phần mềm**
 
@@ -184,8 +186,9 @@ Người dùng có thể lập hóa đơn bán hàng theo hai cách khác nhau
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Lập hóa đơn bán hàng từ đơn bán hàng" 
-    src="https://www.youtube.com/embed/p-VOJ1ilMms"
+    src="https://www.youtube.com/embed/-6xgVLYA9Ys?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
+
 
 Đối tượng thực hiện: Người bán hàng
 
@@ -299,8 +302,9 @@ Sau khi giao hàng thành công, người dùng thực hiện kiểm tra dữ li
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Hóa đơn giảm thuế" 
-    src="https://www.youtube.com/embed/jO_NiFQ5r_s"
+    src="https://www.youtube.com/embed/T-Gz3db3b-M?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
+
 
 
 
@@ -367,8 +371,9 @@ Người dùng thực hiện ghi nhận và theo dõi việc thanh toán của h
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Ghi nhận thanh toán" 
-    src="https://www.youtube.com/embed/TrXM22x4pnc?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
+    src="https://www.youtube.com/embed/3vKDOm9ja5I?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
+
 
 
 ### Hướng dẫn trên phần mềm
@@ -428,8 +433,9 @@ Cách 2: Người bán hàng chuyển đổi hóa đơn bán hàng thành khoả
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Tạo hóa đơn giảm giá" 
-    src="https://www.youtube.com/embed/tQqF296qgGQ"
+    src="https://www.youtube.com/embed/fV4wocdQ2HY?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
+
 
 #### Tạo hóa đơn giảm giá
 

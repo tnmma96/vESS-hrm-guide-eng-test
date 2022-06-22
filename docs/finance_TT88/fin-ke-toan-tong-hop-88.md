@@ -42,8 +42,9 @@ Chức năng cho phép người dùng hạch toán bút toán thủ công đối
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Chứng từ nghiệp vụ khác" 
-    src="https://www.youtube.com/embed/C2rWmB91Cv4"
+    src="https://www.youtube.com/embed/gtdLHJmtKiA?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
+
 
 ### **Hướng dẫn trên phần mềm**
 

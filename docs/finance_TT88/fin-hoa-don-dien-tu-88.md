@@ -27,8 +27,9 @@ Sử dụng hóa đơn điện tử là một trong những phương tiện rấ
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Hóa đơn điện tử" 
-    src="https://www.youtube.com/embed/q9Ok_vohBxQ"
+    src="https://www.youtube.com/embed/XGUfp7qniWU?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
+
 
 ### **Khai báo mẫu hóa đơn trên hệ thống SME**
 

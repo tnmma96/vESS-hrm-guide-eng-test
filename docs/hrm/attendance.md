@@ -312,7 +312,7 @@ Người sử dụng đăng nhập vào ứng dụng mobile trên điện thoạ
 
 ***Đối tượng thực hiện: Người quản trị phân hệ Chấm công (Cán bộ chấm công)*** 
 
-### Chấm công tự động
+### Chấm công nhanh
 
 Hằng ngày, hệ thống sẽ tự động đồng bộ và chấm công cho nhân viên dựa dựa theo hình thức chấm công đã được thiết lập ở bước [này](#Thiết lập hình thức chấm công) và các dữ liệu lịch sử vào/ra, lịch sử đăng ký công nghỉ, công làm thêm của nhân viên đã được duyệt. Thông tin chấm công sẽ hiển thị lên bảng công cho tất cả nhân viên. 
 
@@ -332,15 +332,23 @@ Người dùng xem bảng tổng hợp công trên hệ thống bằng cách và
 
 - *Trường hợp cán bộ chấm công muốn kiểm tra dữ liệu vào ra của nhân viên, người dùng vào menu Chấm công >> Người quản lý >> Chấm công để xem dữ liệu vào/ ra theo điểm danh trên web, hoặc Chấm công >> Camera AI >> Lịch sử Check In để xem dữ liệu vào/ra theo camera*
 
-### Chấm công & điều chỉnh công thủ công
+### Chấm công thủ công
 
-Trên bảng tổng hợp công, cán bộ chấm công có thể sửa, hoặc thêm mới công cho nhân viên bằng cách click đúp vào ô công của nhân viên, màn hình hiện ra như sau
+Vào menu **Chấm công** >> Chọn **Tổng hợp công** >> Màn hình hiển thị bảng tổng hợp công. Cán bộ chấm công có thể sửa, hoặc thêm mới công cho nhân viên bằng cách click đúp vào ô công của nhân viên, màn hình hiện ra như sau:
 
 ![image-20220620114903383](images/image-20220620114903383.png)
 
-Cán bộ chấm công thực hiện nhập/ sửa công vào ô **Thời gian làm** theo quy tắc: <Ký hiệu công 1>: <Số giờ công>; <Ký hiệu công 2>: <Số giờ công> và bấm **Lưu & Đóng**
+Cán bộ chấm công thực hiện nhập/ sửa công vào ô **Thời gian làm** theo quy tắc: **[Ký hiệu công 1]:[Số giờ công]; [Ký hiệu công 2]: [Số giờ công]** và bấm **Lưu & Đóng**
 
 Trong trường hợp muốn xoá công của nhân viên, cán bộ chấm công click vào ô công của nhân viên, chọn biểu tượng "x" để xoá công.
+
+Ví dụ: CB chấm công chấm cho đ/c Trần Bảo Châu đi làm thêm giờ (Ký hiệu: OT), cả ngày 14/05/2022 (8 tiếng). CB chấm công nhập OT:8, cụ thể:
+
+![image-1](images/image-1.jpeg)
+
+Sau khi bấm **Lưu & Đóng**, màn hình sẽ hiển thị DS như dưới và ghi nhận thành công.
+
+![image-2](images/image-2.jpeg)
 
 ### Import công từ file excel
 
@@ -376,25 +384,24 @@ Trên màn hình ở bước 1, người dùng bấm **Tải lên tập tin củ
 
 **Một số cảnh báo lỗi nhập tệp thường gặp và cách xử lý**
 
-- "Nhân viên không hợp lệ"
+  - "Nhân viên không hợp lệ"
+    - Nguyên nhân: Mã nhân viên không tồn tại, hoặc không thuộc quyền quản lý của người dùng đang thao tác hoặc nhân viên chưa có quá trình làm việc tại ngày chấm công.
+    - Xử lý: Kiểm tra lại mã nhân viên tại dòng cảnh báo, điều chỉnh phù hợp. 
 
-  - Nguyên nhân: Mã nhân viên không tồn tại, hoặc không thuộc quyền quản lý của người dùng đang thao tác hoặc nhân viên chưa có quá trình làm việc tại ngày chấm công.
-  - Xử lý: Kiểm tra lại mã nhân viên tại dòng cảnh báo, điều chỉnh phù hợp. 
+  - "Thời gian làm việc không hợp lệ"
 
-- "Thời gian làm việc không hợp lệ"
+    - Nguyên nhân: Dữ liệu chấm công sai quy tắc hoặc sai ký hiệu công, hoặc tổng số giờ làm trong ngày vượt quá giờ công chuẩn theo cấu hình lịch làm việc cho nhân viên
 
-  - Nguyên nhân: Dữ liệu chấm công sai quy tắc hoặc sai ký hiệu công, hoặc tổng số giờ làm trong ngày vượt quá giờ công chuẩn theo cấu hình lịch làm việc cho nhân viên
+    - Xử lý: Kiểm tra lại dữ liệu chấm công theo dòng và cột, đảm bảo đúng ký hiệu công, đúng quy tắc. Tiếp đến kiểm tra thêm tổng số giờ công làm việc (Bao gồm loại công Nghỉ có lương & Nghỉ không lương & Chấm công) và số giờ làm việc chuẩn trên lịch làm việc của nhân việc.
 
-  - Xử lý: Kiểm tra lại dữ liệu chấm công theo dòng và cột, đảm bảo đúng ký hiệu công, đúng quy tắc. Tiếp đến kiểm tra thêm tổng số giờ công làm việc (Bao gồm loại công Nghỉ có lương & Nghỉ không lương & Chấm công) và số giờ làm việc chuẩn trên lịch làm việc của nhân việc.
+      Xem lịch làm việc của nhân viên: Vào menu **Nhân viên**, bấm xem chi tiết 1 nhân viên, tab **Thông tin công việc**, trường **Giờ làm việc**
 
-    Xem lịch làm việc của nhân viên: Vào menu **Nhân viên**, bấm xem chi tiết 1 nhân viên, tab **Thông tin công việc**, trường **Giờ làm việc**
+      ![image-20220620144844948](images/image-20220620144844948.png)
 
-    ![image-20220620144844948](images/image-20220620144844948.png)
+      ![image-20220620144916389](images/image-20220620144916389.png)
 
-![image-20220620144916389](images/image-20220620144916389.png)
+      Ví dụ ngày thứ 2, theo lịch làm việc, tổng số giờ làm chuẩn là 8h. Nếu người dùng nhập dữ liệu chấm công ngày thứ 2 cho nhân viên có tổng công nghỉ có lương + nghỉ không lương + chấm công vượt quá 8h thì hệ thống cảnh báo. Người dùng thực hiện điều chỉnh dữ liệu chấm công hoặc điều chỉnh giờ làm việc phù hợp. 
 
-Ví dụ ngày thứ 2, theo lịch làm việc, tổng số giờ làm chuẩn là 8h. Nếu người dùng nhập dữ liệu chấm công ngày thứ 2 cho nhân viên có tổng công nghỉ có lương + nghỉ không lương + chấm công vượt quá 8h thì hệ thống cảnh báo. Người dùng thực hiện điều chỉnh dữ liệu chấm công hoặc điều chỉnh giờ làm việc phù hợp. 
-
-- "Tháng ... không có ngày ..."
-  - Nguyên nhân: Nhập thừa dữ liệu chấm công. Ví dụ tháng 6 chỉ có 30 ngày nhưng lại nhập cả dữ liệu chấm công của ngày 31.
-  - Xử lý: Xoá bỏ dữ liệu chấm công không hợp lệ, và import lại file.
+  - "Tháng ... không có ngày ..."
+    - Nguyên nhân: Nhập thừa dữ liệu chấm công. Ví dụ tháng 6 chỉ có 30 ngày nhưng lại nhập cả dữ liệu chấm công của ngày 31.
+    - Xử lý: Xoá bỏ dữ liệu chấm công không hợp lệ, và import lại file.
