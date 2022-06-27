@@ -136,12 +136,12 @@
 <li>The HR assistant exports necessary HR reports</li>
 </ul>
 <h3 id="process-flows">Process flows</h3>
+<!-- - Recruiting. More details [here](../../saas/saas/#bat-dau-su-dung-he-thong-vess) -->
 <ul>
-<li>Recruiting. More details <a href="../../saas/saas/#bat-dau-su-dung-he-thong-vess">here</a></li>
-<li>Creating accounts. More details <a href="#tao-tai-khoan">here</a></li>
-<li>Creating employee records. More details <a href="#them-moi-ho-so-nhan-vien">here</a>.</li>
-<li>Updating information in employee records. More details <a href="#cap-nhat-ho-so-nhan-vien">here</a>.</li>
-<li>Exporting HR reports. More details <a href="#xuat-cac-bao-cao-nhan-su">here</a></li>
+<li>Creating accounts. More details <a href="#creating-accounts">here</a></li>
+<li>Creating employee records. More details <a href="#creating-employee-records">here</a>.</li>
+<li>Updating information in employee records. More details <a href="#updating-employee-records">here</a>.</li>
+<li>Exporting HR reports. More details <a href="#exporting-hr-reports">here</a></li>
 </ul>
 <h2 id="creating-accounts">Creating accounts</h2>
 <p><strong>Procedure</strong></p>
@@ -150,10 +150,12 @@
 <p><strong>Step 2:</strong> Enter account information</p>
 <ul>
 <li>In <strong>User types</strong> select <strong>Internal User</strong></li>
-<li>In <strong>Human Resources&gt;Employees</strong> select:</li>
+<li>In <strong>Human Resources&gt;Employees</strong> select:<ul>
 <li><strong>Officer:</strong> If this account belongs to a HR assistant</li>
 <li><strong>Administrator:</strong> If this account belongs to the HR manager or a member of the Board of Directors</li>
 <li><strong>Empty:</strong> If this account belongs to a normal employee with no authorization in <strong>Employee</strong> module</li>
+</ul>
+</li>
 </ul>
 <p><strong>Note:</strong> In order to be able to use <strong>Employee</strong> module, an account must be properly authorized depending on the employee's job postion.</p>
 <p><strong>Step 3</strong>: After registering successfully, the employee needs to get login credentials from the mail address registered with the account. Use the credentials to log in to the system</p>
@@ -166,7 +168,9 @@
 <p><img alt="image-20211004104809471" src="../images/image-20211004104809471.png" /></p>
 <p>Enter information for an employee record:</p>
 <ul>
-<li>Personal information such as:</li>
+<li>
+<p>Personal information such as:</p>
+<ul>
 <li>Full name</li>
 <li>Gender</li>
 <li>Date of birth</li>
@@ -179,11 +183,17 @@
 <li>Religion</li>
 <li>Educational level</li>
 <li>...</li>
-<li>Job information:</li>
+</ul>
+</li>
+<li>
+<p>Job information:</p>
+<ul>
 <li>Job position</li>
 <li>Department/division</li>
 <li>Line manager</li>
 <li>Login account</li>
+</ul>
+</li>
 </ul>
 <p><img alt="image-20211004110010849" src="../images/image-20211004110010849.png" /></p>
 <p><strong>Note:</strong> The employee code will be automatically generated after an employee record is successfully created.</p>
@@ -242,7 +252,7 @@
 <p><strong>Step 1b:</strong> The HR assistant creates a new account for the employee in <strong>Settings&gt;Users &amp; Companies&gt;Companies</strong></p>
 <p>Select <strong>Create Employee</strong> to create a new employee record, enter information about job position, department/division and line manager of the employee, and click <strong>Save</strong></p>
 <p>The employee will need to log in to the system with the account created by the HR assistant to update his/her record. Data in the record will be reviewed by the HR assistant and the employee still can make changes to his/her record in the future.</p>
-<p><a href="#Bước 2">Return to <strong>Step 2</strong></a> to continue.</p>
+<p><a href="#step-2">Return to <strong>Step 2</strong></a> to continue.</p>
 <h2 id="updating-employee-records">Updating employee records</h2>
 <p>Throughout an employee's work history in the company, his/her record will have several changes about personal information, contracts, pay, achievements, ... These changes will all be recorded by the HR assistant in <strong>Employee</strong> module.</p>
 <h3 id="updating-employee-achievements">Updating employee achievements</h3>
@@ -298,20 +308,24 @@
 <p><strong>Step 2:</strong> In <strong>Resumé Page</strong> tab, select <strong>Edit&gt;CREATE A NEW ENTRY</strong>, update information about the employee's experience (outside of the company), certifications and skills that the employee has acquired when working for the company</p>
 <p><img alt="image-20211012084809495" src="../images/image-20211012084809495.png" /></p>
 <ul>
-<li>Experience: Experience before recruitment, degrees, certifications</li>
+<li>
+<p>Experience: Experience before recruitment, degrees, certifications</p>
+<ul>
 <li>Type: Experience, education (degrees) and certifications</li>
 <li>Start date</li>
-<li>
-<p>End date
-  <img alt="image-20211012092721317" src="../images/image-20211012092721317.png" /></p>
+<li>End date
+  <img alt="image-20211012092721317" src="../images/image-20211012092721317.png" /></li>
+</ul>
 </li>
 <li>
 <p>Skills: Hard skills and soft skills</p>
-</li>
+<ul>
 <li>Type: Categorized into types such as Music, Languages, Marketing, ...</li>
 <li>Skill: Particular skills in a type</li>
 <li>Level
   <img alt="image-20211012151320905" src="../images/image-20211012151320905.png" /></li>
+</ul>
+</li>
 </ul>
 <h3 id="updating-attendances">Updating attendances</h3>
 <p>Attendance records will be stored and synchronized in <strong>Time Off</strong> tab, including approved/declined/draft requests.</p>
@@ -370,23 +384,25 @@
 </li>
 <li>
 <p><strong>Procedure:</strong></p>
-</li>
-<li>
-<p>Select <strong>Employees</strong> &gt; <strong>Report</strong> &gt; The following screen will be displayed</p>
-</li>
+<ul>
+<li>Select <strong>Employees</strong> &gt; <strong>Report</strong> &gt; The following screen will be displayed</li>
 </ul>
 <p><img alt="image-20211209161442701" src="../images/image-20211209161442701.png" /></p>
 <ul>
 <li>Select a report &gt; Apply filter &gt; Click <strong>Preview</strong> to preview the report or click <strong>Export</strong> to download the report file. Below is an example of a report on the company's labor force structure.</li>
 </ul>
 <p><img alt="image-20211209161648833" src="../images/image-20211209161648833.png" /></p>
+</li>
+<li>
+<p><strong>Details of reports:</strong></p>
 <ul>
-<li><strong>Details of reports:</strong></li>
-<li><em>Report on labor force structure</em>: Shows statistics for labor force structure of each department/division in the company at a time selected by the user. Statistics depends on employees' work history.</li>
-<li><em>Report on labor utilization</em>: Shows labor utilization, changes in salary, number of labourers in a period.</li>
-<li><em>Report on department changes</em>: Shows changes about personnel of a department/division in a period selected by the user.</li>
-<li><em>Report on contract changes</em>: Shows employees of a department/division whose contracts have changed in the period selected by the user.</li>
-<li><em>Report on changes in the number of staff</em>: Show changes in the number of staff of a department/division in a period selected by the user.</li>
+<li><em>Report on labor force structure:</em> Shows statistics for labor force structure of each department/division in the company at a time selected by the user. Statistics depends on employees' work history.</li>
+<li><em>Report on labor utilization:</em> Shows labor utilization, changes in salary, number of labourers in a period.</li>
+<li><em>Report on department changes:</em> Shows changes about personnel of a department/division in a period selected by the user.</li>
+<li><em>Report on contract changes:</em> Shows employees of a department/division whose contracts have changed in the period selected by the user.</li>
+<li><em>Report on changes in the number of staff:</em> Show changes in the number of staff of a department/division in a period selected by the user.</li>
+</ul>
+</li>
 </ul>
               
             </div>
