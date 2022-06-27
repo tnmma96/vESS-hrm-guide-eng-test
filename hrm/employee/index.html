@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>Nhân viên - Hướng dẫn sử dụng hệ thống vESS</title>
+    <title>Managing employees - vESS Documentation</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
@@ -13,8 +13,8 @@
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Nh\u00e2n vi\u00ean";
-        var mkdocs_page_input_path = "hrm\\employee.md";
+        var mkdocs_page_name = "Managing employees";
+        var mkdocs_page_input_path = "hrm/employee.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -32,7 +32,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS
+          <a href="../.." class="icon icon-home"> vESS Documentation
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -42,239 +42,65 @@
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../..">Trang chủ</a>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Homepage</a>
                 </li>
               </ul>
-              <p class="caption"><span class="caption-text">Đăng ký, đăng nhập</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-login/">Đăng nhập, đăng xuất</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-QRcode/">Đăng nhập bằng QR code</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-DangNhapG/">Đăng nhập bằng G+</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-xac-thuc-hai-buoc/">Xác thực 2 bước</a>
-                  </li>
-              </ul>
-              <p class="caption"><span class="caption-text">Nhân sự</span></p>
+              <p class="caption"><span class="caption-text">Human Resource Management</span></p>
               <ul class="current">
-                  <li class="toctree-l1"><a class="reference internal" href="../introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../introduction/">Introduction to HRM module</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../initialization/">Thiết lập và khai báo ban đầu</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../master-datas/">Managing master data</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../abbreviations/">Các thuật ngữ và từ viết tắt</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../master-datas/">Khai báo danh mục</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../recruitment/">Tuyển dụng</a>
-                  </li>
-                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Nhân viên</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Managing employees</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#mo-ta-nghiep-vu">Mô tả nghiệp vụ</a>
+    <li class="toctree-l2"><a class="reference internal" href="#process-description">Process description</a>
         <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#quy-trinh-nghiep-vu">Quy trình nghiệp vụ</a>
+    <li class="toctree-l3"><a class="reference internal" href="#procedure">Procedure</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#luong-chuc-nang-chinh">Luồng chức năng chính</a>
+    <li class="toctree-l3"><a class="reference internal" href="#process-flows">Process flows</a>
     </li>
         </ul>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#tao-tai-khoan">Tạo tài khoản</a>
+    <li class="toctree-l2"><a class="reference internal" href="#creating-accounts">Creating accounts</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#them-moi-ho-so-nhan-vien">Thêm mới hồ sơ nhân viên</a>
+    <li class="toctree-l2"><a class="reference internal" href="#creating-employee-records">Creating employee records</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#cap-nhat-ho-so-nhan-vien">Cập nhật hồ sơ nhân viên</a>
+    <li class="toctree-l2"><a class="reference internal" href="#updating-employee-records">Updating employee records</a>
         <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#cap-nhat-thanh-tich-cua-nhan-vien">Cập nhật thành tích của nhân viên</a>
+    <li class="toctree-l3"><a class="reference internal" href="#updating-employee-achievements">Updating employee achievements</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#cac-quyet-inh-ieu-chuyen-bo-nhiem-mien-nhiem">Các quyết định điều chuyển, bổ nhiệm, miễn nhiệm</a>
+    <li class="toctree-l3"><a class="reference internal" href="#transfer-appointment-and-dismissal-decisions">Transfer, appointment and dismissal decisions</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#cac-quyet-inh-nang-luong">Các quyết định nâng lương</a>
+    <li class="toctree-l3"><a class="reference internal" href="#pay-raise-decisions">Pay raise decisions</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#qua-trinh-lam-viec-cong-tac-nghi-thai-san-nghi-dai-ngay">Quá trình làm việc, công tác, nghỉ thai sản, nghỉ dài ngày</a>
+    <li class="toctree-l3"><a class="reference internal" href="#work-history-business-travel-maternity-leaves-long-leaves">Work history, business travel, maternity leaves, long leaves</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#cap-nhat-giam-tru-gia-canh">Cập nhật giảm trừ gia cảnh</a>
+    <li class="toctree-l3"><a class="reference internal" href="#updating-family-allowances">Updating family allowances</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#cap-nhat-kinh-nghiem-va-ky-nang">Cập nhật kinh nghiệm và kỹ năng</a>
+    <li class="toctree-l3"><a class="reference internal" href="#updating-employee-experience-skills">Updating employee experience &amp; skills</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#cap-nhat-ang-ky-cong">Cập nhật đăng ký công</a>
+    <li class="toctree-l3"><a class="reference internal" href="#updating-attendances">Updating attendances</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#cap-nhat-hop-ong-qua-trinh-lam-viec-cua-nhan-vien">Cập nhật hợp đồng, quá trình làm việc của nhân viên</a>
+    <li class="toctree-l3"><a class="reference internal" href="#updating-contracts-and-work-history">Updating contracts and work history</a>
         <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#e-xuat-hop-ong">Đề xuất hợp đồng</a>
+    <li class="toctree-l4"><a class="reference internal" href="#proposing-contracts">Proposing contracts</a>
     </li>
-    <li class="toctree-l4"><a class="reference internal" href="#phe-duyettu-choi-hop-ong-uoc-e-xuat">Phê duyệt/Từ chối hợp đồng được đề xuất</a>
+    <li class="toctree-l4"><a class="reference internal" href="#approvingdeclining-proposed-contracts">Approving/Declining proposed contracts</a>
     </li>
-    <li class="toctree-l4"><a class="reference internal" href="#ket-thuc-hop-ong-nhan-vien-nghi-viec">Kết thúc hợp đồng (Nhân viên nghỉ việc)</a>
+    <li class="toctree-l4"><a class="reference internal" href="#contract-termination-voluntary">Contract termination (Voluntary)</a>
     </li>
         </ul>
     </li>
         </ul>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#xuat-cac-bao-cao-nhan-su">Xuất các báo cáo nhân sự</a>
+    <li class="toctree-l2"><a class="reference internal" href="#exporting-hr-reports">Exporting HR reports</a>
     </li>
     </ul>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../attendance/">Chấm công</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../attendance/">Managing attendances</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../payroll/">Tính lương</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../payroll/">Managing payroll</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../log-histories/">Lịch sử phát triển sản phẩm</a>
-                  </li>
-              </ul>
-              <p class="caption"><span class="caption-text">Kế toán - Dành cho doanh nghiệp</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc/">Khai báo danh mục</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-hoa-don-dien-tu/">Hóa đơn</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Tổng hợp</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ccdc/">Công cụ dụng cụ</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-giathanh/">Giá thành</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
-                  </li>
-              </ul>
-              <p class="caption"><span class="caption-text">Kế toán - Dành cho hộ, cá thể</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-introduction-88/">Giới thiệu về phân hệ Kế toán</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-initialization-88/">Thiết lập và khai báo ban đầu</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-abbreviations-88/">Các thuật ngữ và từ viết tắt</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-danh-muc-new-88/">Khai báo danh mục</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-tien-TM-88/">Quản lý tiền - Tiền mặt</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-tien-NH-88/">Quản lý tiền - Tiền gửi</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-mua-hang-88/">Mua hàng</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-ban-hang-88/">Bán hàng</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-hoa-don-dien-tu-88/">Hóa đơn điện tử</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-ke-toan-tong-hop-88/">Kế toán</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-kho-88/">Kho vận</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-thue-88/">Thuế</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-bao-cao-88/">Báo cáo</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-log-histories-88/">Lịch sử phát triển sản phẩm</a>
-                  </li>
-              </ul>
-              <p class="caption"><span class="caption-text">Tài liệu</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../../document/introduction/">Giới thiệu về ứng dụng Tài liệu</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../document/abbreviations/">Các thuật ngữ và từ viết tắt</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../document/initialization/">Thiết lập và khai báo ban đầu</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../document/document/">Tài liệu</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../document/Addon-Tailieu-mobile/">Quản lý tài liệu trên điện thoại</a>
-                  </li>
-              </ul>
-              <p class="caption"><span class="caption-text">Ký số</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../../esign/introduction/">Giới thiệu về ứng dụng Ký số</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../esign/initialization/">Thiết lập và khai báo ban đầu</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../esign/esign/">Ký số</a>
-                  </li>
-              </ul>
-              <p class="caption"><span class="caption-text">Digital workplace</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/dw-initialization/">Thiết lập và khai báo ban đầu</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Website/">Trang web</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Social/">Mạng xã hội</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-project/">Dự án</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-khao-sat/">Khảo sát</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-ghi-chu/">Ghi chú</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-timesheet/">Timesheet</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-su-kien/">Sự kiện</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-bua-an/">Bữa ăn</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-PheDuyet-Web/">Phê duyệt trên web</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-meeting/">Cuộc họp trực tuyến</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-KPI/">Chỉ số đo lường KPI</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-OKR/">Chỉ số đo lường OKR</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
-                  </li>
-              </ul>
-              <p class="caption"><span class="caption-text">vESS Mobile</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Gioi-thieu-vess-mobile/">Giới thiệu về vESS mobile</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-initialization/">Thiết lập và khai báo ban đầu</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-dang-nhap/">Đăng nhập</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon-phe-duyet/">Phê duyệt trên mobile</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon-ky-so/">Ký số</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon_BuaAn/">Bữa ăn</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon_DuAn/">Dự án</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon_Lich/">Lịch</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
-                  </li>
-              </ul>
-              <p class="caption"><span class="caption-text">vContract - Hợp đồng điện tử</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../../vContract/thiet-lap-luong-ky/">Thiết lập luồng ký hợp đồng</a>
-                  </li>
-              </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
-                </li>
               </ul>
       </div>
     </div>
@@ -283,14 +109,14 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+          <a href="../..">vESS Documentation</a>
         
       </nav>
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-          <li>Nhân sự &raquo;</li><li>Nhân viên</li>
+          <li>Human Resource Management &raquo;</li><li>Managing employees</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -300,271 +126,276 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="quan-ly-ho-so-nhan-vien">Quản lý hồ sơ nhân viên</h1>
-<h2 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h2>
-<h3 id="quy-trinh-nghiep-vu">Quy trình nghiệp vụ</h3>
+                <h1 id="managing-employee-records">Managing employee records</h1>
+<h2 id="process-description">Process description</h2>
+<h3 id="procedure">Procedure</h3>
 <ul>
-<li>Công ty có nhân sự mới, đã được Trưởng bộ phận quản lý nhân sự cùng Ban Giám đốc phê duyệt đồng ý tuyển dụng.</li>
-<li>Nhân viên nhân sự thực hiện việc chuyển trạng thái từ Ứng viên sang Nhân viên công ty.</li>
-<li>Nhân viên nhân sự thực hiện tạo tài khoản đăng nhập cho nhân viên mới, tạo hợp đồng, nhập các thông tin liên quan đến nhân sự mới.</li>
-<li>Nhân viên mới thực hiện quy trình Onboarding, cập nhật thông tin cá nhân vào ngày đầu làm việc.</li>
-<li>Nhân viên nhân sự kiểm tra và hoàn thiện hồ sơ nhân viên mới, thực hiện cập nhật thông tin trong quá trình làm việc của nhân viên.</li>
-<li>Cán bộ nhân sự kiểm tra, xuất các báo cáo nhân sự</li>
+<li>A new employee is recruited, being approved by the HR manager and the Board of Directors</li>
+<li>The HR assistant updates the employee's status from <em>Candidate</em> to <em>Employee</em></li>
+<li>The HR assistant creates an account for the employee with personal record and proposes a new contract</li>
+<li>Onboarding process is carried out, the new employee update his/her personal record</li>
+<li>The HR assistant reviews and completes the employee record, then updates his/her work history</li>
+<li>The HR assistant exports necessary HR reports</li>
 </ul>
-<h3 id="luong-chuc-nang-chinh">Luồng chức năng chính</h3>
+<h3 id="process-flows">Process flows</h3>
 <ul>
-<li>Tuyển dụng nhân viên mới. Chi tiết <a href="../../saas/saas/#bat-dau-su-dung-he-thong-vess">tại đây</a></li>
-<li>Tạo tài khoản đăng nhập. Chi tiết <a href="#tao-tai-khoan">tại đây</a></li>
-<li>Thêm mới hồ sơ nhân viên. Chi tiết <a href="#them-moi-ho-so-nhan-vien">tại đây</a>.</li>
-<li>Cập nhật thông tin trong quá trình làm việc của nhân viên. Chi tiết <a href="#cap-nhat-ho-so-nhan-vien">tại đây</a>.</li>
-<li>Xuất báo cáo nhân sự. Chi tiết <a href="#xuat-cac-bao-cao-nhan-su">tại đây</a></li>
+<li>Recruiting. More details <a href="../../saas/saas/#bat-dau-su-dung-he-thong-vess">here</a></li>
+<li>Creating accounts. More details <a href="#tao-tai-khoan">here</a></li>
+<li>Creating employee records. More details <a href="#them-moi-ho-so-nhan-vien">here</a>.</li>
+<li>Updating information in employee records. More details <a href="#cap-nhat-ho-so-nhan-vien">here</a>.</li>
+<li>Exporting HR reports. More details <a href="#xuat-cac-bao-cao-nhan-su">here</a></li>
 </ul>
-<h2 id="tao-tai-khoan">Tạo tài khoản</h2>
-<p><strong>Các bước thực hiện</strong></p>
-<p><strong>Bước 1:</strong> Vào phân hệ <strong>Thiết lập</strong>&gt;<strong>Người dùng &amp; công ty</strong>&gt;<strong>Người dùng</strong>.</p>
+<h2 id="creating-accounts">Creating accounts</h2>
+<p><strong>Procedure</strong></p>
+<p><strong>Step 1:</strong> Select <strong>Settings</strong>&gt;<strong>Users &amp; Companies</strong>&gt;<strong>Users</strong>.</p>
 <p><img alt="image-20211004094007844" src="../images/image-20211004094007844.png" /></p>
-<p><strong>Bước 2:</strong> Khai báo thông tin tài khoản đăng nhập</p>
+<p><strong>Step 2:</strong> Enter account information</p>
 <ul>
-<li>
-<p>Tại mục <strong>Loại người dùng</strong> chọn <strong>Người sử dụng nội bộ</strong></p>
-</li>
-<li>
-<p>Tại <strong>Nguồn lực nhân sự&gt;Nhân viên</strong> chọn:</p>
-</li>
-<li><strong>Cán bộ:</strong> Nếu tài khoản là của nhân viên quản lý nhân sự</li>
-<li><strong>Người quản trị:</strong> Nếu tài khoản là của trưởng phòng quản lý nhân sự hoặc Ban Giám đốc</li>
-<li><strong>Bỏ trống:</strong> Nếu tài khoản của nhân viên không có phận sự liên quan đến phân hệ Nhân viên.</li>
+<li>In <strong>User types</strong> select <strong>Internal User</strong></li>
+<li>In <strong>Human Resources&gt;Employees</strong> select:</li>
+<li><strong>Officer:</strong> If this account belongs to a HR assistant</li>
+<li><strong>Administrator:</strong> If this account belongs to the HR manager or a member of the Board of Directors</li>
+<li><strong>Empty:</strong> If this account belongs to a normal employee with no authorization in <strong>Employee</strong> module</li>
 </ul>
-<p><strong>Lưu ý:</strong> Để sử dụng được phân hệ Nhân viên, tài khoản đăng nhập vào hệ thống phải được cấp quyền truy cập, tùy thuộc vào vị trí công việc của nhân viên mà tài khoản đăng nhập của họ được gán quyền tương ứng.</p>
-<p><strong>Bước 3</strong>: Sau khi “Đăng ký sử dụng thành công”, khách hàng mở hòm thư được khai báo khi đăng ký để lấy thông tin tài khoản truy cập. Khách hàng sử dụng thông tin này để đăng nhập vào chương trình (hướng dẫn đăng ký tại đây)</p>
+<p><strong>Note:</strong> In order to be able to use <strong>Employee</strong> module, an account must be properly authorized depending on the employee's job postion.</p>
+<p><strong>Step 3</strong>: After registering successfully, the employee needs to get login credentials from the mail address registered with the account. Use the credentials to log in to the system</p>
 <p><img alt="image-20211105111512315" src="../images/image-20211105111512315.png" /></p>
-<p><strong>Bước 4</strong>: Chọn ứng dụng <strong>Nhân viên</strong>.</p>
+<p><strong>Step 4</strong>: Select <strong>Employees</strong> submodule.</p>
 <p><img alt="image-20211004094207988" src="../images/image-20211004094207988.png" /></p>
-<h2 id="them-moi-ho-so-nhan-vien">Thêm mới hồ sơ nhân viên</h2>
-<p><strong>Đối tượng thực hiện:</strong> Nhân viên nhân sự.</p>
-<p><strong>Bước 1:</strong> Nhân viên quản trị nhân lực vào phân hệ <strong>Nhân viên&gt;Tạo</strong></p>
+<h2 id="creating-employee-records">Creating employee records</h2>
+<p><strong>User:</strong> HR assistant.</p>
+<p><strong>Step 1:</strong> Select <strong>Employees&gt;Create</strong></p>
 <p><img alt="image-20211004104809471" src="../images/image-20211004104809471.png" /></p>
-<p>Sau đó thực hiện khai báo thông tin của nhân viên:</p>
+<p>Enter information for an employee record:</p>
 <ul>
-<li>Khai báo thông tin cá nhân cơ bản về nhân viên (căn cứ vào Sơ yếu lý lịch) như: họ tên, giới tính, ngày sinh, nơi sinh, nguyên quán, hộ khẩu thường trú, số CMND, ngày cấp, nơi cấp, trình trạng hôn nhân, dân tộc, tôn giáo, trình độ văn hóa, trình độ đào tạo, trường đào tạo…</li>
-<li>Khai báo thông tin công việc của nhân viên: chức danh, phòng ban, người quản lý, tài khoản đăng nhập của nhân viên.  </li>
+<li>Personal information such as:</li>
+<li>Full name</li>
+<li>Gender</li>
+<li>Date of birth</li>
+<li>Place of birth</li>
+<li>Place of origin</li>
+<li>Place of permanent residence</li>
+<li>National ID: date of issue, place of issue</li>
+<li>Marital status</li>
+<li>Ethnicity</li>
+<li>Religion</li>
+<li>Educational level</li>
+<li>...</li>
+<li>Job information:</li>
+<li>Job position</li>
+<li>Department/division</li>
+<li>Line manager</li>
+<li>Login account</li>
 </ul>
 <p><img alt="image-20211004110010849" src="../images/image-20211004110010849.png" /></p>
-<p><strong>Lưu ý :</strong> Mã nhân viên sẽ được hệ thống tự sinh sau khi người dùng hoàn thành thao tác thêm mới hồ sơ nhân viên.</p>
-<p><strong>Hướng dẫn nhập nhiều bản ghi:</strong> </p>
-<p>Trong trường hợp người dùng muốn thực hiện nhập nhiều nhân viên thì sử dụng tính năng "Thêm bản ghi" trên hệ thống. Các bước thực hiện như sau:</p>
+<p><strong>Note:</strong> The employee code will be automatically generated after an employee record is successfully created.</p>
+<p><strong>Updating multiple records:</strong></p>
+<p>The <strong>Import records</strong> allows updating multiple employee records at the same time. The procedure is as follows:</p>
 <ul>
-<li>Vào menu Nhân viên &gt;&gt; Nhân viên: Hệ thống hiển thị màn hình danh sách nhân viên. Người dùng chọn <img alt="image-20211105112344388" src="../images/image-20211105112344388.png" /> Yêu thích &gt;&gt; Thêm bản ghi </li>
+<li>Select <strong>Employees</strong> module &gt; <strong>Employees</strong> tab: A list of employees will be displayed. Select <img alt="image-20211105112344388" src="../images/image-20211105112344388.png" /> <strong>Favorites</strong> &gt; <strong>Import records</strong>
+  <img alt="image-20211105112114225" src="../images/image-20211105112114225.png" /></li>
+<li>Click <strong>Import Template for Employees</strong> to download the template for data entry <img alt="image-20211105112814203" src="../images/image-20211105112814203.png" /></li>
+<li>Enter employee data into this template. <img alt="image-20211105113013152" src="../images/image-20211105113013152.png" /></li>
+<li>Click <img alt="image-20211105113059867" src="../images/image-20211105113059867.png" /> &gt;&gt; the following screen will be displayed <img alt="image-20211105113404324" src="../images/image-20211105113404324.png" /> In this screen, the HR assistant can review the input data and perform data validation by clicking <strong>Test</strong> &gt;&gt; Errors will appear if there is something wrong with the input data &gt;&gt; The HR assistant needs to correct these errors in the template then click <img alt="image-20211105113554792" src="../images/image-20211105113554792.png" /> to reupload the file &gt;&gt; Continue clicking <strong>Test</strong> and correcting the file until this notification <img alt="image-20211105113827486" src="../images/image-20211105113827486.png" /> shows up.</li>
+<li>Click <img alt="image-20211105113858786" src="../images/image-20211105113858786.png" /> to import all data to the system &gt;&gt; This notification <strong>Thêm bản ghi thành công</strong> will be displayed</li>
 </ul>
-<p><img alt="image-20211105112114225" src="../images/image-20211105112114225.png" /> </p>
-<ul>
-<li>Tại đây, người dùng bấm "Tải biểu mẫu danh sách nhân viên" để tải xuống file mẫu nhập dữ liệu <img alt="image-20211105112814203" src="../images/image-20211105112814203.png" /></li>
-<li>Người dùng nhập dữ liệu thông tin nhân viên vào file excel. <img alt="image-20211105113013152" src="../images/image-20211105113013152.png" /></li>
-<li>Trên giao diện phần mềm, người dùng bấm nút <img alt="image-20211105113059867" src="../images/image-20211105113059867.png" /> &gt;&gt; hệ thống hiển thị màn hình như sau <img alt="image-20211105113404324" src="../images/image-20211105113404324.png" /> Tại đây người dùng kiểm tra thông tin dữ liệu, và bấm nút <strong>Kiểm thử</strong> để hệ thống kiểm tra dữ liệu trước khi nhập &gt;&gt; Hệ thống tự động kiểm tra và thông báo kết quả lỗi dữ liệu lên màn hình &gt;&gt; Người dùng đọc thông báo và điều chỉnh dữ liệu trên file excel để chính xác, sau đó bấm <img alt="image-20211105113554792" src="../images/image-20211105113554792.png" /> để tải lại file sau khi chỉnh sửa dữ liệu &gt;&gt; Tiếp tục bấm <strong>Kiểm thử</strong> để kiểm tra cho đến khi kết quả hệ thống kiểm tra thông báo là <img alt="image-20211105113827486" src="../images/image-20211105113827486.png" /> </li>
-<li>Người dùng bấm nút <img alt="image-20211105113858786" src="../images/image-20211105113858786.png" /> để thực hiện nạp dữ liệu vào hệ thống &gt;&gt; Hệ thống ghi nhận dữ liệu và hiển thị thông báo Thêm bản ghi thành công</li>
-</ul>
-<p><strong>Bước 2:</strong> Tại tab <strong>Hợp đồng</strong>, người dùng chọn <strong>Tạo</strong> để thêm mới hợp đồng cho nhân viên. Hợp đồng sau khi tạo và duyệt tại đây sẽ được tự động sinh dữ liệu ở tab <strong>Quá trình làm việc</strong></p>
+<p><strong>Step 2:</strong> In <strong>Contracts</strong> tab, select <strong>Create</strong> to create new contracts for employees. New contracts after being created and approved will be added to <strong>Job History</strong> tab</p>
 <p><img alt="image-20211105114155943" src="../images/image-20211105114155943.png" /></p>
-<p>Nhân viên mới sau khi được thêm sẽ được sinh dữ liệu tại màn hình Hợp đồng, trạng thái là <strong>Chưa có</strong>, nhân viên nhân sự chọn <strong>Đề xuất</strong>, hệ thống chuyển đến màn hình tạo hợp đồng mới.</p>
+<p>A new employee will be created without a contract, so the HR assistant needs to select <strong>Propose</strong> to propose a new contract for that employee.</p>
 <p><img alt="image-20210930171009027" src="../images/image-20210930171009027.png" /></p>
 <ul>
 <li>
-<p>Tại mục <strong>Nhân viên</strong> chọn nhân viên cần tạo hợp đồng, sau khi chọn nhân viên, hệ thống sẽ tự động lấy các thông tin đi kèm của nhân viên như <strong>Chức vụ, Phòng ban</strong></p>
+<p>In <strong>Employees</strong>, select an employee to create contracts, information such as the employee's job position or department will be automatically imported</p>
 </li>
 <li>
-<p>Tại phần <strong>Thông tin hợp đồng</strong>, nhập các thông tin về hợp đồng với nhân viên đó, các thông tin về lương và bảo hiểm nhập tại phần <strong>Thông tin hợp đồng</strong></p>
+<p>In <strong>Contract Infos</strong> section, enter contract information for the employee, and enter information about position salary and base salary in <strong>Salaries Info</strong> section</p>
 </li>
 <li>
-<p>Hợp đồng sau khi tạo và duyệt tại đây sẽ được tự động sinh dữ liệu ở tab <strong>Quá trình làm việc</strong></p>
+<p>Contracts after being created and approved will be displayed in <strong>Job History</strong> tab</p>
 </li>
 </ul>
-<p><strong>Bước 3:</strong> Khai báo thông tin về gia đình tại tab <strong>Quan hệ gia đình</strong> và <strong>Giảm trừ gia cảnh</strong></p>
+<p><strong>Step 3:</strong> Enter family information in <strong>Family Information</strong> and <strong>Family Allowances</strong> tabs</p>
 <ul>
-<li>Tại tab <strong>Quan hệ gia đình</strong> , cho phép khai báo thông tin những người thân của nhân viên. Đồng thời theo dõi được những đối tượng thuộc diện giảm trừ gia cảnh của nhân viên để phục vụ cho công tác tạm tính thuế TNCN hàng tháng của nhân viên.</li>
+<li>In <strong>Family Information</strong> tab, enter information about the employee's family members. A family member can be registered as a dependent for PIT deduction.
+  Select <strong>Add a line</strong> and enter family information for the employee</li>
 </ul>
-<p>Người dùng chọn <strong>Thêm một dòng</strong>, và thực hiện khai báo thông tin</p>
 <p><img alt="image-20210930141358725" src="../images/image-20210930141358725.png" /></p>
-<p>​       Sau khi người dùng chọn <strong>Lưu</strong>, các thông tin này được lưu và sẽ được sử dụng tiếp tại tab <strong>Giảm trừ gia cảnh</strong></p>
+<p>Information about the employee's family members will also be used in <strong>Family Allowances</strong> tab.</p>
 <ul>
-<li>Tại tab <strong>Giảm trừ gia cảnh</strong>, người dùng bấm <strong>Sửa&gt;Thêm một dòng</strong>, để thêm người phụ thuộc, người sử dụng chọn dữ liệu có sẵn đã được khai báo trước đó trong thanh dữ liệu. </li>
+<li>In <strong>Family Allowances</strong> tab, select <strong>Edit&gt;Add a line</strong> to register a dependent. A dependent has to be one of the previously created family members.</li>
 </ul>
 <p><img alt="image-20210930142133256" src="../images/image-20210930142133256.png" /></p>
-<p><strong>Bước 4:</strong> Khai báo các khoản phụ cấp mà nhân viên có thể được nhận trong quá trình công tác tại Công ty. Nếu không có phụ cấp, nhân viên nhân sự có thể bỏ trống không nhập dữ liệu</p>
+<p><strong>Step 4:</strong> Enter the allowances that the employee is eligible for in their job, if any</p>
 <ul>
-<li>Tại tab <strong>Phụ cấp</strong>, người dùng bấm <strong>Sửa&gt;Thêm một dòng</strong>, khai báo các khoản phụ cấp và khoảng thời gian nhân viên được nhận phụ cấp.</li>
+<li>In <strong>Allowances</strong> tab, select <strong>Edit&gt;Add a line</strong>, create allowances and the periods in which the employee is eligible for each respective allowance.</li>
 </ul>
 <p><img alt="image-20210930142357301" src="../images/image-20210930142357301.png" /></p>
-<p><strong>Lưu ý:</strong> Một nhân viên trong một quá trình có thể được nhận nhiều loại phụ cấp, tuy nhiên, một loại phụ cấp không được trùng lặp quá trình. </p>
+<p><strong>Note:</strong> An employee is eligible for several allowances in a period, however, the periods of a particular type of an allowance must not overlap.</p>
 <ul>
-<li>Ví dụ: Nhân viên được nhận phụ cấp điện thoại từ ngày 01/01/2021 - 31/12/2021 là 120.000 VNĐ, thì trong khoảng thời gian này nhân viên có thể nhận phụ cấp khác (ăn trưa, xăng xe, nhà ở) nhưng không được nhận thêm khoản phụ cấp điện thoại nào nữa. </li>
+<li>Example: An employee is eligible for a mobile allowance of 120.000 VND from 01/01/2021 to 31/12/2021, he/she can still be eligible for other allowances such as lunch/fuel/housing allowances, but he/she won't be eligible for another mobile allowance.</li>
 </ul>
-<p><strong>Bước 5:</strong> Khai báo thông tin liên quan đến BHXH tại tab <strong>Thông tin BHXH</strong></p>
-<p>Người dùng bấm <strong>Sửa&gt;Thêm một dòng</strong>, khai báo các thông tin lương BHXH của nhân viên</p>
+<p><strong>Step 5:</strong> Enter information about social insurance in <strong>Insurance Infos</strong> tab</p>
+<p>Click <strong>Edit&gt;Add a line</strong>, enter information about the employee's base salary</p>
 <p><img alt="image-20210930151214083" src="../images/image-20210930151214083.png" /></p>
-<p>Hệ thống tự động tính ra khoản NSDLD đóng cho nhân viên và NLD đóng, các trường thông tin này có thể được cập nhật trong quá trình nhân viên làm việc có sự biến đổi về mức lương cơ bản bằng cách chọn <strong>Thêm một dòng</strong>.</p>
-<p>Sau khi hoàn thiện, người dùng bấm <strong>Lưu</strong> để hệ thống lưu lại toàn bộ dữ liệu về nhân viên đã được khai báo.</p>
-<p>Với doanh nghiệp có sử dụng nền tảng Digital Workplace, việc tạo hồ sơ nhân viên sẽ nhanh hơn, chuẩn xác nếu các thông tin cá nhân do chính nhân viên tự nhập thông qua điện thoại thông minh. </p>
-<p>Nhân viên chủ động nhập hồ sơ của mình, thì làm theo <strong>Bước 1b</strong></p>
-<p><strong>Bước 1b:</strong> Nhân viên quản trị nhân lực vào phân hệ <strong>Thiết lập&gt;Người dùng &amp; công ty&gt;Công ty</strong> để tạo tài khoản đăng nhập cho nhân viên mới, cách làm tương tự như <strong>Tạo tài khoản</strong> </p>
-<p>Nhân viên nhân sự tiếp tục chọn <strong>Tạo nhân viên</strong> để thực hiện tạo mới một hồ sơ nhân viên trên hệ thống, nhập các thông tin về chức vụ, phòng/ban, người quản lý của nhân viên mới và bấm <strong>Lưu</strong></p>
-<p>Đến đây, nhân viên sẽ dùng tài khoản được cấp, và thực hiện đăng nhập lên phần mềm VESS trên điện thoại, và thực hiện nhập các thông tin cá nhân của mình. Sau khi nhân viên ấn <strong>Cập nhật</strong> hệ thống sẽ tự động đồng bộ vào hồ sơ nhân viên. Các dữ liệu này sẽ được nhân viên nhân sự kiểm tra và có thể chỉnh sửa nếu sau này nhân viên có nhu cầu thay đổi về thông tin cá nhân.</p>
-<p>Các bước tiếp theo vui lòng <a href="#Bước 2">quay lại <strong>Bước 2</strong></a></p>
-<h2 id="cap-nhat-ho-so-nhan-vien">Cập nhật hồ sơ nhân viên</h2>
-<p>Trong quá trình công tác tại Công ty, nhân viên sẽ có các thông tin thay đổi và cần cập nhật trên hệ thống như biến động về Thông tin cá nhân, Hợp đồng, Lương, Thành tích, Quá trình làm việc. Những sự thay đổi này đều được nhân viên nhân sự ghi lại bằng cách cập nhật thông tin hồ sơ nhân viên trong phân hệ Nhân viên.</p>
-<h3 id="cap-nhat-thanh-tich-cua-nhan-vien">Cập nhật thành tích của nhân viên</h3>
-<p><strong>Đối tượng thực hiện</strong>: Nhân viên nhân sự</p>
-<p><strong>Các bước thực hiện</strong></p>
-<p><strong>Bước 1:</strong> Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình <strong>Danh sách nhân viên</strong></p>
-<p><strong>Bước 2:</strong> Tại tab <strong>Thành tích</strong> chọn <strong>Sửa&gt;Thêm một dòng</strong>, thực hiện cập nhật thông tin thành tích mà nhân viên đó đã đạt được trong quá trình công tác.</p>
+<p>The amount of social insurance contributions that the employer and the employee need to make will be automatically calculated. This can be changed by selecting <strong>Add a line</strong>.</p>
+<p>Click <strong>Save</strong> after finishing entering information.</p>
+<p>The <strong>Digital Workplace</strong> module allows employees to update their records themselves via a smartphone app, making it easier for the work of HR assistants.</p>
+<p>If employees are allowed to edit their records, follow <strong>Step 1b</strong></p>
+<p><strong>Step 1b:</strong> The HR assistant creates a new account for the employee in <strong>Settings&gt;Users &amp; Companies&gt;Companies</strong></p>
+<p>Select <strong>Create Employee</strong> to create a new employee record, enter information about job position, department/division and line manager of the employee, and click <strong>Save</strong></p>
+<p>The employee will need to log in to the system with the account created by the HR assistant to update his/her record. Data in the record will be reviewed by the HR assistant and the employee still can make changes to his/her record in the future.</p>
+<p><a href="#Bước 2">Return to <strong>Step 2</strong></a> to continue.</p>
+<h2 id="updating-employee-records">Updating employee records</h2>
+<p>Throughout an employee's work history in the company, his/her record will have several changes about personal information, contracts, pay, achievements, ... These changes will all be recorded by the HR assistant in <strong>Employee</strong> module.</p>
+<h3 id="updating-employee-achievements">Updating employee achievements</h3>
+<p><strong>User</strong>: HR assistant</p>
+<p><strong>Procedure</strong></p>
+<p><strong>Step 1:</strong> Search for an employee in <strong>List of employee</strong> screen</p>
+<p><strong>Step 2:</strong> In <strong>Achievement</strong> tab, select <strong>Edit&gt;Add a line</strong>, and update the employee's achievements in his/her job.</p>
 <p><img alt="image-20210930165959740" src="../images/image-20210930165959740.png" /></p>
-<h3 id="cac-quyet-inh-ieu-chuyen-bo-nhiem-mien-nhiem">Các quyết định điều chuyển, bổ nhiệm, miễn nhiệm</h3>
-<p><strong>Đối tượng thực hiện</strong>: Nhân viên nhân sự</p>
-<p><strong>Các bước thực hiện</strong></p>
-<p><strong>Bước 1:</strong> Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình <strong>Danh sách nhân viên</strong></p>
-<p><strong>Bước 2:</strong> Tại tab <strong>Quá trình làm việc</strong> chọn <strong>Sửa&gt;Thêm mới</strong>, thực hiện cập nhật thông tin về sự thay đổi về chức danh của nhân viên trong quá trình làm việc như: Bổ nhiệm, Miễn nhiệm, Điều chuyển, Tiếp nhận</p>
+<h3 id="transfer-appointment-and-dismissal-decisions">Transfer, appointment and dismissal decisions</h3>
+<p><strong>User</strong>: HR assistant</p>
+<p><strong>Procedure</strong></p>
+<p><strong>Step 1:</strong> Search for an employee in <strong>List of employee</strong> screen</p>
+<p><strong>Step 2:</strong> In <strong>Job History</strong> tab, select <strong>Edit&gt;ADD</strong>, update information about position changes of the employee such as: Appointment, dismissal, transfer, reception</p>
 <ul>
-<li>Bổ nhiệm: Nhân viên nhân sự được phép thay đổi thông tin về Chức danh - đơn vị</li>
-<li>Tiếp nhận: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng</li>
-<li>Điều chuyển: Nhân viên nhân sự được phép thay đổi thông tin về Chức danh - đơn vị, Lương và bảo hiểm</li>
+<li>Appointment: Information about job position and department can be changed</li>
+<li>Reception: Information about contracts is NOT to be changed</li>
+<li>Transfer: Information about job position, department, position salary and base salary can be changed</li>
 </ul>
 <p><img alt="image-20211013092111929" src="../images/image-20211013092111929.png" /></p>
-<h3 id="cac-quyet-inh-nang-luong">Các quyết định nâng lương</h3>
-<p><strong>Đối tượng thực hiện</strong>: Nhân viên nhân sự</p>
-<p><strong>Các bước thực hiện</strong></p>
-<p><strong>Bước 1:</strong> Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình <strong>Danh sách nhân viên</strong></p>
-<p><strong>Bước 2:</strong> Tại tab <strong>Quá trình làm việc</strong> chọn <strong>Sửa&gt;Thêm mới</strong>, thực hiện cập nhật thông tin về lương của nhân viên như: Nâng lương hàng kỳ, Nâng lương đột xuất, Nâng lương bảo hiểm.</p>
+<h3 id="pay-raise-decisions">Pay raise decisions</h3>
+<p><strong>User</strong>: HR assistant</p>
+<p><strong>Procedure</strong></p>
+<p><strong>Step 1:</strong> Search for an employee in <strong>List of employee</strong> screen</p>
+<p><strong>Step 2:</strong> In <strong>Job History</strong> tab, select <strong>Edit&gt;ADD</strong>, update information about pay such as: Periodical pay raise, unexpected pay raise, base salary raise.</p>
 <ul>
-<li>Nâng lương hàng kỳ: Nhân viên nhân sự được phép thay đổi thông tin về Lương và bảo hiểm</li>
-<li>Nâng lương đột xuất: Nhân viên nhân sự được phép thay đổi thông tin về Lương và bảo hiểm</li>
-<li>Nâng lương bảo hiểm: Nhân viên nhân sự được phép thay đổi thông tin về Lương và bảo hiểm</li>
+<li>Periodical pay raise: Information about position pay and base salary can be changed</li>
+<li>Unexpected pay raise: Information about position pay and base salary can be changed</li>
+<li>Base salary raise: Information about position pay and base salary can be changed</li>
 </ul>
 <p><img alt="image-20211013092208148" src="../images/image-20211013092208148.png" /></p>
-<h3 id="qua-trinh-lam-viec-cong-tac-nghi-thai-san-nghi-dai-ngay">Quá trình làm việc, công tác, nghỉ thai sản, nghỉ dài ngày</h3>
-<p><strong>Đối tượng thực hiện</strong>: Nhân viên nhân sự</p>
-<p><strong>Các bước thực hiện</strong></p>
-<p><strong>Bước 1:</strong> Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình <strong>Danh sách nhân viên</strong></p>
-<p><strong>Bước 2:</strong> Tại tab <strong>Quá trình làm việc</strong> chọn <strong>Sửa&gt;Thêm mới</strong>, thực hiện cập nhật thông tin về quá trình nghỉ dài ngày của nhân viên như: Nghỉ thai sản, Nghỉ ốm dài ngày, Nghỉ chờ hưu, Nghỉ tạm hoãn hợp đồng</p>
+<h3 id="work-history-business-travel-maternity-leaves-long-leaves">Work history, business travel, maternity leaves, long leaves</h3>
+<p><strong>User</strong>: HR assistant</p>
+<p><strong>Procedure</strong></p>
+<p><strong>Step 1:</strong> Search for an employee in <strong>List of employee</strong> screen</p>
+<p><strong>Step 2:</strong> In <strong>Job History</strong> tab, select <strong>Edit&gt;ADD</strong>, update information about the employee's long leaves such as: Maternity leaves, long sick leaves, pre-retirement leaves, temporary contract suspensions.</p>
 <ul>
-<li>Nghỉ thai sản: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng</li>
-<li>Nghỉ ốm dài ngày: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng</li>
-<li>Nghỉ chờ hưu: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng</li>
-<li>Nghỉ tạm hoãn hợp đồng: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng</li>
+<li>Maternity leaves: Information about contracts is NOT to be changed</li>
+<li>Long sick leaves: Information about contracts is NOT to be changed</li>
+<li>Pre-retirement leaves: Information about contracts is NOT to be changed</li>
+<li>Temporary contract suspensions: Information about contracts is NOT to be changed</li>
 </ul>
 <p><img alt="image-20211013092456703" src="../images/image-20211013092456703.png" /></p>
-<h3 id="cap-nhat-giam-tru-gia-canh">Cập nhật giảm trừ gia cảnh</h3>
-<p><strong>Đối tượng thực hiện</strong>: Nhân viên nhân sự</p>
-<p><strong>Các bước thực hiện</strong></p>
-<p><strong>Bước 1:</strong> Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình <strong>Danh sách nhân viên</strong></p>
-<p>Bước 2: Tại tab <strong>Giảm trừ gia cảnh</strong> chọn <strong>Sửa&gt;Thêm một dòng</strong>, thực hiện thay đổi thông tin người phụ thuộc của nhân viên</p>
+<h3 id="updating-family-allowances">Updating family allowances</h3>
+<p><strong>User</strong>: HR assistant</p>
+<p><strong>Procedure</strong></p>
+<p><strong>Step 1:</strong> Search for an employee in <strong>List of employee</strong></p>
+<p><strong>Step 2:</strong> In <strong>Family Allowance</strong> tab, select <strong>Edit&gt;Add a line</strong> and update information about the employee's dependents</p>
 <p><img alt="image-20210930142133256" src="../images/image-20210930142133256.png" /></p>
-<h3 id="cap-nhat-kinh-nghiem-va-ky-nang">Cập nhật kinh nghiệm và kỹ năng</h3>
-<p><strong>Đối tượng thực hiện</strong>: Nhân viên nhân sự</p>
-<p><strong>Các bước thực hiện</strong></p>
-<p><strong>Bước 1:</strong> Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình <strong>Danh sách nhân viên</strong></p>
-<p><strong>Bước 2:</strong> Tại tab <strong>Kinh nghiệm và kỹ năng</strong> chọn <strong>Sửa&gt;Thêm mới</strong>, thực hiện cập nhật thông tin về kinh nghiệm (ngoài công ty), chứng chỉ mà nhân viên đã đạt được trong quá trình làm việc, các kỹ năng bên cạnh kỹ năng liên quan đến công việc mà còn kỹ năng mềm của nhân viên</p>
+<h3 id="updating-employee-experience-skills">Updating employee experience &amp; skills</h3>
+<p><strong>User</strong>: HR assistant</p>
+<p><strong>Procedure</strong></p>
+<p><strong>Step 1:</strong> Search for an employee in <strong>List of employee</strong></p>
+<p><strong>Step 2:</strong> In <strong>Resumé Page</strong> tab, select <strong>Edit&gt;CREATE A NEW ENTRY</strong>, update information about the employee's experience (outside of the company), certifications and skills that the employee has acquired when working for the company</p>
 <p><img alt="image-20211012084809495" src="../images/image-20211012084809495.png" /></p>
 <ul>
+<li>Experience: Experience before recruitment, degrees, certifications</li>
+<li>Type: Experience, education (degrees) and certifications</li>
+<li>Start date</li>
 <li>
-<p>Kinh nghiệm: lưu trữ các thông tin về kinh nghiệm trước khi được tuyển dụng vào công ty, nhân viên đã học qua trường, chứng chỉ, đạt được bằng cấp nào.</p>
+<p>End date
+  <img alt="image-20211012092721317" src="../images/image-20211012092721317.png" /></p>
 </li>
 <li>
-<p>Loại: gồm có 3 loại Kinh nghiệm (Experiance), Trình độ (Education), Chứng chỉ (Certification)</p>
+<p>Skills: Hard skills and soft skills</p>
 </li>
-<li>Ngày bắt đầu: ngày bắt đầu làm việc/học tập</li>
-<li>Ngày kết thúc: ngày kết thúc làm việc/học tập</li>
+<li>Type: Categorized into types such as Music, Languages, Marketing, ...</li>
+<li>Skill: Particular skills in a type</li>
+<li>Level
+  <img alt="image-20211012151320905" src="../images/image-20211012151320905.png" /></li>
 </ul>
-<p><img alt="image-20211012092721317" src="../images/image-20211012092721317.png" /></p>
-<ul>
-<li>Kỹ năng: lưu trữ thông tin về kỹ năng phục vụ cho công việc, kỹ năng mềm (hát, đàn, ngoại ngữ)</li>
-</ul>
-<p><img alt="image-20211012151320905" src="../images/image-20211012151320905.png" /></p>
-<ul>
-<li>Loại kỹ năng: các nhóm loại kỹ năng về Âm nhạc, Ngoại ngữ, Marketing, .....</li>
-<li>Kỹ năng: tên kỹ năng </li>
-<li>Cấp kỹ năng: lựa chọn cấp kỹ năng </li>
-</ul>
-<h3 id="cap-nhat-ang-ky-cong">Cập nhật đăng ký công</h3>
-<p>Các đăng ký công (xin nghỉ phép, tăng ca, nghỉ việc riêng, nghỉ không lương,...) của nhân viên thực hiện đăng ký trên điện thoại cá nhân sẽ được đồng bộ và ghi lại trong tab Đăng ký công, kể cả các đơn được duyệt, bị từ chối, đơn nháp.</p>
+<h3 id="updating-attendances">Updating attendances</h3>
+<p>Attendance records will be stored and synchronized in <strong>Time Off</strong> tab, including approved/declined/draft requests.</p>
 <p><img alt="image-20211012152217781" src="../images/image-20211012152217781.png" /></p>
-<h3 id="cap-nhat-hop-ong-qua-trinh-lam-viec-cua-nhan-vien">Cập nhật hợp đồng, quá trình làm việc của nhân viên</h3>
-<p>Nhân viên ký hợp đồng có thời hạn trước khi đến hạn kết thúc hợp đồng cũ, hệ thống sẽ đưa ra cảnh báo các hợp đồng sắp hết hạn để nhân viên nhân sự thực hiện đề xuất hợp đồng lên cấp trên nếu nhân viên có ý định ký tiếp hợp đồng với công ty.</p>
-<p>​       <strong>Quy trình nghiệp vụ:</strong></p>
+<h3 id="updating-contracts-and-work-history">Updating contracts and work history</h3>
+<p>When an employee's contract is reaching its end date, the system will send notices to the employee so that another contract can be proposed should he/she want to continue working for the company.</p>
+<p>​<strong>Procedure:</strong></p>
 <ul>
-<li>Nhân viên có hợp đồng sắp đến ngày hết hạn, nhân viên nhân sự sẽ thực hiện đề xuất hợp đồng.</li>
-<li>Trưởng phòng nhân sự vào thực hiện phê duyệt/từ chối hợp đồng đề xuất. Sau khi hợp đồng được phê duyệt, dữ liệu sẽ được cập nhật vào quá trình làm việc của nhân viên.</li>
-<li>Nhân viên không muốn ký tiếp hợp đồng với công ty hoặc nhân viên có hợp đồng vô thời hạn muốn nghỉ việc, nhân viên nhân sự thực hiện cập nhật trạng thái là nghỉ việc.</li>
+<li>The HR assistant will propose another contract for an employee whose contract is expiring.</li>
+<li>The HR manager approves/declines the proposed contracts. If the contract is approved, it will be update into the employee's work history.</li>
+<li>If the employee wants to stop working for the company, the HR assistant needs to update the employee's work status to <strong>Departed</strong></li>
 </ul>
-<h4 id="e-xuat-hop-ong">Đề xuất hợp đồng</h4>
-<p><strong>Đối tượng thực hiện</strong>: Nhân viên nhân sự</p>
-<p><strong>Bước 1:</strong> Vào phân hệ <strong>Nhân viên&gt;Cảnh báo hợp đồng</strong></p>
+<h4 id="proposing-contracts">Proposing contracts</h4>
+<p><strong>User</strong>: HR assistant</p>
+<p><strong>Step 1:</strong> Select <strong>Employees&gt;Contract alerts</strong></p>
 <p><img alt="cảnh báo hợp đồng" src="../images/c%E1%BA%A3nh%20b%C3%A1o%20h%E1%BB%A3p%20%C4%91%E1%BB%93ng.png" /></p>
-<p><strong>Bước 2:</strong> Tại đây hệ thống sẽ hiển thị toàn bộ danh sách các nhân viên chưa có hợp đồng hoặc hợp đồng sắp đến hạn kết thúc hợp đồng hiện tại. </p>
+<p><strong>Step 2:</strong> A list of employees without contracts or with expiring contracts will be displayed here.</p>
 <p><img alt="image-20210930170508173" src="../images/image-20210930170508173.png" /></p>
 <ul>
-<li>Nhân viên nhân sự thực hiện đề xuất hợp đồng mới, bằng cách chọn nút <strong>Đề xuất</strong>. </li>
+<li>Click <strong>Propose</strong> to propose new contracts.</li>
 </ul>
 <p><img alt="image-20210930171439795" src="../images/image-20210930171439795.png" /></p>
 <ul>
-<li>Hợp đồng sau khi Lưu sẽ chuyển sang trạng thái <strong>Mới</strong>, chờ Trưởng phòng nhân sự vào duyệt.</li>
+<li>New contracts are created, awaiting approval from the HR manager</li>
 </ul>
-<h4 id="phe-duyettu-choi-hop-ong-uoc-e-xuat">Phê duyệt/Từ chối hợp đồng được đề xuất</h4>
-<p><strong>Đối tượng thực hiện:</strong> Trưởng phòng nhân sự</p>
-<p><strong>Các bước thực hiện</strong></p>
-<p><strong>Bước 1:</strong> Đăng nhập hệ thống, vào phân hệ <strong>Nhân viên&gt;Hợp đồng</strong></p>
+<h4 id="approvingdeclining-proposed-contracts">Approving/Declining proposed contracts</h4>
+<p><strong>User:</strong> HR manager</p>
+<p><strong>Procedure</strong></p>
+<p><strong>Step 1:</strong> Log in to the system, select <strong>Employees&gt;Contracts</strong></p>
 <p><img alt="image-20210930173425088" src="../images/image-20210930173425088.png" /></p>
-<p><strong>Bước 2:</strong> </p>
+<p><strong>Step 2:</strong></p>
 <ul>
-<li>Tại cột <strong>Mới</strong>, Trưởng phòng nhân sự thực hiện review hợp đồng, nếu đồng ý phê duyệt thì chọn <strong>Phê duyệt</strong>, nếu không đồng ý thì chọn <strong>Hủy</strong></li>
-<li>Hợp đồng được phê duyệt sẽ chuyển sang cột <strong>Đã duyệt</strong>.<ul>
-<li>Nếu ngày phê duyệt là ngày hợp đồng có hiệu lực thì hợp đồng sẽ chuyển sang cột <strong>Đang chạy</strong> luôn.</li>
-<li>Nếu ngày phê duyệt &lt; ngày hợp đồng có hiệu lực thì hợp đồng sẽ tự động chuyển sang cột <strong>Đang chạy</strong> vào ngày hợp đồng có hiệu lực.</li>
+<li>The HR manager reviews contracts in <strong>New</strong> columns and approves by clicking <strong>Approve</strong> or declines by clicking <strong>Cancel</strong>.</li>
+<li>Approved contracts will be moved to <strong>Approved</strong> column.<ul>
+<li>If the date of approval is the start date of the contract, the contract will be moved to <strong>Running</strong> column.</li>
+<li>If the date of approval is prior to the start date of the contract, the contract will be moved to <strong>Running</strong> column on the start date.</li>
 </ul>
 </li>
-<li>Hợp đồng không được duyệt sẽ chuyển vào cột <strong>Đã hủy</strong></li>
+<li>Declined contracts will be moved to <strong>Cancelled</strong> column.</li>
 </ul>
-<h4 id="ket-thuc-hop-ong-nhan-vien-nghi-viec">Kết thúc hợp đồng (Nhân viên nghỉ việc)</h4>
-<p>Nếu nhân viên không có ý định ý tiếp với công ty, khi hợp đồng đến ngày hết hạn, hoặc nhân viên có hợp đồng vô thời hạn muốn nghỉ việc, nhân viên nhân sự sẽ thực hiện cập nhật trạng thái nghỉ việc của nhân viên trong màn hình <strong>Quá trình làm việc</strong></p>
-<p><strong>Đối tượng thực hiện</strong>: Nhân viên nhân sự</p>
-<p><strong>Các bước thực hiện</strong></p>
-<p><strong>Bước 1:</strong> Tìm kiếm nhân viên muốn cập nhật trạng thái <strong>Nghỉ việc</strong></p>
-<p><strong>Bước 2</strong>: Chọn nhân viên và chọn <strong>Sửa&gt;Quá trình làm việc&gt;Thêm mới</strong> sau đó nhập các thông tin về quyết định chấm dứt hợp đồng với nhân viên</p>
+<h4 id="contract-termination-voluntary">Contract termination (Voluntary)</h4>
+<p>If an employee with an expiring contract or an employee with an indefinite contract wants to stop working for the company, the HR assistant needs to update his/her work status in <strong>Job History</strong></p>
+<p><strong>User</strong>: HR assistant</p>
+<p><strong>Procedure</strong></p>
+<p><strong>Step 1:</strong> Search for an employee in <strong>List of employees</strong> screen</p>
+<p><strong>Step 2</strong>: Select <strong>Edit&gt;Job History&gt;ADD</strong>, enter information about contract termination for the employee</p>
 <p><img alt="image-20210930175053866" src="../images/image-20210930175053866.png" /></p>
-<p><strong>Bước 3:</strong> Chọn <strong>Lưu và đóng</strong>, nhân viên này sẽ có trạng thái là Nghỉ việc, nhân viên nhân sự thực hiện Lưu trữ nhân viên nghỉ việc. Việc lưu trữ hoàn toàn có thể khôi phục được lại hồ sơ nhân viên, trong trường hợp nhân viên quay trở lại làm việc cho công ty, khi đó nhân viên nhân sự sẽ không tốn nỗ lực nhập lại hồ sơ thông tin mà chỉ cần thay đổi các thông tin cần thiết (nếu có).</p>
-<h2 id="xuat-cac-bao-cao-nhan-su">Xuất các báo cáo nhân sự</h2>
+<p><strong>Step 3:</strong> Select <strong>Save &amp; Close</strong>, the employee's work status will be updated to <strong>Departed</strong>, the employee record will be added to archive. In case the employee returns to work for the company again, the record can be restored so that the HR assistant doesn't have to create another record, only needs to update the existed record should there be any changes.</p>
+<h2 id="exporting-hr-reports">Exporting HR reports</h2>
 <ul>
 <li>
-<p><strong>Mục đích:</strong> Xem trước và xuất các báo cáo nhân sự cần thiết</p>
+<p><strong>Purpose:</strong> Preview and export HR reports</p>
 </li>
 <li>
-<p><strong>Đối tượng sử dụng:</strong> Nhân viên HR</p>
+<p><strong>User:</strong> HR assistant</p>
 </li>
 <li>
-<p><strong>Các bước thực hiện:</strong></p>
+<p><strong>Procedure:</strong></p>
 </li>
 <li>
-<p>​   Vào menu <strong>Nhân viên</strong> &gt; Chọn <strong>Báo cáo</strong> &gt; Màn hình hiển thị như sau</p>
+<p>Select <strong>Employees</strong> &gt; <strong>Report</strong> &gt; The following screen will be displayed</p>
 </li>
 </ul>
 <p><img alt="image-20211209161442701" src="../images/image-20211209161442701.png" /></p>
 <ul>
-<li>​   Người sử dụng chọn báo cáo phù hợp &gt; Lựa chọn bộ lọc &gt; Bấm Xem trước để xem trước và định dạng file báo cáo</li>
+<li>Select a report &gt; Apply filter &gt; Click <strong>Preview</strong> to preview the report or click <strong>Export</strong> to download the report file. Below is an example of a report on the company's labor force structure.</li>
 </ul>
-<p>hoặc bấm Xuất để tải file báo cáo về máy. Dưới đây là ảnh minh hoạ xem trước báo cáo cơ cấu lao động</p>
 <p><img alt="image-20211209161648833" src="../images/image-20211209161648833.png" /></p>
 <ul>
-<li><strong>Ý nghĩa chi tiết của các báo cáo</strong></li>
-<li>​   <em>Báo cáo cơ cấu lao động</em>: Xem thống kê cơ cấu lao động của phòng/ban theo từng thời điểm lựa chọn. Quân số được thống kê theo các cấp phòng ban trong công ty. Thống kê dựa vào quá trình làm việc của nhân viên.</li>
-<li><em>Báo cáo tình hình sử dụng lao động</em>: Dựa trên sự thay đổi theo quá trình làm việc, xuất ra báo cáo tình hình sử dụng, tình hình tăng/giảm tiền lương, số lao động theo các kỳ.</li>
-<li><em>Báo cáo thay đổi phòng ban</em>: Dựa trên các quá trình làm việc, xuất báo cáo danh sách nhân viên thay đổi trong phòng ban được chọn, trong khoảng thời gian chọn trên giao diện.</li>
-<li><em>Báo cáo thay đổi hợp đồng</em>: Dựa theo thông tin hợp đồng lưu trong quá trình làm việc, báo cáo xuất ra danh sách các nhân viên thay đổi hợp đồng trong khoảng thời gian và thuộc phòng ban được chọn</li>
-<li><em>Báo cáo tăng nhân sự, giảm nhân sự</em>: Dựa trên sự thay đổi quá trình làm việc, xuất ra danh sách tăng/ giảm nhân sự trong khoảng thời gian và thuộc phòng ban được chọn</li>
+<li><strong>Details of reports:</strong></li>
+<li><em>Report on labor force structure</em>: Shows statistics for labor force structure of each department/division in the company at a time selected by the user. Statistics depends on employees' work history.</li>
+<li><em>Report on labor utilization</em>: Shows labor utilization, changes in salary, number of labourers in a period.</li>
+<li><em>Report on department changes</em>: Shows changes about personnel of a department/division in a period selected by the user.</li>
+<li><em>Report on contract changes</em>: Shows employees of a department/division whose contracts have changed in the period selected by the user.</li>
+<li><em>Report on changes in the number of staff</em>: Show changes in the number of staff of a department/division in a period selected by the user.</li>
 </ul>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../recruitment/" class="btn btn-neutral float-left" title="Tuyển dụng"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../attendance/" class="btn btn-neutral float-right" title="Chấm công">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../master-datas/" class="btn btn-neutral float-left" title="Managing master data"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../attendance/" class="btn btn-neutral float-right" title="Managing attendances">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -588,7 +419,7 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../recruitment/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../master-datas/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
       <span><a href="../attendance/" style="color: #fcfcfc">Next &raquo;</a></span>
