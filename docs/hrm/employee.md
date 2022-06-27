@@ -1,337 +1,341 @@
-# Quản lý hồ sơ nhân viên
+# Managing employee records
 
-## Mô tả nghiệp vụ
+## Process description
 
-### Quy trình nghiệp vụ
+### Procedure
 
-- Công ty có nhân sự mới, đã được Trưởng bộ phận quản lý nhân sự cùng Ban Giám đốc phê duyệt đồng ý tuyển dụng.
-- Nhân viên nhân sự thực hiện việc chuyển trạng thái từ Ứng viên sang Nhân viên công ty.
-- Nhân viên nhân sự thực hiện tạo tài khoản đăng nhập cho nhân viên mới, tạo hợp đồng, nhập các thông tin liên quan đến nhân sự mới.
-- Nhân viên mới thực hiện quy trình Onboarding, cập nhật thông tin cá nhân vào ngày đầu làm việc.
-- Nhân viên nhân sự kiểm tra và hoàn thiện hồ sơ nhân viên mới, thực hiện cập nhật thông tin trong quá trình làm việc của nhân viên.
-- Cán bộ nhân sự kiểm tra, xuất các báo cáo nhân sự
+- A new employee is recruited, being approved by the HR manager and the Board of Directors
+- The HR assistant updates the employee's status from *Candidate* to *Employee*
+- The HR assistant creates an account for the employee with personal record and proposes a new contract
+- Onboarding process is carried out, the new employee update his/her personal record
+- The HR assistant reviews and completes the employee record, then updates his/her work history
+- The HR assistant exports necessary HR reports
 
-### Luồng chức năng chính
+### Process flows
 
-- Tuyển dụng nhân viên mới. Chi tiết [tại đây](../../saas/saas/#bat-dau-su-dung-he-thong-vess)
-- Tạo tài khoản đăng nhập. Chi tiết [tại đây](#tao-tai-khoan)
-- Thêm mới hồ sơ nhân viên. Chi tiết [tại đây](#them-moi-ho-so-nhan-vien).
-- Cập nhật thông tin trong quá trình làm việc của nhân viên. Chi tiết [tại đây](#cap-nhat-ho-so-nhan-vien).
-- Xuất báo cáo nhân sự. Chi tiết [tại đây](#xuat-cac-bao-cao-nhan-su)
+- Recruiting. More details [here](../../saas/saas/#bat-dau-su-dung-he-thong-vess)
+- Creating accounts. More details [here](#tao-tai-khoan)
+- Creating employee records. More details [here](#them-moi-ho-so-nhan-vien).
+- Updating information in employee records. More details [here](#cap-nhat-ho-so-nhan-vien).
+- Exporting HR reports. More details [here](#xuat-cac-bao-cao-nhan-su)
 
-## Tạo tài khoản
+## Creating accounts
 
-**Các bước thực hiện**
+**Procedure**
 
-**Bước 1:** Vào phân hệ **Thiết lập**>**Người dùng & công ty**>**Người dùng**.
+**Step 1:** Select **Settings**>**Users & Companies**>**Users**.
 
 ![image-20211004094007844](images/image-20211004094007844.png)
 
-**Bước 2:** Khai báo thông tin tài khoản đăng nhập
+**Step 2:** Enter account information
 
-- Tại mục **Loại người dùng** chọn **Người sử dụng nội bộ**
+- In **User types** select **Internal User**
+- In **Human Resources>Employees** select:
+  - **Officer:** If this account belongs to a HR assistant
+  - **Administrator:** If this account belongs to the HR manager or a member of the Board of Directors
+  - **Empty:** If this account belongs to a normal employee with no authorization in **Employee** module
 
-- Tại **Nguồn lực nhân sự>Nhân viên** chọn:
-  - **Cán bộ:** Nếu tài khoản là của nhân viên quản lý nhân sự
-  - **Người quản trị:** Nếu tài khoản là của trưởng phòng quản lý nhân sự hoặc Ban Giám đốc
-  - **Bỏ trống:** Nếu tài khoản của nhân viên không có phận sự liên quan đến phân hệ Nhân viên.
+**Note:** In order to be able to use **Employee** module, an account must be properly authorized depending on the employee's job postion.
 
-**Lưu ý:** Để sử dụng được phân hệ Nhân viên, tài khoản đăng nhập vào hệ thống phải được cấp quyền truy cập, tùy thuộc vào vị trí công việc của nhân viên mà tài khoản đăng nhập của họ được gán quyền tương ứng.
-
-**Bước 3**: Sau khi “Đăng ký sử dụng thành công”, khách hàng mở hòm thư được khai báo khi đăng ký để lấy thông tin tài khoản truy cập. Khách hàng sử dụng thông tin này để đăng nhập vào chương trình (hướng dẫn đăng ký tại đây)
+**Step 3**: After registering successfully, the employee needs to get login credentials from the mail address registered with the account. Use the credentials to log in to the system
 
 ![image-20211105111512315](images/image-20211105111512315.png)
 
-**Bước 4**: Chọn ứng dụng **Nhân viên**.
+**Step 4**: Select **Employees** submodule.
 
 ![image-20211004094207988](images/image-20211004094207988.png)
 
-## Thêm mới hồ sơ nhân viên
+## Creating employee records
 
-**Đối tượng thực hiện:** Nhân viên nhân sự.
+**User:** HR assistant.
 
-**Bước 1:** Nhân viên quản trị nhân lực vào phân hệ **Nhân viên>Tạo**
+**Step 1:** Select **Employees>Create**
 
 ![image-20211004104809471](images/image-20211004104809471.png)
 
-Sau đó thực hiện khai báo thông tin của nhân viên:
+Enter information for an employee record:
 
-- Khai báo thông tin cá nhân cơ bản về nhân viên (căn cứ vào Sơ yếu lý lịch) như: họ tên, giới tính, ngày sinh, nơi sinh, nguyên quán, hộ khẩu thường trú, số CMND, ngày cấp, nơi cấp, trình trạng hôn nhân, dân tộc, tôn giáo, trình độ văn hóa, trình độ đào tạo, trường đào tạo…
-- Khai báo thông tin công việc của nhân viên: chức danh, phòng ban, người quản lý, tài khoản đăng nhập của nhân viên.  
+- Personal information such as:
+  - Full name
+  - Gender
+  - Date of birth
+  - Place of birth
+  - Place of origin
+  - Place of permanent residence
+  - National ID: date of issue, place of issue
+  - Marital status
+  - Ethnicity
+  - Religion
+  - Educational level
+  - ...
+- Job information:
+  - Job position
+  - Department/division
+  - Line manager
+  - Login account
 
 ![image-20211004110010849](images/image-20211004110010849.png)
 
-**Lưu ý :** Mã nhân viên sẽ được hệ thống tự sinh sau khi người dùng hoàn thành thao tác thêm mới hồ sơ nhân viên.
+**Note:** The employee code will be automatically generated after an employee record is successfully created.
 
-**Hướng dẫn nhập nhiều bản ghi:** 
+**Updating multiple records:**
 
-Trong trường hợp người dùng muốn thực hiện nhập nhiều nhân viên thì sử dụng tính năng "Thêm bản ghi" trên hệ thống. Các bước thực hiện như sau:
+The **Import records** allows updating multiple employee records at the same time. The procedure is as follows:
 
-- Vào menu Nhân viên >> Nhân viên: Hệ thống hiển thị màn hình danh sách nhân viên. Người dùng chọn ![image-20211105112344388](images/image-20211105112344388.png) Yêu thích >> Thêm bản ghi 
+- Select **Employees** module > **Employees** tab: A list of employees will be displayed. Select ![image-20211105112344388](images/image-20211105112344388.png) **Favorites** > **Import records**
+  ![image-20211105112114225](images/image-20211105112114225.png)
+- Click **Import Template for Employees** to download the template for data entry ![image-20211105112814203](images/image-20211105112814203.png)
+- Enter employee data into this template. ![image-20211105113013152](images/image-20211105113013152.png)
+- Click ![image-20211105113059867](images/image-20211105113059867.png) >> the following screen will be displayed ![image-20211105113404324](images/image-20211105113404324.png) In this screen, the HR assistant can review the input data and perform data validation by clicking **Test** >> Errors will appear if there is something wrong with the input data >> The HR assistant needs to correct these errors in the template then click ![image-20211105113554792](images/image-20211105113554792.png) to reupload the file >> Continue clicking **Test** and correcting the file until this notification ![image-20211105113827486](images/image-20211105113827486.png) shows up.
+- Click ![image-20211105113858786](images/image-20211105113858786.png) to import all data to the system >> This notification **Thêm bản ghi thành công** will be displayed
 
-  ![image-20211105112114225](images/image-20211105112114225.png) 
-
-- Tại đây, người dùng bấm "Tải biểu mẫu danh sách nhân viên" để tải xuống file mẫu nhập dữ liệu ![image-20211105112814203](images/image-20211105112814203.png)
-- Người dùng nhập dữ liệu thông tin nhân viên vào file excel. ![image-20211105113013152](images/image-20211105113013152.png)
-- Trên giao diện phần mềm, người dùng bấm nút ![image-20211105113059867](images/image-20211105113059867.png) >> hệ thống hiển thị màn hình như sau ![image-20211105113404324](images/image-20211105113404324.png) Tại đây người dùng kiểm tra thông tin dữ liệu, và bấm nút **Kiểm thử** để hệ thống kiểm tra dữ liệu trước khi nhập >> Hệ thống tự động kiểm tra và thông báo kết quả lỗi dữ liệu lên màn hình >> Người dùng đọc thông báo và điều chỉnh dữ liệu trên file excel để chính xác, sau đó bấm ![image-20211105113554792](images/image-20211105113554792.png) để tải lại file sau khi chỉnh sửa dữ liệu >> Tiếp tục bấm **Kiểm thử** để kiểm tra cho đến khi kết quả hệ thống kiểm tra thông báo là ![image-20211105113827486](images/image-20211105113827486.png) 
-- Người dùng bấm nút ![image-20211105113858786](images/image-20211105113858786.png) để thực hiện nạp dữ liệu vào hệ thống >> Hệ thống ghi nhận dữ liệu và hiển thị thông báo Thêm bản ghi thành công
-
-**Bước 2:** Tại tab **Hợp đồng**, người dùng chọn **Tạo** để thêm mới hợp đồng cho nhân viên. Hợp đồng sau khi tạo và duyệt tại đây sẽ được tự động sinh dữ liệu ở tab **Quá trình làm việc**
+**Step 2:** In **Contracts** tab, select **Create** to create new contracts for employees. New contracts after being created and approved will be added to **Job History** tab
 
 ![image-20211105114155943](images/image-20211105114155943.png)
 
-Nhân viên mới sau khi được thêm sẽ được sinh dữ liệu tại màn hình Hợp đồng, trạng thái là **Chưa có**, nhân viên nhân sự chọn **Đề xuất**, hệ thống chuyển đến màn hình tạo hợp đồng mới.
+A new employee will be created without a contract, so the HR assistant needs to select **Propose** to propose a new contract for that employee.
 
 ![image-20210930171009027](images/image-20210930171009027.png)
 
-- Tại mục **Nhân viên** chọn nhân viên cần tạo hợp đồng, sau khi chọn nhân viên, hệ thống sẽ tự động lấy các thông tin đi kèm của nhân viên như **Chức vụ, Phòng ban**
+- In **Employees**, select an employee to create contracts, information such as the employee's job position or department will be automatically imported
 
-- Tại phần **Thông tin hợp đồng**, nhập các thông tin về hợp đồng với nhân viên đó, các thông tin về lương và bảo hiểm nhập tại phần **Thông tin hợp đồng**
+- In **Contract Infos** section, enter contract information for the employee, and enter information about position salary and base salary in **Salaries Info** section
 
-- Hợp đồng sau khi tạo và duyệt tại đây sẽ được tự động sinh dữ liệu ở tab **Quá trình làm việc**
+- Contracts after being created and approved will be displayed in **Job History** tab
 
-**Bước 3:** Khai báo thông tin về gia đình tại tab **Quan hệ gia đình** và **Giảm trừ gia cảnh**
+**Step 3:** Enter family information in **Family Information** and **Family Allowances** tabs
 
-- Tại tab **Quan hệ gia đình** , cho phép khai báo thông tin những người thân của nhân viên. Đồng thời theo dõi được những đối tượng thuộc diện giảm trừ gia cảnh của nhân viên để phục vụ cho công tác tạm tính thuế TNCN hàng tháng của nhân viên.
-
-  Người dùng chọn **Thêm một dòng**, và thực hiện khai báo thông tin
+- In **Family Information** tab, enter information about the employee's family members. A family member can be registered as a dependent for PIT deduction.
+  Select **Add a line** and enter family information for the employee
 
 ![image-20210930141358725](images/image-20210930141358725.png)
 
-​		Sau khi người dùng chọn **Lưu**, các thông tin này được lưu và sẽ được sử dụng tiếp tại tab **Giảm trừ gia cảnh**
+Information about the employee's family members will also be used in **Family Allowances** tab.
 
-- Tại tab **Giảm trừ gia cảnh**, người dùng bấm **Sửa>Thêm một dòng**, để thêm người phụ thuộc, người sử dụng chọn dữ liệu có sẵn đã được khai báo trước đó trong thanh dữ liệu. 
+- In **Family Allowances** tab, select **Edit>Add a line** to register a dependent. A dependent has to be one of the previously created family members.
 
   ![image-20210930142133256](images/image-20210930142133256.png)
 
-**Bước 4:** Khai báo các khoản phụ cấp mà nhân viên có thể được nhận trong quá trình công tác tại Công ty. Nếu không có phụ cấp, nhân viên nhân sự có thể bỏ trống không nhập dữ liệu
+**Step 4:** Enter the allowances that the employee is eligible for in their job, if any
 
-- Tại tab **Phụ cấp**, người dùng bấm **Sửa>Thêm một dòng**, khai báo các khoản phụ cấp và khoảng thời gian nhân viên được nhận phụ cấp.
+- In **Allowances** tab, select **Edit>Add a line**, create allowances and the periods in which the employee is eligible for each respective allowance.
 
 ![image-20210930142357301](images/image-20210930142357301.png)
 
-**Lưu ý:** Một nhân viên trong một quá trình có thể được nhận nhiều loại phụ cấp, tuy nhiên, một loại phụ cấp không được trùng lặp quá trình. 
+**Note:** An employee is eligible for several allowances in a period, however, the periods of a particular type of an allowance must not overlap.
 
-- Ví dụ: Nhân viên được nhận phụ cấp điện thoại từ ngày 01/01/2021 - 31/12/2021 là 120.000 VNĐ, thì trong khoảng thời gian này nhân viên có thể nhận phụ cấp khác (ăn trưa, xăng xe, nhà ở) nhưng không được nhận thêm khoản phụ cấp điện thoại nào nữa. 
+- Example: An employee is eligible for a mobile allowance of 120.000 VND from 01/01/2021 to 31/12/2021, he/she can still be eligible for other allowances such as lunch/fuel/housing allowances, but he/she won't be eligible for another mobile allowance.
 
-**Bước 5:** Khai báo thông tin liên quan đến BHXH tại tab **Thông tin BHXH**
+**Step 5:** Enter information about social insurance in **Insurance Infos** tab
 
-Người dùng bấm **Sửa>Thêm một dòng**, khai báo các thông tin lương BHXH của nhân viên
+Click **Edit>Add a line**, enter information about the employee's base salary
 
 ![image-20210930151214083](images/image-20210930151214083.png)
 
-Hệ thống tự động tính ra khoản NSDLD đóng cho nhân viên và NLD đóng, các trường thông tin này có thể được cập nhật trong quá trình nhân viên làm việc có sự biến đổi về mức lương cơ bản bằng cách chọn **Thêm một dòng**.
+The amount of social insurance contributions that the employer and the employee need to make will be automatically calculated. This can be changed by selecting **Add a line**.
 
-Sau khi hoàn thiện, người dùng bấm **Lưu** để hệ thống lưu lại toàn bộ dữ liệu về nhân viên đã được khai báo.
+Click **Save** after finishing entering information.
 
-Với doanh nghiệp có sử dụng nền tảng Digital Workplace, việc tạo hồ sơ nhân viên sẽ nhanh hơn, chuẩn xác nếu các thông tin cá nhân do chính nhân viên tự nhập thông qua điện thoại thông minh. 
+The **Digital Workplace** module allows employees to update their records themselves via a smartphone app, making it easier for the work of HR assistants.
 
-Nhân viên chủ động nhập hồ sơ của mình, thì làm theo **Bước 1b**
+If employees are allowed to edit their records, follow **Step 1b**
 
-**Bước 1b:** Nhân viên quản trị nhân lực vào phân hệ **Thiết lập>Người dùng & công ty>Công ty** để tạo tài khoản đăng nhập cho nhân viên mới, cách làm tương tự như **Tạo tài khoản** 
+**Step 1b:** The HR assistant creates a new account for the employee in **Settings>Users & Companies>Companies**
 
-Nhân viên nhân sự tiếp tục chọn **Tạo nhân viên** để thực hiện tạo mới một hồ sơ nhân viên trên hệ thống, nhập các thông tin về chức vụ, phòng/ban, người quản lý của nhân viên mới và bấm **Lưu**
+Select **Create Employee** to create a new employee record, enter information about job position, department/division and line manager of the employee, and click **Save**
 
-Đến đây, nhân viên sẽ dùng tài khoản được cấp, và thực hiện đăng nhập lên phần mềm VESS trên điện thoại, và thực hiện nhập các thông tin cá nhân của mình. Sau khi nhân viên ấn **Cập nhật** hệ thống sẽ tự động đồng bộ vào hồ sơ nhân viên. Các dữ liệu này sẽ được nhân viên nhân sự kiểm tra và có thể chỉnh sửa nếu sau này nhân viên có nhu cầu thay đổi về thông tin cá nhân.
+The employee will need to log in to the system with the account created by the HR assistant to update his/her record. Data in the record will be reviewed by the HR assistant and the employee still can make changes to his/her record in the future.
 
-Các bước tiếp theo vui lòng [quay lại **Bước 2**](#Bước 2)
+[Return to **Step 2**](#Bước 2) to continue.
 
-## Cập nhật hồ sơ nhân viên
+## Updating employee records
 
-Trong quá trình công tác tại Công ty, nhân viên sẽ có các thông tin thay đổi và cần cập nhật trên hệ thống như biến động về Thông tin cá nhân, Hợp đồng, Lương, Thành tích, Quá trình làm việc. Những sự thay đổi này đều được nhân viên nhân sự ghi lại bằng cách cập nhật thông tin hồ sơ nhân viên trong phân hệ Nhân viên.
+Throughout an employee's work history in the company, his/her record will have several changes about personal information, contracts, pay, achievements, ... These changes will all be recorded by the HR assistant in **Employee** module.
 
-### Cập nhật thành tích của nhân viên
+### Updating employee achievements
 
-**Đối tượng thực hiện**: Nhân viên nhân sự
+**User**: HR assistant
 
-**Các bước thực hiện**
+**Procedure**
 
-**Bước 1:** Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình **Danh sách nhân viên**
+**Step 1:** Search for an employee in **List of employee** screen
 
-**Bước 2:** Tại tab **Thành tích** chọn **Sửa>Thêm một dòng**, thực hiện cập nhật thông tin thành tích mà nhân viên đó đã đạt được trong quá trình công tác.
+**Step 2:** In **Achievement** tab, select **Edit>Add a line**, and update the employee's achievements in his/her job.
 
 ![image-20210930165959740](images/image-20210930165959740.png)
 
-### Các quyết định điều chuyển, bổ nhiệm, miễn nhiệm
+### Transfer, appointment and dismissal decisions
 
-**Đối tượng thực hiện**: Nhân viên nhân sự
+**User**: HR assistant
 
-**Các bước thực hiện**
+**Procedure**
 
-**Bước 1:** Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình **Danh sách nhân viên**
+**Step 1:** Search for an employee in **List of employee** screen
 
-**Bước 2:** Tại tab **Quá trình làm việc** chọn **Sửa>Thêm mới**, thực hiện cập nhật thông tin về sự thay đổi về chức danh của nhân viên trong quá trình làm việc như: Bổ nhiệm, Miễn nhiệm, Điều chuyển, Tiếp nhận
+**Step 2:** In **Job History** tab, select **Edit>ADD**, update information about position changes of the employee such as: Appointment, dismissal, transfer, reception
 
-- Bổ nhiệm: Nhân viên nhân sự được phép thay đổi thông tin về Chức danh - đơn vị
-- Tiếp nhận: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng
--  Điều chuyển: Nhân viên nhân sự được phép thay đổi thông tin về Chức danh - đơn vị, Lương và bảo hiểm
+- Appointment: Information about job position and department can be changed
+- Reception: Information about contracts is NOT to be changed
+- Transfer: Information about job position, department, position salary and base salary can be changed
 
 ![image-20211013092111929](images/image-20211013092111929.png)
 
-### Các quyết định nâng lương
+### Pay raise decisions
 
-**Đối tượng thực hiện**: Nhân viên nhân sự
+**User**: HR assistant
 
-**Các bước thực hiện**
+**Procedure**
 
-**Bước 1:** Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình **Danh sách nhân viên**
+**Step 1:** Search for an employee in **List of employee** screen
 
-**Bước 2:** Tại tab **Quá trình làm việc** chọn **Sửa>Thêm mới**, thực hiện cập nhật thông tin về lương của nhân viên như: Nâng lương hàng kỳ, Nâng lương đột xuất, Nâng lương bảo hiểm.
+**Step 2:** In **Job History** tab, select **Edit>ADD**, update information about pay such as: Periodical pay raise, unexpected pay raise, base salary raise.
 
-- Nâng lương hàng kỳ: Nhân viên nhân sự được phép thay đổi thông tin về Lương và bảo hiểm
-- Nâng lương đột xuất: Nhân viên nhân sự được phép thay đổi thông tin về Lương và bảo hiểm
-- Nâng lương bảo hiểm: Nhân viên nhân sự được phép thay đổi thông tin về Lương và bảo hiểm
+- Periodical pay raise: Information about position pay and base salary can be changed
+- Unexpected pay raise: Information about position pay and base salary can be changed
+- Base salary raise: Information about position pay and base salary can be changed
 
 ![image-20211013092208148](images/image-20211013092208148.png)
 
-### Quá trình làm việc, công tác, nghỉ thai sản, nghỉ dài ngày
+### Work history, business travel, maternity leaves, long leaves
 
-**Đối tượng thực hiện**: Nhân viên nhân sự
+**User**: HR assistant
 
-**Các bước thực hiện**
+**Procedure**
 
-**Bước 1:** Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình **Danh sách nhân viên**
+**Step 1:** Search for an employee in **List of employee** screen
 
-**Bước 2:** Tại tab **Quá trình làm việc** chọn **Sửa>Thêm mới**, thực hiện cập nhật thông tin về quá trình nghỉ dài ngày của nhân viên như: Nghỉ thai sản, Nghỉ ốm dài ngày, Nghỉ chờ hưu, Nghỉ tạm hoãn hợp đồng
+**Step 2:** In **Job History** tab, select **Edit>ADD**, update information about the employee's long leaves such as: Maternity leaves, long sick leaves, pre-retirement leaves, temporary contract suspensions.
 
-- Nghỉ thai sản: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng
-- Nghỉ ốm dài ngày: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng
-- Nghỉ chờ hưu: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng
-- Nghỉ tạm hoãn hợp đồng: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng
+- Maternity leaves: Information about contracts is NOT to be changed
+- Long sick leaves: Information about contracts is NOT to be changed
+- Pre-retirement leaves: Information about contracts is NOT to be changed
+- Temporary contract suspensions: Information about contracts is NOT to be changed
 
 ![image-20211013092456703](images/image-20211013092456703.png)
 
-### Cập nhật giảm trừ gia cảnh
+### Updating family allowances
 
-**Đối tượng thực hiện**: Nhân viên nhân sự
+**User**: HR assistant
 
-**Các bước thực hiện**
+**Procedure**
 
-**Bước 1:** Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình **Danh sách nhân viên**
+**Step 1:** Search for an employee in **List of employee**
 
-Bước 2: Tại tab **Giảm trừ gia cảnh** chọn **Sửa>Thêm một dòng**, thực hiện thay đổi thông tin người phụ thuộc của nhân viên
+**Step 2:** In **Family Allowance** tab, select **Edit>Add a line** and update information about the employee's dependents
 
 ![image-20210930142133256](images/image-20210930142133256.png)
 
-### Cập nhật kinh nghiệm và kỹ năng
+### Updating employee experience & skills
 
-**Đối tượng thực hiện**: Nhân viên nhân sự
+**User**: HR assistant
 
-**Các bước thực hiện**
+**Procedure**
 
-**Bước 1:** Tìm kiếm nhân viên cần cập nhật thông tin tại màn hình **Danh sách nhân viên**
+**Step 1:** Search for an employee in **List of employee**
 
-**Bước 2:** Tại tab **Kinh nghiệm và kỹ năng** chọn **Sửa>Thêm mới**, thực hiện cập nhật thông tin về kinh nghiệm (ngoài công ty), chứng chỉ mà nhân viên đã đạt được trong quá trình làm việc, các kỹ năng bên cạnh kỹ năng liên quan đến công việc mà còn kỹ năng mềm của nhân viên
+**Step 2:** In **Resumé Page** tab, select **Edit>CREATE A NEW ENTRY**, update information about the employee's experience (outside of the company), certifications and skills that the employee has acquired when working for the company
 
 ![image-20211012084809495](images/image-20211012084809495.png)
 
-- Kinh nghiệm: lưu trữ các thông tin về kinh nghiệm trước khi được tuyển dụng vào công ty, nhân viên đã học qua trường, chứng chỉ, đạt được bằng cấp nào.
-
-  - Loại: gồm có 3 loại Kinh nghiệm (Experiance), Trình độ (Education), Chứng chỉ (Certification)
-  - Ngày bắt đầu: ngày bắt đầu làm việc/học tập
-  - Ngày kết thúc: ngày kết thúc làm việc/học tập
-
+- Experience: Experience before recruitment, degrees, certifications
+  - Type: Experience, education (degrees) and certifications
+  - Start date
+  - End date
   ![image-20211012092721317](images/image-20211012092721317.png)
 
-- Kỹ năng: lưu trữ thông tin về kỹ năng phục vụ cho công việc, kỹ năng mềm (hát, đàn, ngoại ngữ)
-
+- Skills: Hard skills and soft skills
+  - Type: Categorized into types such as Music, Languages, Marketing, ...
+  - Skill: Particular skills in a type
+  - Level
   ![image-20211012151320905](images/image-20211012151320905.png)
 
-  + Loại kỹ năng: các nhóm loại kỹ năng về Âm nhạc, Ngoại ngữ, Marketing, .....
-  + Kỹ năng: tên kỹ năng 
-  + Cấp kỹ năng: lựa chọn cấp kỹ năng 
+### Updating attendances
 
-### Cập nhật đăng ký công
-
-Các đăng ký công (xin nghỉ phép, tăng ca, nghỉ việc riêng, nghỉ không lương,...) của nhân viên thực hiện đăng ký trên điện thoại cá nhân sẽ được đồng bộ và ghi lại trong tab Đăng ký công, kể cả các đơn được duyệt, bị từ chối, đơn nháp.
+Attendance records will be stored and synchronized in **Time Off** tab, including approved/declined/draft requests.
 
 ![image-20211012152217781](images/image-20211012152217781.png)
 
-### Cập nhật hợp đồng, quá trình làm việc của nhân viên
+### Updating contracts and work history
 
-Nhân viên ký hợp đồng có thời hạn trước khi đến hạn kết thúc hợp đồng cũ, hệ thống sẽ đưa ra cảnh báo các hợp đồng sắp hết hạn để nhân viên nhân sự thực hiện đề xuất hợp đồng lên cấp trên nếu nhân viên có ý định ký tiếp hợp đồng với công ty.
+When an employee's contract is reaching its end date, the system will send notices to the employee so that another contract can be proposed should he/she want to continue working for the company.
 
-​		**Quy trình nghiệp vụ:**
+​**Procedure:**
 
-- Nhân viên có hợp đồng sắp đến ngày hết hạn, nhân viên nhân sự sẽ thực hiện đề xuất hợp đồng.
-- Trưởng phòng nhân sự vào thực hiện phê duyệt/từ chối hợp đồng đề xuất. Sau khi hợp đồng được phê duyệt, dữ liệu sẽ được cập nhật vào quá trình làm việc của nhân viên.
-- Nhân viên không muốn ký tiếp hợp đồng với công ty hoặc nhân viên có hợp đồng vô thời hạn muốn nghỉ việc, nhân viên nhân sự thực hiện cập nhật trạng thái là nghỉ việc.
+- The HR assistant will propose another contract for an employee whose contract is expiring.
+- The HR manager approves/declines the proposed contracts. If the contract is approved, it will be update into the employee's work history.
+- If the employee wants to stop working for the company, the HR assistant needs to update the employee's work status to **Departed**
 
-#### Đề xuất hợp đồng
+#### Proposing contracts
 
-**Đối tượng thực hiện**: Nhân viên nhân sự
+**User**: HR assistant
 
-**Bước 1:** Vào phân hệ **Nhân viên>Cảnh báo hợp đồng**
+**Step 1:** Select **Employees>Contract alerts**
 
 ![cảnh báo hợp đồng](images/cảnh báo hợp đồng.png)
 
-**Bước 2:** Tại đây hệ thống sẽ hiển thị toàn bộ danh sách các nhân viên chưa có hợp đồng hoặc hợp đồng sắp đến hạn kết thúc hợp đồng hiện tại. 
+**Step 2:** A list of employees without contracts or with expiring contracts will be displayed here.
 
 ![image-20210930170508173](images/image-20210930170508173.png)
 
-- Nhân viên nhân sự thực hiện đề xuất hợp đồng mới, bằng cách chọn nút **Đề xuất**. 
+- Click **Propose** to propose new contracts.
 
 ![image-20210930171439795](images/image-20210930171439795.png)
 
-- Hợp đồng sau khi Lưu sẽ chuyển sang trạng thái **Mới**, chờ Trưởng phòng nhân sự vào duyệt.
+- New contracts are created, awaiting approval from the HR manager
 
-#### Phê duyệt/Từ chối hợp đồng được đề xuất
+#### Approving/Declining proposed contracts
 
-**Đối tượng thực hiện:** Trưởng phòng nhân sự
+**User:** HR manager
 
-**Các bước thực hiện**
+**Procedure**
 
-**Bước 1:** Đăng nhập hệ thống, vào phân hệ **Nhân viên>Hợp đồng**
+**Step 1:** Log in to the system, select **Employees>Contracts**
 
 ![image-20210930173425088](images/image-20210930173425088.png)
 
-**Bước 2:** 
+**Step 2:**
 
-- Tại cột **Mới**, Trưởng phòng nhân sự thực hiện review hợp đồng, nếu đồng ý phê duyệt thì chọn **Phê duyệt**, nếu không đồng ý thì chọn **Hủy**
-  - Hợp đồng được phê duyệt sẽ chuyển sang cột **Đã duyệt**.
-    - Nếu ngày phê duyệt là ngày hợp đồng có hiệu lực thì hợp đồng sẽ chuyển sang cột **Đang chạy** luôn.
-    - Nếu ngày phê duyệt < ngày hợp đồng có hiệu lực thì hợp đồng sẽ tự động chuyển sang cột **Đang chạy** vào ngày hợp đồng có hiệu lực.
-  - Hợp đồng không được duyệt sẽ chuyển vào cột **Đã hủy**
+- The HR manager reviews contracts in **New** columns and approves by clicking **Approve** or declines by clicking **Cancel**.
+  - Approved contracts will be moved to **Approved** column.
+    - If the date of approval is the start date of the contract, the contract will be moved to **Running** column.
+    - If the date of approval is prior to the start date of the contract, the contract will be moved to **Running** column on the start date.
+  - Declined contracts will be moved to **Cancelled** column.
 
-#### Kết thúc hợp đồng (Nhân viên nghỉ việc)
+#### Contract termination (Voluntary)
 
-Nếu nhân viên không có ý định ý tiếp với công ty, khi hợp đồng đến ngày hết hạn, hoặc nhân viên có hợp đồng vô thời hạn muốn nghỉ việc, nhân viên nhân sự sẽ thực hiện cập nhật trạng thái nghỉ việc của nhân viên trong màn hình **Quá trình làm việc**
+If an employee with an expiring contract or an employee with an indefinite contract wants to stop working for the company, the HR assistant needs to update his/her work status in **Job History**
 
-**Đối tượng thực hiện**: Nhân viên nhân sự
+**User**: HR assistant
 
-**Các bước thực hiện**
+**Procedure**
 
-**Bước 1:** Tìm kiếm nhân viên muốn cập nhật trạng thái **Nghỉ việc**
+**Step 1:** Search for an employee in **List of employees** screen
 
-**Bước 2**: Chọn nhân viên và chọn **Sửa>Quá trình làm việc>Thêm mới** sau đó nhập các thông tin về quyết định chấm dứt hợp đồng với nhân viên
+**Step 2**: Select **Edit>Job History>ADD**, enter information about contract termination for the employee
 
 ![image-20210930175053866](images/image-20210930175053866.png)
 
-**Bước 3:** Chọn **Lưu và đóng**, nhân viên này sẽ có trạng thái là Nghỉ việc, nhân viên nhân sự thực hiện Lưu trữ nhân viên nghỉ việc. Việc lưu trữ hoàn toàn có thể khôi phục được lại hồ sơ nhân viên, trong trường hợp nhân viên quay trở lại làm việc cho công ty, khi đó nhân viên nhân sự sẽ không tốn nỗ lực nhập lại hồ sơ thông tin mà chỉ cần thay đổi các thông tin cần thiết (nếu có).
+**Step 3:** Select **Save & Close**, the employee's work status will be updated to **Departed**, the employee record will be added to archive. In case the employee returns to work for the company again, the record can be restored so that the HR assistant doesn't have to create another record, only needs to update the existed record should there be any changes.
 
-## Xuất các báo cáo nhân sự
+## Exporting HR reports
 
-- **Mục đích:** Xem trước và xuất các báo cáo nhân sự cần thiết
+- **Purpose:** Preview and export HR reports
 
-- **Đối tượng sử dụng:** Nhân viên HR
+- **User:** HR assistant
 
-- **Các bước thực hiện:**
+- **Procedure:**
 
-  - ​	Vào menu **Nhân viên** > Chọn **Báo cáo** > Màn hình hiển thị như sau
+  - Select **Employees** > **Report** > The following screen will be displayed
 
   ![image-20211209161442701](images/image-20211209161442701.png)
 
-  - ​	Người sử dụng chọn báo cáo phù hợp > Lựa chọn bộ lọc > Bấm Xem trước để xem trước và định dạng file báo cáo
-
-  hoặc bấm Xuất để tải file báo cáo về máy. Dưới đây là ảnh minh hoạ xem trước báo cáo cơ cấu lao động
+  - Select a report > Apply filter > Click **Preview** to preview the report or click **Export** to download the report file. Below is an example of a report on the company's labor force structure.
 
   ![image-20211209161648833](images/image-20211209161648833.png)
 
-  
-
-- **Ý nghĩa chi tiết của các báo cáo**
-  - ​	*Báo cáo cơ cấu lao động*: Xem thống kê cơ cấu lao động của phòng/ban theo từng thời điểm lựa chọn. Quân số được thống kê theo các cấp phòng ban trong công ty. Thống kê dựa vào quá trình làm việc của nhân viên.
-  - *Báo cáo tình hình sử dụng lao động*: Dựa trên sự thay đổi theo quá trình làm việc, xuất ra báo cáo tình hình sử dụng, tình hình tăng/giảm tiền lương, số lao động theo các kỳ.
-  - *Báo cáo thay đổi phòng ban*: Dựa trên các quá trình làm việc, xuất báo cáo danh sách nhân viên thay đổi trong phòng ban được chọn, trong khoảng thời gian chọn trên giao diện.
-  - *Báo cáo thay đổi hợp đồng*: Dựa theo thông tin hợp đồng lưu trong quá trình làm việc, báo cáo xuất ra danh sách các nhân viên thay đổi hợp đồng trong khoảng thời gian và thuộc phòng ban được chọn
-  - *Báo cáo tăng nhân sự, giảm nhân sự*: Dựa trên sự thay đổi quá trình làm việc, xuất ra danh sách tăng/ giảm nhân sự trong khoảng thời gian và thuộc phòng ban được chọn
+- **Details of reports:**
+  - *Report on labor force structure*: Shows statistics for labor force structure of each department/division in the company at a time selected by the user. Statistics depends on employees' work history.
+  - *Report on labor utilization*: Shows labor utilization, changes in salary, number of labourers in a period.
+  - *Report on department changes*: Shows changes about personnel of a department/division in a period selected by the user.
+  - *Report on contract changes*: Shows employees of a department/division whose contracts have changed in the period selected by the user.
+  - *Report on changes in the number of staff*: Show changes in the number of staff of a department/division in a period selected by the user.

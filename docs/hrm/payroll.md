@@ -1,135 +1,134 @@
-# Quản lý Tính lương
+# Managing Payroll
 
-## **Mô tả nghiệp vụ**
+## **Process description**
 
-**Quy trình tổng quan** 
+**Process overview**
 
-- Nhân viên phụ trách tính lương thực hiện nhập các dữ liệu đầu vào cấu thành bảng lương như: dữ liệu chấm công nhật, dữ liệu tính công làm thêm, công theo ca, các khoản phụ cấp, các khoản khấu trừ,...Bên cạnh đó, nhân viên phụ trách cần tạo các thông số mặc định liên quan đến bảng lương như: Lương chức danh, lương bảo hiểm, thuế TNCN, người phụ thuộc, ... ở trong phân hệ Quản lý Nhân viên
-- Nhân viên tính lương xây dựng dữ liệu phần tử lương, cấu trúc lương áp dụng cho toàn công ty hoặc áp dụng cho từng bộ phận nhân viên của công ty. Mỗi cấu trúc lương thì bao gồm các thành phần (phần tử) lương khác nhau, phụ thuộc vào từng vị trí công việc.
-- Hàng tháng, nhân viên tính lương tạo bảng lương (áp dụng cho toàn bộ công ty hoặc từng bộ phận nhân viên của công ty). Bảng lương là thang bảng được lập ra để tập hợp và phân bổ tiền lương thực tế phải trả gồm tiền lương, tiền công, tiền thưởng, các loại phụ cấp và các khoản bảo hiểm.
-- Nhân viên tính lương thực hiện gửi bảng lương cho các nhân viên khác để họ xác nhận và phản hồi. Sau đó, nhân viên tính lương thực hiện gửi bảng lương đã được xác nhận đến bộ phận kế toán để thực hiện chi trả lương cho nhân sự công ty.
+- A payroll assistant will need to input data for a payslip batch, which includes: daily attendance data, overtime attendance data, shift attendances, allowances, deductions, ... In addition, a HR assistant needs to create default parameters for pay calculation such as position pay scale, base salary, PIT information, dependents, ... in the **Employees** module
+- Afterwards, the payroll assistant needs to create pay structures for the whole company or for a certain department/division in the company. Each pay structure consists of many different pay components, depending on job positions.
+- Every month, the payroll assistant creates a payslip batch for the whole company or for a certain department/division in the company. A payslip batch consists of all employee payslips in a certain period, with detailed information such as salary, wages, bonuses, allowances and insurances.
+- Finally, payslips will be sent to every employee for review and confirmation. After being approved, the payslip batch will be sent to the accounting department to make payments.
 
-**Luồng quy trình**
+**Process flows**
 
-- Quy trình tạo dữ liệu đầu vào.
-- Quy trình tạo cấu trúc lương. 
-- Quy trình tạo bảng lương.
+- Creating input data.
+- Creating pay structures.
+- Creating payroll sheets.
 
-## Tạo dữ liệu lương
+## Creating data for pay calculation
 
-Để lập được bảng lương, nhân viên phụ trách cần tạo dữ liệu tính lương trước, các dữ liệu này bao gồm dữ liệu đầu vào và thông số mặc định.
+In order to create payroll sheets, a payroll assistant needs to create data for pay calculation, which includes attendance data and default parameters of an employee.
 
-**Đối tượng thực hiện:** Nhân viên phụ trách tính lương.
+**User:** Payroll assistant.
 
-### Tạo thông số mặc định
+### Creating default parameters
 
-Các thông số mặc định của một nhân viên bao gồm: Lương chức danh, lương bảo hiểm, người phụ thuộc. Những thông tin này đã được khai báo tại Hồ sơ nhân viên trước đó, nếu chưa được bổ sung, nhân viên phụ trách vào phân hệ Nhân viên để bổ sung đầy đủ thông số. Quy trình nghiệp vụ, xem tại đây.
+Default parameters of an employee consist of: Position pay scale, base salary, dependents. These parameters should already be created in the employee records, if otherwise, a HR assistant will need to update all of them for the employee records in the **Employees** module.
 
-### Tạo dữ liệu chấm công đầu vào
+### Creating attendance data
 
-Các dữ liệu về chấm công sẽ được lấy từ phân hệ Chấm công (quy trình nghiệp vụ xem tại đây), bao gồm các loại công như sau:
+Attendance data will be collected from **Attendances** module, including the following attendance types:
 
-- Công tiêu chuẩn: Số ngày công tiêu chuẩn đi làm trong tháng
-- Công đi làm: Số ngày công đi làm thực tế trên công ty
-- Công làm online: Số ngày công đi làm online đã được ghi nhận
-- Công tăng ca: Số ngày công tăng ca đã được phê duyệt
-- Công tăng ca đêm: Số ngày công làm tăng ca đêm
-- Công tăng ca lễ: Số ngày công làm tăng ca ngày lễ
-- Công công tác: Số ngày công đi công tác
-- Công nghỉ dưỡng: Số ngày công nghỉ dưỡng
-- Công nghỉ không lương: Số ngày công nghỉ không lương
-- Công nghỉ lễ: Số ngày công nghỉ lễ
-- Công nghỉ ốm: Số ngày công nghỉ ốm
-- Công nghỉ phép: Số ngày công nghỉ phép
-- Công nghỉ tai nạ: Số ngày công nghỉ tai nạn
-- Công nghỉ thai sản: Số ngày công nghỉ thai sản
-- Công nghỉ việc riêng hưởng lương: Số ngày công nghỉ việc riêng hưởng lương
+- Standard working days
+- Actual working days
+- Online working days
+- Overtime
+- Overtime at night
+- Overtime on holidays
+- Business travel
+- Vacation leaves
+- Unpaid leaves
+- Holidays
+- Sick leaves
+- Annual paid leaves
+- Accident leaves
+- Maternity leaves
+- Personal paid leaves
 
-## Tạo cấu trúc tính lương
+## Creating pay structures
 
-**Đối tượng thực hiện:** Nhân viên phụ trách tính lương.
+**User:** Payroll assistant.
 
-**Các bước thực hiện:***
+**Procedure:**
 
-**Bước 1:** Người dùng truy cập vào hệ thống, chọn phân hệ **Tính lương > Cấu hình > Cấu trúc lương**
+**Step 1:** Log in to the system, select **Payroll > Configuration > Salary Structures**
 
 ![image-20211014164832610](images/image-20211014164832610.png)
 
-**Bước 2**: Người dùng thực hiện nhập các thông tin chung về cấu trúc lương
+**Step 2**: Enter general information for the pay structure
 
-- Tên: Tên cấu trúc lương
+- Name: A name for the pay structure
 
-- Mã: Mã cấu trúc lương
+- Reference: A code to refer to the pay structure
 
-  Tại bảng phần tử lương, người dùng thực hiện khai báo các phần tử cấu thành nên cấu trúc lương, dựa trên công thức tính lương của công ty và sử dụng các từ khóa tham số ở bảng bên cạnh
+  In the pay component table, the payroll assistant can form a pay structure based on the company's payroll formula by declaring components using parameters from the list of keywords
 
   ![image-20211014165136930](images/image-20211014165136930.png)
 
-    - Cột tên: nhập tên phần tử lương sao cho dễ gợi nhớ
-    - Cột mã: nhập mã tương ứng với mỗi phần tử, sao cho các phần tử không bị lặp lại mã, và đảm bảo tính chất dễ hiểu, dễ ghi nhớ trong quá trình tạo phần tử và tạo công thức
-    - Cột mã Python: là cột lưu giá trị của phần tử lương, hệ thống cung cấp các hàm tính toán đảm bảo việc tính lương bao gồm: 
-      + Các phép tính toán: cộng, trừ, nhân, chia
-      + Round
-      + If
-      + ......
-  - Nút mũi tên 4 chiều: dùng để di chuyển các phần tử lương sao cho đảm bảo các phần tử thỏa mãn điều kiện: Phần tử sau là kết quả phép tính của các phần tử trước.
+  - Salary Rule Sub: Enter a memorable name for the pay component
+  - Code: Enter a unique and memorable code for each component
+  - Python Code: Enter a formula to calculate the respective pay component. vESS system provides the following operations:
+    - Basic operations: Addition, subtraction, multiplication, division
+    - Round
+    - If
+    - ...
+  - 4-way arrow button: Hold and drag this button to move components up or down so that any component must be able to be calculated from its preceding components.
 
-## Tạo bảng lương
+## Creating payroll sheets
 
-**Đối tượng thực hiện:** Nhân viên phụ trách tính lương.
+**User:** Payroll assistant.
 
-Nhân viên phụ trách tính lương tạo xong các dữ liệu tính lương cho nhân sự công ty, thì mới có thể tạo được bảng lương hàng tháng dựa trên các dữ liệu đã tạo.
+The payroll assistant needs to complete creating all data for pay calculation before creating monthly payroll sheets.
 
-**Các bước thực hiện:** 
+**Procedure:**
 
-**Bước 1:** Người dùng truy cập vào hệ thống, chọn phân hệ **Tính lương > Bảng lương > Tạo**
+**Step 1:** Log in to the system, select **Payroll > Payslips Batches > Create**
 
 ![image-20211014170930220](images/image-20211014170930220.png)
 
-- Tên: Nhập tên bảng lương cần tạo.
-- Chu kỳ: Chọn thời gian để thực hiện tính toán. 
-- Cấu trúc lương: Chọn một cấu trúc lương đã cấu hình sẵn.
+- Name: Enter a name for the payroll sheet.
+- Period: Select a timeframe to calculate pay.
+- Pay Structure: Select a configured pay structure.
 
-**Bước 2:** Chọn **Tạo phiếu lương**, lúc này sẽ mở ra một cửa sổ chọn nhân viên.
+**Step 2:** Select **Generate Payslips**, a dialog for employee selection will appear.
 
 ![image-20211014171332214](images/image-20211014171332214.png)
 
-- Nếu chọn 1 hoặc 1 nhóm nhân viên thì thực hiện tích chọn vào các ô đầu dòng, hệ thống sẽ chỉ tạo phiếu lương cho các nhóm nhân viên này
+- Check the box on the left of each row to select a certain employee
 
   ![image-20211014171455844](images/image-20211014171455844.png)
 
-- Sau đó click **Chọn**
+- Click **Select**
 
-- Nếu chọn toàn bộ nhân viên thì thực hiện chọn vào ô trống trên cùng, hệ thống sẽ thực hiện tạo phiếu lương cho toàn bộ nhân viên
+- Check the topmost box to select all employees
 
-- Sau đó click **Tạo**
+- Click **Create**
 
   ![image-20211014171539825](images/image-20211014171539825.png)
 
-- Hệ thống sẽ hiển thị các phiếu lương của các nhân viên đã chọn 
+- A list of payslips of the selected employees will be displayed
 
   ![image-20211014171911461](images/image-20211014171911461.png)
 
-- Người dùng thực hiện chọn **Tính toán phiếu lương**, khi chọn vào 1 phiếu lương, hệ thống hiển thị phiếu lương chi tiết của nhân viên, lúc này phiếu lương ở trạng thái **Nháp**.
+- Select **Compute Sheet**, a list of computed payslips with status **Draft** will be displayed. Click a payslip to view details of it.
 
   ![image-20211014172147376](images/image-20211014172147376.png)
 
-**Bước 3:** Người dùng có thể thực hiện Nhập/xuất dữ liệu đầu vào của phiếu lương, dữ liệu đầu vào có thể là lương doanh số, thưởng sinh nhật,...Người dùng chọn **Nhập/xuất dữ liệu đầu vào của phiếu lương>Xuất mẫu**
+**Step 3:** The payroll assistant can import/export data of a payslip, which can include sales commission, birthday bonus, ...
+Select **Import/Export payslip inputs>Export template**
 
-​	Người dùng thực hiện nhập dữ liệu vào file biểu mẫu, thực hiện Tải tệp đã nhập lên, chọn **Nhập tệp**, dữ liệu được import sẽ được chuyển vào **Chi tiết phiếu lương>Bảng Dữ liệu nhập ngoài khác**.
+The payroll assistant should input data into the template and upload it by selecting **Import file**, the data will be imported into **Payslip Details>Other Inputs**.
 
 ![image-20211014174821516](images/image-20211014174821516.png)
 
-**Bước 4**: Người dùng chuyển sang tab **Phiếu lương nhân viên** ở đây hiển thị các phiếu lương mà đã thực hiện gửi các phiếu lương cho nhân viên để thực hiện kiểm tra lại thông tin lương trước khi **Duyệt**.
+**Step 4**: Switch to **Employee Payslips** tab to review all employee payslips before clicking **Approve**.
 
 ![image-20211014175250986](images/image-20211014175250986.png)
 
-**Bước 5:** Nếu có phản ảnh về thông tin lương, người dùng vào **Phiếu lương nhân viên > Thực hiện chọn phiếu lương được phản ánh > Sửa**
+**Step 5:** Should there be any complaint from employees about payslips, select **Employee Payslips** > Select payslips mentioned in employee complaints > **Edit**
 
-​	Nếu không có phản ánh nào, người dùng vào **Bảng lương > Chọn bảng lương > Chọn Duyệt**
+If otherwise, select **Payslips Batches** > Select a payslip batch > Click **Approve**
 
-​	Bảng lương sau khi duyệt sẽ được công ty thực hiện chi trả lương cho nhân viên.
+Employees will be paid according to their respective payslips after the payslip batch is approved.
 
 ![image-20211014175649118](images/image-20211014175649118.png)
-
-​	
