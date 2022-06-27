@@ -65,14 +65,14 @@ Attendance data will be collected from **Attendances** module, including the fol
 
   ![image-20211014165136930](images/image-20211014165136930.png)
 
-  - Salary Rule Sub: Enter a memorable name for the pay component
-  - Code: Enter a unique and memorable code for each component
-  - Python Code: Enter a formula to calculate the respective pay component. vESS system provides the following operations:
-    - Basic operations: Addition, subtraction, multiplication, division
-    - Round
-    - If
-    - ...
-  - 4-way arrow button: Hold and drag this button to move components up or down so that any component must be able to be calculated from its preceding components.
+    - Salary Rule Sub: Enter a memorable name for the pay component
+    - Code: Enter a unique and memorable code for each component
+    - Python Code: Enter a formula to calculate the respective pay component. vESS system provides the following operations:
+        - Basic operations: Addition, subtraction, multiplication, division
+        - Round
+        - If
+        - ...
+    - 4-way arrow button: Hold and drag this button to move components up or down so that any component must be able to be calculated from its preceding components.
 
 ## Creating payroll sheets
 

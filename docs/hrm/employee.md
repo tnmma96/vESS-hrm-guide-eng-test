@@ -13,11 +13,11 @@
 
 ### Process flows
 
-- Recruiting. More details [here](../../saas/saas/#bat-dau-su-dung-he-thong-vess)
-- Creating accounts. More details [here](#tao-tai-khoan)
-- Creating employee records. More details [here](#them-moi-ho-so-nhan-vien).
-- Updating information in employee records. More details [here](#cap-nhat-ho-so-nhan-vien).
-- Exporting HR reports. More details [here](#xuat-cac-bao-cao-nhan-su)
+<!-- - Recruiting. More details [here](../../saas/saas/#bat-dau-su-dung-he-thong-vess) -->
+- Creating accounts. More details [here](#creating-accounts)
+- Creating employee records. More details [here](#creating-employee-records).
+- Updating information in employee records. More details [here](#updating-employee-records).
+- Exporting HR reports. More details [here](#exporting-hr-reports)
 
 ## Creating accounts
 
@@ -31,9 +31,9 @@
 
 - In **User types** select **Internal User**
 - In **Human Resources>Employees** select:
-  - **Officer:** If this account belongs to a HR assistant
-  - **Administrator:** If this account belongs to the HR manager or a member of the Board of Directors
-  - **Empty:** If this account belongs to a normal employee with no authorization in **Employee** module
+    - **Officer:** If this account belongs to a HR assistant
+    - **Administrator:** If this account belongs to the HR manager or a member of the Board of Directors
+    - **Empty:** If this account belongs to a normal employee with no authorization in **Employee** module
 
 **Note:** In order to be able to use **Employee** module, an account must be properly authorized depending on the employee's job postion.
 
@@ -56,23 +56,24 @@
 Enter information for an employee record:
 
 - Personal information such as:
-  - Full name
-  - Gender
-  - Date of birth
-  - Place of birth
-  - Place of origin
-  - Place of permanent residence
-  - National ID: date of issue, place of issue
-  - Marital status
-  - Ethnicity
-  - Religion
-  - Educational level
-  - ...
+    - Full name
+    - Gender
+    - Date of birth
+    - Place of birth
+    - Place of origin
+    - Place of permanent residence
+    - National ID: date of issue, place of issue
+    - Marital status
+    - Ethnicity
+    - Religion
+    - Educational level
+    - ...
+
 - Job information:
-  - Job position
-  - Department/division
-  - Line manager
-  - Login account
+    - Job position
+    - Department/division
+    - Line manager
+    - Login account
 
 ![image-20211004110010849](images/image-20211004110010849.png)
 
@@ -146,7 +147,7 @@ Select **Create Employee** to create a new employee record, enter information ab
 
 The employee will need to log in to the system with the account created by the HR assistant to update his/her record. Data in the record will be reviewed by the HR assistant and the employee still can make changes to his/her record in the future.
 
-[Return to **Step 2**](#Bước 2) to continue.
+[Return to **Step 2**](#step-2) to continue.
 
 ## Updating employee records
 
@@ -238,15 +239,15 @@ Throughout an employee's work history in the company, his/her record will have s
 ![image-20211012084809495](images/image-20211012084809495.png)
 
 - Experience: Experience before recruitment, degrees, certifications
-  - Type: Experience, education (degrees) and certifications
-  - Start date
-  - End date
+    - Type: Experience, education (degrees) and certifications
+    - Start date
+    - End date
   ![image-20211012092721317](images/image-20211012092721317.png)
 
 - Skills: Hard skills and soft skills
-  - Type: Categorized into types such as Music, Languages, Marketing, ...
-  - Skill: Particular skills in a type
-  - Level
+    - Type: Categorized into types such as Music, Languages, Marketing, ...
+    - Skill: Particular skills in a type
+    - Level
   ![image-20211012151320905](images/image-20211012151320905.png)
 
 ### Updating attendances
@@ -296,10 +297,10 @@ When an employee's contract is reaching its end date, the system will send notic
 **Step 2:**
 
 - The HR manager reviews contracts in **New** columns and approves by clicking **Approve** or declines by clicking **Cancel**.
-  - Approved contracts will be moved to **Approved** column.
+- Approved contracts will be moved to **Approved** column.
     - If the date of approval is the start date of the contract, the contract will be moved to **Running** column.
     - If the date of approval is prior to the start date of the contract, the contract will be moved to **Running** column on the start date.
-  - Declined contracts will be moved to **Cancelled** column.
+- Declined contracts will be moved to **Cancelled** column.
 
 #### Contract termination (Voluntary)
 
@@ -325,17 +326,17 @@ If an employee with an expiring contract or an employee with an indefinite contr
 
 - **Procedure:**
 
-  - Select **Employees** > **Report** > The following screen will be displayed
+    - Select **Employees** > **Report** > The following screen will be displayed
 
-  ![image-20211209161442701](images/image-20211209161442701.png)
+    ![image-20211209161442701](images/image-20211209161442701.png)
 
-  - Select a report > Apply filter > Click **Preview** to preview the report or click **Export** to download the report file. Below is an example of a report on the company's labor force structure.
+    - Select a report > Apply filter > Click **Preview** to preview the report or click **Export** to download the report file. Below is an example of a report on the company's labor force structure.
 
-  ![image-20211209161648833](images/image-20211209161648833.png)
+    ![image-20211209161648833](images/image-20211209161648833.png)
 
 - **Details of reports:**
-  - *Report on labor force structure*: Shows statistics for labor force structure of each department/division in the company at a time selected by the user. Statistics depends on employees' work history.
-  - *Report on labor utilization*: Shows labor utilization, changes in salary, number of labourers in a period.
-  - *Report on department changes*: Shows changes about personnel of a department/division in a period selected by the user.
-  - *Report on contract changes*: Shows employees of a department/division whose contracts have changed in the period selected by the user.
-  - *Report on changes in the number of staff*: Show changes in the number of staff of a department/division in a period selected by the user.
+    - *Report on labor force structure:* Shows statistics for labor force structure of each department/division in the company at a time selected by the user. Statistics depends on employees' work history.
+    - *Report on labor utilization:* Shows labor utilization, changes in salary, number of labourers in a period.
+    - *Report on department changes:* Shows changes about personnel of a department/division in a period selected by the user.
+    - *Report on contract changes:* Shows employees of a department/division whose contracts have changed in the period selected by the user.
+    - *Report on changes in the number of staff:* Show changes in the number of staff of a department/division in a period selected by the user.

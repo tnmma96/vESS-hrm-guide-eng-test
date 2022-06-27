@@ -26,8 +26,8 @@ The HRM module includes the following submodules:
 
 ![Phân rã chức năng](images/Phân rã chức năng.jpg)
 
-- [Employee records](../../hrm/employee/#quan-ly-ho-so-nhan-vien)
-  - [Managing employee records](../../hrm/employee/#them-moi-ho-so-nhan-vien)
+- [Employee records](../../hrm/employee/#managing-employee-records)
+- [Managing employee records](../../hrm/employee/#creating-employee-records)
     - Creating employee records
     - Updating employee information
     - Updating family information & dependents
@@ -36,12 +36,5 @@ The HRM module includes the following submodules:
     - History of position pay scale & base salary
     - Work history, business travel, long leaves, sick leaves, accident leaves, ...
     - Reports
-  - [Contracts & Contract alerts](../../hrm/employee/#cap-nhat-hop-ong-qua-trinh-lam-viec-cua-nhan-vien)
-- [Attendances & time management](../../hrm/attendance/#gioi-thieu-chuc-nang-cham-cong-ang-ky-cong)
-- [Managing recruitment](../../hrm/recruitment/#quan-ly-tuyen-dung)
-  - [Creating vacant positions](../../hrm/recruitment/#tao-vi-tri-cong-viec-co-nhu-cau-tuyen-dung)
-  - [Creating job postings](../../hrm/recruitment/#ang-tin-tuyen-dung-tren-website)
-  - [Creating candidate profiles](../../hrm/recruitment/#tao-moi-ho-so-ung-vien)
-  - [Scheduling an interview](../../hrm/recruitment/#them-moi-lich-phong-van)
-  - [Interviewing & assessing candidates](../../hrm/recruitment/#anh-gia-ung-vien-trong-buoi-phong-van)
-  - [Creating new employees](../../hrm/recruitment/#ky-hop-ong-va-tao-thong-tin-nhan-vien)
+- [Contracts & Contract alerts](../../hrm/employee/#updating-contracts-and-work-history)
+- [Timekeeping & Attendance records](../../hrm/attendance/#managing-timekeeping-and-attendance-records)
